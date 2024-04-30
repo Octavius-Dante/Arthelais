@@ -26,8 +26,8 @@ https://www.guru99.com/system-monitoring-performance-checks.html
 
 ai : 
 
-
-NEED TO HAVE AUTHROIZATION TO -- CREATE INSTANCE SAP BUIDL APPS - CONTINUE THIS EXERCISE TO COMPLETE THE TASK
+PRE-REQ FOR SAP BUILD APPS 
+NEED TO HAVE AUTHROIZATION TO -- CREATE INSTANCE SAP BUILD APPS - CONTINUE THIS EXERCISE TO COMPLETE THE TASK
 https://learning.sap.com/learning-journeys/Setting-Up-SAP-Build-Work-Zone-standard-edition-and-SAP-Mobile-Start-with-SAP-S-4HANA/setting-up-identity-authentication-with-subaccount_d41164a3-d42b-4b20-85ee-e6f747927521
 
 https://www.youtube.com/watch?v=EpuVqWDT2hw&ab_channel=SAPDevelopers
