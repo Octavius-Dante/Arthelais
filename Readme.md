@@ -46,7 +46,6 @@ search in developers blog section
 https://developers.sap.com/tutorial-navigator.html?search=SAP+build+app
 
 
-1 > https://developers.sap.com/mission.appgyver-low-code.html
-2 > https://developers.sap.com/tutorials/build-apps-workflow-check-status.html -(https://developers.sap.com/mission.build-workshop-sales-order.html)
-3 > https://developers.sap.com/mission.build-workshop-sales-order.html - 
-(https://developers.sap.com/group.sap-build-apps-process-trigger.html)
+1. https://developers.sap.com/mission.appgyver-low-code.html
+2. https://developers.sap.com/tutorials/build-apps-workflow-check-status.html -(https://developers.sap.com/mission.build-workshop-sales-order.html)
+3. https://developers.sap.com/mission.build-workshop-sales-order.html - (https://developers.sap.com/group.sap-build-apps-process-trigger.html)
