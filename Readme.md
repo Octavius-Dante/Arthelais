@@ -33,3 +33,8 @@ https://learning.sap.com/learning-journeys/Setting-Up-SAP-Build-Work-Zone-standa
 https://www.youtube.com/watch?v=EpuVqWDT2hw&ab_channel=SAPDevelopers
 
 https://developers.sap.com/mission.sap-build-code-test-drive.html
+
+
+RAP : 
+
+https://developers.sap.com/mission.sap-fiori-abap-rap100.html
