@@ -368,7 +368,7 @@ line break tag in html
 
 </br></br>
 
-**index.html** sample # 9 - other types of input fields - setting limits
+**index.html** sample # 9 - other types of input fields - setting limits and form submit 
 </br></br>
 
 ```html
