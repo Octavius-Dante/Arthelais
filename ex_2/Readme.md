@@ -7,7 +7,7 @@ In this session we discuss about request and responses from web pages to server 
 Requests which can be sent to server to perform an action or retrieve data **Request has header and body**
 </br></br>
 
-Response has header and body and it could be of any data type **(html, xml, json, excel, pdf, word..etc)**
+Response is a reply from server for a request from client it has header and body and it could be of any data type **(html, xml, json, excel, pdf, word..etc)**
 
 </br>
 
