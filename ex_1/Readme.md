@@ -362,7 +362,7 @@ line break tag in html
 <details>
 <summary> Login sample preview </summary>
 </br>
-<img src="./files/ui5e_1-10.png" >
+<img src="./files/ui5e_1-11.png" >
 </br>
 </details>
 
