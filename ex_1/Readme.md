@@ -405,6 +405,10 @@ line break tag in html
 
 <label>Numbers</label>
 <input type="number"><br><br>
+
+<label>Number with limit min 10 and max 100</label>
+<input type="number" min="10" max="15"><br><br>
+
 <input type="file"><br>
 
 </body>
@@ -418,6 +422,7 @@ line break tag in html
 <summary> Login sample preview </summary>
 </br>
 <img src="./files/ui5e_1-12.png" >
+<img src="./files/ui5e_1-13.png" >
 </br>
 </details>
 
