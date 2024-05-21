@@ -7,7 +7,7 @@ In this session we write a simple html page with basic html tag skeleton element
 Basic HTML page with some image - in BAS or VSCode install - live preview extension to see the page 
 
 <details>
-<summary> Live preview extension isntall </summary>
+<summary> Live preview extension install </summary>
 </br>
 </br>
 
