@@ -50,10 +50,7 @@
 </br></br>
 
 
-## End of Ui5 developments
-
-
-
+## End of Ui5 developments - Other links for further learning
 
 <!-->
 
@@ -67,7 +64,7 @@ https://developers.sap.com/tutorial-navigator.html?tag=programming-tool%3Asapui5
 
 https://community.sap.com/t5/technology-blogs-by-members/deploy-the-ui5-fiori-app-on-sap-abap-repository-with-bas-webide-create/ba-p/13556327
 
-https://developers.sap.com/tutorials/gateway-demo-signup.html
+https://developers.sap.com/tutorials/gateway-demo-signup.html  -->
 
 <!--
 
