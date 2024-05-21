@@ -446,8 +446,7 @@ line break tag in html
 ## End of Exercise 1 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_2"> Exercise 2-HTML5 </a>
 
 </br></br>
-
-<a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a>
+<centre> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </centre>
 
 
 <!--
