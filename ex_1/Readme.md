@@ -368,7 +368,7 @@ line break tag in html
 
 </br></br>
 
-**index.html** sample # 9 - other types of input fields
+**index.html** sample # 9 - other types of input fields - setting limits
 </br></br>
 
 ```html
@@ -423,6 +423,7 @@ line break tag in html
 </br>
 <img src="./files/ui5e_1-12.png" >
 <img src="./files/ui5e_1-13.png" >
+<img src="./files/ui5e_1-14.png" >
 </br>
 </details>
 
