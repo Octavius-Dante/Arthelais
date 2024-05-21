@@ -139,7 +139,7 @@ Developer tools in browser preview
         <b><em>
                 Hyper Text Markup Language
             </em>
-        </b>, it is used for designign static web content
+        </b>, it is used for designing static web content
 
     </p>
 
