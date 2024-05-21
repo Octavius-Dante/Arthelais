@@ -358,6 +358,14 @@ line break tag in html
 
 ```
 
+</br>
+<details>
+<summary> Login sample preview </summary>
+</br>
+<img src="./files/ui5e_1-10.png" >
+</br>
+</details>
+
 </br></br>
 
 </br></br>
