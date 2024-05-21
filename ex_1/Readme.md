@@ -139,6 +139,12 @@ Basic HTML page with some image - in BAS or VSCode install - live preview extens
 
 ```
 
+</br></br>
+
+<details>
+<summary> DOM view in browsers </summary>
+</br>
+
 It is a tree data structure so all the elements can be insulated inside a tree as shown below 
 </br></br>
 <img src="./files/ui5e_1-5.png" >
@@ -149,6 +155,9 @@ It is a tree data structure so all the elements can be insulated inside a tree a
 Developer tools in browser preview
 
 <img src="./files/ui5e_1-6.png" >
+
+</details>
+</br></br>
 
 </br></br>
 
@@ -203,7 +212,15 @@ JS stands for Java Script, it is teh browser's programming lanaguage
 
 ```
 </br></br>
+
+<details>
+<summary> Test view of multi paragarphs </summary>
+</br>
+</br>
 <img src="./files/ui5e_1-7.png" >
+</br>
+</details>
+</br></br>
 
 </br></br>
 
