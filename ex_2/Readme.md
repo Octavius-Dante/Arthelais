@@ -31,7 +31,7 @@ Response is a reply from server for a request from client it has header and body
 </br>
 
 <details>
-<summary> Defining form with Submit action </summary>
+<summary> Defining form with Submit action login </summary>
 </br>
 </br>
 
@@ -69,11 +69,44 @@ testing it
 
 <img src="./files/ui5e_2-1.png" >
 <img src="./files/ui5e_2-2.png" >
-<img src="./files/ui5e_2-3.png" >
-
 </br>
 </br>
 </details>
+
+<details>
+<summary> Submit button auto validation for a field type </summary>
+</br>
+</br>
+
+```html
+
+<html>
+<head>
+    <script>
+    </script>
+</head>
+<body>
+
+    <!-- Form with action definition-->
+    <form method="get" action="https://www.gmail.com">
+
+    <label>Number with limit min 10 and max 100</label>
+    <input type="number" min="10" max="15"><br><br>
+
+        <!-- auto validation for number field type demo-->
+        <input type="submit"><br>
+    </form>
+
+</body>
+</html>
+
+```
+
+<img src="./files/ui5e_2-3.png" >
+</br>
+</br>
+</details>
+
 
 </br></br>
 </br></br>
