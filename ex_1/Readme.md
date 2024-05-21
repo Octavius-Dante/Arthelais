@@ -321,7 +321,12 @@ line break tag in html
 </html>
 
 ```
-
+<details>
+<summary> List preview </summary>
+</br>
+<img src="./files/ui5e_1-10.png" >
+</br>
+</details>
 
 </br></br>
 </br></br>
