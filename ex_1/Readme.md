@@ -264,8 +264,7 @@ line break tag in html
 ```
 </br></br>
 
-adding webpage link to image 
-
+**index.html** sample # 6 - adding webpage link to image 
 </br></br>
 
 ```html
