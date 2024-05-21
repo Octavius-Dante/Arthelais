@@ -98,7 +98,7 @@ Basic HTML page with some image - in BAS or VSCode install - live preview extens
 </br></br>
 </br></br>
 
-## End of Exercise 1 -- <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_2"> Exercise 2-HTML5 </a>
+## End of Exercise 1 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_2"> Exercise 2-HTML5 </a>
 
 
 
