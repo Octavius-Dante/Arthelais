@@ -28,7 +28,7 @@ Response is a reply from server for a request from client it has header and body
 3. Using AJAX Call
 4. Some framework
 
-</br></br>
+</br>
 
 <details>
 <summary> Defining form with Submit action </summary>
