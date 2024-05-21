@@ -93,6 +93,9 @@ testing it
     <label>Number with limit min 10 and max 100</label>
     <input type="number" min="10" max="15"><br><br>
 
+        <label>Email</label>
+        <input type="email"><br><br>
+
         <!-- auto validation for number field type demo-->
         <input type="submit"><br>
     </form>
@@ -103,6 +106,7 @@ testing it
 ```
 
 <img src="./files/ui5e_2-3.png" >
+<img src="./files/ui5e_2-4.png" >
 </br>
 </br>
 </details>
