@@ -299,6 +299,10 @@ JS stands for Java Script, it is teh browser's programming lanaguage
 <summary> page preview with reduced image size </summary>
 </br>
 </br>
+
+original image link https://1000logos.net/wp-content/uploads/2023/07/SAP-Logo.png
+
+</br>
 <img src="./files/ui5e_1-9.png" >
 </br>
 </details>
