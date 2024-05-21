@@ -213,13 +213,12 @@ JS stands for Java Script, it is teh browser's programming lanaguage
 </br></br>
 
 <details>
-<summary> Test view of multi paragarphs </summary>
+<summary> Test view of multi paragraphs </summary>
 </br>
 </br>
 <img src="./files/ui5e_1-7.png" >
 </br>
 </details>
-</br></br>
 
 </br></br>
 
