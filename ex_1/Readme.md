@@ -322,7 +322,7 @@ line break tag in html
 
 ```
 
-</br></br>
+</br>
 
 <details>
 <summary> List preview </summary>
@@ -331,6 +331,34 @@ line break tag in html
 </br>
 </details>
 
+**index.html** sample # 8 - login page input fields sample.
+</br></br>
+
+```html
+
+<html>
+<head>
+    <script>
+
+    </script>
+</head>
+<body>
+
+<br>
+<label>User Name</label>
+<input>
+<br><br>
+<label>Password</label>
+<input type="password">
+<br>
+
+</body>
+
+</html>
+
+```
+
+</br></br>
 
 </br></br>
 </br></br>
