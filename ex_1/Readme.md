@@ -103,6 +103,10 @@ It is a tree data structure so all the elements can be insulated inside a tree a
 - This tree rendered can be viewed in browsers using  **(F12)** key to see developer tools 
 - This tree data structure is called **DOM (Document object model)**
 
+Developer tools in browser preview
+
+<img src="./files/ui5e_1-6.png" >
+
 </br></br>
 
 ```html
