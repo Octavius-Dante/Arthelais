@@ -52,7 +52,7 @@
 
 ## End of Ui5 developments - Other links for further learning
 
-<!-->
+<!--
 
 https://developers.sap.com/tutorials/appstudio-fioriapps-create.html
 
