@@ -56,6 +56,23 @@ Pre-requisite VSCode or BAS should be installed and active.
 
 ## End of Ui5 developments - Other links for further learning
 
+
+<!--
+
+<details>
+<summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
+</br>
+</br>
+
+</br>
+</br>
+<img src="./files/capmd12-96a.png" >
+</br>
+</br>
+</details>
+
+-->
+
 <!--
 
 https://developers.sap.com/tutorials/appstudio-fioriapps-create.html

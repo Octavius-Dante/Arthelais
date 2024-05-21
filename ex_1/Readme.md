@@ -4,9 +4,43 @@ In this session we write a simple html page with basic html tag skeleton element
 
 </br></br>
 
+Basic HTML page with some image - in BAS or VSCode install - live preview extension to see the page 
+
+<details>
+<summary> Live preview extension isntall </summary>
+</br>
+</br>
+
+</br>
+</br>
+<img src="./files/ui5e_1-1.png" >
+<img src="./files/ui5e_1-2.png" >
+<img src="./files/ui5e_1-3.png" >
+</br>
+</br>
+</details>
+
+</br></br>
+
 ```html
 
+<html>
+<head>
+    <script>
 
+    </script>
+</head>
+<body>
+<h1>Dante Ui5 training demo</h1>
+<p> welcome to BAS </p>
+<button>Click Me!</button>
+
+</br></br>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg">
+
+</body>
+</html>
 
 ```
 
@@ -16,3 +50,21 @@ In this session we write a simple html page with basic html tag skeleton element
 ## End of Exercise -- Next Exercise 2 
 
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_2"> Exercise 2-HTML5</a>
+
+
+
+<!--
+
+<details>
+<summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
+</br>
+</br>
+
+</br>
+</br>
+<img src="./files/capmd12-96a.png" >
+</br>
+</br>
+</details>
+
+-->
