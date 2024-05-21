@@ -203,7 +203,7 @@ CSS stands for Cascading Style Sheets, It is used to style / beautify our conten
 
 <h2>What is JS</h2>
 <p> 
-JS stands for Java Script, it is teh browser's programming lanaguage
+JS stands for Java Script, it is the browser's programming lanaguage
 </p>
 
 </body>
