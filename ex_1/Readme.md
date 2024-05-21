@@ -96,7 +96,7 @@ Basic HTML page with some image - in BAS or VSCode install - live preview extens
 
 </br></br>
 
-**index.html** sample # 3 - emphasize and show tree structures
+**index.html** sample # 3 - emphasize and show tree structures DOM
 </br></br>
 
 ```html
@@ -159,7 +159,6 @@ Developer tools in browser preview
 </details>
 </br></br>
 
-</br></br>
 
 **index.html** sample # 4 - Multi paragraph sample
 </br></br>
