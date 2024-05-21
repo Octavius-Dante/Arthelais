@@ -224,10 +224,72 @@ JS stands for Java Script, it is the browser's programming lanaguage
 
 Organize things inside folder it's a good practice for view things in segregated manner 
 
+- adding the image to local folder and forcing its appearance size inside the html page
+
 </br></br>
 
+<details>
+<summary> Keep the image in local folder</summary>
+</br>
+<img src="./files/ui5e_1-8.png" >
+</br>
+</details>
+
+</br></br>
+
+**index.html** sample # 5 - Image size edit
+</br></br>
 
 ```html
+
+<html>
+<head>
+    <script>
+
+    </script>
+</head>
+<body>
+<!-- <h1>Dante Ui5 training demo</h1>
+<p> welcome to BAS </p>
+<button>Click Me!</button>
+
+</br></br>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg"> -->
+
+<!-- <h1>What is HTML</h1> -->
+<h2>What is HTML</h2>
+<!-- <h3>What is HTML</h3>
+<h4>What is HTML</h4>
+<h5>What is HTML</h5>
+<h6>What is HTML</h6> -->
+
+<p> HTML stands for
+    <b><em>
+        Hyper Text Markup Language
+    </em>
+</b>, it is used for designign static web content
+
+</p>
+
+
+<h2>What is CSS</h2>
+<p> 
+CSS stands for Cascading Style Sheets, It is used to style / beautify our content
+</p>
+
+<h2>What is JS</h2>
+<p> 
+JS stands for Java Script, it is teh browser's programming lanaguage
+</p>
+
+<a href="https://sap.com"> Go to sap website </a>
+</br> </br> 
+<img src="images/SAP-Logo.png" width="500px" height="300px">
+
+</body>
+</html>
+
 
 ````
 
