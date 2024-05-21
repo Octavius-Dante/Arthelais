@@ -19,7 +19,7 @@ Basic HTML page with some image - in BAS or VSCode install - live preview extens
 </br>
 </br>
 </details>
-
+</br></br>
 
 **index.html** sample # 1
 </br></br>
