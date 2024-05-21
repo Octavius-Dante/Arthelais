@@ -21,7 +21,7 @@ Basic HTML page with some image - in BAS or VSCode install - live preview extens
 </details>
 </br></br>
 
-**index.html** sample # 1
+**index.html** sample # 1 - basic page
 </br></br>
 
 ```html
@@ -48,6 +48,52 @@ Basic HTML page with some image - in BAS or VSCode install - live preview extens
 
 </br></br>
 
+
+**index.html** sample # 2 - heading tags test
+</br></br>
+<details>
+
+<summary> headings test view </summary>
+</br>
+</br>
+
+</br>
+</br>
+<img src="./files/ui5e_1-4.png" >
+</br>
+</br>
+</details>
+</br></br>
+</br></br>
+
+```html
+
+<html>
+<head>
+    <script>
+
+    </script>
+</head>
+<body>
+<!-- <h1>Dante Ui5 training demo</h1>
+<p> welcome to BAS </p>
+<button>Click Me!</button>
+
+</br></br>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg"> -->
+
+<h1>What is HTML</h1>
+<h2>What is HTML</h2>
+<h3>What is HTML</h3>
+<h4>What is HTML</h4>
+<h5>What is HTML</h5>
+<h6>What is HTML</h6>
+
+</body>
+</html>
+
+```
 
 ## End of Exercise -- Next Exercise 2 
 
