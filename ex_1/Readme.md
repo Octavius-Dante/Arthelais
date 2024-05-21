@@ -299,7 +299,7 @@ JS stands for Java Script, it is teh browser's programming lanaguage
 <summary> page preview with image size </summary>
 </br>
 </br>
-<img src="./files/ui5e_1-7.png" >
+<img src="./files/ui5e_1-9.png" >
 </br>
 </details>
 </br></br>
