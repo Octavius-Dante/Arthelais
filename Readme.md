@@ -1,6 +1,10 @@
-## Ui / Ux :
+## SAP Ui / Ux : 
 
 **Ui5 developments Basic foundation**
+
+</br></br>
+
+Pre-requisite VSCode or BAS should be installed and active.
 
 </br></br>
 
