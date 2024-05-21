@@ -389,13 +389,6 @@ line break tag in html
 <input type="password">
 <br><br>
 
-<br>
-<label>User Name</label>
-<input>
-<br><br>
-<label>Password</label>
-<input type="password">
-
 <br><br>
 <input type="color"><br>
 <input type="date"><br><br>
@@ -410,6 +403,23 @@ line break tag in html
 <input type="number" min="10" max="15"><br><br>
 
 <input type="file"><br>
+
+
+<!-- Form with action definition-->
+<form method="GET" action="https://www.gmail.com">
+
+    <label>User Name</label>
+    <input id="idUser" name="usr">
+    
+    <br><br>
+    
+    <label>Password</label>
+    <input id="idPass" name="pass" type="password">
+    
+    <br><br>
+    <!-- this SUBMIT button will take the values mentioend with type name for input fields-->
+    <input type="submit"><br>
+    </form>
 
 </body>
 
