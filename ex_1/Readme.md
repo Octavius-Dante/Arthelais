@@ -368,6 +368,61 @@ line break tag in html
 
 </br></br>
 
+**index.html** sample # 9 - other types of input fields
+</br></br>
+
+```html
+
+<html>
+<head>
+    <script>
+
+    </script>
+</head>
+<body>
+
+<br>
+<label>User Name</label>
+<input>
+<br><br>
+<label>Password</label>
+<input type="password">
+<br><br>
+
+<br>
+<label>User Name</label>
+<input>
+<br><br>
+<label>Password</label>
+<input type="password">
+
+<br><br>
+<input type="color"><br>
+<input type="date"><br><br>
+
+<label>Email</label>
+<input type="email"><br><br>
+
+<label>Numbers</label>
+<input type="number"><br><br>
+<input type="file"><br>
+
+</body>
+
+</html>
+
+```
+
+</br>
+<details>
+<summary> Login sample preview </summary>
+</br>
+<img src="./files/ui5e_1-12.png" >
+</br>
+</details>
+
+
+
 </br></br>
 </br></br>
 </br></br>
