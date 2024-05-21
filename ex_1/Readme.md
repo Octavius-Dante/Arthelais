@@ -262,6 +262,36 @@ line break tag in html
 </br> or <br>
 
 ```
+</br></br>
+
+adding webpage link to image 
+
+</br></br>
+
+```html
+
+<html>
+<head>
+    <script>
+
+    </script>
+</head>
+<body>
+
+
+<a href="https://sap.com"> 
+<img src="images/SAP-Logo.png" width="500px" height="300px">
+</a>
+
+
+</body>
+</html>
+
+
+````
+
+</br></br>
+
 
 </br></br>
 </br></br>
