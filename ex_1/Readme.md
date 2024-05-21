@@ -237,7 +237,7 @@ JS stands for Java Script, it is teh browser's programming lanaguage
 </html>
 
 
-````
+```
 
 </br></br>
 
@@ -284,10 +284,43 @@ line break tag in html
 </body>
 </html>
 
-
-````
+```
 
 </br></br>
+
+**index.html** sample # 7 - Ordered and Un-ordered List
+
+```html
+
+<html>
+<head>
+    <script>
+
+    </script>
+</head>
+<body>
+
+<!--ordered list -->
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<!-- Un-ordered list -->
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+</body>
+
+</html>
+
+```
 
 
 </br></br>
