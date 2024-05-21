@@ -19,7 +19,7 @@ Response is a reply from server for a request from client it has header and body
 3. PUT - Update
 4. DELETE - Remove data
 
-</br></br>
+</br>
 
 **What are the Ways to talk to server from client ?**
 
@@ -27,6 +27,8 @@ Response is a reply from server for a request from client it has header and body
 2. Using HTTPRequest object
 3. Using AJAX Call
 4. Some framework
+
+</br></br>
 
 <details>
 <summary> Defining form with Submit action </summary>
