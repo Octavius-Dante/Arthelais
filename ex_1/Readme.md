@@ -98,7 +98,11 @@ Basic HTML page with some image - in BAS or VSCode install - live preview extens
 
 It is a tree data structure so all the elements can be insulated inside a tree as shown below 
 </br></br>
-<img src="./files/ui5e_1-4.png" >
+<img src="./files/ui5e_1-5.png" >
+
+- This tree rendered can be viewed in browsers using  **(F12)** key to see developer tools 
+- This tree data structure is called **DOM (Document object model)**
+
 </br></br>
 
 ```html
