@@ -4,7 +4,11 @@ In this session we discuss about request and responses from web pages to server 
 
 </br></br>
 
-Requests which can be sent to server to perform an action or retrieve data 
+Requests which can be sent to server to perform an action or retrieve data **Request has header and body**
+</br></br>
+
+Response has header and body and it could be of any data type **(html, xml, json, excel, pdf, word..etc)**
+
 </br>
 
 **Request types :**
