@@ -64,7 +64,6 @@ Basic HTML page with some image - in BAS or VSCode install - live preview extens
 </br>
 </details>
 </br></br>
-</br></br>
 
 ```html
 
