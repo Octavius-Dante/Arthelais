@@ -96,17 +96,7 @@ Basic HTML page with some image - in BAS or VSCode install - live preview extens
 
 </br></br>
 
-It is a tree data structure so all the elements can be insulated inside a tree as shown below 
-</br></br>
-<img src="./files/ui5e_1-5.png" >
-
-- This tree rendered can be viewed in browsers using  **(F12)** key to see developer tools 
-- This tree data structure is called **DOM (Document object model)**
-
-Developer tools in browser preview
-
-<img src="./files/ui5e_1-6.png" >
-
+**index.html** sample # 3 - emphasize and show tree structures
 </br></br>
 
 ```html
@@ -148,6 +138,71 @@ Developer tools in browser preview
 </html>
 
 ```
+
+It is a tree data structure so all the elements can be insulated inside a tree as shown below 
+</br></br>
+<img src="./files/ui5e_1-5.png" >
+
+- This tree rendered can be viewed in browsers using  **(F12)** key to see developer tools 
+- This tree data structure is called **DOM (Document object model)**
+
+Developer tools in browser preview
+
+<img src="./files/ui5e_1-6.png" >
+
+</br></br>
+
+**index.html** sample # 4 - Multi paragraph sample
+</br></br>
+
+```html
+
+<html>
+<head>
+    <script>
+
+    </script>
+</head>
+<body>
+<!-- <h1>Dante Ui5 training demo</h1>
+<p> welcome to BAS </p>
+<button>Click Me!</button>
+
+</br></br>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg"> -->
+
+<!-- <h1>What is HTML</h1> -->
+<h2>What is HTML</h2>
+<!-- <h3>What is HTML</h3>
+<h4>What is HTML</h4>
+<h5>What is HTML</h5>
+<h6>What is HTML</h6> -->
+
+<p> HTML stands for
+    <b><em>
+        Hyper Text Markup Language
+    </em>
+</b>, it is used for designign static web content
+
+</p>
+
+
+<h2>What is CSS</h2>
+<p> 
+CSS stands for Cascading Style Sheets, It is used to style / beautify our content
+</p>
+
+<h2>What is JS</h2>
+<p> 
+JS stands for Java Script, it is teh browser's programming lanaguage
+</p>
+
+</body>
+</html>
+
+```
+
 
 
 </br></br>
