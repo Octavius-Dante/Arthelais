@@ -206,7 +206,7 @@ Organize things inside folder it's a good practice for view things in segregated
 
 </br></br>
 
-**index.html** sample # 5 - Image size edit
+**index.html** sample # 5 - Image size edit and adding a webpage link 
 </br></br>
 
 ```html
