@@ -278,11 +278,9 @@ adding webpage link to image
 </head>
 <body>
 
-
 <a href="https://sap.com"> 
 <img src="images/SAP-Logo.png" width="500px" height="300px">
 </a>
-
 
 </body>
 </html>
