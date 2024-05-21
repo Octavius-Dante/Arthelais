@@ -202,7 +202,19 @@ JS stands for Java Script, it is teh browser's programming lanaguage
 </html>
 
 ```
+</br></br>
+<img src="./files/ui5e_1-7.png" >
 
+</br></br>
+
+Organize things inside folder it's a good practice for view things in segregated manner 
+
+</br></br>
+
+
+```html
+
+````
 
 
 </br></br>
