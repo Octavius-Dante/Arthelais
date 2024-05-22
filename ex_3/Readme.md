@@ -50,6 +50,7 @@ tagName, .Clasname, #id
 </br></br>
 
 **index.html file sample**
+</br>
 
 ```html
 
