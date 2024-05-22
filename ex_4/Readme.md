@@ -51,8 +51,10 @@ You don't need to learn Java. The java and Java script has nothing in common exc
 
 </br>
 
-eg. onClick is an event for a button control when click happens. You can check all JS events [here](https://www.w3schools.com/js/js_events.asp) [All events](https://www.w3schools.com/jsref/dom_obj_event.asp)
+eg. onClick is an event for a button control when click happens. You can check all [JS events here](https://www.w3schools.com/js/js_events.asp) 
+</br> 
 
+[All events](https://www.w3schools.com/jsref/dom_obj_event.asp)
 </br>
 
 ```html
