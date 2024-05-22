@@ -211,6 +211,12 @@ arrFruits.splice(3,0, "kiwi"); // this inserts an item in 3rd index
 // removing an item in array with index position
 arrFruits.splice(3,1); // this removes an item in 3rd index 
 
+// insert an item at the end of the array -like ABAP Append
+arrFruits.push("Pineapple");
+
+// removing the last element in the array
+arrFruits.pop();
+
 ```
 
 
