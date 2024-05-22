@@ -240,8 +240,16 @@ arrFinal = [];
 
 ```
 
+</br></br>
+
+Sample # 4 Objects in JS
+
+```js
 
 
+
+
+```
 
 </br></br>
 
