@@ -112,6 +112,28 @@ testing it
 </details>
 
 
+<details>
+<summary> Block level elements Div and Span </summary>
+</br>
+</br>
+
+**Div** :
+</br>
+The <div> is division tag used as a container for HTML elements used for grouping </br>
+- which is then styled with CSS or manipulated with JavaScript. </br></br>
+
+it is a good practice to provide **class** (classification) property for every div element for grouping purpose
+
+</br> </br>
+
+**Span** :
+</br>
+The <span> - inline lement , it never starts from a new line, always keeps it in same line
+
+</br>
+</br>
+</details>
+
 </br></br>
 </br></br>
 </br></br>
