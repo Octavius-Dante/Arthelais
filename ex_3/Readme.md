@@ -883,6 +883,7 @@ Pseudo classes are special elements which brings conditional styling on the cont
 </br>
 </details>
 
+</br> </br> 
 
 **Adding zebra colored table**
 </br>
