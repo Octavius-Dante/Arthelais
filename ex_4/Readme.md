@@ -112,7 +112,7 @@ eg. onClick is an event for a button control when click happens. You can check a
 
 
 
-## Java Script code samples -- Mini Exercises
+## Java Script code samples -- Mini Exercises - Chrome (F12) - Console section
 </br></br>
 
 
