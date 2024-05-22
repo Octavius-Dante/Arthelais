@@ -2,11 +2,11 @@
 
 In this session we discuss about CSS Cascading Style Sheets
 
-</br></br>
+</br>
 
-it is used to style / beautify / format the HTML content.
+Cascading Style Sheets is used to style / beautify / format the HTML content.
 
-</br></br>
+</br>
 
 CSS was introduced to reduce the work load of page beautification in html tag by defining classes of css and using those classes in the required div, or specific element section 
 
