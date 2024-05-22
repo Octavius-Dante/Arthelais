@@ -134,6 +134,9 @@ typeof(y); // 'string'
 // converting string to number 
 var z = parseInt(y);
 
+xa = false;  
+typeof(xa); // 'Boolean'
+
 ```
 
 
