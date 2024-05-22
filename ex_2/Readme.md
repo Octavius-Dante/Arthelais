@@ -89,15 +89,17 @@ testing it
 
     <!-- Form with action definition-->
     <form method="get" action="https://www.gmail.com">
+      <div class="login">
 
-    <label>Number with limit min 10 and max 100</label>
-    <input type="number" min="10" max="15"><br><br>
+        <label>Number with limit min 10 and max 100</label>
+        <input type="number" min="10" max="15"><br><br>
 
         <label>Email</label>
         <input type="email"><br><br>
 
         <!-- auto validation for number field type demo-->
         <input type="submit"><br>
+      </div>    
     </form>
 
 </body>
@@ -127,7 +129,7 @@ it is a good practice to provide **class** (classification) property for every d
 <div>
 ```
 
-</br> s
+</br> 
 
 **Span** :
 </br>
@@ -136,7 +138,56 @@ The span is a inline element tag , it never starts from a new line, always keeps
 ```html
 <span>
 ```
+</br></br>
 
+
+```html
+
+<html>
+<head>
+    <script>
+    </script>
+</head>
+<body>
+
+    <!-- Form with action definition-->
+    <form method="get" action="https://www.gmail.com">
+      <div class="login">
+
+        <label>User Name</label>
+        <input id="idUser" name="usr">
+
+        <br><br>
+
+        <label>Password</label>
+        <input id="idPass" name="pass" type="password">
+
+        <!-- auto validation for number field type demo-->
+        <input type="submit"><br>
+      </div>    
+    </form>
+
+</body>
+</html>
+
+```
+
+<img src="./files/ui5e_2-5.png" >
+
+</br>
+</br>
+</details>
+
+<details>
+<summary> Table, Rows and columns and Iframe </summary>
+</br>
+</br>
+
+
+
+</br>
+</br>
+<img src="./files/ui5e_2-6.png" >
 </br>
 </br>
 </details>
