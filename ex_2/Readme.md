@@ -119,16 +119,23 @@ testing it
 
 **Div** :
 </br>
-The <div> is division tag used as a container for HTML elements used for grouping </br>
-- which is then styled with CSS or manipulated with JavaScript. </br></br>
-
+The div is division tag used as a container for HTML elements used for grouping </br>
+which is then styled with CSS or manipulated with JavaScript. </br>
 it is a good practice to provide **class** (classification) property for every div element for grouping purpose
+
+```html
+<div>
+```
 
 </br> </br>
 
 **Span** :
 </br>
-The <span> - inline lement , it never starts from a new line, always keeps it in same line
+The span is a inline element tag , it never starts from a new line, always keeps it in same line
+
+```html
+<span>
+```
 
 </br>
 </br>
