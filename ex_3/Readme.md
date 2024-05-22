@@ -191,7 +191,8 @@ tagName, .Clasname, #id
 
 </br></br>
 
-
+**2. Float property**
+</br> 
 Assigned float property in CSS for a div class section, if float is assigned this can be aligned with left or right direction in style section
 </br> </br> 
 
@@ -382,7 +383,7 @@ Assigned float property in CSS for a div class section, if float is assigned thi
 
 </br>
 
-**Box Model in CSS**
+**3. Box Model in CSS**
 </br> </br> 
 
 It introduces border with padding spacing between content, 
@@ -640,11 +641,8 @@ It introduces border with padding spacing between content,
 
 </br> </br> 
 
-**Responsive Web Design**
+**4. Responsive Web Design - Pseudo classes in CSS :**
 </br></br>
-
-**Pseudo classes in CSS :**
-</br> 
 
 Pseudo classes are special elements which brings conditional styling on the content. It also allows event based styles 
 </br>  example: when i hover the mouse on an element the style should change
@@ -886,7 +884,7 @@ Pseudo classes are special elements which brings conditional styling on the cont
 
 </br> </br> 
 
-**Adding zebra colored table**
+**5. Adding zebra colored table**
 </br>
 
 ```html
