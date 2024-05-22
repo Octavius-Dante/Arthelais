@@ -47,7 +47,6 @@ tagName, .Clasname, #id
 
 3. **External CSS** : The CSS which is defined as a separate file and linked to the html file using JS 
 
-</br></br>
 
 ```html
 
