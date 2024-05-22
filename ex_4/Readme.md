@@ -217,6 +217,17 @@ arrFruits.push("Pineapple");
 // removing the last element in the array
 arrFruits.pop();
 
+// concatenate 2 arrays together
+
+// define another array
+arrDryFruits = ["cashew", "Almonds", "Groundnut", "Pistachio", "Hazelnut", "walnut", "chestnut", "kolanut"];
+
+// concatenation 
+arrFruits.concat(arrDryFruits);
+
+// FINAL value will be placed in this new array
+var arrFinal = arrFruits.concat(arrDryFruits);
+
 ```
 
 
