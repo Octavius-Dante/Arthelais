@@ -379,6 +379,223 @@ Assigned float property in CSS for a div class section, if float is assigned thi
 
 </br></br>
 
+</br>
+
+**Box Model in CSS**
+</br> </br> 
+
+It introduces border with padding spacing between content, 
+</br> margin sits in the border and acts like an invisible border to the div section 
+
+```html
+ <style>
+
+    .box {
+      width: 250px;
+      float: left;
+      /* border: 1px solid black; */
+      margin: 20px;
+      
+    }
+
+    /* Class */
+    .box-title {
+      color: white;
+      background-color: rgb(23, 80, 86);
+      width: 250px;
+      border: 1px solid black;
+      padding:10px;
+      /* padding:10px; */
+      text-align: center;
+    }
+
+</style>
+
+```
+
+**index.html file sample # 3**
+</br>
+
+<details>
+<summary> Code sample # 3 </summary>
+</br>
+</br>
+
+```html
+
+<html>
+
+<head>
+  <script>
+  </script>
+
+  <!-- MetaData info for webpage -->
+
+  <meta name="encoding" content="utf-8" />
+  <meta name="description" content="Basic HTML5 learning web page" />
+  <meta name="Author" content="Dante" />
+  <meta name="keywords" content="HTML5 learn html tutorials" />
+
+  <!-- internal CSS -->
+  <style>
+    /* Html tag */
+    h2 {
+      color: white;
+      /*
+      border: 4px dotted;
+      */
+    }
+
+    h3 {
+      color: white;
+      /*
+      border: 4px dotted;
+      */
+    }
+
+    /* Class */
+    .box {
+      width: 250px;
+      float: left;
+      /* border: 1px solid black; */
+      margin: 20px;
+      
+    }
+
+    /* Class */
+    .box-title {
+      color: white;
+      background-color: rgb(23, 80, 86);
+      width: 250px;
+      border: 1px solid black;
+      padding:10px;
+      /* padding:10px; */
+      text-align: center;
+    }
+
+    /* Class */
+    .box-content {
+      color: white;
+      background-color: teal;
+      width: 250px;
+      height: 200px;
+      border: 1px solid black;
+      padding:10px;
+    }
+
+    /* Html tag */
+    /* p {
+      color: rgb(0, 0, 0);
+      border: 1px;
+      border-style: inset;
+    } */
+
+    /* ID */
+    #idUser {
+      background-color: black;
+      color: yellowgreen;
+    }
+
+    /* ID */
+    #idPass {
+      background-color: darkblue;
+      color: yellow;
+    }
+
+    /* Class */
+    .abbr {
+      font-family: cursive;
+      color: yellow;
+      font: bolder;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- inline CSS -->
+
+  <body style="background-color: rgb(12, 112, 212);">
+
+    <!-- <body style="background-color: yellowgreen;"> -->
+
+    <div class="box">
+      <div class="box-title">
+        <h2>What is <Span class="abbr">HTML</span></h2>
+      </div>
+
+      <div class="box-content">
+        <p> HTML stands for
+          <b><em>
+              Hyper Text Markup Language
+            </em>
+          </b>, it is used for designign static web content
+        </p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="box-title">
+        <h2>What is <Span class="abbr">CSS</Span></h2>
+      </div>
+
+      <div class="box-content">
+        <p>
+          CSS stands for <em><b>Cascading Style Sheets</b></em>, It is used to style / beautify our content
+        </p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="box-title">
+        <h2>What is <Span class="abbr">JS</Span></h2>
+      </div>
+
+      <div class="box-content">
+        <p>
+          JS stands for <em><b>Java Script</b></em>, it is teh browser's programming lanaguage
+        </p>
+      </div>
+    </div>
+
+
+ 
+    <!-- Form with action definition-->
+    <form method="GET" action="https://www.gmail.com">
+
+      <div style="clear: left;">
+      </div>
+      <h3>Personal details</h3>
+      <!-- <br><br> -->
+      <div>
+        <div>
+          <label>Username</label>
+          <input id="idUser" name="usr">
+        </div>
+        <!-- <br><br> -->
+        <div>
+          <label>Password</label>
+          <input id="idPass" name="pass" type="password">
+        </div>
+        <!-- <br><br> -->
+        <!-- this SUBMIT button will take the values mentioend with type name for input fields-->
+        <div></div>
+        <input type="submit"><br>
+      </div>
+      </div>
+    </form>
+
+  </body>
+
+</html>
+
+```
+
+</br></br>
+</details>
+
+</br> </br> 
 
 [refer w3schools website for detailed understanding on CSS](https://www.w3schools.com)
 
