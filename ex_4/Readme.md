@@ -155,12 +155,14 @@ name.split(" ");
 
 // returned value will be 
 // (2) ["dante", "epicurus"]
-// 0: dante"
-// 1: epicurus"
+// 0 : "dante"
+// 1 : "epicurus"
+// length : 2
+// [[Prototype]] : Array(0)
 
 ```
 
-
+![alt text](image.png)
 
 
 
