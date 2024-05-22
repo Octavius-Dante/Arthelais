@@ -228,6 +228,12 @@ arrFruits.concat(arrDryFruits);
 // FINAL value will be placed in this new array
 var arrFinal = arrFruits.concat(arrDryFruits);
 
+// to print every item in the array using for loop 
+for (var i = 0; i < arrFinal.length; i++) {
+ const element = arrFinal[i];
+ console.log(element);
+}
+
 ```
 
 
