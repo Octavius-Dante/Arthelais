@@ -234,6 +234,10 @@ for (var i = 0; i < arrFinal.length; i++) {
  console.log(element);
 }
 
+// Removing all the data in the array variable 
+arrFinal = [];
+
+
 ```
 
 
