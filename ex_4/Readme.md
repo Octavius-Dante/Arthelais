@@ -139,6 +139,40 @@ typeof(xa); // 'Boolean'
 
 ```
 
+</br></br>
+
+
+Sample # 2 String operations
+
+```js
+
+// integer
+var x = 10;
+
+// string 
+var y = "10"
+
+//typeof() function to return the data type
+
+typeof(x); // 'number'
+
+typeof(y); // 'string'
+
+// converting string to number 
+var z = parseInt(y);
+
+xa = false;  
+typeof(xa); // 'Boolean'
+
+```
+
+
+
+
+
+
+
+
 
 
 </br></br>
