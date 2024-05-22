@@ -183,7 +183,57 @@ The span is a inline element tag , it never starts from a new line, always keeps
 </br>
 </br>
 
+```html
 
+<html>
+
+<head>
+    <script>
+    </script>
+</head>
+
+<body>
+
+<table>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+      <th>Expenses</th>
+      <th>Payments</th>
+      <th>Income</th>
+    </tr>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+      <td>$400</td>
+      <td>$300</td>
+      <td>$800</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+      <td>$420</td>
+      <td>$400</td>
+      <td>$900</td>    
+    </tr>
+    <tr>
+      <td>March</td>
+      <td>$800</td>
+      <td>$1600</td>
+      <td>$2000</td>
+      <td>$4400</td>    
+    </tr>  
+  </table>
+
+<audio src="">
+<video src="https://www.youtube.com/watch?v=Vds8ddYXYZY&ab_channel=SyrebralVibes">
+
+
+</body>
+
+</html>
+
+```
 
 </br>
 </br>
