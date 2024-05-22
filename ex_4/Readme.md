@@ -113,6 +113,7 @@ eg. onClick is an event for a button control when click happens. You can check a
 
 
 ## Java Script code samples -- Mini Exercises
+</br></br>
 
 
 Sample # 1 variables and basic functions
