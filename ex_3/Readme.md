@@ -1,4 +1,4 @@
-## Exercise 2 - CSS
+## Exercise 3 - CSS - Cascading Style Sheets
 
 In this session we discuss about CSS Cascading Style Sheets
 
