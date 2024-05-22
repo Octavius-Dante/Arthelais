@@ -189,7 +189,7 @@ tagName, .Clasname, #id
 </br>
 </details>
 
-</br></br>
+</br>
 
 Float property in CSS for a div section if float is assigned this can be aligned with left or right direction in style section
 </br> </br> 
@@ -198,7 +198,7 @@ Float property in CSS for a div section if float is assigned this can be aligned
 float: left;
 ```
 
-</br></br>
+</br>
 
 **index.html file sample # 2**
 </br>
@@ -366,6 +366,8 @@ float: left;
 
 </br></br>
 </details>
+
+</br></br>
 
 
 [refer w3schools website for detailed understanding on CSS](https://www.w3schools.com)
