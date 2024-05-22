@@ -19,9 +19,9 @@ You don't need to learn Java. The java and Java script has nothing in common exc
 - JS has 2 powerful system variables called document and window
 - **Document** : is the object of **DOM**, using this we can access the HTML Elements directly
             
-    - getElementsById
-    - getElementsByClassName
-    - getElementsBytagName
+    > getElementsById
+    > getElementsByClassName
+    > getElementsBytagName
 
 - **Window** : is the object 
 
