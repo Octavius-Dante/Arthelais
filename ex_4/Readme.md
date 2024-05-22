@@ -147,23 +147,16 @@ Sample # 2 String operations
 
 ```js
 
-// integer
-var x = 10;
+// defined a name with space in the middle
+var name = "dante epicurus";
 
-// string 
-var y = "10"
+// usign split function to split the variabl value at defined space
+name.split(" ");
 
-//typeof() function to return the data type
-
-typeof(x); // 'number'
-
-typeof(y); // 'string'
-
-// converting string to number 
-var z = parseInt(y);
-
-xa = false;  
-typeof(xa); // 'Boolean'
+// returned value will be 
+// (2) ["dante", "epicurus"]
+// 0: dante"
+// 1: epicurus"
 
 ```
 
