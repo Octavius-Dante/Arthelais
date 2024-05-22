@@ -117,6 +117,7 @@ tagName, .Clasname, #id
 
 <div class="box">
 <div class="box-title">
+<!-- inline element container tag SPAN-->  
   <h2>What is <Span class="abbr">HTML</span></h2>
 </div>
 
@@ -132,6 +133,7 @@ tagName, .Clasname, #id
 
 <div class="box">
   <div class="box-title">
+<!-- inline element container tag SPAN-->  
   <h2>What is <Span class="abbr">CSS</Span></h2>
 </div>
 
@@ -144,6 +146,7 @@ tagName, .Clasname, #id
 
 <div class="box">
   <div class="box-title">
+<!-- inline element container tag SPAN-->    
   <h2>What is <Span class="abbr">JS</Span></h2>
 </div>
 
