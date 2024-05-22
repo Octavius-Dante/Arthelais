@@ -189,7 +189,8 @@ tagName, .Clasname, #id
 </br>
 </details>
 
-</br>
+</br></br>
+
 
 Assigned float property in CSS for a div class section, if float is assigned this can be aligned with left or right direction in style section
 </br> </br> 
