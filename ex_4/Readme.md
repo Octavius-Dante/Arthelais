@@ -130,9 +130,7 @@ eg. onClick is an event for a button control when click happens. You can check a
 - Browser directly don't support TS, but Java script supports TS so TS file can be accessed and used in JS.
 
 
-</br></br>
-</br></br>
-</br></br>
+</br></br></br>
 
 ## End of Exercise 4 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_5"> Exercise 5-JS deep dive </a>
 </br>
