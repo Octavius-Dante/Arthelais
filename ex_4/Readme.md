@@ -116,7 +116,7 @@ eg. onClick is an event for a button control when click happens. You can check a
 - It does syntax check at design time
 - It's pure oops
 - The Compilation of TS takes more time compared to java script
-- Browser directly don't support TS
+- Browser directly don't support TS, but Java script supports TS so TS file can be accessed and used in JS.
 
 
 </br></br>
