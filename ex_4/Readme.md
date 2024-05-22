@@ -170,8 +170,6 @@ finalName.indexOf("ban"); // return -1 - failed no value exist
 
 ```
 
-![alt text](image.png)
-
 </br></br>
 
 Sample # 3 Array variable - operations 
