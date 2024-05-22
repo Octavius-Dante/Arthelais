@@ -49,6 +49,12 @@ You don't need to learn Java. The java and Java script has nothing in common exc
 **Inline JS**
 </br> When JS code is written at the level of element itself, it is called inline JS. We write JS code corresponding to an event, AN event is triggered for an UI element when ever an action is performed by user.
 
+</br>
+
+eg. onClick is an event for a button control when click happens. You can check all JS events [here](https://www.w3schools.com/js/js_events.asp) [All events](https://www.w3schools.com/jsref/dom_obj_event.asp)
+
+</br>
+
 ```html
 
 <element event="code">
