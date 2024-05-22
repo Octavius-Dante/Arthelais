@@ -652,8 +652,18 @@ Pseudo classes are special elements which brings conditional styling on the cont
 
 ```html
 
-```
+    li :hover {
+      background-color: yellow;
+      color:black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+    }
 
+    a{
+      text-decoration: none;
+    }
+
+```
 
 **index.html file sample # 4**
 </br>
@@ -665,7 +675,208 @@ Pseudo classes are special elements which brings conditional styling on the cont
 
 ```html
 
+<html>
 
+<head>
+  <script>
+  </script>
+
+  <!-- MetaData info for webpage -->
+
+  <meta name="encoding" content="utf-8" />
+  <meta name="description" content="Basic HTML5 learning web page" />
+  <meta name="Author" content="Dante" />
+  <meta name="keywords" content="HTML5 learn html tutorials" />
+
+  <!-- internal CSS -->
+  <style>
+    /* Html tag */
+    h2 {
+      color: white;
+      /*
+      border: 4px dotted;
+      */
+    }
+
+    h3 {
+      color: white;
+      /*
+      border: 4px dotted;
+      */
+    }
+
+    /* Class */
+    .box {
+      width: 250px;
+      float: left;
+      /* border: 1px solid black; */
+      margin: 20px;
+
+    }
+
+    /* Class */
+    .box-title {
+      color: white;
+      background-color: rgb(23, 80, 86);
+      width: 250px;
+      border: 1px solid black;
+      padding: 10px;
+      /* padding:10px; */
+      text-align: center;
+    }
+
+    /* Class */
+    .box-content {
+      color: white;
+      background-color: teal;
+      width: 250px;
+      height: 200px;
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    /* Html tag */
+    /* p {
+      color: rgb(0, 0, 0);
+      border: 1px;
+      border-style: inset;
+    } */
+
+    /* ID */
+    #idUser {
+      background-color: black;
+      color: yellowgreen;
+    }
+
+    /* ID */
+    #idPass {
+      background-color: darkblue;
+      color: yellow;
+    }
+
+    /* Class */
+    .abbr {
+      font-family: cursive;
+      color: yellow;
+      font: bolder;
+    }
+
+    li {
+      float: left;
+      /* padding-left: 20px; */
+      padding: 20px;
+      ;
+      list-style: none;
+      border: 1px solid white;
+      background-color: Orangered;
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+    }
+
+    li :hover {
+      background-color: yellow;
+      color:black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- inline CSS -->
+
+  <body style="background-color: rgb(12, 112, 212);">
+
+    <!-- <body style="background-color: yellowgreen;"> -->
+
+    <div class="box">
+      <div class="box-title">
+        <h2>What is <Span class="abbr">HTML</span></h2>
+      </div>
+
+      <div class="box-content">
+        <p> HTML stands for
+          <b><em>
+              Hyper Text Markup Language
+            </em>
+          </b>, it is used for designign static web content
+        </p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="box-title">
+        <h2>What is <Span class="abbr">CSS</Span></h2>
+      </div>
+
+      <div class="box-content">
+        <p>
+          CSS stands for <em><b>Cascading Style Sheets</b></em>, It is used to style / beautify our content
+        </p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="box-title">
+        <h2>What is <Span class="abbr">JS</Span></h2>
+      </div>
+
+      <div class="box-content">
+        <p>
+          JS stands for <em><b>Java Script</b></em>, it is teh browser's programming lanaguage
+        </p>
+      </div>
+    </div>
+
+
+    <div style="clear: left;">
+    </div>
+    <ul>
+
+      <li><a href="https://github.com/Octavius-Dante/Nova-Proxima-">ABAP on Hana</a></li>
+      <li><a href="https://github.com/Octavius-Dante/Arthelais">Ui5 and Fiori</a></li>
+      <li><a href="https://github.com/Octavius-Dante/Nova-Prime">Restful ABAP</a></li>
+      <li><a href="https://github.com/Octavius-Dante/Tetra_Proxima">SAP BTP Cloud</a></li>
+
+    </ul>
+
+
+    <!-- Form with action definition-->
+    <form method="GET" action="https://www.gmail.com">
+
+      <div style="clear: left;">
+      </div>
+      <h3>Personal details</h3>
+      <!-- <br><br> -->
+      <div>
+        <div>
+          <label>Username</label>
+          <input id="idUser" name="usr">
+        </div>
+        <!-- <br><br> -->
+        <div>
+          <label>Password</label>
+          <input id="idPass" name="pass" type="password">
+        </div>
+        <!-- <br><br> -->
+        <!-- this SUBMIT button will take the values mentioend with type name for input fields-->
+        <div></div>
+        <input type="submit"><br>
+      </div>
+      </div>
+    </form>
+
+  </body>
+
+</html>
 
 ```
 
