@@ -50,13 +50,93 @@ tagName, .Clasname, #id
 </br></br>
 
 <details>
-<summary> HTML code sample and test evidence</summary>
+<summary> HTML code sample </summary>
 </br>
 </br>
 
+```html
+
+<html>
+
+<head>
+    <script>
+    </script>
+
+<!-- MetaData info for webpage -->
+
+<meta name="encoding" content="utf-8" />
+<meta name="description" content="Basic HTML5 learning web page" />
+<meta name="Author" content="Dante" />
+<meta name="keywords" content="HTML5 learn html tutorials" />
+
+<!-- internal CSS -->
+<style>
+
+    h2{ color: aliceblue; 
+    border: 4px dotted ;
+    }
+    p{ color: springgreen ; border: 1px ; border-style : inset ;}
+</style>
+
+</head>
+
+<body>
+  
+<!-- inline CSS -->  
+<body style="background-color: rgb(12, 112, 212);">
+
+<!-- <body style="background-color: yellowgreen;"> -->
+
+<div class="box">
+<div class="box-title">
+  <h2>What is HTML</h2>
+</div>
+
+<div class="box-content">
+  <p> HTML stands for
+      <b><em>
+          Hyper Text Markup Language
+      </em>
+  </b>, it is used for designign static web content
+  </p>
+</div>  
+</div>
+
+<div class="box">
+  <div class="box-title">
+  <h2>What is CSS</h2>
+</div>
+
+<div class="box-content">  
+  <p> 
+  CSS stands for Cascading Style Sheets, It is used to style / beautify our content
+  </p>
+</div>  
+</div>
+
+<div class="box">
+  <div class="box-title">
+  <h2>What is JS</h2>
+</div>
+
+<div class="box-content">   
+  <p> 
+  JS stands for Java Script, it is teh browser's programming lanaguage
+  </p> 
+</div>  
+</div>
+
+</body>
+
+</html>
+
+```
+
 </br>
 </br>
-<img src="./files/capmd12-96a.png" >
+
+[refer w3schools website for detailed understanding on CSS](https://www.w3schools.com)
+
 </br>
 </br>
 </details>
