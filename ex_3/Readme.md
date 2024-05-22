@@ -19,6 +19,8 @@ CSS was introduced to reduce the work load of page beautification in html tag by
 
 ```html
 
+<tagName style="property:value; property:value...."> Content </tagName>
+
 ```
 
 2. **Internal CSS**
