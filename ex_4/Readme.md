@@ -35,8 +35,10 @@ You don't need to learn Java. The java and Java script has nothing in common exc
 - Imperative logic - If, looping, expressions etc...
 - We can manipulate the DOM
 
-**How to apply Java Script ?**
 </br></br>
+
+**How to apply Java Script ?**
+</br>
 
 - Inline JS
 - Internal JS
