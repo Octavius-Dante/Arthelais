@@ -258,13 +258,13 @@ Sample # 4 Objects in JS
 
 var oEmp = { "empID": 501, "empName": "Dan", "salary": 5600, "curr": "USD" }
 
-// adding an item to the variable 
+// adding a property to the variable 
 oEmp.gamer = false;
 
-// adding an item to the variable 
+// adding a property to the variable 
 oEmp.biker = true;
 
-// adding an item to the variable 
+// adding a propertyto the variable 
 oEmp.smoker = false;
 
 // returned values will be 
@@ -276,6 +276,9 @@ oEmp.smoker = false;
 // gamer : false
 // salary :  5600
 // smoker :  false
+
+// Removign a property in object variable - "delete object.proeprty name" 
+delete oEmp.smoker; 
 
 ```
 
