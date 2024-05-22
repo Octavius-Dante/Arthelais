@@ -153,12 +153,11 @@ var name = "dante epicurus";
 // usign split function to split the variabl value at defined space
 name.split(" ");
 
-// returned value will be 
-// (2) ["dante", "epicurus"]
-// 0 : "dante"
-// 1 : "epicurus"
-// length : 2
-// [[Prototype]] : Array(0)
+// split function values stored into array
+var arrName = name.split(" ");
+
+// concatenation
+var finalName = arrName[0] + arrName[1];
 
 ```
 
