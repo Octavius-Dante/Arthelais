@@ -201,15 +201,23 @@ arrFruits[3];
 arrFruits[rrFruits.length; -1];
 // returns last element in array
 
-// arrFruits.splice(index position, insert type, "value");
 
 // inserting an item into array with index position 
 arrFruits.splice(1,0, "mango");
 
 arrFruits.splice(3,0, "kiwi"); // this inserts an item in 3rd index 
 
+// 0 - represents - zero element
+// 1 - remove 1 element 
+// 2 - remove 2 elements
+
+// arrFruits.splice(index position, how many elements need to be removed, "value");
+
 // removing an item in array with index position
 arrFruits.splice(3,1); // this removes an item in 3rd index 
+arrFruits.splice(3,2); // this removes 2 item from 3rd index 
+arrFruits.splice(3,3); // this removes 3 item from 3rd index 
+arrFruits.splice(3,4); // this removes 4 item from 3rd index 
 
 // insert an item at the end of the array -like ABAP Append
 arrFruits.push("Pineapple");
