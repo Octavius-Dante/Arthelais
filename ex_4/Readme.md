@@ -48,7 +48,7 @@ When JS code is written at the level of element itself, it is called inline JS. 
 
 ```html
 
-<element event='code'>
+<element event="code">
 
 ```
 
