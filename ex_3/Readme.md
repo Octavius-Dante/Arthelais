@@ -23,6 +23,8 @@ CSS was introduced to reduce the work load of page beautification in html tag by
 
 ```
 
+</br></br>
+
 2. **Internal CSS**
 
 ```html
@@ -40,6 +42,8 @@ Selector-targer element(s)
 tagName, .Clasname, #id
 
 ```
+
+</br></br>
 
 3. **External CSS**
 
