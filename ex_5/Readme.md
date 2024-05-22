@@ -7,7 +7,7 @@
 </br></br>
 </br></br>
 
-## End of Exercise 5 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_6"> Exercise 4-JQuery </a>
+## End of Exercise 5 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_6"> Exercise 6-JQuery </a>
 </br>
 <p align="center"> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </p>
 
