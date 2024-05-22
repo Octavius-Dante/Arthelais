@@ -119,7 +119,20 @@ Sample # 1 variables
 
 ```js
 
+// integer
+var x = 10;
 
+// string 
+var y = "10"
+
+//typeof() function to return the data type
+
+typeof(x); // 'number'
+
+typeof(y); // 'string'
+
+// converting string to number 
+var z = parseInt(y);
 
 ```
 
