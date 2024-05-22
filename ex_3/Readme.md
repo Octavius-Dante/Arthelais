@@ -49,7 +49,7 @@ tagName, .Clasname, #id
 
 </br></br>
 
-## index.html file sample
+**index.html file sample**
 
 ```html
 
