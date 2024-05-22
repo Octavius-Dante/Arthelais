@@ -195,7 +195,17 @@ Float property in CSS for a div section if float is assigned this can be aligned
 </br> </br> 
 
 ```html
-float: left;
+
+<style>  
+    .box {
+      width: 250px;
+      float: left;
+      border: 1px solid black
+    }
+</style>
+
+<div style="clear: left;">
+
 ```
 
 </br>
