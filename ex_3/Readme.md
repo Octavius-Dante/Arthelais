@@ -884,10 +884,29 @@ Pseudo classes are special elements which brings conditional styling on the cont
 </details>
 
 
+**Adding zebra colored table**
+</br>
+
+```html
 
 
 
+```
 
+**index.html file sample # 5**
+</br>
+
+<details>
+<summary> Code sample # 5 </summary>
+</br>
+</br>
+
+```html
+
+
+```
+</br>
+</details>
 
 </br> </br> 
 
