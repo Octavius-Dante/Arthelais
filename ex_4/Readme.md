@@ -15,7 +15,7 @@ You don't need to learn Java. The java and Java script has nothing in common exc
 - JS follows Camel case naming conventions, First letter is small and and every consecutive words first letter will be in capital 
 </br> **Eg. (onClick, onPress, onSwitch, onAction, toggleAction)**
 
-- Every statement in JS ends with semicolon (;)
+- Every statement in JS ends with semicolon ;
 - JS has 2 powerful system variables called document and window
 - **Document** : is the object of **DOM**, using this we can access the HTML Elements directly
             
