@@ -179,7 +179,7 @@ The span is a inline element tag , it never starts from a new line, always keeps
 </details>
 
 <details>
-<summary> Table, Rows and columns and Iframe </summary>
+<summary> Table, Rows and columns </summary>
 </br>
 </br>
 
@@ -238,6 +238,37 @@ The span is a inline element tag , it never starts from a new line, always keeps
 </br>
 </br>
 </details>
+
+
+<details>
+<summary> Defining iframe tag with layout parameters</summary>
+</br>
+</br>
+
+```html
+
+<html>
+<head>
+    <script>
+    </script>
+</head>
+<body>
+
+
+
+</body>
+
+</html>
+
+```
+
+</br>
+</br>
+<img src="./files/ui5e_2-7.png" >
+</br>
+</br>
+</details>
+
 
 </br></br>
 </br></br>
