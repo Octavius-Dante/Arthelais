@@ -648,7 +648,7 @@ It introduces border with padding spacing between content,
 Pseudo classes are special elements which brings conditional styling on the content. It also allows event based styles 
 </br>  example: when i hover the mouse on an element the style should change
 
-</br> </br> 
+</br> 
 
 ```html
 
