@@ -35,6 +35,34 @@ You don't need to learn Java. The java and Java script has nothing in common exc
 - Imperative logic - If, looping, expressions etc...
 - We can manipulate the DOM
 
+**How to apply Java Script ?**
+</br></br>
+
+- Inline JS
+- Internal JS
+- External JS
+
+
+**Inline JS**
+When JS code is written at the level of element itself, it is called inline JS. We write JS code corresponding to an event, AN event is triggered for an UI element when ever an action is performed by user.
+
+```html
+
+<element event='code'>
+
+```
+
+</br></br>
+
+**Internal JS**
+
+</br></br>
+
+
+**External JS**
+
+</br></br>
+
 </br></br>
 </br></br>
 </br></br>
