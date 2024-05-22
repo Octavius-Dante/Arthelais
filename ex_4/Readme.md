@@ -174,6 +174,7 @@ Sample # 3 Array variable - operations
 // {} - Braces
 // [] = Bracket
 
+// array index stars from zero - 0,1,2,3,4,5,6 . . . . 
 
 var arrFruits = ["apple","banana","cherry"];
 
@@ -193,17 +194,23 @@ arrFruits[0];
 // directly can access the element with index
 // "apple"
 
+arrFruits[1];
+arrFruits[2];
+arrFruits[3];
+
 arrFruits[rrFruits.length; -1];
 // returns last element in array
 
-// inserting an item into array with index position given
-arrFruits.splice(1,0, "mango");
-
 // arrFruits.splice(index position, insert type, "value");
 
-arrFruits.splice(3,0, "kiwi"); // this isnerts an item in 3rd index 
+// inserting an item into array with index position 
+arrFruits.splice(1,0, "mango");
 
-// array index stars from zero - 0,1,2,3,4,5,6 . . . . 
+arrFruits.splice(3,0, "kiwi"); // this inserts an item in 3rd index 
+
+// removing an item in array with index position
+arrFruits.splice(3,1); // this removes an item in 3rd index 
+
 ```
 
 
