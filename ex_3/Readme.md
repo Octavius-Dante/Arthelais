@@ -49,7 +49,12 @@ tagName, .Clasname, #id
 
 </br></br>
 
-**index.html file sample**
+**index.html file sample # 1**
+</br>
+
+<details>
+<summary> Code sample # 1 </summary>
+</br>
 </br>
 
 ```html
@@ -181,8 +186,187 @@ tagName, .Clasname, #id
 </html>
 
 ```
+</br>
+</details>
 
 </br></br>
+
+Float property in CSS for a div section if float is assigned this can be aligned with left or right direction in style section
+</br> </br> 
+
+```html
+float: left;
+```
+
+</br></br>
+
+**index.html file sample # 2**
+</br>
+
+<details>
+<summary> Code sample # 2 </summary>
+</br>
+</br>
+
+```html
+
+<html>
+
+<head>
+  <script>
+  </script>
+
+  <!-- MetaData info for webpage -->
+
+  <meta name="encoding" content="utf-8" />
+  <meta name="description" content="Basic HTML5 learning web page" />
+  <meta name="Author" content="Dante" />
+  <meta name="keywords" content="HTML5 learn html tutorials" />
+
+  <!-- internal CSS -->
+  <style>
+    /* Html tag */
+    h2 {
+      color: white;
+      /*
+      border: 4px dotted;
+      */
+    }
+
+    h3 {
+      color: white;
+      /*
+      border: 4px dotted;
+      */
+    }
+
+    /* Class */
+    .box {
+      width: 250px;
+      float: left;
+      border: 1px solid black
+    }
+
+    /* Html tag */
+    p {
+      color: rgb(0, 0, 0);
+      border: 1px;
+      border-style: inset;
+    }
+
+    /* Class */
+    .box-content {
+      color: white;
+      background-color: teal;
+      width: 250px;
+      height: 200px;
+      border: 1px solid black;
+    }
+
+    /* ID */
+    #idUser {
+      background-color: black;
+      color: yellowgreen;
+    }
+
+    /* ID */
+    #idPass {
+      background-color: darkblue;
+      color: yellow;
+    }
+
+    /* Class */
+    .abbr {
+      font-family: cursive;
+      color: yellow;
+      font: bolder;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- inline CSS -->
+
+  <body style="background-color: rgb(12, 112, 212);">
+
+    <!-- <body style="background-color: yellowgreen;"> -->
+
+    <div class="box">
+      <div class="box-title">
+        <h2>What is <Span class="abbr">HTML</span></h2>
+      </div>
+
+      <div class="box-content">
+        <p> HTML stands for
+          <b><em>
+              Hyper Text Markup Language
+            </em>
+          </b>, it is used for designign static web content
+        </p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="box-title">
+        <h2>What is <Span class="abbr">CSS</Span></h2>
+      </div>
+
+      <div class="box-content">
+        <p>
+          CSS stands for Cascading Style Sheets, It is used to style / beautify our content
+        </p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="box-title">
+        <h2>What is <Span class="abbr">JS</Span></h2>
+      </div>
+
+      <div class="box-content">
+        <p>
+          JS stands for Java Script, it is teh browser's programming lanaguage
+        </p>
+      </div>
+    </div>
+
+ 
+    <!-- Form with action definition-->
+    <form method="GET" action="https://www.gmail.com">
+
+      <div style="clear: left;">
+      </div>
+      <h3>Personal details</h3>
+      <!-- <br><br> -->
+      <div>
+        <div>
+          <label>Username</label>
+          <input id="idUser" name="usr">
+        </div>
+        <!-- <br><br> -->
+        <div>
+          <label>Password</label>
+          <input id="idPass" name="pass" type="password">
+        </div>
+        <!-- <br><br> -->
+        <!-- this SUBMIT button will take the values mentioend with type name for input fields-->
+        <div></div>
+        <input type="submit"><br>
+      </div>
+      </div>
+    </form>
+
+  </body>
+
+</html>
+
+```
+
+</br></br>
+</details>
+
 
 [refer w3schools website for detailed understanding on CSS](https://www.w3schools.com)
 
