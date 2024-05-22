@@ -75,7 +75,25 @@ tagName, .Clasname, #id
     h2{ color: aliceblue; 
     border: 4px dotted ;
     }
-    p{ color: springgreen ; border: 1px ; border-style : inset ;}
+    
+    p{ color: rgb(0, 0, 0) ; border: 1px ; border-style : inset ;
+    }
+
+    .box-content{
+      color: white;
+      background-color: teal;
+      width: 500px;
+      border: 1px solid black;
+    }
+
+    #idUser{ background-color: black;
+             color: yellowgreen;
+    }
+
+    #idPass{ background-color: darkblue;
+             color: yellow;
+    }
+
 </style>
 
 </head>
@@ -126,8 +144,28 @@ tagName, .Clasname, #id
 </div>  
 </div>
 
+
+<br><br><br>
+
+    <!-- Form with action definition-->
+    <form method="GET" action="https://www.gmail.com">
+
+      <label>User Name</label>
+      <input id="idUser" name="usr">
+
+      <br><br>
+
+      <label>Password</label>
+      <input id="idPass" name="pass" type="password">
+
+      <br><br>
+      <!-- this SUBMIT button will take the values mentioend with type name for input fields-->
+      <input type="submit"><br>
+  </form>
+
 </body>
 
+</html>
 </html>
 
 ```
