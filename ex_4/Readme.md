@@ -25,6 +25,15 @@ You don't need to learn Java. The java and Java script has nothing in common exc
 
 </br></br>
 
+**What JS can do**
+</br></br>
+
+- Used to show output to the user
+- Can be used to change the CSS at runtime
+- Validate the user input
+- Build application logic which runs on client side
+- Imperative logic - If, looping, expressions etc...
+- We can manipulate the DOM
 
 </br></br>
 </br></br>
