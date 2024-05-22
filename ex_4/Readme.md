@@ -12,7 +12,8 @@ You don't need to learn Java. The java and Java script has nothing in common exc
 - There is no need to compile the code it is automatically done at runtime
 - In JS, we don't need to specify the data type of variables
 - JS is case-sensitive
-- JS follows Camel case naming conventions, First letter is small and and every consecutive words first letter will be in capital Eg. (onClick, onPress)
+- JS follows Camel case naming conventions, First letter is small and and every consecutive words first letter will be in capital 
+</br> Eg. (onClick, onPress, onSwitch, onAction, toggleAction)
 
 </br></br>
 
