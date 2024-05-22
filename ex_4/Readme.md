@@ -159,6 +159,15 @@ var arrName = name.split(" ");
 // concatenation
 var finalName = arrName[0] + "-" + arrName[1];
 
+// string index starts with zero --  0, 1, 2, 3, 4, 5, 6, 7 . . . . . 
+
+// string search
+finalName.indexOf("dan"); // return 0 - success - index position 0 (d)
+
+finalName.indexOf("s");   // return 13 - success - index position 13
+
+finalName.indexOf("ban"); // return -1 - failed no value exist 
+
 ```
 
 ![alt text](image.png)
