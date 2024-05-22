@@ -110,6 +110,17 @@ eg. onClick is an event for a button control when click happens. You can check a
 
 </br></br>
 
+
+
+
+
+
+
+
+</br></br>
+
+## Just for Info
+
 **Type Script**
 
 - It is an advanced version of Java Script
