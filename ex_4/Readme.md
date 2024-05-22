@@ -71,9 +71,10 @@ eg. onClick is an event for a button control when click happens. You can check a
 ```html
 
 <script> 
-................
-................
-................
+    Funtion This_is_My_Function(params_1, params_1, . . . . )
+    {
+        // code here
+    }
 </script> 
 
 ```
