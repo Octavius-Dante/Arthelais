@@ -70,13 +70,16 @@ tagName, .Clasname, #id
 <!-- internal CSS -->
 <style>
 
+/* Html tag */ 
     h2{ color: white;       
     border: 4px dotted ;
     }
-    
+
+/* Html tag */    
     p{ color: rgb(0, 0, 0) ; border: 1px ; border-style : inset ;
     }
 
+/* Class */    
     .box-content{
       color: white;
       background-color: teal;
@@ -84,14 +87,17 @@ tagName, .Clasname, #id
       border: 1px solid black;
     }
 
+/* ID */
     #idUser{ background-color: black;
              color: yellowgreen;
     }
 
+/* ID */
     #idPass{ background-color: darkblue;
              color: yellow;
     }
 
+/* Class */
     .abbr{
       font-family: cursive ;
       color: yellow;
