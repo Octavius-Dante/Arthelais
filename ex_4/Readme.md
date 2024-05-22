@@ -157,7 +157,7 @@ name.split(" ");
 var arrName = name.split(" ");
 
 // concatenation
-var finalName = arrName[0] + arrName[1];
+var finalName = arrName[0] + "-" + arrName[1];
 
 ```
 
