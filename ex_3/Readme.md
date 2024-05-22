@@ -72,7 +72,7 @@ tagName, .Clasname, #id
 <!-- internal CSS -->
 <style>
 
-    h2{ color: aliceblue; 
+    h2{ color: white;       
     border: 4px dotted ;
     }
     
@@ -82,7 +82,7 @@ tagName, .Clasname, #id
     .box-content{
       color: white;
       background-color: teal;
-      width: 500px;
+      width: 300;
       border: 1px solid black;
     }
 
@@ -92,6 +92,12 @@ tagName, .Clasname, #id
 
     #idPass{ background-color: darkblue;
              color: yellow;
+    }
+
+    .abbr{
+      font-family: cursive ;
+      color: yellow;
+      font: bolder;
     }
 
 </style>
@@ -107,7 +113,7 @@ tagName, .Clasname, #id
 
 <div class="box">
 <div class="box-title">
-  <h2>What is HTML</h2>
+  <h2>What is <Span class="abbr">HTML</span></h2>
 </div>
 
 <div class="box-content">
@@ -122,7 +128,7 @@ tagName, .Clasname, #id
 
 <div class="box">
   <div class="box-title">
-  <h2>What is CSS</h2>
+  <h2>What is <Span class="abbr">CSS</Span></h2>
 </div>
 
 <div class="box-content">  
@@ -134,7 +140,7 @@ tagName, .Clasname, #id
 
 <div class="box">
   <div class="box-title">
-  <h2>What is JS</h2>
+  <h2>What is <Span class="abbr">JS</Span></h2>
 </div>
 
 <div class="box-content">   
@@ -165,7 +171,6 @@ tagName, .Clasname, #id
 
 </body>
 
-</html>
 </html>
 
 ```
