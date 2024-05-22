@@ -83,6 +83,13 @@ eg. onClick is an event for a button control when click happens. You can check a
 
 
 **External JS**
+</br> With the help of reusable files. we will create a .js file, and link it with the HTML page using script tag itself.
+
+```html
+
+<script src="path of js file">
+
+```
 
 </br></br>
 
