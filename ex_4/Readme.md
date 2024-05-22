@@ -283,8 +283,11 @@ delete oEmp.smoker;
 typeof(oEmp);
 // "object"
 
-// convert an object to a string 
-JSON.stringify(oEmp);
+// convert a JSON object to a string 
+var x = JSON.stringify(oEmp);
+
+// Convert a String object to a JSON object
+var y = JSON.parse(x);
 
 ```
 
