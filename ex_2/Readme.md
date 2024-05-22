@@ -267,9 +267,6 @@ The span is a inline element tag , it never starts from a new line, always keeps
 
 </br>
 </br>
-<img src="./files/ui5e_2-7.png" >
-</br>
-</br>
 </details>
 
 
