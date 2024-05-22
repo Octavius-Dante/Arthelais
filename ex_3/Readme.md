@@ -13,7 +13,7 @@ CSS was introduced to reduce the work load of page beautification in html tag by
 </br></br>
 
 **There are 3 ways we can apply css.**
-</br>
+</br></br>
 
 1. **Inline CSS** - the style is applied with the HTML control directly using a style property
 
