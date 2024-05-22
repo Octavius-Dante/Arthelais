@@ -189,7 +189,21 @@ arrFruits.length;
 // returns length of the array (items)
 // 3
 
+arrFruits[0];
+// directly can access the element with index
+// "apple"
 
+arrFruits[rrFruits.length; -1];
+// returns last element in array
+
+// inserting an item into array with index position given
+arrFruits.splice(1,0, "mango");
+
+// arrFruits.splice(index position, insert type, "value");
+
+arrFruits.splice(3,0, "kiwi"); // this isnerts an item in 3rd index 
+
+// array index stars from zero - 0,1,2,3,4,5,6 . . . . 
 ```
 
 
