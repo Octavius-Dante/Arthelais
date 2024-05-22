@@ -58,6 +58,17 @@ You don't need to learn Java. The java and Java script has nothing in common exc
 </br></br>
 
 **Internal JS**
+</br> When we want to write reusable code. The code is written in functions at the page level, inside a tag called Script tag
+
+```html
+
+<script> 
+................
+................
+................
+</script> 
+
+```
 
 </br></br>
 
