@@ -654,6 +654,30 @@ Pseudo classes are special elements which brings conditional styling on the cont
 
 ```
 
+
+**index.html file sample # 4**
+</br>
+
+<details>
+<summary> Code sample # 4 </summary>
+</br>
+</br>
+
+```html
+
+
+
+```
+
+</br>
+</details>
+
+
+
+
+
+
+
 </br> </br> 
 
 [refer w3schools website for detailed understanding on CSS](https://www.w3schools.com)
