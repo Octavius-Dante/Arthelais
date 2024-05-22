@@ -33,8 +33,10 @@ CSS was introduced to reduce the work load of page beautification in html tag by
 
 ```
 
+</br></br>
+
 <details>
-<summary> </summary>
+<summary> HTML code sample and test preview </summary>
 </br>
 </br>
 
