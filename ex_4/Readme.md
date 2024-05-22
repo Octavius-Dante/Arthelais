@@ -14,13 +14,13 @@ You don't need to learn Java. The java and Java script has nothing in common exc
 
 </br>
 
-1. Client-side JS - All the code will be executed on the client side (browser). 
+1. **Client-Side JS** - All the code will be executed on the client side (browser). 
 </br>This gives speed to the application. 
 </br>This UI5/Fiori focus on only client side JS
 
 </br>
 
-2. Server-Side JS - All the JS code executes on server side. 
+2. **Server-Side JS** - All the JS code executes on server side. 
 </br>Since we cannot have a browser running to execute JS code, we need framework to run it. Eg. NodeJS, XSJS
 
 </br></br>
