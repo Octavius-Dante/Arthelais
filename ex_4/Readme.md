@@ -277,7 +277,7 @@ oEmp.smoker = false;
 // salary :  5600
 // smoker :  false
 
-// Removign a property in object variable - "delete object.proeprty name" 
+// Removing a property in object variable - "delete object.proeprty name" 
 delete oEmp.smoker; 
 
 ```
