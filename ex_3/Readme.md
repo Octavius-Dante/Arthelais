@@ -47,6 +47,9 @@ tagName, .Clasname, #id
 
 3. **External CSS** : The CSS which is defined as a separate file and linked to the html file using JS 
 
+- It is reusable, can be utillized among many html pages (Level 1 Priority when no other CSS is used)
+- When internal CSS is used in the page external CSS is considered secondary, The priority goes to internal CSS and it overrides external CSS
+- When inline CSS is used it overrides internal CSS and priority is given for inline CSS
 
 ```html
 
