@@ -280,6 +280,14 @@ oEmp.smoker = false;
 // Removing a property in object variable - "delete object.proeprty name" 
 delete oEmp.smoker; 
 
+typeof(oEmp);
+// "object"
+
+// convert an object to a string 
+
+
+
+
 ```
 
 </br></br>
