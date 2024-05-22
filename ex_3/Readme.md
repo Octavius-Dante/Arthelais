@@ -409,6 +409,18 @@ It introduces border with padding spacing between content,
       text-align: center;
     }
 
+    li{
+        float:left;
+        /* padding-left: 20px; */
+        padding: 20px;;
+        list-style: none;
+        border: 1px solid white;
+        background-color: Orangered;
+        text-align: center;
+        text-transform: uppercase;
+        color:white;
+    }
+
 </style>
 
 ```
@@ -459,7 +471,7 @@ It introduces border with padding spacing between content,
       float: left;
       /* border: 1px solid black; */
       margin: 20px;
-      
+
     }
 
     /* Class */
@@ -468,7 +480,7 @@ It introduces border with padding spacing between content,
       background-color: rgb(23, 80, 86);
       width: 250px;
       border: 1px solid black;
-      padding:10px;
+      padding: 10px;
       /* padding:10px; */
       text-align: center;
     }
@@ -480,7 +492,7 @@ It introduces border with padding spacing between content,
       width: 250px;
       height: 200px;
       border: 1px solid black;
-      padding:10px;
+      padding: 10px;
     }
 
     /* Html tag */
@@ -508,6 +520,19 @@ It introduces border with padding spacing between content,
       color: yellow;
       font: bolder;
     }
+
+    li{
+        float:left;
+        /* padding-left: 20px; */
+        padding: 20px;;
+        list-style: none;
+        border: 1px solid white;
+        background-color: Orangered;
+        text-align: center;
+        text-transform: uppercase;
+        color:white;
+    }
+
   </style>
 
 </head>
@@ -558,7 +583,26 @@ It introduces border with padding spacing between content,
         </p>
       </div>
     </div>
- 
+
+
+    <div style="clear: left;">
+    </div>
+    <ul>
+      <a href="https://github.com/Octavius-Dante/Nova-Proxima-">
+        <li>ABAP on Hana</li>
+      </a>
+      <a href="https://github.com/Octavius-Dante/Arthelais">
+        <li>Ui5 and Fiori</li>
+      </a>
+      <a href="https://github.com/Octavius-Dante/Nova-Prime">
+        <li>Restful ABAP</li>
+      </a>
+      <a href="https://github.com/Octavius-Dante/Tetra_Proxima">
+        <li>SAP BTP Cloud</li>
+      </a>
+    </ul>
+
+
     <!-- Form with action definition-->
     <form method="GET" action="https://www.gmail.com">
 
@@ -592,6 +636,23 @@ It introduces border with padding spacing between content,
 
 </br></br>
 </details>
+
+</br> </br> 
+
+**Responsive Web Design**
+</br></br>
+
+**Pseudo classes in CSS :**
+</br> 
+
+Pseudo classes are special elements which brings conditional styling on the content. It also allows event based styles 
+</br>  example: when i hover the mouse on an element the style should change
+
+</br> </br> 
+
+```html
+
+```
 
 </br> </br> 
 
