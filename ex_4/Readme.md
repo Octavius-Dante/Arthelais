@@ -164,9 +164,39 @@ name.split(" ");
 
 ![alt text](image.png)
 
+Sample # 2 String operations
+
+```js
+
+// defined a name with space in the middle
+var name = "dante epicurus";
+
+// usign split function to split the variabl value at defined space
+name.split(" ");
+
+// returned value will be 
+// (2) ["dante", "epicurus"]
+// 0 : "dante"
+// 1 : "epicurus"
+// length : 2
+// [[Prototype]] : Array(0)
+
+```
+
+</br></br>
+
+Sample # 3 Array variable - operations 
+
+```js
+
+// () - Paranthesis
+// {} - Braces
+// [] = Bracket
 
 
+var arrFruits = ["apple","banana","cherry"];
 
+```
 
 
 
