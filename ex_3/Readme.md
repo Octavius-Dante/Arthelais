@@ -53,6 +53,8 @@ tagName, .Clasname, #id
 ## CSS - sample codes and HTML files
 </br></br>
 
+**1. Internal CSS applied HTML page**
+</br>
 
 **index.html file sample # 1**
 </br>
