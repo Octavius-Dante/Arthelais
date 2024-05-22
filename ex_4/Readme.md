@@ -6,7 +6,13 @@ You don't need to learn Java. The java and Java script has nothing in common exc
 </br> Both are different programming languages in their design, purpose and usage.
 
 </br> JavaScript is a browser's programming language. It is the most used programming language on our planet.
-</br> All the browsers directly understand JS.
+</br> 
+
+- All the browsers directly understand JS.
+- There is no need to compile the code it is automatically done at runtime
+- In JS, we don't need to specify the data type of variables
+- JS is case-sensitive
+- 
 
 </br></br>
 
