@@ -177,6 +177,19 @@ Sample # 3 Array variable - operations
 
 var arrFruits = ["apple","banana","cherry"];
 
+// arrFruits;
+// (3) ['apple', 'banana', 'cherry']
+// 0: "apple"
+// 1: "banana"
+// 2: "cherry"
+// length: 3
+// [[Prototype]]: Array(0)
+
+arrFruits.length;
+// returns length of the array (items)
+// 3
+
+
 ```
 
 
