@@ -27,6 +27,18 @@ CSS was introduced to reduce the work load of page beautification in html tag by
 
 ```html
 
+<style>
+
+selector {
+   property:value;
+   property:value;
+
+}
+</style>
+
+Selector-targer element(s)
+tagName, .Clasname, #id
+
 ```
 
 3. **External CSS**
