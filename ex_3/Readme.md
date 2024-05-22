@@ -49,10 +49,7 @@ tagName, .Clasname, #id
 
 </br></br>
 
-<details>
-<summary> HTML code sample </summary>
-</br>
-</br>
+## index.html file sample
 
 ```html
 
@@ -175,14 +172,10 @@ tagName, .Clasname, #id
 
 ```
 
-</br>
-</br>
+</br></br>
 
 [refer w3schools website for detailed understanding on CSS](https://www.w3schools.com)
 
-</br>
-</br>
-</details>
 
 </br></br>
 </br></br>
