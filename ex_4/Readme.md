@@ -284,9 +284,7 @@ typeof(oEmp);
 // "object"
 
 // convert an object to a string 
-
-
-
+JSON.stringify(oEmp);
 
 ```
 
