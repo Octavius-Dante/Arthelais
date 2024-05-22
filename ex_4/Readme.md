@@ -23,7 +23,7 @@ You don't need to learn Java. The java and Java script has nothing in common exc
     - getElementsByClassName
     - getElementsByTagName
 
-- **Window** : is the object 
+- **Window** : is the object of browser window (using this can open browser, open tab, close tab, alert pop up)
 
 </br></br>
 
