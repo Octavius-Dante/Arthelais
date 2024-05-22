@@ -254,8 +254,28 @@ Sample # 4 Objects in JS
 
 ```js
 
+// Definign an object variable
 
+var oEmp = { "empID": 501, "empName": "Dan", "salary": 5600, "curr": "USD" }
 
+// adding an item to the variable 
+oEmp.gamer = false;
+
+// adding an item to the variable 
+oEmp.biker = true;
+
+// adding an item to the variable 
+oEmp.smoker = false;
+
+// returned values will be 
+// {empID: 501, empName: 'Dan', salary: 5600, curr: 'USD', gamer: false, …}
+// biker : true
+// curr : "USD"
+// empID : 501
+// empName :  "Dan"
+// gamer : false
+// salary :  5600
+// smoker :  false
 
 ```
 
