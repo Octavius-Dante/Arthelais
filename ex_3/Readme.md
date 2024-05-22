@@ -558,8 +558,6 @@ It introduces border with padding spacing between content,
         </p>
       </div>
     </div>
-
-
  
     <!-- Form with action definition-->
     <form method="GET" action="https://www.gmail.com">
