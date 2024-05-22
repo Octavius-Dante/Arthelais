@@ -110,6 +110,15 @@ eg. onClick is an event for a button control when click happens. You can check a
 
 </br></br>
 
+**Type Script**
+
+- It is an advanced version of Java Script
+- It does syntax check at design time
+- It's pure oops
+- The Compilation of TS takes more time compared to java script
+- Browser directly don't support TS
+
+
 </br></br>
 </br></br>
 </br></br>
