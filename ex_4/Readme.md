@@ -21,7 +21,7 @@ You don't need to learn Java. The java and Java script has nothing in common exc
 </br>
 
 2. **Server-Side JS** - All the JS code executes on server side. 
-</br>Since we cannot have a browser running to execute JS code, we need framework to run it. Eg. NodeJS, XSJS
+</br>Since we cannot have a browser running to execute JS code, we need framework to run it. Eg NodeJS, XSJS
 
 </br></br>
 
