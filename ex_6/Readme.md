@@ -2,6 +2,15 @@
 
 </br></br>
 
+Major representation of JQuery "write less and do more", it is a collection of Java Script library and function out of the box.
+
+1. it is free
+2. Open source 
+3. It is used by top brands
+4. It is an industry standard
+5. Simplifies our JS code
+
+
 </br></br>
 </br></br>
 </br></br>
