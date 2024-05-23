@@ -128,7 +128,8 @@ function (){
 // write this code inside the script tag
 <script> 
 
-    function demoFunction(){
+    function demoFunction()
+    {
       alert('Welcome to SAP Ui5');
     }
 
@@ -151,7 +152,8 @@ function (){
 
 <script>
     
-    function consoleFunction(){
+    function consoleFunction()
+    {
     // Print in console for developers
     var x = 'Text for displaying console log message'
     console.log("This is a demo" + x);
@@ -177,7 +179,8 @@ function (){
 
 <script>
     
-    function document_writeFunction(){
+    function document_writeFunction()
+    {
       document.write("Demo text message for document.write");
     }
 
@@ -200,7 +203,8 @@ function (){
 
 <script>
     
-    function access_elementFunction(){
+    function access_elementFunction()
+    {
       var oMsg = document.getElementById('msg');
       oMsg.innerText = "Hey what's up!";
     }
@@ -226,7 +230,8 @@ function (){
 
 <script>
 
-    function input_textFunction(){
+    function input_textFunction()
+    {
       var oMsg = document.getElementById("label_text");
       var oInp = document.getElementById("max");
       oMsg.innerText = "Input field text is : " + oInp.value + " message showed";
