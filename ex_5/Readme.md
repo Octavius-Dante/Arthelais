@@ -220,6 +220,74 @@ function (){
 
 </br></br>
 
+**Reading a value from input field**
+
+```js
+
+<script>
+    
+    function input_textFunction(){
+      var oMsg = document.getElementById("label_text");
+      var oInp = document.getElementById("max");
+      oMsg.innerText = "Input field text is : " + oInp.value + " message showed";
+    }
+
+</script>
+
+  <body>
+
+    <label id="label_text"></label>    
+    <input id="max">
+    <button onclick="input_textFunction()">Get text Input</button>  
+
+  </body>
+
+```
+</br></br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</br></br>
+
 **Developer tools in browser debugging keys**
 
 - F10 - Line by line execution **(ABAP - F6)**
