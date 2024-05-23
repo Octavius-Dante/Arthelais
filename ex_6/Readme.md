@@ -160,6 +160,7 @@ There will be immediate response from a function it wont wait for a function to 
 
 ```
 
+</br></br>
 
 **JS - Synchronous - execution**
 
