@@ -30,7 +30,7 @@ Fiori elements :
 
 </br> </br> 
 
-## Building a Fiori Ui applications
+## Building a Fiori Ui5 application
 </br>
 
 1. Go to BAs / VSCode
