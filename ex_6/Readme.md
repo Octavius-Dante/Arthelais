@@ -27,9 +27,16 @@ Major representation of JQuery "write less and do more", it is a collection of J
 </br></br>
 
 **Refer it from CDN**
+</br> GO to this page (https://jquery.com/download/) and read about CDN and use any of the given CDN link 
+</br> i used (https://developers.google.com/speed/libraries#jquery) have to link the online version to our project 
+</br> like how we refer our JS script similarly an online link
 </br>
-</br>
-</br>
+
+```html
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+```
 
 </br></br>
 </br></br>
