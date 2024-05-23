@@ -92,13 +92,11 @@
 1. Named Function (function with a name)
 
 ```js
-<script>
 
 function functionName(param_1, param_2, . . . ){
      ~~code~~
 }
 
-</script>
 ```
 
 </br>
@@ -106,15 +104,29 @@ function functionName(param_1, param_2, . . . ){
 2. Anonymous Function (function with no name which are built in just have to use it)
 
 ```js
-<script>
 
 function (){
      ~~code~~
 }
-</script>
 ```
 
 </br></br>
+
+Defined the same button with script functions
+
+```js
+
+// write this code inside the script tag
+ 
+    function demoFunction(){
+      alert('Welcome to SAP Ui5');
+    }
+
+// use this button inside the body tag 
+
+    <button onclick="alert('Welcome to JS')">Click Me 1</button>
+
+```
 
 
 </br></br>
