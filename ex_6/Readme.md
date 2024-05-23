@@ -304,7 +304,7 @@ Example of same block with synchronous activity.
 </br>
 </br></br>
 
-## End of Exercise 6 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_4"> Exercise 7-SAP Ui5 Framework </a>
+## End of Exercise 6 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_7"> Exercise 7-SAP Ui5 Framework </a>
 </br>
 <p align="center"> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </p>
 
