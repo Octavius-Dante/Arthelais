@@ -169,11 +169,17 @@ finalName.indexOf("s");   // return 13 - success - index position 13
 finalName.indexOf("ban"); // return -1 - failed no value exist 
 
 // grabbing a part of string using index position 
-// substring( how many elements to take, index position)
+// substring( Index position From, index position to)
 
 let text = "Hello world!";
 let result = text.substring(4, 0);
 // result value is "Hell" it grabbed index 0,1,2,3  - 4 elements from zero index
+
+let result = text.substring(4, 6);
+// result value is "o " grabbed 2 elements from 4th index
+
+let result = text.substring(4, 12);
+// result value is "o world!" grabbed 12 elements from 4th index
 
 ```
 
