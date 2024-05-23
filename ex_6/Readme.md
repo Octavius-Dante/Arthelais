@@ -81,8 +81,42 @@ $(selector).action();
 
 ```
 
+</br></br>
 
+**Hiding and Showing the screen element using JQuery**
 
+```html
+
+<!-- Link the JQuery script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+
+    // Hide screen element using JQuery 
+    function screenElementHide() {
+      $(".box").hide();
+    }
+
+    // Show screen element using JQuery 
+    function screenElementShow() {
+      $(".box").show();
+    }
+
+</script>
+
+  <body>
+
+      </br> </br>
+      <div style="clear: left;"></div>
+      <button onclick="screenElementHide()">Screen element Hide JQUERY</button>
+
+      </br> </br>
+      <div style="clear: left;"></div>
+      <button onclick="screenElementShow()">Screen element Show JQUERY</button>
+
+  </body>
+
+```
 
 
 
