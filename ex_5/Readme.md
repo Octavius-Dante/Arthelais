@@ -359,13 +359,26 @@ function (){
 
 <script>
 
+    function addNewElement(){
+      // 1. Creare a brand new element
+      var oElement = document.createElement("h4");      
+      // 2. creaet a text node  // 3. add the text to the text node
+      var oTextNode = document.createTextNode("Aristotle");      
+      // 4. append the text node to the newly creraetd element
+      oElement.appendChild(oTextNode);
+      // 5. get the canvas element object
+      var oCanvas = document.getElementById("canvas");
+      // 6. add our newly created element inside the canvas
+      oCanvas.appendChild(oElement);
 
+    }
 
 </script>
 
   <body>
 
-
+    <button onclick="addNewElement()">Add New Element</button>    
+    <div id="canvas"></div>
 
   </body>
 
@@ -464,7 +477,6 @@ h3{
       }
     }
 
-
 // change the color of titles
     function getClass(){
 // Get all aelements in an array which has same class name
@@ -475,6 +487,20 @@ h3{
 // cahnging CSS at runtime           
         item.style.backgroundColor = "black";
       }
+    }
+
+    function addNewElement(){
+      // 1. Creare a brand new element
+      var oElement = document.createElement("h4");      
+      // 2. creaet a text node  // 3. add the text to the text node
+      var oTextNode = document.createTextNode("Aristotle");      
+      // 4. append the text node to the newly creraetd element
+      oElement.appendChild(oTextNode);
+      // 5. get the canvas element object
+      var oCanvas = document.getElementById("canvas");
+      // 6. add our newly created element inside the canvas
+      oCanvas.appendChild(oElement);
+
     }
 
 
@@ -634,10 +660,13 @@ h2 {
     <input id="max">
     <button onclick="input_textFunction()">Get text Input</button>    
 
+    <button onclick="addNewElement()">Add New Element</button>    
+    <div id="canvas"></div>
+
+
   </body>
 
 </html>
-
 
 ```
 
