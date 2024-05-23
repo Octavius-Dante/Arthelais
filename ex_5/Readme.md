@@ -5,6 +5,11 @@
 
 **Creating a JSON file with multiple row values**
 
+<details>
+<summary> JSON file sample multiple values like internal table </summary>
+</br>
+</br>
+
 ```json
 
 {
@@ -61,6 +66,9 @@
 }
 
 ```
+
+</br>
+</details>
 
 </br></br>
 
