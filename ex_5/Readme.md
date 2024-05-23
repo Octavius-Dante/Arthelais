@@ -291,11 +291,8 @@ function (){
   <body>
 
 <!-- Validation for input fields-->
-<form>
-  <div style="clear: left;"></div>
-  <div style="padding-top: 35px;"></div>
-  <h3>Personal details</h3>
 
+  <h3>Personal details</h3>
   <!-- alignment of login details -->
   <table id="login">
     <tbod>
@@ -312,9 +309,6 @@ function (){
       </tr>
     </tbod>
   </table>
-
-  </div>
-</form>
 
   </body>
 
