@@ -270,8 +270,7 @@ The span is a inline element tag , it never starts from a new line, always keeps
 </details>
 
 
-</br></br>
-</br></br>
+</br>
 </br></br>
 
 ## End of Exercise 2 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_3"> Exercise 3-CSS </a>

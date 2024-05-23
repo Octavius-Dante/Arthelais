@@ -718,8 +718,7 @@ if ( gamma > 40){
 
 ```
 
-</br></br>
-</br></br>
+</br>
 </br></br>
 
 ## End of Exercise 5 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_6"> Exercise 6-JQuery </a>

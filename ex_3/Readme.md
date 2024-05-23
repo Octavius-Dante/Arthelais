@@ -1703,8 +1703,7 @@ Pseudo classes are special elements which brings conditional styling on the cont
 [refer w3schools website for detailed understanding on CSS](https://www.w3schools.com)
 
 
-</br></br>
-</br></br>
+</br>
 </br></br>
 
 ## End of Exercise 3 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_4"> Exercise 4-JS Basic </a>
