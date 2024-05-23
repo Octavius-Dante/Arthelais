@@ -166,7 +166,7 @@ There will be immediate response from a function it wont wait for a function to 
 
 </br>
 
-Example of same block with synchronous activity
+Example of same block with synchronous activity , Check for the JQuery function name online for documentation to see what are all the parameters can be used 
 
 ```html
 
