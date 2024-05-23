@@ -254,6 +254,7 @@ arrFinal = [];
 // special array with no index instead it has to be accessed by refereing to the values
 var arrNew = [];
 
+// value defining 
 arrNew.jane = 100;
 arrNew.jack = 200;
 arrNew.joyce = 300;
@@ -262,7 +263,9 @@ arrNew.jill = 500;
 arrNew.julius = 600;
 arrNew.jarek = 700;
 
-// this array cannot be accessd with indexd isntead it should be access with the defined value 
+// this array cannot be accessd with index isntead it should be accessed with the defined value 
+
+// array accessing with the proeprty name
 arrNew["jill"]; 
 
 ```
