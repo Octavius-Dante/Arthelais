@@ -180,7 +180,7 @@ Example of same block with synchronous activity
     }
 </script>
 
-<!-- it can be written in following alterantive way -->
+<!-- it can be written in following alternative way -->
 
 <script>
     // Hide screen element using JQuery 
