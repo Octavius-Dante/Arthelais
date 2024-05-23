@@ -171,7 +171,6 @@ Example of same block with synchronous activity
 ```html
 
 <script>
-
     // Hide screen element using JQuery 
     function elementHide() {
       //$(".box").hide();           
@@ -179,7 +178,20 @@ Example of same block with synchronous activity
         alert("Fade out effect completed");
       });         
     }
+</script>
 
+<!-- it can be written in following alterantive way -->
+
+<script>
+    // Hide screen element using JQuery 
+    function elementHide() {
+      //$(".box").hide();           
+      $(".box").fadeOut(5000, callBack());         
+    }
+
+    function callBack(){
+      alert("Fade out effect completed");
+    }
 </script>
 
 ```
