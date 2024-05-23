@@ -90,9 +90,7 @@ sProperties - Json which we can pass with the properties, events
     data-sap-ui-libs="sap.m"
     data-sap-ui-theme="sap_horizon_dark"
 
-    data-sap-ui-resourceroots='{
-        "spiderman" : "./"
-    }'
+    data-sap-ui-resourceroots='{ "spiderman" : "./" }'
 
     ></script>
 
