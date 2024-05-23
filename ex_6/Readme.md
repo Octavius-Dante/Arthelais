@@ -197,7 +197,34 @@ Example of same block with synchronous activity.
 
 ```
 
+**Image manipulation in Jquery**
 
+```html
+
+<script>
+
+// Image manipulation function jquery
+    function playImage() {
+      $("#myImg").animate({
+        width: '+=100px',
+        height: '+=62px'
+      });
+    }
+
+</script>
+
+<body>
+
+  <div class="box3"> 
+    <img src="images/1222.jpg" width="300px" height="188px" id="myImg">
+    </br> </br>
+    <div style="clear: left;"></div>
+    <button onclick="playImage()">Image play JQUERY</button>
+  </div>    
+
+</body>
+
+```
 
 
 
