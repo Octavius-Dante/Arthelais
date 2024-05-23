@@ -126,11 +126,11 @@ Defined the same button with script functions
 </script> 
 
 // use this button inside the body tag 
-// <body>
+<body>
 
-    <button onclick="alert('Welcome to JS')">Click Me 1</button>
+    <button onclick="demoFunction()">Click Me 2</button>
 
-// </body>
+</body>
 
 ```
 
