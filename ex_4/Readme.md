@@ -168,6 +168,13 @@ finalName.indexOf("s");   // return 13 - success - index position 13
 
 finalName.indexOf("ban"); // return -1 - failed no value exist 
 
+// grabbing a part of string using index position 
+// substring( how many elements to take, index position)
+
+let text = "Hello world!";
+let result = text.substring(4, 0);
+// result value is "Hell" it grabbed index 0,1,2,3  - 4 elements from zero index
+
 ```
 
 </br></br>
