@@ -220,7 +220,7 @@ if ( gamma > 40){
 
 </br></br>
 
-**Access element and display message** display the message in an element in the webpage
+**Access element and display the message** 
 
 ```js
 
