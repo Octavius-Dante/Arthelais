@@ -31,7 +31,7 @@ Fiori elements :
 
 ## Building a Fiori Ui applications
 
-1. Go to BAs / VScode
+1. Go to BAs / VSCode
 2. Open terminal and create a Folder for the project
 3. Initiate a bootstrap by creating a file (launch file) index.html
 4. Then add the basic HTML tags (HTML, HEAD, BODY, SCRIPT)
@@ -39,7 +39,7 @@ Fiori elements :
 6. Define a name space for the project directory to make it unique across the world also serves as ALIAS NAME for the project directory 
 7. Create a folder (webapp) and move the index.html file inside the directory 
 </br>  Earlier : (projects\ui5_basic\index.html) 
-</br>  Now it should be : (projects\ui5_basic\webapp\index.html) this is how a working project structure is follwed 
+</br>  Now it should be : (projects\ui5_basic\webapp\index.html) this is how a working project structure is followed 
 
 </br> 
 
