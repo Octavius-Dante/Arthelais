@@ -62,6 +62,28 @@
 
 ```
 
+</br></br>
+
+
+**inline JS for sample button alert**
+</br>
+
+```html
+
+<body>
+
+  <body style="background-color: rgb(12, 112, 212);">
+
+    <!-- inline java script-->
+    <button onclick="alert('Welcome to JS')">Click Me</button>
+
+  </body>
+
+```
+
+</br></br>
+
+
 
 </br></br>
 </br></br>
