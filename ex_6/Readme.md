@@ -233,6 +233,22 @@ Example of same block with synchronous activity.
       });
     }
 
+// the above same code to run in infinite loop 
+    function imageDanceLoop() {
+      $("#myImg").animate({
+        width: '+=100px',
+        height: '+=62px'
+      }, function() {
+        $(this).animate({
+          width: '-=100px',
+          height: '-=62px'
+        }, function(){
+            imageDanceLoop();
+        });
+      });
+    }
+
+
 </script>
 
 <body>
@@ -250,7 +266,11 @@ Example of same block with synchronous activity.
     </br> </br>
     <div style="clear: left;"></div>
     <button onclick="imageDance()">Image Dance JQUERY</button> 
-  </div>    
+
+    </br> </br>
+    <div style="clear: left;"></div>
+    <button onclick="imageDanceLoop()">Image Dance Loop JQUERY</button> 
+   </div>    
 
 </body>
 
