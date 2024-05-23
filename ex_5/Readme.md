@@ -98,10 +98,10 @@ function (){
 
 **Output Functions in JS**
 
-- Alert
-- console.log (mainly for developers)
-- Document.write (this is gonna change the DOM)
-- HTML.Element.innerText
+1. Alert
+2. console.log (mainly for developers)
+3. Document.write (this is gonna change the DOM)
+4. HTML.Element.innerText
 
 </br></br>
 
@@ -217,6 +217,8 @@ function (){
 
 
 ```
+
+</br></br>
 
 **Developer tools in browser debugging keys**
 
