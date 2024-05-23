@@ -1,4 +1,4 @@
-## Exercise 8 - MVC design pattern
+## Exercise 8 - Control Hierarchy
 
 </br></br>
 
@@ -6,7 +6,7 @@
 </br></br>
 </br></br>
 
-## End of Exercise 8 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_9"> Exercise 9-Control Hierarchy </a>
+## End of Exercise 8 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_9"> Exercise 9-Control Hierarchy 2</a>
 </br>
 <p align="center"> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </p>
 
