@@ -193,6 +193,8 @@ if ( gamma > 40){
 ```
 
 
+</br></br>
+
 **Document.Write message**
 
 ```js
