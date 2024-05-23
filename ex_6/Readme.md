@@ -10,6 +10,15 @@ Major representation of JQuery "write less and do more", it is a collection of J
 4. It is an industry standard
 5. Simplifies our JS code
 
+</br></br>
+
+**How to get this library**
+
+1. Download and make a local reference
+2. Reference it from CDN **(Content Delivery Network)**
+
+</br></br>
+
 
 </br></br>
 </br></br>
