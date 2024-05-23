@@ -40,6 +40,42 @@ Major representation of JQuery "write less and do more", it is a collection of J
 ```
 
 </br></br>
+
+**How to use it**
+
+</br>
+
+```html
+
+$(selector).action();
+
+$ - indicates browseer that we want to use JQuery
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</br></br>
 </br></br>
 </br></br>
 
