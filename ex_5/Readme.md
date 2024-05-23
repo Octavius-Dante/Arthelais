@@ -87,7 +87,7 @@
 
 
 **Functions**
-</br>
+</br></br>
 
 1. Named Function (function with a name)
 
