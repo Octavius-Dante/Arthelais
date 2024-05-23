@@ -76,7 +76,6 @@ sProperties - Json which we can pass with the properties, events
 
 **Fiori Bootstrap code with theme details HTML**
 
-
 ```html
 
 <html>
@@ -140,6 +139,30 @@ sProperties - Json which we can pass with the properties, events
 
 ```
 
+**Sample Button click action in Ui5**
+
+
+```html
+<html>    
+ <head>
+    <script>
+        var oBtn = new sap.m.Button("idBtn",{
+            text: "Spiderman",
+            press: function(){
+                alert("Ui5 alert test");
+            }
+        });
+        oBtn.placeAt("content");
+    </script>
+ </head>
+
+  <body class="sapUiBody">
+    <div id="content"> </div>
+  </body>  
+
+<html>    
+
+```
 
 
 
