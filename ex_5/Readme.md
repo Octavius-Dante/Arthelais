@@ -318,7 +318,7 @@ function (){
 
 **Changing the color of screen element - getElementByClassName Function**
 
-</br> sample snippet 
+</br> sample snippet for complete code look below 
 
 ```html
 
@@ -350,6 +350,28 @@ function (){
 ```
 
 </br> </br>
+
+
+**Creating new element on the screen -**
+
+
+```html
+
+<script>
+
+
+
+</script>
+
+  <body>
+
+
+
+  </body>
+
+```
+
+</br></br>
 
 <details>
 <summary> <b> complete code is here </b> </summary>
@@ -624,6 +646,8 @@ h2 {
 </details>
 
 </br></br>
+
+
 
 
 **Developer tools in browser debugging keys**
