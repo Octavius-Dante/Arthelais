@@ -43,7 +43,7 @@ Major representation of JQuery "write less and do more", it is a collection of J
 
 **How to use it**
 
-$ - indicates browser that we want to use JQuery
+' $ - indicates browser that we want to use JQuery
 
 </br>
 
@@ -52,6 +52,35 @@ $ - indicates browser that we want to use JQuery
 $(selector).action();
 
 ```
+
+</br></br>
+
+**Changing the screen element using JQuery** - same task we did in JS code in previous session
+
+```html
+
+<!-- Link the JQuery script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+
+// change the screen element using JQuery --- color of titles
+    function jqueryChange() {
+      $(".box-title").css("background-color", "black");
+    }    
+
+</script>
+
+  <body>
+
+    </br> </br>
+    <div style="clear: left;"></div>
+    <button onclick="jqueryChange()">Screen element change JQUERY</button>
+
+  </body>
+
+```
+
 
 
 
