@@ -145,7 +145,7 @@ function (){
 </br></br>
 
 
-**Console log message**
+**Console log message** check this message in chrome browser F12 key (developer tools) console section
 
 ```js
 
