@@ -221,6 +221,18 @@ Example of same block with synchronous activity.
       });
     }    
 
+    function imageDance() {
+      $("#myImg").animate({
+        width: '+=100px',
+        height: '+=62px'
+      }, function() {
+        $(this).animate({
+          width: '-=100px',
+          height: '-=62px'
+        });
+      });
+    }
+
 </script>
 
 <body>
@@ -234,6 +246,10 @@ Example of same block with synchronous activity.
     </br> </br>
     <div style="clear: left;"></div>
     <button onclick="playImageDecrease()">Image Decrease JQUERY</button>    
+    
+    </br> </br>
+    <div style="clear: left;"></div>
+    <button onclick="imageDance()">Image Dance JQUERY</button> 
   </div>    
 
 </body>
