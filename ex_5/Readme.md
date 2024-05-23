@@ -112,7 +112,7 @@ function (){
 
 </br></br>
 
-Defined the same button with script functions
+**Defined the same button with script functions**
 
 ```js
 
