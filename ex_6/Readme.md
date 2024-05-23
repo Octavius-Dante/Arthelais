@@ -122,10 +122,43 @@ $(selector).action();
 
 ```
 
+</br></br>
+
+**JS - Asynchronous Non Blocking IO**
+
+</br>
+
+There will be immediate response from a function it wont wait for a function to be completed and perform next action it immediately executes.
 
 
+```html
 
+<!-- Link the JQuery script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
+<script>
+
+    // Hide screen element using JQuery 
+    function elementHide() {
+      //$(".box").hide();           
+      $(".box").fadeOut(5000);      
+    
+    // JS non-blocking IO example 
+    alert("Fade out effect is executed");
+    }
+
+</script>
+
+  <body>
+
+    <div class="nobox">
+      </br> </br>
+      <div style="clear: left;"></div>
+      <button onclick="elementHide()">Hide Element JQUERY</button>
+
+  </body>
+
+```
 
 
 
