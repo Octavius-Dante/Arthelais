@@ -324,14 +324,18 @@ function (){
 
 <script>
 
-    function getClass(){
 // change the color of titles
+    function getClass(){
+// Get all aelements in an array which has same class name
       var arrElements = document.getElementsByClassName("box-title");
+// loop over an array and process one by one       
       for(var i=0;i<arrElements.length;i++){
           var item = arrElements[i];
+// cahnging CSS at runtime           
         item.style.backgroundColor = "black";
       }
     }
+
 
 </script>
 
@@ -437,14 +441,18 @@ h3{
     }
 
 
-    function getClass(){
 // change the color of titles
+    function getClass(){
+// Get all aelements in an array which has same class name
       var arrElements = document.getElementsByClassName("box-title");
+// loop over an array and process one by one       
       for(var i=0;i<arrElements.length;i++){
           var item = arrElements[i];
+// cahnging CSS at runtime           
         item.style.backgroundColor = "black";
       }
     }
+
 
   </script>
 
