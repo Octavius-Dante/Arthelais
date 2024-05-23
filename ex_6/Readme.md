@@ -197,7 +197,9 @@ Example of same block with synchronous activity.
 
 ```
 
-**Image manipulation in Jquery**
+</br></br>
+
+**Image manipulation in JQuery**
 
 ```html
 
@@ -226,6 +228,7 @@ Example of same block with synchronous activity.
 
 ```
 
+</br></br>
 
 
 
