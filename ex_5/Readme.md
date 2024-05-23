@@ -220,7 +220,7 @@ function (){
 
 </br></br>
 
-**Reading a value from input field**
+**Reading value from input field**
 
 ```js
 
