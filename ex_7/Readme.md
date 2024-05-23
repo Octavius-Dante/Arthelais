@@ -36,6 +36,10 @@ Fiori elements :
 3. Initiate a bootstrap by creating a file (launch file) index.html
 4. Then add the basic HTML tags (HTML, HEAD, BODY, SCRIPT)
 5. Then link the script source both links works (https://sapui5.hana.ondemand.com/resources/sap-ui-core.js) or (https://ui5.sap.com/resources/sap-ui-core.js)
+6. Define a name space for the project directory to make it unique across the world also serves as ALIAS NAME for the project directory 
+7. Create a folder (webapp) and move the index.html file inside the directory 
+</br>  Earlier : (projects\ui5_basic\index.html) 
+</br>  Now it should be : (projects\ui5_basic\webapp\index.html) this is how a working project structure is follwed 
 
 </br> 
 
@@ -60,10 +64,27 @@ Fiori elements :
     <script
     id="sap-ui-bootstrap"
     type="text/javascript"
-    src="https://ui5.sap.com/resources/sap-ui-core.js"
+    src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
     data-sap-ui-libs="sap.m"
-    data-sap-ui-theme="sap_bluecrystal"
+    data-sap-ui-theme="sap_horizon_dark"
+
+    data-sap-ui-resourceroots='{
+        "spiderman" : "./"
+    }'
+
     ></script>
+
+<!-- 
+
+// Current working directory definition - notifying SAP
+    
+    data-sap-ui-resourceroots='{
+        "CompanyName.ProjectName.TeamName" : "./"
+    }'
+
+    namespace = CompanyName.ProjectName.TeamName
+-->
+
 
 <!--  Lit of SAP Thenmes for Fiori page  - link : 
 
