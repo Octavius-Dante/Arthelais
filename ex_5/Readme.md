@@ -133,6 +133,16 @@ Defined the same button with script functions
 </body>
 
 ```
+</br></br>
+
+**Output Functions in JS**
+
+- Alert
+- console.log (mainly for developers)
+- Document.write (this is gonna change the DOM)
+- HTML.Element.innerText
+
+</br></br>
 
 
 </br></br>
