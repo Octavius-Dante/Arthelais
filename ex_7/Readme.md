@@ -16,7 +16,8 @@ SAP Ui5 is a framework developed by SAP based on Open Standards to build respons
 
 </br> </br> 
 
-Sap provides a SDK (software development kit) for developer to understand, Learn, experience, Code, documentation of SAP ui5
+Sap provides a SDK (software development kit) for developer to understand, Learn, experience, Code (snippet) of SAP ui5
+</br> as well as documentation of all the Ui elements in Sap Ui5 in the following link 
 
 </br> https://sapui5.hana.ondemand.com/
 
