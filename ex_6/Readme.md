@@ -17,14 +17,14 @@ Major representation of JQuery "write less and do more", it is a collection of J
 1. Download and make a local reference 
 2. Reference it from CDN **(Content Delivery/Distribution Network)** - refer the latest version of JQuery 
 
-</br></br>
+</br>
 
 **Local reference**
 </br>
 </br> Go to this website (https://jquery.com/) and download the file and same way we referred the script refer this JQuery (JS) file
 </br> (not recommended because JQuery version may change and need to make changes every time to stay updated)
 
-</br></br>
+</br>
 
 **Refer it from CDN**
 </br>
