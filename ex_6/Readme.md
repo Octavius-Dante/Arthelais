@@ -206,12 +206,20 @@ Example of same block with synchronous activity.
 <script>
 
 // Image manipulation function jquery
-    function playImage() {
+    function playImageIncrease() {
       $("#myImg").animate({
         width: '+=100px',
         height: '+=62px'
       });
     }
+
+// Image manipulation function jquery
+    function playImageDecrease() {
+      $("#myImg").animate({
+        width: '-=100px',
+        height: '-=62px'
+      });
+    }    
 
 </script>
 
@@ -221,7 +229,11 @@ Example of same block with synchronous activity.
     <img src="images/1222.jpg" width="300px" height="188px" id="myImg">
     </br> </br>
     <div style="clear: left;"></div>
-    <button onclick="playImage()">Image play JQUERY</button>
+    <button onclick="playImageIncrease()">Image Increase JQUERY</button>
+
+    </br> </br>
+    <div style="clear: left;"></div>
+    <button onclick="playImageDecrease()">Image Decrease JQUERY</button>    
   </div>    
 
 </body>
