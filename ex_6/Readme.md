@@ -94,14 +94,14 @@ $(selector).action();
 
     // Hide screen element using JQuery 
     function elementHide() {
-      //$(".box").hide();
-      $(".box").fadeOut(5000);
+      //$(".box").hide();           // variant 1 right away instantly hide 
+      $(".box").fadeOut(5000);      // varaint 2 slowly disappear animation 
     }
 
     // Show screen element using JQuery 
     function elementShow() {
-      //$(".box").show();
-      $(".box").fadeIn(5000);
+      //$(".box").show();           // variant 1 right away instantly show 
+      $(".box").fadeIn(5000);       // varaint 2 slowly appear animation
     }
 
 </script>
