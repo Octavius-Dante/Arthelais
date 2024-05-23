@@ -254,6 +254,32 @@ arrFinal = [];
 
 ```
 
+**For each example**
+
+```html
+
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+const numbers = [65, 44, 12, 4];
+numbers.forEach(myFunction)
+
+document.getElementById("demo").innerHTML = numbers;
+
+function myFunction(item, index, arr) {
+  arr[index] = item * 10;
+}
+</script>
+
+</body>
+</html>
+
+```
+
+
 </br></br>
 
 Sample # 4 Objects in JS
