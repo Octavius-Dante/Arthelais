@@ -352,7 +352,7 @@ function (){
 </br> </br>
 
 <details>
-<summary> <b> Full code is below </b> </summary>
+<summary> <b> complete code is here </b> </summary>
 </br>
 </br>
 
