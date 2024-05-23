@@ -86,6 +86,31 @@
 </br></br>
 
 
+**Functions**
+</br>
+
+1. Named Function (function with a name)
+
+```js
+
+function functionName(param_1, param_2, . . . ){
+     ~~code~~
+}
+
+```
+
+2. Anonymous Function (function with no name which are built in just ahve to use its)
+
+```js
+
+function (){
+     ~~code~~
+}
+
+```
+
+</br></br>
+
 
 </br></br>
 </br></br>
