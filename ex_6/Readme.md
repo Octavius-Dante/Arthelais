@@ -10,7 +10,7 @@ Major representation of JQuery "write less and do more", it is a collection of J
 4. It is an industry standard
 5. Simplifies our JS code
 
-</br></br>
+</br>
 
 **How to get this library**
 
