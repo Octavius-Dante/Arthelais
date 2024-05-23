@@ -182,7 +182,7 @@ function (){
 
 ```js
 
-// hardcoded Brek-point
+// hardcoded Break-point
 // keyword debugger
 
 var alpha = 20, beta = 30, gamma = alpha + beta;
