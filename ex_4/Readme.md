@@ -252,6 +252,21 @@ for (var i = 0; i < arrFinal.length; i++) {
 arrFinal = [];
 
 
+// special array with no index instead it has to be accessed by refereing tothe values
+
+var arrNew = [];
+
+arrNew.jane = 100;
+arrNew.jack = 200;
+arrNew.joyce = 300;
+arrNew.jim = 400;
+arrNew.jill = 500;
+arrNew.julius = 600;
+arrNew.jarek = 700;
+
+// this array cannot be accessd with indexd isntead it should be access with the defined value 
+arrNew["jill"]; 
+
 ```
 
 **For each example**
