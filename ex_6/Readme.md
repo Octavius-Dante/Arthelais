@@ -27,8 +27,9 @@ Major representation of JQuery "write less and do more", it is a collection of J
 </br></br>
 
 **Refer it from CDN**
-</br> GO to this page (https://jquery.com/download/) and read about CDN and use any of the given CDN link 
-</br> i used (https://developers.google.com/speed/libraries#jquery) have to link the online version to our project 
+</br>
+</br> GO to this page (https://jquery.com/download/) and read about CDN and use any of the given CDN link.
+</br> I used (https://developers.google.com/speed/libraries#jquery) have to link the online version to our project 
 </br> like how we refer our JS script similarly an online link
 </br>
 
