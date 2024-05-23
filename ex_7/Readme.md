@@ -139,8 +139,9 @@ sProperties - Json which we can pass with the properties, events
 
 ```
 
-**Sample Button click action in Ui5**
+</br> </br> 
 
+**Sample Button click action in Ui5**
 
 ```html
 <html>    
