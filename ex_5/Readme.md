@@ -117,10 +117,13 @@ Defined the same button with script functions
 ```js
 
 // write this code inside the script tag
- 
+<script> 
+
     function demoFunction(){
       alert('Welcome to SAP Ui5');
     }
+
+</script> 
 
 // use this button inside the body tag 
 
