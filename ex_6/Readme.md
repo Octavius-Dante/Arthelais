@@ -161,7 +161,27 @@ There will be immediate response from a function it wont wait for a function to 
 ```
 
 
+**JS - Synchronous - execution**
 
+</br>
+
+Example of same block with synchronous activity
+
+```html
+
+<script>
+
+    // Hide screen element using JQuery 
+    function elementHide() {
+      //$(".box").hide();           
+      $(".box").fadeOut(5000, function(){    
+        alert("Fade out effect completed");
+      });         
+    }
+
+</script>
+
+```
 
 
 
