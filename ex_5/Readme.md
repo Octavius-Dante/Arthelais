@@ -65,7 +65,7 @@
 </br></br>
 
 
-**inline JS -- example -- Button click alert message**
+**OnClick event -- Example -- Button click alert message**
 </br>
 
 ```html
