@@ -22,10 +22,28 @@ Sap provides a SDK (software development kit) for developer to understand, Learn
 </br> https://sapui5.hana.ondemand.com/
 
 
+Access this page and check all the pages (api reference - detailed document on the code library, documentation, Samples and Fiori elements page)
+
+Fiori elements : 
+
+</br> https://sapui5.hana.ondemand.com/test-resources/sap/fe/core/fpmExplorer/index.html#/overview/introduction
 
 
+## Building a Fiori Ui applications
 
+1. Go to BAs / VScode
+2. Open terminal and create a Folder for the project
+3. Initiate a bootstrap by creating a file (launch file) index.html
+4. Then add the basic HTML tags (HTML, HEAD, BODY, SCRIPT)
+5. Then link the script source (https://sapui5.hana.ondemand.com/resources/sap-ui-core.js)
 
+</br> 
+
+```html
+
+<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js">
+
+```
 
 
 
