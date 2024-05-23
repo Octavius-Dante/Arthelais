@@ -6,7 +6,7 @@
 </br></br>
 </br></br>
 
-## End of Exercise 8 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_4"> Exercise 9-Control Hierarchy </a>
+## End of Exercise 8 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_9"> Exercise 9-Control Hierarchy </a>
 </br>
 <p align="center"> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </p>
 
