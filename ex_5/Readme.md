@@ -256,7 +256,7 @@ function (){
 </br></br>
 
 
-**Validation of input fields**
+**Validation of values in input fields**
 
 ```js
 
