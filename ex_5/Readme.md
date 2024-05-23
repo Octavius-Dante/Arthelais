@@ -123,7 +123,7 @@ function (){
 
 **1.(b) Defined the same button with script functions**
 
-```js
+```html
 
 // write this code inside the script tag
 <script> 
@@ -148,7 +148,7 @@ function (){
 
 **2. Console log message** check this message in chrome browser F12 key (developer tools) console section
 
-```js
+```html
 
 <script>
     
@@ -175,7 +175,7 @@ function (){
 
 **3. Document.Write message** whole page changes and message is displayed (ABAP write statement)
 
-```js
+```html
 
 <script>
     
@@ -199,7 +199,7 @@ function (){
 
 **4. Access element and display the message** 
 
-```js
+```html
 
 <script>
     
@@ -226,7 +226,7 @@ function (){
 
 **Reading value from input field**
 
-```js
+```html
 
 <script>
 
