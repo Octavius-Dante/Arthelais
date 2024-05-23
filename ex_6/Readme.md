@@ -94,12 +94,14 @@ $(selector).action();
 
     // Hide screen element using JQuery 
     function elementHide() {
-      $(".box").hide();
+      //$(".box").hide();
+      $(".box").fadeOut(5000);
     }
 
     // Show screen element using JQuery 
     function elementShow() {
-      $(".box").show();
+      //$(".box").show();
+      $(".box").fadeIn(5000);
     }
 
 </script>
