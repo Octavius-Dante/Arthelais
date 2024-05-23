@@ -178,7 +178,7 @@ function (){
 - Shift + F10 - Go out of current function or current module **(ABAP - F7)**
 - F8 - Continue execution - / stop to next BP **(ABAP - F8)**
 
-</br></br>
+</br>
 
 ```js
 
