@@ -53,6 +53,14 @@ Pre-requisite VSCode or BAS should be installed and active.
 
 </br></br>
 
+**VALIDATOR WEBPAGES**
+
+[CSS lint](http://csslint.net/)
+[JS lint](https://www.jslint.com/)
+[Json lint](https://jsonlint.com/) 
+[Yaml lint](https://www.yamllint.com/)
+
+</br></br>
 
 ## End of Ui5 developments - Other links for further learning
 
