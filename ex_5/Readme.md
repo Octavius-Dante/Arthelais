@@ -258,7 +258,7 @@ function (){
 
 **Validation of values in input fields**
 
-```js
+```html
 
 <script>
 
