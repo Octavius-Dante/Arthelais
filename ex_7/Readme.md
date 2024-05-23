@@ -47,6 +47,9 @@ Fiori elements :
 
 </br> </br> 
 
+**Sample html file with Fiori Bootstrap code with theme details**
+
+
 ```html
 
 <html>
