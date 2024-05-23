@@ -165,6 +165,26 @@ sProperties - Json which we can pass with the properties, events
 
 ```
 
+**Sample input field in Ui5**
+
+```html
+<html>    
+ <head>
+    <script>
+        // var oInp = new sap.m.Input("idInp");
+        // oInp.placeAt("content2");
+
+        new sap.m.Input("idInp").placeAt("content2");
+    </script>
+ </head>
+
+  <body class="sapUiBody">
+    <div id="content2"> </div>
+  </body>  
+
+<html> 
+    
+```
 
 
 
