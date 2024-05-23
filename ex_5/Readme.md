@@ -671,7 +671,6 @@ h2 {
     <button onclick="addNewElement()">Add New Element</button>    
     <div id="canvas"></div>
 
-
   </body>
 
 </html>
