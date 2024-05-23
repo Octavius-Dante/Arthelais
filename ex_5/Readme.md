@@ -226,10 +226,6 @@ function (){
 
 <script>
 
-// In developer tools - Inspect the element and Get the element ID 
-// get the stored password in Console section type the following code example id="login-passwd"
-// document.getElementById("login-passwd").value 
-
     function input_textFunction(){
       var oMsg = document.getElementById("label_text");
       var oInp = document.getElementById("max");
@@ -245,6 +241,11 @@ function (){
     <button onclick="input_textFunction()">Get text Input</button>  
 
   </body>
+
+
+// In developer tools - Inspect the element and Get the element ID 
+// get the stored password in Console section type the following code example id="login-passwd"
+// document.getElementById("login-passwd").value 
 
 ```
 </br></br>
