@@ -247,7 +247,6 @@ function (){
 
   </body>
 
-
 // In developer tools - Inspect the element and Get the element ID 
 // get the stored password in Console section type the following code example id="login-passwd"
 
