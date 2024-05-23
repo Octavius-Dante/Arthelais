@@ -719,9 +719,6 @@ if ( gamma > 40){
 
 ```
 
-
-</br></br>
-
 </br></br>
 </br></br>
 </br></br>
