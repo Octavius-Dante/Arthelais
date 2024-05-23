@@ -226,6 +226,8 @@ function (){
 
 <script>
     
+// document.getElementById("login-passwd").value - exercise of chrome browser F12 - get stored password with inspected ID name
+
     function input_textFunction(){
       var oMsg = document.getElementById("label_text");
       var oInp = document.getElementById("max");
