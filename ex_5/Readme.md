@@ -684,9 +684,6 @@ h2 {
 
 </br></br>
 
-
-
-
 **Developer tools in browser debugging keys**
 
 - F10 - Line by line execution **(ABAP - F6)**
@@ -712,7 +709,18 @@ if ( gamma > 40){
 
 </br></br>
 
+**External CSS Linking - to the .html page**
 
+```html
+
+<script src="js/myjs_lib.js"> 
+</script>
+
+
+```
+
+
+</br></br>
 
 </br></br>
 </br></br>
