@@ -248,8 +248,28 @@ Example of same block with synchronous activity.
       });
     }
 
-
 </script>
+
+<!-- Same image animation in mouse hover action -->
+  <script>
+    // once my page is fully laoded
+    $(document).ready(function () {
+      // attach an event dynamically to our image
+      $('#hImg').mouseover(function () {
+        //user mouse over on image, now this code will be called
+        $("#hImg").animate({
+          width: '+=100px',
+          height: '+=62px'
+        }, function () {
+        $(this).animate({
+          width: '-=100px',
+          height: '-=62px'
+        });
+      });
+      })
+    });
+  </script>
+
 
 <body>
 
@@ -271,6 +291,11 @@ Example of same block with synchronous activity.
     <div style="clear: left;"></div>
     <button onclick="imageDanceLoop()">Image Dance Loop JQUERY</button> 
    </div>    
+
+<!-- Mouseover animation image -->
+    <div class="box4">
+     <img src="images/sample.jpg" width="300px" height="188px" id="hImg">
+    <div>
 
 </body>
 
