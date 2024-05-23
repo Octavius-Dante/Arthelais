@@ -149,7 +149,7 @@ function (){
 
 ```js
 
-  <script>
+<script>
     
     function consoleFunction(){
     // Print in console for developers
