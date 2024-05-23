@@ -203,18 +203,15 @@ if ( gamma > 40){
 
 <script>
     
-    function consoleFunction(){
-    // Print in console for developers
-    var x = 'Text for displaying console log message'
-    console.log("This is a demo" + x);
-    // console.log('test value');
+    function document_writeFunction(){
+      document.write("Demo text message for document.write");
     }
 
 </script>
 
   <body>
 
-    <button onclick="consoleFunction()">Click Me console message</button>
+    <button onclick="document_writeFunction()">Document Write message</button>
 
   </body>
 
