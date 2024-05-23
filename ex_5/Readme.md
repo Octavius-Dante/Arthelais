@@ -318,20 +318,301 @@ function (){
 
 **Changing the color of screen element - getElementByClassName Function**
 
+</br> sample snippet 
+
 ```html
 
 <script>
 
+    function getClass(){
+// change the color of titles
+      var arrElements = document.getElementsByClassName("box-title");
+      for(var i=0;i<arrElements.length;i++){
+          var item = arrElements[i];
+        item.style.backgroundColor = "black";
+      }
+    }
 
 </script>
 
   <body>
 
-
+    </br> </br>
+    <div style="clear: left;"></div>
+    <button onclick="getClass()">Screen element change</button>
 
   </body>
 
 ```
+
+<details>
+<summary> <b> Full code is below </b> </summary>
+</br>
+</br>
+
+```html
+
+<html>
+
+<head>
+
+<style>
+
+td ,th{
+  color: white;  
+}
+
+h3{
+  color: white;  
+}
+
+</style>
+
+  <!-- MetaData info for webpage -->
+  <meta name="encoding" content="utf-8" />
+  <meta name="description" content="Basic HTML5 learning web page" />
+  <meta name="Author" content="Dante" />
+  <meta name="keywords" content="HTML5 learn html tutorials" />
+
+  <script>
+
+    // ALert message based on script by events
+    function demoFunction() {
+      alert('Welcome to SAP Ui5');
+    }
+
+    function consoleFunction() {
+
+      // to trigger a debugger based on If condiiton 
+      var alpha = 20, beta = 30, gamma = alpha + beta;
+      if (gamma > 40) {
+        // debugger;
+      }
+
+      // Print in console for developers
+      var x = 'Text for displaying console log message'
+      console.log("This is a demo" + x);
+      // console.log('test value');
+    }
+
+    // change the whole DOM and displaying the message
+    function document_writeFunction(){
+      document.write("Demo text message for document.write");
+    }
+
+
+    function access_elementFunction(){
+      var oMsg = document.getElementById('msg');
+      oMsg.innerText = "Hey what's up!";
+    }
+
+    function input_textFunction(){
+      var oMsg = document.getElementById("label_text");
+      var oInp = document.getElementById("max");
+      oMsg.innerText = "Input field text is : " + oInp.value + " message showed";
+    }
+
+    // Validaiton of input fields
+    function onLogin(){
+
+      var oUser = document.getElementById("idUser");
+      var sUser = oUser.value;
+
+      // Chaining in JS - because getElementById returns an object 
+      var sPass = document.getElementById("idPass").value;
+
+      // var oPass = document.getElementById("idPass");
+      // var sPass = oPass.value;
+
+      // Single = equalto is for value assignment 
+      // Double == equalto is for Compare value 
+      // Triple === equalto is for Compare value and Data type
+
+      if (sUser === "dante" && sPass === "dante"){
+        document.write('Login success');
+      }
+      else {
+        alert('Login failed try again!');
+      }
+    }
+
+
+    function getClass(){
+// change the color of titles
+      var arrElements = document.getElementsByClassName("box-title");
+      for(var i=0;i<arrElements.length;i++){
+          var item = arrElements[i];
+        item.style.backgroundColor = "black";
+      }
+    }
+
+  </script>
+
+  <style>
+
+h2 {
+      color: white;
+      /*
+      border: 4px dotted;
+      */
+    }
+
+    h3 {
+      color: white;
+      /*
+      border: 4px dotted;
+      */
+    }
+
+    /* Class */
+    .box {
+      width: 250px;
+      float: left;
+      /* border: 1px solid black; */
+      margin: 20px;
+
+    }
+
+    /* Class */
+    .box-title {
+      color: white;
+      background-color: rgb(23, 80, 86);
+      width: 250px;
+      border: 1px solid black;
+      padding: 10px;
+      /* padding:10px; */
+      text-align: center;
+    }
+
+    /* Class */
+    .box-content {
+      color: white;
+      background-color: teal;
+      width: 250px;
+      height: 200px;
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    /* Class */
+    .abbr {
+      font-family: cursive;
+      color: yellow;
+      font: bolder;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <body style="background-color: rgb(12, 112, 212);">
+
+
+    <div class="box">
+      <div class="box-title">
+        <h2>What is <Span class="abbr">HTML</span></h2>
+      </div>
+
+      <div class="box-content">
+        <p> HTML stands for
+          <b><em>
+              Hyper Text Markup Language
+            </em>
+          </b>, it is used for designign static web content
+        </p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="box-title">
+        <h2>What is <Span class="abbr">CSS</Span></h2>
+      </div>
+
+      <div class="box-content">
+        <p>
+          CSS stands for <em><b>Cascading Style Sheets</b></em>, It is used to style / beautify our content
+        </p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="box-title">
+        <h2>What is <Span class="abbr">JS</Span></h2>
+      </div>
+
+      <div class="box-content">
+        <p>
+          JS stands for <em><b>Java Script</b></em>, it is teh browser's programming lanaguage
+        </p>
+      </div>
+    
+    
+    </br> </br>
+    <div style="clear: left;"></div>
+    <button onclick="getClass()">Screen element change</button>
+
+    </div>
+
+<!-- Validation for input fields-->
+<form>
+  <div style="clear: left;"></div>
+  <div style="padding-top: 35px;"></div>
+  <h3>Personal details</h3>
+
+  <!-- alignment of login details -->
+  <table id="login">
+    <tbod>
+      <tr>
+        <td><label>Username</label></td>
+        <td><input id="idUser" name="usr"></td>
+      </tr>
+      <tr>
+        <td><label>Password</label></td>
+        <td><input id="idPass" name="pass" type="password"></td>
+      </tr>
+      <tr>
+        <td><button onClick="onLogin()">Login</button></td>
+      </tr>
+    </tbod>
+  </table>
+
+  </div>
+</form>
+
+
+    <!-- onclick event-->
+    <button onclick="alert('Welcome to JS')">Click alert</button>
+    
+    <!-- alert by script functions-->
+    <button onclick="demoFunction()">Script function alert</button>
+
+    <!-- Console log message button-->
+    <button onclick="consoleFunction()">Console message</button>
+
+    <!-- Document write message-->
+    <button onclick="document_writeFunction()">Document Write message</button>
+   
+    <!-- Access element message-->
+    <label id="msg"></label>    
+    <button onclick="access_elementFunction()">Access element display message</button>    
+
+    <label id="label_text"></label>    
+    <input id="max">
+    <button onclick="input_textFunction()">Get text Input</button>    
+
+  </body>
+
+</html>
+
+
+```
+
+</br>
+</br>
+</details>
+
 </br></br>
 
 
