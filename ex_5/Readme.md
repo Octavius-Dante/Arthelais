@@ -101,7 +101,7 @@ function functionName(param_1, param_2, . . . ){
 
 </br>
 
-2. Anonymous Function (function with no name which are built in just ahve to use its)
+2. Anonymous Function (function with no name which are built in just have to use it)
 
 ```js
 
