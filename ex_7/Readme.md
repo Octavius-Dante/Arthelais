@@ -71,9 +71,6 @@ sProperties - Json which we can pass with the properties, events
 
 ```
 
-</br> 
-
-
 
 </br> </br> 
 
