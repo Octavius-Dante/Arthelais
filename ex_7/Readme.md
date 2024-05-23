@@ -56,6 +56,21 @@ Fiori elements :
 </br>  Earlier : (projects\ui5_basic\index.html) 
 </br>  Now it should be : (projects\ui5_basic\webapp\index.html) this is how a working project structure is followed 
 
+8. This way we can reference all the project artifacts (views, controllers, JS files, resources, component....) with the help of namespace
+
+9. data-sap-ui-resourceroots to pass a json for namespace.
+</br> </br> 
+
+**syntax will be as shown below:**
+
+```script 
+
+var oControlName = new libraryName.ClassName(sId, sProperties);
+sId - Id of the Control
+sProperties - Json which we can pass with the properties, events
+
+```
+
 </br> 
 
 
