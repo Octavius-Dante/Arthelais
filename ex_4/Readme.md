@@ -251,9 +251,7 @@ for (var i = 0; i < arrFinal.length; i++) {
 // Removing all the data in the array variable 
 arrFinal = [];
 
-
-// special array with no index instead it has to be accessed by refereing tothe values
-
+// special array with no index instead it has to be accessed by refereing to the values
 var arrNew = [];
 
 arrNew.jane = 100;
