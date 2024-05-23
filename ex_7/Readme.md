@@ -35,7 +35,7 @@ Fiori elements :
 2. Open terminal and create a Folder for the project
 3. Initiate a bootstrap by creating a file (launch file) index.html
 4. Then add the basic HTML tags (HTML, HEAD, BODY, SCRIPT)
-5. Then link the script source (https://sapui5.hana.ondemand.com/resources/sap-ui-core.js) or (https://ui5.sap.com/resources/sap-ui-core.js)
+5. Then link the script source both links works (https://sapui5.hana.ondemand.com/resources/sap-ui-core.js) or (https://ui5.sap.com/resources/sap-ui-core.js)
 
 </br> 
 
