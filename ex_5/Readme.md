@@ -224,7 +224,7 @@ function (){
 
 </br></br>
 
-**Reading value from input field**
+**Reading value from input field - getElementById Function**
 
 ```html
 
@@ -256,7 +256,7 @@ function (){
 </br></br>
 
 
-**Validation of values in input fields**
+**Validation of values in input fields - getElementById Function**
 
 ```html
 
@@ -316,7 +316,7 @@ function (){
 </br></br>
 
 
-**Changing the color of screen element using getElementByClassName Function**
+**Changing the color of screen element - getElementByClassName Function**
 
 ```html
 
