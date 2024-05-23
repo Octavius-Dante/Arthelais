@@ -218,6 +218,33 @@ if ( gamma > 40){
 
 ```
 
+</br></br>
+
+**Access element and display message** display the message in an element in the webpage
+
+```js
+
+<script>
+    
+    function access_elementFunction(){
+      var oMsg = document.getElementById('msg');
+      oMsg.innerText = "Hey what's up!";
+    }
+
+</script>
+
+  <body>
+
+    <!-- Access element message-->
+    <label id="msg"></label>    
+    <button onclick="access_elementFunction()">Access element display message</button> 
+
+  </body>
+
+
+```
+
+
 
 </br></br>
 </br></br>
