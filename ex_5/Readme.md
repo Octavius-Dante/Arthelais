@@ -316,7 +316,23 @@ function (){
 </br></br>
 
 
+**Changing the color of screen element using getElementByClassName Function**
 
+```html
+
+<script>
+
+
+</script>
+
+  <body>
+
+
+
+  </body>
+
+```
+</br></br>
 
 
 
