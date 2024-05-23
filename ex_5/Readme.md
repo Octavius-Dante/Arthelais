@@ -197,7 +197,7 @@ if ( gamma > 40){
 
 </br></br>
 
-**Document.Write message**
+**Document.Write message** whole page changes and message is displayed (ABAP write statement)
 
 ```js
 
