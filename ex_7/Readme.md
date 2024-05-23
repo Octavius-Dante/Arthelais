@@ -35,7 +35,18 @@ Fiori elements :
 2. Open terminal and create a Folder for the project (ui5_basic)
 3. Initiate a bootstrap by creating a file (launch file) index.html
 4. Then add the basic HTML tags (HTML, HEAD, BODY, SCRIPT)
-5. Then link the script source both links works (https://sapui5.hana.ondemand.com/resources/sap-ui-core.js) or (https://ui5.sap.com/resources/sap-ui-core.js)
+5. Then link the script source both links works 
+</br> (https://sapui5.hana.ondemand.com/resources/sap-ui-core.js) 
+</br> or (https://ui5.sap.com/resources/sap-ui-core.js) 
+</br>
+
+```html
+
+<script src="https://ui5.sap.com/resources/sap-ui-core.js">
+
+```
+</br>
+
 6. Define a name space for the project directory to make it unique across the world also serves as ALIAS NAME for the project directory 
 7. Create a folder (webapp) and move the index.html file inside the directory 
 </br>  Earlier : (projects\ui5_basic\index.html) 
@@ -43,11 +54,7 @@ Fiori elements :
 
 </br> 
 
-```html
 
-<script src="https://ui5.sap.com/resources/sap-ui-core.js">
-
-```
 
 </br> </br> 
 
