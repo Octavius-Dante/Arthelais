@@ -3,6 +3,66 @@
 </br></br>
 
 
+**Creating a JSON file with multiple row values**
+
+```json
+
+{
+    "empTab": [
+        {
+            "empId": 101,
+            "empName": "jane",
+            "salary": 250000,
+            "currency": "USD"
+        },
+        {
+            "empId": 102,
+            "empName": "jack",
+            "salary": 125000,
+            "currency": "USD"
+        },
+        {
+            "empId": 101,
+            "empName": "jerry",
+            "salary": 300000,
+            "currency": "DIN"
+        },
+        {
+            "empId": 101,
+            "empName": "jill",
+            "salary": 250000,
+            "currency": "REN"
+        },
+        {
+            "empId": 101,
+            "empName": "julius",
+            "salary": 145000,
+            "currency": "POL"
+        },
+        {
+            "empId": 101,
+            "empName": "jasmin",
+            "salary": 175000,
+            "currency": "EUR"
+        },
+        {
+            "empId": 101,
+            "empName": "jessy",
+            "salary": 150000,
+            "currency": "YEN"
+        },
+        {
+            "empId": 101,
+            "empName": "jake",
+            "salary": 450000,
+            "currency": "USD"
+        }
+    ]
+}
+
+```
+
+
 </br></br>
 </br></br>
 </br></br>
