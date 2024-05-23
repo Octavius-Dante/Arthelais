@@ -93,12 +93,12 @@ $(selector).action();
 <script>
 
     // Hide screen element using JQuery 
-    function screenElementHide() {
+    function elementHide() {
       $(".box").hide();
     }
 
     // Show screen element using JQuery 
-    function screenElementShow() {
+    function elementShow() {
       $(".box").show();
     }
 
@@ -109,11 +109,11 @@ $(selector).action();
     <div class="nobox">
       </br> </br>
       <div style="clear: left;"></div>
-      <button onclick="screenElementHide()">Hide Element JQUERY</button>
+      <button onclick="elementHide()">Hide Element JQUERY</button>
 
       </br> </br>
       <div style="clear: left;"></div>
-      <button onclick="screenElementShow()">Show Element JQUERY</button>
+      <button onclick="elementShow()">Show Element JQUERY</button>
     </div>
 
   </body>
