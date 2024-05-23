@@ -70,22 +70,6 @@
 
 </br></br>
 
-
-**OnClick event -- Example -- Button click alert message**
-</br>
-
-```html
-
-<body>
-    <!-- onclick event-->
-    <button onclick="alert('Welcome to JS')">Click Me</button>
-</body>
-
-```
-
-</br></br>
-
-
 **Functions**
 </br></br>
 
@@ -112,7 +96,32 @@ function (){
 
 </br></br>
 
-**Defined the same button with script functions**
+**Output Functions in JS**
+
+- Alert
+- console.log (mainly for developers)
+- Document.write (this is gonna change the DOM)
+- HTML.Element.innerText
+
+</br></br>
+
+
+**1.(a) OnClick event -- Example -- Button click alert message**
+</br>
+
+```html
+
+<body>
+    <!-- onclick event-->
+    <button onclick="alert('Welcome to JS')">Click Me</button>
+</body>
+
+```
+
+</br></br>
+
+
+**1.(b) Defined the same button with script functions**
 
 ```js
 
@@ -135,17 +144,8 @@ function (){
 ```
 </br></br>
 
-**Output Functions in JS**
 
-- Alert
-- console.log (mainly for developers)
-- Document.write (this is gonna change the DOM)
-- HTML.Element.innerText
-
-</br></br>
-
-
-**Console log message** check this message in chrome browser F12 key (developer tools) console section
+**2. Console log message** check this message in chrome browser F12 key (developer tools) console section
 
 ```js
 
@@ -171,6 +171,53 @@ function (){
 
 </br></br>
 
+**3. Document.Write message** whole page changes and message is displayed (ABAP write statement)
+
+```js
+
+<script>
+    
+    function document_writeFunction(){
+      document.write("Demo text message for document.write");
+    }
+
+</script>
+
+  <body>
+
+    <button onclick="document_writeFunction()">Document Write message</button>
+
+  </body>
+
+
+```
+
+</br></br>
+
+**4. Access element and display the message** 
+
+```js
+
+<script>
+    
+    function access_elementFunction(){
+      var oMsg = document.getElementById('msg');
+      oMsg.innerText = "Hey what's up!";
+    }
+
+</script>
+
+  <body>
+
+    <!-- Access element message-->
+    <label id="msg"></label>    
+    <button onclick="access_elementFunction()">Access element display message</button> 
+
+  </body>
+
+
+```
+
 **Developer tools in browser debugging keys**
 
 - F10 - Line by line execution **(ABAP - F6)**
@@ -194,55 +241,7 @@ if ( gamma > 40){
 
 ```
 
-
 </br></br>
-
-**Document.Write message** whole page changes and message is displayed (ABAP write statement)
-
-```js
-
-<script>
-    
-    function document_writeFunction(){
-      document.write("Demo text message for document.write");
-    }
-
-</script>
-
-  <body>
-
-    <button onclick="document_writeFunction()">Document Write message</button>
-
-  </body>
-
-
-```
-
-</br></br>
-
-**Access element and display the message** 
-
-```js
-
-<script>
-    
-    function access_elementFunction(){
-      var oMsg = document.getElementById('msg');
-      oMsg.innerText = "Hey what's up!";
-    }
-
-</script>
-
-  <body>
-
-    <!-- Access element message-->
-    <label id="msg"></label>    
-    <button onclick="access_elementFunction()">Access element display message</button> 
-
-  </body>
-
-
-```
 
 
 
