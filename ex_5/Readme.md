@@ -256,6 +256,71 @@ function (){
 </br></br>
 
 
+**Validation of input fields**
+
+```js
+
+<script>
+
+    // Validaiton of input fields
+    function onLogin(){
+
+      var oUser = document.getElementById("idUser");
+      var sUser = oUser.value;
+
+      // Chaining in JS - because getElementById returns an object 
+      var sPass = document.getElementById("idPass").value;
+
+      // var oPass = document.getElementById("idPass");
+      // var sPass = oPass.value;
+
+      // Single = equalto is for value assignment 
+      // Double == equalto is for Compare value 
+      // Triple === equalto is for Compare value and Data type
+
+      if (sUser === "dante" && sPass === "dante"){
+        document.write('Login success');
+      }
+      else {
+        alert('Login failed try again!');
+      }
+    }
+
+</script>
+
+  <body>
+
+<!-- Validation for input fields-->
+<form>
+  <div style="clear: left;"></div>
+  <div style="padding-top: 35px;"></div>
+  <h3>Personal details</h3>
+
+  <!-- alignment of login details -->
+  <table id="login">
+    <tbod>
+      <tr>
+        <td><label>Username</label></td>
+        <td><input id="idUser" name="usr"></td>
+      </tr>
+      <tr>
+        <td><label>Password</label></td>
+        <td><input id="idPass" name="pass" type="password"></td>
+      </tr>
+      <tr>
+        <td><button onClick="onLogin()">Login</button></td>
+      </tr>
+    </tbod>
+  </table>
+
+  </div>
+</form>
+
+  </body>
+
+```
+</br></br>
+
 
 
 
