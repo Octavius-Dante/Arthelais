@@ -709,7 +709,7 @@ if ( gamma > 40){
 
 </br></br>
 
-**External CSS Linking - to the .html page**
+**External CSS Linking - to the *.html page**
 
 ```html
 
