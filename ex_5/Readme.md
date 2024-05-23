@@ -145,6 +145,31 @@ Defined the same button with script functions
 </br></br>
 
 
+**Console log message**
+
+```js
+
+  <script>
+    
+    function consoleFunction(){
+    // Print in console for developers
+    var x = 'Text for displaying console log message'
+    console.log("This is a demo" + x);
+    // console.log('test value');
+    }
+
+</script>
+
+  <body>
+
+    <button onclick="consoleFunction()">Click Me console message</button>
+
+  </body>
+
+
+```
+
+
 </br></br>
 </br></br>
 </br></br>
