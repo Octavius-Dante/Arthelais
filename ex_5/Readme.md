@@ -92,11 +92,13 @@
 1. Named Function (function with a name)
 
 ```js
+<script>
 
 function functionName(param_1, param_2, . . . ){
      ~~code~~
 }
 
+</script>
 ```
 
 </br>
@@ -104,11 +106,12 @@ function functionName(param_1, param_2, . . . ){
 2. Anonymous Function (function with no name which are built in just have to use it)
 
 ```js
+<script>
 
 function (){
      ~~code~~
 }
-
+</script>
 ```
 
 </br></br>
