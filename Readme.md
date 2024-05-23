@@ -56,8 +56,11 @@ Pre-requisite VSCode or BAS should be installed and active.
 **VALIDATOR WEBPAGES**
 
 </br> [CSS lint](http://csslint.net/)
+</br>
 </br> [JS lint](https://www.jslint.com/)
+</br>
 </br> [Json lint](https://jsonlint.com/) 
+</br>
 </br> [Yaml lint](https://www.yamllint.com/)
 
 </br></br>
