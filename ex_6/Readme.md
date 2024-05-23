@@ -106,13 +106,15 @@ $(selector).action();
 
   <body>
 
+    <div class="nobox">
       </br> </br>
       <div style="clear: left;"></div>
-      <button onclick="screenElementHide()">Screen element Hide JQUERY</button>
+      <button onclick="screenElementHide()">Hide Element JQUERY</button>
 
       </br> </br>
       <div style="clear: left;"></div>
-      <button onclick="screenElementShow()">Screen element Show JQUERY</button>
+      <button onclick="screenElementShow()">Show Element JQUERY</button>
+    </div>
 
   </body>
 
