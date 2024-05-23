@@ -180,6 +180,19 @@ function (){
 
 </br></br>
 
+```js
+
+// hardcoded Brek-point
+// keyword debugger
+
+var alpha = 20, beta = 30, gamma = alpha + beta;
+if ( gamma > 40){
+    debugger;
+}
+
+```
+
+
 **Document.Write message**
 
 ```js
