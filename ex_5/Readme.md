@@ -363,7 +363,11 @@ function (){
       // 1. Creare a brand new element
       var oElement = document.createElement("h4");      
       // 2. creaet a text node  // 3. add the text to the text node
-      var oTextNode = document.createTextNode("Aristotle");      
+      var oTextNode = document.createTextNode("Aristotle");   
+      
+       // Value is taken from input field
+      // var oTextNode = document.createTextNode(document.getElementById("max").value);   
+
       // 4. append the text node to the newly creraetd element
       oElement.appendChild(oTextNode);
       // 5. get the canvas element object
