@@ -43,9 +43,9 @@ Fiori elements :
 
 ```html
 
-<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js">
-    
-<script src="https://ui5.sap.com/resources/sap-ui-core.js">
+<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"></script>
+
+<script src="https://ui5.sap.com/resources/sap-ui-core.js"></script>
 
 ```
 </br>
