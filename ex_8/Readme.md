@@ -10,7 +10,7 @@
 
 3. Once we have the Ui5 element object, we can call setter and getter methods to play with attributes
 
-4. FOr every attributes in SAP Ui5 class we will have setter and getter methods. EG. if we have 
+4. For every attributes in SAP Ui5 class we will have setter and getter methods. EG. if we have 
 </br> a text property we will have **seText and getText** methods
 
 
