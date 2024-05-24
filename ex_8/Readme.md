@@ -20,6 +20,9 @@
 2. Composition : Tight coupling, both objects cannot function independently, must have relation. [1..N]
 
 
+</br></br>
+
+
 **Reading value from input in Ui5**
 
 ```html
@@ -31,7 +34,7 @@
             text: "Create Employee data",
             icon: "sap-icon://add-employee",
             press: function () {
-                                
+
 // Type 1 
                 // Step1 : get the applciation object (instrance)
                 var oCore = sap.ui.getCore();
@@ -53,7 +56,6 @@
 </head>
 
 <body class="sapUiBody">
-    Welcome!
     <div id="content"> </div> <!-- button -->
     <div id="content2"> </div> <!-- input field -->
 </body>
