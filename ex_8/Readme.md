@@ -158,7 +158,7 @@ sap.ui.define([dep1, dep2, ...], function(obj1, obj2, ...){
 </br></br>
 
 <details>
-<summary> *JS view sample below* </summary>
+<summary> JS view sample </summary>
 </br>
 </br>
 
@@ -274,6 +274,8 @@ sap.ui.jsview("spiderman.view.Main", {
 </br>
 </br>
 </details>
+
+</br></br>
 
 
 [All SAP Fiori apps reference library provided by SAP](https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/home)
