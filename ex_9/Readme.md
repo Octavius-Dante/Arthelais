@@ -27,7 +27,7 @@ sap.ui.define(["module1", "module2",....], functrion(oM1, oM2,.....) {
 
 Check SAP ui5 SDK page - open any of the class (screen element) in API reference - open it and see 
 
-it appears like shown in the image 
+it appears like shown in the image , that's how a controller is referred 
 
 <img src="./files/ui5e9_1.png" >
 
