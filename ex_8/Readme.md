@@ -82,13 +82,51 @@
 </br></br>
 
 
-**Event based activity in Ui5** button should be active based on some action or activity 
+**Event based activity in Ui5** button should be active based on another button's click action 
 
 ```html
 
+<html>
 
+<head>
 
+    <script>
+        var oBtn = new sap.m.Button("idBtn", {
+            text: "Create Employee data",
+            icon: "sap-icon://add-employee",
+            press: function(){ }
+        });
+        
+        var oBtn2 = new sap.m.Button({
+        text: "Attach",
+        icon: "sap-icon://validate",
+        press: function(){
+            // Step 1 : get the object of Button 1
+            var oBtnNew = sap.ui.getCore().byId("idBtn");
+            // Attach the event dynamically to the function
+            oBtnNew.attachPress(function(){
+                alert(sap.ui.getCore().byId("idInp").getValue());    
+            }); 
+        }    
+    });
+       
+        oBtn.placeAt("content");               
+        new sap.m.Input("idInp").placeAt("content2");        
+        oBtn2.placeAt("content3");
 
+    </script>
+
+    <style></style>
+</head>
+
+<body class="sapUiBody">
+    Welcome!
+    <div id="content"> </div>
+    <div id="content2"> </div>
+    <div id="content3"> </div>
+</body>
+
+</html>
 
 ```
 
