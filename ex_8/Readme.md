@@ -20,6 +20,48 @@
 2. Composition : Tight coupling, both objects cannot function independently, must have relation. [1..N]
 
 
+**Reading value from input in Ui5**
+
+```html
+
+<html>
+<head>
+    <script>
+        var oBtn = new sap.m.Button("idBtn", {
+            text: "Create Employee data",
+            icon: "sap-icon://add-employee",
+            press: function () {
+                                
+// Type 1 
+                // Step1 : get the applciation object (instrance)
+                var oCore = sap.ui.getCore();
+                // Step 2 : Obtain the Ui5 control object - sap.ui.getCore().byid("idInp")
+                var oInp = oCore.byId("idInp");
+                // Step 3 : We have a value, so we can write setter and getter for same
+                var sVal = oInp.getValue();
+                // Step 4 : print on screen
+                alert(sVal);
+// Type 2 
+                // chaining code of above statements
+                alert(sap.ui.getCore().byId("idInp").getValue());
+
+            }
+        });
+        oBtn.placeAt("content");    //button 
+        new sap.m.Input("idInp").placeAt("content2"); // input field
+    </script>
+</head>
+
+<body class="sapUiBody">
+    Welcome!
+    <div id="content"> </div> <!-- button -->
+    <div id="content2"> </div> <!-- input field -->
+</body>
+
+</html>
+
+```
+
 </br></br>
 </br></br>
 </br></br>
