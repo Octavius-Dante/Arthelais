@@ -55,6 +55,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
 
 ```
 
+- It is best practice to have 1 controller per view and have same name for vie and controller
 
 
 </br></br>
