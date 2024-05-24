@@ -91,28 +91,31 @@
 <head>
 
     <script>
+// Button 1 - definition        
         var oBtn = new sap.m.Button("idBtn", {
             text: "Create Employee data",
             icon: "sap-icon://add-employee",
             press: function(){ }
         });
-        
+
+// Button 2 - definition
         var oBtn2 = new sap.m.Button({
         text: "Attach",
         icon: "sap-icon://validate",
         press: function(){
-            // Step 1 : get the object of Button 1
+        // Step 1 : get the object of Button 1
             var oBtnNew = sap.ui.getCore().byId("idBtn");
-            // Attach the event dynamically to the function
+        // Step 2: Attach the event dynamically to the function
             oBtnNew.attachPress(function(){
+        // Alert message Text - getting value from Input field                 
                 alert(sap.ui.getCore().byId("idInp").getValue());    
             }); 
         }    
     });
        
-        oBtn.placeAt("content");               
-        new sap.m.Input("idInp").placeAt("content2");        
-        oBtn2.placeAt("content3");
+        oBtn.placeAt("content");    // Button 1            
+        new sap.m.Input("idInp").placeAt("content2");   // Input field
+        oBtn2.placeAt("content3");  // Button 2
 
     </script>
 
