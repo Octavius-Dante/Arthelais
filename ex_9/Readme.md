@@ -21,7 +21,6 @@ sap.ui.define(["module1", "module2",....], functrion(oM1, oM2,.....) {
 
 // Module name for Standard SAP Classes - just replace . with /
 
-
 ```
 
 </br>
@@ -31,6 +30,26 @@ Check SAP ui5 SDK page - open any of the class (screen element) in API reference
 it appears like shown in the image 
 
 <img src="./files/ui5e9_1.png" >
+
+</br>
+
+SAP provided guideline that if you willing to create a controller type of JS file / model, 
+</br> then you need to inherit your controller module from an sap standard module - **sap/ui/core/mvc/Controller**
+</br>
+
+Syntax for controller 
+
+</br>
+
+```js
+
+sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
+    return oSpiderman.extend("namespace.folder.file",{
+
+    });
+});
+
+```
 
 
 
