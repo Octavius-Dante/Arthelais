@@ -2,6 +2,9 @@
 
 </br></br>
 
+> Don't use Java Script api document. object because it wont work like how it worked in normal HTML pages
+
+
 </br></br>
 </br></br>
 </br></br>
