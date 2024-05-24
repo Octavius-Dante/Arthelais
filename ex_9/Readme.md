@@ -11,6 +11,10 @@ We have to follow a syntax
 
 **Syntax for normal JS file** : -- inside SAP UI5 Project except views (class/module)
 
+- Another name for this syntax is called **AMD - Asynchronous Module Definition** loading - modules are parallelly loaded 
+- Also called as **Scaffolding template**
+
+
 </br>
 
 ```js
