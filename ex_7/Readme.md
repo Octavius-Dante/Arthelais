@@ -201,6 +201,10 @@ sProperties - Json which we can pass with the properties, events
 > REFERRING THE SAMPLES from (sap.ui.sdk page) AND USING THE CLASS METHODS as instructed in the documentation is the key to better UI5 development 
 
 
+[All SAP Fiori apps reference library provided by SAP](https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/home)
+
+[SAP Sample Fiori SDK screen elements documentation](https://sapui5.hana.ondemand.com/)
+
 
 </br>
 </br></br>
