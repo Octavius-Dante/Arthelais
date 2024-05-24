@@ -16,6 +16,19 @@
 5. If there is an Attribute, Method, event, aggregation. Which is not visible in a class, 
 </br> check its parent class may be it is inherited from its parent class
 
+6. If there is an event, we will have **fireEvent, attachEvent, detachEvent** methods available to play with events of the control
+
+7. If we have aggregations usually we will have methods like **addAgg, removeAgg, setAgg....**
+
+</br></br>
+
+
+<img src="./files/Sap_ui5_control.png" >
+
+
+</br></br>
+
+
 **Association - Relationship between 2 classes**
 
 1. Aggregation : Lose coupling, both object can function independently. [0..N]
@@ -66,9 +79,7 @@
 
 ```
 
-</br></br>
 
-<img src="./files/Sap_ui5_control.png" >
 
 
 </br></br>
