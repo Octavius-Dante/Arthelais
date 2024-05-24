@@ -14,6 +14,11 @@
 </br> EG. if we have a text property we will have **setText and getText** methods
 
 
+**Association - Relationship between 2 classes**
+
+1. Aggregation : lose coupling, both object can function independently.
+2. Composition : Tight coupling, both objects cannot function independently, must have relation.
+
 
 </br></br>
 </br></br>
