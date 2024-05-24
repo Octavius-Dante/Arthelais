@@ -62,7 +62,7 @@ Pre-requisite VSCode or BAS should be installed and active.
 
 </br></br>
 
-## End of Ui5 developments - Other links for further learning
+## Other links for further learning
 
 
 <!--
