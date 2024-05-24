@@ -155,7 +155,7 @@ sap.ui.define([dep1, dep2, ...], function(obj1, obj2, ...){
 1. Create **View folder and Controller folder** inside webapp folder of project directory
 2. Create **Main.view.js** file inside **(View folder)**
 
-
+</br></br>
 
 <details>
 <summary> *JS view sample below* </summary>
@@ -175,6 +175,8 @@ sap.ui.define(
     });
 
 ```
+
+</br></br>
 
 *view - JS*
 
@@ -222,6 +224,8 @@ sap.ui.jsview("spiderman.view.Main", {
 
 ```
 
+</br></br>
+
 *index - html*
 
 ```html
@@ -267,18 +271,9 @@ sap.ui.jsview("spiderman.view.Main", {
 
 ```
 
-
 </br>
 </br>
 </details>
-
-
-
-```js
-
-
-
-```
 
 
 
