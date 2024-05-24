@@ -165,7 +165,7 @@ sap.ui.define([dep1, dep2, ...], function(obj1, obj2, ...){
 *controller - JS*
 
 ```js
-
+// This is Scaffolding template 
 sap.ui.define(
     ['sap/ui/core/mvc/Controller'],
     function (Controller) {
