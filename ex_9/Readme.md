@@ -12,9 +12,11 @@ Syntax for any JS file inside SAP UI5 Project except view (class/module)
 
 ```js
 
-sap.ui.define([], functrion() {
+sap.ui.define(["module1", "module2",....], functrion(oM1, oM2,.....) {
 
 });
+
+Standard SAP Classes - just replace . with /
 
 ```
 
