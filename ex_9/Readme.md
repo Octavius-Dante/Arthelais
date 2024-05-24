@@ -8,9 +8,10 @@ The controllers in UI5 are always created using JS. They are considered as class
 We have to follow a syntax
 
 </br>
+
 Syntax for any JS file inside SAP UI5 Project except view (class/module)
 
-</br>
+</br></br>
 
 ```js
 
@@ -23,7 +24,6 @@ sap.ui.define(["module1", "module2",....], functrion(oM1, oM2,.....) {
 
 ```
 
-</br></br>
 
 Check SAP ui5 SDK page - open any of the class (screen element) in API reference - open it and see 
 
