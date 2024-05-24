@@ -140,6 +140,18 @@
 <img src="./files/mvc_ui5_DP.png" >
 
 
+**Sample JS view**
+
+1. Create **View folder and Controller folder** in project directory
+2. Create **Main.view.js** file inside **(View folder)**
+
+*JS view sample below*
+
+```js
+
+
+
+```
 
 
 
