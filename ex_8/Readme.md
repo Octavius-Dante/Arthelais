@@ -5,8 +5,13 @@
 1. We never use document API to get the element objects because this API provides HTML element objects to us.
 </br> We need to obtain SAP UI5 element objects so that we can call he attributes and functions of SAP ui5 elements as per SDK
 
-2. TO obtain the UI5 element object, we can use **sap.ui.getCore() - Running applciation object**
+2. To obtain the UI5 element object, we can use **sap.ui.getCore() - Running applciation object**
  </br> and then on top of it we can call a method **byId('Controlled')** to get the object of Ui5 element
+
+3. Once we have the Ui5 element object, we can call setter and getter methods to play with attributes
+
+4. FOr every attributes in SAP Ui5 class we will have setter and getter methods. EG. if we have 
+</br> a text property we will have **seText and getText** methods
 
 
 
