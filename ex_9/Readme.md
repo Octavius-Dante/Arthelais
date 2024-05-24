@@ -16,7 +16,7 @@ sap.ui.define(["module1", "module2",....], functrion(oM1, oM2,.....) {
 
 });
 
-Standard SAP Classes - just replace . with /
+// Standard SAP Classes - just replace . with /
 
 ```
 
