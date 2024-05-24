@@ -82,7 +82,7 @@
 </br></br>
 
 
-**Event based activity in Ui5** button should be active based on another button's click action 
+**Event based activity in Ui5** : -- button should be active based on another button's click action 
 
 ```html
 
