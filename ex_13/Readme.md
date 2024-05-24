@@ -1,4 +1,4 @@
-## Exercise 13 - Property Binding
+## Exercise 13 - Expression Binding XML Model
 
 
 </br></br>
@@ -7,7 +7,7 @@
 </br></br>
 </br></br>
 
-## End of Exercise 13 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_4"> Exercise 14-Multi Models </a>
+## End of Exercise 13 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_14"> Exercise 14-Table control </a>
 </br>
 <p align="center"> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </p>
 

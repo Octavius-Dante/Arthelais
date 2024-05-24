@@ -1,4 +1,4 @@
-## Exercise 11 - Base controller
+## Exercise 11 - Model basics
 
 </br></br>
 
@@ -7,7 +7,7 @@
 </br></br>
 </br></br>
 
-## End of Exercise 11 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_4"> Exercise 12-Model Basic </a>
+## End of Exercise 11 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_12"> Exercise 12-Json Model Property Binding </a>
 </br>
 <p align="center"> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </p>
 

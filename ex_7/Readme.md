@@ -188,34 +188,10 @@ sProperties - Json which we can pass with the properties, events
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </br>
 </br></br>
 
-## End of Exercise 7 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_8"> Exercise 8-MVC design pattern </a>
+## End of Exercise 7 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_8"> Exercise 8-Ui5 Control Hierarchy </a>
 </br>
 <p align="center"> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </p>
 

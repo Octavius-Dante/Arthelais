@@ -1,199 +1,59 @@
-## Exercise 3 - CSS - Cascading Style Sheets
+## Exercise 38 - Fiori Elements Basics
 
-In this session we discuss about CSS Cascading Style Sheets
-
-</br>
-
-Cascading Style Sheets is used to style / beautify / format the HTML content.
-
-</br>
-
-CSS was introduced to reduce the work load of page beautification in html tag by defining classes of css and using those classes in the required div, or specific element section 
-
-</br></br>
-
-**There are 3 ways we can apply CSS.**
-</br></br>
-
-1. **Inline CSS** - the style is applied with the HTML control directly using a style property
-
-```html
-
-<tagName style="property:value; property:value...."> Content </tagName>
-
-```
-
-</br></br>
-
-2. **Internal CSS**
-
-```html
-
-<style>
-
-selector {
-   property:value;
-   property:value;
-
-}
-</style>
-
-Selector-targer element(s)
-tagName, .Clasname, #id
-
-```
-
-</br></br>
-
-3. **External CSS** : The CSS which is defined as a separate file and linked to the html file using JS 
-
-</br></br>
-
-**index.html file sample**
-</br>
-
-```html
-
-<html>
-
-<head>
-    <script>
-    </script>
-
-<!-- MetaData info for webpage -->
-
-<meta name="encoding" content="utf-8" />
-<meta name="description" content="Basic HTML5 learning web page" />
-<meta name="Author" content="Dante" />
-<meta name="keywords" content="HTML5 learn html tutorials" />
-
-<!-- internal CSS -->
-<style>
-
-/* Html tag */ 
-    h2{ color: white;       
-    border: 4px dotted ;
-    }
-
-/* Html tag */    
-    p{ color: rgb(0, 0, 0) ; border: 1px ; border-style : inset ;
-    }
-
-/* Class */    
-    .box-content{
-      color: white;
-      background-color: teal;
-      width: 300;
-      border: 1px solid black;
-    }
-
-/* ID */
-    #idUser{ background-color: black;
-             color: yellowgreen;
-    }
-
-/* ID */
-    #idPass{ background-color: darkblue;
-             color: yellow;
-    }
-
-/* Class */
-    .abbr{
-      font-family: cursive ;
-      color: yellow;
-      font: bolder;
-    }
-
-</style>
-
-</head>
-
-<body>
-  
-<!-- inline CSS -->  
-<body style="background-color: rgb(12, 112, 212);">
-
-<!-- <body style="background-color: yellowgreen;"> -->
-
-<div class="box">
-<div class="box-title">
-<!-- inline element container tag SPAN-->  
-  <h2>What is <Span class="abbr">HTML</span></h2>
-</div>
-
-<div class="box-content">
-  <p> HTML stands for
-      <b><em>
-          Hyper Text Markup Language
-      </em>
-  </b>, it is used for designign static web content
-  </p>
-</div>  
-</div>
-
-<div class="box">
-  <div class="box-title">
-<!-- inline element container tag SPAN-->  
-  <h2>What is <Span class="abbr">CSS</Span></h2>
-</div>
-
-<div class="box-content">  
-  <p> 
-  CSS stands for Cascading Style Sheets, It is used to style / beautify our content
-  </p>
-</div>  
-</div>
-
-<div class="box">
-  <div class="box-title">
-<!-- inline element container tag SPAN-->    
-  <h2>What is <Span class="abbr">JS</Span></h2>
-</div>
-
-<div class="box-content">   
-  <p> 
-  JS stands for Java Script, it is teh browser's programming lanaguage
-  </p> 
-</div>  
-</div>
-
-
-<br><br><br>
-
-    <!-- Form with action definition-->
-    <form method="GET" action="https://www.gmail.com">
-
-      <label>User Name</label>
-      <input id="idUser" name="usr">
-
-      <br><br>
-
-      <label>Password</label>
-      <input id="idPass" name="pass" type="password">
-
-      <br><br>
-      <!-- this SUBMIT button will take the values mentioend with type name for input fields-->
-      <input type="submit"><br>
-  </form>
-
-</body>
-
-</html>
-
-```
-
-</br></br>
-
-[refer w3schools website for detailed understanding on CSS](https://www.w3schools.com)
 
 
 </br></br>
 </br></br>
 </br></br>
 
-## End of Exercise 3 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_4"> Exercise 4-JS Basic </a>
+## End of Exercise 38 ---- End Of Fiori Ui5 Development
 </br>
 <p align="center"> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </p>
+
+<!-- - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_38"> Exercise 38-Fiori Elements Basics</a> -->
+</br></br>
+
+** All Previous sessions**
+</br></br>
+
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_37"> Exercise 37-Deploy app to launchpad</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_36"> Exercise 36-WebIde and Git integration</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_35"> Exercise 35-POST, GET and DELETE from Fiori</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_34"> Exercise 34-GET and Connect</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_33"> Exercise 33-Fiori Project Connect Odata</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_32"> Exercise 32-Connectivity</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_31"> Exercise 31-Function Import and Images</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_30"> Exercise 30-implementing CRUD</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_29"> Exercise 29-Implementing GET</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_28"> Exercise 28-Create A Gateway Project</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_27"> Exercise 27-Odata GET</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_26"> Exercise 26-Fiori Deployments</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_25"> Exercise 25-Fragments Deep dive</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_24"> Exercise 24-Fragments</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_23"> Exercise 23-Icon Tab bar</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_22"> Exercise 22-Route matched Handlers</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_21"> Exercise 21-Router Basics</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_20"> Exercise 20-Filters on List mode</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_19"> Exercise 19-Manifest JSON</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_18"> Exercise 18-List Control</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_17"> Exercise 17-Fiori Lite app</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_16"> Exercise 16-Formatters </a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_15"> Exercise 15-Element Binding</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_14"> Exercise 14-Table control</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_13"> Exercise 13-Expression Binding XML Model</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_12"> Exercise 12-Json Model Property Binding</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_11"> Exercise 11-Model Basics </a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_10"> Exercise 10-XML Views </a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_9"> Exercise 9-Internal Silence of Ui5</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_8"> Exercise 8-Ui5 Control Hierarchy </a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_7"> Exercise 7-SAP Ui5 Framework </a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_6"> Exercise 6-JQuery </a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_5"> Exercise 5-JS deep dive </a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_4"> Exercise 4-JS basic </a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_3"> Exercise 3-CSS </a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_2"> Exercise 2-HTML5</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_1"> Exercise 1 -Basic </a>
+
 
 
 <!--
@@ -211,3 +71,4 @@ tagName, .Clasname, #id
 </details>
 
 -->
+

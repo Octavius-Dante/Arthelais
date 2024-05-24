@@ -5,7 +5,7 @@
 </br></br>
 </br></br>
 
-## End of Exercise 10 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_4"> Exercise 11- Basic controller</a>
+## End of Exercise 10 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_11"> Exercise 11- Model Basics</a>
 </br>
 <p align="center"> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </p>
 

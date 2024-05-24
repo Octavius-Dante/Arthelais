@@ -1,4 +1,4 @@
-## Exercise 8 - Control Hierarchy
+## Exercise 8 - Ui5 Control Hierarchy
 
 </br></br>
 

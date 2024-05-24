@@ -6,7 +6,7 @@
 </br></br>
 </br></br>
 
-## End of Exercise 9 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_4"> Exercise 10-XML Views </a>
+## End of Exercise 9 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_10"> Exercise 10-XML Views </a>
 </br>
 <p align="center"> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </p>
 

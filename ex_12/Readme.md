@@ -1,4 +1,4 @@
-## Exercise 12 - Model Basic
+## Exercise 12 - Json Model Property Binding
 
 </br></br>
 
@@ -8,7 +8,7 @@
 </br></br>
 </br></br>
 
-## End of Exercise 12 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_4"> Exercise 13-Property Binding </a>
+## End of Exercise 12 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_13"> Exercise 13-Expression Binding XML Model </a>
 </br>
 <p align="center"> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </p>
 
