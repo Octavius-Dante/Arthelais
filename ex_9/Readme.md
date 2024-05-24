@@ -17,9 +17,18 @@ sap.ui.define(["module1", "module2",....], functrion(oM1, oM2,.....) {
 
 });
 
-// Standard SAP Classes - just replace . with /
+// Module name for Standard SAP Classes - just replace . with /
+
 
 ```
+
+Check SAP ui5 SDK page - open any of the class (screen element) in API reference - open it and see 
+
+it appears like shown in the image 
+
+<img src="./files/ui5e9_1.png" >
+
+
 
 </br></br>
 </br></br>
