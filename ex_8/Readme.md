@@ -1,4 +1,4 @@
-## Exercise 8 - Ui5 Control Hierarchy
+## Exercise 8 - Ui5 Control Hierarchy & MVC Architecture | Design pattern
 
 </br></br>
 
