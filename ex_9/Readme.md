@@ -2,6 +2,22 @@
 
 </br></br>
 
+**Controller Definition**
+
+The controllers in UI5 are always created using JS. They are considered as classes/modules. We need to first define a module definition.
+We have to follow a syntax
+
+</br>
+Syntax for any JS file inside SAP UI5 Project except view (class/module)
+
+```js
+
+sap.ui.define([], functrion() {
+
+});
+
+```
+
 </br></br>
 </br></br>
 </br></br>
