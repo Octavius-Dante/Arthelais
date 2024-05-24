@@ -9,7 +9,7 @@ We have to follow a syntax
 
 </br>
 
-Syntax for any JS file inside SAP UI5 Project except view (class/module)
+**Syntax for normal JS file** : -- inside SAP UI5 Project except views (class/module)
 
 </br>
 
@@ -37,7 +37,7 @@ SAP provided guideline that if you willing to create a controller type of JS fil
 </br> then you need to inherit your controller module from an sap standard module - **sap/ui/core/mvc/Controller**
 </br>
 
-Syntax for controller 
+**Syntax for controller type JS file**
 
 </br>
 
