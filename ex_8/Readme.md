@@ -137,7 +137,7 @@
 
 ## Model View Control - Architecture (Conventional) | Ui5 Architecture 
 </br></br>
-<img src="./files/mvc_ui5.png" >
+<img src="./files/mvc_ui5_DP.png" >
 
 
 
