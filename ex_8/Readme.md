@@ -16,8 +16,8 @@
 
 **Association - Relationship between 2 classes**
 
-1. Aggregation : lose coupling, both object can function independently.
-2. Composition : Tight coupling, both objects cannot function independently, must have relation.
+1. Aggregation : lose coupling, both object can function independently. [0..N]
+2. Composition : Tight coupling, both objects cannot function independently, must have relation. [1..N]
 
 
 </br></br>
