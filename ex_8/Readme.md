@@ -155,7 +155,124 @@ sap.ui.define([dep1, dep2, ...], function(obj1, obj2, ...){
 1. Create **View folder and Controller folder** inside webapp folder of project directory
 2. Create **Main.view.js** file inside **(View folder)**
 
-*JS view sample below*
+
+
+<details>
+<summary> *JS view sample below* </summary>
+</br>
+</br>
+
+*controller - JS*
+
+```js
+
+sap.ui.define(
+    ['sap/ui/core/mvc/Controller'],
+    function (Controller) {
+        return Controller.extend("spiderman.controller.Main", {
+
+        });
+    });
+
+```
+
+*view - JS*
+
+```js
+
+sap.ui.jsview("spiderman.view.Main", {
+
+    // This is a fixed function of js view 
+    getControllerName: function () {
+        return "spiderman.controller.Main";
+    },
+
+    createContent: function () {
+
+        var oBtn = new sap.m.Button("idBtn", {
+            text: "Create Employee data",
+            icon: "sap-icon://add-employee",
+            press: function () { }
+        });
+
+        var oBtn2 = new sap.m.Button({
+            text: "Attach",
+            icon: "sap-icon://validate",
+            press: function () {
+                // Step 1 : get the object of Button 1
+                var oBtnNew = sap.ui.getCore().byId("idBtn");
+                // Attach the event dynamically to the function
+                oBtnNew.attachPress(function () {
+                    alert(sap.ui.getCore().byId("idInp").getValue());
+                });
+            }
+        });
+
+        var oInp = new sap.m.Input("idInp");
+        
+        // oBtn.placeAt("content"); 
+        // oInp.placeAt("content2");
+        // oBtn2.placeAt("content3");
+
+        // This is how the values are placed to web in JS view 
+        return [oInp,oBtn,oBtn2];
+        
+    }
+});
+
+```
+
+*index - html*
+
+```html
+
+<html>
+
+<head>
+    <!-- <script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"></script> -->
+    <script id="sap-ui-bootstrap" 
+            type="text/javascript" 
+            src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+            data-sap-ui-libs="sap.m" 
+            data-sap-ui-theme="sap_horizon" 
+            data-sap-ui-resourceroots='{ "spiderman" : "./" }'></script>
+    <script>
+/////////////////////////////////////////
+    // Earlier in HTML view we had lot of code written here which got shifted to JS view 
+    // code is shfifted to (webapp\view\Main.view.js) file
+/////////////////////////////////////////
+/// NEW CODE BLOCK ///
+        var oVIew = sap.ui.view({
+            viewName: 'spiderman.view.Main',
+            type: 'JS'
+        });
+
+        // Now we can place all the screen elements in this one div
+        oView.PlaceAt('content');
+/////////////////////////////////////////
+    </script>
+    
+    <style></style>
+
+</head>
+
+<body class="sapUiBody">
+    Welcome!
+    <div id="content"> </div>
+    <!-- <div id="content2"> </div> -->
+    <!-- <div id="content3"> </div> -->
+</body>
+
+</html>
+
+```
+
+
+</br>
+</br>
+</details>
+
+
 
 ```js
 
@@ -220,16 +337,6 @@ sap.ui.define([dep1, dep2, ...], function(obj1, obj2, ...){
 
 <!--
 
-<details>
-<summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
-</br>
-</br>
 
-</br>
-</br>
-<img src="./files/capmd12-96a.png" >
-</br>
-</br>
-</details>
 
 -->
