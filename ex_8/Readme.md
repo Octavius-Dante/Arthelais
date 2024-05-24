@@ -142,7 +142,7 @@
 
 **Sample JS view**
 
-1. Create **View folder and Controller folder** in project directory
+1. Create **View folder and Controller folder** inside webapp folder of project directory
 2. Create **Main.view.js** file inside **(View folder)**
 
 *JS view sample below*
