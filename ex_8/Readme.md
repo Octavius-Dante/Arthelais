@@ -276,6 +276,10 @@ sap.ui.jsview("spiderman.view.Main", {
 </details>
 
 
+[All SAP Fiori apps reference library provided by SAP](https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/home)
+
+[SAP Sample Fiori SDK screen elements documentation](https://sapui5.hana.ondemand.com/)
+
 
 </br></br>
 </br></br>
