@@ -2,7 +2,12 @@
 
 </br></br>
 
-> Don't use Java Script api document. object because it wont work like how it worked in normal HTML pages
+1. We never use document API to get the element objects because this API provides HTML element objects to us.
+</br> We need to obtain SAP UI5 element objects so that we can call he attributes and functions of SAP ui5 elements as per SDK
+
+2. TO obtain the UI5 element object, we can use **sap.ui.getCore() - Running applciation object**
+ </br> and then on top of it we can call a method **byId('Controlled')** to get the object of Ui5 element
+
 
 
 </br></br>
