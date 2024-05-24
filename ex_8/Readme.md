@@ -20,6 +20,16 @@
 
 7. If we have aggregations usually we will have methods like **addAgg, removeAgg, setAgg....**
 
+8. Every JS file in SAP Ui5 except views, follows a special syntax (template or skeleton) called scaffolding template.
+</br> Because a JS file is treated like a class. A class can depend on other classes (module), hence we will need this skeleton.
+
+```js
+sap.ui.define([dep1, dep2, ...], function(obj1, obj2, ...){
+}); // --- for a controller class sap/ui/core/mvc/Controller
+
+```
+
+
 </br></br>
 
 
