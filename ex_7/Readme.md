@@ -188,7 +188,7 @@ sProperties - Json which we can pass with the properties, events
 
 </br></br>
 
-> [!IMPORTANT]
+<!-- > [!IMPORTANT]
 > To know about an Ui element refer the sap.ui5.sdk page documentation , api reference, sample 
 
 > [!IMPORTANT]
@@ -205,6 +205,18 @@ sProperties - Json which we can pass with the properties, events
 
 > [!IMPORTANT]
 > REFERRING THE SAMPLES from (sap.ui.sdk page) AND USING THE CLASS METHODS as instructed in the documentation is the key to better UI5 development 
+ -->
+
+
+> [!IMPORTANT]
+> To know about an Ui element refer the sap.ui5.sdk page documentation , api reference, sample 
+> Any Ui element is referred to will be inherited from a class library 
+> Ui element can be accessed and operted using its own library method or its base class library method
+> Example button class will have click action -- but button's base class will have further properties even that can be used (placeAt in above code sample)
+> Icon explorer in sap.ui.sdk page can be referred to use the icon library to the ui page
+> REFERRING THE SAMPLES from (sap.ui.sdk page) AND USING THE CLASS METHODS as instructed in the documentation is the key to better UI5 development 
+
+
 
 
 </br></br>
