@@ -70,6 +70,8 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
 3. Controller will be able to implement the lifecycle methods. These methods helps us injecting, 
 </br> writing code which gets executed at specific point automatically
 
+</br></br>
+
   - **onInit** - is like constructor of a class, it is called when the object of class gets created for first time. 
   </br> The use case of this method is to initialize class variable
 
@@ -83,7 +85,9 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
    - **onBeforeRendering** - is the method which gets called Multiple time in the Lifecycle of a controller, 
   </br> every time the corresponding view is displayed on the screen to the user, just **AFTER** that,
   </br> the onAfterRendering can be used for post processing logic doing JQuery effect.
-  
+
+</br></br>  
+
 
 </br></br>
 <img src="./files/ui5e9_2.png" >
