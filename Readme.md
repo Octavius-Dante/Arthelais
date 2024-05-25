@@ -1,6 +1,6 @@
 ## SAP Ui / Ux : 
 
-**Ui5 developments Basic foundation**
+**Ui5 development basic foundation**
 
 </br>
 
