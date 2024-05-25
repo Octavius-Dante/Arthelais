@@ -286,7 +286,7 @@ so in command palette > **live preview : Show Preview external browser** should 
 
 </br>
 
-<img src="./files/ui5e10_1x.png" >
+<img src="./files/ui5e8_1.png" >
 
 
 
