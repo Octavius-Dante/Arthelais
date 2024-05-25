@@ -34,7 +34,7 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 
 ```xml
 
-<View controllerName="full.Path.Of.Controller" xmlns="sap.ui.core.mvc" xmlns="sap.m">
+<View controllerName="full.Path.Of.Controller" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
 
 </View>
 
