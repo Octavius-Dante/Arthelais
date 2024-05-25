@@ -58,6 +58,12 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
 - It is best practice to have 1 controller per view and have same name for vie and controller
 
 
+**Benefits of inheritance from SAP Controller**
+
+1. we can get the view object associated to the controller using **this.getView**
+2. 
+
+
 </br></br>
 </br></br>
 </br></br>
