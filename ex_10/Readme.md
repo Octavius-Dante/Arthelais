@@ -63,11 +63,11 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 
 Live preview and Show preview - will mostly fail due to lack of authorization to initiate bootstrap 
 
-so > command **live preview from browser** should be selected from - command bar as shown below
+so command > **live preview from browser** should be selected from - command bar as shown below
 
 </br>
 
-<img src="./files/ui5e10_1.png" >
+<img src="./files/ui5e10_1x.png" >
 
 
 
