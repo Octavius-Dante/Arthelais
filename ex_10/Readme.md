@@ -41,6 +41,8 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 
 ```xml
 
+<!-- xmlns:ns - ns-Name space -->
+
 <mvc:View controllerName="full.Path.Of.Controller" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:ns="libname">
 
     <Input id="idInp" />
