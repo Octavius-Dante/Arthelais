@@ -64,7 +64,7 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 </br></br>
 
 
-**Sample JS script- Controller file (webapp\Controller\MyXML.controller.js)**
+**Sample JS script- Controller file - path + Filename(webapp\controller\MyXML.controller.js)**
 
 ```js
 
@@ -91,7 +91,7 @@ sap.ui.define([
 
 </br></br>
 
-**Sample XML view - Main view file (webapp\view\MyXML.view.xml)** 
+**Sample XML view - Main view file - path + Filename(webapp\view\MyXML.view.xml)** 
 
 ```xml
 
@@ -106,7 +106,7 @@ sap.ui.define([
 
 </br></br>
 
-**Sample index - Html file (webapp\index.html)** 
+**Sample index - Html file - path + Filename(webapp\index.html)** 
 
 ```html
 
@@ -147,31 +147,101 @@ sap.ui.define([
 
 
 <details>
-<summary> <b>EXAMPLE of violated MVC principle XML view </b> </summary>
+<summary> <b>EXAMPLE of JS view and XML view together MVC principle followed </b> </summary>
 </br>
 </br>
 
-when XML view is called he logic of it is written in some other JS controller
-and JS view + XML view appear together in **index.html** example of both 
+JS view + XML view appear together in **index.html** example of both 
 
 
-**JS controller file**
+**JS view controller file -JS - path + Filename(webapp\controller\Main.controller.js)**
 
 ```js
+
+//AMD Like Syntax, Module Definition, Scaffolding template
+sap.ui.define(
+    ['sap/ui/core/mvc/Controller'], 
+    function(Controller){
+        return Controller.extend("chip.controller.Main",{
+            //this.getView()
+            //Hook methods
+            // oSuperman : sap.ui.getCore(),
+            onInit: function() {
+               //If you give more what you get, soon you will get
+               //more than you gave 
+               console.log("Contructor was called ", sap.ui.getCore());
+               console.log(this.getView());
+            },
+            onExit: function(){
+                console.log("onExit was called", sap.ui.getCore());
+            },
+            onBeforeRendering: function(){
+                console.log("Before rendering was called ", sap.ui.getCore());
+            },
+            onAfterRendering: function(){
+                console.log("After Rendering was called ");
+                $("#idInp").fadeOut(1000).fadeIn(5000);
+            },
+            spiderman: function(){
+                    //Step 1: get the object of Button 1 
+                    var oBtnNew = sap.ui.getCore().byId("idBtn");
+                    //Step 2: Attach the event dynamically to function
+                    oBtnNew.attachPress(function(){
+                        //alert(document.getElementById("idInp").value);
+                        //Step 1: get the application object(instance)
+                        var oCore = sap.ui.getCore();
+                        //Step 2: Obtain the UI5 control object - sap.ui.getCore().byId("idInp")
+                        var oInp = oCore.byId("idInp");
+                        //Step 3: We have a value, so we will have setter and getter for same
+                        var sVal = oInp.getValue();
+                        //Step 4: print on screen
+                        alert(sVal);
+                    });
+                }
+        });
+});
 
 ```
 
 </br></br>
 
-**JS View file**
+**JS View file -JS - path + Filename(webapp\view\Main.view.js)**
 
 ```js
+
+sap.ui.jsview("chip.view.Main", {
+
+    getControllerName: function() {
+        return "chip.controller.Main";
+    },
+
+    createContent: function(oController) {
+            var oInp = new sap.m.Input("idInp");
+            //oInp.placeAt("canvas");
+            var oBtn = new sap.m.Button('idBtn',
+                {
+                text: 'Shoot!',
+                icon: 'sap-icon://camera'
+                }
+            );
+            
+            //oBtn.placeAt("content");
+            var oBtn2 = new sap.m.Button({
+                text: "Attach",
+                press: oController.spiderman
+            });
+
+            //oBtn2.placeAt("next");
+            return [oInp, oBtn, oBtn2];
+    }
+
+});
 
 ```
 
 </br></br>
 
-**XML view file**
+**XML view file -XML - path + Filename(webapp\view\MyXML.view.xml)**
 
 ```xml
 
@@ -186,8 +256,79 @@ and JS view + XML view appear together in **index.html** example of both
 
 </br></br>
 
-**Index.html file**
+**XML view Controller file -JS - path + Filename(webapp\controller\MyXML.controller.js)**
 
+```js
+
+sap.ui.define([
+    'sap/ui/core/mvc/Controller'
+], function(Controller) {
+    'use strict';
+    return Controller.extend("chip.controller.MyXML",{
+        onInit: function(){
+
+        },
+        //Ctrl+Slash /
+        onBtnClick: function(){
+                debugger;
+                //var oInp = sap.ui.getCore().byId("idText");  //this.getView().byId("idText")
+                var oInp = this.getView().byId("idText");
+                alert(oInp.getValue());
+            },
+    });
+});
+
+
+```
+
+</br></br>
+
+**Index.html file - path + Filename(webapp\index.html)**
+
+```html
+
+<html>
+    <head>
+
+        <script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+                data-sap-ui-libs="sap.m"
+                data-sap-ui-theme="sap_fiori_3_dark"
+                data-sap-ui-resourceroots='{
+                    "chip" : "./"
+                }'
+        >     
+        </script>
+
+        <script>
+            //var oControlName = new libraryName.ClassName(sId, sProperties);
+            
+            var oView = new sap.ui.view({
+                viewName: 'chip.view.Main',
+                type: 'JS'
+            });
+            
+            oView.placeAt('content');
+
+            var oViewXML = new sap.ui.view({
+                viewName: 'chip.view.MyXML',
+                type: 'XML',
+                id: "idXMLView"
+            });
+            oViewXML.placeAt("canvas");
+
+
+        </script>
+
+    </head>
+    <body class="sapUiBody">
+        <div id="canvas"></div>
+        <div id="content"></div>
+        <div id="next"></div>
+    </body> 
+
+</html>
+
+```
 
 
 </br>
