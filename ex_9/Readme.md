@@ -88,6 +88,8 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
 
 </br></br>  
 
+> [!IMPORTANT]
+> Hook methods : onInit, onExit, onAfterRendering, onBeforeRendering.
 
 </br></br>
 <img src="./files/ui5e9_2.png" >
