@@ -28,6 +28,12 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 
 </br></br>
 
+> [!IMPORTANT]
+> 
+
+</br></br>
+
+
 **XML Skeleton structure in SAP Ui5**
 
 </br>
@@ -137,8 +143,56 @@ sap.ui.define([
 ```
 
 
+</br></br>
 
 
+<details>
+<summary> <b>EXAMPLE of violated MVC principle XML view </b> </summary>
+</br>
+</br>
+
+when XML view is called he logic of it is written in some other JS controller
+and JS view + XML view appear together in **index.html** example of both 
+
+
+**JS controller file**
+
+```js
+
+```
+
+</br></br>
+
+**JS View file**
+
+```js
+
+```
+
+</br></br>
+
+**XML view file**
+
+```xml
+
+<mvc:View controllerName="chip.controller.MyXML" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+
+    <Input id="idText"/>
+    <Button id="idClick" press="onBtnClick" text="Click Me" icon="sap-icon://home"/>
+
+</mvc:View>
+
+```
+
+</br></br>
+
+**Index.html file**
+
+
+
+</br>
+</br>
+</details>
 
 
 
