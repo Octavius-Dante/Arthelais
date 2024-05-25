@@ -246,13 +246,13 @@ sap.ui.jsview("spiderman.view.Main", {
     // code is shfifted to (webapp\view\Main.view.js) file
 /////////////////////////////////////////
 /// NEW CODE BLOCK ///
-        var oVIew = sap.ui.view({
+        var oView = new sap.ui.view({
             viewName: 'spiderman.view.Main',
             type: 'JS'
         });
 
         // Now we can place all the screen elements in this one div
-        oView.PlaceAt('content');
+        oView.placeAt('content');
 /////////////////////////////////////////
     </script>
     
