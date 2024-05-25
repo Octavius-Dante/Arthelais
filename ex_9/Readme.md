@@ -115,7 +115,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
 
 8. Now Renderer will generate **HTML+CSS** back to the screen.
 
-
+</br></br>
 
 <!-- > [!IMPORTANT]
 > Constructor is a method, A method which gets called when the class object gets created for the first time. -->
