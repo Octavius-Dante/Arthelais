@@ -123,7 +123,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
 
 - Refer the sample program *.zip file enclosed in the section.
 - Code is segregated as per the SAP guideline standards
-- same code as yesterdays session with refined changes as per guidelines 
+- Same code as yesterdays session with refined changes as per guidelines 
 
 
 
