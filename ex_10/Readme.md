@@ -53,7 +53,7 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 - Now if we want to use **sap.ui.getCore().byId("viewId--ControlId");**
 
 - So if we use the XML view, the best approach to get control instance is to use view object
-**this.getView().byId("controlId")**
+**this.getView().byId("controlId")** -used most
 
 
 
