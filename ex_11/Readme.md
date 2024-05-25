@@ -5,6 +5,8 @@
 
 **Building a simple form layout in UI5**
 
+
+
 - Refer the SAP ui5 SDK in sample section for "Simple forms"
 
 <img src="./files/ui5e11_1.png" >
