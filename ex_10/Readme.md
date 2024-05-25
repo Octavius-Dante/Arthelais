@@ -147,7 +147,7 @@ sap.ui.define([
 
 
 <details>
-<summary> <b>EXAMPLE of JS view and XML view together MVC principle followed </b> </summary>
+<summary> <b> MVC principle followed - JS view and XML view together  </b> </summary>
 </br>
 </br>
 
@@ -336,7 +336,7 @@ sap.ui.define([
 </br>
 
 <details>
-<summary> <b> EXAMPLE of JS view and XML view together MVC principle violated </b> </summary>
+<summary> <b> MVC principle violated - JS view and XML view together  </b> </summary>
 </br>
 </br>
 
