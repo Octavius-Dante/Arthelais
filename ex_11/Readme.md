@@ -7,7 +7,7 @@
 
 - Refer the SAP ui5 SDK in sample section for "Simple forms"
 
-<img src="./files/uie11-1.png" >
+<img src="./files/ui5e11_1.png" >
 
 
 
