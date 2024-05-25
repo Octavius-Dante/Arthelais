@@ -84,8 +84,13 @@ sap.ui.define([
         //Ctrl+Slash / comment code in VSCode and BAS
         onBtnClick: function(){
                 debugger; // break-point for testing 
-                //var oInp = sap.ui.getCore().byId("idText");  //never use this method of obtaining ID used in JS
-                var oInp = this.getView().byId("idText");      // use this method recommended best practice to get the ID in XMML views
+
+// never use this method of obtaining ID used in JS - it wont work               
+                //var oInp = sap.ui.getCore().byId("idText");  
+
+// use this method recommended best practice to get the ID in XMML views
+                var oInp = this.getView().byId("idText");      
+
                 alert(oInp.getValue());
             },
     });
