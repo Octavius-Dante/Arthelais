@@ -79,6 +79,7 @@ sap.ui.define([
     'sap/ui/core/mvc/Controller'
 ], function(Controller) {
     'use strict';
+// workspacename.controller-folder.controller-name    
     return Controller.extend("chip.controller.MyXML",{
         onInit: function(){
 
@@ -113,7 +114,7 @@ sap.ui.define([
 **Sample XML view - Main view file - path + Filename(webapp\view\MyXML.view.xml)** 
 
 ```xml
-
+<!-- ControllerName = workspacename.controller-folder.controller-name -->
 <mvc:View controllerName="chip.controller.MyXML" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
 
     <Input id="idText"/>
