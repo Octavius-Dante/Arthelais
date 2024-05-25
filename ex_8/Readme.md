@@ -297,8 +297,7 @@ so in command palette > **live preview : Show Preview external browser** should 
 [SAP Sample Fiori SDK screen elements documentation](https://sapui5.hana.ondemand.com/)
 
 
-</br></br>
-</br></br>
+</br>
 </br></br>
 
 ## End of Exercise 8 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_9"> Exercise 9-Control Hierarchy 2</a>
