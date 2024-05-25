@@ -536,12 +536,7 @@ this.getView().byId("idInp1").setValue("Some thing is Cooking!");
 ```
 
 
-
-
-
-
-</br></br>
-</br></br>
+</br>
 </br></br>
 
 ## End of Exercise 10 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_11"> Exercise 11- Model Basics</a>
