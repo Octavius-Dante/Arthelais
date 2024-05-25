@@ -26,8 +26,19 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 4. All the code samples in SDK as built on XML views
 
 
+</br></br>
 
+**XML Structure in SAP Ui5**
 
+</br></br>
+
+```xml
+
+<View controllerName="full.Path.Of.Controller" xmlns="sap.ui.core.mvc" xmlns="sap.m">
+
+</View>
+
+```
 
 
 
