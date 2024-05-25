@@ -16,14 +16,28 @@
 </br>
 </details>
 
+<details>
+<summary> Aggregation in Ui5 design </summary>
+</br>
+It can be represented as adding one object inside another object
 </br></br>
 
-- Aggregation in Ui5 design can be represented as adding one object inside another object
+- Usually the control class aggregates to the super classes of UI control so any 
+</br> of the UI control can be passed as a object inside the aggregation 
 
+- We can pass any child class object to simple form
 
+- Parent class : sap.ui.core.Element - Child classes are button, input, message, title 
 
+- Aggregation will follow same namespace as its control/class.
 
+- Inside the aggregation we can add 0 or multiple objects of other classes depending on cardinality
 
+</br></br>
+</br>
+<img src="./files/ui5e11_4.png" >
+</br></br>
+</details>
 
 
 
