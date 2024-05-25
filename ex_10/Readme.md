@@ -65,7 +65,7 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 </br></br>
 </br>
 
-## XML view sample (complete file)
+## XML view sample (complete files)
 
 </br>
 
