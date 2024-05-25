@@ -62,7 +62,17 @@ Pre-requisite VSCode or BAS should be installed and active.
 
 </br></br>
 
+## SAP Fiori App library and SDK link 
+
+[All SAP Fiori apps reference library provided by SAP](https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/home)
+
+[SAP Sample Fiori SDK screen elements documentation](https://sapui5.hana.ondemand.com/)
+
+</br></br>
+
 ## Other links for further learning
+
+
 
 
 <!--
