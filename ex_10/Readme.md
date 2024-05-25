@@ -28,17 +28,33 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 
 </br></br>
 
-**XML Structure in SAP Ui5**
+**XML Skeleton structure in SAP Ui5**
 
 </br>
 
 ```xml
 
-<View controllerName="full.Path.Of.Controller" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<mvc:View controllerName="full.Path.Of.Controller" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:ns="libname">
 
-</View>
+    <Input id="idInp" />
+    <Button id="idBtn" />
+    <Button id="idBtn" />
+
+</mvc:View>
+
+<!-- sap.m - default library -->
 
 ```
+
+</br></br>
+
+- When the renderer convert the XML view to HTML code, this time the control ID will be the **viewID--elementId**
+
+- Now if we want to use **sap.ui.getCore().byId("viewId--ControlId");**
+
+- So if we use the XML view, the best approach to get control instance is to use view object
+**this.getView().byId("controlId")**
+
 
 
 
