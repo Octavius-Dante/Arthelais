@@ -288,6 +288,12 @@ so in command palette > **live preview : Show Preview external browser** should 
 <img src="./files/ui5e8_1.png" >
 
 
+</br> Above method is first time once the port is active next time onwards can select port option in the window
+</br>
+
+<img src="./files/ui5e8_1.png" >
+
+
 
 </br></br>
 
