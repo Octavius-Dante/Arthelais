@@ -64,7 +64,25 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
 **Benefits of inheritance from SAP Controller**
 
 1. we can get the view object associated to the controller using **this.getView**
-2. 
+
+2. inside the controller/JS/Module we can use **this** pointer to point to current class object
+
+3. Controller will be able to implement the lifecycle methods. These methods helps us injecting, 
+</br> writing code which gets executed at specific point automatically
+
+  - **onInit** - is like constructor of a class, it is called when an objects of class gets created for first time 
+  - **onExit** - is like constructor of a class
+  - **onAfterRendering** - is like constructor of a class
+  - **onBeforeRendering** - is like constructor of a class
+
+</br></br>
+<img src="./files/ui5e9_2.png" >
+</br></br>
+
+> [!IMPORTANT]
+> constructor is a method, A method which gets called a class object is created for the first time.
+
+
 
 
 </br></br>
