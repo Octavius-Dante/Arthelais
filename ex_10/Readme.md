@@ -10,6 +10,41 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 
 - Also convert any XML to any data object ---> **Parsing**
 
+
+</br></br>
+
+Why XML view over JS view - 
+
+1. Violation of MVC principles, XML is a data holding file and not a programming language there is no freedom to write processing or business logic.
+
+2. XML is an industry standard to write views 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </br></br>
 </br></br>
 </br></br>
