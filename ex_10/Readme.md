@@ -21,7 +21,7 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 
 2. XML is an industry standard to write views 
 
-3. When the renderer convert JSview --> HTML+CSS, XML is faster to convert
+3. When the renderer convert JS view --> HTML+CSS, XML is faster to convert
 
 4. All the code samples in SDK as built on XML views
 
