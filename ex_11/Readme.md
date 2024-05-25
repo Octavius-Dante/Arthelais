@@ -31,7 +31,9 @@ It can be represented as adding one object inside another object
 
 - Aggregation will follow same namespace as its control/class.
 
-- Inside the aggregation we can add 0 or multiple objects of other classes depending on cardinality
+- Inside the aggregation we can add 0 or multiple objects of other classes depending on cardinality.
+
+- If there is an aggregation which id default(one), then we can also skip writing it in our view.
 
 </br></br>
 </br>
