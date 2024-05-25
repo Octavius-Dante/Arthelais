@@ -527,8 +527,13 @@ sap.ui.jsview("chip.view.Main", {
 
 
 
+**Sample script for setting value in input field**
 
+```js
 
+this.getView().byId("idInp1").setValue("Some thing"); 
+
+```
 
 
 
