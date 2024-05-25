@@ -55,13 +55,86 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 - So if we use the XML view, the best approach to get control instance is to use view object
 **this.getView().byId("controlId")** -used most
 
-
-
 </br></br>
 
 
+**Sample JS script- Controller file (webapp\Controller\MyXML.controller.js)**
+
+```js
+
+sap.ui.define([
+    'sap/ui/core/mvc/Controller'
+], function(Controller) {
+    'use strict';
+    return Controller.extend("chip.controller.MyXML",{
+        onInit: function(){
+
+        },
+        //Ctrl+Slash /
+        onBtnClick: function(){
+                debugger;
+                //var oInp = sap.ui.getCore().byId("idText");  //this.getView().byId("idText")
+                var oInp = this.getView().byId("idText");
+                alert(oInp.getValue());
+            },
+    });
+});
 
 
+```
+
+</br></br>
+
+**Sample XML view - Main view file (webapp\view\MyXML.view.xml)** 
+
+```xml
+
+<mvc:View controllerName="chip.controller.MyXML" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+
+    <Input id="idText"/>
+    <Button id="idClick" press="onBtnClick" text="Click Me" icon="sap-icon://home"/>
+
+</mvc:View>
+
+```
+
+</br></br>
+
+**Sample index - Html file (webapp\index.html)** 
+
+```html
+
+<html>
+    <head>
+<!-- Bootstrap script link-->
+        <script src="https://ui5.sap.com/resources/sap-ui-core.js"
+                data-sap-ui-libs="sap.m"
+                data-sap-ui-theme="sap_fiori_3_dark"
+                data-sap-ui-resourceroots='{"chip" : "./"}'>     
+        </script>
+
+        <script>
+
+// Object creation for XML view
+            var oViewXML = new sap.ui.view({
+                viewName: 'chip.view.MyXML',  // view name
+                type: 'XML',                  // view type
+                id: "idXMLView"             
+            });
+
+// Object assignment of XML view to HTML div
+            oViewXML.placeAt("canvas");
+
+        </script>
+
+    </head>
+    <body class="sapUiBody">
+        <div id="canvas"></div>
+    </body> 
+
+</html>
+
+```
 
 
 

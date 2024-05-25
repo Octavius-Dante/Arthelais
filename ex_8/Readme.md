@@ -270,7 +270,6 @@ sap.ui.jsview("spiderman.view.Main", {
 </html>
 
 ```
-
 </br>
 </br>
 </details>
