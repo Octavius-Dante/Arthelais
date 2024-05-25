@@ -95,8 +95,8 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
 <img src="./files/ui5e9_2.png" >
 </br></br>
 
-> [!IMPORTANT]
-> Constructor is a method, A method which gets called when the class object gets created for the first time.
+<!-- > [!IMPORTANT]
+> Constructor is a method, A method which gets called when the class object gets created for the first time. -->
 
 
 
