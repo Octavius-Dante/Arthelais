@@ -4,7 +4,7 @@
 
 XML Stands for Extended Markup Language, it is a tree data structure to represent data, Unlike HTML, XML can have tag. The sole purpose of XM Lwas to exchange data between heterogeneous systems.
 
-</br></br>
+</br>
 
 - Any Data object in programming language is converted to XML ---> **Rendering** 
 
