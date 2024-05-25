@@ -23,13 +23,14 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 
 3. When the renderer convert JS view --> HTML+CSS, XML is faster to convert
 
-4. All the code samples in SDK as built on XML views
+4. All the code samples in SDK are built on XML views
 
 
 </br></br>
 
 > [!IMPORTANT]
-> 
+> XML file is used to define view elements as a declarative object
+> -- JS file we associate as controller we write logic for the declared object
 
 </br></br>
 
