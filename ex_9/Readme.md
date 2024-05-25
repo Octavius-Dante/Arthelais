@@ -77,10 +77,12 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
   </br> When user close the application, we can write clean-up code inside the method
 
   - **onBeforeRendering** - is the method which gets called Multiple time in the Lifecycle of a controller, 
-  </br> every time the corresponding view is displayed on the screen to the user, just before that,
+  </br> every time the corresponding view is displayed on the screen to the user, just **BEFORE** that,
   </br> the onBeforeRendering gets called we can write conditional Ui change logic inside the method.(PBO of ABAP dialog programming)
 
-  - **onAfterRendering** - is like constructor of a class
+   - **onBeforeRendering** - is the method which gets called Multiple time in the Lifecycle of a controller, 
+  </br> every time the corresponding view is displayed on the screen to the user, just **AFTER** that,
+  </br> the onAfterRendering can be used for post processing logic doing JQuery effect.
   
 
 </br></br>
