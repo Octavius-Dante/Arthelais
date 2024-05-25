@@ -63,7 +63,11 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 **this.getView().byId("controlId")** -used most
 
 </br></br>
+</br>
 
+## XML view sample (complete file)
+
+</br>
 
 **Sample JS script- Controller file - path + Filename(webapp\controller\MyXML.controller.js)**
 
