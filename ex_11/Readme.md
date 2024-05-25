@@ -9,16 +9,16 @@
 <summary> Refer the SAP ui5 SDK in sample section for "Simple form" </summary>
 </br>
 </br>
-
 <img src="./files/ui5e11_1.png" >
 <img src="./files/ui5e11_2.png" >
 <img src="./files/ui5e11_3.png" >
-
 </br>
 </br>
 </details>
 
+</br></br>
 
+- Aggregation in Ui5 design can be represented as adding one object inside another object
 
 
 
