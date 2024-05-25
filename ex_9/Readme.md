@@ -80,7 +80,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
 </br></br>
 
 > [!IMPORTANT]
-> constructor is a method, A method which gets called a class object is created for the first time.
+> Constructor is a method, A method which gets called when the class object gets created for the first time.
 
 
 
