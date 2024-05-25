@@ -53,7 +53,7 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 
 ```
 
-</br></br>
+</br>
 
 - When the renderer convert the XML view to HTML code, this time the control ID will be the **viewID--elementId**
 
