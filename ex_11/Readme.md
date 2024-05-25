@@ -3,6 +3,33 @@
 </br></br>
 
 
+**Building a simple form layout in UI5**
+
+- Refer the SAP ui5 SDK in sample section for "Simple forms"
+
+<img src="./files/uie11-1.png" >
+
+
+
+
+
+
+
+
+
+
+</br></br>
+</br></br>
+</br></br>
+
+
+
+
+
+
+
+
+
 </br></br>
 </br></br>
 </br></br>
