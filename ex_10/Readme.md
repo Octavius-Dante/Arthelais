@@ -91,7 +91,7 @@ sap.ui.define([
 // XML view conversion to HTML - processed differently by renderer -- this generates a new id for element
 // JS view conversion to HTML  - processed differently by renderer -- this doesnt generate new id for element
 //
-// both are different category of conversion process hadnled by renderer so it doesnt work
+// both are different category of conversion process handled by renderer so it doesnt work
 //
                 //var oInp = sap.ui.getCore().byId("idText");  
 
