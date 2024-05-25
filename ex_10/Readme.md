@@ -333,10 +333,7 @@ sap.ui.define([
 </br>
 </details>
 
-
 </br></br>
-
-
 
 <details>
 <summary> <b> EXAMPLE of JS view and XML view together MVC principle violated </b> </summary>
