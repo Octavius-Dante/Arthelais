@@ -13,7 +13,9 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 
 </br></br>
 
-Why XML view over JS view - 
+**Why XML view over JS view -**
+</br>
+
 
 1. Violation of MVC principles, XML is a data holding file and not a programming language there is no freedom to write processing or business logic. So no option to violate the MVC principle
 
