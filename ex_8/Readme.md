@@ -275,6 +275,21 @@ sap.ui.jsview("spiderman.view.Main", {
 </br>
 </details>
 
+
+</br></br>
+
+**How to see the Preview of the page properly in VSCode and BAS**
+
+Live preview and Show preview - will mostly fail due to lack of authorization to access bootstrap link
+
+so in command palette > **live preview : Show Preview external browser** should be selected as shown below
+
+</br>
+
+<img src="./files/ui5e10_1x.png" >
+
+
+
 </br></br>
 
 
