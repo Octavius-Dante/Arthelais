@@ -525,7 +525,7 @@ sap.ui.jsview("chip.view.Main", {
 </br>
 </details>
 
-
+</br></br>
 
 **Sample script for setting value in input field**
 
