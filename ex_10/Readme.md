@@ -56,6 +56,14 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 **this.getView().byId("controlId")** -used most
 
 
+**How to see the Preview of the page properly in VSCode and BAS**
+
+Live preview and Show preview - will mostly fail due to lack of authorization to initiate bootstrap 
+
+so > command **live preview from browser** should be selected from - command bar as shown below
+
+<img src="./files/ui5e10_1.png" >
+
 
 
 
@@ -138,7 +146,7 @@ XML Stands for Extended Markup Language, it is a tree data structure to represen
 
 </br>
 </br>
-<img src="./files/capmd12-96a.png" >
+<img src="./files/ui5e10_1.png" >
 </br>
 </br>
 </details>
