@@ -85,10 +85,10 @@ sap.ui.define([
         onBtnClick: function(){
                 debugger; // break-point for testing 
 
-// never use this method of obtaining ID used in JS - it wont work               
+// never use (sap.ui.getCore().byId) this method for obtaining ID used in JS - it wont work               
                 //var oInp = sap.ui.getCore().byId("idText");  
 
-// use this method recommended best practice to get the ID in XMML views
+// use this (this.getView().byId) method recommended way to get the ID in XMML views
                 var oInp = this.getView().byId("idText");      
 
                 alert(oInp.getValue());
