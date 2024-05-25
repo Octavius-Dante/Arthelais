@@ -2,11 +2,11 @@
 
 **Ui5 developments Basic foundation**
 
-</br></br>
+</br>
 
 Pre-requisite VSCode or BAS should be installed and active.
 
-</br></br>
+</br>
 
 - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_1"> Exercise 1 -Basic </a>
 - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_2"> Exercise 2-HTML5</a>
