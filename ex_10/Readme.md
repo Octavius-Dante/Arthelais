@@ -85,9 +85,9 @@ sap.ui.define([
         onBtnClick: function(){
                 debugger; // break-point for testing 
 
-// never use (sap.ui.getCore().byId) method for getting ID - it wont work XML view only works in JSview 
+// never use (sap.ui.getCore().byId) method for getting ID - it wont work in XML view only works in JSview 
 //
-// reason why it wont work is : 
+// Reason why it wont work is : 
 // XML view conversion to HTML - processed differently by renderer -- this generates a new id for element
 // JS view conversion to HTML  - processed differently by renderer -- this doesnt generate new id for element
 //
