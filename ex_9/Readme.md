@@ -93,8 +93,9 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
 
 </br></br>
 <img src="./files/ui5e9_2.png" >
-</br></br>
 
+</br></br>
+</br></br>
 
 **SAP Ui5 program flow**
 
