@@ -55,7 +55,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
 
 ```
 
-- It is best practice to have 1 controller per view and have same name for vie and controller
+- It is best practice to have 1 controller per view and have same name for view and controller
 
 
 </br></br>
@@ -95,9 +95,34 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
 <img src="./files/ui5e9_2.png" >
 </br></br>
 
+
+**SAP Ui5 program flow**
+
+1. User runs the ui5 application **(index.html)**
+
+2. Index.html calls the remote URL on the internet and loads ui5 framework **(Bootstrap)** now framework is loaded
+
+3. Instantiating a view object in the browser 
+
+4. Ui5 framework detects the view and calls the **getControllerName** in Main.view.js 
+</br> it returns the name of the controller **namespace.controller.Main** to the ui5 framework 
+
+5. Now Ui5 Framework creates an object for the controller class and it calls the constructor of the class
+
+6. This controller class constructor call goes to **createContent** in Main.view.js and this calls **(onInit)**
+
+7. All the controls will be created and given back to Ui5 framework and this UI5 framework will give it to **Renderer**
+
+8. Now Renderer will generate **HTML+CSS** back to the screen.
+
+
+
 <!-- > [!IMPORTANT]
 > Constructor is a method, A method which gets called when the class object gets created for the first time. -->
 
+- Refer the sample program *.zip file enclosed in the section.
+- Code is segregated as per the SAP guideline standards
+- same code as yesterdays session with refined changes as per guidelines 
 
 
 
