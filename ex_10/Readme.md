@@ -135,14 +135,15 @@ sap.ui.define([
         <script src="https://ui5.sap.com/resources/sap-ui-core.js"
                 data-sap-ui-libs="sap.m"
                 data-sap-ui-theme="sap_fiori_3_dark"
-                data-sap-ui-resourceroots='{"chip" : "./"}'>     
+                data-sap-ui-resourceroots='{"chip" : "./"}'>                     
         </script>
+<!-- data-sap-ui-resourceroots -- assigning a name to workspace-->
 
         <script>
 
 // Object creation for XML view
             var oViewXML = new sap.ui.view({
-                viewName: 'chip.view.MyXML',  // view name
+                viewName: 'chip.view.MyXML',  // view name -- workspacename.view-folder.view-name
                 type: 'XML',                  // view type
                 id: "idXMLView"             
             });
