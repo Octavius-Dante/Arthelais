@@ -531,7 +531,7 @@ sap.ui.jsview("chip.view.Main", {
 
 ```js
 
-this.getView().byId("idInp1").setValue("Some thing"); 
+this.getView().byId("idInp1").setValue("Some thing is Cooking!"); 
 
 ```
 
