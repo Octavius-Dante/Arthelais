@@ -4,7 +4,7 @@
 
 **Binding Types 4**
 
-1. Porperty binding : - When we bind address of model data with a property of our control, is called property binding 
+**Property binding** : - When we bind address of model data with a property of our control, is called property binding 
 </br> E.G we bound */empStr/empId* with value property of input control
 
 There are multiple ways of doing property binding following are the syntax : 
@@ -18,8 +18,6 @@ There are multiple ways of doing property binding following are the syntax :
  1.4. oControl.bindProperty(sProp-Name, sPath); 
 
 
-2. 
-
 
 </br></br>
 
@@ -29,17 +27,193 @@ There are multiple ways of doing property binding following are the syntax :
 
 ```js
 
+sap.ui.define(
+    ['sap/ui/core/mvc/Controller',
+    'logger/model/models'], 
+    function(Controller, Models){
+        return Controller.extend("logger.controller.ex12",{
 
+            onInit: function(){            
+                // Calling our own reuse calss to create model object
+                var oModel = Models.createJSONModel();
+
+                // Step 3. Make the model aware to the application
+                // - Model settiing at application level - available in all the views     
+                sap.ui.getCore().setModel(oModel);   
+
+                 // - Model setting at View level - only specific to the view
+                 // - this.getView().setModel(oModel);    
+                 
+            // Step 4. Binding Syntax Type 3, 4 
+           ////////////////////////////////////////////////////                            
+                // BINDING type 3
+                var oSalary = this.getView().byId("idSalary");
+                oSalary.bindValue('/empStr/Salary');
+                
+                // BINDING type 4
+                var oCurr = this.getView().byId("idCurrency");
+                oCurr.bindProperty("value", "/empStr/Currency");
+            },
+
+            onLoad: function(){
+                this.getView().byId("idEmpId").setValue("609879");
+                this.getView().byId("idEmpName").setValue("Argnan Carlyle");
+                this.getView().byId("idSalary").setValue("400000"); 
+                this.getView().byId("idCurrency").setValue("USD");
+            },
+
+        });
+});
 
 ```
+
+</br></br>
 
 *XML view data binding*
 
 ```xml
 
+<mvc:View xmlns:form="sap.ui.layout.form" controllerName="logger.controller.ex12" 
+xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+xmlns:f="sap.ui.layout.form"
+xmlns:core="sap.ui.core">
+
+<!-- Simple form definition Form is the ibrary namesapce -->
+<!-- Aggregation of control follows the same name space as the parent Form name -->
+
+<!-- No need to mention library for this form xmlns:f="sap.ui.layout.form" -->
+    <form:SimpleForm editable="true"> <!-- editable property aligns the controls properly in screen -->
+    <form:title>
+        <core:Title icon="sap-icon://customer" text="Employee Details" />
+    </form:title>
+        <form:content>  <!-- Aggregation name starts with small letter-->
+            <Label text="Emp Id"/> <!-- control name starts with capital letter -->            
+            
+            <!--BINDING type 1 { } address of the data operator for data binding -->
+            <Input id="idEmpId" width="25%" value="{/empStr/empId}"/> 
+            <Label text="Emp Name"/>
+
+            <!--BINDING type 2 have to instruct in Bootstrap for thsi type of binding-->
+            <Input id="idEmpName" width="30%" value="{path: '/empStr/empName'}" /> 
+            <Label text="Salary"/>
+            <Input id="idSalary" width="20%" value="{/empStr/Salary}" />
+            <Label text="Currency"/>
+            <Input id="idCurrency" width="10%" value="{/empStr/Currency}" />
+            <Label/> <!--empty label for spacing-->            
+                <HBox>
+                    <Button text="Load data" press="onLoad" width=""/>
+                </HBox>
+                        
+        </form:content>
+    </form:SimpleForm>
+
+    </mvc:View>
 
 
 ```
+
+</br></br>
+
+*Model JS file*
+
+```js
+
+sap.ui.define(['sap/ui/model/json/JSONModel'], // Dependency asynchronous module definition (AMD)
+    function (JSONModel) {
+        'use strict';
+        // 'use strict' is declaration instruction to throw error 
+        // if mentioned it will throw error when a value is assigned without declaration
+        return {
+            createJSONModel: function () {
+                // Step 1. create a brand new model object
+                var oModel = new JSONModel();
+                // Step 2. Load or set the data to the model
+                // oModel.setData();
+                oModel.loadData("model/mockdata/sample.json");
+                return oModel;
+            },
+            createXMLModel: function () {
+            },
+            createResourceModel: function () {
+            }
+        };
+    });
+
+```
+
+</br></br>
+
+*Mockdata - model Json file*
+
+```json
+
+{
+    "empStr": {
+        "empId": 634,
+        "empName": "Carlisle",
+        "Salary": 450000,
+        "Currency": "USD"
+    },
+
+    "empTab": [
+        {
+            "empId": 101,
+            "empName": "jane",
+            "salary": 250000,
+            "currency": "USD"
+        },
+        {
+            "empId": 102,
+            "empName": "jack",
+            "salary": 125000,
+            "currency": "USD"
+        },
+        {
+            "empId": 103,
+            "empName": "jerry",
+            "salary": 300000,
+            "currency": "DIN"
+        }
+    ]
+}
+
+```
+
+</br></br>
+
+*Index Html file*
+
+```html
+
+<html>
+    <head>
+
+        <script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+                data-sap-ui-libs="sap.m"
+                data-sap-ui-theme="sap_fiori_3_dark"
+                data-sap-ui-resourceroots='{"logger" : "./"}'
+                data-sap-ui-bindingSyntax="Complex"
+        >     
+        </script>
+
+        <script>
+            var oViewXML = new sap.ui.view({
+                viewName: 'logger.view.ex12',
+                type: 'XML',
+                id: "idXMLView"
+            });
+            oViewXML.placeAt("canvas");
+        </script>
+        
+    </head>
+    <body class="sapUiBody">
+        <div id="canvas"></div>
+    </body> 
+
+</html>
+
+```
+
 
 </br></br>
 </br></br>
