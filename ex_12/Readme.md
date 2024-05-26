@@ -11,7 +11,7 @@ There are multiple ways of doing property binding following are the syntax :
 
  1.1. Property={address_of_data}
 
- 1.2. Property={Path:'address_of_data'}
+ 1.2. Property={Path:'address_of_data'} --- Complex binding syntax - ui5 will refuse this 
      
  1.3. oControl.bind-Name-Of-Property('address_of_data')
      
