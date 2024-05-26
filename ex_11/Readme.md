@@ -232,6 +232,8 @@ this.getView().byId("idControl").setModel(oModel) // Control level
      - Need address of the data to build a path 
 
 
+</br></br>
+
 **Building a sample JSON model**
 
 *empStr is the structure type holds only single row*
