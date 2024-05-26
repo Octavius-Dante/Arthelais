@@ -8,9 +8,12 @@
 </br> E.G we bound */empStr/empId* with value property of input control
 </br> There are multiple ways of doing property binding
      
-     1.1. po 
+     1.1. po
+
      1.2. wa
+     
      1.3. we
+     
      1.4. ee 
 
 
