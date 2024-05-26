@@ -2,7 +2,15 @@
 
 </br></br>
 
+**How to fill data to the screen field using data model**
 
+*controller JS file*
+
+```js
+
+
+
+```
 
 </br></br>
 </br></br>
