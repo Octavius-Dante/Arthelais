@@ -1,7 +1,37 @@
 ## Exercise 13 - Expression Binding XML Model
 
+</br></br>
 
 </br></br>
+
+**Default binding mode for JSON model** 
+
+</br></br>
+
+**Disable or enable screen elements with help of models - using a button**
+
+
+<details>
+<summary> Code samples for two way binding with models </summary>
+</br>
+</br>
+
+1. View data is loaded from a model 
+2. Changing a view data in the screen should affect the model (communicate the change to model and modify it)
+3. Then the View is reloaded from the model this should (disable or enable screen elements)
+
+</br></br>
+
+```
+
+
+```
+
+
+</br>
+</br>
+</details>
+
 
 </br></br>
 </br></br>
