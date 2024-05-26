@@ -283,7 +283,8 @@ this.getView().byId("idControl").setModel(oModel) // Control level
 
 </br>
 
-Considering the above JSon model let build the address reference for follwoing scenarios
+Considering the above JSon model let build the address reference for following scenarios
+</br> since its array the index starts with zero '0' (0,1,2,3,4,5...)
 </br> </br>
 
 Scenario 1 - we need to know the salary of *Carlisle*
