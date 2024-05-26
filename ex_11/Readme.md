@@ -151,6 +151,8 @@ index.html
 
 ## Model in SAP Ui5
 
+</br></br>
+
 Model is an object of data, The model is used to 
 
 - Hold application data
