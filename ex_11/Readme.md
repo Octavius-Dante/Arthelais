@@ -167,11 +167,25 @@ Model is an object of data, The model is used to
 
 </br>
 
+**Client side model :**
+
+A Client side model, keeps all the data in the browser once loaded. Suitable for small size of data.
+</br> These models are like internal tables in ABAP used fir Data manipulation.
+
+</br>
+
 **Client side model types**
 
 - JSON model
 - XML model 
 - Resource model
+
+</br>
+
+**Server side model :**
+
+A Client side model, keeps all the data in the browser once loaded. Suitable for small size of data.
+</br> These models are like internal tables in ABAP used fir Data manipulation.
 
 </br>
 
