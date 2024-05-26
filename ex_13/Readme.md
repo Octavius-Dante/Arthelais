@@ -609,7 +609,79 @@ sap.ui.define(
 
 ```xml
 
+<?xml version="1.0"?>
+<data>
+    <empStr>
+        <empId>7000</empId>
+        <empName>Kentaro</empName>
+        <Salary>7800</Salary>
+        <Currency>USD</Currency>
+    </empStr>
 
+    <empTable>
+        <row>
+            <empNo>369424645</empNo>
+            <empName>Arielle</empName>
+            <Salary>238655</Salary>
+            <Currency>IDR</Currency>
+        </row>
+        <row>
+            <empNo>847223182</empNo>
+            <empName>Sherline</empName>
+            <Salary>226329</Salary>
+            <Currency>SEK</Currency>
+        </row>
+        <row>
+            <empNo>477404874</empNo>
+            <empName>Roanne</empName>
+            <Salary>293299</Salary>
+            <Currency>IDR</Currency>
+        </row>
+        <row>
+            <empNo>558185190</empNo>
+            <empName>Helen</empName>
+            <Salary>242973</Salary>
+            <Currency>BRL</Currency>
+        </row>
+        <row>
+            <empNo>522724081</empNo>
+            <empName>Sorcha</empName>
+            <Salary>311450</Salary>
+            <Currency>IDR</Currency>
+        </row>
+        <row>
+            <empNo>104583385</empNo>
+            <empName>Ernesto</empName>
+            <Salary>294720</Salary>
+            <Currency>DKK</Currency>
+        </row>
+        <row>
+            <empNo>200885311</empNo>
+            <empName>Virgilio</empName>
+            <Salary>241474</Salary>
+            <Currency>XAF</Currency>
+        </row>
+        <row>
+            <empNo>226451304</empNo>
+            <empName>Milton</empName>
+            <Salary>272522</Salary>
+            <Currency>ETB</Currency>
+        </row>
+        <row>
+            <empNo>860869464</empNo>
+            <empName>Layla</empName>
+            <Salary>266040</Salary>
+            <Currency>JPY</Currency>
+        </row>
+        <row>
+            <empNo>851401114</empNo>
+            <empName>Ulberto</empName>
+            <Salary>160639</Salary>
+            <Currency>BOB</Currency>
+        </row>
+
+    </empTable>
+</data>
 
 ```
 
