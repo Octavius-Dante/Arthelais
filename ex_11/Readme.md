@@ -184,8 +184,10 @@ A Client side model, keeps all the data in the browser once loaded. Suitable for
 
 **Server side model :**
 
-A Client side model, keeps all the data in the browser once loaded. Suitable for small size of data.
-</br> These models are like internal tables in ABAP used fir Data manipulation.
+A Server side model, keeps all the data in the server, It loads the data on demand when requested 
+</br> using request response architecture, suitable for large size of data
+</br> This model is a hook to communicate from Fiori App to SAP Server.
+</br> SAP Fiori Apps can **only talk to OData services**.
 
 </br>
 
