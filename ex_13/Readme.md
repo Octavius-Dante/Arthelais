@@ -13,8 +13,7 @@
 
 </br>
 
-**Disable or enable screen elements with help of models - using a button**
-
+<!-- **Disable or enable screen elements with help of models - using a button** -->
 
 <details>
 <summary> Code samples for two way binding with models </summary>
