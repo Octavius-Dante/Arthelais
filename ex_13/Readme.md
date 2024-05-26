@@ -11,6 +11,8 @@
 > [!IMPORTANT]
 > One way or Two way model the model the data change happens wont be reflected to the file without an exclusive logic only the buffer is manipulated
 
+</br></br>
+
 **Disable or enable screen elements with help of models - using a button**
 
 
