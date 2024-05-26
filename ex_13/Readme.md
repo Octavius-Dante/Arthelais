@@ -288,8 +288,19 @@ xmlns:core="sap.ui.core">
 
 </br></br>
 
+**Defined a button and forcing the view to switch between multiple models**
 
 
+<details>
+<summary> Code sample </summary>
+</br>
+</br>
+
+</br></br>
+s
+</br>
+</br>
+</details>
 
 
 </br>
