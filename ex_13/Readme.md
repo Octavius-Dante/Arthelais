@@ -468,6 +468,10 @@ format of expression is*
 
 ```
 
+</br></br>
+
+**Scenario : if an employee name is *Baratheon* disable the salary field** 
+
 *sample expression in the view for salary field checking name value in condition and setting property*
 
 ```xml
@@ -478,7 +482,6 @@ format of expression is*
 
 </br></br>
 
-**Scenario : if an employee name is *Baratheon* disable the salary field** 
 </br>
 
 <details>
