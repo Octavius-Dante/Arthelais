@@ -171,7 +171,7 @@ xmlns:core="sap.ui.core">
 
 </br></br>
 
-*where the code sample is used*
+*where the code sample is used - controller.js file*
 
 ```js
 
