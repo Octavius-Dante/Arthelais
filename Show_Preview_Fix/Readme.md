@@ -1,6 +1,8 @@
 </br></br>
 
-**How to see the Preview of the page properly in VSCode and BAS**
+## How to see the Preview of the page properly in VSCode and BAS
+
+</br>
 
 Live preview and Show preview - will mostly fail due to lack of authorization to access bootstrap link, to access bootstrap a port setting is requested to the server since internal live preview and show preview is not started with port -- this page is tried to load and hangs and fails
 
