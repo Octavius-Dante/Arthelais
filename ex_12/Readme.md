@@ -309,7 +309,16 @@ Binding mode decides how the data exchange will happen between the model and the
 
 1. *One way binding* (data will flow from model to view - Display)
 2. *Two way binding* (data will flow back from the view to the model - Display & Change)
+3. *One time binding* (data flow at the time when app starts, after that both model and view have no connection)
 
+**How to cahnge the data model programatically**
+
+```js
+
+oModel.getProperty("address");
+oModel.setProperty("address", "value");
+
+```
 
 
 
