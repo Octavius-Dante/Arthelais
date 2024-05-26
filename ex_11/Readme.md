@@ -278,8 +278,8 @@ this.getView().byId("idControl").setModel(oModel) // Control level
 
 **Rule for building address**
 
-- For every Curly braces ({) , convert it to slash (/)
-- Every array ([]) convert it to (/index)
+- For every Curly braces '{' , convert it to slash '/'
+- Every array '[]' convert it to '/index'
 
 <!-- </br> 
 
