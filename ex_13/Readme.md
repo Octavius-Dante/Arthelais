@@ -264,7 +264,6 @@ sap.ui.define(['sap/ui/model/json/JSONModel'], // Dependency asynchronous module
 
 ```
 
-
 </br></br>
 
 *view.xml*
