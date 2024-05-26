@@ -464,10 +464,27 @@ format of expression is*
 
 ```xml
 
+   <Input id="idSalary" width="20%" value="{/empStr/Salary}" enabled="false"/>
+
+```
+
+Scenario : if an employee name is *Baratheon* disable the salary field 
+
+*controller.js*
+
+```js
 
 
 ```
 
+</br></br>
+
+*view.xml*
+
+```xml
+
+
+```
 
 
 
