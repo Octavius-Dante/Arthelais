@@ -171,7 +171,7 @@ xmlns:core="sap.ui.core">
 
 </br></br>
 
-**Defined multiple model and forcing the view to select the model by name**
+**Defined multiple model and forcing the view to select the model by name - Single element**
 
 <details>
 <summary> Code sample </summary>
