@@ -19,8 +19,6 @@ There are multiple ways of doing property binding following are the syntax :
      
  1.4. oControl.bindProperty(sProp-Name, sPath); 
 
-
-
 </br></br>
 
 **How to fill data to the screen field using data model**
