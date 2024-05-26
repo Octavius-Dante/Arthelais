@@ -278,13 +278,13 @@ xmlns:core="sap.ui.core">
 
 ```
 
-
-
-
 </br></br>
 
-</br></br>
-</br></br>
+
+
+
+
+</br>
 </br></br>
 
 ## End of Exercise 13 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_14"> Exercise 14-Table control </a>
