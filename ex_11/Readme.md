@@ -303,11 +303,11 @@ Scenario 2 getting the currency of *Jack* the address reference will be as follo
 
 ```
 
-Scenario 3 getting the salary of *Jerry* the address reference will be as follows
+Scenario 3 getting the name of *employee id : 101* the address reference will be as follows
 
 ```js
 
-/empTab/2/salary
+/empTab/0/empName
 
 ```
 
