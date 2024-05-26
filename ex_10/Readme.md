@@ -373,18 +373,18 @@ sap.ui.define(
         return Controller.extend("chip.controller.Main",{
             //this.getView()
             //Hook methods
-            // oSuperman : sap.ui.getCore(),
+            oSuperman : sap.ui.getCore(), // Global Variable declaration
             onInit: function() {
                //If you give more what you get, soon you will get
                //more than you gave 
-               console.log("Contructor was called ", sap.ui.getCore());
+               console.log("Contructor was called ", this.oSuperman); // global variable access this.variable-name
                console.log(this.getView());
             },
             onExit: function(){
-                console.log("onExit was called", sap.ui.getCore());
+                console.log("onExit was called", this.oSuperman);
             },
             onBeforeRendering: function(){
-                console.log("Before rendering was called ", sap.ui.getCore());
+                console.log("Before rendering was called ", this.oSuperman);
             },
             onAfterRendering: function(){
                 console.log("After Rendering was called ");
@@ -401,12 +401,12 @@ sap.ui.define(
 
             spiderman: function(){
                     //Step 1: get the object of Button 1 
-                    var oBtnNew = sap.ui.getCore().byId("idBtn");
+                    var oBtnNew = this.oSuperman.byId("idBtn");
                     //Step 2: Attach the event dynamically to function
                     oBtnNew.attachPress(function(){
                         //alert(document.getElementById("idInp").value);
                         //Step 1: get the application object(instance)
-                        var oCore = sap.ui.getCore();
+                        var oCore = this.oSuperman;
                         //Step 2: Obtain the UI5 control object - sap.ui.getCore().byId("idInp")
                         var oInp = oCore.byId("idInp");
                         //Step 3: We have a value, so we will have setter and getter for same
