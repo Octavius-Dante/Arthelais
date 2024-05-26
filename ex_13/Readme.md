@@ -737,6 +737,20 @@ Example - we have used pranks field in the file and used it to pass true / false
 
 ````
 
+*This is how Boolean value is set in JSON file withing double quotes "true" / "false" *
+
+```json
+
+{"empStr": {
+    "empId": 784,
+    "empName": "Baratheon",
+    "Salary": 9876540,
+    "Currency": "EUR",
+    "pranks": "true"
+}
+}
+
+```
 
 
 </br>
