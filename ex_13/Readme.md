@@ -161,7 +161,7 @@ xmlns:core="sap.ui.core">
 2 . *How will system differentiate between these models* 
 
     Using named model, we will have a default, we need to set the model to the app with a name, 
-    which is the identifier for the model. And use name in the binding
+    which is the identifier for the model. And use *name>* in the binding
 
 3 . *Which model is used the most in the real-time?* - *JSON + Resource + OData*
 
