@@ -274,6 +274,13 @@ this.getView().byId("idControl").setModel(oModel) // Control level
 
 ```
 
+</br></br>
+
+**Rule for building address**
+
+- For every Curly braces ({) , convert it to slash (/)
+- Every array ([]) convert it to (/index)
+
 <!-- </br> 
 
 **How to build address of the data for data binding** -->
