@@ -722,9 +722,20 @@ Example - we have used pranks field in the file and used it to pass true / false
     <Input id="idEmpName" width="30%" value="{path: '/empStr/empName'}" enabled="{/empStr/pranks}"/> 
 
 ````
+</br></br>
 
 <img src="./files/ui5e13_5.png" >
 
+</br></br>
+
+- Workaround for this will be changing the expression in XML view as shown below
+
+```xml
+
+    <Input id="idEmpName" width="30%" value="{path: '/empStr/empName'}" 
+    enabled="{= ${/empStr/pranks} === 'true' ? true : false }"/> 
+
+````
 
 
 
