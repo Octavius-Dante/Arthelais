@@ -160,14 +160,14 @@ xmlns:core="sap.ui.core">
 
 2 . *How will system differentiate between these models* 
 
-Using named model, we will have a default, we need to set the model to the app with a name, 
-which is the identifier for the mode. And use name in the binding
+    Using named model, we will have a default, we need to set the model to the app with a name, 
+    which is the identifier for the mode. And use name in the binding
 
 3 . *Which model is used the most in the real-time?* - *JSON + Resource + OData*
 
 4 . *What is the right way if i want to initialize my model and share with all controllers/views*
 
-set it at application level, we can further modularize controller code.
+    set it at application level, we can further modularize controller code.
 
 
 </br></br>
