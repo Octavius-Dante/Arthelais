@@ -214,6 +214,93 @@ sap.ui.define(['sap/ui/model/json/JSONModel'], // Dependency asynchronous module
 
 ```
 
+</br></br>
+
+<details>
+<summary> Disabling the screen field using View -property binding and data model </summary>
+</br>
+</br>
+
+I want to disable / enable all the screen fields based on a single field value from data file (model) json
+
+*setting a boolean true / false value to a field in the file - json*
+
+```json
+// Disable - i gave the word pranks can give any name of your choice
+{
+    "empStr": {
+        "empId": 634,
+        "empName": "Carlisle",
+        "Salary": 450000,
+        "Currency": "USD",
+        "pranks": false
+    }
+}
+
+// Enable
+{
+    "empStr": {
+        "empId": 634,
+        "empName": "Carlisle",
+        "Salary": 450000,
+        "Currency": "USD",
+        "pranks": false
+    }
+}
+
+```
+
+</br></br>
+
+
+*XMl view with enable property for the screen fields*
+
+```xml 
+
+<mvc:View xmlns:form="sap.ui.layout.form" controllerName="logger.controller.ex12" 
+xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+xmlns:f="sap.ui.layout.form"
+xmlns:core="sap.ui.core">
+
+<!-- Simple form definition Form is the ibrary namesapce -->
+<!-- Aggregation of control follows the same name space as the parent Form name -->
+
+<!-- No need to mention library for this form xmlns:f="sap.ui.layout.form" -->
+    <form:SimpleForm editable="true"> <!-- editable property aligns the controls properly in screen -->
+    <form:title>
+        <core:Title icon="sap-icon://customer" text="Employee Details" />
+    </form:title>
+        <form:content>  <!-- Aggregation name starts with small letter-->
+            <Label text="Emp Id"/> <!-- control name starts with capital letter -->            
+            
+            <!--BINDING type 1 { } address of the data operator for data binding -->
+            <Input id="idEmpId" width="25%" value="{/empStr/empId}" enabled="{/empStr/pranks}"/> 
+            <Label text="Emp Name"/>
+
+            <!--BINDING type 2 have to instruct in Bootstrap for thsi type of binding-->
+            <Input id="idEmpName" width="30%" value="{path: '/empStr/empName'}" enabled="{/empStr/pranks}" /> 
+            <Label text="Salary"/>
+            <Input id="idSalary" width="20%" value="{/empStr/Salary}" enabled="{/empStr/pranks}"/>
+            <Label text="Currency"/>
+            <Input id="idCurrency" width="10%" value="{/empStr/Currency}" enabled="{/empStr/pranks}"/>
+            <Label/> <!--empty label for spacing-->            
+                <HBox>
+                    <Button text="Load data" press="onLoad" width=""/>
+                </HBox>
+                     
+        </form:content>
+    </form:SimpleForm>
+
+    </mvc:View>
+
+
+```
+
+</br>
+</br>
+</details>
+
+
 
 </br></br>
 </br></br>
