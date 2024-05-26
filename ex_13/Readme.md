@@ -416,6 +416,27 @@ xmlns:core="sap.ui.core">
 </br>
 </details>
 
+</br></br>
+
+## Expression Binding 
+
+When we bind a expression a (logic) with the property of a modl, is called expression binding.
+format of expression is 
+
+```xml
+
+{= condition ? returnval-True : returnval-False}
+
+```
+
+
+
+
+
+
+
+
+
 
 </br>
 </br></br>
