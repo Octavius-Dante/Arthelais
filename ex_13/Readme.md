@@ -468,7 +468,12 @@ format of expression is*
 
 ```
 
-Scenario : if an employee name is *Baratheon* disable the salary field 
+**Scenario : if an employee name is *Baratheon* disable the salary field** 
+
+<details>
+<summary> code sample </summary>
+</br>
+</br>
 
 *controller.js*
 
@@ -486,9 +491,10 @@ Scenario : if an employee name is *Baratheon* disable the salary field
 
 ```
 
+</br>
+</details>
 
-
-
+</br></br>
 
 
 
