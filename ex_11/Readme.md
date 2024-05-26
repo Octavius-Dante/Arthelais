@@ -197,8 +197,36 @@ A Server side model, keeps all the data in the server, It loads the data on dema
 
 - OData model
 
+</br></br>
 
+**Steps to create model**
 
+1. create a brand new model object
+
+```js
+
+new sap.ui.model.json.JSONModel
+new sap.ui.model.xml.XMLModel
+new sap.ui.model.resource.ResourceModel
+new sap.ui.model.odat.v2.ODataModel
+
+```
+
+2. Load or set the data to the model
+
+```js    
+    oModel.setData, oModel.loadData
+```
+
+3. Make the model aware to the application
+
+```js
+
+sap.ui.getCore().setModel(oModel) - set at App level //application level - RECOMMENDED
+this.getView().setModel(oModel)  // only that view - view level
+this.getView().byId("idControl").setModel(oModel) // Control level
+
+```
 
 </br></br>
 </br></br>
