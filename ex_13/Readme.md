@@ -2,8 +2,6 @@
 
 </br></br>
 
-</br></br>
-
 **Default binding mode for JSON model** 
 
 </br></br>
