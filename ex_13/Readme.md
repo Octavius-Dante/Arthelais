@@ -699,6 +699,34 @@ Example - we have used pranks field in the file and used it to pass true / false
 
 *demonstration*
 
+- made some changes to the xml model file added pranks field with false value 
+
+```xml 
+
+    <empStr>
+        <empId>7000</empId>
+        <empName>Kentaro</empName>
+        <Salary>7800</Salary>
+        <Currency>USD</Currency>
+        <pranks>false</pranks>
+    </empStr>
+
+```
+
+</br>
+
+- Made the changes to xml view - added the pranks field to enabled property 
+
+```xml
+
+    <Input id="idEmpName" width="30%" value="{path: '/empStr/empName'}" enabled="{/empStr/pranks}"/> 
+
+````
+
+<img src="./files/ui5e13_5.png" >
+
+
+
 
 </br>
 </br></br>
