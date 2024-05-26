@@ -467,6 +467,7 @@ format of expression is*
    <Input id="idSalary" width="20%" value="{/empStr/Salary}" enabled="false"/>
 
 ```
+</br></br>
 
 **Scenario : if an employee name is *Baratheon* disable the salary field** 
 </br>
