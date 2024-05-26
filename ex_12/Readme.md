@@ -2,20 +2,20 @@
 
 </br></br>
 
-**Binding Types**
+**Binding Types 4**
 
 1. Porperty binding : - When we bind address of model data with a property of our control, is called property binding 
 </br> E.G we bound */empStr/empId* with value property of input control
 
-There are multiple ways of doing property binding
+There are multiple ways of doing property binding following are the syntax : 
 
- 1.1. po
+ 1.1. Property={address_of_data}
 
- 1.2. wa
+ 1.2. Property={Path:'address_of_data'}
      
- 1.3. we
+ 1.3. oControl.bind-Name-Of-Property('address_of_data')
      
- 1.4. ee 
+ 1.4. oControl.bindProperty(sProp-Name, sPath); 
 
 
 2. 
