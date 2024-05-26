@@ -2,6 +2,22 @@
 
 </br></br>
 
+**Binding Types**
+
+1. Porperty binding : - When we bind address of model data with a property of our control, is called property binding 
+</br> E.G we bound */empStr/empId* with value property of input control
+</br> There are multiple ways of doing property binding
+    1.1. po 
+    1.2. wa
+    1.3. we
+    1.4. ee 
+
+
+2. 
+
+
+</br></br>
+
 **How to fill data to the screen field using data model**
 
 *controller JS file model definition*
