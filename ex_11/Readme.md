@@ -158,16 +158,22 @@ Model is an object of data, The model is used to
 - Provides manipulation capabilities
 - Also, allows us to communicate to SAP server
 
+</br>
+
 **Types of models :**
 
 - Client side
 - Server side 
+
+</br>
 
 **Client side model types**
 
 - JSON model
 - XML model 
 - Resource model
+
+</br>
 
 **Server side model types**
 
