@@ -263,7 +263,7 @@ this.getView().byId("idControl").setModel(oModel) // Control level
             "currency": "USD"
         },
         {
-            "empId": 101,
+            "empId": 103,
             "empName": "jerry",
             "salary": 300000,
             "currency": "DIN"
