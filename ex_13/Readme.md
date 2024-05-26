@@ -496,9 +496,45 @@ format of expression is*
 </br>
 </br>
 
+*model.js*
+
+```js
+
+sap.ui.define([
+    'sap/ui/model/json/JSONModel',
+    'sap/ui/model/xml/XMLModel'   ], // Dependency asynchronous module definition (AMD)
+    function (JSONModel, XMLModel) {
+        'use strict';
+        return {
+            createJSONModel: function (sFilepath) {
+                // Step 1. create a brand new model object
+                var oModel = new JSONModel();
+                // Step 2. Load or set the data to the model
+                // oModel.setData();
+                oModel.loadData(sFilepath);
+                return oModel;
+            },
+//////////////////////////////////////////////////////////////////////////            
+            createXMLModel: function (sFilepath) {
+                // Step 1. create a brand new model object
+                var oModel = new XMLModel();
+                // Step 2. Load or set the data to the model
+                // oModel.setData();
+                oModel.loadData(sFilepath);
+                return oModel;
+            },
+//////////////////////////////////////////////////////////////////////////            
+            createResourceModel: function () {
+            }
+        };
+    });
+
+```
+
 *controller.js*
 
 ```js
+
 
 
 ```
