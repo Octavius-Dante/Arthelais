@@ -217,7 +217,7 @@ sap.ui.define(['sap/ui/model/json/JSONModel'], // Dependency asynchronous module
 </br></br>
 
 <details>
-<summary> Disabling the screen field using View -property binding and data model </summary>
+<summary> Disabling / Enabling the screen field using Views-property binding and data model </summary>
 </br>
 </br>
 
