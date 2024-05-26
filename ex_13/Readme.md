@@ -535,15 +535,80 @@ sap.ui.define([
 
 ```js
 
+sap.ui.define(
+    ['sap/ui/core/mvc/Controller',
+        'logger/model/models'],
+    function (Controller, Models) {
+        return Controller.extend("logger.controller.ex13", {
+
+            onInit: function () {
+                // Calling our own reuse calss to create model object
+                var oModel = Models.createJSONModel("model/mockdata/sample.json"); // model path passed 
+
+                // - Model settiing at application level - available in all the views     
+                sap.ui.getCore().setModel(oModel); // a - model with no name is the default model 
+
+                // Create JSON model 2 
+                var oModel2 = Models.createJSONModel("model/mockdata/dataset.json"); // model path passed 
+
+                // named model - we need to give a name
+                sap.ui.getCore().setModel(oModel2, "got"); // a model with name
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
+                // Create XMl model 
+                var oXmlModel = Models.createXMLModel("model/mockdata/mydemo.xml")
+                sap.ui.getCore().setModel(oModel); // overrride with existingjson model
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                // BINDING type 3
+                var oSalary = this.getView().byId("idSalary");
+                oSalary.bindValue('/empStr/Salary');
+
+                // BINDING type 4
+                var oCurr = this.getView().byId("idCurrency");
+                oCurr.bindProperty("value", "/empStr/Currency");
+            },
+
+            onLoad: function () {
+                //Step 1 : Get the model object
+                var oModel = sap.ui.getCore().getModel();
+
+                //Step 2 : cahnge the data in the model 
+                var objData = oModel.getProperty("/empStr"); // getting everything in the path of the structure 
+                console.log(objData);
+                oModel.setProperty("/empStr/empName", "Spiderman");
+            },
+
+            onShow: function () {
+                //Step 1 : Get the model object
+                var oModel = sap.ui.getCore().getModel();
+
+                //Step 2 : cahnge the data in the model 
+                var objData = oModel.getProperty("/"); // get everything in the model
+                console.log(objData);
+                // oModel.setProperty("/empStr/empName", "Spiderman");
+            },
+
+            onFlip: function(){
+                var oModel = sap.ui.getCore().getModel();
+                var oGOTModel = sap.ui.getCore().getModel("got");
+                sap.ui.getCore().setModel(oGOTModel);
+                sap.ui.getCore().setModel(oModel, "got");
+            }        
+
+        });
+    });
 
 
 ```
 
 </br></br>
 
-*view.xml*
+*mydemo.xml - data file*
 
 ```xml
+
 
 
 ```
