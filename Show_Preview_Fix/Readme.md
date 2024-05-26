@@ -31,3 +31,10 @@ and select the option shown below in the image > **live preview : Show Preview e
 Always select *live preview : Show Preview external browser*
 
 </br></br>
+
+## End of the page
+</br>
+<p align="center"> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </p>
+
+<!-- - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_38"> Exercise 38-Fiori Elements Basics</a> -->
+</br></br>
