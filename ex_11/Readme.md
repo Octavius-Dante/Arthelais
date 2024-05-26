@@ -323,23 +323,7 @@ Scenario 4 - getting the EmpId of *Jerry* the address reference will be as follo
 
 **How to build address of the data for data binding** -->
 
-
-
-
-</br></br>
-</br></br>
-</br></br>
-
-
-
-
-
-
-
-
-
-</br></br>
-</br></br>
+</br>
 </br></br>
 
 ## End of Exercise 11 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_12"> Exercise 12-Json Model Property Binding </a>
