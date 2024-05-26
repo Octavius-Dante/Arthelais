@@ -51,9 +51,7 @@ Pre-requisite VSCode or BAS should be installed and active.
 </br></br>
 
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/Debug"> Debug</a>
-
 </br>
-
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/Show_Preview_Fix"> Show live preview work around</a>
 
 </br>
