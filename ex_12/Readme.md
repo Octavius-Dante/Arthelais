@@ -303,7 +303,9 @@ xmlns:core="sap.ui.core">
 </br></br>
 
 
-**There are 2 functions of binding**
+**Binding Modes**
+
+Binding mode decides how the data exchange will happen between the model and the view
 
 1. *One way binding* (data will flow from model to view - Display)
 2. *Two way binding* (data will flow back from the view to the model - Display & Change)
