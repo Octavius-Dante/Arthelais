@@ -4,6 +4,8 @@
 
 **Binding Types 4**
 
+</br></br>
+
 **Property binding** : - When we bind address of model data with a property of our control, is called property binding 
 </br> E.G we bound */empStr/empId* with value property of input control
 
