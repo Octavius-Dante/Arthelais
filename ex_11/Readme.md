@@ -231,9 +231,50 @@ this.getView().byId("idControl").setModel(oModel) // Control level
 4. Data Binding (using path) - 4 different syntax to do binding 
      - Need address of the data to build a path 
 
-</br> 
 
-**How to build address of the data for data binding**
+**Building a sample JSON model**
+
+*empStr is the structure type holds only single row*
+</br> *empTab is the table holds multiple records*
+
+```json
+
+{
+    "empStr":{
+            "empId": 634,
+            "empName": "Carlisle",
+            "salary": 450000,
+            "currency": "USD"
+    },
+
+    "empTab": [
+        {
+            "empId": 101,
+            "empName": "jane",
+            "salary": 250000,
+            "currency": "USD"
+        },
+        {
+            "empId": 102,
+            "empName": "jack",
+            "salary": 125000,
+            "currency": "USD"
+        },
+        {
+            "empId": 101,
+            "empName": "jerry",
+            "salary": 300000,
+            "currency": "DIN"
+        },
+    ]
+}
+
+
+```
+
+<!-- </br> 
+
+**How to build address of the data for data binding** -->
 
 
 
