@@ -43,7 +43,110 @@ It can be represented as adding one object inside another object
 
 </br></br>
 
+xml view
 
+```xml
+
+<mvc:View xmlns:form="sap.ui.layout.form" controllerName="logger.controller.ex11" 
+xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+xmlns:f="sap.ui.layout.form"
+xmlns:core="sap.ui.core">
+
+<!-- Simple form definition Form is the ibrary namesapce -->
+<!-- Aggregation of control follows the same name space as the parent Form name -->
+
+<!-- No need to mention library for this form xmlns:f="sap.ui.layout.form" -->
+    <form:SimpleForm editable="true"> <!-- editable property aligns the controls properly in screen -->
+    <form:title>
+        <core:Title icon="sap-icon://customer" text="Employee Details" />
+    </form:title>
+        <form:content>  <!-- Aggregation name starts with small letter-->
+            <Label text="Emp Id"/> <!-- control name starts with capital letter -->
+            <Input id="idEmpId" width="25%"/>
+            <Label text="Emp Name"/>
+            <Input id="idEmpName" width="30%"/>
+            <Label text="Salary"/>
+            <Input id="idSalary" width="20%"/>
+            <Label text="Currency"/>
+            <Input id="idCurrency" width="10%"/>
+            <Label/> <!--empty label for spacing-->
+            
+                <!-- <HBox> -->
+                    <Button text="Load data" press="onLoad" width=""/>
+                    <Button text="Clear data" press="onClear" width=""/>
+                <!-- </HBox> -->
+                        
+        </form:content>
+    </form:SimpleForm>
+
+    </mvc:View>
+
+```
+
+</br></br>
+
+JS controller
+
+```js
+
+sap.ui.define(
+    ['sap/ui/core/mvc/Controller'], 
+    function(Controller){
+        return Controller.extend("logger.controller.ex11",{
+
+            onLoad: function(){
+                this.getView().byId("idEmpId").setValue("609879");
+                this.getView().byId("idEmpName").setValue("Argnan Carlyle");
+                this.getView().byId("idSalary").setValue("400000"); 
+                this.getView().byId("idCurrency").setValue("USD");
+            },
+
+            onClear: function(){
+                this.getView().byId("idEmpId").setValue(" ");
+                this.getView().byId("idEmpName").setValue(" ");
+                this.getView().byId("idSalary").setValue(" "); 
+                this.getView().byId("idCurrency").setValue(" ");                                
+            }
+
+        });
+});
+
+```
+
+</br></br>
+
+index.html 
+
+``` html
+
+<html>
+    <head>
+        <script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+                data-sap-ui-libs="sap.m"
+                data-sap-ui-theme="sap_fiori_3_dark"
+                data-sap-ui-resourceroots='{"logger" : "./"}' >     
+        </script>
+
+        <script>
+            var oViewXML = new sap.ui.view({
+                viewName: 'logger.view.ex11',
+                type: 'XML',
+                id: "idXMLView"
+            });
+            oViewXML.placeAt("canvas");
+        </script>
+        
+    </head>
+    <body class="sapUiBody">
+        <div id="canvas"></div>
+    </body> 
+
+</html>
+
+```
+
+
+## Model in SAP Ui5
 
 
 
