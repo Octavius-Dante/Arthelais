@@ -739,7 +739,7 @@ Example - we have used pranks field in the file and used it to pass true / false
 
 </br></br>
 
-*This is how Boolean value is set in JSON file withing double quotes "true" / "false"*
+*This is how Boolean value is set in JSON file within double quotes "true" / "false"*
 
 ```json
 
