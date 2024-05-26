@@ -728,7 +728,7 @@ Example - we have used pranks field in the file and used it to pass true / false
 
 </br></br>
 
-*Workaround for this will be changing the expression in XML view as shown below*
+*Workaround for this will be changing the expression in view.xml as shown below*
 
 ```xml
 
