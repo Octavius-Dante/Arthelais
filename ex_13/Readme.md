@@ -173,6 +173,11 @@ xmlns:core="sap.ui.core">
 
 **Defined multiple model and forcing the view to select the model by name**
 
+<details>
+<summary> Code sample </summary>
+</br>
+</br>
+
 ```js
 
 sap.ui.define(
@@ -277,6 +282,9 @@ xmlns:core="sap.ui.core">
 
 
 ```
+
+</br>
+</details>
 
 </br></br>
 
