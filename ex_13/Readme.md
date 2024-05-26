@@ -451,6 +451,8 @@ xmlns:core="sap.ui.core">
 
 ## Expression Binding 
 
+</br>
+
 *When we bind a expression a (logic) with the property of a model, is called expression binding.
 format of expression is*
 
@@ -479,6 +481,9 @@ format of expression is*
 <Input id="idSalary" width="20%" enabled="{= ${/empStr/empName} === 'Baratheon' ? false : true }"/>
 
 ```
+
+- if the condition Baratheon is true (first value - False) will be used to set in enabled property
+- if the condition Baratheon is false (second value - True) will be used to set in enabled property
 
 </br></br>
 
