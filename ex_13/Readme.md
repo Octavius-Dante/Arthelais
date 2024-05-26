@@ -9,7 +9,7 @@
 </br>
 
 > [!IMPORTANT]
-> One way or Two way model the model the data change happens wont be reflected to the file without an exclusive logic only the buffer is manipulated
+> One way or Two way model, the model data change happens in the view wont be reflected to the file without an exclusive logic only the buffer is manipulated
 
 </br>
 
@@ -27,7 +27,18 @@
 
 </br></br>
 
+*controller.js* # 1
+
+```js
+
+
 ```
+
+</br></br>
+
+*view.xml* # 1 
+
+```js
 
 
 ```
