@@ -147,16 +147,111 @@ xmlns:core="sap.ui.core">
 <img src="./files/ui5e13_3.png" >
 <img src="./files/ui5e13_4.png" >
 
-
 </br></br>
-
-> [!IMPORTANT]
-> One way or Two way model, the model data change happens in the view wont be reflected to the file without an exclusive logic only the memory buffer is manipulated
 
 </br>
 </br>
 </details>
 
+
+<details>
+<summary> Forcing the binding to one way model </summary>
+</br>
+</br>
+
+*what ever changes made in the screen for the model should not be captured by the buffer*
+
+*code sample*
+
+```js
+    /////////////////////////////////////////////////////////
+       oModel.setDefaultBindingMode("Oneway");  // forcing the model to be oneway
+    /////////////////////////////////////////////////////////
+```
+
+</br></br>
+
+*where the code sample is used*
+
+```js
+
+sap.ui.define(
+    ['sap/ui/core/mvc/Controller',
+        'logger/model/models'],
+    function (Controller, Models) {
+        return Controller.extend("logger.controller.ex13", {
+
+            onInit: function () {
+                // Calling our own reuse calss to create model object
+                var oModel = Models.createJSONModel();
+
+                /// Exercise 13 -  change is here
+                /////////////////////////////////////////////////////////
+                oModel.setDefaultBindingMode("Oneway");  // forcing the model to be oneway
+                /////////////////////////////////////////////////////////
+
+                // Step 3. Make the model aware to the application
+                // - Model settiing at application level - available in all the views     
+                sap.ui.getCore().setModel(oModel);
+
+                // - Model setting at View level - only specific to the view
+                // - this.getView().setModel(oModel);    
+
+                // Step 4. Binding Syntax Type 3, 4 
+
+                // BINDING type 3
+                var oSalary = this.getView().byId("idSalary");
+                oSalary.bindValue('/empStr/Salary');
+
+                // BINDING type 4
+                var oCurr = this.getView().byId("idCurrency");
+                oCurr.bindProperty("value", "/empStr/Currency");
+            },
+
+            onLoad: function () {
+
+                /// Exercise 13 -  change is here
+                /////////////////////////////////////////////////////////
+
+                //Step 1 : Get the model object
+                var oModel = sap.ui.getCore().getModel();
+
+                //Step 2 : cahnge the data in the model 
+                var objData = oModel.getProperty("/empStr"); // getting everything in the path of the structure 
+                console.log(objData);
+                oModel.setProperty("/empStr/empName", "Spiderman");
+
+                // Setting the value only to the screen 
+                // this.getView().byId("idEmpId").setValue("609879");
+                // this.getView().byId("idEmpName").setValue("Argnan Carlyle");
+                // this.getView().byId("idSalary").setValue("400000");             
+                // this.getView().byId("idCurrency").setValue("USD");
+
+                /////////////////////////////////////////////////////////       
+
+            },
+
+            /// Exercise 13 -  change is here
+            /////////////////////////////////////////////////////////
+            onShow: function () {
+                //Step 1 : Get the model object
+                var oModel = sap.ui.getCore().getModel();
+
+                //Step 2 : cahnge the data in the model 
+                var objData = oModel.getProperty("/"); // get everything in the model
+                console.log(objData);
+                // oModel.setProperty("/empStr/empName", "Spiderman");
+            }
+            ///////////////////////////////////////////////////////// 
+        });
+    });
+
+
+```
+
+</br>
+</br>
+</details>
 
 </br></br>
 </br></br>
