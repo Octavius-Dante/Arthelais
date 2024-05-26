@@ -469,6 +469,7 @@ format of expression is*
 ```
 
 **Scenario : if an employee name is *Baratheon* disable the salary field** 
+</br>
 
 <details>
 <summary> code sample </summary>
