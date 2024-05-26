@@ -728,7 +728,7 @@ Example - we have used pranks field in the file and used it to pass true / false
 
 </br></br>
 
-- Workaround for this will be changing the expression in XML view as shown below
+*Workaround for this will be changing the expression in XML view as shown below*
 
 ```xml
 
@@ -736,6 +736,8 @@ Example - we have used pranks field in the file and used it to pass true / false
     enabled="{= ${/empStr/pranks} === 'true' ? true : false }"/> 
 
 ````
+
+</br></br>
 
 *This is how Boolean value is set in JSON file withing double quotes "true" / "false"*
 
