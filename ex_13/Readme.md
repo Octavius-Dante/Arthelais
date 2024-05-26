@@ -420,8 +420,8 @@ xmlns:core="sap.ui.core">
 
 ## Expression Binding 
 
-When we bind a expression a (logic) with the property of a modl, is called expression binding.
-format of expression is 
+*When we bind a expression a (logic) with the property of a model, is called expression binding.
+format of expression is*
 
 ```xml
 
