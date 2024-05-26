@@ -147,8 +147,32 @@ index.html
 
 ```
 
+</br></br>
 
 ## Model in SAP Ui5
+
+Model is an object of data, The model is used to 
+
+- Hold application data
+- Manage data exchange between view and model through binding
+- Provides manipulation capabilities
+- Also, allows us to communicate to SAP server
+
+**Types of models :**
+
+- Client side
+- Server side 
+
+**Client side model types**
+
+- JSON model
+- XML model 
+- Resource model
+
+**Server side model types**
+
+- OData model
+
 
 
 
