@@ -50,6 +50,10 @@ Pre-requisite VSCode or BAS should be installed and active.
 
 </br></br>
 
+<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/Debug"> Debug</a>
+
+</br></br>
+
 **VALIDATOR WEBPAGES**
 
 </br> [CSS lint](http://csslint.net/) ----- [JS lint](https://www.jslint.com/) ---- [Json lint](https://jsonlint.com/) ---- [Yaml lint](https://www.yamllint.com/)
