@@ -55,8 +55,8 @@ sap.ui.define(
             onLoad: function () {
 
                 /// Exercise 13 -  change is here
-                /////////////////////////////////////////////////////////
-
+/////////////////////////////////////////////////////////////////////
+                
                 //Step 1 : Get the model object
                 var oModel = sap.ui.getCore().getModel();
 
@@ -65,12 +65,12 @@ sap.ui.define(
                 console.log(objData);
                 oModel.setProperty("/empStr/empName", "Spiderman");
 
-                /////////////////////////////////////////////////////////       
+/////////////////////////////////////////////////////////////////////       
 
             },
 
             /// Exercise 13 -  change is here
-            /////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
             onShow: function () {
                 //Step 1 : Get the model object
                 var oModel = sap.ui.getCore().getModel();
@@ -80,7 +80,7 @@ sap.ui.define(
                 console.log(objData);
                 // oModel.setProperty("/empStr/empName", "Spiderman");
             }
-            ///////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////// 
         });
     });
 
@@ -122,9 +122,9 @@ xmlns:core="sap.ui.core">
                 <HBox>
                     <Button text="Load data" press="onLoad" width=""/>
        <!-- /// Exercise 13 -  change is here
-            ///////////////////////////////////////////////////////// -->
+///////////////////////////////////////////////////////////////////// -->
                     <Button text="Show" press="onShow"/>
-       <!-- /////////////////////////////////////////////////////////  -->
+<!-- ///////////////////////////////////////////////////////////////  -->
                 </HBox>
                      
         </form:content>
@@ -189,13 +189,13 @@ sap.ui.define(
                 sap.ui.getCore().setModel(oModel); // a - model with no name is the default model 
 
                 /// Exercise 13 -  change is here 
-                /////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
                 // Create JSON model 2 
                 var oModel2 = Models.createJSONModel("model/mockdata/dataset.json"); // model path passed 
 
                 // named model - we need to give a name
                 sap.ui.getCore().setModel(oModel2, "got"); // a model with name
-                ///////////////////////////////////////////////////////// 
+///////////////////////////////////////////////////////////////////////////
 
                 // BINDING type 3
                 var oSalary = this.getView().byId("idSalary");
@@ -256,9 +256,9 @@ xmlns:core="sap.ui.core">
 
             <!--BINDING type 2 have to instruct in Bootstrap for thsi type of binding-->
        <!-- /// Exercise 13 -  Forced the screen field to pick the data from named model 'got'
-            ///////////////////////////////////////////////////////// -->            
+//////////////////////////////////////////////////////////////////////// -->            
             <Input id="idEmpName" width="30%" value="{path: 'got>/empStr/empName'}" enabled="{/empStr/pranks}" /> 
-       <!-- /////////////////////////////////////////////////////////  --> 
+<!-- //////////////////////////////////////////////////////////////////  --> 
                   
             <Label text="Salary"/>
             <Input id="idSalary" width="20%" value="{/empStr/Salary}" enabled="{/empStr/pranks}"/>
