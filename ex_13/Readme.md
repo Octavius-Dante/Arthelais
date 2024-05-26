@@ -4,6 +4,8 @@
 
 **Default binding mode for JSON model** 
 
+- *Two way binding mode*
+
 </br>
 
 **Disable or enable screen elements with help of models - using a button**
