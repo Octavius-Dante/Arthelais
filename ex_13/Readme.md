@@ -685,6 +685,13 @@ sap.ui.define(
 
 ```
 
+**Major disadvantage of XML models**
+
+It treats all the data in the field or row of its data file as string data type.
+
+Example - we have used pranks field in the file and used it to pass true / false to the view for enable and disable 
+          screen field that wont work 
+
 </br>
 </details>
 
