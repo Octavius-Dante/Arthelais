@@ -281,6 +281,43 @@ this.getView().byId("idControl").setModel(oModel) // Control level
 - For every Curly braces '{' , convert it to slash '/'
 - Every array '[ ]' convert it to '/index'
 
+</br>
+
+Considering the above JSon model let build the address reference for follwoing scenarios
+</br> </br>
+
+Scenario 1 - we need to know the salary of *Carlisle*
+
+```js
+
+/empstr/salary
+
+```
+
+Scenario 2 getting the currency of *Jack* the address reference will be as follows
+
+```js
+
+/empTab/1/currency
+
+```
+
+Scenario 3 getting the salary of *Jerry* the address reference will be as follows
+
+```js
+
+/empTab/2/salary
+
+```
+
+Scenario 4 getting the EmpId of *Jerry* the address reference will be as follows
+
+```js
+
+/empTab/2/empId
+
+```
+
 <!-- </br> 
 
 **How to build address of the data for data binding** -->
