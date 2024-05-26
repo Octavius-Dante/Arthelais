@@ -296,8 +296,122 @@ xmlns:core="sap.ui.core">
 </br>
 </br>
 
+*controller.js*
+
+```js
+
+sap.ui.define(
+    ['sap/ui/core/mvc/Controller',
+        'logger/model/models'],
+    function (Controller, Models) {
+        return Controller.extend("logger.controller.ex13", {
+
+            onInit: function () {
+                // Calling our own reuse calss to create model object
+                var oModel = Models.createJSONModel("model/mockdata/sample.json"); // model path passed 
+
+                // - Model settiing at application level - available in all the views     
+                sap.ui.getCore().setModel(oModel); // a - model with no name is the default model 
+
+                // Create JSON model 2 
+                var oModel2 = Models.createJSONModel("model/mockdata/dataset.json"); // model path passed 
+
+                // named model - we need to give a name
+                sap.ui.getCore().setModel(oModel2, "got"); // a model with name
+
+                // BINDING type 3
+                var oSalary = this.getView().byId("idSalary");
+                oSalary.bindValue('/empStr/Salary');
+
+                // BINDING type 4
+                var oCurr = this.getView().byId("idCurrency");
+                oCurr.bindProperty("value", "/empStr/Currency");
+            },
+
+            onLoad: function () {
+                //Step 1 : Get the model object
+                var oModel = sap.ui.getCore().getModel();
+
+                //Step 2 : cahnge the data in the model 
+                var objData = oModel.getProperty("/empStr"); // getting everything in the path of the structure 
+                console.log(objData);
+                oModel.setProperty("/empStr/empName", "Spiderman");
+            },
+
+            onShow: function () {
+                //Step 1 : Get the model object
+                var oModel = sap.ui.getCore().getModel();
+
+                //Step 2 : cahnge the data in the model 
+                var objData = oModel.getProperty("/"); // get everything in the model
+                console.log(objData);
+                // oModel.setProperty("/empStr/empName", "Spiderman");
+            },
+
+            /// Exercise 13 -  change is here
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            onFlip: function(){
+                var oModel = sap.ui.getCore().getModel();
+                var oGOTModel = sap.ui.getCore().getModel("got");
+                sap.ui.getCore().setModel(oGOTModel);
+                sap.ui.getCore().setModel(oModel, "got");
+            }
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////            
+
+        });
+    });
+
+```
+
 </br></br>
-s
+
+*view.xml*
+
+```xml
+
+<mvc:View xmlns:form="sap.ui.layout.form" controllerName="logger.controller.ex13" 
+xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+xmlns:f="sap.ui.layout.form"
+xmlns:core="sap.ui.core">
+
+<!-- Simple form definition Form is the ibrary namesapce -->
+<!-- Aggregation of control follows the same name space as the parent Form name -->
+
+<!-- No need to mention library for this form xmlns:f="sap.ui.layout.form" -->
+    <form:SimpleForm editable="true"> <!-- editable property aligns the controls properly in screen -->
+    <form:title>
+        <core:Title icon="sap-icon://customer" text="Employee Details" />
+    </form:title>
+        <form:content>  <!-- Aggregation name starts with small letter-->
+            <Label text="Emp Id"/> <!-- control name starts with capital letter -->            
+            
+            <!--BINDING type 1 { } address of the data operator for data binding -->
+            <Input id="idEmpId" width="25%" value="{/empStr/empId}" enabled="{/empStr/pranks}"/> 
+            <Label text="Emp Name"/>
+            <!--BINDING type 2 have to instruct in Bootstrap for thsi type of binding-->
+            <Input id="idEmpName" width="30%" value="{path: '/empStr/empName'}" enabled="{/empStr/pranks}" /> 
+            <Label text="Salary"/>
+            <Input id="idSalary" width="20%" value="{/empStr/Salary}" enabled="{/empStr/pranks}"/>
+            <Label text="Currency"/>
+            <Input id="idCurrency" width="10%" value="{/empStr/Currency}" enabled="{/empStr/pranks}"/>
+            <Label/> <!--empty label for spacing-->            
+                <HBox>
+                    <Button text="Load data" press="onLoad" width=""/>
+                    <Button text="Show" press="onShow"/> 
+       <!-- /// Exercise 13 -  change is here
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->                       
+                    <Button text="Flip-Flop" press="onFlip"/>       
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->                     
+                </HBox>
+                     
+        </form:content>
+    </form:SimpleForm>
+
+    </mvc:View>
+
+
+```
+
 </br>
 </br>
 </details>
