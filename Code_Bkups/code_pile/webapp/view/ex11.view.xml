@@ -1,0 +1,52 @@
+<mvc:View xmlns:form="sap.ui.layout.form" controllerName="logger.controller.ex11" 
+xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+xmlns:f="sap.ui.layout.form"
+xmlns:core="sap.ui.core">
+
+<!-- Simple form definition Form is the ibrary namesapce -->
+<!-- Aggregation of control follows the same name space as the parent Form name -->
+
+<!-- No need to mention library for this form xmlns:f="sap.ui.layout.form" -->
+    <form:SimpleForm editable="true"> <!-- editable property aligns the controls properly in screen -->
+    <form:title>
+        <core:Title icon="sap-icon://customer" text="Employee Details" />
+    </form:title>
+        <form:content>  <!-- Aggregation name starts with small letter-->
+            <Label text="Emp Id"/> <!-- control name starts with capital letter -->
+            <Input id="idEmpId" width="25%"/>
+            <Label text="Emp Name"/>
+            <Input id="idEmpName" width="30%"/>
+            <Label text="Salary"/>
+            <Input id="idSalary" width="20%"/>
+            <Label text="Currency"/>
+            <Input id="idCurrency" width="10%"/>
+            <Label text="Data Parsed"/>
+            <Input id="idOutput" width="30%"/>
+            <Label/> <!--empty label for spacing-->
+            
+                <HBox>
+                    <Button text="Load data" press="onLoad" icon="sap-icon://show" width=""/>
+                    <Button text="Concat data" press="onConcat" icon="sap-icon://sys-add" width=""/>
+                    <Button text="Clear data" press="onClear" icon="sap-icon://delete" width=""/>
+                </HBox>
+                        
+        </form:content>
+    </form:SimpleForm>
+
+<!-- NEED to mention this for this form- xmlns:f="sap.ui.layout.form"> -->
+    <f:SimpleForm> 
+     <f:title>
+        <core:Title icon="sap-icon://sort" text="Alias Details" />
+     </f:title>
+        <f:content>
+            <Label text="Emp Id-Alias"/>
+            <Input id="idEmpId2" width="25%"/>
+            <Label text="Emp Name-Alias"/>
+            <Input id="idEmpName2" width="30%"/>
+            <Label/> <!-- empty label for spacing-->
+            <Button text="Load data" press="onLoad2" width=""/>
+            <Button text="Clear data" press="onClear2" width=""/>
+        </f:content>
+    </f:SimpleForm>
+
+</mvc:View>

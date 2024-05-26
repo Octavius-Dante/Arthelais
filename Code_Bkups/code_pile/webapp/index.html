@@ -1,0 +1,25 @@
+<html>
+    <head>
+
+        <script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+                data-sap-ui-libs="sap.m"
+                data-sap-ui-theme="sap_fiori_3_dark"
+                data-sap-ui-resourceroots='{"logger" : "./"}'
+        >     
+        </script>
+
+        <script>
+            var oViewXML = new sap.ui.view({
+                viewName: 'logger.view.ex11',
+                type: 'XML',
+                id: "idXMLView"
+            });
+            oViewXML.placeAt("canvas");
+        </script>
+        
+    </head>
+    <body class="sapUiBody">
+        <div id="canvas"></div>
+    </body> 
+
+</html>
