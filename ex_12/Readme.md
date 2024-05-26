@@ -1,4 +1,4 @@
-## Exercise 12 - Json Model Property Binding
+## Exercise 12 - JSON Model Property Binding
 
 </br></br>
 
@@ -143,7 +143,7 @@ sap.ui.define(['sap/ui/model/json/JSONModel'], // Dependency asynchronous module
 
 </br></br>
 
-*Mockdata - model Json file*
+*Mock data - model JSON file*
 
 ```json
 
@@ -221,9 +221,9 @@ sap.ui.define(['sap/ui/model/json/JSONModel'], // Dependency asynchronous module
 </br>
 </br>
 
-I want to disable / enable all the screen fields based on a single field value from data file (model) json
+I want to disable / enable all the screen fields based on a single field value from data file (model) JSON
 
-*setting a boolean true / false value to a field in the file - json*
+*setting a Boolean true / false value to a field in the file - JSON*
 
 ```json
 // Disable - i gave the word pranks can give any name of your choice
@@ -253,7 +253,7 @@ I want to disable / enable all the screen fields based on a single field value f
 </br></br>
 
 
-*XMl view with enable property for the screen fields*
+*XML view with enable property for the screen fields*
 
 ```xml 
 
@@ -300,6 +300,15 @@ xmlns:core="sap.ui.core">
 </br>
 </details>
 
+</br></br>
+
+
+**There are 2 functions of binding**
+
+1. *One way binding* (data will flow from model to view - Display)
+2. *Two way binding* (data will flow back from the view to the model - Display & Change)
+
+
 
 
 </br></br>
@@ -320,7 +329,7 @@ xmlns:core="sap.ui.core">
 - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_36"> Exercise 36-WebIde and Git integration</a>
 - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_35"> Exercise 35-POST, GET and DELETE from Fiori</a>
 - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_34"> Exercise 34-GET and Connect</a>
-- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_33"> Exercise 33-Fiori Project Connect Odata</a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_33"> Exercise 33-Fiori Project Connect OData</a>
 - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_32"> Exercise 32-Connectivity</a>
 - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_31"> Exercise 31-Function Import and Images</a>
 - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_30"> Exercise 30-implementing CRUD</a>
