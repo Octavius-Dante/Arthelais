@@ -229,7 +229,7 @@ this.getView().byId("idControl").setModel(oModel) // Control level
 ```
 
 4. Data Binding (using path) - 4 different syntax to do binding 
-  - Need address of the data to build a path 
+     - Need address of the data to build a path 
 
 </br> 
 
