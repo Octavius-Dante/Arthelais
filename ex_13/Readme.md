@@ -715,7 +715,7 @@ Example - we have used pranks field in the file and used it to pass true / false
 
 </br>
 
-- Made the changes to xml view - added the pranks field to enabled property 
+- Made the changes to view.xml - added the pranks field to enabled property 
 
 ```xml
 
