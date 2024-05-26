@@ -467,6 +467,15 @@ format of expression is*
    <Input id="idSalary" width="20%" value="{/empStr/Salary}" enabled="false"/>
 
 ```
+
+*sample expression in the view for salary field checking name value in condition and setting property*
+
+```xml
+
+<Input id="idSalary" width="20%" enabled="{= ${/empStr/empName} === 'Baratheon' ? false : true }"/>
+
+```
+
 </br></br>
 
 **Scenario : if an employee name is *Baratheon* disable the salary field** 
