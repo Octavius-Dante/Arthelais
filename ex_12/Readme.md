@@ -6,6 +6,7 @@
 
 1. Porperty binding : - When we bind address of model data with a property of our control, is called property binding 
 </br> E.G we bound */empStr/empId* with value property of input control
+</br>
 </br> There are multiple ways of doing property binding
      
      1.1. po
