@@ -1,10 +1,10 @@
 ## Exercise 13 - Expression Binding XML Model
 
-</br></br>
+</br>
 
 **Default binding mode for JSON model** 
 
-</br></br>
+</br>
 
 **Disable or enable screen elements with help of models - using a button**
 
