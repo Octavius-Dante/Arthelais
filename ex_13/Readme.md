@@ -178,6 +178,8 @@ xmlns:core="sap.ui.core">
 </br>
 </br>
 
+*controller.js*
+
 ```js
 
 sap.ui.define(
@@ -236,6 +238,36 @@ sap.ui.define(
 ```
 
 </br></br>
+
+*model.js*
+
+```js
+
+sap.ui.define(['sap/ui/model/json/JSONModel'], // Dependency asynchronous module definition (AMD)
+    function (JSONModel) {
+        'use strict';
+        return {
+///////////////////////////////////////////////////            
+            createJSONModel: function (sFilepath) { // filepath variable is mentioned 
+                var oModel = new JSONModel();
+                oModel.loadData(sFilepath); // filepath variable is mentioned
+///////////////////////////////////////////////////                  
+                return oModel;
+            },
+            createXMLModel: function () {
+            },
+            createResourceModel: function () {
+            }
+        };
+    });
+
+
+```
+
+
+</br></br>
+
+*view.xml*
 
 ```xml
 
@@ -429,7 +461,13 @@ format of expression is*
 
 ```
 
+*Sample code to disable the input field on view*
 
+```xml
+
+
+
+```
 
 
 
