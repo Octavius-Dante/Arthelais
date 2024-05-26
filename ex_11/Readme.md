@@ -5,7 +5,7 @@
 
 **Building a simple form layout in UI5**
 
-</br></br>
+</br>
 
 <details>
 <summary> Refer the SAP ui5 SDK in sample section for "Simple form" </summary>
