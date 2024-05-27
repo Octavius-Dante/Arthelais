@@ -44,6 +44,33 @@ let say we have a table control with many records - user selects 1 record - that
 
 <img src="./files/ui5e15-1.png">
 
+</br>
+
+*controller.js* 
+
+```js
+
+
+    os
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </br></br>
 </br></br>
