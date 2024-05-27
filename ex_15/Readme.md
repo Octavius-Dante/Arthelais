@@ -12,7 +12,7 @@ When ever a event is triggered for a control we attach event handler.
 </br> </br>
 
 
-*Other events - Row Count*
+*Events for table control - Row Count*
 
 ```xml
 
@@ -20,7 +20,7 @@ When ever a event is triggered for a control we attach event handler.
 
 ```
 
-*Other events - Row Selection mode*
+*Events for table control- Row Selection mode*
 
 ```xml
 
