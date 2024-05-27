@@ -281,20 +281,7 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-</br></br>
-</br></br>
+</br>
 </br></br>
 
 ## End of Exercise 15 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_16"> Exercise 16-Formatters </a>
