@@ -91,7 +91,7 @@ let say we have a table control with many records - user selects 1 record - that
 *controller.js* 
 
 ```js
-
+// Event handler function
 onRowSelect: function(){
     // Step 1 : What is the Row which was selected by user
     // Step 2 : Know the address of the element
