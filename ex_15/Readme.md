@@ -140,7 +140,7 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
 
 </br></br>
 
-3. No select the item in the table control on the screen it stops at break point
+3. Now select the item in the table control on the screen it stops at break point
 </br></br>
 <img src="./files/ui5e15-3.png" >
 
@@ -149,6 +149,13 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
 4. In the console type the object name oMinion that we defined in the code
 </br></br>
 <img src="./files/ui5e15-4.png" >
+
+</br></br>
+
+5. In the Expanded section we can see *Row Index* and the *Address path*
+</br></br>
+<img src="./files/ui5e15-5.png" >
+
 
 </br></br>
 </details>
