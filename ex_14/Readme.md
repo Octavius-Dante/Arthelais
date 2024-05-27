@@ -382,7 +382,7 @@ onInit function(){
 - copy the image address (right click) --> (image address)
 - come to data model file (json) search male and replace it with male icon image address
 - search female and replace it with female icon image address
-- make thes following changes in view xml file for accommodating the image
+- make the following changes in view xml file for accommodating the image
 
 *view.xml*
 
