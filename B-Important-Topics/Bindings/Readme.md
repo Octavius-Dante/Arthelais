@@ -186,7 +186,7 @@ working example
 
 </br></br>
 
-<img src="./files/EB.png">
+<img src="./files/EB1.png">
 
 </br></br>
 
@@ -195,7 +195,6 @@ working example
 ```xml
 
 <t:Table rows="{/empTab}" title="Employee data" 
-
 visibleRowCount="7"  
 rowSelectionChange="onRowSelect" 
 selectionMode="Single">  <!-- Visible row count - Row selection change - Slection mode -->  
