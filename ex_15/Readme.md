@@ -15,9 +15,9 @@ This object is receivable as parameter to the event handler function, we can che
 
 **There are 3 default methods which we can use always :**
 
- 1.. *getParameter* : - to get single event parameter details
+ 1.. *getParameter* : - To get single event parameter details
  
- 2.. *getParameters* : - to Show all the parameters for the event
+ 2.. *getParameters* : - To Show all the parameters for the event
  
  3.. *getSource* : - Provides us the object of source control from where event was fired
 
