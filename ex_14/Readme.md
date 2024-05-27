@@ -432,7 +432,7 @@ onInit function(){
             "Salary": 125000,
             "Currency": "USD",
             "smoker": true,
-            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "gender": "https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png?f=webp",
             "mStat": "S",
             "rating": 4            
         },
@@ -442,7 +442,7 @@ onInit function(){
             "Salary": 300000,
             "Currency": "DIN",
             "smoker": false,
-            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "gender": "https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png?f=webp",
             "mStat": "M",
             "rating": 4 
         },
@@ -452,7 +452,7 @@ onInit function(){
             "Salary": 3750000,
             "Currency": "INR",
             "smoker": true,
-            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "gender": "https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png?f=webp",
             "mStat": "S",
             "rating": 2 
         },
@@ -462,7 +462,7 @@ onInit function(){
             "Salary": 300000,
             "Currency": "BRL",
             "smoker": true,
-            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "gender": "https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png?f=webp",
             "mStat": "M",
             "rating": 5 
         },
@@ -472,7 +472,7 @@ onInit function(){
             "Salary": 558000,
             "Currency": "EUR",
             "smoker": false,
-            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "gender": "https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png?f=webp",
             "mStat": "M",
             "rating": 3 
         },
@@ -482,7 +482,7 @@ onInit function(){
             "Salary": 645670,
             "Currency": "EUR",
             "smoker": false,
-            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "gender": "https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png?f=webp",
             "mStat": "M",
             "rating": 3             
         },
@@ -492,7 +492,7 @@ onInit function(){
             "Salary": 657000,
             "Currency": "EUR",
             "smoker": false,
-            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "gender": "https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png?f=webp",
             "mStat": "M",
             "rating": 3             
         },
@@ -533,10 +533,11 @@ onInit function(){
             "Salary": 558000,
             "Currency": "EUR",
             "smoker": true,
-            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "gender": "https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png?f=webp",
             "mStat": "S",
             "rating": 5            
         }
+
     ]
 }
 
