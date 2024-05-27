@@ -4,7 +4,22 @@
 
 **What is element Binding :**
 
-- when we bind a single dataset (1 record) element with a dependent control is called element binding 
+When we bind a single dataset (1 record) element with a dependent control is called element binding.
+
+- The element address will be bound to the dependent control as absolute path
+
+let say we have a table control with many records - user selects 1 record - that selected data set (is a data path relative data path)
+-- Now use this path to display the record in another form control with input field
+-- now binding this relative path to form control is element binding -- for form control this is an Absolute path
+
+For table control Absolute path (Parent) is data model file # in ABAP internal table name
+
+For table control Relative path (Child) is list of records in Absolute path # in ABAP internal table fields
+
+Relative path selected dataset in table control is addressed as Absolute path for form control - this is Element binding.
+
+Form control is dependent control here
+
 
 </br></br>
 </br></br>
