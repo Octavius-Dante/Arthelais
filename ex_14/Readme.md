@@ -66,6 +66,10 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 
 </br>
 
+- In data model array structure is the right data type to be used for binding for table control
+
+</br>
+
 *view.xml*
 
 ```xml
