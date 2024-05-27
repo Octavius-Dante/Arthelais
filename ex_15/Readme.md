@@ -180,7 +180,7 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
 
 </br>
 
-*controller.js*
+*controller.js Type 1* **Recommended way # 1**
 
 ```js
     // Event handler function
@@ -205,14 +205,71 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
         var sPath = oEvent.getParameter("rowContext").getPath();
         var oSimpleform = this.getView().byId("idSimple").bindElement(sPath);
 
-// Single object chaining
+// Single object chaining - Recommended
         var oSimpleform = this.getView().byId("idSimple").bindElement(oEvent.getParameter("rowContext").getPath());
+
+// No object chaining - Recommended
+        this.getView().byId("idSimple").bindElement(oEvent.getParameter("rowContext").getPath());
+
+    }
+
+```
+</br>
+
+*controller.js Type 2* alternative way **Recommended way # 2**
+
+```js
+
+    onRowSelect: function(oEvent) 
+    {   
+        this.elementBinding(oEvent);
+    }
+
+
+    elementBinding: function(oEvent){
+
+        // oMinion is our event object now 
+        console.log(oEvent);
+        // Step 1 : What is the Row which was selected by user
+        var oRowContext = oEvent.getParameter("rowContext");
+        // Step 2 : Know the address of the element
+        var sPath = oRowContext.getPath();
+        // Step 3 : Get the object of the Simple form
+        var oSimpleform = this.getView().byId("idSimple");
+        // Step 4 : Perform Element Binding
+        oSimpleform.bindElement(sPath);
 
     }
 
 ```
 
 </br>
+
+*controller.js Type 3* alternative way but **Not a good way**
+
+```js
+    onRowSelect: function(oEvent) 
+    {   
+        this.usingCopyData(oEvent);
+    }
+
+// this method is not a good way of writing programming 
+    usingCopyData: function(oEvent){
+        
+        // Getting the data model from memeory
+        var oModel = sap.ui.getCore().getModel();
+        
+        // copy the select element detail from memory finding it in the data model
+        var record = oModel.getProperty(oEvent.getParameter("rowContext").getPath());
+        console.log(record);
+
+        // using it to derive the record
+        oModel.setProeprty("/empStr", record);
+
+    }
+
+```
+
 
 *Set proper id to 'Simple form' control*
 
