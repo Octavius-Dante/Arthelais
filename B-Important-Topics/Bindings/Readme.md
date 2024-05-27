@@ -96,7 +96,7 @@ working example
 - if the condition Baratheon is true (first value - False) will be used to set in enabled property
 - if the condition Baratheon is false (second value - True) will be used to set in enabled property
 
-</br> </br>
+</br> 
 
 ```xml
 
@@ -123,6 +123,7 @@ working example
 - *What is Relative path > : - Relative path its a path which we bind with child control of the parent who is already bound to absolute path*
     *The path is always relative to its parent*
 
+</br>
 
 *view.xml*
 
