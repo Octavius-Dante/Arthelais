@@ -33,6 +33,8 @@ When ever a event is triggered for a control we attach event handler.
 
 ## Element Binding
 
+</br>
+
 When we bind a single dataset (1 record) element with a dependent control is called element binding.
 
 - The element address will be bound to the dependent control as absolute path
