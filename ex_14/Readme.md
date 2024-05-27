@@ -569,7 +569,7 @@ onInit function(){
 ```
 </br>
 
-*Table control has by default multi record select options it can be changed as shown below*
+*Table control by default has multi record select option it can be changed as shown below*
 
 ```xml
 
