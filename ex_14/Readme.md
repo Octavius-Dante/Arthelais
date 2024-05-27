@@ -103,9 +103,14 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 ```
 
 
+</br></br>
 
-</br></br>
-</br></br>
+
+
+
+
+
+</br>
 </br></br>
 
 ## End of Exercise 14 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_15"> Exercise 15-Element Binding </a>
