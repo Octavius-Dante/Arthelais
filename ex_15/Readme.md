@@ -22,8 +22,8 @@ let say we have a table control with many records - user selects 1 record - that
 
 **Simple form control**
 
-- For SF control *Absolute path* (Parent) is data structure from memory # in ABAP single record structure
-- For SF control *Relative path* (Child) is list of fields in *Absolute path* # in ABAP records structure fields
+- For SF control *Absolute path* (Parent) is data structure from memory # in ABAP single line record structure
+- For SF control *Relative path* (Child) is list of fields in *Absolute path* # in ABAP fields of line structure records
 
 </br></br>
 
