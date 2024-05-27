@@ -45,9 +45,9 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 
 </br></br>
 
-**Defining table in Ui5**
+## Defining table in Ui5
 
-</br></br>
+</br>
 
 <details>
 <summary> Things to check in SAP Ui5 SDK page  </summary>
