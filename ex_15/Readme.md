@@ -157,9 +157,13 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
 </br></br>
 <img src="./files/ui5e15-5a.png" >
 
+</br></br>
+
 6. Notice the other items listed in the JSON parameters*
 </br></br>
 <img src="./files/ui5e15-6.png" >
+
+</br></br>
 
 7. Those items can be found in SAP ui5 SDK Table events section's sub item section as shown below
 </br></br>
