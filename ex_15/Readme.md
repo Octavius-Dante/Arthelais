@@ -32,6 +32,18 @@ let say we have a table control with many records - user selects 1 record - that
 </br></br>
 
 
+*view.xml* add *'rowSelectionChange'* event to table control defining an event name *'onRowSelect'*
+
+```xml
+
+    <t:Table rows="{/empTab}" visibleRowCount="7" title="Employee data" rowSelectionChange="onRowSelect" >
+
+```
+
+</br>
+
+<img src="./files/ ui5e15-1.png">
+
 
 </br></br>
 </br></br>
