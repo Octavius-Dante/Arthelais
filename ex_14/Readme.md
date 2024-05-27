@@ -543,6 +543,23 @@ onInit function(){
 
 ```
 
+*Expression to disable employee name field if salary is less than 250000*
+
+```xml
+
+    <t:Column>
+        <t:label>
+            <Label text="EmpName" />
+        </t:label>   
+        <t:template>
+            <!-- <Text text="{empName}" /> -->
+            <Input value="{empName}" enabled="{= ${Salary} > 250000 ? true : false }"/>
+        </t:template>                         
+    </t:Column>
+
+```
+
+
 </br>
 </br>
 </details>
