@@ -34,7 +34,7 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
     <script>
         var oViewXML = new sap.ui.view({
             viewName: 'logger.view.ex13',
-            type: 'sap.ui.core.mvc.ViewType.XML',
+            type: sap.ui.core.mvc.ViewType.XML,
             id: "idXMLView"
         });
         oViewXML.placeAt("canvas");
@@ -48,12 +48,21 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 **Defining table in Ui5**
 
 *sap ui5 SDK page of the table control*
+
+<details>
+<summary> Things to check in SAP Ui5 SDK page  </summary>
+</br>
+</br>
+
 </br>
 <img src="./files/ui5e14_1.png" >
 <img src="./files/ui5e14_3.png" >
 <img src="./files/ui5e14_4.png" >
 <img src="./files/ui5e14_5.png" >
 </br>
+
+</br>
+</details>
 
 *view.xml*
 
