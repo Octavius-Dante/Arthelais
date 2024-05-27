@@ -9,7 +9,7 @@
 
 </br></br>
 
-**Defining table in ui5**
+**Defining table in Ui5**
 
 *sap ui5 SDK page of the table control*
 </br>
