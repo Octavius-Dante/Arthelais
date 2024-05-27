@@ -197,8 +197,9 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
         // Step 3 : Get the object of the Simple form
         var oSimpleform = this.getView().byId("idSimple");
         // Step 4 : Perform Element Binding
-
+        oSimpleform.bindElement(sPath);
     }
+    
 ```
 
 *Set proper id to 'Simple form' control*
