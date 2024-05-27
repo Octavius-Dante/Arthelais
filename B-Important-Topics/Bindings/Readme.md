@@ -186,7 +186,7 @@ working example
 
 </br></br>
 
-<img src="./files/element-binding.png">
+<img src="./files/Element-Binding.png">
 
 </br></br>
 
