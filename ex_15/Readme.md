@@ -1,8 +1,10 @@
 ## Exercise 15 - Element Binding
 
-</br></br>
+</br>
 
 **What is element Binding :**
+
+- when we bind a single dataset (1 record) element with a dependent control is called element binding 
 
 </br></br>
 </br></br>

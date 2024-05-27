@@ -161,6 +161,18 @@ working example
 
 </br> 
 
+*When we bind a single dataset (1 record) element with a dependent control is called element binding.*
+
+- let say we have a table control with many records - user selects 1 record - that selected data set (is a data path relative data path)
+
+-- Now use this path to display the record in another form control with input field  
+-- now binding this relative path to form control is element binding 
+-- for form control this is an Absolute path 
+
+- For table control absolute path this data model file its child is list of records - relative path 
+
+- Relative path selected dataset in table control is addressed as absolute path of Form control.
+
 
 ```
 
