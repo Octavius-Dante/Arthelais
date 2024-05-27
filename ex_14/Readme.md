@@ -314,6 +314,51 @@ onInit function(){
 
 ```
 
+*Setting Drop down, Rating Indicator, Check box*
+
+```xml
+
+    <t:Column>
+        <t:label>
+            <Label text="Smoker" />
+        </t:label>        
+        <t:template>
+            <!-- Check Box-->
+            <CheckBox selected="{smoker}"></CheckBox>
+        </t:template>                    
+    </t:Column> 
+
+    <t:Column>
+        <t:label>
+            <Label text="Marital Status" />
+        </t:label>    
+        <t:template>
+            <!-- Drop downn-->
+            <Select selectedKey="{mStat}">
+                <items>
+                    <core:Item text="Married" key="M" />
+                    <core:Item text="Single" key="S" />
+                    <core:Item text="Divorcee" key="D" />
+                </items>
+                <items>
+                </items>                        
+            </Select>
+        </t:template>                        
+    </t:Column> 
+
+    <t:Column>
+        <t:label>
+            <Label text="Rating" />
+        </t:label>    
+        <t:template>
+        <!-- Rating Indicator -->
+            <RatingIndicator value="{rating}"> </RatingIndicator>
+        </t:template>                        
+    </t:Column>                                     
+    </t:columns>
+
+```
+
 
 </br>
 </br>
