@@ -23,7 +23,7 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 
 ```
 
-</br></br>
+</br>
 
 *SAP best practice is define the constant name suggested in sap ui5 SDK* 
 
