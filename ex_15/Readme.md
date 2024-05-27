@@ -42,7 +42,7 @@ let say we have a table control with many records - user selects 1 record - that
 
 </br>
 
-<img src="./files/ ui5e15-1.png">
+<img src="./files/ui5e15-1.png">
 
 
 </br></br>
