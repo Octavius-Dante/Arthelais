@@ -11,12 +11,18 @@ When ever a event is triggered for a control we attach event handler. In this ev
 
 This object is receivable as parameter to the event handler function, we can check the documentation for the same each event can have different parameters inside vent object.
 
+</br></br>
+
+**There are 3 default methods which we can use always :**
+
+ 1.. *getParameter* : - to get single event parameter details
+ 
+ 2.. *getParameters* : - to Show all the parameters for the event
+ 
+ 3.. *getSource* : - Provides us the object of source control from where event was fired
 
 
 </br> </br>
-
-
-</br></br>
 
 
 ## Element Binding
@@ -75,6 +81,7 @@ let say we have a table control with many records - user selects 1 record - that
 
 ```
 
+</br>
 
 <img src="./files/ui5e15-1.png">
 
