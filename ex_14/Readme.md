@@ -117,7 +117,7 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 </br></br>
 
 <details>
-<summary> Table control definition in *View.xml* and essential code in *controller JS* </summary>
+<summary> Table control definition in view.xml and controller.js </summary>
 </br>
 </br>
 
@@ -263,6 +263,51 @@ onInit function(){
 </br>
 </br>
 </details>
+
+
+<details>
+<summary> Table control testing and other column changes </summary>
+</br>
+</br>
+
+*Changing Input field for employee name column - this brings input field instead of text*
+
+```xml
+
+    <t:Column>
+        <t:label>
+            <Label text="EmpName" />
+        </t:label>   
+        <t:template>
+            <!-- <Text text="{empName}" /> -->
+            <Input value="{empName}" />
+        </t:template>                         
+    </t:Column>
+
+```            
+
+</br></br>
+
+*Two way binding testing input value is reflected in the model*
+
+</br>
+
+<img src="./files/ui5e14_6.png" >
+<img src="./files/ui5e14_7.png" >
+<img src="./files/ui5e14_8.png" >
+
+</br>
+
+
+
+
+</br>
+</br>
+<img src="./files/capmd12-96a.png" >
+</br>
+</br>
+</details>
+
 
 
 </br></br>
