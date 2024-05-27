@@ -114,7 +114,7 @@ let say we have a table control with many records - user selects 1 record - that
 </br></br>
 
 <details>
-<summary> debugging using developer tools for getting element path and deep understanding</summary>
+<summary> debugging using developer tools for getting element path and deep understanding on events</summary>
 </br>
 </br>
 
