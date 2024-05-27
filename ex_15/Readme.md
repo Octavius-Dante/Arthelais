@@ -114,7 +114,7 @@ let say we have a table control with many records - user selects 1 record - that
 </br></br>
 
 <details>
-<summary> debugging using developer tools for understanding events </summary>
+<summary> debugging using developer tools for understanding events & getting element path </summary>
 </br>
 </br>
 
@@ -199,7 +199,7 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
         // Step 4 : Perform Element Binding
         oSimpleform.bindElement(sPath);
     }
-    
+
 ```
 
 *Set proper id to 'Simple form' control*
