@@ -50,7 +50,9 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 *sap ui5 SDK page of the table control*
 </br>
 <img src="./files/ui5e14_1.png" >
-
+<img src="./files/ui5e14_3.png" >
+<img src="./files/ui5e14_4.png" >
+<img src="./files/ui5e14_5.png" >
 </br>
 
 *view.xml*
