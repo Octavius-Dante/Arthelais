@@ -74,7 +74,9 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 
 ```
 
-</br></br>
+</br>
+
+*controller.js*
 
 ```js
 
