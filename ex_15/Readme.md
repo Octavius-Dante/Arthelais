@@ -27,7 +27,7 @@ let say we have a table control with many records - user selects 1 record - that
 
 </br></br>
 
-<img src="./files/Element-Binding.png">
+<img src="./files/EB.png">
 
 </br></br>
 
