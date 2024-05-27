@@ -111,6 +111,44 @@ let say we have a table control with many records - user selects 1 record - that
  
 ```
 
+</br></br>
+
+<details>
+<summary> debugging using developer tools for understanding events </summary>
+</br>
+</br>
+
+*Make the following change to view.xml*
+
+```xml
+
+<t:Table rows="{/empTab}" title="Employee data" 
+
+visibleRowCount="7"  
+rowSelectionChange="onRowSelect" 
+selectionMode="Single">  <!-- Visible row count - Row selection change - Slection mode -->  
+
+```
+
+1. Execute the index.html
+
+</br></br>
+2. In the page select developer tools and go to source section and set breakpoint for the code
+</br>
+<img src="./files/ui5e15-2.png" >
+
+</br></br>
+3. No select the item in the table control on the screen it stops at break point
+</br>
+<img src="./files/ui5e15-3.png" >
+
+</br></br>
+4. In the console type the object name oMinion that we defined in the code
+</br>
+<img src="./files/ui5e15-4.png" >
+
+</br></br>
+</details>
 
 
 
