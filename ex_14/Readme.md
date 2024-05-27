@@ -379,7 +379,7 @@ onInit function(){
 *Instead of showing gender in text we are going to show the image*
 
 - go to internet search for male icon and female icon in google
-- copy the image address (right click) --> (image address)
+- copy the image address (right click) --> (copy image address)
 - come to data model file (json) search male and replace it with male icon image address
 - search female and replace it with female icon image address
 - make the following changes in view xml file for accommodating the image
@@ -388,7 +388,157 @@ onInit function(){
 
 ```xml
 
+    <t:Column>
+        <t:label>
+            <Label text="Gender" />
+        </t:label>      
+        <t:template>
+            <Image src="{gender}" width="40px" height="40px" />
+        </t:template>                      
+    </t:Column> 
 
+```
+
+</br>
+
+*sample.json* file
+
+```json
+
+{
+    "empStr": {
+        "empId": 634,
+        "empName": "Carlisle",
+        "Salary": 450000,
+        "Currency": "USD",
+        "pranks": "true"
+    },
+
+    "empTab": [
+        {
+            "empId": 101,
+            "empName": "jane",
+            "Salary": 250000,
+            "Currency": "USD",
+            "smoker": false,
+            "gender": "https://cdn-icons-png.flaticon.com/512/6833/6833591.png",
+            "mStat": "M",
+            "rating": 5
+
+        },
+        {
+            "empId": 102,
+            "empName": "jack",
+            "Salary": 125000,
+            "Currency": "USD",
+            "smoker": true,
+            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "mStat": "S",
+            "rating": 4            
+        },
+        {
+            "empId": 103,
+            "empName": "jerry",
+            "Salary": 300000,
+            "Currency": "DIN",
+            "smoker": false,
+            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "mStat": "M",
+            "rating": 4 
+        },
+        {
+            "empId": 104,
+            "empName": "Robert",
+            "Salary": 3750000,
+            "Currency": "INR",
+            "smoker": true,
+            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "mStat": "S",
+            "rating": 2 
+        },
+        {
+            "empId": 105,
+            "empName": "Paulo",
+            "Salary": 300000,
+            "Currency": "BRL",
+            "smoker": true,
+            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "mStat": "M",
+            "rating": 5 
+        },
+        {
+            "empId": 106,
+            "empName": "Simon",
+            "Salary": 558000,
+            "Currency": "EUR",
+            "smoker": false,
+            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "mStat": "M",
+            "rating": 3 
+        },
+        {
+            "empId": 107,
+            "empName": "Sigmund",
+            "Salary": 645670,
+            "Currency": "EUR",
+            "smoker": false,
+            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "mStat": "M",
+            "rating": 3             
+        },
+        {
+            "empId": 108,
+            "empName": "Syed",
+            "Salary": 657000,
+            "Currency": "EUR",
+            "smoker": false,
+            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "mStat": "M",
+            "rating": 3             
+        },
+        {
+            "empId": 109,
+            "empName": "Shana",
+            "Salary": 856000,
+            "Currency": "EUR",
+            "smoker": false,
+            "gender": "https://cdn-icons-png.flaticon.com/512/6833/6833591.png",
+            "mStat": "S",
+            "rating": 4             
+
+        },
+        {
+            "empId": 1010,
+            "empName": "Silvia",
+            "Salary": 587000,
+            "Currency": "EUR",
+            "smoker": false,
+            "gender": "https://cdn-icons-png.flaticon.com/512/6833/6833591.png",
+            "mStat": "M",
+            "rating": 3            
+        },
+        {
+            "empId": 1011,
+            "empName": "Sashaa",
+            "Salary": 9674000,
+            "Currency": "EUR",
+            "smoker": false,
+            "gender": "https://cdn-icons-png.flaticon.com/512/6833/6833591.png",
+            "mStat": "M",
+            "rating": 4            
+        },
+        {
+            "empId": 1012,
+            "empName": "Simon",
+            "Salary": 558000,
+            "Currency": "EUR",
+            "smoker": true,
+            "gender": "https://www.svgrepo.com/show/382106/male-avatar-boy-face-man-user-9.svg",
+            "mStat": "S",
+            "rating": 5            
+        }
+    ]
+}
 
 ```
 
