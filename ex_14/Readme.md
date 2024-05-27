@@ -2,6 +2,12 @@
 
 </br></br>
 
+ E - Enumerators - constants with no changing fixed values
+ C - Classes 
+ N - NameSpaces - library
+
+
+
 **Defining table in ui5**
 
 *sap ui5 sdk page of the table control*
