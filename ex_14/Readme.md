@@ -384,6 +384,9 @@ onInit function(){
 - search female and replace it with female icon image address
 - make the following changes in view xml file for accommodating the image
 
+</br>
+
+
 *view.xml*
 
 ```xml
