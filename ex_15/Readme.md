@@ -31,7 +31,7 @@ When ever a event is triggered for a control we attach event handler.
 </br></br>
 
 
-**What is element Binding :**
+## Element Binding
 
 When we bind a single dataset (1 record) element with a dependent control is called element binding.
 
