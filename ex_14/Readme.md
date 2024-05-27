@@ -299,12 +299,22 @@ onInit function(){
 
 </br>
 
+*How to concatenate the Currency and the salary amount* -- make the following changes
+
+```xml
+
+    <t:Column>
+        <t:label>
+            <Label text="Salary" />
+        </t:label>   
+        <t:template>
+            <Text text="{Salary} {Currency}" />
+        </t:template>                         
+    </t:Column>
+
+```
 
 
-
-</br>
-</br>
-<img src="./files/capmd12-96a.png" >
 </br>
 </br>
 </details>
