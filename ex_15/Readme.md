@@ -66,6 +66,8 @@ let say we have a table control with many records - user selects 1 record - that
 
 ```
 
+</br>
+
 *Other Events for table control - Row Count*
 
 ```xml
@@ -73,6 +75,8 @@ let say we have a table control with many records - user selects 1 record - that
     <t:Table rows="{/empTab}" visibleRowCount="7" title="Employee data">
 
 ```
+
+</br>
 
 *Other Events for table control- Row Selection mode*
 
