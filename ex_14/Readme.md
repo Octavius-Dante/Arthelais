@@ -372,7 +372,7 @@ onInit function(){
 
 
 <details>
-<summary> Setting image to a data and displaying it in table control columns </summary>
+<summary> Setting image link to a data model field and displaying it in table control column </summary>
 </br>
 </br>
 
