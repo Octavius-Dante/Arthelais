@@ -293,7 +293,8 @@ onInit function(){
 </br>
 
 <img src="./files/ui5e14_6.png" >
-<img src="./files/ui5e14_7.png" >
+<img src="./files/ui5e14_7a.png" >
+<img src="./files/ui5e14_7b.png" >
 <img src="./files/ui5e14_8.png" >
 
 </br>
