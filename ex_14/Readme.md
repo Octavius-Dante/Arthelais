@@ -70,7 +70,10 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 
 - Row property in table control need to bind with data model, Row property is an *aggregation* of table control
 
-- What is absolute path > : - Absolute path is a address which we supply in *Aggregation Binding*
+- *What is Absolute path > : - Absolute path is a address which we supply in Aggregation Binding*
+
+- *What is Relative path > : - Relative path its a path which we bind with child control of the parent who is already bound to absolute path*
+    *The path is always relative to its parent*
 
 </br>
 
@@ -99,6 +102,14 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 ```js
 
 
+
+```
+
+*Table data binding with Child mapping*
+
+```xml
+
+<t:Table row="{/empTab}">
 
 ```
 
