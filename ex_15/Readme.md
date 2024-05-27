@@ -202,6 +202,8 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
 
 ```
 
+</br>
+
 *Set proper id to 'Simple form' control*
 
 ```xml
