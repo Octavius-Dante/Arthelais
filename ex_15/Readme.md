@@ -157,9 +157,6 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
 </br></br>
 <img src="./files/ui5e15-5a.png" >
 
-</br></br>
-
-*~~~~~~~~~ end of this block ~~~~~~~~~~*
 
 </br></br>
 </details>
