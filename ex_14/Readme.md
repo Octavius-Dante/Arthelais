@@ -297,7 +297,7 @@ onInit function(){
 <img src="./files/ui5e14_7b.png" >
 <img src="./files/ui5e14_8.png" >
 
-</br>
+</br></br>
 
 *How to concatenate the Currency and the salary amount* -- make the following changes
 
@@ -313,6 +313,8 @@ onInit function(){
     </t:Column>
 
 ```
+
+</br></br>
 
 *Setting Drop down, Rating Indicator, Check box*
 
