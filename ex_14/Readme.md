@@ -70,6 +70,10 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 
 - Row property in table control need to bind with data model, Row property is an *aggregation* of table control
 
+- What is absolute path > : - Absolute path is a address which we supply in *Aggregation Binding*
+
+</br>
+
 *Table data binding snippet*
 
 ```xml
