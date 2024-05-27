@@ -543,6 +543,12 @@ onInit function(){
 
 ```
 
+</br>
+</br>
+</details>
+
+</br></br>
+
 *Expression to disable employee name field if salary is less than 250000*
 
 ```xml
@@ -558,15 +564,25 @@ onInit function(){
     </t:Column>
 
 ```
+</br>
 
+*Table control has by default multi record select options it can be changed as shown below*
+
+```xml
+
+<t:Table rows="{/empTab}" visibleRowCount="5" selectionMode="Single">
+
+```
 
 </br>
-</br>
-</details>
 
-</br></br>
+*Table control limiting the number of records*
 
+```xml
 
+<t:Table rows="{/empTab}" visibleRowCount="5">
+
+```
 
 
 
