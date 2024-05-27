@@ -7,26 +7,14 @@
 
 </br>
 
-When ever a event is triggered for a control we attach event handler.
+When ever a event is triggered for a control we attach event handler. In this event handler method, we will automatically get an event object which will carry lots of important information about that event.
+
+This object is receivable as parameter to the event handler function, we can check the documentation for the same each event can have different parameters inside vent object.
+
+
 
 </br> </br>
 
-
-*Events for table control - Row Count*
-
-```xml
-
-    <t:Table rows="{/empTab}" visibleRowCount="7" title="Employee data">
-
-```
-
-*Events for table control- Row Selection mode*
-
-```xml
-
-<t:Table rows="{/empTab}" title="Employee data" selectionMode="Single">
-
-```
 
 </br></br>
 
@@ -70,6 +58,23 @@ let say we have a table control with many records - user selects 1 record - that
     <t:Table rows="{/empTab}" title="Employee data" rowSelectionChange="onRowSelect" >
 
 ```
+
+*Other Events for table control - Row Count*
+
+```xml
+
+    <t:Table rows="{/empTab}" visibleRowCount="7" title="Employee data">
+
+```
+
+*Other Events for table control- Row Selection mode*
+
+```xml
+
+<t:Table rows="{/empTab}" title="Employee data" selectionMode="Single">
+
+```
+
 
 <img src="./files/ui5e15-1.png">
 
