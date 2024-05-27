@@ -1,5 +1,17 @@
 ## Exercise 14 - Table Control
 
+</br></br>
+
+**Defining table in ui5**
+
+*sap ui5 sdk page of the table control*
+</br>
+<img src="./files/ui5e14_1.png" >
+
+
+
+</br></br>
+
 
 
 </br></br>
