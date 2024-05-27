@@ -174,7 +174,39 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
 </br></br>
 </details>
 
+</br>
 
+**After understanding the events available methods we can define those in our code as shown below**
+
+</br>
+
+*controller.js*
+
+```js
+    // Event handler function
+
+    // event object as parameter good practise is oEvent
+    onRowSelect: function(oEvent) 
+    {   
+        // oMinion is our event object now 
+        console.log(oEvent);
+        // Step 1 : What is the Row which was selected by user
+        var oRowContext = oEvent.getParameter.("rowContext");
+        // Step 2 : Know the address of the element
+        var sPath = oRowContext.getPath();
+        // Step 3 : Get the object of the Simple form
+        var oSimpleform = this.getView().byId("idSimple");
+        // Step 4 : Perform Element Binding
+
+    }
+```
+
+*Set proper id to 'Simple form' control*
+
+```
+
+
+```
 
 
 
