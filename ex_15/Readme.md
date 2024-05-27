@@ -198,6 +198,16 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
         var oSimpleform = this.getView().byId("idSimple");
         // Step 4 : Perform Element Binding
         oSimpleform.bindElement(sPath);
+
+// The above code can be written in following ways
+
+// Double object chaining
+        var sPath = oEvent.getParameter("rowContext").getPath();
+        var oSimpleform = this.getView().byId("idSimple").bindElement(sPath);
+
+// Single object chaining
+        var oSimpleform = this.getView().byId("idSimple").bindElement(oEvent.getParameter("rowContext").getPath());
+
     }
 
 ```
