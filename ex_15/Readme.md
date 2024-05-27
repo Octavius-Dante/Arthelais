@@ -12,13 +12,18 @@ let say we have a table control with many records - user selects 1 record - that
 -- Now use this path to display the record in another form control with input field
 -- now binding this relative path to form control is element binding -- for form control this is an Absolute path
 
-For table control Absolute path (Parent) is data model file # in ABAP internal table name
+**Table control**
 
-For table control Relative path (Child) is list of records in Absolute path # in ABAP internal table fields
+- For table control *Absolute path* (Parent) is data model file # in ABAP internal table name 
+- For table control *Relative path* (Child)  is list of records in *Absolute path* # in ABAP internal table records
+ 
+- *Relative path* selected dataset in table control is addressed as *Absolute path* for form control - this is *Element binding*.
+- Form control is dependent control here
 
-Relative path selected dataset in table control is addressed as Absolute path for form control - this is Element binding.
+**Simple form control**
 
-Form control is dependent control here
+- For SF control *Absolute path* (Parent) is data structure from memory # in ABAP single record structure
+- For SF control *Relative path* (Child) is list of fields in *Absolute path* # in ABAP records structure fields
 
 </br></br>
 
