@@ -7,7 +7,7 @@
  </br> N - NameSpaces - library
 
 
-</br></br>
+</br>
 
 **Defining table in Ui5**
 
