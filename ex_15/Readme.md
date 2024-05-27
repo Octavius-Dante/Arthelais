@@ -158,6 +158,8 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
 <img src="./files/ui5e15-5a.png" >
 
 
+** ~~~~~~~~~ end of this block ~~~~~~~~~~ **
+
 </br></br>
 </details>
 
