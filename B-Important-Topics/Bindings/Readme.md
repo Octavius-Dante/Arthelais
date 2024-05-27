@@ -190,8 +190,35 @@ working example
 
 </br></br>
 
+*Make the following change to view.xml*
+
+```xml
+
+<t:Table rows="{/empTab}" title="Employee data" 
+
+visibleRowCount="7"  
+rowSelectionChange="onRowSelect" 
+selectionMode="Single">  <!-- Visible row count - Row selection change - Slection mode -->  
 
 ```
+</br></br>
 
+```js
+    // Event handler function
 
-```
+    // event object as parameter good practise is oEvent
+    onRowSelect: function(oEvent) 
+    {   
+        // oMinion is our event object now 
+        console.log(oEvent);
+        // Step 1 : What is the Row which was selected by user
+        var oRowContext = oEvent.getParameter("rowContext");
+        // Step 2 : Know the address of the element
+        var sPath = oRowContext.getPath();
+        // Step 3 : Get the object of the Simple form
+        var oSimpleform = this.getView().byId("idSimple");
+        // Step 4 : Perform Element Binding
+        oSimpleform.bindElement(sPath);
+    }
+    
+```    
