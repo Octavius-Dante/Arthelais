@@ -154,7 +154,7 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
 
 5. In the Expanded section we can see *Row Index* and the *Address path*
 </br></br>
-<img src="./files/ui5e15-5.png" >
+<img src="./files/ui5e15-5a.png" >
 
 
 </br></br>
