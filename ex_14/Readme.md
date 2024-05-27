@@ -272,6 +272,8 @@ onInit function(){
 
 *Changing Input field for employee name column - this brings input field instead of text*
 
+*view.xml*
+
 ```xml
 
     <t:Column>
@@ -301,6 +303,8 @@ onInit function(){
 
 *How to concatenate the Currency and the salary amount* -- make the following changes
 
+*view.xml*
+
 ```xml
 
     <t:Column>
@@ -317,6 +321,8 @@ onInit function(){
 </br></br>
 
 *Setting Drop down, Rating Indicator, Check box*
+
+*view.xml*
 
 ```xml
 
@@ -360,16 +366,38 @@ onInit function(){
     </t:columns>
 
 ```
+</br>
+</br>
+</details>
 
+</br></br>
+
+<details>
+<summary> Setting image to a data and displaying it in table control columns </summary>
+</br>
+</br>
+
+*Instead of showing gender in text we are going to show the image*
+
+- go to internet search for male icon and female icon in google
+- copy the image address (right click) --> (image address)
+- come to data model file (json) search male and replace it with male icon image address
+- search female and replace it with female icon image address
+- make thes following changes in view xml file for accommodating the image
+
+*view.xml*
+
+```xml
+
+
+
+```
 
 </br>
 </br>
 </details>
 
-
-
 </br></br>
-
 
 
 
