@@ -91,17 +91,134 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 
 ```xml
 
+<mvc:View xmlns:form="sap.ui.layout.form" controllerName="logger.controller.ex13" 
+xmlns:mvc="sap.ui.core.mvc" 
+xmlns="sap.m"
+xmlns:f="sap.ui.layout.form"
+xmlns:t="sap.ui.table"
+xmlns:core="sap.ui.core">
 
+    <form:SimpleForm editable="true"> <!-- editable property aligns the controls properly in screen -->
+    <form:title>
+        <core:Title icon="sap-icon://customer" text="Employee Details" />
+    </form:title>
+        <form:content>  <!-- Aggregation name starts with small letter-->
+            <Label text="Emp Id"/> <!-- control name starts with capital letter -->            
+            <Input id="idEmpId" width="25%" value="{/empStr/empId}" /> 
+            <Label text="Emp Name"/>
+            <Input id="idEmpName" width="30%" value="{path: '/empStr/empName'}" enabled="{= ${/empStr/pranks} === 'true' ? true : false}"/> 
+            <Label text="Salary"/>
+            <Input id="idSalary" width="20%" enabled="{= ${/empStr/empName} === 'Baratheon' ? false : true }"/>
+            <Label text="Currency"/>
+            <Input id="idCurrency" width="10%" value="{/empStr/Currency}" />
 
+            <Label/> <!--empty label for spacing-->            
+                <HBox>
+                    <Button text="Load data" press="onLoad" width=""/>
+                    <Button text="Show" press="onShow"/>                     
+                    <Button text="Flip-Flop" press="onFlip"/>       
+                </HBox>
+                     
+        </form:content>
+    </form:SimpleForm>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////// -->
+    <t:Table rows="{/empTab}">
+        <t:columns>           
+            <t:Column>
+                <t:label>
+                    <Label text="EmpId" />
+                </t:label>
+                <t:template>
+                    <Text text="{empId}" />
+                </t:template>
+            </t:Column>
+
+            <t:Column>
+                <t:label>
+                    <Label text="EmpName" />
+                </t:label>   
+                <t:template>
+                    <Text text="{empName}" />
+                    <!-- <Input value="{empName}" /> -->
+                </t:template>                         
+            </t:Column>
+
+            <t:Column>
+                <t:label>
+                    <Label text="Salary" />
+                </t:label>   
+                <t:template>
+                    <Text text="{Salary}" />
+                </t:template>                         
+            </t:Column>
+
+            <t:Column>
+                <t:label>
+                    <Label text="Currency" />
+                </t:label>  
+                <t:template>
+                    <Text text="{Currency}" />
+                </t:template>                          
+            </t:Column>
+
+            <t:Column>
+                <t:label>
+                    <Label text="Smoker" />
+                </t:label>        
+                <t:template>
+                    <Text text="{}" />
+                </t:template>                    
+            </t:Column> 
+
+            <t:Column>
+                <t:label>
+                    <Label text="Gender" />
+                </t:label>      
+                <t:template>
+                    <Text text="{}" />
+                </t:template>                      
+            </t:Column>             
+
+            <t:Column>
+                <t:label>
+                    <Label text="M-Status" />
+                </t:label>    
+                <t:template>
+                    <Text text="{}" />
+                </t:template>                        
+            </t:Column> 
+
+            <t:Column>
+                <t:label>
+                    <Label text="Rating" />
+                </t:label>    
+                <t:template>
+                    <Text text="{}" />
+                </t:template>                        
+            </t:Column>                                     
+        </t:columns>
+        <t:rows>
+            <t:Row>
+
+            </t:Row>
+        </t:rows>        
+    </t:Table>
+
+    </mvc:View>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////// -->
 ```
 
 </br>
 
-*controller.js*
+*controller.js* -- only the essential code snip is added for full code check the attachment *.zip file
 
 ```js
 
-
+onInit function(){
+    var oModel2 = Models.createJSONModel("model/mockdata/dataset.json"); // model path passed 
+    // named model - we need to give a name
+    sap.ui.getCore().setModel(oModel2, "got"); // a model with name
+}
 
 ```
 
