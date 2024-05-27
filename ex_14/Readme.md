@@ -579,7 +579,7 @@ onInit function(){
 
 </br>
 
-*Table control limiting the number of records*
+*Table control limiting the number of records for display*
 
 ```xml
 
