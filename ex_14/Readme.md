@@ -370,7 +370,6 @@ onInit function(){
 </br>
 </details>
 
-</br></br>
 
 <details>
 <summary> Setting image to a data and displaying it in table control columns </summary>
