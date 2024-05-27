@@ -7,7 +7,41 @@
  </br> N - NameSpaces - library
 
 
-</br>
+</br></br>
+
+In HTML view definition part we have defined the *type: 'XML'* its not a best practice
+
+```html
+    <script>
+        var oViewXML = new sap.ui.view({
+            viewName: 'logger.view.ex13',
+            type: 'XML',
+            id: "idXMLView"
+        });
+        oViewXML.placeAt("canvas");
+    </script>
+
+```
+
+*SAP best practice is define the constant name suggested in sap ui5 SDK* 
+
+<img src="./files/ui5e14_2.png" >
+
+
+```html
+    <script>
+        var oViewXML = new sap.ui.view({
+            viewName: 'logger.view.ex13',
+            type: 'sap.ui.core.mvc.ViewType.XML',
+            id: "idXMLView"
+        });
+        oViewXML.placeAt("canvas");
+    </script>
+
+```
+
+
+</br></br>
 
 **Defining table in Ui5**
 
