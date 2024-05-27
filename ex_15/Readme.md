@@ -129,10 +129,11 @@ rowSelectionChange="onRowSelect"
 selectionMode="Single">  <!-- Visible row count - Row selection change - Slection mode -->  
 
 ```
+</br></br>
 
 1. Execute the index.html
 
-</br></br>
+</br>
 
 2. In the page select developer tools and go to source section and set breakpoint for the code
 </br></br>
