@@ -64,6 +64,8 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 </br>
 </details>
 
+</br></br>
+
 *view.xml*
 
 ```xml
