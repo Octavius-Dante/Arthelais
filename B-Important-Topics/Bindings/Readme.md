@@ -17,7 +17,7 @@ When we bind address of model data with a property of our control, is called pro
 
 </br> </br>
 
-*Property binding : -* sample 
+*Property binding : - Syntaxes*
 
 ```js
 
@@ -38,6 +38,8 @@ When we bind address of model data with a property of our control, is called pro
 
 
 ```
+
+</br> </br>
 
 working example
 
@@ -85,12 +87,19 @@ working example
 ```xml
 
 <Input id="idSalary" width="20%" enabled="{= ${/empStr/empName} === 'Baratheon' ? false : true }"/>
-<Input id="idEmpName" width="20%" enabled="{= ${/empStr/salary} > 250000 ? true : false }"/>
 
 ```
 
 - if the condition Baratheon is true (first value - False) will be used to set in enabled property
 - if the condition Baratheon is false (second value - True) will be used to set in enabled property
+
+</br> </br>
+
+```xml
+
+<Input id="idEmpName" width="20%" enabled="{= ${/empStr/salary} > 250000 ? true : false }"/>
+
+```
 
 - if the condition salary is true (first value - True) will be used to set in enabled property
 - if the condition salary is false (second value - false) will be used to set in enabled property
