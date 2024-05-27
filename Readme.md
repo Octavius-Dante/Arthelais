@@ -50,9 +50,14 @@ Pre-requisite VSCode or BAS should be installed and active.
 
 </br></br>
 
-<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/Debug"> Debug</a>
+
+## Important Topics
+
+<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Debug"> Debug</a>
 </br>
-<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/Show_Preview_Fix"> Show live preview work around</a>
+<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Show_Preview_Fix"> Show live preview work around</a>
+</br>
+<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Bindings"> Bindings </a>
 
 </br>
 
