@@ -1,21 +1,24 @@
 
 ## Explanation on different bindings 
 
+</br>
+
 - *Property binding :- binding a address path with property control is property binding*
 - *Expression binding : - binding an expression of an Ui element control is expression binding*
 - *Aggregation binding : - binding an aggregation to an Ui element control is property binding*
 - *Element binding : - xxx*
 
-</br> </br>
+</br> 
 
 
 ## Property binding
-</br> </br>
+
+</br> 
 
 When we bind address of model data with a property of our control, is called property binding
 </br> E.G we bound */empStr/empId* with value property of input control
 
-</br> </br>
+</br> 
 
 *Property binding : - Syntaxes*
 
@@ -39,7 +42,7 @@ When we bind address of model data with a property of our control, is called pro
 
 ```
 
-</br> </br>
+</br> 
 
 working example
 
@@ -74,12 +77,12 @@ working example
 
 ```
 
-</br> </br>
+</br> 
 
 
 ## Expression binding 
 
-</br> </br>
+</br> 
 
 *When we bind a expression a (logic) with the property of a model, is called expression binding.*
 
@@ -104,12 +107,12 @@ working example
 - if the condition salary is true (first value - True) will be used to set in enabled property
 - if the condition salary is false (second value - false) will be used to set in enabled property
 
-</br> </br>
+</br> 
 
 
 ## Aggregation binding 
 
-</br> </br>
+</br> 
 
 - In data model array structure is the right data type to be used for binding for table control
 
@@ -151,11 +154,11 @@ working example
 
 ```
 
-</br> </br>
+</br> 
 
 ## Element binding 
 
-</br> </br>
+</br> 
 
 
 ```
