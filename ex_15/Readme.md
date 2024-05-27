@@ -134,17 +134,17 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
 
 </br></br>
 2. In the page select developer tools and go to source section and set breakpoint for the code
-</br>
+</br></br>
 <img src="./files/ui5e15-2.png" >
 
 </br></br>
 3. No select the item in the table control on the screen it stops at break point
-</br>
+</br></br>
 <img src="./files/ui5e15-3.png" >
 
 </br></br>
 4. In the console type the object name oMinion that we defined in the code
-</br>
+</br></br>
 <img src="./files/ui5e15-4.png" >
 
 </br></br>
