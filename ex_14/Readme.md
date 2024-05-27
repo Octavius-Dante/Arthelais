@@ -50,7 +50,7 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 </br>
 
 <details>
-<summary> Things to check in SAP Ui5 SDK page  </summary>
+<summary> Things to check in SAP Ui5 SDK page for defining *Table Control*  </summary>
 </br>
 </br>
 
