@@ -68,6 +68,16 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 
 - In data model array structure is the right data type to be used for binding for table control
 
+- Row property in table control need to bind with data model, Row property is an *aggregation* of table control
+
+*Table data binding snippet*
+
+```xml
+
+<t:Table row="{/empTab}">
+
+```
+
 </br>
 
 *view.xml*
