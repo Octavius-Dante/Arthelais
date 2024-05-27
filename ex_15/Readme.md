@@ -191,7 +191,7 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
         // oMinion is our event object now 
         console.log(oEvent);
         // Step 1 : What is the Row which was selected by user
-        var oRowContext = oEvent.getParameter.("rowContext");
+        var oRowContext = oEvent.getParameter("rowContext");
         // Step 2 : Know the address of the element
         var sPath = oRowContext.getPath();
         // Step 3 : Get the object of the Simple form
@@ -204,8 +204,9 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
 
 *Set proper id to 'Simple form' control*
 
-```
+```xml
 
+<form:SimpleForm editable="true" id="idSimple">
 
 ```
 
