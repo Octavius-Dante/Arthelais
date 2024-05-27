@@ -87,6 +87,40 @@ In HTML view definition part we have defined the *type: 'XML'* its not a best pr
 
 </br>
 
+*Table data binding with Child mapping for columns*
+
+```xml
+
+<t:Table rows="{/empTab}">
+    <t:columns>           
+        <t:Column>
+            <t:label>
+                <Label text="EmpId" />
+            </t:label>
+            <t:template>
+                <Text text="{empId}" />
+            </t:template>
+        </t:Column>
+
+        <t:Column>
+            <t:label>
+                <Label text="EmpName" />
+            </t:label>   
+            <t:template>
+                <Text text="{empName}" />
+            </t:template>                         
+        </t:Column>
+</t:Table>            
+
+```
+
+</br></br>
+
+<details>
+<summary> Table control definition in *View.xml* and essential code in *controller JS* </summary>
+</br>
+</br>
+
 *view.xml*
 
 ```xml
@@ -218,17 +252,17 @@ onInit function(){
     var oModel2 = Models.createJSONModel("model/mockdata/dataset.json"); // model path passed 
     // named model - we need to give a name
     sap.ui.getCore().setModel(oModel2, "got"); // a model with name
+ 
+ // if XML model is used it should be commented -
+ // - XML data mdoel is not SUPPORTED 
+
 }
 
 ```
 
-*Table data binding with Child mapping*
-
-```xml
-
-<t:Table row="{/empTab}">
-
-```
+</br>
+</br>
+</details>
 
 
 </br></br>
