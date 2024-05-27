@@ -1,6 +1,35 @@
 ## Exercise 15 - Element Binding
 
 </br>
+</br>
+
+## Event object in Ui5 
+
+</br>
+
+When ever a event is triggered for a control we attach event handler.
+
+</br> </br>
+
+
+*Other events - Row Count*
+
+```xml
+
+    <t:Table rows="{/empTab}" visibleRowCount="7" title="Employee data">
+
+```
+
+*Other events - Row Selection mode*
+
+```xml
+
+<t:Table rows="{/empTab}" title="Employee data" selectionMode="Single">
+
+```
+
+</br></br>
+
 
 **What is element Binding :**
 
@@ -36,11 +65,9 @@ let say we have a table control with many records - user selects 1 record - that
 
 ```xml
 
-    <t:Table rows="{/empTab}" visibleRowCount="7" title="Employee data" rowSelectionChange="onRowSelect" >
+    <t:Table rows="{/empTab}" title="Employee data" rowSelectionChange="onRowSelect" >
 
 ```
-
-</br>
 
 <img src="./files/ui5e15-1.png">
 

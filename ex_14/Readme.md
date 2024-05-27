@@ -569,7 +569,7 @@ onInit function(){
 ```
 </br>
 
-*Table control by default has multi record select option it can be changed as shown below*
+*Table control by default has multi record select option it can be changed as shown below -- This is an event*
 
 ```xml
 
@@ -579,7 +579,7 @@ onInit function(){
 
 </br>
 
-*Table control limiting the number of records for display*
+*Table control limiting the number of records for display -- This is an Event*
 
 ```xml
 
