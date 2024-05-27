@@ -20,6 +20,13 @@ Relative path selected dataset in table control is addressed as Absolute path fo
 
 Form control is dependent control here
 
+</br></br>
+
+<img src="./files/element-binding.png>
+
+</br></br>
+
+
 
 </br></br>
 </br></br>
