@@ -162,6 +162,7 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
 6. Notice the other items listed in the JSON parameters*
 </br></br>
 <img src="./files/ui5e15-6.png" >
+<img src="./files/ui5e15-6a.png" >
 
 </br></br>
 
