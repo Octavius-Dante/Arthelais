@@ -113,6 +113,135 @@ onInit: function (){
 
 ```
 
+</br>
+
+*view.xml* this is how it is addressed for texts in view file ( {i18n>ED2} )
+
+```xml
+
+<mvc:View xmlns:form="sap.ui.layout.form" controllerName="logger.controller.ex16" 
+xmlns:mvc="sap.ui.core.mvc" 
+xmlns="sap.m"
+xmlns:f="sap.ui.layout.form"
+xmlns:t="sap.ui.table"
+xmlns:core="sap.ui.core">
+
+<!-- <t:Table rows="{/empTab}" visibleRowCount="5" selectionMode="Single"> -->
+    <t:Table rows="{/empTab}" visibleRowCount="7" title="{i18n>ED2}" rowSelectionChange="onRowSelect" selectionMode="Single">
+        <t:columns>           
+            <t:Column>
+                <t:label>
+                    <Label text="{i18n>XLBL_EMPI}" />
+                </t:label>
+                <t:template>
+                    <Text text="{empId}" />
+                </t:template>
+            </t:Column>
+
+            <t:Column>
+                <t:label>
+                    <Label text="{i18n>XLBL_EMPN}" />
+                </t:label>   
+                <t:template>
+                    <!-- <Text text="{empName}" /> -->
+                    <Input value="{empName}" />
+                </t:template>                         
+            </t:Column>
+
+            <t:Column>
+                <t:label>
+                    <Label text="{i18n>XLBL_SAL}" />
+                </t:label>   
+                <t:template>
+                    <Text text="{Salary} {Currency}" />
+                </t:template>                         
+            </t:Column>
+
+            <t:Column>
+                <t:label>
+                    <Label text="{i18n>XLBL_SMK}" />
+                </t:label>        
+                <t:template>
+                   <!-- Check Box-->
+                    <CheckBox selected="{smoker}"></CheckBox>
+                </t:template>                    
+            </t:Column> 
+
+            <t:Column>
+                <t:label>
+                    <Label text="{i18n>XLBL_GEN}" />
+                </t:label>      
+                <t:template>
+                    <Image src="{gender}" width="40px" height="40px" />
+                </t:template>                      
+            </t:Column>             
+
+            <t:Column>
+                <t:label>
+                    <Label text="{i18n>XLBL_M-STAT}" />
+                </t:label>    
+                <t:template>
+                    <!-- Drop downn-->
+                    <Select selectedKey="{mStat}">
+                        <items>
+                            <core:Item text="Married" key="M" />
+                            <core:Item text="Single" key="S" />
+                            <core:Item text="Divorcee" key="D" />
+                        </items>
+                        <items>
+                        </items>                        
+                    </Select>
+                </t:template>                        
+            </t:Column> 
+
+            <t:Column>
+                <t:label>
+                    <Label text="{i18n>XLBL_RATE}" />
+                </t:label>    
+                <t:template>
+                <!-- Rating Indicator -->
+                 <RatingIndicator value="{rating}"> </RatingIndicator>
+                </t:template>                        
+            </t:Column>                                     
+        </t:columns>
+        <t:rows>
+            <t:Row>
+
+            </t:Row>
+        </t:rows>        
+    </t:Table>
+
+    <form:SimpleForm editable="true" id="idSimple"> <!-- editable property aligns the controls properly in screen -->
+    <form:title>
+        <core:Title icon="sap-icon://customer" text="{i18n>ED2}" />
+    </form:title>
+        <form:content>  <!-- Aggregation name starts with small letter-->
+            <Label text="{i18n>XLBL_EMPI}"/> <!-- control name starts with capital letter -->            
+            <Input id="idEmpId" width="25%" value="{empId}" /> 
+            <Label text="{i18n>XLBL_EMPN}"/>
+            <Input id="idEmpName" width="30%" value="{path: 'empName'}"/> 
+            <!-- <Input id="idEmpName" width="30%" value="{path: 'empName'}" enabled="{= ${pranks} === 'true' ? true : false}"/>  -->
+            <Label text="{i18n>XLBL_SAL}"/>
+            <!-- <Input id="idSalary" width="20%" value="{Salary}" enabled="{= ${empName} === 'Baratheon' ? false : true }"/> -->
+            <Input id="idSalary" width="20%" value="{Salary}"/>
+            <Label text="{i18n>XLBL_CURR}"/>
+            <Input id="idCurrency" width="10%" value="{Currency}" />
+
+            <Label/> <!--empty label for spacing-->            
+                <HBox>
+                    <Button text="{i18n>XBUT_LOAD}" press="onLoad" width=""/>
+                    <Button text="{i18n>XBUT_SHOW}" press="onShow"/>                     
+                    <Button text="{i18n>XBUT_FLIP}" press="onFlip"/>       
+                </HBox>
+                     
+        </form:content>
+    </form:SimpleForm>
+
+    </mvc:View>
+
+
+```
+
 
 
 </br></br>
