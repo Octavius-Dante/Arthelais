@@ -181,7 +181,7 @@ working example
 
 **Simple form control**
 
-- For SF control *Absolute path* (Parent) is data structure from memeory # in ABAP single record structure
+- For SF control *Absolute path* (Parent) is data structure from memory # in ABAP single record structure
 - For SF control *Relative path* (Child) is list of fields in *Absolute path* # in ABAP records structure fields
 
 </br></br>
