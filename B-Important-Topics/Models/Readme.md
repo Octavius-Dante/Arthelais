@@ -85,4 +85,7 @@ this.getView().byId("idControl").setModel(oModel) // Control level
 - *Element binding : - Binding the address path of an element (child) to a dependent control-Object is called element binding*
 
 
+</br></br>
+</br></br>
+</br></br>
 
