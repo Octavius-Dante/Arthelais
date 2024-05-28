@@ -338,7 +338,7 @@ Some list of use case scenarios this formatter is used :
 
 </br>
 
-*View.xml*  our formatter function should be created in controller.js *('.' dot represent corresponding views controller file)*
+*View.xml*  our formatter function should be created in controller.js *( '.' dot represent corresponding views controller file)*
 
 ```xml
 
