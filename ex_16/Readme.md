@@ -312,7 +312,19 @@ Now we have to test the added language text to our page (url snip) ta - language
 
 </br>
 
+Formatter is a function which gets called before the binding takes place.
 
+This function takes the data from the model and return the data to the U.I, so ultimately you will see the data on the screen which is transformed.
+
+Some list of use case scenarios this formatter is used : 
+
+Scenario : Convert all the name to caps, 
+Scenario : Convert all the name to small
+Scenario : Currency formatting
+Scenario : Date formatting
+Scenario : Time formatting 
+Scenario : Changing values at runtime 
+Scenario : Performing some calculation like discount, premium, deductions, tax .. etc
 
 
 
