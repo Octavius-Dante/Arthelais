@@ -332,6 +332,31 @@ Some list of use case scenarios this formatter is used :
 
 <img src="./files/formatter.png" >
 
+</br>
+
+*Formatter can only be used for Property binding syntax type 2*
+
+</br>
+
+*View.xml*  our formatter function should be created in controller.js *(respective views controller file)*
+
+```xml
+
+<Input value="{path : 'empName', formatter : '.myFormatterFunction'}" />
+
+```
+
+</br>
+
+*controller.js* 
+
+```js
+
+
+```
+
+
+
 
 </br></br>
 </br></br>
