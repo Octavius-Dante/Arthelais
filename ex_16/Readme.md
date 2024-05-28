@@ -352,6 +352,11 @@ Some list of use case scenarios this formatter is used :
 
 ```js
 
+    myFormatterFunction: function (input){
+        if(input){
+            return input.toUpperCase();
+        }
+    }
 
 ```
 
