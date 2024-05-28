@@ -57,12 +57,59 @@ XBUT_FLIP=Flip-Flop
 
 ```js
 
+sap.ui.define([
+    'sap/ui/model/json/JSONModel',
+    'sap/ui/model/xml/XMLModel',   
+    'sap/ui/model/resource/ResourceModel'], // Dependency asynchronous module definition (AMD)
+    function (JSONModel, XMLModel) {
+        'use strict';
+        // 'use strict' is declaration instruction to throw error 
+        // if mentioned it will throw error when a value is assigned without declaration
+        return {
+            // createJSONModel: function (sFilepath) {
+            //     // Step 1. create a brand new model object
+            //     var oModel = new JSONModel();
+            //     // Step 2. Load or set the data to the model
+            //     // oModel.setData();
+            //     oModel.loadData(sFilepath);
+            //     return oModel;
+            // },
+       
+            // createXMLModel: function (sFilepath) {
+            //     // Step 1. create a brand new model object
+            //     var oModel = new XMLModel();
+            //     // Step 2. Load or set the data to the model
+            //     // oModel.setData();
+            //     oModel.loadData(sFilepath);
+            //     return oModel;
+            // },
 
+            createResourceModel: function (){
+                var oModel = new ResourceModel({
+                    bundleUrl: "i18n/i18n.properties"
+                });
+                return oModel;
+            }
+        };
+    });
 
 
 ```
 
+</br>
 
+*controller.js* - instantiating the model in controller.js (only the essential snip is added here)
+
+```js
+
+onInit: function (){
+    // Resource model 
+    var oModelResource = Models.createResourceModel();
+    // named model - we needd to give a name
+    sap.ui.getCore().setModel(oModelResource, "i18n");
+}
+
+```
 
 
 
