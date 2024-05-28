@@ -5,6 +5,8 @@
 
 ## Resource Model
 
+</br>
+
 When we have an app which is used internationally, we would like to translate the application labels in different language, so that we can allow internationalization/localization.
 
 In short the internationalization is written as *i18n*
