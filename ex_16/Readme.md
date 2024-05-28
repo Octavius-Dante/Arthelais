@@ -61,7 +61,7 @@ sap.ui.define([
     'sap/ui/model/json/JSONModel',
     'sap/ui/model/xml/XMLModel',   
     'sap/ui/model/resource/ResourceModel'], // Dependency asynchronous module definition (AMD)
-    function (JSONModel, XMLModel) {
+    function (JSONModel, XMLModel, ResourceModel) {
         'use strict';
         // 'use strict' is declaration instruction to throw error 
         // if mentioned it will throw error when a value is assigned without declaration
