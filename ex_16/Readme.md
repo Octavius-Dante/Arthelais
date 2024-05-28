@@ -316,6 +316,8 @@ Formatter is a function which gets called before the binding takes place.
 
 This function takes the data from the model and return the data to the U.I, so ultimately you will see the data on the screen which is transformed.
 
+</br>
+
 Some list of use case scenarios this formatter is used : 
 
 - Scenario : Convert all the name to caps, 
