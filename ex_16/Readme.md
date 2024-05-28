@@ -98,7 +98,9 @@ sap.ui.define([
 
 </br>
 
-*controller.js* - instantiating the model in controller.js (only the essential snip is added here)
+*controller.js* - instantiating the model in controller.js 
+
+</br>(only the essential snip is added here not the full file)
 
 ```js
 
