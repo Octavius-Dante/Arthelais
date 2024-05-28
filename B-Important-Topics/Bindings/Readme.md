@@ -3,10 +3,10 @@
 
 </br>
 
-- *Property binding :- binding a address path with property control is property binding*
-- *Expression binding : - binding an expression of an Ui element control is expression binding*
-- *Aggregation binding : - binding an aggregation to an Ui element control is property binding*
-- *Element binding : - xxx*
+- *Property binding :- Binding the address path with property of a control-Object is property binding*
+- *Expression binding : - Binding an expression of an Ui element control-object is expression binding*
+- *Aggregation binding : - Binding an aggregation to an Ui element control-object is aggregation binding*
+- *Element binding : - Binding the address path of an element (child) to a dependent control-Object is called element binding*
 
 </br> 
 
