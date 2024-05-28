@@ -16,6 +16,26 @@ In short the internationalization is written as *i18n*
  1. Developer - Who enables the app to be internationalized 
  2. KM resource - Convert text to corresponding language (Knowledge management)
 
+</br></br>
+
+<img src="./files/ui5e16-1.png" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </br></br>
 </br></br>
