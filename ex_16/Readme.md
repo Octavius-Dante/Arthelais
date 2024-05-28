@@ -360,7 +360,67 @@ Some list of use case scenarios this formatter is used :
 
 ```
 
+*If this formatter need to be used in multiple places in multiple controller files*
+<br> *like a reusable utility then do the following*
 
+- Create a folder called util
+- Create a file called reuse.js
+- Define the formatter function inside scaffolding template
+- Define the reuse.js file as a library in our controlelr.js and declare a global variable
+- assign that global variable to the formatter location as ('.globalVariable.formatterFunction')
+
+
+*reuse.js* -- (in util folder 'webapp\util\reuse.js')
+
+```js
+
+sap.ui.define([], 
+function() {
+    'use strict';
+    return{
+
+        // formatting
+        myFormatterFunction: function (input){
+            if(input){
+                return input.toUpperCase();
+            }
+        }
+    }
+});
+
+
+```
+
+</br>
+
+*conroller.js*
+
+```js
+
+sap.ui.define(
+    ['sap/ui/core/mvc/Controller',
+        'logger/model/models',
+        'logger/util/reuse'], // <-- added the reuse.js file path here - same we did for models
+    function (Controller, Models, reuse) { // <--- defined the reuse.js file here like how we define models
+        return Controller.extend("logger.controller.ex16", {
+            formatter : reuse, // <--- Global variable declaration
+        })
+    }
+)
+
+
+```
+
+</br>
+
+*view.xml*
+
+```xml
+
+<!-- formatter variable is assigned and formatter function is called -->
+<Input value="{path : 'empName', formatter : '.formatter.myFormatterFunction'}" />
+
+```
 
 
 </br></br>
