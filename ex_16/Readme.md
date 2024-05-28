@@ -285,7 +285,7 @@ XLBL_GEN=பாலினம்
 XLBL_RATE=மதிப்பீடு
 XBUT_LOAD=தரவை ஏற்றவும்
 XBUT_SHOW=காட்டு
-XBUT_FLIP=Flip-Flop
+XBUT_FLIP=எழு-விழு
 XTIT_ED1=பணியாளர் தரவு
 XTIT_ED2=பணியாளர் விவரங்கள்
 
