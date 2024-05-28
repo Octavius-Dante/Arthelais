@@ -458,6 +458,28 @@ sap.ui.define(
 
 
 </br></br>
+
+**Date Formatting**
+
+*Define the function in reuse.js*
+
+```js
+
+
+
+```
+
+```xml
+
+
+
+```
+
+<img src="./files/ui5e16-6.png" >
+
+
+
+</br></br>
 </br></br>
 </br></br>
 
