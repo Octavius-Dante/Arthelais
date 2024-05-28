@@ -173,7 +173,7 @@ Model is an object of data, The model is used to
 **Client side model :**
 
 A Client side model, keeps all the data in the browser once loaded. Suitable for small size of data.
-</br> These models are like internal tables in ABAP used fir Data manipulation.
+</br> These models are like internal tables in ABAP used for Data manipulation.
 
 </br>
 
