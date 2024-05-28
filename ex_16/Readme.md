@@ -11,6 +11,8 @@ When we have an app which is used internationally, we would like to translate th
 
 In short the internationalization is written as *i18n*
 
+</br>
+
 **There are 2 rules**
 
  1. Developer - Who enables the app to be internationalized 
