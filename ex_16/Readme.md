@@ -45,9 +45,9 @@ XLBL_SMK=Smoker
 XLBL_M-STAT=Marital Status
 XLBL_GEN=Gender
 XLBL_RATE=Rating
-XLBL_LOAD=Load data
-XLBL_SHOW=Show
-XLBL_FLIP=Flip-Flop
+XBUT_LOAD=Load data
+XBUT_SHOW=Show
+XBUT_FLIP=Flip-Flop
 
 ```
 
