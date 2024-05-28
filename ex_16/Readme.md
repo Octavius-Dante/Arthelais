@@ -2,6 +2,20 @@
 
 
 </br></br>
+
+## Resource Model
+
+When we have an app which is used internationally, we would like to translate the application labels in different language, so that we can allow internationalization/localization.
+
+In short the internationalization is written as *i18n*
+
+**There are 2 rules**
+
+ 1. Developer - Who enables the app to be internationalized 
+ 2. KM resource - Convert text to corresponding language (Knowledge management)
+
+
+</br></br>
 </br></br>
 </br></br>
 
