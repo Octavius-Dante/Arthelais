@@ -320,6 +320,8 @@ This function takes the data from the model and return the data to the U.I, so u
 
 Some list of use case scenarios this formatter is used : 
 
+https://sapui5.hana.ondemand.com/#/topic/35cbd6c6694a45f7bdbbe557f0107d63
+
 - Scenario : Convert all the name to caps, 
 - Scenario : Convert all the name to small
 - Scenario : Currency formatting
@@ -429,7 +431,28 @@ sap.ui.define(
 
 **Currency Formatting**
 
+*Define the function in reuse.js*
 
+```js
+
+    // Currency formatting - from sap sdk
+    formatCurrency: function(amount, currCode){
+        var oCurrencyFormat = NumberFormat.getCurrencyInstance();
+        return oCurrencyFormat.format(amount, currCode);
+    }
+
+```
+
+```xml
+
+    <!-- <Text text="{Salary} {Currency}" /> -->
+    <Text text="{
+            parts: [{path : 'Salary'}, {path : 'Currency'}],
+            formatter: '.formatter.foramtCurrency'
+
+    }" />
+
+```
 
 
 </br></br>
