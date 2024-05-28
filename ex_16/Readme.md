@@ -297,7 +297,7 @@ Now we have to test the added language text to our page (url snip) ta - language
 
 ```url
 
-?sap-ui-langauge=ta
+?sap-ui-language=ta
 
 ```
 
