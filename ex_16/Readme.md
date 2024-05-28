@@ -117,6 +117,11 @@ onInit: function (){
 
 *view.xml* this is how it is addressed for texts in view file ( {i18n>ED2} )
 
+<details>
+<summary> xml view file code sample </summary>
+</br>
+</br>
+
 ```xml
 
 <mvc:View xmlns:form="sap.ui.layout.form" controllerName="logger.controller.ex16" 
@@ -127,7 +132,7 @@ xmlns:t="sap.ui.table"
 xmlns:core="sap.ui.core">
 
 <!-- <t:Table rows="{/empTab}" visibleRowCount="5" selectionMode="Single"> -->
-    <t:Table rows="{/empTab}" visibleRowCount="7" title="{i18n>ED2}" rowSelectionChange="onRowSelect" selectionMode="Single">
+    <t:Table rows="{/empTab}" visibleRowCount="7" title="{i18n>XTIT_ED1}" rowSelectionChange="onRowSelect" selectionMode="Single">
         <t:columns>           
             <t:Column>
                 <t:label>
@@ -213,7 +218,7 @@ xmlns:core="sap.ui.core">
 
     <form:SimpleForm editable="true" id="idSimple"> <!-- editable property aligns the controls properly in screen -->
     <form:title>
-        <core:Title icon="sap-icon://customer" text="{i18n>ED2}" />
+        <core:Title icon="sap-icon://customer" text="{i18n>XTIT_ED2}" />
     </form:title>
         <form:content>  <!-- Aggregation name starts with small letter-->
             <Label text="{i18n>XLBL_EMPI}"/> <!-- control name starts with capital letter -->            
@@ -239,8 +244,38 @@ xmlns:core="sap.ui.core">
 
     </mvc:View>
 
-
 ```
+
+</br>
+</details>
+
+</br>
+
+Create another language file for i18n as shown below
+
+</br>
+
+<img src="./files/ui5e16-2.png" >
+
+</br></br>
+
+Now go to google translate and do the translation for all the text maintained in i18n
+
+</br>
+
+<img src="./files/ui5e16-3.png" >
+
+</br></br>
+
+
+
+
+
+
+
+
+
+
 
 
 
