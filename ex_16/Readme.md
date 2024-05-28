@@ -268,7 +268,28 @@ Now go to google translate and do the translation for all the text maintained in
 </br></br>
 
 
+*i18n_ta.properties*  Tamil தமிழ் language file 
 
+
+```i18n
+
+## These belongs to XMl View
+
+XLBL_EMPI=பணியாளர் ஐடி
+XLBL_EMPN=பணியாளர் பெயர்
+XLBL_SAL=சம்பளம்
+XLBL_CURR=நாணயம்
+XLBL_SMK=புகைப்பிடிப்பவர்
+XLBL_M-STAT=திருமண நிலை
+XLBL_GEN=பாலினம்
+XLBL_RATE=மதிப்பீடு
+XBUT_LOAD=தரவை ஏற்றவும்
+XBUT_SHOW=காட்டு
+XBUT_FLIP=Flip-Flop
+XTIT_ED1=பணியாளர் தரவு
+XTIT_ED2=பணியாளர் விவரங்கள்
+
+```
 
 
 
