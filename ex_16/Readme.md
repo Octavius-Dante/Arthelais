@@ -360,6 +360,8 @@ Some list of use case scenarios this formatter is used :
 
 ```
 
+</br></br>
+
 *If this formatter need to be used in multiple places in multiple controller files*
 <br> *like a reusable utility then do the following*
 
@@ -369,6 +371,7 @@ Some list of use case scenarios this formatter is used :
 - Define the reuse.js file as a library in our controlelr.js and declare a global variable
 - assign that global variable to the formatter location as ('.globalVariable.formatterFunction')
 
+</br>
 
 *reuse.js* -- (in util folder 'webapp\util\reuse.js')
 
@@ -421,6 +424,10 @@ sap.ui.define(
 <Input value="{path : 'empName', formatter : '.formatter.myFormatterFunction'}" />
 
 ```
+
+**Currency Formatting**
+
+
 
 
 </br></br>
