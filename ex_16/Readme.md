@@ -318,13 +318,13 @@ This function takes the data from the model and return the data to the U.I, so u
 
 Some list of use case scenarios this formatter is used : 
 
-Scenario : Convert all the name to caps, 
-Scenario : Convert all the name to small
-Scenario : Currency formatting
-Scenario : Date formatting
-Scenario : Time formatting 
-Scenario : Changing values at runtime 
-Scenario : Performing some calculation like discount, premium, deductions, tax .. etc
+- Scenario : Convert all the name to caps, 
+- Scenario : Convert all the name to small
+- Scenario : Currency formatting
+- Scenario : Date formatting
+- Scenario : Time formatting 
+- Scenario : Changing values at runtime 
+- Scenario : Performing some calculation like discount, premium, deductions, tax .. etc
 
 
 
