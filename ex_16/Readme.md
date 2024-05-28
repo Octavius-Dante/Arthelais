@@ -115,7 +115,7 @@ onInit: function (){
 
 </br>
 
-*view.xml* this is how it is addressed for texts in view file ( {i18n>ED2} )
+*view.xml* this is how it is addressed for texts in view file ( {i18n>XTIT_ED1} )
 
 <details>
 <summary> xml view file code sample </summary>
