@@ -22,9 +22,11 @@ In short the internationalization is written as *i18n*
 
 <img src="./files/ui5e16-1.png" >
 
+*Refer : following links for details* 
 
+</br> [SAP Official GitHub repository for Ui5](https://github.com/SAP/openui5/blob/master/src/sap.m/test/sap/m/demokit/theming/webapp/i18n/i18n.properties)
 
-
+</br> [SAP ui5 SDK page as on 2024-may](https://sapui5.hana.ondemand.com/sdk/#/topic/582ce93d326540f59d149031a44d5fb0)
 
 
 
