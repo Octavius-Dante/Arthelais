@@ -293,7 +293,7 @@ XTIT_ED2=பணியாளர் விவரங்கள்
 
 </br></br>
 
-Now we have to test the added language text to our page (url snip) ta - language code in my case
+Now we have to test the added language text to our page (URL snip) ta - language code in my case
 
 ```url
 
@@ -328,6 +328,9 @@ Some list of use case scenarios this formatter is used :
 - Scenario : Changing values at runtime 
 - Scenario : Performing some calculation like discount, premium, deductions, tax .. etc
 
+</br>
+
+<img src="./files/formatter.png" >
 
 
 </br></br>
