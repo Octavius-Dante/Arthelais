@@ -30,7 +30,27 @@ In short the internationalization is written as *i18n*
 </br> [SAP ui5 SDK page as on 2024-May-27](https://sapui5.hana.ondemand.com/sdk/#/topic/582ce93d326540f59d149031a44d5fb0)
 
 
+*i18n.properties* file 
 
+```i18n
+
+
+## These belongs to XMl View
+
+XLBL_EMPI=Employee ID
+XLBL_EMPN=Employee Name
+XLBL_SAL=Salary
+XLBL_CURR=Currency
+XLBL_SMK=Smoker
+XLBL_M-STAT=Marital Status
+XLBL_GEN=Gender
+XLBL_RATE=Rating
+XLBL_LOAD=Load data
+XLBL_SHOW=Show
+XLBL_FLIP=Flip-Flop
+
+
+```
 
 
 
