@@ -291,7 +291,15 @@ XTIT_ED2=பணியாளர் விவரங்கள்
 
 ```
 
+</br></br>
 
+Now we have to test the added language text to our page (url snip) ta - language code in my case
+
+```url
+
+?sap-ui-langauge=ta
+
+```
 
 
 
