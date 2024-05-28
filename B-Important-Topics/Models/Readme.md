@@ -27,9 +27,9 @@ A Client side model, keeps all the data in the browser once loaded. Suitable for
 
 **Client side model types**
 
-- JSON model
-- XML model 
-- Resource model (i18n translation text for screen elements)
+- JSON model - (Json data file )
+- XML model  - (XML data file)
+- Resource model (i18n translation text for screen elements file)
 
 </br>
 
