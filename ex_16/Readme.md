@@ -306,8 +306,11 @@ Now we have to test the added language text to our page (url snip) ta - language
 <img src="./files/ui5e16-4.png" >
 
 </br></br>
+</br>
 
+## Formatters 
 
+</br>
 
 
 
