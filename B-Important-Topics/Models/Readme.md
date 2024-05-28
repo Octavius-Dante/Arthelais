@@ -50,6 +50,8 @@ A Server side model, keeps all the data in the server, It loads the data on dema
 
 **Steps to create model**
 
+</br></br>
+
 1. create a brand new model object
 
 ```js
@@ -61,11 +63,15 @@ new sap.ui.model.odat.v2.ODataModel
 
 ```
 
+</br></br>
+
 2. Load or set the data to the model
 
 ```js    
     oModel.setData, oModel.loadData
 ```
+
+</br></br>
 
 3. Make the model aware to the application
 
@@ -76,6 +82,8 @@ this.getView().setModel(oModel)  // only that view - view level
 this.getView().byId("idControl").setModel(oModel) // Control level
 
 ```
+
+</br></br>
 
 4. Data Binding 4 types (using path) 
 
