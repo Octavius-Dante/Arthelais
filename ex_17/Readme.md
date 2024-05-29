@@ -6,8 +6,42 @@
 
 Fiori Guidelines : https://experience.sap.com/fiori-design-web/ 
 
+</br></br>
 
 <img src="./files/Fiori_Guideline.png" >
+
+
+</br></br>
+
+
+**New Flow details**
+
+
+- *<b>Index Html</b> is just a trigger to start the web application it is not the main file.*
+
+- *<b>Component.js</b> is the actual file responsible for code and view instantiation* - is the starting file and boot file for the application
+
+- *<b>Manifest.json</b> is a companion file of component.js, it is also called as application descriptor*
+
+- **
+
+- **
+
+- **
+
+- **
+
+
+
+
+
+
+
+
+
+
+
+
 
 </br></br>
 </br></br>
