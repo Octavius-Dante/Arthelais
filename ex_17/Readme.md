@@ -21,9 +21,9 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 - *<b>Component.js</b> is the actual file responsible for code and view instantiation* - is the starting file and boot file for the application
 
-- *<b>Manifest.json</b> is a companion file of component.js, it is also called as application descriptor*
+- *<b>Manifest.json</b> is a companion file of Component.js, it is also called as application descriptor*
 
-- *<b>App.view.xml</b> is the starting view of the app- the is the first view component js calls central view*
+- *<b>App.view.xml</b> is the starting view of the app- the is the first view Component js calls central view*
 
 - *<b>Container control</b> is part of App.view.xml (app container, split app container) it contains other views inside (view.xml)*
   *this container control is Responsible for navigation between the views*
@@ -36,7 +36,7 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 
 
-**Define component container for component.js In index.html**
+**Define Component container for Component.js In index.html**
 
 ```html
 
@@ -68,10 +68,12 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 ```
 
+**Component.jS**
 
-
-
-
+- *It is the starting file for fiori apps*
+- *It wraps the functionality of entire Fiori app*
+- *It is companion with a file called application description (manifest.json)*
+- *There is only one Component.js per app - file name should be ( Component.js )*
 
 
 
