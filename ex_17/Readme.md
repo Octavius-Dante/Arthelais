@@ -26,7 +26,7 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 - *<b>App.view.xml</b> is the starting view of the app- the is the first view component js calls central view*
 
 - *<b>Container control</b> is part of App.view.xml (app container, split app container) it contains other views inside (view.xml)*
-  *this container control is Responsible for naviagtion between the views*
+  *this container control is Responsible for navigation between the views*
 
 - *<b>view.xml</b> regular views which contains screen elements*
 
