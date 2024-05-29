@@ -36,9 +36,11 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 </br></br>
 
-**Define Component container for Component.js In index.html**
+**Define Component container for Component.js**
 
 </br>
+
+*index.html*
 
 ```html
 
