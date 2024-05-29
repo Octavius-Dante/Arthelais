@@ -36,7 +36,37 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 
 
+**Define component container for component.js In index.html**
 
+```html
+
+<html>
+    <head>
+        <script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+                data-sap-ui-libs="sap.m"
+                data-sap-ui-theme="sap_fiori_3_dark"
+                data-sap-ui-resourceroots='{"ntt.hr.payroll" : "./"}'
+                data-sap-ui-bindingSyntax="Complex"
+        >     
+        </script>
+<!-- Naming convention for workspace will be COMPANY-NAME.DEPARTMENT.PROJECT -->
+        <script>
+// 1. First define a component container for component.js  
+            var oCompContainer = new sap.ui.core.ComponentContainer({
+                name : "ntt.hr.payroll"
+            });
+            oCompContainer.placeAt("content");               
+        </script>        
+
+    </head>
+    <body class="sapUiBody">
+        <div id="content"></div>
+    </body> 
+
+</html>
+
+
+```
 
 
 
