@@ -97,7 +97,6 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 *Create a file called Component.js inside webapp folder*
 
-</br>
 
 <img src="./files/ui5e17-1.png" >
 
