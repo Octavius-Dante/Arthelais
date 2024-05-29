@@ -40,7 +40,7 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 </br>
 
-*index.html*
+*index.html* -- *Skeleton*
 
 ```html
 
@@ -138,17 +138,45 @@ sap.ui.define([
 
 </br>
 
-*App.view.xml*
+*App.view.xml* -- *Skeleton*
 
-```
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns=sap.m" 
-controllerName="ntt.hr.payroll.App">
-<!-- Defining container control-->
+```xml
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.App">
+
+<!-- Defining container control - it contains other views 
+
+> This container control will be parent for other views 
+> There are different types of container control
+
+    ~ now we are using type : App container control
+
+-->
+
+<App id="appCon" />
 
 </mvc:View>
 
 ```
 
+</br>
+
+*App.controller.js* -- *Skeleton*
+
+```js
+
+sap.ui.define([
+    'sap/ui/core/mvc/Controller'
+], function(Controller){
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.controlApp",{
+        onInit: function(){
+
+        }
+    });
+});
+
+```
 
 
 
