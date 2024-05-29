@@ -182,7 +182,7 @@ sap.ui.define([
 
 </br>
 
-details>
+<details>
 <summary> Test check files </summary>
 </br>
 </br>
