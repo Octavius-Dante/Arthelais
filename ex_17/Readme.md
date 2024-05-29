@@ -177,6 +177,7 @@ sap.ui.define([
 });
 
 ```
+</br></br>
 
 *Launch and test the app*
 
