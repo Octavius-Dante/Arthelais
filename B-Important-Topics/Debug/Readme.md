@@ -13,7 +13,7 @@ F11 - when you debug you come across a function line
 - (F9) step by step mode will quickly execuet the function and goes to next code block
 - In abap this will not happen it executes line by line here in browser JS code block function is also considered like a single line
 - In this palce we have to use special key - F11
--
+
 - in function block F11 acts like F5 to go inside after getting inside we can use regular F9 step by step
 
 </br></br>
