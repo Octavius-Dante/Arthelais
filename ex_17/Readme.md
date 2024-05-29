@@ -106,7 +106,7 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 sap.ui.define([
     'sap/ui/core/UIComponent'
-], function(){
+], function(UIComponent){
     'use strict';
     return UIComponent.extend("ntt.hr.payroll.Component",{
         metadata: {},
