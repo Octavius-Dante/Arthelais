@@ -1,5 +1,12 @@
 ## Exercise 17 - Fiori Like app
 
+</br></br>
+
+*Why SAP Fiori was introduced ?  - it is a Ui5 guideline for designing web application in certain way.* 
+
+
+
+
 
 </br></br>
 </br></br>
