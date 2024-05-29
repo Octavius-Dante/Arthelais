@@ -130,15 +130,22 @@ sap.ui.define([
 
 </br>
 
+*Create folders and files as shown below*
+
+</br>
+
 <img src="./files/ui5e17-2.png" >
 
 </br>
 
-*Create a folder called View and inside create file called App.view.xml all inside webapp folder*
+*App.view.xml*
 
 ```
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns=sap.m" 
+controllerName="ntt.hr.payroll.App">
+<!-- Defining container control-->
 
-
+</mvc:View>
 
 ```
 
