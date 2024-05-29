@@ -4,7 +4,7 @@
 
 *Why SAP Fiori was introduced ?  - it is a Ui5 guideline for designing web application in certain way.* 
 
-
+Fiori Guidelines : https://experience.sap.com/fiori-design-web/ 
 
 
 
