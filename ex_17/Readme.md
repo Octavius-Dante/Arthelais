@@ -178,12 +178,22 @@ sap.ui.define([
 
 ```
 
+*Launch and test the app*
 
+</br>
 
-
-
-
-
+details>
+<summary> Test check files </summary>
+</br>
+</br>
+<img src="./files/ui5e17-3.png" >
+</br>
+<img src="./files/ui5e17-4.png" >
+</br>
+<img src="./files/ui5e17-5.png" >
+</br>
+</br>
+</details>
 
 
 
