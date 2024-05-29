@@ -23,13 +23,15 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 - *<b>Manifest.json</b> is a companion file of component.js, it is also called as application descriptor*
 
-- **
+- *<b>App.view.xml</b> is the starting view of the app- the is the first view component js calls central view*
 
-- **
+- *<b>Container control</b> is part of App.view.xml (app container, split app container) it contains other views inside (view.xml)*
 
-- **
+- *<b>view.xml</b> regular views which contains screen elements*
 
-- **
+- *<b>Controllers.js each view.xml contains a corresponding controller</b>*
+
+- *<b>App controller</b>ss is a part of App view*
 
 
 
