@@ -459,11 +459,11 @@ sap.ui.define(
 
 </br></br>
 
-**Date Formatting**
+<!-- **Date Formatting**
 
-*Define the function in reuse.js* using this functionality for a disabled input field in screen
+*Define the function in reuse.js* using this functionality for a disabled input field in screen -->
 
-```js
+<!-- ```js
 
 
 
@@ -471,13 +471,10 @@ sap.ui.define(
 
 ```xml
 
-<!-- define 2 input field one to show default date - hardcoded-->
-
-<!-- another to show the formatted date using formatter function-->
 
 ```
 
-<img src="./files/ui5e16-6.png" >
+<img src="./files/ui5e16-6.png" > -->
 
 
 
