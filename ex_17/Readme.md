@@ -74,7 +74,7 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 - *It wraps the functionality of entire Fiori app*
 - *It is companion with a file called application description (manifest.json)*
 - *There is only one Component.js per app - file name should be ( Component.js )*
-
+- *It inherits from SAP standard class sap/ui/core/mvc/UIComponent*
 
 
 
