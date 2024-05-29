@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Language Translator</title>        
+  </head>
+  <body>
+    <div><h4>Language Translator - Prototype</h4></div>
+    <div>
+    <form>      
+      <!-- move the mouse away and click outside to trigger this -->
+      <div id="1d"> <Input type="text" id="input-field1"  onblur="callTrans()" placeholder="Input here"> click outside to translate </div>      
+      <div id="2d"> <textarea id="input-text1" placeholder="Input here"> </textarea> see output in console </div>	
+      <div id="3d"> <Input type="text" id="input-field2"  placeholder="Input here"> see output on key press 'enter' </div>      
+      <div id="4d"> <textarea id="input-text2" placeholder="Input here"> </textarea> see output on key press 'enter' </div>	
+      <div id="5d"> <Input type="text" id="input-field3" placeholder="Input here"> type and wait </div>              
+      <div id="6d"> <textarea id="input-text3" placeholder="Input here"> </textarea> type and wait </div>              
+    </form>
+    </div>
+    <script src="script/script.js"></script>
+  </body>
+</html>
