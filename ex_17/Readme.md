@@ -100,15 +100,37 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 </br>
 
-*Component.js*
+*Component.js* -- *Skeleton*
 
 ```js
 
+sap.ui.define([
+    'sap/ui/core/UIComponent'
+], function(){
+    'use strict';
+    return UIComponent.extend("ntt.hr.payroll.Component",{
+        metadata: {},
+        init: function(){
+            // this line will call the base class constructor
+            UIComponent.prototype.init.apply(this);
+        },
+        createContent: function(){
+            var oView = sap.ui.view({
+                viewName: "ntt.hr.payroll.view.App",
+                id: "idAppView",
+                type: "XML"
+            });
 
+            return oView;
+        }
+    });
+});
 
 ```
 
+</br>
 
+*Create a folder called View and inside create file called App.view.xml all inside webapp folder*
 
 
 
