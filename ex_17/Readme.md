@@ -8,7 +8,7 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 </br></br>
 
-<img src="./files/Fiori_Guideline_b.png" >
+<img src="./files/Fiori_Guideline_archi.png" >
 
 
 </br></br>
