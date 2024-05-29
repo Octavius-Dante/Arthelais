@@ -82,6 +82,33 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 - *There is only one Component.js per app - file name should be ( Component.js )*
 - *It inherits from SAP standard class sap/ui/core/UIComponent - base class*
 - *This base class gets us free functionality and objects example (Router)*
+- *The Component file instantiate app.view.xml*
+
+</br>
+
+[SDK link for sap/ui/core/UIComponent](https://sapui5.hana.ondemand.com/#/api/sap.ui.core.UIComponent%23methods/Summary)
+
+
+<img src="./files/ss.png" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </br></br>
