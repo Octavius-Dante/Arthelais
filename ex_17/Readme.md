@@ -88,12 +88,18 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 [SDK link for sap/ui/core/UIComponent](https://sapui5.hana.ondemand.com/#/api/sap.ui.core.UIComponent%23methods/Summary)
 
+</br>
 
 <img src="./files/ss.png" >
 
+</br>
 
 
+*Create a file called Component.js inside webapp folder*
 
+</br>
+
+<img src="./files/ui5e17-1.png" >
 
 
 
