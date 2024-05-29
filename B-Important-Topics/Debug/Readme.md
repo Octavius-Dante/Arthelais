@@ -16,6 +16,7 @@ F11 - when you debug you come across a function line
 -
 - - in function block F11 acts like F5 to go inside after getting inside we can use regula F9 step by step
 
+</br></br>
 
  *Demonstration*
  
@@ -33,6 +34,7 @@ F11 - when you debug you come across a function line
 ```
 Remember when you come across a function to step in we have F11 -- 
 
+</br></br>
 
 ## End of the page
 </br>
