@@ -1,5 +1,17 @@
 ## Exercise 18 - List Control
 
+</br> 
+
+*Fiori Guideline architecture*  for reference
+
+</br> 
+<img src="./files/Fiori_Guideline_archi.png" >
+</br>
+
+**We will Implement navigation between the 2 views**
+</br>
+<img src="./files/view-navigation.png">
+</br>
 
 </br></br>
 </br></br>
