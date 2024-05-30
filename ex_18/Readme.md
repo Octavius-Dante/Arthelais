@@ -72,6 +72,12 @@ sap.ui.define([
 
 ```xml
 
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.View1">
+    <Page title="View 1">
+        <Button text="Go Next" icon="sap-icon://arrow-right" press="onNext" />
+    </Page>
+</mvc:View>
 
 ```
 
@@ -81,6 +87,12 @@ sap.ui.define([
 
 ```xml
 
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.View2">
+    <Page title="View 1">
+        <Button text="Go Back" icon="sap-icon://arrow-left" press="onBack" />
+    </Page>
+</mvc:View>
 
 ```
 
