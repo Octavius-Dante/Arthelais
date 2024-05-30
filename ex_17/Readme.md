@@ -235,17 +235,25 @@ controllerName="ntt.hr.payroll.controller.View2">
 
 ```
 
+</br></br>
+<img src="./files/ui5e17-8.png" >
+</br></br>
+
+*View1.controller.js*
+
+```js
+
+```
+
+</br>
+
+*View2.controller.js*
+
+```js
+
+```
 
 </br></br>
-</br>
-<img src="./files/ui5e17-8.png" >
-</br>
-
-</br>
-
-</br>
-
-</br>
 <img src="./files/ui5e17-9.png" >
 </br>
 
