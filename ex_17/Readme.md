@@ -36,6 +36,10 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 </br></br>
 
+## Creating a Fiori app skeleton 
+
+</br>
+
 **Define Component container for Component.js**
 
 </br>
