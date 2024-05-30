@@ -40,7 +40,7 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 </br>
 
-**Steps 1 involved in creating a Fiori app skeleton :**
+**Steps involved in creating a Fiori app skeleton :**
 
 *Pre-requisite Webapp folder should be present and all the following activities takes place inside webapp*
 
