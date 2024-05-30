@@ -279,7 +279,12 @@ sap.ui.define([
     return Controller.extend("ntt.hr.payroll.controller.View1",{
         onInit: function(){
 
-        },        
+        },
+
+        onNext: function(){
+            
+        }
+        
     });
 });
 
@@ -299,6 +304,10 @@ sap.ui.define([
         onInit: function(){
 
         },
+
+        onBack: function(){
+
+        }
     });
 });
 
