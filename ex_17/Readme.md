@@ -204,6 +204,7 @@ sap.ui.define([
 </br>
 <img src="./files/ui5e17-7.png" >
 </br>
+</br>
 
 *View1.view.xml*
 
