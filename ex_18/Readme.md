@@ -18,6 +18,40 @@
 <img src="./files/view-navigation.png">
 </br>
 
+*View1.controller.js*
+
+```js
+sap.ui.define([
+    'sap/ui/core/mvc/Controller'
+], function(Controller){
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.View1",{
+        onInit: function(){
+
+        },
+
+        onNext: function(){
+            // Step 1 : get the parent control object - Container for our view 
+            var oAppCon = this.getView().getParent();
+            // Step 2 : ask parent to nav to next view 
+            oAppCon.to("idView2");
+        }        
+    });
+});
+
+```
+
+</br>
+
+*View2.controller.js*
+
+```js
+
+
+
+```
+
+
 </br></br>
 </br></br>
 </br></br>
