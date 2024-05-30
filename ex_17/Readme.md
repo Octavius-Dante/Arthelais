@@ -40,6 +40,30 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 
 </br>
 
+**Steps 1 involved in creating a Fiori app skeleton :**
+
+*Pre-requisite Webapp folder should be present and all the following activities takes place inside webapp*
+
+1. Create an *Index.html* with sap ui5 bootstrap code 
+2. Set a workspace directory *NameSpace unique name (org-Name.department-name.project-name) in Index.html*
+3. Define *Component container* in index.html and place at a div.
+4. Create *Component.js* with scaffolding template set UIComponent for NameSpace
+5. Define a App view in *Component.js* 
+6. Create a *view* folder 
+7. Create *App.view.xml* 
+8. Create a *controller* folder 
+9. Create *App.controller.js*
+10. Define a name for Component container *appCon* in *App.view.xml*
+11. In *App.controller.js* put scaffolding template and set controller for NameSpace
+12. Create *View1.view.xml* and *View2.view.xml* 
+13. Create *View1.controller.js* and *View2.controller.js* 
+14. In *Component.js* define *View1* and *View2* 
+15. Define the *appCon* mentioned in *App.view.xml* in *Component.js* 
+16. Use *addPage* property to *appCon* and embed the *View1* and *View2* objects
+17. Return the component container object in *Component.js*
+
+</br></br>
+
 **Define Component container for Component.js**
 
 </br>
