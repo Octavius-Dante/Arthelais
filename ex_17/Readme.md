@@ -47,7 +47,7 @@ Fiori Guidelines : https://experience.sap.com/fiori-design-web/
 1. Create an *Index.html* with sap ui5 bootstrap code 
 2. Set a workspace directory *NameSpace unique name (org-Name.department-name.project-name) in Index.html*
 3. Define *Component container* in index.html and place it in a div.
-4. Create *Component.js* with scaffolding template set UIComponent for NameSpace
+4. Create *Component.js* with scaffolding template set *UIComponent for NameSpace*
 5. Define a App view in *Component.js* 
 6. Create a *view* folder 
 7. Create *App.view.xml* 
