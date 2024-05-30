@@ -47,7 +47,20 @@ sap.ui.define([
 
 ```js
 
+sap.ui.define([
+    'sap/ui/core/mvc/Controller'
+], function(Controller){
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.View2",{
+        onInit: function(){
 
+        },
+
+        onBack: function(){
+            this.getView().getParent().to("idView1");            
+        }
+    });
+});
 
 ```
 
