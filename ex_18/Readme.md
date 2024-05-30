@@ -10,7 +10,7 @@
 
 **We will Implement navigation between the 2 views**
 
-</br></br>
+</br>
 
 <img src="./files/view-navigation.png">
 </br>
