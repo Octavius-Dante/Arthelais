@@ -339,7 +339,9 @@ sap.ui.define([
 
 </br></br>
 
-**Executed the app** ---- *See the hierarchy of the application in he DOM*
+**Executed the app** ---- *See the hierarchy of the application in the DOM*
+
+- *The reason for view 1 selection is by default first view takes the priority in display*
 
 </br>
 <img src="./files/ui5e17-9.png" >
