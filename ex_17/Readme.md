@@ -339,7 +339,7 @@ sap.ui.define([
 
 </br></br>
 
-**Executed the app**
+**Executed the app** *See the hierarchy of the application in he DOM*
 
 </br>
 <img src="./files/ui5e17-9.png" >
