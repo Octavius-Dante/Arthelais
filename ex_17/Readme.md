@@ -285,6 +285,59 @@ sap.ui.define([
 
 ```
 
+</br>
+
+*Component.js*
+
+```js
+
+sap.ui.define([
+    'sap/ui/core/UIComponent'
+], function(UIComponent){
+    'use strict';
+    return UIComponent.extend("ntt.hr.payroll.Component",{
+        metadata: {},
+        init: function(){
+            // this line will call the base class constructor
+            UIComponent.prototype.init.apply(this);
+        },
+        createContent: function(){
+            var oView = sap.ui.view({
+                viewName: "ntt.hr.payroll.view.App",
+                id: "idAppView",
+                type: "XML"
+            });
+
+            // Step 1 : Create View 1 object
+            var oView1 = sap.ui.view({
+                viewName: "ntt.hr.payroll.view.View1",
+                id: "idView1",
+                type: "XML"
+            });
+
+            // Step 2 : Create View 2 object
+            var oView2 = sap.ui.view({
+                viewName: "ntt.hr.payroll.view.View2",
+                id: "idView2",
+                type: "XML"
+            });
+
+            // Step 3 : Get the APP Container Control
+            // this.getView().byId("idObject") -- We did this in previous session 
+                                              // the same thing is referred differently 
+            
+            var oAppCon = oView.byId("appCon"); // appCon is from AppView - then we defined app container
+
+            // Step 4 : Inject the View1 and View2 inside the container 
+            oAppCon.addPage(oView1).addPage(oView2);
+            return oView;
+        }
+    });
+});
+
+```
+**Executed the app**
+
 </br></br>
 <img src="./files/ui5e17-9.png" >
 </br>
