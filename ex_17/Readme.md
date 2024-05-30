@@ -193,12 +193,77 @@ sap.ui.define([
 </br>
 <img src="./files/ui5e17-5.png" >
 </br>
-<img src="./files/ui5e17-5.png" >
+<img src="./files/ui5e17-6.png" >
 </br>
 </br>
 </details>
 
+<details>
+<summary> Creating other views and controllers</summary>
+</br>
+</br>
+<img src="./files/ui5e17-7.png" >
+</br>
 
+*View1.view.xml*
+
+```xml
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.View1">
+
+<Button text="Go Next" icon="Sap-icon://arrow-right"
+ press="onNExt" />
+
+</mvc:View>
+
+```
+
+</br>
+
+*View2.view.xml*
+
+```xml
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.View2">
+
+<Button text="Go Back" icon="Sap-icon://arrow-left"
+ press="onBack" />
+
+</mvc:View>
+
+```
+
+
+</br></br>
+</br>
+<img src="./files/ui5e17-8.png" >
+</br>
+
+</br>
+
+</br>
+
+</br>
+<img src="./files/ui5e17-9.png" >
+</br>
+
+</br>
+
+</br>
+
+</br>
+<img src="./files/ui5e17-10.png" >
+</br>
+
+</br>
+
+</br>
+
+
+</br></br>
+</details>
 
 
 </br></br>
