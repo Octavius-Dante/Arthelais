@@ -199,7 +199,7 @@ sap.ui.define([
 </details>
 
 <details>
-<summary> Creating other views and controllers</summary>
+<summary> Creating other views and controllers and do test run </summary>
 </br>
 </br>
 <img src="./files/ui5e17-7.png" >
