@@ -243,6 +243,22 @@ controllerName="ntt.hr.payroll.controller.View2">
 
 ```js
 
+sap.ui.define([
+    'sap/ui/core/mvc/Controller'
+], function(Controller){
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.View1",{
+        onInit: function(){
+
+        },
+
+        onNext: function(){
+            
+        }
+        
+    });
+});
+
 ```
 
 </br>
@@ -250,6 +266,21 @@ controllerName="ntt.hr.payroll.controller.View2">
 *View2.controller.js*
 
 ```js
+
+sap.ui.define([
+    'sap/ui/core/mvc/Controller'
+], function(Controller){
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.View2",{
+        onInit: function(){
+
+        },
+
+        onBack: function(){
+
+        }
+    });
+});
 
 ```
 
