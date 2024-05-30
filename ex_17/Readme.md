@@ -347,19 +347,6 @@ sap.ui.define([
 <img src="./files/ui5e17-9.png" >
 </br>
 
-</br>
-
-</br>
-
-</br>
-<img src="./files/ui5e17-10.png" >
-</br>
-
-</br>
-
-</br>
-
-
 </br></br>
 </details>
 
