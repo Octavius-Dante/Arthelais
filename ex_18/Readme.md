@@ -64,6 +64,33 @@ sap.ui.define([
 
 ```
 
+**Adding page title to both the view.xml**
+
+</br>
+
+*View1.view.xml*
+
+```xml
+
+
+```
+
+</br>
+
+*View2.view.xml*
+
+```xml
+
+
+```
+
+</br></br>
+
+
+
+
+
+
 
 </br></br>
 </br></br>
