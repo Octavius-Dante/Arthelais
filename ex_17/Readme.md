@@ -341,7 +341,7 @@ sap.ui.define([
 
 **Executed the app**
 
-</br></br>
+</br>
 <img src="./files/ui5e17-9.png" >
 </br>
 
