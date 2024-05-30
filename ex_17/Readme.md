@@ -206,7 +206,7 @@ sap.ui.define([
 </br>
 </br>
 
-*View1.view.xml*
+*View1.view.xml* --- *Skeleton & a button*
 
 ```xml
 
@@ -222,7 +222,7 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 </br>
 
-*View2.view.xml*
+*View2.view.xml* --- *Skeleton & a button*
 
 ```xml
 
@@ -240,7 +240,7 @@ controllerName="ntt.hr.payroll.controller.View2">
 <img src="./files/ui5e17-8.png" >
 </br></br>
 
-*View1.controller.js*
+*View1.controller.js* --- *Skeleton*
 
 ```js
 
@@ -264,7 +264,7 @@ sap.ui.define([
 
 </br>
 
-*View2.controller.js*
+*View2.controller.js* --- *Skeleton*
 
 ```js
 
@@ -287,7 +287,7 @@ sap.ui.define([
 
 </br>
 
-*Component.js*
+*Component.js* --- *Skeleton*
 
 ```js
 
