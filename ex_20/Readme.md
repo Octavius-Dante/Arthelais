@@ -36,9 +36,30 @@ SAP provides *Filter on list model for implementing search*
 
 *View1.view.xml*
 
-```
+```xml
 
-
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.View1">
+    <Page title="{i18n>XTIT_VIEW1}">
+        <headerContent>
+            <Button  icon="sap-icon://action" press="onNext"></Button>
+        </headerContent>
+        <content> 
+            <SearchField id="idsf1" search="onSearch"></SearchField> <!-- On search function -->
+            <List id="idList" items="{/fruits}">
+             <items>
+                <ObjectListItem intro="{taste}" title="{name}"  
+                number="{price}" numberUnit="{curr}" 
+                icon="{image}">
+                </ObjectListItem>
+                    <firstStatus>
+                        <ObjectStatus text="Available" state="Success"></ObjectStatus>
+                    </firstStatus>
+              </items>
+            </List>
+        </content>
+    </Page>
+</mvc:View>
 
 ```
 
@@ -46,9 +67,36 @@ SAP provides *Filter on list model for implementing search*
 
 *View1.controller.js*
 
-```
+```js
 
+sap.ui.define([
+    'sap/ui/core/mvc/Controller'
+], function(Controller){
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.View1",{
+        onInit: function(){
+        },
 
+        onNext: function(){
+            // Step 1 : get the parent control object - Container for our view 
+            var oAppCon = this.getView().getParent();
+            // Step 2 : ask parent to nav to next view 
+            oAppCon.to("idView2");
+        },
+        
+        onItemClick: function(){
+            // this - is my current class object - which is our controller
+            this.onNext();
+        },
+
+        onSearch: function(){
+            // Step 1 : What is teh user type in search field
+            // Step 2 : Construct a Filter object with operand and operator
+            // Step 3 : get the list object 
+            // Step 4 : inject the filter to the list             
+        }
+    });
+});
 
 ```
 
