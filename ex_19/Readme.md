@@ -177,26 +177,24 @@ APP_DESCRIPTION="Developed by Vivian Octavius for learning"
 ```json
 
 {
-
     "_version": "1.123",
     "sap.app": {
         "id": "ntt.hr.payroll",
-        "description": "{{APP_TITLE}}", 
+        "description": "{{APP_TITLE}}",
         "applicationVersion": "1.0.0",
-        "type":"application",
+        "type": "application",
         "title": "{{APP_DESCRIPTION}}",
         "i18n": "i18n/i18n.properties"
     },
-
     "sap.ui": {
-        "technology":"ui5",
+        "technology": "UI5",
         "icons": {
             "icon": "sap-icon://home"
         },
         "deviceTypes": {
-                    "desktop": true,
-                    "tablet": true,
-                    "phone": true
+            "desktop": true,
+            "tablet": true,
+            "phone": true
         }
     },
     "sap.ui5": {
@@ -211,25 +209,59 @@ APP_DESCRIPTION="Developed by Vivian Octavius for learning"
             "compact": true,
             "cozy": true
         },
-
         "library": {
-            "css":"css/mystyle.css"
+            "css": "css/mystyle.css"
         },
         "models": {
-            "i18n":{
+            "i18n": {
                 "type": "sap.ui.model.resource.ResourceModel",
                 "uri": "i18n/i18n.properties"
-            }
-        },
-        "": {
-            "i18n":{
-                "type": "sap.ui.model.resource.JSONModel",
+            },
+            "": {
+                "type": "sap.ui.model.json.JSONModel",
                 "uri": "model/mockdata/fruits.json"
             }
         }
     }
 }
+
+
 ```
+</br></br>
+
+changes in *View1.view.xml* -- *commented codes are removed here can find it in zip file code backups*
+
+```xml
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.View1">
+    <Page title="{i18n>XTIT_VIEW1}">
+        <headerContent>
+            <Button  icon="sap-icon://action" press="onNext"></Button>
+        </headerContent>
+        <content> <!--this is a default property since headerContent is used this should be mandatorily used-->
+            <SearchField id="idsf1"></SearchField>
+            <List id="idList" items="{/fruits}">
+             <items>
+                <DisplayListItem label="{name}"></DisplayListItem>       
+            </items>
+            </List>
+        </content>
+    </Page>
+</mvc:View>
+
+```
+
+</br>
+
+**Testing**
+
+</br>
+
+<img src="./files/ui5e19-8.png" >
+
+</br>
+
 
 </br>
 </br></br>
