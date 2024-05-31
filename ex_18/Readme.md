@@ -2,15 +2,6 @@
 
 </br> 
 
-*Fiori Guideline architecture*  for reference
-
-</br> 
-<img src="./files/Fiori_Guideline_archi.png" >
-</br>
-</br>
-
-
-
 **We will Implement navigation between the 2 views**
 
 </br>
