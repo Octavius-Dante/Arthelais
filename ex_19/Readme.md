@@ -147,11 +147,11 @@ APP_DESCRIPTION="Developed by Vivian Ocatvius for learning"
 
 ```
 
-</br> </br> 
+</br>  
 
 <img src="./files/ui5e19-6.png" >
 
-</br> </br> 
+</br> 
 
 *component.js*
 
