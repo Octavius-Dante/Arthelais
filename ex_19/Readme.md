@@ -147,6 +147,23 @@ APP_DESCRIPTION="Developed by Vivian Ocatvius for learning"
 
 ```
 
+</br> </br> 
+
+<img src="./files/ui5e19-6.png" >
+
+</br> </br> 
+
+*component.js*
+
+```js
+
+// above init function
+        metadata: {
+            manifest: "json"
+        },
+
+```
+
 
 </br></br>
 </br></br>
