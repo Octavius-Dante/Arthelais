@@ -139,7 +139,56 @@ sap.ui.define([
 
 </br></br>
 
+*Multiple search condition implemented in search filter*
 
+```js
+
+sap.ui.define([
+    'sap/ui/core/mvc/Controller',
+    'sap/ui/model/Filter',
+    'sap/ui/model/FilterOperator'
+], function(Controller, Filter, FilterOperator){
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.View1",{
+        onInit: function(){
+        },
+
+        onNext: function(){
+            // Step 1 : get the parent control object - Container for our view 
+            var oAppCon = this.getView().getParent();
+            // Step 2 : ask parent to nav to next view 
+            oAppCon.to("idView2");
+        },
+        
+        onItemClick: function(){
+            // this - is my current class object - which is our controller
+            this.onNext();
+        },
+
+        onSearch: function(oEvent){
+            // Step 1 : What is teh user type in search field
+            var sSearch = oEvent.getParameter("query");            
+            
+            // Step 2 : Construct a Filter object with operand and operator
+            var oFilter = new Filter("name", FilterOperator.Contains, sSearch);
+            var oFilter2 = new Filter("taste", FilterOperator.Contains, sSearch); // implementing search parameter 2 
+            var aFilter = [oFilter, oFilter2];
+            var oMaster = new Filter({
+                filters: aFilter,
+                and: false // when AND = FALSE that means -search filter is defiend with- OR = TRUE
+            })
+            
+            // Step 3 : get the list object 
+            var oList = this.getView().byId("idList");
+            
+            // Step 4 : inject the filter to the list 
+            oList.getBinding("items").filter(oMaster); // New multi condition search paramter 
+            
+        }
+    });
+});
+
+```
 
 
 
