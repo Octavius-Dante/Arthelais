@@ -116,7 +116,7 @@ it is the best-practice and declarative way of defining UI5 apps. The Ui5 framew
 
 </br> </br> 
 
-<img src="./files/ui5e19-4b.png" >
+<img src="./files/ui5e19-4c.png" >
 
 </br> </br> 
 
