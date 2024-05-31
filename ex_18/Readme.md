@@ -174,7 +174,8 @@ controllerName="ntt.hr.payroll.controller.View1">
                 <DisplayListItem value="A natural antibiotic" label="Apple"></DisplayListItem>
         
         <!-- Standard list tiem for Displaying list content with a title description, icon and info-->        
-                <StandardListItem title="Orange" description="The most rich source of vitamin C" icon="https://images.vexels.com/media/users/3/143191/isolated/preview/925871db899c05172adae868b7ca93c0-orange-color-icon.png" ></StandardListItem>
+                <StandardListItem title="Orange" description="The most rich source of vitamin C" 
+                icon="https://images.vexels.com/media/users/3/143191/isolated/preview/925871db899c05172adae868b7ca93c0-orange-color-icon.png" ></StandardListItem>
                 
         <!--input list item is used for creating input fields-->
                 <InputListItem>
