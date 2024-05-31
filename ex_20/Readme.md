@@ -68,7 +68,21 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 ```
 
+</br>
 
+
+<details>
+<summary> Search implementation understanding through SDK DOCS </summary>
+</br>
+</br>
+<img src="./files/ui5e20-4.png" >
+</br>
+<img src="./files/ui5e20-5.png" >
+</br>
+<img src="./files/ui5e20-6.png" >
+</br>
+</br>
+</details>
 
 
 
@@ -109,16 +123,6 @@ sap.ui.define([
 
 ```
 
-<details>
-<summary> Search implementation understanding through SDK DOCS </summary>
-</br>
-</br>
-</br>
-</br>
-<img src="./files/capmd12-96a.png" >
-</br>
-</br>
-</details>
 
 
 </br></br>
