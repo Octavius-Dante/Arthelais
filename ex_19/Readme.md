@@ -1,5 +1,57 @@
 ## Exercise 19 - Manifest JSON
 
+</br></br>
+
+Why manifest.json. 
+
+- Recently a colleague who was developing ui5 application left the organization 
+   No one knows what was done by the colleague working on the project, 
+   we as a developer need to take responsibility to maintain the same now.
+
+- Each developer think with their own mindset and have different thought process of implementing apps.
+   this will lead to inconsistent development spread across multiple files.
+
+- Once upon a time I was sitting on a beach and enjoying my vacation suddenly my phone rings, Guess what...
+   its your manager. The question comes "Before your vacation"  you did on development last week, 
+   now I am sitting with one of the colleague and we have a customer issue, we need you to come and connect. 
+
+- If we make best-practices, standard and follow all across, w/o exchange of a word, we all can still understand each others code.
+
+- When SAP delivers their apps to us, do we get all cell no of developer from SAP to call then add ask to explain the code of the app.
+
+*Manifest.json* or application descriptor file, always called by *Component.js* and is used for describing all the properties of our application.
+it is the best-practice and declarative way of defining UI5 apps. The Ui5 framework read this file and auto generate/produce results.
+
+</br></br>
+
+**Capabilities**
+
+- Creating the model
+
+- Contains the information about our app like Id, name, version
+
+- Inform the developer about the minimum Ui5 version required to run your app, what themes are supported 
+
+- What different components are reusable 
+
+- What are all the dependencies of this app on other apps
+
+- *Contains complete end to end Navigation between different view at central place* - *Routing*
+
+- *Contains code to instantiate all the views as and when they are required* - *Router*
+
+- If we work with Fiori elements (ready to use templates provided by SAP) to auto generate app, t
+   he most of code will be also generated inside the Manifest.json
+
+-  For extending Fiori app, this file plays a critical role
+
+- The file compose of 3 main sections
+    1. sap.ui
+    2. sap.ui5
+    3. sap.app
+
+Skeleton of manifest     
+
 
 
 </br></br>
