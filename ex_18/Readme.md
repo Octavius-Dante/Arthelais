@@ -63,6 +63,7 @@ sap.ui.define([
 });
 
 ```
+</br></br>
 
 **Adding page title to both the view.xml**
 
