@@ -91,10 +91,11 @@ it is the best-practice and declarative way of defining UI5 apps. The Ui5 framew
 *manifest.json* file
 
 ```json
+
 {
 
     "_version": "1.123",
-    "sap.app":{
+    "sap.app": {
         "id": "ntt.hr.payroll",
         "description": "{{APP_TITLE}}", 
         "applicationVersion": "1.0.0",
@@ -103,19 +104,29 @@ it is the best-practice and declarative way of defining UI5 apps. The Ui5 framew
         "i18n": "i18n/i18n.properties"
     },
 
-    "sap.ui":{
+    "sap.ui": {
         "technology":"ui5",
-        "icons":{
+        "icons": {
             "icon": "sap-icon://home"
         },
-        "deviceTypes":{
+        "deviceTypes": {
                     "desktop": true,
                     "tablet": true,
                     "phone": true
         }
     },
-    "sap.ui5":{
-
+    "sap.ui5": {
+        "dependencies": {
+            "minUI5Version": "1.123",
+            "libs": {
+                "sap.m": {},
+                "sap.ui.table": {}
+            }
+        },
+        "library": {
+            "i18n":true,
+            "css":"css/mystyle.css"
+        }
     }
 }
 
