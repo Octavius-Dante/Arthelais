@@ -217,7 +217,7 @@ APP_DESCRIPTION="Developed by Vivian Octavius for learning"
                 "type": "sap.ui.model.resource.ResourceModel",
                 "uri": "i18n/i18n.properties"
             },
-            "": {
+            "": {   // model with no name is the default model
                 "type": "sap.ui.model.json.JSONModel",
                 "uri": "model/mockdata/fruits.json"
             }
