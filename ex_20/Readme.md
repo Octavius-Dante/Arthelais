@@ -4,6 +4,36 @@
 
 **Implementing object list item and item search**
 
+SAP provides *Filter on list model for implementing search*
+
+</br>
+
+<img src="./files/ui5e20-1.png" >
+
+</br>
+
+- A Filtering items based on condition 
+
+- condition contains (operand 1, operator and operand 2)
+
+- operadn-1 operator operand-2 ( fruits = apple) 
+
+- Operatos - [ = , >=, <=, <>, contains]
+
+**Go to sap ui5 sdk** 
+
+</br>
+
+<img src="./files/ui5e20-2.png" >
+
+</br>
+
+
+<img src="./files/ui5e20-3.png" >
+
+</br>
+
+
 ```
 
 
@@ -12,6 +42,12 @@
 
 
 </br></br>
+
+
+
+
+
+
 </br></br>
 </br></br>
 
