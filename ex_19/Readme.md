@@ -12,12 +12,12 @@ Why manifest.Json.
    this will lead to inconsistent development spread across multiple files.
 
 - Once upon a time I was sitting on a beach and enjoying my vacation suddenly my phone rings, Guess what...
-   its your manager. The question comes "Before your vacation"  you did on development last week, 
-   now I am sitting with one of the colleague and we have a customer issue, we need you to come and connect. 
+   its your manager. The question comes "Before your vacation"  you did one development last week, 
+   now I am sitting with one of the colleagues and we have a customer issue, we need you to come and connect. 
 
 - If we make best-practices, standard and follow all across, w/o exchange of a word, we all can still understand each others code.
 
-- When SAP delivers their apps to us, do we get all cell no of developer from SAP to call then add ask to explain the code of the app.
+- When SAP delivers their apps to us, do we get all cell no of developer from SAP to call them add ask to explain the code of the app - NO.
 
 *Manifest.json* or application descriptor file, always called by *Component.js* and is used for describing all the properties of our application.
 it is the best-practice and declarative way of defining UI5 apps. The Ui5 framework read this file and auto generate/produce results.
