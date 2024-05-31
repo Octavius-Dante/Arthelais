@@ -153,7 +153,7 @@ APP_DESCRIPTION="Developed by Vivian Octavius for learning"
 
 </br> 
 
-*component.js*
+*Component.js*
 
 ```js
 
