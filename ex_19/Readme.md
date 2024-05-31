@@ -176,8 +176,7 @@ APP_DESCRIPTION="Developed by Vivian Octavius for learning"
 
 
 
-</br></br>
-</br></br>
+</br>
 </br></br>
 
 ## End of Exercise 19 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_20"> Exercise 20-Filters on List model </a>
