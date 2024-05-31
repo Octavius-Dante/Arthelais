@@ -105,6 +105,7 @@ https://sapui5.hana.ondemand.com/#/entity/sap.m.Page/sample/sap.m.sample.Page/co
 
 Now we are going to make changes to our view page to make it look accordingly .
 
+</br>
 
 *View1.view.xml*
 
