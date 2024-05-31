@@ -164,13 +164,15 @@ APP_DESCRIPTION="Developed by Vivian Ocatvius for learning"
 
 ```
 
+</br> 
+
 **Testing by running the application**
 
-</br> </br> 
+</br> 
 
 <img src="./files/ui5e19-7.png" >
 
-</br> </br> 
+</br> 
 
 
 
