@@ -50,7 +50,23 @@ it is the best-practice and declarative way of defining UI5 apps. The Ui5 framew
     2. sap.ui5
     3. sap.app
 
-Skeleton of manifest     
+Skeleton of manifest you can learn about the structure from sap ui5 sdk 
+
+
+<details>
+<summary> Things to check in SAP Ui5 SDK </summary>
+</br>
+</br>
+<img src="./files/ui5e19-1.png" >
+</br>
+<img src="./files/ui5e19-2.png" >
+</br>
+<img src="./files/ui5e19-3.png" >
+</br>
+<img src="./files/ui5e19-4.png" >
+</br>
+</br>
+</details>
 
 
 
