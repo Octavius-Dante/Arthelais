@@ -91,7 +91,6 @@ it is the best-practice and declarative way of defining UI5 apps. The Ui5 framew
 *manifest.json* file
 
 ```json
-
 {
 
     "_version": "1.123",
@@ -105,7 +104,15 @@ it is the best-practice and declarative way of defining UI5 apps. The Ui5 framew
     },
 
     "sap.ui":{
-        
+        "technology":"ui5",
+        "icons":{
+            "icon": "sap-icon://home"
+        },
+        "deviceTypes":{
+                    "desktop": true,
+                    "tablet": true,
+                    "phone": true
+        }
     },
     "sap.ui5":{
 
