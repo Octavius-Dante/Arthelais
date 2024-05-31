@@ -76,9 +76,9 @@ it is the best-practice and declarative way of defining UI5 apps. The Ui5 framew
 *Focus on fundamentals*
 *How framework works what are all designed, what are all best practices* -->
 
-</br> </br>
+</br> 
 
-Create Manifest.json file 
+**Create Manifest.json file** 
 
 <img src="./files/ui5e19-5.png" >
 
