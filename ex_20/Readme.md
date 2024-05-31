@@ -79,12 +79,8 @@ controllerName="ntt.hr.payroll.controller.View1">
 </br>
 <img src="./files/ui5e20-5.png" >
 </br>
-<img src="./files/ui5e20-6.png" >
-</br>
 </br>
 </details>
-
-
 
 </br>
 
@@ -93,8 +89,10 @@ controllerName="ntt.hr.payroll.controller.View1">
 ```js
 
 sap.ui.define([
-    'sap/ui/core/mvc/Controller'
-], function(Controller){
+    'sap/ui/core/mvc/Controller',
+    'sap/ui/model/Filter',
+    'sap/ui/model/FilterOperator'
+], function(Controller, Filter, FilterOperator){
     'use strict';
     return Controller.extend("ntt.hr.payroll.controller.View1",{
         onInit: function(){
@@ -112,11 +110,19 @@ sap.ui.define([
             this.onNext();
         },
 
-        onSearch: function(){
+        onSearch: function(oEvent){
             // Step 1 : What is teh user type in search field
+            var sSearch = oEvent.getParameter("query");            
+            
             // Step 2 : Construct a Filter object with operand and operator
+            var oFilter = new Filter("name", FilterOperator.contains, sSearch);
+            var aFilter = [oFilter];
+            
             // Step 3 : get the list object 
-            // Step 4 : inject the filter to the list             
+            var oList = this.getVIew().byId("idList");
+            
+            // Step 4 : inject the filter to the list 
+            oList.getBinding("item").filter(aFilter);            
         }
     });
 });
