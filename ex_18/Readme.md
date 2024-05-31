@@ -114,11 +114,11 @@ Now we are going to make changes to our view page to make it look accordingly .
 controllerName="ntt.hr.payroll.controller.View1">
     <Page title="View 1">
         <headerContent>
-        <Button  icon="sap-icon://action" press="onNext"></Button>
+            <Button  icon="sap-icon://action" press="onNext"></Button>
         </headerContent>
         <content> <!--this is a default property since headerContent is used this should be mandatorily used-->
-        <SearchField id="idsf1"></SearchField>
-        <List id="idList"></List>
+            <SearchField id="idsf1"></SearchField>
+            <List id="idList"></List>
         </content>
         <!-- <Button text="Go Next" icon="sap-icon://arrow-right" press="onNext" /> -->
     </Page>
