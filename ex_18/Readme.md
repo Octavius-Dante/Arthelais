@@ -153,7 +153,16 @@ controllerName="ntt.hr.payroll.controller.View2">
 <img src="./files/listcontrol.png">
 </br>
 
+We will add all types of list control items in our view for demonstration and understanding.
 
+*View1.view.xml*
+
+```
+
+
+
+
+```
 
 
 
