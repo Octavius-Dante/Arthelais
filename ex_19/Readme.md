@@ -50,8 +50,9 @@ it is the best-practice and declarative way of defining UI5 apps. The Ui5 framew
     2. sap.ui5
     3. sap.app
 
-Skeleton of manifest you can learn about the structure from sap ui5 sdk 
+*Skeleton of manifest you can learn about the structure from SAP Ui5 SDK*
 
+</br>
 
 <details>
 <summary> Things to check in SAP Ui5 SDK </summary>
@@ -68,6 +69,12 @@ Skeleton of manifest you can learn about the structure from sap ui5 sdk
 </br>
 </details>
 
+</br> </br>
+
+*We Need to learn how to learn* 
+*Focus on concepts not on examples*
+*Focus on fundamentals*
+*How framework works what are all designed, what are all best practices*
 
 
 </br></br>
