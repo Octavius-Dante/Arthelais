@@ -82,7 +82,7 @@ it is the best-practice and declarative way of defining UI5 apps. The Ui5 framew
 
 <img src="./files/ui5e19-5.png" >
 
-</br> </br> 
+</br> 
 
 <img src="./files/ui5e19-4b.png" >
 
