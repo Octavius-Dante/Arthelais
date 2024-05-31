@@ -168,8 +168,7 @@ APP_DESCRIPTION="Developed by Vivian Ocatvius for learning"
 
 </br> </br> 
 
-<img src="./files/ui5e19-6.png" >
-
+<img src="./files/ui5e19-7.png" >
 </br> </br> 
 
 
