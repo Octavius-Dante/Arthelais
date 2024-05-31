@@ -71,10 +71,16 @@ it is the best-practice and declarative way of defining UI5 apps. The Ui5 framew
 
 </br> </br>
 
-*We Need to learn how to learn* 
+<!-- *We Need to learn how to learn* 
 *Focus on concepts not on examples*
 *Focus on fundamentals*
-*How framework works what are all designed, what are all best practices*
+*How framework works what are all designed, what are all best practices* -->
+
+</br> </br>
+
+Create Manifest.json file 
+
+<img src="./files/ui5e19-4.png" >
 
 
 </br></br>
