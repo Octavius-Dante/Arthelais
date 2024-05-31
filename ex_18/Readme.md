@@ -149,7 +149,9 @@ controllerName="ntt.hr.payroll.controller.View2">
 
 *It is a single column table which contains multiple items*
 
-
+</br>
+<img src="./files/listcontrol.png">
+</br>
 
 
 
