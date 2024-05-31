@@ -34,6 +34,18 @@ SAP provides *Filter on list model for implementing search*
 </br>
 
 
+*View1.view.xml*
+
+```
+
+
+
+```
+
+</br>
+
+*View1.controller.js*
+
 ```
 
 
