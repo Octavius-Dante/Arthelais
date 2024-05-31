@@ -149,6 +149,8 @@ controllerName="ntt.hr.payroll.controller.View2">
 
 **We will add all types of list control items in our view for demonstration and understanding.**
 
+</br>
+
 *View1.view.xml*
 
 ```xml
