@@ -174,7 +174,52 @@ APP_DESCRIPTION="Developed by Vivian Octavius for learning"
 
 </br> 
 
+```json
 
+{
+
+    "_version": "1.123",
+    "sap.app": {
+        "id": "ntt.hr.payroll",
+        "description": "{{APP_TITLE}}", 
+        "applicationVersion": "1.0.0",
+        "type":"application",
+        "title": "{{APP_DESCRIPTION}}",
+        "i18n": "i18n/i18n.properties"
+    },
+
+    "sap.ui": {
+        "technology":"ui5",
+        "icons": {
+            "icon": "sap-icon://home"
+        },
+        "deviceTypes": {
+                    "desktop": true,
+                    "tablet": true,
+                    "phone": true
+        }
+    },
+    "sap.ui5": {
+        "dependencies": {
+            "minUI5Version": "1.123",
+            "libs": {
+                "sap.m": {},
+                "sap.ui.table": {}
+            }
+        },
+        "library": {
+            "css":"css/mystyle.css"
+        },
+        "models": {
+            "i18n":{
+                "type": "sap.ui.model.resource.ResourceModel",
+                "uri": "i18n/i18n.properties"
+            }
+        }
+    }
+}
+
+```
 
 </br>
 </br></br>
