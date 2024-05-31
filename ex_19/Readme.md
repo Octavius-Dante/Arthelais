@@ -82,6 +82,53 @@ it is the best-practice and declarative way of defining UI5 apps. The Ui5 framew
 
 <img src="./files/ui5e19-5.png" >
 
+</br> </br> 
+
+<img src="./files/ui5e19-4b.png" >
+
+</br> </br> 
+
+*manifest.json* file
+
+```json
+
+{
+
+    "_version": "1.123",
+    "sap.app":{
+        "id": "ntt.hr.payroll",
+        "description": "{{APP_TITLE}}", 
+        "applicationVersion": "1.0.0",
+        "type":"application",
+        "title": "{{APP_DESCRIPTION}}",
+        "i18n": "i18n/i18n.properties"
+    },
+
+    "sap.ui":{
+        
+    },
+    "sap.ui5":{
+
+    }
+}
+
+```
+
+</br> </br> 
+
+<img src="./files/ui5e19-4b.png" >
+
+</br> </br> 
+
+**Create I18n folder and create i18n.properties file and add the details**
+
+```i18n
+
+APP_TITLE="My First Fiori App"
+APP_DESCRIPTION="Developed by Vivian Ocatvius for learning"
+
+```
+
 
 </br></br>
 </br></br>
