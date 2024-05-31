@@ -140,7 +140,7 @@ sap.ui.define([
 </br></br>
 
 *Multiple search condition implemented in search filter*
-     *earlier we used only name now we included taste also in the search*
+<br> *earlier we used only name now we included taste also in the search*
 
 ```js
 
