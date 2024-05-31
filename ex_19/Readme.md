@@ -207,6 +207,11 @@ APP_DESCRIPTION="Developed by Vivian Octavius for learning"
                 "sap.ui.table": {}
             }
         },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+
         "library": {
             "css":"css/mystyle.css"
         },
@@ -215,10 +220,15 @@ APP_DESCRIPTION="Developed by Vivian Octavius for learning"
                 "type": "sap.ui.model.resource.ResourceModel",
                 "uri": "i18n/i18n.properties"
             }
+        },
+        "": {
+            "i18n":{
+                "type": "sap.ui.model.resource.JSONModel",
+                "uri": "model/mockdata/fruits.json"
+            }
         }
     }
 }
-
 ```
 
 </br>
