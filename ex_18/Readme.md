@@ -106,8 +106,43 @@ https://sapui5.hana.ondemand.com/#/entity/sap.m.Page/sample/sap.m.sample.Page/co
 Now we are going to make changes to our view page to make it look accordingly .
 
 
+*View1.view.xml*
+
+```xml
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.View1">
+    <Page title="View 1">
+        <headerContent>
+        <Button  icon="sap-icon://action" press="onNext"></Button>
+        </headerContent>
+        <content> <!--this is a default property since headerContent is used this should be mandatorily used-->
+        <SearchField id="idsf1"></SearchField>
+        <List id="idList"></List>
+        </content>
+        <!-- <Button text="Go Next" icon="sap-icon://arrow-right" press="onNext" /> -->
+    </Page>
+</mvc:View>
+
+```
+
+</br>
+
+*View1.view.xml*
+
+```xml
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.View2">
+    <Page title="View 2" showNavButton="true" navButtonPress="onBack">
+
+        <!-- <Button text="Go Back" icon="sap-icon://arrow-left" press="onBack" /> -->
+    </Page>
+</mvc:View>
 
 
+
+```
 
 </br></br>
 </br></br>
