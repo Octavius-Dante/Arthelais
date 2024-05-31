@@ -143,7 +143,7 @@ it is the best-practice and declarative way of defining UI5 apps. The Ui5 framew
 ```i18n
 
 APP_TITLE="My First Fiori App"
-APP_DESCRIPTION="Developed by Vivian Ocatvius for learning"
+APP_DESCRIPTION="Developed by Vivian Octavius for learning"
 
 ```
 
