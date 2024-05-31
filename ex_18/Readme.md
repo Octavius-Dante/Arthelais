@@ -158,14 +158,120 @@ We will add all types of list control items in our view for demonstration and un
 
 *View1.view.xml*
 
+```xml
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.View1">
+    <Page title="View 1">
+        <headerContent>
+            <Button  icon="sap-icon://action" press="onNext"></Button>
+        </headerContent>
+        <content> <!--this is a default property since headerContent is used this should be mandatorily used-->
+            <SearchField id="idsf1"></SearchField>
+            <List id="idList">
+            <items>
+        <!--Displaying name/value pairs-->
+                <DisplayListItem value="A natural antibiotic" label="Apple"></DisplayListItem>
+        
+        <!-- Standard list tiem for Displaying list content with a title description, icon and info-->        
+                <StandardListItem title="Orange" description="The most rich source of vitamin C" icon="https://images.vexels.com/media/users/3/143191/isolated/preview/925871db899c05172adae868b7ca93c0-orange-color-icon.png" ></StandardListItem>
+                
+        <!--input list item is used for creating input fields-->
+                <InputListItem>
+                    <HBox>
+                        <Label text="what is teh best fruit for skin" />
+                        <Input />
+                    </HBox>
+                </InputListItem>
+
+        <!--if none of the list item can fulfill your need can switch to Custom list item-->
+                <CustomListItem >
+        <!--in Custom list item we can put any control int the way we like -->
+                    <Label text="Do you want Cash on delivery of the fruits ?" />
+                    <Switch />
+                </CustomListItem>
+
+            <!-- Object list itme can display business object data like 
+
+            > Sales order 
+            > Purchase order 
+            > Invoices 
+            > Accounting document
+            > Service contract
+            > Delivery note 
+            > Billing document 
+
+            Any business object in SAP can be displayed here all these data use measure 
+            -->
+                <ObjectListItem title="Banana" intro="A Great source of potassium" icon="https://cdn-icons-png.flaticon.com/512/6482/6482627.png" 
+                number="150 CAD" numberUnit="Per Dozen" >
+                    
+             <!-- Extra attributes -->                   
+                    <attributes>
+                        <ObjectAttribute text="Yellow-Green" title="Color"></ObjectAttribute>
+                        <ObjectAttribute text="Dozen" title="Unit"></ObjectAttribute>
+                    </attributes>
+
+                    <firstStatus>
+                        <ObjectStatus text="Available" state="Success"></ObjectStatus>
+                    </firstStatus>
+
+                    <!-- <firstStatus>
+                        <ObjectStatus text="Out of Stock" state="Warning"></ObjectStatus>
+                    </firstStatus> -->
+
+                    <!-- <firstStatus>
+                        <ObjectStatus text="Discontinued" state="Error"></ObjectStatus>
+                    </firstStatus>  -->
+
+                </ObjectListItem>
+            </items>
+
+            <!-- Feed list item is to display internet info feeds like twitter & facebook -->
+            <FeedListItem icon="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ipwI8jWqfiUQ/v1/-1x-1.jpg" 
+            sender="Elon Tusk" 
+            text="Whats Up lets have a casual meet up!" timestamp="Fri 7th june 2024" >  </FeedListItem>
+
+            <!--its a clickable list item-->
+            <ActionListItem press="onItemClick" text="Order Now!!">
+            </ActionListItem>
+
+            </List>
+        </content>
+        <!-- <Button text="Go Next" icon="sap-icon://arrow-right" press="onNext" /> -->
+    </Page>
+</mvc:View>
+
+
 ```
 
+<br> <br>
 
+*View2.view.xml*
+
+```xml
+
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.View2">
+    <Page title="View 2" showNavButton="true" navButtonPress="onBack">
+
+        <!-- <Button text="Go Back" icon="sap-icon://arrow-left" press="onBack" /> -->
+
+    <footer>
+        <Toolbar>
+<!-- This toolbar spacer responsible for moving the button on the right side -->        
+        <ToolbarSpacer/> 
+            <Button text="Order" type="Emphasized"></Button>
+            <Button text="Remind later" type="Accept"></Button>
+            <Button text="Cancel" type="Reject"></Button>
+        </Toolbar>
+    </footer>
+    </Page>
+</mvc:View>
 
 
 ```
-
-
 
 
 
