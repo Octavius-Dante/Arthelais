@@ -2,7 +2,7 @@
 
 </br></br>
 
-Why manifest.json. 
+Why manifest.Json. 
 
 - Recently a colleague who was developing ui5 application left the organization 
    No one knows what was done by the colleague working on the project, 
