@@ -140,9 +140,30 @@ controllerName="ntt.hr.payroll.controller.View2">
     </Page>
 </mvc:View>
 
-
-
 ```
+
+</br>
+
+
+## List control
+
+*It is a single column table which contains multiple items*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </br></br>
 </br></br>
