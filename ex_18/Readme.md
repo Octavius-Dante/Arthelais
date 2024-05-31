@@ -128,7 +128,7 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 </br>
 
-*View1.view.xml*
+*View2.view.xml*
 
 ```xml
 
