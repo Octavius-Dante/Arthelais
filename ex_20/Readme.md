@@ -18,9 +18,14 @@ SAP provides *Filter on list model for implementing search*
 
 - operadn-1 operator operand-2 ( fruits = apple) 
 
-- Operatos - [ = , >=, <=, <>, contains]
+- Operators - [ = , >=, <=, <>, contains]
 
-**Go to sap ui5 sdk** 
+
+
+</br>
+
+
+**Go to sap ui5 SDK** 
 
 </br>
 
@@ -63,6 +68,10 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 ```
 
+
+
+
+
 </br>
 
 *View1.controller.js*
@@ -99,6 +108,17 @@ sap.ui.define([
 });
 
 ```
+
+<details>
+<summary> Search implementation understanding through SDK DOCS </summary>
+</br>
+</br>
+</br>
+</br>
+<img src="./files/capmd12-96a.png" >
+</br>
+</br>
+</details>
 
 
 </br></br>
