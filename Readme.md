@@ -58,6 +58,9 @@ Pre-requisite VSCode or BAS should be installed and active.
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Show_Preview_Fix"> Show live preview work around</a>
 </br>
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Bindings"> Bindings </a>
+</br>
+<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Models"> Models </a>
+
 
 </br>
 
