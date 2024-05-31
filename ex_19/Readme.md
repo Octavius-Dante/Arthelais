@@ -138,7 +138,7 @@ it is the best-practice and declarative way of defining UI5 apps. The Ui5 framew
 
 </br> </br> 
 
-**Create I18n folder and create i18n.properties file and add the details**
+**Create i18n folder and create i18n.properties file and add the details**
 
 ```i18n
 
