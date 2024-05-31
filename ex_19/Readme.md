@@ -80,7 +80,7 @@ it is the best-practice and declarative way of defining UI5 apps. The Ui5 framew
 
 Create Manifest.json file 
 
-<img src="./files/ui5e19-4.png" >
+<img src="./files/ui5e19-5.png" >
 
 
 </br></br>
