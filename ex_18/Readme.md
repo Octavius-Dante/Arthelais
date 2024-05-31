@@ -272,15 +272,7 @@ controllerName="ntt.hr.payroll.controller.View2">
 
 
 
-
-
-
-
-
-
-
-</br></br>
-</br></br>
+</br>
 </br></br>
 
 ## End of Exercise 18 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_19"> Exercise 19-Manifest JSON </a>
