@@ -99,11 +99,11 @@ controllerName="ntt.hr.payroll.controller.View2">
 
 </br></br>
 
-*visit this link for reference how a Fiori blank page will look like just to get idea*
+*visit this link for reference how a Fiori blank page will look like just to get an idea*
 
 https://sapui5.hana.ondemand.com/#/entity/sap.m.Page/sample/sap.m.sample.Page/code
 
-now we are going to make changes to our view page to make it look accordingly .
+Now we are going to make changes to our view page to make it look accordingly .
 
 
 
