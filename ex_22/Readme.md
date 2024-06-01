@@ -93,7 +93,7 @@ Define a new empty view to display during load of the page (detail section) and 
            },{
                 "name": "second",
                 "pattern": "DetailPage",
-                "target": ["Datapage"]
+                "target": ["Facepage","Datapage"]
            }],
             "targets": {
                 "Facepage":{
