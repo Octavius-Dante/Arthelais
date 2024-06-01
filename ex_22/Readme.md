@@ -229,7 +229,7 @@ sap.ui.define([
 <br>
 
 <details>
-<summary> view 1 controller js -- Full code </summary>
+<summary> view 1 controller JS -- Full code </summary>
 </br>
 </br>
 
@@ -356,6 +356,15 @@ sap.ui.define([
         }
 
 ```
+</br></br>
+
+**Testing**
+
+<img src="./files/ui5e22-1.png" >
+
+<img src="./files/ui5e22-2.png" >
+
+
 
 
 </br></br>
