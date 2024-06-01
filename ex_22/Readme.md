@@ -364,7 +364,10 @@ sap.ui.define([
 
 <img src="./files/ui5e22-2.png" >
 
+</br></br>
 
+> [!NOTE]
+> Item press  functionality in list control work when - object list item has (type = navigation).
 
 
 </br></br>
