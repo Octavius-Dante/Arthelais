@@ -209,6 +209,46 @@ sap.ui.define([
             this.Router = this.getOwnerComponent().getRouter();
 ///////////////////////////////////////////////////////////////////////////////            
         },
+///////////////////////////////////////////////////////////////////////////////
+        onFruitSelect: function(oEvent){
+// Router will take care of all the navigation !             
+            // Step 1 : Get the router 
+            // this.Router
+            
+            // Step 2 : Trigger the Route
+            this.Router.navTo("second") ;
+        }
+///////////////////////////////////////////////////////////////////////////////
+
+    });
+});
+
+
+```
+
+<br>
+
+<details>
+<summary> view 1 controller js -- Full code </summary>
+</br>
+</br>
+
+```js
+
+sap.ui.define([
+    'sap/ui/core/mvc/Controller',
+    'sap/ui/model/Filter',
+    'sap/ui/model/FilterOperator'
+], function(Controller, Filter, FilterOperator){
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.View1",{
+        onInit: function(){
+///////////////////////////////////////////////////////////////////////////////            
+            // To get he router object from component.js we are calling this method
+            // So we are getting the same 
+            this.Router = this.getOwnerComponent().getRouter();
+///////////////////////////////////////////////////////////////////////////////            
+        },
 
         onNext: function(){
             // Step 1 : get the parent control object - Container for our view 
@@ -282,8 +322,10 @@ sap.ui.define([
     });
 });
 
-
 ```
+
+</br>
+</details>
 
 <br>
 
