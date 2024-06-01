@@ -575,7 +575,37 @@ onDeleteItems: function(oEvent){
 </br>
 
 
+**Testing**
 
+*Before*
+
+</br>
+<img src="./files/ui5e20-18.png" >
+</br>
+
+*After*
+
+</br>
+<img src="./files/ui5e20-19.png" >
+</br>
+<img src="./files/ui5e20-20.png" >
+</br></br>
+
+## Normal select 
+
+*View1.view.xml*
+
+```xml
+
+    <SearchField id="idsf1" search="onSearch" liveChange="onSearch"></SearchField>
+    <List id="idList" mode="MultiSelect" delete="onDelete" itemPress="onNavNext" items="{
+        path: '/fruits',
+        sorter: {
+            path : 'name'
+        }
+    }">
+
+```
 
 
 
