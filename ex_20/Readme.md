@@ -469,6 +469,23 @@ controllerName="ntt.hr.payroll.controller.App">
 
 ```
 
+</br>
+
+*Component.js* --- (Change the add page to add master page) as shown below
+
+```js
+
+    // Commented OLD LINE
+    // oAppCon.addPage(oView1).addPage(oView2);
+
+    // Definign Split app --- defined NEW LINE
+    oAppCon.addMasterPage(oView1).addDetailPage(oView2);
+
+
+```
+
+</br></br>
+
 
 </br></br>
 </br></br>
