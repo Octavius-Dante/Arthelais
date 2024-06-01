@@ -486,6 +486,45 @@ controllerName="ntt.hr.payroll.controller.App">
 
 </br></br>
 
+**Improving the search functionality**
+
+*Implementing Live search like suggesting records when typing*
+
+```xml
+
+    <SearchField id="idsf1" search="onSearch" liveChange="onSearch"></SearchField>
+    <List id="idList" mode="Delete" delete="onDelete" itemPress="onNavNext" items="{
+        path: '/fruits',
+        sorter: {
+            path : 'name'
+        }
+    }">
+
+```
+
+</br>
+
+```js
+
+    <SearchField id="idsf1" search="onSearch" liveChange="onSearch"></SearchField>
+    <List id="idList" mode="Delete" delete="onDelete" itemPress="onNavNext" items="{
+        path: '/fruits',
+        sorter: {
+            path : 'name'
+        }
+    }">
+
+
+```
+
+</br>
+
+**Testing**
+
+</br>
+<img src="./files/ui5e20-16.png" >
+</br>
+
 
 </br></br>
 </br></br>
