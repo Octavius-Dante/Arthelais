@@ -205,7 +205,7 @@ sap.ui.define([
 
 *will implement sort for the displayed list items in the page refer SDK for details as shown below*
 
-<img src="./files/ui5e20-8.png" >
+<img src="./files/ui5e20-8a.png" >
 
 </br>
 
