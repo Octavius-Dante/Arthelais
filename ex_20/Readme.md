@@ -289,6 +289,8 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 ```
 
+</br>
+
 **Now we try different list modes**
 
 </br>
@@ -303,6 +305,8 @@ controllerName="ntt.hr.payroll.controller.View1">
     }">
 
 ```
+
+</br>
 
 **Testing**
 
@@ -322,6 +326,8 @@ controllerName="ntt.hr.payroll.controller.View1">
     }">
 
 ```
+
+</br>
 
 **Testing**
 
