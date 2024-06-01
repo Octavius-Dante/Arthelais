@@ -261,7 +261,7 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 </br>
 
-<img src="./files/ui5e20-7.png" >
+<img src="./files/ui5e20-9.png" >
 
 </br></br>
 
@@ -304,19 +304,32 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 ```
 
-</br>
-
-
+**Testing**
 
 </br>
+
+<img src="./files/ui5e20-10.png" >
+
+</br></br>
 
 ```xml
 
-
+    <List id="idList" mode="SingleSelectLeft" itemPress="onNavNext" items="{
+        path: '/fruits',
+        sorter: {
+            path : 'name'
+        }
+    }">
 
 ```
 
+**Testing**
+
 </br>
+
+<img src="./files/ui5e20-11.png" >
+
+</br></br>
 
 
 </br></br>
