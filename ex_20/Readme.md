@@ -432,7 +432,14 @@ The page we are using is called object work list page
 </br> *in this case the screen will be split into 2 parts*
 
 
+- So far we used *App container control* now we are going to use *Split app container control*
 
+
+*SAP Ui5 SDK page*
+
+</br>
+<img src="./files/ui5e20-15.png" >
+</br>
 
 
 
