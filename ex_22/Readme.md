@@ -459,7 +459,7 @@ So far we did the master detail page with some view changes - the exact naming c
 </details>
 
 
-**Investigating what happens**
+**Investigating what happens** --- on click of the item this view 2 is accessed and this function is called 
 
 *View2.controller.js*
 
@@ -479,6 +479,55 @@ So far we did the master detail page with some view changes - the exact naming c
     }
 
 ```
+
+**The View change is happening only once and it has to be unique according to the fruit name**
+
+*manifest.json*
+
+```json
+
+    "routes":[{
+        "name": "Master",
+        "pattern": "",
+        "target": ["Facepage","Secondpage"]
+    },{
+        "name": "Detail",
+        "pattern": "DetailPage/{fruitId}",
+        "target": ["Facepage","Datapage"]
+    }],
+
+```
+
+</br></br>
+
+*View1.controller.js*
+
+```js
+
+    onFruitSelect: function (oEvent) {
+        var oSelectedItem = oEvent.getParameter("listItem");
+        debugger;
+        this.Router.navTo("Detail",{
+            fruitId: ""
+        });
+    }
+
+```
+
+</br></br>
+
+**Browser developer tools - when debugger triggered**
+
+<details>
+<summary> developer tools - check the value in console </summary>
+</br>
+</br>
+<img src="./files/ui5e22-5.png" >
+</br>
+<img src="./files/ui5e22-6.png" >
+</br>
+</br>
+</details>
 
 </br></br>
 </br></br>
