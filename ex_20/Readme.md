@@ -420,6 +420,8 @@ The page we are using is called object work list page
 *Where the first screen is added as a List control with search and when we navigate to the screen, we see the details.* 
 </br> *This is called Worklist Fiori App.*
 
+</br>
+
 **Master-Detail Fiori App**
 
 *When we want to use screen width optimally, we can use master-details Fiori app.*
