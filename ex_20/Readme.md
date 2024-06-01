@@ -593,12 +593,14 @@ onDeleteItems: function(oEvent){
 
 ## Normal select 
 
+*Single select but behaves like radio button ---- SingleSelectMaster*
+
 *View1.view.xml*
 
 ```xml
 
     <SearchField id="idsf1" search="onSearch" liveChange="onSearch"></SearchField>
-    <List id="idList" mode="MultiSelect" delete="onDelete" itemPress="onNavNext" items="{
+    <List id="idList" mode="SingleSelectMaster" delete="onDelete" itemPress="onNavNext" items="{
         path: '/fruits',
         sorter: {
             path : 'name'
