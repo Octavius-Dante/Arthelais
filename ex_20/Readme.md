@@ -441,7 +441,7 @@ The page we are using is called object work list page
 *SAP Ui5 SDK page*
 
 </br>
-<img src="./files/master-detail-layout.png" >
+<img src="./files/ui5e20-15.png" >
 </br>
 
 
