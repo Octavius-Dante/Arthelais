@@ -41,9 +41,6 @@
 3. Initialize router using initialize method - it will check *manifest.json* and scan the routing config, by reading it, 
    it will do the creation of view objects as well as navigation will be also taken care.
 
-4.    
-
-
 
 </br></br>
 
