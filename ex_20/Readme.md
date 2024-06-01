@@ -242,8 +242,20 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 
 ```
+</br>
 
+**Now We add Navigation to the list items**
 
+</br>
+
+```xml
+
+    <ObjectListItem type='Navigation' intro="{taste}" title="{name}"  
+    number="{price}" numberUnit="{curr}" 
+    icon="{image}">
+    </ObjectListItem>
+
+```
 
 
 </br></br>
