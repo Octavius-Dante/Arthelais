@@ -428,9 +428,12 @@ The page we are using is called object work list page
 
 **Master-Detail Fiori App**
 
+</br>
+<img src="./files/master-detail-layout.png" >
+</br>
+
 *When we want to use screen width optimally, we can use master-details Fiori app.*
 </br> *in this case the screen will be split into 2 parts*
-
 
 - So far we used *App container control* now we are going to use *Split app container control*
 
@@ -438,10 +441,8 @@ The page we are using is called object work list page
 *SAP Ui5 SDK page*
 
 </br>
-<img src="./files/ui5e20-15.png" >
+<img src="./files/master-detail-layout.png" >
 </br>
-
-
 
 
 </br></br>
