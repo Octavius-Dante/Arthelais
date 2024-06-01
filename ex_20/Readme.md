@@ -203,7 +203,7 @@ sap.ui.define([
 
 **Sorting of list items**
 
-*will implement sort for the displayed list items in the page refer SDK for details as shown below *
+*will implement sort for the displayed list items in the page refer SDK for details as shown below*
 
 <img src="./files/ui5e20-8.png" >
 
