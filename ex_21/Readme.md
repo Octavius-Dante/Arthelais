@@ -22,7 +22,7 @@
 
 **More Question**
 
-1 . The Browser navigation buttons are not working as expected.
+1. The Browser navigation buttons are not working as expected.
 
 2. If refresh happens, we should be able to restore the last stable of the application for the user so user don't 
     need to spend time and effort of navigation between screens again.
