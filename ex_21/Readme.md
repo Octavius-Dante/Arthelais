@@ -20,7 +20,7 @@
 
 </br></br>
 
-**More Question**
+**More Questions**
 
 1. The Browser navigation buttons are not working as expected.
 
