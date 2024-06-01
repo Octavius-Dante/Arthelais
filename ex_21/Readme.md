@@ -231,12 +231,23 @@ sap.ui.define([
 
 ```
 
+</br></br>
+
+**Testing**
 
 
+<img src="./files/ui5e21-1.png" >
 
 
+**Adding view1 and view 2 - adding the views**
 
+*manifest.json*
 
+```json
+
+s
+
+```
 
 
 </br></br>
