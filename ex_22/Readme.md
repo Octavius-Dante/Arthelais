@@ -55,7 +55,6 @@ sap.ui.define([
 
 ```
 
-
 <br>
 
 *empty.view.xml*
