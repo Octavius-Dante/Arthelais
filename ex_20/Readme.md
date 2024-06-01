@@ -368,7 +368,7 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 ```xml
 
-    <List id="idList" mode="Delete" itemPress="onNavNext" items="{
+    <List id="idList" mode="Delete" delete="onDelete" itemPress="onNavNext" items="{
         path: '/fruits',
         sorter: {
             path : 'name'
@@ -387,7 +387,17 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 </br>
 
+*Implementing delete*
 
+</br>
+<img src="./files/ui5e20-13.png" >
+</br>
+
+```js
+
+
+
+```
 
 
 
