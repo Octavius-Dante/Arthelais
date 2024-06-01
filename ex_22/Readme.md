@@ -425,6 +425,11 @@ So far we did the master detail page with some view changes - the exact naming c
     }
 
 ```
+</br></br>
+
+**Earlier in our session we did element binding - selection of 1 item in table control is displayed in simple form now the same concept will implement here on select of a fruit item in master page the fruit detail should be displayed in detail page**
+
+
 
 
 
