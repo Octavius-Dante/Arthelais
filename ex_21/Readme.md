@@ -235,19 +235,42 @@ sap.ui.define([
 
 **Testing**
 
-
 <img src="./files/ui5e21-1.png" >
 
 
 **Adding view1 and view 2 - adding the views**
 
-*manifest.json*
+*manifest.json* -- *View1 added*
 
 ```json
 
-s
+    "routing": {
+        "config":{
+            "viewPath": "ntt.hr.payroll.view",
+            "viewType": "XML",
+            "controlId": "appCon"
+        },
+        "routes":[{
+            "name": "first",
+            "target": "Facepage",
+            "pattern": ""
+        }],
+        "targets": {
+            "Facepage":{
+                "viewName": "View1",
+                "controlAggregation": "masterPages"
+            }
+        }
+    },
 
 ```
+
+</br></br>
+
+**Testing**
+
+<img src="./files/ui5e21-2.png" >
+
 
 
 </br></br>
