@@ -408,6 +408,22 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 ```
 
+The page we are using is called object work list page 
+<br> this has another important design principle.
+
+
+## Fiori design 
+
+
+**SAP Fiori Worklist**
+
+*Where the first screen is added as a List control with search and when we navigate to the screen, we see the details.* 
+</br> *This is called Worklist Fiori App.*
+
+**Master-Detail Fiori App**
+
+*When we want to use screen width optimally, we can use master-details Fiori app.*
+</br> *in this case the screen will be split into 2 parts*
 
 
 
