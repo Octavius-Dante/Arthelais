@@ -265,7 +265,7 @@ sap.ui.define([
 
 ```
 
-</br></br>
+</br>
 
 **Testing**
 
