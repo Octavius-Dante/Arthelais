@@ -329,6 +329,35 @@ sap.ui.define([
 
 <br>
 
+
+**One Final important Change is needed to Manifest.json for app container section**
+
+- The above changes will display the master page and empty page - initially
+
+- on click of the item in master page the detail page will be loaded but it gets loaded behind empty page 
+
+- By design the priority goes to the default detail page(empty page) 
+
+- In order to make the view change in detail view section on click of items - following change need to be defined
+
+</br>
+
+*manifest.json*
+
+```json
+
+        "routing": {
+            "config":{
+                "viewPath": "ntt.hr.payroll.view",
+                "viewType": "XML",
+                "controlId": "appCon",
+                "clearControlAggregation": true
+            },
+        }
+
+```
+
+
 </br></br>
 </br></br>
 </br></br>
