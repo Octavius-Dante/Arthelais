@@ -430,6 +430,32 @@ So far we did the master detail page with some view changes - the exact naming c
 **Earlier in our session we did element binding - selection of 1 item in table control is displayed in simple form now the same concept will implement here on select of a fruit item in master page the fruit detail should be displayed in detail page**
 
 
+*View2.controller.js*
+
+```js
+
+    onInit: function(){
+        this.Router = this.getOwnerComponent().getRouter();     
+        this.Router.getRoute("Detail").attachRouteMatched();
+    },
+
+    onFruitSelect: function(oEvent){
+        this.Router.navTo("Master") ;
+    }
+
+```
+
+**SAP ui5 SDK page**
+
+<details>
+<summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
+</br>
+</br>
+<img src="./files/ui5e22-3.png" >
+<img src="./files/ui5e22-4.png" >
+</br>
+</br>
+</details>
 
 
 
