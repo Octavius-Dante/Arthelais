@@ -452,6 +452,7 @@ So far we did the master detail page with some view changes - the exact naming c
 </br>
 </br>
 <img src="./files/ui5e22-3.png" >
+</br>
 <img src="./files/ui5e22-4.png" >
 </br>
 </br>
