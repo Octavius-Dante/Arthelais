@@ -18,9 +18,202 @@
 
 **Router is the solution to all the above problems**    
 
+</br></br>
+
+**More Question**
+
+1 . The Browser navigation buttons are not working as expected.
+
+2. If refresh happens, we should be able to restore the last stable of the application for the user so user don't 
+    need to spend time and effort of navigation between screens again.
+
+3. The user take the URL and share the same with colleagues/Friends/family, It should load the same state what we see on the page.
+    This is only possible in real world when every page is marked as unique end point.
+
+</br></br>
+
+## Steps to Implement router
+
+1. We need to provide router configuration in our *manifest.json* file 
+
+2. We need the object of the router *UIComponent class has router method - gerRouter*
+
+3. Initialize router using initialize method - it will check *manifest.json* and scan the routing config, by reading it, 
+   it will do the creation of view objects as well as navigation will be also taken care.
+
+4.    
 
 
-</br>
+
+</br></br>
+
+
+*manifest.json* --- *only the router code snip*
+
+**Explanation :**
+
+- *rootView* contains the details of the AppView the first view of the app, the app container
+- *routing* contains the path of other views 
+
+*this piece of code definition should come under (SAP ui5 section)*
+
+```json
+
+        "rootView":{
+            "id": "idAppView",
+            "type": "XML",
+            "viewName": "ntt.hr.payroll.view.App"
+        },
+        "routing": {
+            "config":{
+                "viewPath": "ntt.hr.payroll.view",
+                "viewType": "XML",
+                "controlId": "appCon"
+            },
+            "routes":[],
+            "targets": {}
+        },
+
+
+```
+
+</br></br>
+
+*manifest.json* --- *Full code* -- *Routing*
+
+```json
+
+{
+    "_version": "1.123",
+    "sap.app": {
+        "id": "ntt.hr.payroll",
+        "description": "{{APP_TITLE}}",
+        "applicationVersion": "1.0.0",
+        "type": "application",
+        "title": "{{APP_DESCRIPTION}}",
+        "i18n": "i18n/i18n.properties"
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "sap-icon://home"
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "dependencies": {
+            "minUI5Version": "1.123",
+            "libs": {
+                "sap.m": {},
+                "sap.ui.table": {}
+            }
+        },
+        "rootView":{
+            "id": "idAppView",
+            "type": "XML",
+            "viewName": "ntt.hr.payroll.view.App"
+        },
+        "routing": {
+            "config":{
+                "viewPath": "ntt.hr.payroll.view",
+                "viewType": "XML",
+                "controlId": "appCon"
+            },
+            "routes":[],
+            "targets": {}
+        },
+
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "library": {
+            "css": "css/mystyle.css"
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "uri": "i18n/i18n.properties"
+            },
+            "": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "model/mockdata/fruits.json"
+            }
+        }
+    }
+}
+
+
+```
+
+</br></br>
+
+**Major alterations to component.js**
+
+*Component.js*
+
+```js
+
+sap.ui.define([
+    'sap/ui/core/UIComponent'
+], function(UIComponent){
+    'use strict';
+    return UIComponent.extend("ntt.hr.payroll.Component",{
+        metadata: {
+            manifest: "json"
+        },
+        init: function(){
+            // this line will call the base class constructor
+            UIComponent.prototype.init.apply(this);
+        },
+    // Routing - implementation in manifest.json following code is not needed
+/////////////////////////////////////////////////////////////////////////////////        
+        // createContent: function(){
+        //     var oView = sap.ui.view({
+        //         viewName: "ntt.hr.payroll.view.App",
+        //         id: "idAppView",
+        //         type: "XML"
+        //     });
+
+        //     // Step 1 : Create View 1 object
+        //     var oView1 = sap.ui.view({
+        //         viewName: "ntt.hr.payroll.view.View1",
+        //         id: "idView1",
+        //         type: "XML"
+        //     });
+
+        //     // Step 2 : Create View 2 object
+        //     var oView2 = sap.ui.view({
+        //         viewName: "ntt.hr.payroll.view.View2",
+        //         id: "idView2",
+        //         type: "XML"
+        //     });
+
+        //     // Step 3 : Get the APP Container Control
+        //     // this.getView().byId("idObject") -- We did this in previous session 
+        //                                       // the same thing is referred differently 
+            
+        //     var oAppCon = oView.byId("appCon"); // appCon is from AppView - then we defined app container
+
+        //     // Step 4 : Inject the View1 and View2 inside the container 
+        //     // oAppCon.addPage(oView1).addPage(oView2);
+
+        //     // Definign Split app pages -Ex-20
+        //     oAppCon.addMasterPage(oView1).addDetailPage(oView2);
+        //     return oView;
+        // }
+/////////////////////////////////////////////////////////////////////////////////
+
+    });
+});
+
+```
+
+
 
 
 
