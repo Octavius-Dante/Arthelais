@@ -293,7 +293,7 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 **Now we try different list modes**
 
-*Single Select*
+*Single Select Mode*
 
 </br>
 
@@ -318,7 +318,7 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 </br>
 
-*Single Select Left*
+*Single Select Left side - Mode*
 
 ```xml
 
@@ -341,7 +341,7 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 </br>
 
-*Single Select*
+*Multi Select Mode*
 
 ```xml
 
@@ -361,6 +361,29 @@ controllerName="ntt.hr.payroll.controller.View1">
 </br>
 
 <img src="./files/ui5e20-12.png" >
+
+</br>
+
+*Delete Mode*
+
+```xml
+
+    <List id="idList" mode="Delete" itemPress="onNavNext" items="{
+        path: '/fruits',
+        sorter: {
+            path : 'name'
+        }
+    }">
+
+```
+
+</br>
+
+**Testing**
+
+</br>
+
+<img src="./files/ui5e20-13.png" >
 
 </br>
 
