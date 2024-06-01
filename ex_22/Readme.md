@@ -360,9 +360,15 @@ sap.ui.define([
 
 **Testing**
 
+<details>
+<summary> Testing images </summary>
+</br>
 <img src="./files/ui5e22-1.png" >
-
+</br>
 <img src="./files/ui5e22-2.png" >
+</br>
+</details>
+
 
 </br></br>
 
