@@ -55,7 +55,9 @@
 - *rootView* contains the details of the AppView the first view of the app, the app container
 - *routing* contains the path of other views 
 
-*this piece of code definition should come under (SAP ui5 section)*
+</br>
+
+*This piece of code definition should come under (SAP ui5 section)*
 
 ```json
 
@@ -77,7 +79,7 @@
 
 ```
 
-</br></br>
+</br>
 
 *manifest.json* --- *Full code* -- *Routing*
 
@@ -150,7 +152,7 @@
 
 ```
 
-</br></br>
+</br>
 
 **Major alterations to component.js**
 
