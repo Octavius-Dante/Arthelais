@@ -281,7 +281,6 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 </br>
 
-
 ```js
 
     onNavNext: function(oEvent){
@@ -290,6 +289,34 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 ```
 
+**Now we try different list modes**
+
+</br>
+
+```xml
+
+    <List id="idList" mode="SingleSelect" itemPress="onNavNext" items="{
+        path: '/fruits',
+        sorter: {
+            path : 'name'
+        }
+    }">
+
+```
+
+</br>
+
+
+
+</br>
+
+```xml
+
+
+
+```
+
+</br>
 
 
 </br></br>
