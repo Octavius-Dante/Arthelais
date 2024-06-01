@@ -231,12 +231,13 @@ sap.ui.define([
 
 ```
 
-</br></br>
+</br>
 
 **Testing**
 
 <img src="./files/ui5e21-1.png" >
 
+</br></br>
 
 **Adding view1 and view 2 - adding the views**
 
