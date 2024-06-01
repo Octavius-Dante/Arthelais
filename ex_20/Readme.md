@@ -490,6 +490,8 @@ controllerName="ntt.hr.payroll.controller.App">
 
 *Implementing Live search like suggesting records when typing*
 
+*View1.view.xml*
+
 ```xml
 
     <SearchField id="idsf1" search="onSearch" liveChange="onSearch"></SearchField>
@@ -503,6 +505,8 @@ controllerName="ntt.hr.payroll.controller.App">
 ```
 
 </br>
+
+*View1.controller.js*
 
 ```js
 
