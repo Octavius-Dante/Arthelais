@@ -266,6 +266,31 @@ controllerName="ntt.hr.payroll.controller.View1">
 </br></br>
 
 
+**Implementing Navigation**
+
+```xml
+
+    <List id="idList" itemPress="onNavNext" items="{
+        path: '/fruits',
+        sorter: {
+            path : 'name'
+        }
+    }">
+
+```
+
+</br>
+
+
+```js
+
+    onNavNext: function(oEvent){
+        this.onNext();
+    }
+
+```
+
+
 
 </br></br>
 </br></br>
