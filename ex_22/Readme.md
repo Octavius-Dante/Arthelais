@@ -402,9 +402,13 @@ So far we did the master detail page with some view changes - the exact naming c
 
 ```js
 
-        onFruitSelect: function(oEvent){
-            this.Router.navTo("Detail") ;
-        }
+    onInit: function(){
+        this.Router = this.getOwnerComponent().getRouter();     
+    },
+
+    onFruitSelect: function(oEvent){
+        this.Router.navTo("Detail") ;
+    }
 
 ```
 
@@ -412,9 +416,13 @@ So far we did the master detail page with some view changes - the exact naming c
 
 ```js
 
-        onFruitSelect: function(oEvent){
-            this.Router.navTo("Master") ;
-        }
+    onInit: function(){
+        this.Router = this.getOwnerComponent().getRouter();     
+    },
+
+    onFruitSelect: function(oEvent){
+        this.Router.navTo("Master") ;
+    }
 
 ```
 
