@@ -390,8 +390,8 @@ controllerName="ntt.hr.payroll.controller.View1">
 *Implementing delete*
 
 </br>
-<img src="./files/ui5e20-13.png" >
 <img src="./files/ui5e20-14.png" >
+<img src="./files/ui5e20-15.png" >
 </br>
 
 ```js
