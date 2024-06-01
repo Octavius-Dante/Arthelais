@@ -191,6 +191,13 @@ sap.ui.define([
 
 ```
 
+</br></br>
+
+**Sorting for list items**
+
+*will implement sort for the displayed list items in the page*
+
+
 
 
 
