@@ -293,6 +293,8 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 **Now we try different list modes**
 
+*Single Select*
+
 </br>
 
 ```xml
@@ -316,6 +318,8 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 </br></br>
 
+*Single Select Left*
+
 ```xml
 
     <List id="idList" mode="SingleSelectLeft" itemPress="onNavNext" items="{
@@ -336,6 +340,37 @@ controllerName="ntt.hr.payroll.controller.View1">
 <img src="./files/ui5e20-11.png" >
 
 </br></br>
+
+*Single Select*
+
+```xml
+
+    <List id="idList" mode="MultiSelect" itemPress="onNavNext" items="{
+        path: '/fruits',
+        sorter: {
+            path : 'name'
+        }
+    }">
+
+```
+
+</br>
+
+**Testing**
+
+</br>
+
+<img src="./files/ui5e20-12.png" >
+
+</br></br>
+
+
+
+
+
+
+
+
 
 
 </br></br>
