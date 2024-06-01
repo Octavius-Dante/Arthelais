@@ -1,5 +1,22 @@
 ## Exercise 21 - Router Basics
 
+</br>
+
+1. We have used sap.ui.view to create view object but in SDK page it is shown that it is deprecated, why we use it?
+
+2. What is the best practice and place where we put our view instantiation code?
+
+3. We are creating all our view object when app starts, what if user wont even go to that view in the navigation, 
+   this way still we created view object and wasted memory
+
+
+</br>
+
+
+
+
+
+
 
 </br></br>
 </br></br>
