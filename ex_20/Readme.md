@@ -391,10 +391,19 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 </br>
 <img src="./files/ui5e20-13.png" >
+<img src="./files/ui5e20-14.png" >
 </br>
 
 ```js
 
+    onDelete: function(oEvent){
+        // Step 1 : Find out which item was selected for deletion
+        var oSelected = oEvent.getParameter("listItem");
+        // Step 2 : Get the model object
+        var oList = oEvent.getSource();
+        // Step 3 : Remove the item from the list 
+        oList.removeItem(oSelected);
+    }
 
 
 ```
