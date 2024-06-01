@@ -375,6 +375,50 @@ sap.ui.define([
 > [!NOTE]
 > Item press  functionality in list control work when - object list item has (type = navigation).
 
+</br></br>
+
+So far we did the master detail page with some view changes - the exact naming convention and pattern used will be as follows 
+
+*manifest.json*
+
+```json
+
+    "routes":[{
+        "name": "Master",
+        "pattern": "",
+        "target": ["Facepage","Secondpage"]
+    },{
+        "name": "Detail",
+        "pattern": "DetailPage",
+        "target": ["Facepage","Datapage"]
+    }],
+
+```
+</br>
+
+**CODE snip only**
+
+*View1.controller.js*
+
+```js
+
+        onFruitSelect: function(oEvent){
+            this.Router.navTo("Detail") ;
+        }
+
+```
+
+*View2.controller.js*
+
+```js
+
+        onFruitSelect: function(oEvent){
+            this.Router.navTo("Master") ;
+        }
+
+```
+
+
 
 </br></br>
 </br></br>
