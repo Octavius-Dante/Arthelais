@@ -40,6 +40,106 @@ Define a new empty view to display during load of the page (detail section) and 
 
 <br>
 
+<details>
+<summary> manifest json full code </summary>
+</br>
+
+```json
+
+{
+    "_version": "1.123",
+    "sap.app": {
+        "id": "ntt.hr.payroll",
+        "description": "{{APP_TITLE}}",
+        "applicationVersion": "1.0.0",
+        "type": "application",
+        "title": "{{APP_DESCRIPTION}}",
+        "i18n": "i18n/i18n.properties"
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "sap-icon://home"
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "dependencies": {
+            "minUI5Version": "1.123",
+            "libs": {
+                "sap.m": {},
+                "sap.ui.table": {}
+            }
+        },
+        "rootView":{
+            "id": "idAppView",
+            "type": "XML",
+            "viewName": "ntt.hr.payroll.view.App"
+        },
+        "routing": {
+            "config":{
+                "viewPath": "ntt.hr.payroll.view",
+                "viewType": "XML",
+                "controlId": "appCon"
+            },
+            "routes":[{
+                "name": "first",
+                "pattern": "",
+                "target": ["Facepage","Secondpage"]
+           },{
+                "name": "second",
+                "pattern": "DetailPage",
+                "target": ["Datapage"]
+           }],
+            "targets": {
+                "Facepage":{
+                    "viewName": "View1",
+                    "controlAggregation": "masterPages"
+                },
+                "Secondpage":{
+                    "viewName": "Empty",
+                    "controlAggregation": "detailPages"
+                },
+                "Datapage":{
+                    "viewName": "View2",
+                    "controlAggregation": "detailPages"
+                }
+            }
+        },
+
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "library": {
+            "css": "css/mystyle.css"
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "uri": "i18n/i18n.properties"
+            },
+            "": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "model/mockdata/fruits.json"
+            }
+        }
+    }
+}
+
+
+```
+
+</br>
+</details>
+
+
+<br>
+
 *empty.controller.js*
 
 ```js
