@@ -7,7 +7,15 @@
 2. What is the best practice and place where we put our view instantiation code?
 
 3. We are creating all our view object when app starts, what if user wont even go to that view in the navigation, 
-   this way still we created view object and wasted memory
+   this way still we created view object and wasted memory. How can we optimize that ?
+
+4. We have implemented navigation using parent container control but it sometimes very tricky to parent control object.
+
+5. How as a developer i can check my colleagues code and understand overall application structure and navigation 
+   without talking to another developers.
+
+        **Router is the solution to all the above problems**    
+
 
 
 </br>
