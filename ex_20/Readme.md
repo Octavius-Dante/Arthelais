@@ -445,6 +445,31 @@ The page we are using is called object work list page
 </br>
 
 
+*App.view.xml*
+
+```xml
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.App">
+
+<!-- Defining Split app container control - it contains other views 
+
+> This container control will be parent for other views 
+> There are different types of container control
+
+    ~ now we are using type : Split App container control
+-->
+
+<SplitApp id="appCon" />
+
+<!-- <App id="appCon" /> -->
+
+</mvc:View>
+
+
+```
+
+
 </br></br>
 </br></br>
 
