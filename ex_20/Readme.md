@@ -529,6 +529,55 @@ controllerName="ntt.hr.payroll.controller.App">
 </br>
 <img src="./files/ui5e20-17.png" >
 </br>
+</br>
+
+## Adding a delete tool bar (exercise session)
+
+</br>
+
+*View1.view.xml*
+
+```xml
+
+    <SearchField id="idsf1" search="onSearch" liveChange="onSearch"></SearchField>
+    <List id="idList" mode="MultiSelect" delete="onDelete" itemPress="onNavNext" items="{
+        path: '/fruits',
+        sorter: {
+            path : 'name'
+        }
+    }">
+
+<HeaderToolbar>
+    <Toolbar>
+        <ToolbarSpacer> </ToolbarSpacer>
+        <Button icon=sap-icon//delete press="onDeleteItems" />
+    </Toolbar>
+</HeaderToolbar>
+
+```
+
+</br>
+
+*View2.controller.js*
+
+```js
+
+onDeleteItems: function(oEvent){
+    var oList = this.getView().byId("idList");
+    var aSelectedItems = oList.getSelectedItems();
+    aSelectedItems.forEach(item => {
+        Olist.removeItem(item);
+    });
+}
+
+```
+
+</br>
+
+
+
+
+
 
 
 </br></br>
