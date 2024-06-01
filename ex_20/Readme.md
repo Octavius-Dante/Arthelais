@@ -316,7 +316,7 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 <img src="./files/ui5e20-10.png" >
 
-</br></br>
+</br>
 
 *Single Select Left*
 
@@ -339,7 +339,7 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 <img src="./files/ui5e20-11.png" >
 
-</br></br>
+</br>
 
 *Single Select*
 
@@ -362,7 +362,7 @@ controllerName="ntt.hr.payroll.controller.View1">
 
 <img src="./files/ui5e20-12.png" >
 
-</br></br>
+</br>
 
 
 
