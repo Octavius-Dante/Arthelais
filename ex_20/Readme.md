@@ -203,8 +203,45 @@ sap.ui.define([
 
 **Sorting of list items**
 
-*will implement sort for the displayed list items in the page*
+*will implement sort for the displayed list items in the page refer SDK for details as shown below *
 
+<img src="./files/ui5e20-8.png" >
+
+</br>
+
+```xml
+
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.View1">
+    <Page title="{i18n>XTIT_VIEW1}">
+        <headerContent>
+            <Button  icon="sap-icon://action" press="onNext"></Button>
+        </headerContent>
+        <content> 
+            <SearchField id="idsf1" search="onSearch"></SearchField> <!-- On search function -->
+            <List id="idList" items="{
+                path: '/fruits',
+                sorter: {
+                    path : 'name'
+                  }
+                }">
+             <items>
+                <ObjectListItem intro="{taste}" title="{name}"  
+                number="{price}" numberUnit="{curr}" 
+                icon="{image}">
+                </ObjectListItem>
+                    <firstStatus>
+                        <ObjectStatus text="Available" state="Success"></ObjectStatus>
+                    </firstStatus>
+              </items>
+            </List>
+        </content>
+    </Page>
+</mvc:View>
+
+
+```
 
 
 
