@@ -1,5 +1,192 @@
 ## Exercise 22 - Route matched Handlers
 
+</br></br>
+
+**Implementing multiple page and navigating using routers**
+
+- In previous session initial load of the page view showed a master page 
+
+Define a new empty view to display during load of the page (detail section) and on click of the master item a new page load should happen
+
+*manifest.json* -- changes for defining -- only the code - snip 
+
+```json
+
+    "routes":[{
+        "name": "first",
+        "pattern": "",
+        "target": ["Facepage","Secondpage"]
+    },{
+        "name": "second",
+        "pattern": "DetailPage",
+        "target": ["Datapage"]
+    }],
+    "targets": {
+        "Facepage":{
+            "viewName": "View1",
+            "controlAggregation": "masterPages"
+        },
+        "Secondpage":{
+            "viewName": "Empty",
+            "controlAggregation": "detailPages"
+        },
+        "Datapage":{
+            "viewName": "View2",
+            "controlAggregation": "detailPages"
+        }
+            }
+
+```
+
+<br>
+
+*empty.controller.js*
+
+```js
+
+sap.ui.define([
+    "sap/ui/core/mvc/Controller"
+], function(Controller){
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.Empty",{
+        
+    });
+});
+
+```
+
+
+<br>
+
+*empty.view.xml*
+
+```xml
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.Empty">
+    <Page title="Empty View" showNavButton="true" navButtonPress="onBack">
+        <Image src="https://cdn.britannica.com/60/182360-050-CD8878D6/Avengers-Age-of-Ultron-Joss-Whedon.jpg" width="75%" height="100%"></Image>       
+    </Page>
+</mvc:View>
+
+
+
+```
+
+<br>
+
+*View1.view.xml*
+
+```xml
+
+    <List id="idList" mode="SingleSelectMaster" delete="onDelete" 
+    itemPress="onNavNext" selectionChange="onFruitSelect"  items="{
+        path: '/fruits',
+        sorter: {
+            path : 'name'
+        }
+    }">
+
+```
+
+<br>
+
+*View1.controller.js*
+
+```js
+
+sap.ui.define([
+    'sap/ui/core/mvc/Controller',
+    'sap/ui/model/Filter',
+    'sap/ui/model/FilterOperator'
+], function(Controller, Filter, FilterOperator){
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.View1",{
+        onInit: function(){
+
+///////////////////////////////////////////////////////////////////////////////            
+            // To get he router object from component.js we are calling this method
+            // So we are getting the same 
+            this.Router = this.getOwnerComponent().getRouter();
+///////////////////////////////////////////////////////////////////////////////            
+        },
+
+        onNext: function(){
+            // Step 1 : get the parent control object - Container for our view 
+            var oAppCon = this.getView().getParent();
+            // Step 2 : ask parent to nav to next view 
+            oAppCon.to("idView2");
+        },
+        
+        onItemClick: function(){
+            // this - is my current class object - which is our controller
+            this.onNext();
+        },
+
+        onSearch: function(oEvent){
+            // Step 1 : What is teh user type in search field
+            var sSearch = oEvent.getParameter("query");            
+            
+            // Live Change 
+            if (sSearch === "" || sSearch === undefined){
+                sSearch = oEvent.getParameter("newValue");
+            }
+
+            // Step 2 : Construct a Filter object with operand and operator
+            var oFilter = new Filter("name", FilterOperator.Contains, sSearch);
+            var oFilter2 = new Filter("taste", FilterOperator.Contains, sSearch); // implementing search parameter 2 
+            var aFilter = [oFilter, oFilter2];
+            var oMaster = new Filter({
+                filters: aFilter,
+                and: false // when AND = FALSE that means -search filter is defiend with- OR = TRUE
+            })
+            
+            // Step 3 : get the list object 
+            var oList = this.getView().byId("idList");
+            
+            // Step 4 : inject the filter to the list 
+            oList.getBinding("items").filter(oMaster); // New multi condition search paramter 
+            
+        },
+
+        onNavNext: function(oEvent){
+            this.onNext();
+        },
+
+        onDelete: function(oEvent){
+            // Step 1 : Find out which item was selected for deletion
+            var oSelected = oEvent.getParameter("listItem");
+            // Step 2 : Get the model object
+            var oList = oEvent.getSource();
+            // Step 3 : Remove the item from the list 
+            oList.removeItem(oSelected);
+        },
+
+        onDeleteItems: function(oEvent){
+            var oList = this.getView().byId("idList");
+            var aSelectedItems = oList.getSelectedItems();
+            aSelectedItems.forEach(item => {
+                oList.removeItem(item);
+            });
+        },
+///////////////////////////////////////////////////////////////////////////////
+        onFruitSelect: function(oEvent){
+// Router will take care of all the navigation !             
+            // Step 1 : Get the router 
+            // this.Router
+            
+            // Step 2 : Trigger the Route
+            this.Router.navTo("second") ;
+        }
+///////////////////////////////////////////////////////////////////////////////
+
+    });
+});
+
+
+```
+
+<br>
 
 </br></br>
 </br></br>
