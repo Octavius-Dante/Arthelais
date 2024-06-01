@@ -471,7 +471,7 @@ controllerName="ntt.hr.payroll.controller.App">
 
 </br>
 
-*Component.js* --- (Change the add page to add master page) as shown below
+*Component.js* --- (Change the add page to add master page and add detail page) as shown below
 
 ```js
 
