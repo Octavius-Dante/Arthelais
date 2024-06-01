@@ -164,7 +164,8 @@ sap.ui.define([
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
 controllerName="ntt.hr.payroll.controller.Empty">
     <Page title="Empty View" showNavButton="true" navButtonPress="onBack">
-        <Image src="https://cdn.britannica.com/60/182360-050-CD8878D6/Avengers-Age-of-Ultron-Joss-Whedon.jpg" width="75%" height="100%"></Image>       
+        <Image src="https://cdn.britannica.com/60/182360-050-CD8878D6/Avengers-Age-of-Ultron-Joss-Whedon.jpg" 
+        width="75%" height="100%"></Image>       
     </Page>
 </mvc:View>
 
