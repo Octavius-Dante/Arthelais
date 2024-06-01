@@ -14,7 +14,9 @@
 5. How as a developer i can check my colleagues code and understand overall application structure and navigation 
    without talking to another developers.
 
-        **Router is the solution to all the above problems**    
+</br>
+
+**Router is the solution to all the above problems**    
 
 
 
