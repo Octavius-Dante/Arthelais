@@ -506,14 +506,15 @@ controllerName="ntt.hr.payroll.controller.App">
 
 ```js
 
-    <SearchField id="idsf1" search="onSearch" liveChange="onSearch"></SearchField>
-    <List id="idList" mode="Delete" delete="onDelete" itemPress="onNavNext" items="{
-        path: '/fruits',
-        sorter: {
-            path : 'name'
-        }
-    }">
+    // Step 1 : What is teh user type in search field
+    var sSearch = oEvent.getParameter("query");            
 
+///////////////////////////////////////////////////////////    
+    // Live Change 
+    if (sSearch === "" || sSearch === undefined){
+        sSearch = oEvent.getParameter("newValue");
+    }
+///////////////////////////////////////////////////////////    
 
 ```
 
@@ -522,7 +523,7 @@ controllerName="ntt.hr.payroll.controller.App">
 **Testing**
 
 </br>
-<img src="./files/ui5e20-16.png" >
+<img src="./files/ui5e20-17.png" >
 </br>
 
 
