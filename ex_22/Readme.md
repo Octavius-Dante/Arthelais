@@ -448,7 +448,7 @@ So far we did the master detail page with some view changes - the exact naming c
 **SAP ui5 SDK page**
 
 <details>
-<summary> <b> ALL CODE CHANGES - TODAY SESSION </b> </summary>
+<summary> Ui5 SDK page - Route section </b> </summary>
 </br>
 </br>
 <img src="./files/ui5e22-3.png" >
@@ -459,6 +459,26 @@ So far we did the master detail page with some view changes - the exact naming c
 </details>
 
 
+**Investigating what happens**
+
+*View2.controller.js*
+
+```js
+
+    onInit: function(){
+        this.Router = this.getOwnerComponent().getRouter();     
+        this.Router.getRoute("Detail").attachPatternMatched(this.hercules);
+    },
+
+    hercules: function(){
+        debugger;
+    },
+
+    onFruitSelect: function(oEvent){
+        this.Router.navTo("Master") ;
+    }
+
+```
 
 </br></br>
 </br></br>
