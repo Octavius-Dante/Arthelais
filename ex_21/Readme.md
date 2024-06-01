@@ -156,24 +156,40 @@
 
 **Major alterations to component.js**
 
+- commented the old view code - because we configured router in *manifest.json*
+
+- then initialized router object in *component.js*
+
+</br>
+
 *Component.js*
 
 ```js
 
 sap.ui.define([
     'sap/ui/core/UIComponent'
-], function(UIComponent){
+], function (UIComponent) {
     'use strict';
-    return UIComponent.extend("ntt.hr.payroll.Component",{
+    return UIComponent.extend("ntt.hr.payroll.Component", {
         metadata: {
             manifest: "json"
         },
-        init: function(){
+        init: function () {
             // this line will call the base class constructor
             UIComponent.prototype.init.apply(this);
+
+            // implement router 
+            //////////////////////////////////////////
+            // Step 1: Inside the manifest.json file add - rootView, routing sections- DONE 
+            // Step 2: Get the router object 
+            var oRouter = this.getRouter();
+            // Step 3: Initialize the router 
+            oRouter.initialize();
+
+            //////////////////////////////////////////
         },
-    // Routing - implementation in manifest.json following code is not needed
-/////////////////////////////////////////////////////////////////////////////////        
+        // Routing - implementation in manifest.json following code is not needed
+        /////////////////////////////////////////////////////////////////////////////////        
         // createContent: function(){
         //     var oView = sap.ui.view({
         //         viewName: "ntt.hr.payroll.view.App",
@@ -198,7 +214,7 @@ sap.ui.define([
         //     // Step 3 : Get the APP Container Control
         //     // this.getView().byId("idObject") -- We did this in previous session 
         //                                       // the same thing is referred differently 
-            
+
         //     var oAppCon = oView.byId("appCon"); // appCon is from AppView - then we defined app container
 
         //     // Step 4 : Inject the View1 and View2 inside the container 
@@ -208,7 +224,7 @@ sap.ui.define([
         //     oAppCon.addMasterPage(oView1).addDetailPage(oView2);
         //     return oView;
         // }
-/////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////
 
     });
 });
