@@ -529,6 +529,27 @@ So far we did the master detail page with some view changes - the exact naming c
 </br>
 </details>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </br></br>
 </br></br>
 </br></br>
