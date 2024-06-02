@@ -383,6 +383,9 @@ controllerName="ntt.hr.payroll.controller.View2">
 
 ## Tab strip in UI5 is called - Icon Tab Bar
 
+
+*Icon tab bar contains - items aggregation and each item points to a icon tab filter*
+
 </br>
 
 *View2.view.xml*
@@ -398,7 +401,7 @@ controllerName="ntt.hr.payroll.controller.View2">
 **Testing**
 
 </br>
-<img src="./files/ui5e23-4.png">
+<img src="./files/ui5e23-5.png">
 </br></br>
 
 
