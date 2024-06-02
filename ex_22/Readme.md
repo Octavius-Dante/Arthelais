@@ -724,6 +724,8 @@ So far we did the master detail page with some view changes - the exact naming c
 
 ```
 
+</br></br>
+
 *Alternative way to write above code but its a best practice to locate the value*
 
 *-- what if the values are changed or removed during some activity in run time the above solution is best*
