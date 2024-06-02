@@ -618,8 +618,29 @@ So far we did the master detail page with some view changes - the exact naming c
     },
 
 
-
 ```
+
+> [!IMPORTANT]
+> When we call an event handler Dynamically, the Event Handler will not be able to hold this pointer as a controller object. to make tit point to controller object forcefully , we alos pass controller object while calling event handler.
+
+
+**Execution ended up in not displaying the second view upon selecting the items**
+
+<img src="./files/ui5e22-11.png" >
+</br>
+<img src="./files/ui5e22-12.png" >
+
+</br></br>
+
+
+
+
+
+
+
+
+
+
 
 
 
