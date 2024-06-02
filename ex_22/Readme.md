@@ -712,11 +712,11 @@ So far we did the master detail page with some view changes - the exact naming c
             
             // loop all the items in the model and look for the selected path 
             // - get the path and set it and break the loop 
-            for (let i = 0; i < oList.getItems().length; i++) {  // looping the internal table for locating the values 
-                element = oList.getItems()[i];
-                if (element.getBindingContextPath() === sPath) { // searching for the element 
-                    oList.setSelectedItem(element); // setting the value to screen element
-                    break; // once the item is identified close the search or break the loop 
+            for (let i = 0; i < oList.getItems().length; i++) {  // looping the internal table record for locating the values 
+                element = oList.getItems()[i];                   // assignment of table record to WORKAREA (based on loop index)
+                if (element.getBindingContextPath() === sPath) { // searching for the path in WORKAREA
+                    oList.setSelectedItem(element); // setting the value to screen object from WORKAREA 
+                    break; // once the item is identified and screen element is set close the search or break the loop 
                 }
             }
         }
