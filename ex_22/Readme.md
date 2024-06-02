@@ -631,7 +631,7 @@ So far we did the master detail page with some view changes - the exact naming c
 
 <img src="./files/ui5e22-13a.png" >
 </br>
-<img src="./files/ui5e22-14.png" >
+<img src="./files/ui5e22-14a.png" >
 
 </br></br>
 
