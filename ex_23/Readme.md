@@ -19,6 +19,22 @@ Create base controller in *Controller folder*
 <img src="./files/ui5e23-1.png">
 </br>
 
+*Regular scaffolding code template is followed here*
+
+</br> 
+
+*BaseController.js*
+
+```js
+
+
+
+```
+
+
+
+
+
 
 </br></br>
 </br></br>
