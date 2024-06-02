@@ -544,7 +544,7 @@ So far we did the master detail page with some view changes - the exact naming c
 </br>
 <img src="./files/ui5e22-9.png" >
 </br>
-<img src="./files/ui5e22-10s.png" >
+<img src="./files/ui5e22-10.png" >
 </br>
 </br>
 </details>
