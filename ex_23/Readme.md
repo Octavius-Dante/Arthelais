@@ -107,6 +107,28 @@ sap.ui.define([
 
 ```js
 
+hercules: function (oEvent) {
+    // var fruitId = oEvent.getParameter("arguments").fruitId;
+    // var sPath = '/fruits/' + fruitId;
+///////////////////////////////////////////////////////            
+    var sPath = this.extractPath(oEvent);
+///////////////////////////////////////////////////////            
+    var oList = this.getView().byId("idList");
+    var element = {}; // variabel place holder for holdign the value -- WORKAREA
+    if (oList.getItems().length > 0){  // Internal table is not initial check 
+        
+        // loop all the items in the model and look for the selected path 
+        // - get the path and set it and break the loop 
+        for (let i = 0; i < oList.getItems().length; i++) {  // looping the internal table record for locating the values 
+            element = oList.getItems()[i];                   // assignment of table record to WORKAREA (based on loop index)
+            if (element.getBindingContextPath() === sPath) { // searching for the path in WORKAREA
+                oList.setSelectedItem(element); // setting the value to screen object from WORKAREA 
+                break; // once the item is identified and screen element is set close the search or break the loop 
+            }
+        }
+    }
+
+},
 
 ```
 
@@ -116,6 +138,15 @@ sap.ui.define([
 
 ```js
 
+hercules: function(oEvent){
+    // debugger;
+    // var fruitId =  oEvent.getParameter("arguments").fruitId;
+    // var sPath = '/fruits/' + fruitId;
+///////////////////////////////////////////////////////         
+    var sPath = this.extractPath(oEvent);
+///////////////////////////////////////////////////////         
+    this.getView().bindElement(sPath); // Binding with /fruits/<fruitID> - absolute path
+}
 
 ```
 
