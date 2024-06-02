@@ -379,6 +379,31 @@ controllerName="ntt.hr.payroll.controller.View2">
 <img src="./files/ui5e23-4.png">
 </br>
 
+</br></br>
+
+## Tab strip in UI5 is called - Icon Tab Bar
+
+</br>
+
+*View2.view.xml*
+
+```xml
+
+
+
+```
+
+</br>
+
+**Testing**
+
+</br>
+<img src="./files/ui5e23-4.png">
+</br></br>
+
+
+
+
 
 
 
