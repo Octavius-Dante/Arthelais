@@ -683,7 +683,7 @@ So far we did the master detail page with some view changes - the exact naming c
 </br></br>
 
 
-## When the item is selected and the view is changed -- when we grab the link and reload it again, the view appears but the master page selection is not selected 
+## When the item is selected and the view is changed -- when the same selected view page is reloaded again, the view appears but the master page item for respective view is not highlighted of the selection 
 
 </br>
 
