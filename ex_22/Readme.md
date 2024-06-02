@@ -534,6 +534,26 @@ So far we did the master detail page with some view changes - the exact naming c
 
 </br>
 
+*Changes to View1.controlle.js*
+
+*View1.controller.js*
+
+- This function is now sending the selected fruit id value to view 2 
+
+```js
+
+    onFruitSelect: function (oEvent) {
+        var oSelectedItem = oEvent.getParameter("listItem");
+        // debugger;
+        this.Router.navTo("Detail",{
+            fruitId: oSelectedItem.getBindingContextPath().split("/")[2]
+        });
+    }
+
+```
+
+</br>
+
 **Testing**
 
 <details>
@@ -569,12 +589,7 @@ So far we did the master detail page with some view changes - the exact naming c
 5. The value of the variable is passed from fruit is selected in first view, we pass the ID of the fruit taken from item selection event, 
 </br>This is path of the memory where the fruit is stored
 
-6. Element binding we are yet to apply that now 
-
-
-
-
-
+6. Element binding we are (going to apply that now) 
 
 
 
