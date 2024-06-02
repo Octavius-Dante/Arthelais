@@ -65,6 +65,32 @@ sap.ui.define([
 
 </br> 
 
+*Code changes in -- View1.controller.js*
+
+```js
+
+
+```
+
+</br></br> 
+
+*Code changes in -- View2.controller.js*
+
+```js
+
+
+```
+
+</br></br> 
+
+
+
+
+
+
+
+
+
 
 
 
