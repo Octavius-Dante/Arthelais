@@ -1,5 +1,13 @@
 ## Exercise 23 - Icon Tab bar
 
+</br>
+
+As per previous session we have some duplication in our code so we are going to modularize it 
+
+</br>
+
+<img src="./files/base-controller.png">
+
 
 </br></br>
 </br></br>
