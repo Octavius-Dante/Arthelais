@@ -28,8 +28,10 @@ Code block from *View1.controller.js* we are going to replace
 ```js
 
     hercules: function (oEvent) {
+///////////////////////////////////////////////////////         
         var fruitId = oEvent.getParameter("arguments").fruitId;
         var sPath = '/fruits/' + fruitId;
+///////////////////////////////////////////////////////         
         var oList = this.getView().byId("idList");
         var element = {}; // variabel place holder for holdign the value -- WORKAREA
         if (oList.getItems().length > 0){  // Internal table is not initial check 
@@ -57,8 +59,10 @@ Code block from *View2.controller.js* we are going to replace
 
     hercules: function(oEvent){
         // debugger;
+///////////////////////////////////////////////////////         
         var fruitId =  oEvent.getParameter("arguments").fruitId;
         var sPath = '/fruits/' + fruitId;
+///////////////////////////////////////////////////////         
         this.getView().bindElement(sPath); // Binding with /fruits/<fruitID> - absolute path
     }
 
@@ -325,6 +329,18 @@ sap.ui.define([
 </details>
 
 
+</br></br>
+
+
+## Adding business object on the right side detail page 
+
+
+*View2.view.xml*
+
+```xml
+
+
+```
 
 
 
