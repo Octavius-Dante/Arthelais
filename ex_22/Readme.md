@@ -633,6 +633,29 @@ So far we did the master detail page with some view changes - the exact naming c
 </br></br>
 
 
+*View2.controller.js*
+
+```js
+
+    onInit: function(){
+        this.Router = this.getOwnerComponent().getRouter();     
+        this.Router.getRoute("Detail").attachPatternMatched(this.hercules, this);
+    },
+
+    hercules: function(oEvent){
+        // debugger;
+        var fruitId =  oEvent.getParameter("arguments").fruitId;
+        var sPath = '/fruits/' + fruitId;
+        this.getView().bindElement(sPath); // Binding with /fruits/<fruitID>
+    },
+
+
+    onFruitSelect: function(oEvent){
+        this.Router.navTo("Master") ;
+    }
+
+```
+</br></br>
 
 
 
