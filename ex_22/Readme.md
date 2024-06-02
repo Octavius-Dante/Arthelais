@@ -674,14 +674,34 @@ So far we did the master detail page with some view changes - the exact naming c
 </br>
 
 
+</br></br>
 
 
+## When the item is selected and the view is changed -- when we grab the link and reload it again, the view appears but the master page selection is not selected 
 
 
+*Code correction*
 
 
+*View1.controller.js*
+
+```js
 
 
+```
+
+</br></br>
+
+
+*Code correction*
+
+
+*View2.controller.js*
+
+```js
+
+
+```
 
 
 
