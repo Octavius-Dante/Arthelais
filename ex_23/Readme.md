@@ -392,6 +392,39 @@ controllerName="ntt.hr.payroll.controller.View2">
 
 ```xml
 
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="ntt.hr.payroll.controller.View2">
+    <Page title="View 2" showNavButton="true" navButtonPress="onBack">
+          <!-- <Button text="Go Back" icon="sap-icon://arrow-left" press="onBack" /> -->
+        <content>
+            <!-- <Text text="{name}" />     -->
+
+            <ObjectHeader intro="{healthBenefit}" title="{name}" icon="{image}" 
+            number="{price}" numberUnit="{curr}" ></ObjectHeader>
+            
+<!--/////////////////////////////////////////////////////////////////////////-->
+            <IconTabBar >
+                <items>
+                    <IconTabFilter icon="sap-icon://home" text="More info"></IconTabFilter>
+                    <IconTabFilter icon="sap-icon://supplier" text="Supplier"></IconTabFilter>
+                    <IconTabFilter icon="sap-icon://functional-location" text="Cities"></IconTabFilter>
+                </items>
+            </IconTabBar>
+<!--/////////////////////////////////////////////////////////////////////////-->
+
+        </content>
+    <footer>
+        <Toolbar>
+<!-- This toolbar spacer responsible for moving the button on the right side -->        
+        <ToolbarSpacer/> 
+            <Button text="Order" type="Emphasized"></Button>
+            <Button text="Remind later" type="Accept"></Button>
+            <Button text="Cancel" type="Reject"></Button>
+        </Toolbar>
+    </footer>
+    </Page>
+</mvc:View>
+
 
 
 ```
