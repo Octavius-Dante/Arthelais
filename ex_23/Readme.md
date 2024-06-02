@@ -7,8 +7,16 @@ As per previous session we have some duplication in our code so we are going to 
 **Introducing Base Controller**
 
 </br>
-
 <img src="./files/base-controller.png">
+</br>
+
+- Base controller is an abstract class
+
+Create base controller in *Controller folder*
+
+</br>
+<img src="./files/ui5e23-1.png">
+</br>
 
 
 </br></br>
