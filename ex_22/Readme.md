@@ -501,7 +501,7 @@ So far we did the master detail page with some view changes - the exact naming c
 
 ```
 
-</br></br>
+</br>
 
 *View1.controller.js*
 
@@ -517,7 +517,7 @@ So far we did the master detail page with some view changes - the exact naming c
 
 ```
 
-</br></br>
+</br>
 
 **Browser developer tools - when debugger triggered**
 
