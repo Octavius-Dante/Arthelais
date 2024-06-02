@@ -706,6 +706,9 @@ So far we did the master detail page with some view changes - the exact naming c
 ```
 
 
+</br></br>
+
+
 <details>
 <summary> <b> View1.controller.js - Full code </b> </summary>
 </br>
