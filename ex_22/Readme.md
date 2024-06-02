@@ -766,18 +766,21 @@ sap.ui.define([
             this.Router.getRoute("Detail").attachPatternMatched(this.hercules, this);
         },
 
+// TYPE 1  :        
         hercules: function (oEvent) {
             var fruitId = oEvent.getParameter("arguments").fruitId;
             var sPath = '/fruits/' + fruitId;
             var oList = this.getView().byId("idList");
-            var element = {}; 
-            if (oList.getItems().length > 0){
-                // loop all the items in the model and look for the selected path - get the path and break the loop 
-                for (let i = 0; i < oList.getItems().length; i++) {
-                    element = oList.getItems()[i];
-                    if (element.getBindingContextPath() === sPath) {
-                        oList.setSelectedItem(element);
-                        break;
+            var element = {}; // variabel place holder for holdign the value -- WORKAREA
+            if (oList.getItems().length > 0){  // Internal table is not initial check 
+                
+                // loop all the items in the model and look for the selected path 
+                // - get the path and set it and break the loop 
+                for (let i = 0; i < oList.getItems().length; i++) {  // looping the internal table record for locating the values 
+                    element = oList.getItems()[i];                   // assignment of table record to WORKAREA (based on loop index)
+                    if (element.getBindingContextPath() === sPath) { // searching for the path in WORKAREA
+                        oList.setSelectedItem(element); // setting the value to screen object from WORKAREA 
+                        break; // once the item is identified and screen element is set close the search or break the loop 
                     }
                 }
                 // // then set the retrieved path
@@ -787,6 +790,14 @@ sap.ui.define([
             }
 
         },
+
+// // // TYPE 2  : 
+//         hercules: function (oEvent) {
+//             var fruitId = oEvent.getParameter("arguments").fruitId;
+//             var sPath = '/fruits/' + fruitId;
+//             var oList = this.getView().byId("idList");
+//             oList.setSelectedItem(sPath);
+//         }
 
         onNext: function () {
             // Step 1 : get the parent control object - Container for our view 
