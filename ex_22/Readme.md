@@ -727,6 +727,7 @@ So far we did the master detail page with some view changes - the exact naming c
 *Alternative way to write above code but its a best practice to locate the value*
 
 *-- what if the values are changed or removed during some activity in run time the above solution is best*
+
 *-- when there is no model change functionality in runtime - below solution is best*
 
 ```js
