@@ -11,9 +11,11 @@ the exact reason is browser should launch the link with a server port
 - earlier it worked now its not working
 - so work around is
 
+</br>
+
 **Remember these 3 steps**
 
-1. Select the *index.html* file 
+1. Select the *index.html* file in your project folder
 
 2. In command palette Type '> **live**' 
 
