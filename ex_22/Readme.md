@@ -429,7 +429,6 @@ So far we did the master detail page with some view changes - the exact naming c
 
 **Earlier in our session we did element binding - selection of 1 item in table control is displayed in simple form now the same concept will implement here on select of a fruit item in master page the fruit detail should be displayed in detail page**
 
-
 *View2.controller.js*
 
 ```js
@@ -445,6 +444,8 @@ So far we did the master detail page with some view changes - the exact naming c
 
 ```
 
+</br></br>
+
 **SAP ui5 SDK page**
 
 <details>
@@ -458,6 +459,7 @@ So far we did the master detail page with some view changes - the exact naming c
 </br>
 </details>
 
+</br></br>
 
 **Investigating what happens** --- on click of the item this view 2 is accessed and this function is called 
 
@@ -479,6 +481,7 @@ So far we did the master detail page with some view changes - the exact naming c
     }
 
 ```
+</br></br>
 
 **The View change is happening only once and it has to be unique according to the fruit name**
 
