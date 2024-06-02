@@ -23,14 +23,47 @@ Create base controller in *Controller folder*
 
 </br> 
 
-*BaseController.js*
+Code block from *View1.controller.js* we are going to replace
 
 ```js
 
 
 
+
 ```
 
+</br></br>  
+
+Code block from *View2.controller.js* we are going to replace
+
+```js
+
+
+
+
+```
+
+</br></br> 
+
+*BaseController.js*
+
+```js
+
+sap.ui.define([
+    'sap/ui/core/mvc/Controller'
+], function(Controller){
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.BaseController", {
+        extractPath: function(oEvent){
+            var fruitId = oEvent.getParameter("arguments").fruitId;
+            return '/fruits/' + fruitId;            
+        }
+    });
+});
+
+```
+
+</br> 
 
 
 
