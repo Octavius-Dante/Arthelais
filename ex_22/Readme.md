@@ -706,6 +706,42 @@ So far we did the master detail page with some view changes - the exact naming c
 ```
 
 
+<details>
+<summary> <b> View1.controller.js - Full code </b> </summary>
+</br>
+</br>
+
+*View1.controller.js*
+
+```js
+
+
+
+```
+
+</br>
+</br>
+</details>
+
+
+<details>
+<summary> <b> View2.controller.js - Full code </b> </summary>
+</br>
+</br>
+
+*View1.controller.js*
+
+```js
+
+
+
+```
+
+</br>
+</br>
+</details>
+
+
 
 </br></br>
 </br></br>
