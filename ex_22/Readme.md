@@ -626,9 +626,9 @@ So far we did the master detail page with some view changes - the exact naming c
 
 **Execution ended up in not displaying the second view upon selecting the items**
 
-<img src="./files/ui5e22-11.png" >
+<img src="./files/ui5e22-13.png" >
 </br>
-<img src="./files/ui5e22-12.png" >
+<img src="./files/ui5e22-14.png" >
 
 </br></br>
 
@@ -656,6 +656,21 @@ So far we did the master detail page with some view changes - the exact naming c
 
 ```
 </br></br>
+
+**Testting**
+
+
+</br>
+<img src="./files/ui5e22-15.png" >
+</br>
+<img src="./files/ui5e22-16.png" >
+</br>
+<img src="./files/ui5e22-17.png" >
+</br>
+<img src="./files/ui5e22-18.png" >
+</br>
+
+
 
 
 
