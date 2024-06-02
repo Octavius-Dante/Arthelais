@@ -532,6 +532,8 @@ So far we did the master detail page with some view changes - the exact naming c
 </br>
 </details>
 
+</br>
+
 **Testing**
 
 <details>
@@ -550,11 +552,24 @@ So far we did the master detail page with some view changes - the exact naming c
 </details>
 
 
+</br></br>
 
 
+**Steps summary**
 
+1. Added a Route Configuration for detail view
 
+2 . On item selection we called the Route using Router loaded detail view
 
+3. Create an event handler which trigger whenever the detail view is loaded using Pattern Matched event of Router, 
+</br> the name of the method was *Hercules (PBO)*
+
+4. We want every fruit selection a new end point, so we added a parameter *(fruitId)* in manifest json for pattern.
+
+5. The value of the variable is passed from fruit is selected in first view, we pass the ID of the fruit taken from item selection event, 
+</br>This is path of the memory where the fruit is stored
+
+6. Element binding we are yet to apply that now 
 
 
 
