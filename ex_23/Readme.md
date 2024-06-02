@@ -99,7 +99,7 @@ sap.ui.define([
 
 
 </br>
-<img src="./files/ui5e23-1.png">
+<img src="./files/ui5e23-2.png">
 </br>
 
 
