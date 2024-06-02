@@ -332,6 +332,12 @@ sap.ui.define([
 </br></br>
 
 
+**App performs the in the same way after making all the changes but why we implemented it ? --- REUSABILITY - Proper SAP standard way**
+
+
+</br></br>
+
+
 ## Adding business object on the right side detail page 
 
 
