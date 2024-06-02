@@ -13,7 +13,7 @@ the exact reason is browser should launch the link with a server port
 
 </br>
 
-**Remember these 3 steps**
+**Remember these 3 steps --- First time**
 
 1. Select the *index.html* file in your project folder
 
@@ -25,6 +25,9 @@ the exact reason is browser should launch the link with a server port
 
 <img src="./files/ui5e8_1.png" >
 
+</br>
+
+**Remember these 2 steps --- Second time**
 
 </br> Above method is first time once the port is active next time onwards can select port option 
 </br> in the window *(right side below)* then command palette will show the options (like first image) 
