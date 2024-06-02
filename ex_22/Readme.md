@@ -472,7 +472,7 @@ So far we did the master detail page with some view changes - the exact naming c
         this.Router.getRoute("Detail").attachPatternMatched(this.hercules);
     },
 
-    hercules: function(){
+    hercules: function(oEvent){
         debugger;
     },
 
@@ -589,12 +589,37 @@ So far we did the master detail page with some view changes - the exact naming c
 5. The value of the variable is passed from fruit is selected in first view, we pass the ID of the fruit taken from item selection event, 
 </br>This is path of the memory where the fruit is stored
 
-6. Element binding we are (going to apply that now) 
+6. Element binding in *view2* *hercules* method we are finally binding the path of the element with the second view
+
+
+</br></br>
+
+<details>
+<summary> Checking the debugger for value in view 2 </summary>
+</br>
+</br>
+<img src="./files/ui5e22-11.png" >
+</br>
+<img src="./files/ui5e22-12.png" >
+</br>
+</br>
+</details>
+
+</br>
+
+*View2.controller.js*
+
+```js
+
+    hercules: function(oEvent){
+        var fruitId =  oEvent.getParameter("arguments").fruitId;
+        var sPath = '/fruits/' + fruitId;
+        this.getView().bindElement(sPath); // Binding with /fruits/<fruitID>
+    },
 
 
 
-
-
+```
 
 
 
