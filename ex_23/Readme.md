@@ -32,7 +32,7 @@ Code block from *View1.controller.js* we are going to replace
 
 ```
 
-</br></br>  
+</br>
 
 Code block from *View2.controller.js* we are going to replace
 
@@ -72,7 +72,7 @@ sap.ui.define([
 
 ```
 
-</br></br> 
+</br>
 
 *Code changes in -- View2.controller.js*
 
