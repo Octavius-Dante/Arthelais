@@ -629,7 +629,7 @@ So far we did the master detail page with some view changes - the exact naming c
 
 **Execution ended up in not displaying the second view upon selecting the items**
 
-<img src="./files/ui5e22-13.png" >
+<img src="./files/ui5e22-13a.png" >
 </br>
 <img src="./files/ui5e22-14.png" >
 
