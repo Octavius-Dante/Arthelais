@@ -27,7 +27,7 @@ the exact reason is browser should launch the link with a server port
 
 </br>
 
-**Remember these 2 steps --- Second time**
+**Remember this 1 step --- Second time**
 
 </br> Above method is first time once the port is active next time onwards can select port option 
 </br> in the window *(right side below)* then command palette will show the options (like first image) 
