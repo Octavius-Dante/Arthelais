@@ -180,7 +180,9 @@ sap.ui.define([
         hercules: function (oEvent) {
             // var fruitId = oEvent.getParameter("arguments").fruitId;
             // var sPath = '/fruits/' + fruitId;
+///////////////////////////////////////////////////////             
             var sPath = this.extractPath(oEvent);
+///////////////////////////////////////////////////////             
             var oList = this.getView().byId("idList");
             var element = {}; // variabel place holder for holdign the value -- WORKAREA
             if (oList.getItems().length > 0){  // Internal table is not initial check 
@@ -309,7 +311,9 @@ sap.ui.define([
             // debugger;
             // var fruitId =  oEvent.getParameter("arguments").fruitId;
             // var sPath = '/fruits/' + fruitId;
+///////////////////////////////////////////////////////             
             var sPath = this.extractPath(oEvent);
+///////////////////////////////////////////////////////             
             this.getView().bindElement(sPath); // Binding with /fruits/<fruitID> - absolute path
         }
     });
