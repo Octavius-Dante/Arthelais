@@ -687,7 +687,7 @@ So far we did the master detail page with some view changes - the exact naming c
 
 </br>
 
-*for better understanding of what is said here just download (ex_22-2.zip) and execute the file and see for yourself*
+*for better understanding of what is said here just download (ex_22-1.zip and ex_22-2.zip) and execute both the files and compare the difference and see for yourself*
 
 </br>
 
