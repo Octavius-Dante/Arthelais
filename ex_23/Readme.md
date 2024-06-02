@@ -401,11 +401,11 @@ controllerName="ntt.hr.payroll.controller.View2">
 
             <ObjectHeader intro="{healthBenefit}" title="{name}" icon="{image}" 
             number="{price}" numberUnit="{curr}" ></ObjectHeader>
-            
+
 <!--/////////////////////////////////////////////////////////////////////////-->
             <IconTabBar >
                 <items>
-                    <IconTabFilter icon="sap-icon://home" text="More info"></IconTabFilter>
+                    <IconTabFilter icon="sap-icon://display-more" text="More info"></IconTabFilter>
                     <IconTabFilter icon="sap-icon://supplier" text="Supplier"></IconTabFilter>
                     <IconTabFilter icon="sap-icon://functional-location" text="Cities"></IconTabFilter>
                 </items>
