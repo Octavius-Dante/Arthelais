@@ -707,15 +707,16 @@ So far we did the master detail page with some view changes - the exact naming c
         var fruitId = oEvent.getParameter("arguments").fruitId;
         var sPath = '/fruits/' + fruitId;
         var oList = this.getView().byId("idList");
-        var element = {}; 
-        if (oList.getItems().length > 0){
+        var element = {}; // variabel place holder for holdign the value -- WORKAREA
+        if (oList.getItems().length > 0){  // Internal table is not initial check 
+            
             // loop all the items in the model and look for the selected path 
             // - get the path and set it and break the loop 
-            for (let i = 0; i < oList.getItems().length; i++) {
+            for (let i = 0; i < oList.getItems().length; i++) {  // looping the internal table for locating the values 
                 element = oList.getItems()[i];
-                if (element.getBindingContextPath() === sPath) {
-                    oList.setSelectedItem(element);
-                    break;
+                if (element.getBindingContextPath() === sPath) { // searching for the element 
+                    oList.setSelectedItem(element); // setting the value to screen element
+                    break; // once the item is identified close the search or break the loop 
                 }
             }
         }
