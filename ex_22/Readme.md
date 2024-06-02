@@ -679,6 +679,8 @@ So far we did the master detail page with some view changes - the exact naming c
 
 ## When the item is selected and the view is changed -- when we grab the link and reload it again, the view appears but the master page selection is not selected 
 
+</br>
+
 
 *Code correction*
 
