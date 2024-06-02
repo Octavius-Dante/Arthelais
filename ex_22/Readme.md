@@ -665,7 +665,9 @@ So far we did the master detail page with some view changes - the exact naming c
 **Testing**
 
 
-</br>
+<details>
+<summary> <b> Tested images for reference </b> </summary>
+</br></br>
 <img src="./files/ui5e22-15.png" >
 </br>
 <img src="./files/ui5e22-16.png" >
@@ -673,7 +675,9 @@ So far we did the master detail page with some view changes - the exact naming c
 <img src="./files/ui5e22-17.png" >
 </br>
 <img src="./files/ui5e22-18.png" >
-</br>
+</br></br>
+</details>
+
 
 
 </br></br>
