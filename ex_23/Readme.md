@@ -11,7 +11,7 @@ As per previous session we have some duplication in our code so we are going to 
 </br>
 
 - Base controller is an abstract class (object cannot be directly instantiated) that's the reason (base.controller name was not used)
-- it doesn't belong to any view 
+- Base controller doesn't belong to any view 
 
 Create base controller in *Controller folder*
 
