@@ -641,21 +641,23 @@ So far we did the master detail page with some view changes - the exact naming c
 ```js
 
     onInit: function(){
-        this.Router = this.getOwnerComponent().getRouter();     
+        // So we are getting the same 
+        this.oRouter = this.getOwnerComponent().getRouter();
         // this.Router.getRoute("Detail").attachPatternMatched(this.hercules);
-        this.Router.getRoute("Detail").attachPatternMatched(this.hercules, this);
+        this.oRouter.getRoute("Detail").attachPatternMatched(this.hercules, this);
+    },
+
+    onBack: function(oEvent){
+        // this.getView().getParent().to("idView1");  
+        this.oRouter.navTo("Master") ;          
     },
 
     hercules: function(oEvent){
         // debugger;
         var fruitId =  oEvent.getParameter("arguments").fruitId;
         var sPath = '/fruits/' + fruitId;
-        this.getView().bindElement(sPath); // Binding with /fruits/<fruitID>
-    },
-
-    onFruitSelect: function(oEvent){
-        this.Router.navTo("Master") ;
-    }
+        this.getView().bindElement(sPath); // Binding with /fruits/<fruitID> - absolute path
+    }    
 
 ```
 </br></br>
@@ -681,33 +683,43 @@ So far we did the master detail page with some view changes - the exact naming c
 
 </br>
 
+*for better understanding of what is said here just download (ex_22-2.zip) and execute the file and see for yourself*
+
+</br>
 
 *Code correction*
 
 
-*View1.controller.js*
+*View1.controller.js* --- Code snip
 
 ```js
 
+    onInit: function () {
+        this.Router = this.getOwnerComponent().getRouter();
+        this.Router.getRoute("Detail").attachPatternMatched(this.hercules, this);
+    },
+
+    hercules: function (oEvent) {
+        var fruitId = oEvent.getParameter("arguments").fruitId;
+        var sPath = '/fruits/' + fruitId;
+        var oList = this.getView().byId("idList");
+        var element = {}; 
+        if (oList.getItems().length > 0){
+            // loop all the items in the model and look for the selected path 
+            // - get the path and set it and break the loop 
+            for (let i = 0; i < oList.getItems().length; i++) {
+                element = oList.getItems()[i];
+                if (element.getBindingContextPath() === sPath) {
+                    oList.setSelectedItem(element);
+                    break;
+                }
+            }
+        }
+    },
 
 ```
 
 </br></br>
-
-
-*Code correction*
-
-
-*View2.controller.js*
-
-```js
-
-
-```
-
-
-</br></br>
-
 
 <details>
 <summary> <b> View1.controller.js - Full code </b> </summary>
@@ -718,7 +730,108 @@ So far we did the master detail page with some view changes - the exact naming c
 
 ```js
 
+sap.ui.define([
+    'sap/ui/core/mvc/Controller',
+    'sap/ui/model/Filter',
+    'sap/ui/model/FilterOperator'
+], function (Controller, Filter, FilterOperator) {
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.View1", {
+        onInit: function () {
+            this.Router = this.getOwnerComponent().getRouter();
+            this.Router.getRoute("Detail").attachPatternMatched(this.hercules, this);
+        },
 
+        hercules: function (oEvent) {
+            var fruitId = oEvent.getParameter("arguments").fruitId;
+            var sPath = '/fruits/' + fruitId;
+            var oList = this.getView().byId("idList");
+            var element = {}; 
+            if (oList.getItems().length > 0){
+                // loop all the items in the model and look for the selected path - get the path and break the loop 
+                for (let i = 0; i < oList.getItems().length; i++) {
+                    element = oList.getItems()[i];
+                    if (element.getBindingContextPath() === sPath) {
+                        oList.setSelectedItem(element);
+                        break;
+                    }
+                }
+                // // then set the retrieved path
+                // if (element) {
+                //     oList.SetSelectedItem(element);
+                // }
+            }
+
+        },
+
+        onNext: function () {
+            // Step 1 : get the parent control object - Container for our view 
+            var oAppCon = this.getView().getParent();
+            // Step 2 : ask parent to nav to next view 
+            oAppCon.to("idView2");
+        },
+
+        onItemClick: function () {
+            // this - is my current class object - which is our controller
+            this.onNext();
+        },
+
+        onSearch: function (oEvent) {
+            // Step 1 : What is teh user type in search field
+            var sSearch = oEvent.getParameter("query");
+
+            // Live Change 
+            if (sSearch === "" || sSearch === undefined) {
+                sSearch = oEvent.getParameter("newValue");
+            }
+
+            // Step 2 : Construct a Filter object with operand and operator
+            var oFilter = new Filter("name", FilterOperator.Contains, sSearch);
+            var oFilter2 = new Filter("taste", FilterOperator.Contains, sSearch); // implementing search parameter 2 
+            var aFilter = [oFilter, oFilter2];
+            var oMaster = new Filter({
+                filters: aFilter,
+                and: false // when AND = FALSE that means -search filter is defiend with- OR = TRUE
+            })
+
+            // Step 3 : get the list object 
+            var oList = this.getView().byId("idList");
+
+            // Step 4 : inject the filter to the list 
+            oList.getBinding("items").filter(oMaster); // New multi condition search paramter 
+
+        },
+
+        onNavNext: function (oEvent) {
+            this.onNext();
+        },
+
+        onDelete: function (oEvent) {
+            // Step 1 : Find out which item was selected for deletion
+            var oSelected = oEvent.getParameter("listItem");
+            // Step 2 : Get the model object
+            var oList = oEvent.getSource();
+            // Step 3 : Remove the item from the list 
+            oList.removeItem(oSelected);
+        },
+
+        onDeleteItems: function (oEvent) {
+            var oList = this.getView().byId("idList");
+            var aSelectedItems = oList.getSelectedItems();
+            aSelectedItems.forEach(item => {
+                oList.removeItem(item);
+            });
+        },
+        onFruitSelect: function (oEvent) {
+            var oSelectedItem = oEvent.getParameter("listItem");
+            // debugger;
+            this.Router.navTo("Detail", {
+                fruitId: oSelectedItem.getBindingContextPath().split("/")[2]
+            });
+        }
+
+    });
+});
 
 ```
 
@@ -726,28 +839,13 @@ So far we did the master detail page with some view changes - the exact naming c
 </br>
 </details>
 
-
-<details>
-<summary> <b> View2.controller.js - Full code </b> </summary>
-</br>
-</br>
-
-*View1.controller.js*
-
-```js
-
-
-
-```
-
-</br>
-</br>
-</details>
-
-
-
 </br></br>
-</br></br>
+
+
+
+
+
+</br>
 </br></br>
 
 ## End of Exercise 22 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_23"> Exercise 23-Icon Tab bar </a>
