@@ -9,11 +9,15 @@ Live preview and Show preview - will mostly fail due to lack of authorization to
 the exact reason is browser should launch the link with a server port 
 - internal live preview and show preview mostly don't launch with port setting so it fails to load things 
 - earlier it worked now its not working
-- so work around is 
+- so work around is
 
-in command palette Type '> **live**' 
+**Remember these 3 steps**
 
-and select the option shown below in the image > **live preview : Show Preview external browser**' 
+1. Select the *index.html* file 
+
+2. In command palette Type '> **live**' 
+
+3. Select the option shown below in the image > **live preview : Show Preview external browser**' 
 
 </br>
 
