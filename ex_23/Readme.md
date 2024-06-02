@@ -101,7 +101,8 @@ sap.ui.define([
 </br>
 <img src="./files/ui5e23-2.png">
 </br>
-
+<img src="./files/ui5e23-3.png">
+</br>
 
 *Code changes in -- View1.controller.js*
 
@@ -154,7 +155,170 @@ hercules: function(oEvent){
 
 
 
+<details>
+<summary> <b> Full code -- View1 & View2 - controller </b> </summary>
+</br></br>
 
+*View1.controller.js*
+
+```js
+
+sap.ui.define([
+    // 'sap/ui/core/mvc/Controller',
+    'ntt/hr/payroll/controller/BaseController',
+    'sap/ui/model/Filter',
+    'sap/ui/model/FilterOperator'
+], function (Controller, Filter, FilterOperator) {
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.View1", {
+        onInit: function () {
+            this.Router = this.getOwnerComponent().getRouter();
+            this.Router.getRoute("Detail").attachPatternMatched(this.hercules, this);
+        },
+
+// TYPE 1  :        
+        hercules: function (oEvent) {
+            // var fruitId = oEvent.getParameter("arguments").fruitId;
+            // var sPath = '/fruits/' + fruitId;
+            var sPath = this.extractPath(oEvent);
+            var oList = this.getView().byId("idList");
+            var element = {}; // variabel place holder for holdign the value -- WORKAREA
+            if (oList.getItems().length > 0){  // Internal table is not initial check 
+                
+                // loop all the items in the model and look for the selected path 
+                // - get the path and set it and break the loop 
+                for (let i = 0; i < oList.getItems().length; i++) {  // looping the internal table record for locating the values 
+                    element = oList.getItems()[i];                   // assignment of table record to WORKAREA (based on loop index)
+                    if (element.getBindingContextPath() === sPath) { // searching for the path in WORKAREA
+                        oList.setSelectedItem(element); // setting the value to screen object from WORKAREA 
+                        break; // once the item is identified and screen element is set close the search or break the loop 
+                    }
+                }
+                // // then set the retrieved path
+                // if (element) {
+                //     oList.SetSelectedItem(element);
+                // }
+            }
+
+        },
+
+// // // TYPE 2  : directly set the path value to screen element 
+//         hercules: function (oEvent) {
+//             var fruitId = oEvent.getParameter("arguments").fruitId;
+//             var sPath = '/fruits/' + fruitId;
+//             var oList = this.getView().byId("idList");
+//             oList.setSelectedItem(sPath);
+//         }
+
+        onNext: function () {
+            // Step 1 : get the parent control object - Container for our view 
+            var oAppCon = this.getView().getParent();
+            // Step 2 : ask parent to nav to next view 
+            oAppCon.to("idView2");
+        },
+
+        onItemClick: function () {
+            // this - is my current class object - which is our controller
+            this.onNext();
+        },
+
+        onSearch: function (oEvent) {
+            // Step 1 : What is teh user type in search field
+            var sSearch = oEvent.getParameter("query");
+
+            // Live Change 
+            if (sSearch === "" || sSearch === undefined) {
+                sSearch = oEvent.getParameter("newValue");
+            }
+
+            // Step 2 : Construct a Filter object with operand and operator
+            var oFilter = new Filter("name", FilterOperator.Contains, sSearch);
+            var oFilter2 = new Filter("taste", FilterOperator.Contains, sSearch); // implementing search parameter 2 
+            var aFilter = [oFilter, oFilter2];
+            var oMaster = new Filter({
+                filters: aFilter,
+                and: false // when AND = FALSE that means -search filter is defiend with- OR = TRUE
+            })
+
+            // Step 3 : get the list object 
+            var oList = this.getView().byId("idList");
+
+            // Step 4 : inject the filter to the list 
+            oList.getBinding("items").filter(oMaster); // New multi condition search paramter 
+
+        },
+
+        onNavNext: function (oEvent) {
+            this.onNext();
+        },
+
+        onDelete: function (oEvent) {
+            // Step 1 : Find out which item was selected for deletion
+            var oSelected = oEvent.getParameter("listItem");
+            // Step 2 : Get the model object
+            var oList = oEvent.getSource();
+            // Step 3 : Remove the item from the list 
+            oList.removeItem(oSelected);
+        },
+
+        onDeleteItems: function (oEvent) {
+            var oList = this.getView().byId("idList");
+            var aSelectedItems = oList.getSelectedItems();
+            aSelectedItems.forEach(item => {
+                oList.removeItem(item);
+            });
+        },
+        onFruitSelect: function (oEvent) {
+            var oSelectedItem = oEvent.getParameter("listItem");
+            // debugger;
+            this.Router.navTo("Detail", {
+                fruitId: oSelectedItem.getBindingContextPath().split("/")[2]
+            });
+        }
+
+    });
+});
+
+```
+
+</br></br>
+
+*View2.controller.js*
+
+```js
+
+sap.ui.define([
+    // 'sap/ui/core/mvc/Controller'
+    'ntt/hr/payroll/controller/BaseController'
+], function(Controller){
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.View2",{
+        onInit: function(){
+            // So we are getting the same 
+            this.oRouter = this.getOwnerComponent().getRouter();
+            // this.Router.getRoute("Detail").attachPatternMatched(this.hercules);
+            this.oRouter.getRoute("Detail").attachPatternMatched(this.hercules, this);
+        },
+
+        onBack: function(oEvent){
+            // this.getView().getParent().to("idView1");  
+            this.oRouter.navTo("Master") ;          
+        },
+
+        hercules: function(oEvent){
+            // debugger;
+            // var fruitId =  oEvent.getParameter("arguments").fruitId;
+            // var sPath = '/fruits/' + fruitId;
+            var sPath = this.extractPath(oEvent);
+            this.getView().bindElement(sPath); // Binding with /fruits/<fruitID> - absolute path
+        }
+    });
+});
+
+```
+
+</br></br>
+</details>
 
 
 
