@@ -10,7 +10,7 @@ As per previous session we have some duplication in our code so we are going to 
 <img src="./files/base-controller.png">
 </br>
 
-- Base controller is an abstract class
+- Base controller is an abstract class (object cannot be directly instantiated) that's the reason (base.controller name was not used)
 
 Create base controller in *Controller folder*
 
