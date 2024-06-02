@@ -55,7 +55,7 @@ Pre-requisite VSCode or BAS should be installed and active.
 
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Debug"> Debug</a>
 </br>
-<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Show_Preview_Fix"> Show live preview work around</a>
+<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Show_Preview_Fix"> Show live preview --(or)-- Execution </a>
 </br>
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Bindings"> Bindings </a>
 </br>
