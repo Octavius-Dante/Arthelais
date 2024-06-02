@@ -340,6 +340,8 @@ sap.ui.define([
 
 ## Adding business object on the right side detail page 
 
+</br>
+
 
 *View2.view.xml*
 
