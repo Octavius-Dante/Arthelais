@@ -1,5 +1,35 @@
 ## Exercise 24 - Fragments
 
+</br>
+
+**Exercise 1 : from previous session**
+
+*Requirement :* 
+
+- Create a sap.m.Table in the second tab (Supplier) for supplier data.
+- The Columns are (name, since when, city & person name)
+- The City columns must be editable. And when we clikc F4 help of city field, all the cities should come as in a pop-up
+
+</br></br>
+
+**Exercise 2 : from previous session**
+
+*Requirement :* 
+
+- Find out in Ui5 SDk, how can we modularize SAP views 
+
+</br></br>
+
+
+
+
+
+
+
+
+</br>
+
+
 
 </br></br>
 </br></br>
