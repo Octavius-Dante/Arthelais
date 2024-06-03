@@ -598,7 +598,11 @@ sap.ui.define([
 
 ```xml
 
-
+    <IconTabFilter iconColor="Positive" icon="sap-icon://supplier" text="Supplier">
+        <Table >
+        
+        </Table>
+    </IconTabFilter>
 
 ```
 
