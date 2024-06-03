@@ -298,9 +298,44 @@
 
 ```
 
+**I want to display a field in next line in mobile device**
 
+*View2.view.xml*
 
+```xml
 
+    <columns> 
+        <Column >
+            <header>
+                <Text text="Name"/>
+            </header>
+        </Column>
+        <Column >
+            <header>
+                <Text text="City"/>
+            </header>
+        </Column>
+<!--////////////////////////////////////////////////////////-->          
+        <Column minScreenWidth="Tablet" demandPopin="true">
+<!--////////////////////////////////////////////////////////-->          
+            <header>
+                <Text text="Since When"/>
+            </header>
+        </Column>
+        <Column minScreenWidth="Tablet">
+            <header>
+                <Text text="Contact Person"/>
+            </header>
+        </Column>                                                                                                
+    </columns>
+
+```
+
+**Testing**
+
+</br>
+<img src="./files/ui5e24-8.png" >
+</br></br>
 
 
 
