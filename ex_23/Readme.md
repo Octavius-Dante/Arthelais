@@ -454,7 +454,7 @@ controllerName="ntt.hr.payroll.controller.View2">
             <Label text="price"/>
             <!-- Formatter for price with decimal unit-->                            
             <Text text="{
-            parts: [{path : 'price'} {path : 'curr'}],
+            parts: [{path: 'price'},{path: 'curr'}],
             formatter: '.formatter_curr.formatCurrency'
             }" />
             <!-- <Text text="{price} {curr}" /> -->
