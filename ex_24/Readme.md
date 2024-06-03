@@ -158,6 +158,20 @@
 </br></br>
 
 
+**Add value help property to Input field**
+
+```xml
+
+<Input value="{city}" showValueHelp="true"/>
+
+```
+</br>
+
+**Testing**
+
+</br>
+<img src="./files/ui5e24-4.png" >
+</br></br>
 
 
 </br></br></br></br>
