@@ -176,11 +176,42 @@
 
 **Adding function for F4 help**
 
+*View2.view.xml*
+
 ```xml
 
 <Input value="{city}" showValueHelp="true"/>
 
 ```
+
+</br>
+
+*View2.controller.js*
+
+```js
+
+
+
+```
+
+</br>
+
+**Testing**
+
+</br>
+<img src="./files/ui5e24-7.png" >
+</br></br>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
