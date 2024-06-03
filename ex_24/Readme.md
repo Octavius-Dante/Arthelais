@@ -186,18 +186,6 @@
 
 </br>
 
-*View2.controller.js*
-
-```js
-
-    onF4help: function(){
-        alert('This functionality under construction');
-    },
-
-```
-
-</br>
-
 
 **Adding filter - cosmetic - controller not implemented**
 
@@ -247,6 +235,22 @@
             </items>
         </Table>
     </IconTabFilter>
+
+```
+
+</br>
+
+*View2.controller.js*
+
+```js
+
+    onF4help: function(){
+        alert('This functionality under construction');
+    },
+
+    onFilter: function(){
+        alert('This functionality under construction');
+    }
 
 ```
 
