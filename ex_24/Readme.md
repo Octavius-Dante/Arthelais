@@ -204,26 +204,28 @@ sap.ui.define([
 
 </br>
 
+*webapp/util/stockstat.js*
+
 *stockstat.js*
 
 ```js
 
 sap.ui.define([], () => {
-	"use strict";
-	return {
-		statusText(sStatus) {
-			switch (sStatus) {
-				case "available":
-					return 'Success';
-				case "out of stock":
-					return 'Warning';
-				case "discontinued":
-					return 'Error';
-				default:
-					return sStatus;
-			}
-		}
-	};
+    "use strict";
+    return {
+        statusText(sStatus) {
+            switch (sStatus) {
+                case "available":
+                    return 'Success';
+                case "out of stock":
+                    return 'Warning';
+                case "discontinued":
+                    return 'Error';
+                default:
+                    return sStatus;
+            }
+        }
+    };
 });
 
 ```
