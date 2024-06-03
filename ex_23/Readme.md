@@ -405,9 +405,9 @@ controllerName="ntt.hr.payroll.controller.View2">
 <!--/////////////////////////////////////////////////////////////////////////-->
             <IconTabBar >
                 <items>
-                    <IconTabFilter icon="sap-icon://display-more" text="More info"></IconTabFilter>
-                    <IconTabFilter icon="sap-icon://supplier" text="Supplier"></IconTabFilter>
-                    <IconTabFilter icon="sap-icon://functional-location" text="Cities"></IconTabFilter>
+                    <IconTabFilter iconColor="Default" icon="sap-icon://sales-order-item" text="More info"></IconTabFilter>
+                    <IconTabFilter iconColor="Positive" icon="sap-icon://supplier" text="Supplier"></IconTabFilter>
+                    <IconTabFilter iconColor="Negative" icon="sap-icon://functional-location" text="Cities"></IconTabFilter>
                 </items>
             </IconTabBar>
 <!--/////////////////////////////////////////////////////////////////////////-->
@@ -424,7 +424,6 @@ controllerName="ntt.hr.payroll.controller.View2">
     </footer>
     </Page>
 </mvc:View>
-
 
 
 ```
