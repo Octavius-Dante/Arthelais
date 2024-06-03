@@ -380,7 +380,9 @@
 
 **Implementing fragments**
 
-
+</br>
+<img src="./files/ui5e24-9.png" >
+</br></br>
 
 
 
