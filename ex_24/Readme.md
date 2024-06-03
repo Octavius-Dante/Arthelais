@@ -358,9 +358,22 @@
 **Answer is - FRAGMENTS**
 
 
-</br></br></br></br>
+</br></br>
 
 
+
+## Fragments - Introduction 
+
+
+</br>
+
+**What is fragment ? Why do we use it ?**
+
+- Fragments are light weight UI parts, They are used to modularize our view content. 
+- A fragment created once can be reused multiple times.
+- A fragment unlike view does not have its own controller.
+
+ 
 
 
 
