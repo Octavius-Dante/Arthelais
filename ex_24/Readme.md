@@ -373,9 +373,9 @@
 - A fragment created once can be reused multiple times.
 - A fragment unlike view does not have its own controller.
 
- 
-
-
+</br>
+<img src="./files/fragments-concept.png">
+</br></br>
 
 
 
