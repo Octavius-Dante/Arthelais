@@ -176,6 +176,11 @@
 
 **Adding Custom formatter for product stock**
 
+<details>
+<summary> <b> custom formatter code + tested image </b> </summary>
+</br>
+</br>
+
 *BaseController.js*
 
 ```js
@@ -286,6 +291,11 @@ sap.ui.define([], () => {
 </br>
 <img src="./files/ui5e24-6.png" >
 </br></br>
+
+</br>
+</br>
+</details>
+
 
 
 </br></br></br></br>
