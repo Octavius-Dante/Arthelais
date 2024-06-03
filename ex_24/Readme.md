@@ -340,7 +340,7 @@
 <img src="./files/ui5e24-8.png" >
 </br>
 
-*Demond-Popin only available in sap.m.table*
+*Demond-Popin property is only available in sap.m.table*
 
 </br></br>
 
