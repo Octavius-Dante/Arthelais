@@ -174,6 +174,65 @@
 </br></br>
 
 
+**Adding function for F4 help**
+
+```xml
+
+<Input value="{city}" showValueHelp="true"/>
+
+```
+
+
+
+
+
+
+
+
+</br></br></br></br>
+
+
+**Exercise 2 : from previous session**
+
+*Requirement :* 
+
+- Find out in Ui5 SDK, how can we modularize SAP views 
+
+</br></br>
+
+
+</br></br></br></br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</br></br></br></br>
+
+
 **Adding Custom formatter for product stock**
 
 <details>
@@ -302,40 +361,6 @@ sap.ui.define([], () => {
 </br>
 </br>
 </details>
-
-
-
-</br></br></br></br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Exercise 2 : from previous session**
-
-*Requirement :* 
-
-- Find out in Ui5 SDK, how can we modularize SAP views 
-
-</br></br>
-
-
-
-
-
-
-
-
-</br>
-
 
 
 </br></br>
