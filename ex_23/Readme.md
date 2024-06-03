@@ -526,9 +526,17 @@ sap.ui.define([
 
 **Adding details to other tabs**
 
+```xml
+    
+    <IconTabFilter iconColor="Negative" icon="sap-icon://functional-location" text="Cities">
+    <!-- Dropdown declaration - allcities will be listed in drop down as item -->
+        <Select  items="{/cities}" >
+    <!-- items belongs to core namespace so include it in top -->      
+        <core:Item text="{cityName}" key="{cityName}" />                      
+        </Select>
+    </IconTabFilter>
 
-
-
+```
 
 
 </br></br>
