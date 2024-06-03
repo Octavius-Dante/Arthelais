@@ -502,11 +502,11 @@ sap.ui.define([
 
 sap.ui.define([
     'sap/ui/core/mvc/Controller',
-    'ntt/hr/payroll/util/formatter'
-], function(Controller, Formatter){
+    'ntt/hr/payroll/util/formatter'  // formatter.js included as dependency
+], function(Controller, Formatter){  // formatter passed as argument
     'use strict';
     return Controller.extend("ntt.hr.payroll.controller.BaseController", {
-        formatter_curr : Formatter,
+        formatter_curr : Formatter, // global variable declared for usage in every places
         extractPath: function(oEvent){
             var fruitId = oEvent.getParameter("arguments").fruitId;
             return '/fruits/' + fruitId;            
@@ -522,6 +522,11 @@ sap.ui.define([
 </br>
 <img src="./files/ui5e23-7.png">
 </br></br>
+
+
+**Adding details to other tabs**
+
+
 
 
 
