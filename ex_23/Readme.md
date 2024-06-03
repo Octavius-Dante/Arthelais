@@ -466,6 +466,8 @@ controllerName="ntt.hr.payroll.controller.View2">
 
 ```
 
+</br>
+
 **We will add formatter for price to display with decimal unit**
 
 </br>
@@ -477,7 +479,7 @@ controllerName="ntt.hr.payroll.controller.View2">
 ```js
 
 sap.ui.define([
-  "sap/ui/core/foramt/NumberFormat"
+  "sap/ui/core/format/NumberFormat"
 ], function(NumberFormat) {
     'use strict';
     return{
@@ -490,6 +492,8 @@ sap.ui.define([
 
 ```
 
+</br>
+
 **Include the formatter.js like a library in BaseController.js**
 
 *BaseController.js*
@@ -498,11 +502,11 @@ sap.ui.define([
 
 sap.ui.define([
     'sap/ui/core/mvc/Controller',
-    'ntt/hr/payroll/util/formatter' // formatter is included as dependency
-], function(Controller, formatter){ // formatter is defined
+    'ntt/hr/payroll/util/formatter'
+], function(Controller, Formatter){
     'use strict';
     return Controller.extend("ntt.hr.payroll.controller.BaseController", {
-        formatter_curr : formatter, // formatter is declared
+        formatter_curr : Formatter,
         extractPath: function(oEvent){
             var fruitId = oEvent.getParameter("arguments").fruitId;
             return '/fruits/' + fruitId;            
@@ -511,6 +515,14 @@ sap.ui.define([
 });
 
 ```
+</br>
+
+**Testing**
+
+</br>
+<img src="./files/ui5e23-7.png">
+</br></br>
+
 
 
 
