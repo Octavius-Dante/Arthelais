@@ -12,19 +12,49 @@
 
 </br>
 
-
 *View2.view.xml*
 
 ```xml
 
-
+    <IconTabFilter iconColor="Positive" icon="sap-icon://supplier" text="Supplier">
+        <Table >
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////-->
+            <columns> 
+                <Column >
+                    <header>
+                        <Text text="Name"/>
+                    </header>
+                </Column>
+                <Column >
+                    <header>
+                        <Text text="City"/>
+                    </header>
+                </Column>
+                <Column >
+                    <header>
+                        <Text text="Since When"/>
+                    </header>
+                </Column>
+                <Column >
+                    <header>
+                        <Text text="Contact Person"/>
+                    </header>
+                </Column>                                                                                                
+            </columns>
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////-->
+        </Table>
+    </IconTabFilter>
 
 
 ```
 
+</br>
 
+**Testing**
 
-
+</br>
+<img src="./files/ui5e24-1.png" >
+</br></br>
 
 
 
