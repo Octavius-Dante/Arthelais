@@ -57,7 +57,7 @@
 </br></br>
 
 
-
+*Difference between sap.m.table and sap.ui.table is sap.mp.table will dsiplay the table even if it has no data but ui.table will be displayed only if has data*
 
 
 
