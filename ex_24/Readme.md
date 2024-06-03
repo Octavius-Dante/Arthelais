@@ -57,10 +57,70 @@
 </br></br>
 
 
-*Difference between sap.m.table and sap.ui.table is sap.m.table will display the table even if it has no data but ui.table will be displayed only it has data*
+**Difference between sap.m.table and sap.ui.table**
+
+- *The ui.table will not display columns if we do not do binding with rows but the sap.m.table will display the columns always.*
+
+- *The sap.m.table is a list eventually and all the properties we worked with list control works out of the box* 
+*control extends from parent base class (sap.m.ListBase) - list modes -single select left, master select, multi select, delete, navigation everything works*
+
+- 
 
 
 
+</br></br> 
+
+*View2.view.xml* --- *adding items*
+
+```xml
+
+    <IconTabFilter iconColor="Positive" icon="sap-icon://supplier" text="Supplier">
+        <Table items="{/supplier}">
+            <columns> 
+                <Column >
+                    <header>
+                        <Text text="Name"/>
+                    </header>
+                </Column>
+                <Column >
+                    <header>
+                        <Text text="City"/>
+                    </header>
+                </Column>
+                <Column >
+                    <header>
+                        <Text text="Since When"/>
+                    </header>
+                </Column>
+                <Column >
+                    <header>
+                        <Text text="Contact Person"/>
+                    </header>
+                </Column>                                                                                                
+            </columns>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////-->
+            <items>
+                <ColumnListItem >
+                    <Text text="{name}"/>
+                    <Input value="{city}"/>
+                    <Text text="{sinceWhen}"/>
+                    <Link text="{person}"></Link>
+                </ColumnListItem>
+            </items>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////-->
+        </Table>
+    </IconTabFilter>
+
+
+```
+
+</br>
+
+**Testing**
+
+</br>
+<img src="./files/ui5e24-2.png" >
+</br></br>
 
 
 
