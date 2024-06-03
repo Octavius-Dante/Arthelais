@@ -575,7 +575,20 @@ sap.ui.define([
 <img src="./files/ui5e23-9.png">
 </br>
 
-
+<details>
+<summary> <b> Multi Combo Box testing </b> </summary>
+</br>
+</br>
+<img src="./files/ui5e23-9a.png">
+</br>
+<img src="./files/ui5e23-9b.png">
+</br>
+<img src="./files/ui5e23-9c.png">
+</br>
+<img src="./files/ui5e23-9d.png">
+</br>
+</br>
+</details>
 
 
 
