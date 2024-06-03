@@ -472,9 +472,39 @@ controllerName="ntt.hr.payroll.controller.View2">
 
 ```js
 
+sap.ui.define([
+  "sap/ui/core/foramt/NumberFormat"
+], function(NumberFormat) {
+    'use strict';
+    return{
+        formatCurrency : function(amount, currency){
+            var oCurrencyFormat = NumberFormat.getCurrencyInstance();
+            return oCurrencyFormat.format(amount, currency);
+        }
+    }
+});
 
+```
 
+**Include the formatter.js like a library in BaseController.js**
 
+*BaseController.js*
+
+```js
+
+sap.ui.define([
+    'sap/ui/core/mvc/Controller',
+    'ntt/hr/payroll/util/formatter' // formatter is included as dependency
+], function(Controller, formatter){ // formatter is defined
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.BaseController", {
+        formatter_curr : formatter, // formatter is declared
+        extractPath: function(oEvent){
+            var fruitId = oEvent.getParameter("arguments").fruitId;
+            return '/fruits/' + fruitId;            
+        }
+    });
+});
 
 ```
 
