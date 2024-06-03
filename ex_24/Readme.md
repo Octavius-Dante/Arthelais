@@ -344,22 +344,18 @@
 
 </br></br>
 
-
-
-
-
-
-
-</br></br></br></br>
+</br>
 
 
 **Exercise 2 : from previous session**
 
 *Requirement :* 
 
-- Find out in Ui5 SDK, how can we modularize SAP views 
+- Find out in Ui5 SDK, how can we modularize SAP views ?
 
 </br></br>
+
+**Answer is - FRAGMENTS**
 
 
 </br></br></br></br>
