@@ -263,6 +263,29 @@ sap.ui.define([], () => {
 <img src="./files/ui5e24-5.png" >
 </br></br>
 
+</br>
+
+**Text with highlighted color**
+
+</br>
+
+```xml
+
+<firstStatus>        
+<!-- Implemented Custom formatter for produst stock-->
+    <ObjectStatus text="{stock}" 
+    state="{ path: 'stock',
+    formatter: '.stock_status.statusText'}" inverted="true">
+    </ObjectStatus>
+</firstStatus>
+
+```
+
+**Testing**
+
+</br>
+<img src="./files/ui5e24-6.png" >
+</br></br>
 
 
 </br></br></br></br>
