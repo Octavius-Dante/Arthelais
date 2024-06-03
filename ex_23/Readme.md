@@ -616,8 +616,45 @@ sap.ui.define([
 </br>
 
 
+**Small Margin spacing for screen element**
+
+</br>
+
+*View2.view.xml*
+
+```xml
+
+<IconTabFilter iconColor="Default" icon="sap-icon://sales-order-item" text="More info">
+    <f:SimpleForm >
+        <Label text="Colour"/>
+        <Text text="{color}" />
+<!--///////////////////////////////////////////////////////////////-->        
+        <Label text="Taste" class="sapUiSmallMarginTop"/>
+        <Text text="{taste}" class="sapUiSmallMarginTop"/>
+<!--///////////////////////////////////////////////////////////////-->                
+        <Label text="price"/>
+        <!-- Formatter for price with decimal unit-->                            
+        <Text text="{
+        parts: [{path: 'price'},{path: 'curr'}],
+        formatter: '.formatter_curr.formatCurrency'
+        }" />
+        <!-- <Text text="{price} {curr}" /> -->
+        <Label text="Season"/>
+        <Text text="{season}" />                                                                                    
+    </f:SimpleForm>
+</IconTabFilter>
 
 
+```
+
+</br>
+
+**Testing**
+
+</br>
+<img src="./files/ui5e23-11.png">
+</br>
+</br>
 
 
 
