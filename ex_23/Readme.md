@@ -529,11 +529,21 @@ sap.ui.define([
 ```xml
     
     <IconTabFilter iconColor="Negative" icon="sap-icon://functional-location" text="Cities">
-    <!-- Dropdown declaration - allcities will be listed in drop down as item -->
-        <Select  items="{/cities}" >
-    <!-- items belongs to core namespace so include it in top -->      
-        <core:Item text="{cityName}" key="{cityName}" />                      
-        </Select>
+    <!-- USED FORM FOR ALIGNMENT FO TEXT -->
+        <f:SimpleForm editable="true">
+            <Label text="Dropdown"/>
+            <!-- Dropdown declaration - all cities will be listed in drop down as item -->
+                <Select items="{/cities}" maxWidth="20%">
+            <!-- items belongs to core namespace so include it in top -->      
+                <core:Item text="{cityName}" key="{cityName}" />                      
+                </Select>
+
+            <Label text="Dropdown + Input field ~~ Combo box"/>
+                <ComboBox items="{/cities}" maxWidth="20%">
+            <!-- items belongs to core namespace so include it in top -->      
+                <core:Item text="{cityName}" key="{cityName}" />                      
+                </ComboBox>
+        </f:SimpleForm>
     </IconTabFilter>
 
 ```
@@ -544,10 +554,11 @@ sap.ui.define([
 
 </br>
 <img src="./files/ui5e23-8.png">
-</br></br>
+</br>
 
+- *Dropdown blank is not there*
 
-
+- *Combo box allows blank*
 
 
 
