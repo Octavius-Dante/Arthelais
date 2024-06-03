@@ -524,25 +524,35 @@ sap.ui.define([
 </br></br>
 
 
-**Adding details to other tabs**
+**Adding details to other tabs ~~ Dropdown ~~ Combo box ~~ Multi select combo box**
 
 ```xml
     
     <IconTabFilter iconColor="Negative" icon="sap-icon://functional-location" text="Cities">
     <!-- USED FORM FOR ALIGNMENT FO TEXT -->
         <f:SimpleForm editable="true">
+                            
             <Label text="Dropdown"/>
-            <!-- Dropdown declaration - all cities will be listed in drop down as item -->
-                <Select items="{/cities}" maxWidth="20%">
+<!-- Dropdown declaration - all cities will be listed in drop down as item -->
+            <Select items="{/cities}" maxWidth="20%">
             <!-- items belongs to core namespace so include it in top -->      
                 <core:Item text="{cityName}" key="{cityName}" />                      
-                </Select>
+            </Select>
 
             <Label text="Dropdown + Input field ~~ Combo box"/>
-                <ComboBox items="{/cities}" maxWidth="20%">
+<!-- Combo box allows input to search and add input to existing items and also select the exisitng items -->
+            <ComboBox items="{/cities}" maxWidth="20%">
             <!-- items belongs to core namespace so include it in top -->      
                 <core:Item text="{cityName}" key="{cityName}" />                      
-                </ComboBox>
+            </ComboBox>
+
+            <Label text="Dropdown + Input field ~~ Combo box"/>
+<!-- Multi Combo box -->
+            <MultiComboBox items="{/cities}" maxWidth="20%">
+            <!-- items belongs to core namespace so include it in top -->      
+                <core:Item text="{cityName}" key="{cityName}" />                      
+            </MultiComboBox> 
+
         </f:SimpleForm>
     </IconTabFilter>
 
@@ -561,6 +571,9 @@ sap.ui.define([
 - *Combo box allows blank*
 
 
+</br>
+<img src="./files/ui5e23-9.png">
+</br>
 
 
 
