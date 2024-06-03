@@ -570,9 +570,6 @@ sap.ui.define([
 
 - *Combo box allows blank*
 
-
-</br>
-<img src="./files/ui5e23-9.png">
 </br>
 
 <details>
