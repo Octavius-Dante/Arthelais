@@ -174,7 +174,7 @@
 </br></br>
 
 
-**Adding function for F4 help**
+**Adding function for F4 help - cosmetic - controller not implemented**
 
 *View2.view.xml*
 
@@ -190,11 +190,68 @@
 
 ```js
 
-
+    onF4help: function(){
+        alert('This functionality under construction');
+    },
 
 ```
 
 </br>
+
+
+**Adding filter - cosmetic - controller not implemented**
+
+*View2.view.xml*
+
+```xml
+
+    <IconTabFilter iconColor="Positive" icon="sap-icon://supplier" text="Supplier">
+        <Table items="{/supplier}">
+<!--/////////////////////////////////////////////////////////////////////////////////////////////-->                        
+            <headerToolbar>
+                <Toolbar >
+                    <ToolbarSpacer ></ToolbarSpacer>
+                        <Button icon='sap-icon://filter' press="onFilter" />
+                </Toolbar>
+            </headerToolbar>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////-->                            
+            <columns> 
+                <Column >
+                    <header>
+                        <Text text="Name"/>
+                    </header>
+                </Column>
+                <Column >
+                    <header>
+                        <Text text="City"/>
+                    </header>
+                </Column>
+                <Column >
+                    <header>
+                        <Text text="Since When"/>
+                    </header>
+                </Column>
+                <Column >
+                    <header>
+                        <Text text="Contact Person"/>
+                    </header>
+                </Column>                                                                                                
+            </columns>
+            <items>
+                <ColumnListItem >
+                    <Text text="{name}"/>
+                    <Input value="{city}" showValueHelp="true" valueHelpRequest="onF4help"/>
+                    <Text text="{sinceWhen}"/>
+                    <Link text="{person}" press="onLinkPress"></Link>
+                </ColumnListItem>
+            </items>
+        </Table>
+    </IconTabFilter>
+
+```
+
+</br>
+
 
 **Testing**
 
