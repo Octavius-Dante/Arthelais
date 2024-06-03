@@ -123,6 +123,39 @@
 </br></br>
 
 
+**Add link press event**
+
+</br>
+
+*View2.view.xml*
+
+```xml
+
+<Link text="{person}" press="onLinkPress"></Link>
+
+```
+
+</br>
+
+*View2.controller.js*
+
+```js
+
+    onLinkPress: function(oEvent){
+        var sText = oEvent.getSource().getText(); // getting the text from the source using event object
+        sText = 'https://google.com?q=' + sText; // google search query with link text
+        window.open(sText); // open another window
+    }
+
+```
+
+**Testing**
+
+</br>
+<img src="./files/ui5e24-2.png" >
+</br></br>
+
+
 
 
 </br></br></br></br>
