@@ -174,6 +174,95 @@
 </br></br>
 
 
+**Adding Custom formatter for product stock**
+
+*BaseController.js*
+
+```js
+
+sap.ui.define([
+    'sap/ui/core/mvc/Controller',
+    'ntt/hr/payroll/util/formatter',  // formatter.js included as dependency
+///////////////////////////////////////////////////////////////////////    
+    'ntt/hr/payroll/util/stockstat' // stock status dependency added 
+], function(Controller, Formatter, stockstat){  // formatter passed as argument ~~~~ addedd stockstat
+///////////////////////////////////////////////////////////////////////    
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.BaseController", {
+        formatter_curr : Formatter, // global variable declared for usage in every places
+///////////////////////////////////////////////////////////////////////            
+        stock_status : stockstat,  //  added stock stat
+///////////////////////////////////////////////////////////////////////            
+        extractPath: function(oEvent){
+            var fruitId = oEvent.getParameter("arguments").fruitId;
+            return '/fruits/' + fruitId;            
+        }
+    });
+});
+
+```
+
+</br>
+
+*stockstat.js*
+
+```js
+
+sap.ui.define([], () => {
+	"use strict";
+	return {
+		statusText(sStatus) {
+			switch (sStatus) {
+				case "available":
+					return 'Success';
+				case "out of stock":
+					return 'Warning';
+				case "discontinued":
+					return 'Error';
+				default:
+					return sStatus;
+			}
+		}
+	};
+});
+
+```
+
+</br>
+
+*View1.view.xml*
+
+```xml
+
+    <ObjectListItem intro="{taste}" title="{name}"  
+    number="{
+            parts: [{path: 'price'},{path: 'curr'}],
+            formatter: '.formatter_curr.formatCurrency'
+            }" numberUnit="{curr}" 
+    icon="{image}">
+<!--///////////////////////////////////////////////////////////////////////////-->        
+    <firstStatus>        
+    <!-- Implemented Custom formatter for produst stock-->
+            <ObjectStatus text="{stock}" 
+            state="{ path: 'stock',
+            formatter: '.stock_status.statusText'}" >
+            </ObjectStatus>
+    </firstStatus>
+<!--///////////////////////////////////////////////////////////////////////////-->        
+    </ObjectListItem>
+
+```
+
+</br>
+
+**Testing**
+
+</br>
+<img src="./files/ui5e24-5.png" >
+</br></br>
+
+
+
 </br></br></br></br>
 
 
