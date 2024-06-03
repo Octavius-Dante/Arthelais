@@ -298,6 +298,8 @@
 
 ```
 
+</br
+
 **I want to display a field in next line in mobile device**
 
 *View2.view.xml*
@@ -330,6 +332,7 @@
     </columns>
 
 ```
+</br
 
 **Testing**
 
