@@ -186,6 +186,7 @@
 - In formatter function replaced these values with ('Success', 'Warning', 'Error') 
 - Needed colour formatting happens in state section where formatter is used
 
+</br></br>
 
 *BaseController.js*
 
