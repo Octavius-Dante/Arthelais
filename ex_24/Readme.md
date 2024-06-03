@@ -16,7 +16,7 @@
 
 *Requirement :* 
 
-- Find out in Ui5 SDk, how can we modularize SAP views 
+- Find out in Ui5 SDK, how can we modularize SAP views 
 
 </br></br>
 
