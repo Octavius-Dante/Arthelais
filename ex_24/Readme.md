@@ -12,6 +12,43 @@
 
 </br>
 
+
+*View2.view.xml*
+
+```xml
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Exercise 2 : from previous session**
 
 *Requirement :* 
