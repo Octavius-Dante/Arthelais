@@ -546,7 +546,7 @@ sap.ui.define([
                 <core:Item text="{cityName}" key="{cityName}" />                      
             </ComboBox>
 
-            <Label text="Dropdown + Input field ~~ Combo box"/>
+            <Label text="Multi Combo Box"/>
 <!-- Multi Combo box -->
             <MultiComboBox items="{/cities}" maxWidth="20%">
             <!-- items belongs to core namespace so include it in top -->      
