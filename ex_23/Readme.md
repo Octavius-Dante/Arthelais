@@ -468,6 +468,15 @@ controllerName="ntt.hr.payroll.controller.View2">
 <img src="./files/ui5e23-6.png">
 </br>
 
+*formatter.js*
+
+```js
+
+
+
+
+
+```
 
 
 
