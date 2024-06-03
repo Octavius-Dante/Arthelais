@@ -266,8 +266,6 @@
 
 **I don't want to display a field in mobile device but in tablet and desktop**
 
-</br>
-
 *View2.view.xml*
 
 ```xml
@@ -303,8 +301,6 @@
 </br>
 
 **I want to display a field in next line in mobile device**
-
-</br>
 
 *View2.view.xml*
 
