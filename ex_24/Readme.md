@@ -287,7 +287,7 @@ sap.ui.define([], () => {
 <!-- Implemented Custom formatter for produst stock-->
     <ObjectStatus text="{stock}" 
     state="{ path: 'stock',
-    formatter: '.stock_status.statusText'}" inverted="true">
+    formatter: '.stock_status.statusText'}" inverted="true"> <!-- Inverted attribute will highlight the text-->
     </ObjectStatus>
 </firstStatus>
 
