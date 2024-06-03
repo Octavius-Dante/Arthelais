@@ -353,7 +353,7 @@
 
 - Find out in Ui5 SDK, how can we modularize SAP views ?
 
-</br></br>
+</br>
 
 **Answer is - FRAGMENTS**
 
