@@ -445,11 +445,28 @@ controllerName="ntt.hr.payroll.controller.View2">
 
 ```xml
 
-
-
+    <IconTabFilter iconColor="Default" icon="sap-icon://sales-order-item" text="More info">
+        <f:SimpleForm >
+            <Label text="Colour"/>
+            <Text text="{color}" />
+            <Label text="Taste"/>
+            <Text text="{taste}" />
+            <Label text="price"/>
+            <!-- Formatter for price with decimal unit-->                            
+            <Text text="{price} {curr}" />
+            <Label text="Season"/>
+            <Text text="{season}" />                                                                                    
+        </f:SimpleForm>
+    </IconTabFilter>
+                    
 
 ```
 
+**We will add formatter for price to display with decimal unit**
+
+</br>
+<img src="./files/ui5e23-6.png">
+</br>
 
 
 
