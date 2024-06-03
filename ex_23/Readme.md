@@ -523,8 +523,9 @@ sap.ui.define([
 <img src="./files/ui5e23-7.png">
 </br></br>
 
-
 **Adding details to other tabs ~~ Dropdown ~~ Combo box ~~ Multi select combo box**
+
+*View2.view.xml*
 
 ```xml
     
@@ -587,7 +588,19 @@ sap.ui.define([
 </br>
 </details>
 
+</br></br>
 
+**Adding Mobile table to the tab**
+
+</br>
+
+*View2.view.xml*
+
+```xml
+
+
+
+```
 
 
 
