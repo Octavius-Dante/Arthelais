@@ -264,8 +264,40 @@
 </br></br>
 
 
+**I don't want to display a field in mobile device but in tablet and desktop**
+
+*View2.view.xml*
+
+```xml
+
+    <columns> 
+        <Column >
+            <header>
+                <Text text="Name"/>
+            </header>
+        </Column>
+        <Column >
+            <header>
+                <Text text="City"/>
+            </header>
+        </Column>
+        <Column >
+            <header>
+                <Text text="Since When"/>
+            </header>
+        </Column>
+        <!-- screend width proerty for column-->        
+<!--////////////////////////////////////////////////////////-->        
+        <Column minScreenWidth="Tablet">
+<!--////////////////////////////////////////////////////////-->                
+            <header>
+                <Text text="Contact Person"/>
+            </header>
+        </Column>                                                                                                
+    </columns>
 
 
+```
 
 
 
