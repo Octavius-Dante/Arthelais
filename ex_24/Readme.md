@@ -180,7 +180,7 @@
 
 ```xml
 
-<Input value="{city}" showValueHelp="true"/>
+<Input value="{city}" showValueHelp="true" valueHelpRequest="onF4help"/>
 
 ```
 
