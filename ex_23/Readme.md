@@ -437,6 +437,18 @@ controllerName="ntt.hr.payroll.controller.View2">
 </br></br>
 
 
+**Adding details to all the tabs**
+
+</br>
+
+*View2.view.xml*
+
+```xml
+
+
+
+
+```
 
 
 
