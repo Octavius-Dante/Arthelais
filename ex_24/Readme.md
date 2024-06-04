@@ -386,10 +386,10 @@
 
 ```xml
 
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<core:FragmentDefinition xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
 <!--ntt.hr.payroll.fragments.moreinfo-->
 
-</mvc:View>
+<core:FragmentDefinition>
 
 ```
 
@@ -427,7 +427,7 @@
 
 ```xml
 
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+<core:FragmentDefinition xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
 <!-- complete name space : ntt.hr.payroll.fragments.moreinfo-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
     <f:SimpleForm >
@@ -446,7 +446,7 @@
         <Text text="{season}" />                                                                                    
     </f:SimpleForm>
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->    
-</mvc:View>
+<core:FragmentDefinition>
 
 ```
 <br>
@@ -506,7 +506,7 @@
 
 ```xml
 
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<core:FragmentDefinition xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
 <!--ntt.hr.payroll.fragments.supplier-->
     <Table items="{/supplier}">                      
         <headerToolbar>
@@ -546,7 +546,7 @@
             </ColumnListItem>
         </items>
     </Table>
-</mvc:View>
+</core:FragmentDefinition>
 
 ```
 
@@ -556,7 +556,7 @@
 
 ```xml
 
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form" 
+<core:FragmentDefinition xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form" 
 xmlns:core="sap.ui.core" xmlns:sap.ui.layout="sap.ui.layout">
 <!--ntt.hr.payroll.fragments.cities-->
 <f:SimpleForm editable="true">
@@ -646,7 +646,7 @@ xmlns:core="sap.ui.core" xmlns:sap.ui.layout="sap.ui.layout">
     </sap.ui.layout:content>
 </sap.ui.layout:Grid>
 
-</mvc:View>
+</core:FragmentDefinition>
 
 ```
 
@@ -695,10 +695,10 @@ x.open()
 
 ```xml
 
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<core:FragmentDefinition xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
 <!--ntt.hr.payroll.fragments.popup-->
     <SelectDialog id="idPopup" />
-</mvc:View>
+</core:FragmentDefinition>
 
 ```
 
