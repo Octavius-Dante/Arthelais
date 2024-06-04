@@ -386,7 +386,7 @@
 
 ```xml
 
-<core:FragmentDefinition xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
 <!--ntt.hr.payroll.fragments.moreinfo-->
 
 <core:FragmentDefinition>
@@ -427,7 +427,8 @@
 
 ```xml
 
-<core:FragmentDefinition xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" 
+xmlns="sap.m" xmlns:f="sap.ui.layout.form">
 <!-- complete name space : ntt.hr.payroll.fragments.moreinfo-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
     <f:SimpleForm >
@@ -506,7 +507,7 @@
 
 ```xml
 
-<core:FragmentDefinition xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
 <!--ntt.hr.payroll.fragments.supplier-->
     <Table items="{/supplier}">                      
         <headerToolbar>
@@ -695,7 +696,7 @@ x.open()
 
 ```xml
 
-<core:FragmentDefinition xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
 <!--ntt.hr.payroll.fragments.popup-->
     <SelectDialog id="idPopup" />
 </core:FragmentDefinition>
