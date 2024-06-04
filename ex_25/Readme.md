@@ -119,7 +119,7 @@ var that = this;
     }
 
 ```
-
+<br><br>
 
 **Adding multi select to Popup - Filter object used multi select**
 
