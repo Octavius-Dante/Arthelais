@@ -34,11 +34,39 @@ var that = this;
 
 **Solution**
 
-*View2.controller.js*
+*View2.controller.js* --- this is a sample code for F4 help same treatment should be given for filter function also 
 
 ```js
 
+    oCityPopup: null, // geclare a global variable for holding object 
+    onF4help: function () {
+        // if the object is not filled 
+        //IF NOT oCityPopup IS INITIAL.
+        if (!this.oCityPopup) {
+            var that = this; // assigned local variable that with this objects
+            Fragment.load({
+                name: "ntt.hr.payroll.fragments.popup",
+                type: "XML",
+                id: 'city',
+                controller: this // Controller access is provided to the popup 
+            })
+            // Asynchronous call back - promise 
+                .then(function (oPopup) { 
+                    // - inside callback function this. controller object wont be accessible 
+                    // - so we create a local variable and assign this controller object
+                    // - this local varaibel will bve in scope of this whole function and its call back function
 
+                    // assign the object created by system to our global variable
+                    that.oCityPopup = oPopup;
+                    // change the title
+                    that.oCityPopup.setTitle("Select City");
+                    that.oCityPopup.open();
+                });
+        } else {
+            // this section is outside call back function so here this. controller works! 
+            this.oCityPopup.open();
+        }
+    },
 
 ```
 
