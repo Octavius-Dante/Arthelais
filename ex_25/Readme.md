@@ -313,14 +313,22 @@ onConfirm: function(oEvent){
 },
 
 ```
+</br></br>
 
-
-
-
-
-
+**Understanding why that Id - index of was checked for identifying object**
 
 </br>
+<img src="./files/ui5e25-3.png" >
+</br></br>
+<img src="./files/ui5e25-4.png" >
+</br></br>
+<img src="./files/ui5e25-5.png" >
+</br></br>
+
+
+
+
+
 
 
 </br></br>
