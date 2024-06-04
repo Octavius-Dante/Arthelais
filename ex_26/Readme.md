@@ -8,6 +8,7 @@ So far we used alert message in the ui5 web application its a violation of messa
 
 - sap.m.MessageBox
 - sap.m.MessageTost
+- sap.m.MessageStrip (consolidate multiple message and display)
 
 </br>
 
