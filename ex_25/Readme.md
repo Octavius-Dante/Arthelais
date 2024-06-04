@@ -5,9 +5,9 @@
 
 **In our previous session we created a blank pop up window for F4 help and filter button that can be accessed only once**
 
-- we are going to fix the issue, the reason for the issue is POPUP object gets created once (example im triggering F4 first time it works second time it wont work)
+- The reason for the issue is POPUP object gets created once (example : triggering F4 help first time it works second time it wont work)
 
-- when we trigger the same popup window again object creation happens with same name and ended up in error - because object with same name already exist
+- When we trigger the same popup window again object creation happens with same name and ended up in error - because object with same name already exist
 
 
 </br>
