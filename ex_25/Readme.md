@@ -288,6 +288,8 @@ onConfirm: function(oEvent){
     var sId = oEvent.getSource().getId();
     
     // F4 help object
+    
+    // finding the pattern 'city' in id value not equal to -1 
     if(sId.indexOf("city") !== -1)
     {
         // 1. Read the value which was selected in the popup
