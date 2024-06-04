@@ -430,7 +430,7 @@
 ```xml
 
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
-<!--ntt.hr.payroll.fragments.moreinfo.fragment-->
+<!-- complete name space : ntt.hr.payroll.fragments.moreinfo-->
     <f:SimpleForm >
         <Label text="Colour"/>
         <Text text="{color}" />
@@ -448,10 +448,26 @@
     </f:SimpleForm>
 </mvc:View>
 
+```
+<br>
+
+**Fragment screen integration**
+
+<br>
+
+*View2.view.xml* 
+
+```xml
+
+<IconTabFilter iconColor="Default" icon="sap-icon://sales-order-item" text="More info">
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <core:Fragment fragmentName="ntt.hr.payroll.fragments.moreinfo" type="XML"/>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
+</IconTabFilter>
 
 ```
 
-
+<br>
 
 
 
