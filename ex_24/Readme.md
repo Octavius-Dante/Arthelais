@@ -652,9 +652,38 @@ xmlns:core="sap.ui.core" xmlns:sap.ui.layout="sap.ui.layout">
 
 <br><br>
 
+**Launching ui5 pop-up in browser tools - console**
 
+<details>
+<summary> pop up check in browser tools </summary>
+</br>
+</br>
 
+*when your ui5 application is running go to console and clear it*
 
+```bat
+
+var x = new sap.m.Dialog();
+var y = new sap.m.SelectDialog();
+
+x.open
+y.open
+
+```
+
+</br>
+<img src="./files/ui5e24-10.png" >
+</br>
+<img src="./files/ui5e24-11.png" >
+</br>
+<img src="./files/ui5e24-12.png" >
+</br>
+<img src="./files/ui5e24-13.png" >
+</br>
+
+</br>
+</br>
+</details>
 
 
 
