@@ -196,7 +196,7 @@ var that = this;
 
 **All the above code for F4 help will make the popup appear but selection wont fill the value to the screen field**
 
-*make the following code change to the view, selection is a view event the view will take care of filling the value to the screen field*
+*make the following code change to the view as well as in view controller*
 
 </br>
 
@@ -204,11 +204,24 @@ var that = this;
 
 ```xml
 
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+<!--ntt.hr.payroll.fragments.popup-->
+    <SelectDialog id="idPopup" multiSelect="true" confirm="onConfirm" />
+</core:FragmentDefinition>
 
 
 ```
 
+</br></br>
 
+*View2.controller.js*
+
+```js
+
+
+
+
+```
 
 
 
