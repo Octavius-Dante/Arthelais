@@ -708,15 +708,55 @@ x.open()
 
 </br>
 
-
-</br>
-
 *We will create an object of the above defined fragment in JS*
 
-*View2.view.xml*
+*View2.controller.js*
+
+```js
+
+onF4help: function(){
+    // alert('This functionality under construction');
+    Fragment.load({
+        name: "ntt.hr.payroll.fragments.popup",
+        type: "XML",
+// idPopup--city is the unique id which is going to get generated         
+// if id not mentioend this popup object cant be reused
+        id: 'city', 
+        controller: this // Controller access is provided to the popup
+    })
+    // Asynchronous - 1.Call back and 2.Promise
+    .then(function(oPopup){ // this oPopup object is an object of Select dialog control of fragments view
+        // .then -- promise    
+        oPopup.setTitle("Select City");
+        oPopup.open();
+    });
+},
 
 ```
 
+</br></br>
+
+*same piece of code is used for Filter pop up also*
+
+*View2.controller.js*
+
+```js
+
+onFilter: function(){
+    // alert('This functionality under construction');
+    Fragment.load({
+        name: "ntt.hr.payroll.fragments.popup",
+        type: "XML",
+        id: 'supplier',
+        controller: this // Controller access is provided to the popup
+    })
+    // Asynchronous - 1.Call back and 2.Promise
+    .then(function(oSupplier){ // this oPopup object is an object of Select dialog control of fragments view
+        // .then -- promise    
+        oSupplier.setTitle("Select Supplier");
+        oSupplier.open();
+    });
+}
 
 ```
 
