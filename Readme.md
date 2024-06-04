@@ -60,6 +60,12 @@ Pre-requisite VSCode or BAS should be installed and active.
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Bindings"> Bindings </a>
 </br>
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Models"> Models </a>
+</br>
+<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Models"> Custom formatter stock status </a>
+</br>
+<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Models"> Fragments </a>
+</br>
+
 
 
 </br>
