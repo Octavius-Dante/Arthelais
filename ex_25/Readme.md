@@ -121,7 +121,25 @@ var that = this;
 ```
 
 
+**Adding multi select to Popup - Filter object used multi select**
 
+*This functionality can be easily achieved by adding a parameter in fragments.xml*
+
+*set multiSelect="true" in SelectDialog control*
+
+<br>
+
+*popup.fragments.xml*
+
+```xml
+
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+<!--ntt.hr.payroll.fragments.popup-->
+    <SelectDialog id="idPopup" multiSelect="true" />
+</core:FragmentDefinition>
+
+
+```
 
 
 
