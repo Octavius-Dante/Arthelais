@@ -389,7 +389,40 @@ sap.ui.define([
 
 ```
 
+</br></br>
 
+**Implementing search in pop up**
+
+*popup.fragment.xml*
+
+```xml
+
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+<!--ntt.hr.payroll.fragments.popup-->
+    <SelectDialog id="idPopup" multiSelect="true" search="onSearchPopup" 
+    confirm="onConfirm" rememberSelections="true" />
+</core:FragmentDefinition>
+
+```
+
+</br>
+
+*View2.controller.js*
+
+```js
+
+    onSearchPopup: function(oEvent){
+        // Step 1 : Get the seach string 
+        var sVal = oEvent.getParameter("value");
+        // Step 2 : get the popup object itself
+        var oBinding = oEvent.getParameter("itemsBinding");
+        // step 3 : prepare filter
+        var oFilter = new Filter("name", FilterOperator.Contains, sVal);
+        // step 4 : pass filter to pop up items binding
+        oBinding.filter(oFilter);
+    },
+
+```
 
 
 </br></br>
