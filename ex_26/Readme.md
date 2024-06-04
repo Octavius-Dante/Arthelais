@@ -2,7 +2,7 @@
 
 </br>
 
-**SAP Ui5 Message class message standardization**
+**SAP Ui5 Message classes**
 
 So far we used alert message in the ui5 web application its a violation of messaging standard in UI5 it is recommended to use Ui5 message classes
 
