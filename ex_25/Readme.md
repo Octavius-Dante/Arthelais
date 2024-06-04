@@ -129,7 +129,7 @@ var that = this;
 
 <br>
 
-*popup.fragments.xml*
+*popup.fragment.xml*
 
 ```xml
 
