@@ -451,7 +451,7 @@
 ```
 <br>
 
-**Fragment screen integration with the main view**
+**Fragment screen integration with other view**
 
 <br>
 
