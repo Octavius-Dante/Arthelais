@@ -687,6 +687,10 @@ x.open()
 
 </br>
 
+**Remember we have created alert messages for filter pop-up and F4 help pop-up earlier we are going to use a fragment pop-up view multiple times as multiple object for different use cases**
+
+</br>
+
 *popup.fragment.xml*
 
 ```xml
@@ -701,6 +705,21 @@ x.open()
 </br>
 
 *If i want 20 pop ups in my application i wont use 20 select dialog, Instead i will use above defined fragment 20 times*
+
+</br>
+
+
+</br>
+
+*We will create an object of the above defined fragment in JS*
+
+*View2.view.xml*
+
+```
+
+
+```
+
 
 
 
