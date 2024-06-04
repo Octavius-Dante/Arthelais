@@ -274,8 +274,19 @@ var that = this;
 </br>
 
 
+</br></br>
+
+**On Confirm function is shared by multiple pop up so if this pop up functionality were used among many it should have unique way of addressing data based on the ID of the control object example (F4 help - object 1, Filter control - object 2) respective control object should be used**
 
 
+*View2.controller.js*
+
+```js
+
+
+
+
+```
 
 
 
