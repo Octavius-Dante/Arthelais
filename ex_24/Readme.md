@@ -513,13 +513,13 @@ sap.ui.define([
     'ntt/hr/payroll/util/formatter',  // formatter.js included as dependency
 ///////////////////////////////////////////////////////////////////////    
     'ntt/hr/payroll/util/stockstat' // stock status dependency added 
-], function(Controller, Formatter, stockstat){  // formatter passed as argument ~~~~ addedd stockstat
+], function(Controller, Formatter, Stockstat){  // formatter passed as argument ~~~~ addedd stockstat
 ///////////////////////////////////////////////////////////////////////    
     'use strict';
     return Controller.extend("ntt.hr.payroll.controller.BaseController", {
         formatter_curr : Formatter, // global variable declared for usage in every places
 ///////////////////////////////////////////////////////////////////////            
-        stock_status : stockstat,  //  added stock stat
+        stock_status : Stockstat,  //  added stock stat
 ///////////////////////////////////////////////////////////////////////            
         extractPath: function(oEvent){
             var fruitId = oEvent.getParameter("arguments").fruitId;
