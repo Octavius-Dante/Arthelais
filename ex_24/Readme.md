@@ -437,12 +437,12 @@
         <Label text="Taste" class="sapUiSmallMarginTop"/>
         <Text text="{taste}" class="sapUiSmallMarginTop"/>
         <Label text="price"/>
-                          
+        <!-- Formatter for price with decimal unit-->                            
         <Text text="{
         parts: [{path: 'price'},{path: 'curr'}],
         formatter: '.formatter_curr.formatCurrency'
         }" />
-
+        <!-- <Text text="{price} {curr}" /> -->
         <Label text="Season"/>
         <Text text="{season}" />                                                                                    
     </f:SimpleForm>
