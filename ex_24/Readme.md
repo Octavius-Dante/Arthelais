@@ -663,11 +663,9 @@ xmlns:core="sap.ui.core" xmlns:sap.ui.layout="sap.ui.layout">
 
 ```bat
 
-var x = new sap.m.Dialog();
-var y = new sap.m.SelectDialog();
+var x = new sap.m.SelectDialog();
 
-x.open
-y.open
+x.open()
 
 ```
 
@@ -675,10 +673,6 @@ y.open
 <img src="./files/ui5e24-10.png" >
 </br>
 <img src="./files/ui5e24-11.png" >
-</br>
-<img src="./files/ui5e24-12.png" >
-</br>
-<img src="./files/ui5e24-13.png" >
 </br>
 
 </br>
