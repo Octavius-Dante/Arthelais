@@ -70,7 +70,54 @@ var that = this;
 
 ```
 
+**Populating data value in F4 help**
 
+*So far we just created only a blank pop up with title and no values are populated yet, no we are going to populate the values*
+
+
+**By Default the fragment wont have access to the model, But if someone who already have access to the model, like view can permit the access of model resources to the fragment, then we can show the data to the user**
+
+
+
+
+*View2.controller.js*
+
+```js
+
+    onF4help: function () {
+        // alert('This functionality under construction');
+        if (!this.oCityPopup) {
+            var that = this;
+            Fragment.load({
+                name: "ntt.hr.payroll.fragments.popup",
+                type: "XML",
+                id: 'city',
+                controller: this // Controller access is provided to the popup
+            })
+                // Asynchronous - 1.Call back and 2.Promise
+                .then(function (oPopup) { // this oPopup object is an object of Select dialog control of fragments view
+                    // assign the object created by system to our global variable
+                    that.oCityPopup = oPopup;
+                    that.oCityPopup.setTitle("Select City");
+//////////////////////////////////////////////////////////////////////////// 
+                    // provided access for fragment from the view to get to the model data                           
+                    that.getView().addDependent(that.oCityPopup);
+                    that.oCityPopup.bindAggregation("items",{
+                        path: '/cities',
+                        template: new sap.m.DisplayListItem({
+                            label: '{cityName}',
+                            value: '{famousFor}'
+                        })
+                    });
+////////////////////////////////////////////////////////////////////////////                         
+                    that.oCityPopup.open();
+                });
+        } else {
+            this.oCityPopup.open();
+        }
+    }
+
+```
 
 
 
