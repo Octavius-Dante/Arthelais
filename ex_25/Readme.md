@@ -265,9 +265,9 @@ var that = this;
     },
 
 ```
+</br></br>
 
 **Understanding diagram**
-
 
 </br>
 <img src="./files/ui5e25-2.png" >
