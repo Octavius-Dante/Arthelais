@@ -69,6 +69,7 @@ var that = this;
     },
 
 ```
+</br></br>
 
 **Populating data value in F4 help**
 
@@ -78,7 +79,7 @@ var that = this;
 **By Default the fragment wont have access to the model, But if someone who already have access to the model, like view can permit the access of model resources to the fragment, then we can show the data to the user**
 
 
-
+</br></br>
 
 *View2.controller.js*
 
