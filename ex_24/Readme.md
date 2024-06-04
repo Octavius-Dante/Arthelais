@@ -238,7 +238,7 @@
 
 </br>
 
-*View2.controller.js*
+*View2.controller.js* --- *We will implement the pop up functionality later*
 
 ```js
 
