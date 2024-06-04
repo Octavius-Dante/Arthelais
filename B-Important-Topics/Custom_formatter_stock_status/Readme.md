@@ -6,7 +6,7 @@
 - Made necessary changes to fruits.json model file 
 - Added stock field with (available, out of stock, discontinued) values
 - In formatter function replaced these values with ('Success', 'Warning', 'Error') 
-- Needed colour formatting happens in state section where formatter is used
+- Needed colour formatting that happens in state section where formatter is used
 
 </br>
 
