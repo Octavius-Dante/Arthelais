@@ -138,11 +138,53 @@ var that = this;
     <SelectDialog id="idPopup" multiSelect="true" />
 </core:FragmentDefinition>
 
-
 ```
 
+**The above change will make all the pop up using this fragment view into multi select popup - what if F4 help is using this fragment how to make it single select for F4 help**
 
+*make a small code change in the function as shown below*
 
+</br></br>
+
+*View2.controller.js*
+
+```js
+
+    onF4help: function () {
+        // alert('This functionality under construction');
+        if (!this.oCityPopup) {
+            var that = this;
+            Fragment.load({
+                name: "ntt.hr.payroll.fragments.popup",
+                type: "XML",
+                id: 'city',
+                controller: this // Controller access is provided to the popup
+            })
+                // Asynchronous - 1.Call back and 2.Promise
+                .then(function (oPopup) { // this oPopup object is an object of Select dialog control of fragments view
+                    // assign the object created by system to our global variable
+                    that.oCityPopup = oPopup;
+                    that.oCityPopup.setTitle("Select City");
+                    // provided access for fragment from the view to get to the model data                           
+                    that.getView().addDependent(that.oCityPopup);
+                    that.oCityPopup.bindAggregation("items",{
+                        path: '/cities',
+                        template: new sap.m.DisplayListItem({
+                            label: '{cityName}',
+                            value: '{famousFor}'
+                        })
+                    });
+//////////////////////////////////////////////////////////////////////////// 
+                    that.oCityPopup.setMultiSelect(false);
+////////////////////////////////////////////////////////////////////////////                         
+                    that.oCityPopup.open();
+                });
+        } else {
+            this.oCityPopup.open();
+        }
+    }
+
+```
 
 
 
