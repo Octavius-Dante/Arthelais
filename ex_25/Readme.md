@@ -219,50 +219,50 @@ var that = this;
 ```js
 
 //////////////////////////////////////////////////////////////////////////////
-        onConfirm: function(oEvent){
-            // 1. Read the value which was selected in the popup
-            var oSelectedItem = oEvent.getParameter("selectedItem");
-            var sText = oSelectedItem.getLabel();
-            // 2. place the value to the field INSIDE the TABLE
-            // this.oSelectedField.setValue("Test Text value fill"); /// testing purpose hardocdd value is used
-            this.oSelectedField.setValue(sText);
-        },
+    onConfirm: function(oEvent){
+        // 1. Read the value which was selected in the popup
+        var oSelectedItem = oEvent.getParameter("selectedItem");
+        var sText = oSelectedItem.getLabel();
+        // 2. place the value to the field INSIDE the TABLE
+        // this.oSelectedField.setValue("Test Text value fill"); /// testing purpose hardocdd value is used
+        this.oSelectedField.setValue(sText);
+    },
 
-        oSelectedField: null,
-        onF4help: function (oEvent) {
-            // when user clikc on F4 on the field inside the table, that field object
-            // we are storing now in a temporary object
-            this.oSelectedField = oEvent.getSource();
+    oSelectedField: null,
+    onF4help: function (oEvent) {
+        // when user clikc on F4 on the field inside the table, that field object
+        // we are storing now in a temporary object
+        this.oSelectedField = oEvent.getSource();
 //////////////////////////////////////////////////////////////////////////////
-            // alert('This functionality under construction');
-            if (!this.oCityPopup) {
-                var that = this;
-                Fragment.load({
-                    name: "ntt.hr.payroll.fragments.popup",
-                    type: "XML",
-                    id: 'city',
-                    controller: this // Controller access is provided to the popup
-                })
-                    // Asynchronous - 1.Call back and 2.Promise
-                    .then(function (oPopup) { // this oPopup object is an object of Select dialog control of fragments view
-                        // assign the object created by system to our global variable
-                        that.oCityPopup = oPopup;
-                        that.oCityPopup.setTitle("Select City");
-                        that.getView().addDependent(that.oCityPopup);
-                        that.oCityPopup.bindAggregation("items",{
-                            path: '/cities',
-                            template: new sap.m.DisplayListItem({
-                                label: '{cityName}',
-                                value: '{famousFor}'
-                            })
-                        });
-                        that.oCityPopup.setMultiSelect(false);
-                        that.oCityPopup.open();
+        // alert('This functionality under construction');
+        if (!this.oCityPopup) {
+            var that = this;
+            Fragment.load({
+                name: "ntt.hr.payroll.fragments.popup",
+                type: "XML",
+                id: 'city',
+                controller: this // Controller access is provided to the popup
+            })
+                // Asynchronous - 1.Call back and 2.Promise
+                .then(function (oPopup) { // this oPopup object is an object of Select dialog control of fragments view
+                    // assign the object created by system to our global variable
+                    that.oCityPopup = oPopup;
+                    that.oCityPopup.setTitle("Select City");
+                    that.getView().addDependent(that.oCityPopup);
+                    that.oCityPopup.bindAggregation("items",{
+                        path: '/cities',
+                        template: new sap.m.DisplayListItem({
+                            label: '{cityName}',
+                            value: '{famousFor}'
+                        })
                     });
-            } else {
-                this.oCityPopup.open();
-            }
-        },
+                    that.oCityPopup.setMultiSelect(false);
+                    that.oCityPopup.open();
+                });
+        } else {
+            this.oCityPopup.open();
+        }
+    },
 
 ```
 
