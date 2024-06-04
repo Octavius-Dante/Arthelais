@@ -382,10 +382,41 @@
 
 </br>
 <img src="./files/ui5e24-9b.png" >
-</br></br>
+</br>
+
+*moreinfo.fragment.xml* --- skeleton
+
+```xml
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<!--ntt.hr.payroll.fragments.moreinfo.fragment-->
+
+</mvc:View>
+
+```
+
+<br>
+
+*View2.view.xml* -- code removed from this view and will be added to *moreinfo.fragment.xml*
+
+```
 
 
 
+```
+
+<br>
+
+*moreinfo.fragment.xml* --- skeleton
+
+```xml
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<!--ntt.hr.payroll.fragments.moreinfo.fragment-->
+
+</mvc:View>
+
+```
 
 
 
