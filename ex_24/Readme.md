@@ -687,7 +687,20 @@ x.open()
 
 </br>
 
+*popup.fragment.xml*
 
+```xml
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<!--ntt.hr.payroll.fragments.popup-->
+    <SelectDialog id="idPopup" />
+</mvc:View>
+
+```
+
+</br>
+
+*If i want 20 pop ups in my application i wont use 20 select dialog, Instead i will use above defined fragment 20 times*
 
 
 
