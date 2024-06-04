@@ -492,7 +492,7 @@
             </IconTabFilter>
             
             <IconTabFilter iconColor="Negative" icon="sap-icon://functional-location" text="Cities">
-            <!--Fragment cities ////////////////////////////-->
+                <!--Fragment cities ////////////////////////////-->
                 <!-- USED FORM FOR ALIGNMENT FO TEXT -->
                 <core:Fragment fragmentName="ntt.hr.payroll.fragments.cities" type="XML"/>
                 <!--//////////////////////////////////////////////-->  
