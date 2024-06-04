@@ -425,7 +425,7 @@
 
 <br>
 
-*moreinfo.fragment.xml* --- skeleton
+*moreinfo.fragment.xml* --- fragment view definition with some screen elements
 
 ```xml
 
@@ -451,7 +451,7 @@
 ```
 <br>
 
-**Fragment screen integration**
+**Fragment screen integration with the main view**
 
 <br>
 
