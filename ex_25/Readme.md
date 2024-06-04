@@ -333,6 +333,19 @@ onConfirm: function(oEvent){
 
 **Implementing the filter object to table**
 
+*popup.fragment.xml*
+
+```xml
+
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+<!--ntt.hr.payroll.fragments.popup-->
+    <SelectDialog id="idPopup" multiSelect="true" confirm="onConfirm" rememberSelections="true" />
+</core:FragmentDefinition>
+
+```
+
+</br>
+
 *View2.controller.js*
 
 ```js
@@ -373,7 +386,6 @@ sap.ui.define([
         oTable.getBinding("items").filter(oFilter);
         // alert("this is under construction");
     }
-
 
 ```
 
