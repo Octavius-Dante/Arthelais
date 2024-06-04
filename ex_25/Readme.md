@@ -329,6 +329,53 @@ onConfirm: function(oEvent){
 </br></br>
 </details>
 
+</br></br>
+
+**Implementing the filter object to table**
+
+*View2.controller.js*
+
+```js
+
+//// Dependency section on top
+////////////////////////////////////////////////
+sap.ui.define([
+    // 'sap/ui/core/mvc/Controller'
+    'ntt/hr/payroll/controller/BaseController',
+    "sap/ui/core/Fragment",
+///////////////////////////////////////////////    
+    "sap/ui/model/Filter",
+    "sap/ui/model/FilterOperator"
+], function (Controller, Fragment, Filter, FilterOperator) {
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+
+////// Code section for On Confirm - filter 
+
+    if (sId.indexOf("supplier") !== -1) 
+    {
+        // 1. get teh table object
+        var oTable = this.getView().byId("idTab");
+        // 2. Read multi select items
+        var aSelectedItems = oEvent.getParameter("selectedItems"); //array of multipel items
+        // 3. Construct filter
+        var aFilters = []; // array object because multiple values
+        for (let index = 0; index < aSelectedItems.length; index++) {
+            const element = aSelectedItems[index];
+            const sText = element.getLabel();
+            aFilters.push(new Filter('name', FilterOperator.EQ, sText));
+        }
+        var oFilter = new Filter({
+            filters: aFilters,
+            and: false
+        });
+        // 4. Pump to binding
+        oTable.getBinding("items").filter(oFilter);
+        // alert("this is under construction");
+    }
+
+
+```
 
 
 
