@@ -381,7 +381,7 @@
 **Implementing fragments**
 
 </br>
-<img src="./files/ui5e24-9.png" >
+<img src="./files/ui5e24-9b.png" >
 </br></br>
 
 
