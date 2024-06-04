@@ -471,9 +471,188 @@
 
 <br><br>
 
+**Now we will create 2 more Fragments and make our view 2 screen broken into multiple fragments**
+
+*View2.view.xml* -- (after fragment implemented and integrated)
+
+```xml
+
+    <IconTabBar >
+        <items>
+            <IconTabFilter iconColor="Default" icon="sap-icon://sales-order-item" text="More info">
+                <!--Fragment more info ////////////////////////////-->                    
+                <core:Fragment fragmentName="ntt.hr.payroll.fragments.moreinfo" type="XML"/>
+                <!--////////////////////////////////////////////////--> 
+            </IconTabFilter>
+
+            <IconTabFilter iconColor="Positive" icon="sap-icon://supplier" text="Supplier">
+                <!--Fragment supplier ////////////////////////////-->                    
+                <core:Fragment fragmentName="ntt.hr.payroll.fragments.supplier" type="XML"/>
+                <!--//////////////////////////////////////////////-->                        
+            </IconTabFilter>
+            
+            <IconTabFilter iconColor="Negative" icon="sap-icon://functional-location" text="Cities">
+            <!--Fragment cities ////////////////////////////-->
+                <!-- USED FORM FOR ALIGNMENT FO TEXT -->
+                <core:Fragment fragmentName="ntt.hr.payroll.fragments.cities" type="XML"/>
+                <!--//////////////////////////////////////////////-->  
+            </IconTabFilter>
+        </items>
+    </IconTabBar>
+
+```
+
+<br>
+
+*supplier.fragment.xml*
+
+```xml
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<!--ntt.hr.payroll.fragments.supplier-->
+    <Table items="{/supplier}">                      
+        <headerToolbar>
+            <Toolbar >
+                <ToolbarSpacer ></ToolbarSpacer>
+                    <Button icon='sap-icon://filter' press="onFilter" />
+            </Toolbar>
+        </headerToolbar>
+        <columns> 
+            <Column >
+                <header>
+                    <Text text="Name"/>
+                </header>
+            </Column>
+            <Column >
+                <header>
+                    <Text text="City"/>
+                </header>
+            </Column>
+            <Column minScreenWidth="Tablet" demandPopin="true">
+                <header>
+                    <Text text="Since When"/>
+                </header>
+            </Column>
+            <Column minScreenWidth="Tablet">
+                <header>
+                    <Text text="Contact Person"/>
+                </header>
+            </Column>                                                                                                
+        </columns>
+        <items>
+            <ColumnListItem >
+                <Text text="{name}"/>
+                <Input value="{city}" showValueHelp="true" valueHelpRequest="onF4help"/>
+                <Text text="{sinceWhen}"/>
+                <Link text="{person}" press="onLinkPress"></Link>
+            </ColumnListItem>
+        </items>
+    </Table>
+</mvc:View>
+
+```
+
+<br>
+
+*cities.fragment.xml*
+
+```xml
+
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form" 
+xmlns:core="sap.ui.core" xmlns:sap.ui.layout="sap.ui.layout">
+<!--ntt.hr.payroll.fragments.cities-->
+<f:SimpleForm editable="true">
+
+    <Label text="Dropdown"/>
+    <!-- Dropdown declaration - all cities will be listed in drop down as item -->
+    <Select items="{/cities}" maxWidth="20%">
+    <!-- items belongs to core namespace so include it in top -->      
+        <core:Item text="{cityName}" key="{cityName}" />                      
+    </Select>
+
+    <Label text="Dropdown + Input field ~~ Combo box"/>
+    <!-- Combo box allows input to search and add input to existing items and also select the exisitng items -->
+    <ComboBox items="{/cities}" maxWidth="20%">
+    <!-- items belongs to core namespace so include it in top -->      
+        <core:Item text="{cityName}" key="{cityName}" />                      
+    </ComboBox>
+
+    <Label text="Multi Combo box"/>
+    <!-- Multi Combo box -->
+    <MultiComboBox items="{/cities}" maxWidth="20%">
+    <!-- items belongs to core namespace so include it in top -->      
+        <core:Item text="{cityName}" key="{cityName}" />                      
+    </MultiComboBox>                            
+
+</f:SimpleForm>
+
+<sap.ui.layout:Grid id="grid0">
+    <sap.ui.layout:content>
+        <Label text="Order">
+            <layoutData>
+                <sap.ui.layout:GridData span="XL1 L1 M6 S6"/>
+            </layoutData>
+        </Label>
+        <Input>
+            <layoutData>
+                <sap.ui.layout:GridData span="XL3 L3 M6 S6"/>
+            </layoutData>
+        </Input>
+        <Label text="Customer">
+            <layoutData>
+                <sap.ui.layout:GridData span="XL1 L1 M6 S6"/>
+            </layoutData>
+        </Label>
+        <Input>
+            <layoutData>
+                <sap.ui.layout:GridData span="XL3 L3 M6 S6"/>
+            </layoutData>
+        </Input>
+        <Label text="Approval Status">
+            <layoutData>
+                <sap.ui.layout:GridData span="XL1 L1 M6 S6"/>
+            </layoutData>
+        </Label>
+        <Input>
+            <layoutData>
+                <sap.ui.layout:GridData span="XL3 L3 M6 S6"/>
+            </layoutData>
+        </Input>
+        <HBox>
+            <layoutData>
+                <sap.ui.layout:GridData span="XL4 L4 M12 S12"/>
+            </layoutData>
+        </HBox>
 
 
+        <Label text="Contact Person">
+            <layoutData>
+                <sap.ui.layout:GridData span="XL1 L1 M6 S6"/>
+            </layoutData>
+        </Label>
+        <Input>
+            <layoutData>
+                <sap.ui.layout:GridData span="XL3 L3 M6 S6"/>
+            </layoutData>
+        </Input>
+        <Label text="Orde Dater">
+            <layoutData>
+                <sap.ui.layout:GridData span="XL1 L1 M6 S6"/>
+            </layoutData>
+        </Label>
+        <Input>
+            <layoutData>
+                <sap.ui.layout:GridData span="XL3 L3 M6 S6"/>
+            </layoutData>
+        </Input>
+    </sap.ui.layout:content>
+</sap.ui.layout:Grid>
 
+</mvc:View>
+
+```
+
+<br><br>
 
 
 
