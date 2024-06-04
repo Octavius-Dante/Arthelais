@@ -1,10 +1,6 @@
 
-**Adding Custom formatter for product stock**
+## Adding Custom formatter for product stock
 
-<details>
-<summary> <b> custom formatter code + tested image </b> </summary>
-</br>
-</br>
 
 - Made necessary changes to fruits.json model file 
 - Added stock field with (available, out of stock, discontinued) values
@@ -124,6 +120,3 @@ sap.ui.define([], () => {
 <img src="./files/ui5e24-6.png" >
 </br></br>
 
-</br>
-</br>
-</details>
