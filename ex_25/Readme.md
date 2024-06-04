@@ -283,7 +283,32 @@ var that = this;
 
 ```js
 
+onConfirm: function(oEvent){
+    
+    var sId = oEvent.getSource().getId();
+    
+    // F4 help object
+    if(sId.indexOf("city") !== -1)
+    {
+        // 1. Read the value which was selected in the popup
+        var oSelectedItem = oEvent.getParameter("selectedItem");
+        var sText = oSelectedItem.getLabel();
+        // 2. place the value to the field INSIDE the TABLE
+        // this.oSelectedField.setValue("Test Text value fill");
+        this.oSelectedField.setValue(sText);
+    }
 
+    // Filter object 
+    if (sId.indexOf("supplier") !== -1) 
+    {
+        // 1. get teh table object
+        // 2. Read multi select items
+        // 3. Construct filter
+        // 4. Pump to binding
+        alert("this is under construction");
+    }
+
+},
 
 
 ```
