@@ -389,7 +389,7 @@
 ```xml
 
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
-<!--ntt.hr.payroll.fragments.moreinfo.fragment-->
+<!--ntt.hr.payroll.fragments.moreinfo-->
 
 </mvc:View>
 
