@@ -121,7 +121,7 @@ var that = this;
 ```
 <br><br>
 
-**Adding multi select to Popup - Filter object used multi select**
+**Adding multi select to Popup - Filter object uses multi select**
 
 *This functionality can be easily achieved by adding a parameter in fragments.xml*
 
