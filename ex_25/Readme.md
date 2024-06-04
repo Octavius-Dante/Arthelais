@@ -140,6 +140,8 @@ var that = this;
 
 ```
 
+</br></br>
+
 **The above change will make all the pop up using this fragment view into multi select popup - what if F4 help is using this fragment how to make it single select for F4 help**
 
 *make a small code change in the function as shown below*
