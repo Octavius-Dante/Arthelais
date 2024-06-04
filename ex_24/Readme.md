@@ -338,7 +338,7 @@
 <img src="./files/ui5e24-8.png" >
 </br>
 
-*Demond-Popin property is only available in sap.m.table*
+*Demand-Popin property is only available in sap.m.table*
 
 </br></br>
 
