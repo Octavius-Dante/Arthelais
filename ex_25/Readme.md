@@ -146,6 +146,8 @@ var that = this;
 
 *make a small code change in the function as shown below*
 
+*we are forcing the popup to be a single select just before the popup window is opened*
+
 </br></br>
 
 *View2.controller.js*
