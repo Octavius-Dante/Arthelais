@@ -9,10 +9,61 @@
 
 - When we trigger the same popup window again object creation happens with same name and ended up in error - because object with same name already exist
 
-
 </br>
 <img src="./files/ui5e25-1.png" >
 </br>
+
+
+- *When we work with asynchronous functions and promises, the UI5 will not pass their pointer object to the Call back function. So we will not be able to use this pointer which is our controller object inside the callbacks. TO be able to use <b>this</b> pointer inside the call back, we create an extra variable of type local to which we assign this pointer.*
+
+</br>
+
+e.g.
+
+```js
+
+var that = this;
+
+```
+
+</br>
+
+*<b>that</b> variable is a local variable which will behold the controller object for us. AND the caller method will actually allow its callback to access its local variable.*
+
+</br>
+
+**Solution**
+
+*View2.controller.js*
+
+```js
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </br>
