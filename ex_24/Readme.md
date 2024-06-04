@@ -64,8 +64,6 @@
 - *The sap.m.table is a list eventually and all the properties we worked with list control works out of the box* 
 *control extends from parent base class (sap.m.ListBase) - list modes -single select left, master select, multi select, delete, navigation everything works*
 
-- 
-
 
 
 </br></br> 
