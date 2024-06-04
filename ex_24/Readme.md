@@ -399,9 +399,27 @@
 
 *View2.view.xml* -- code removed from this view and will be added to *moreinfo.fragment.xml*
 
-```
+```xml
 
-
+<IconTabFilter iconColor="Default" icon="sap-icon://sales-order-item" text="More info">
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <f:SimpleForm >
+        <Label text="Colour"/>
+        <Text text="{color}" />
+        <Label text="Taste" class="sapUiSmallMarginTop"/>
+        <Text text="{taste}" class="sapUiSmallMarginTop"/>
+        <Label text="price"/>
+        <!-- Formatter for price with decimal unit-->                            
+        <Text text="{
+        parts: [{path: 'price'},{path: 'curr'}],
+        formatter: '.formatter_curr.formatCurrency'
+        }" />
+        <!-- <Text text="{price} {curr}" /> -->
+        <Label text="Season"/>
+        <Text text="{season}" />                                                                                    
+    </f:SimpleForm>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
+</IconTabFilter>
 
 ```
 
@@ -411,10 +429,25 @@
 
 ```xml
 
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
 <!--ntt.hr.payroll.fragments.moreinfo.fragment-->
+    <f:SimpleForm >
+        <Label text="Colour"/>
+        <Text text="{color}" />
+        <Label text="Taste" class="sapUiSmallMarginTop"/>
+        <Text text="{taste}" class="sapUiSmallMarginTop"/>
+        <Label text="price"/>
+                          
+        <Text text="{
+        parts: [{path: 'price'},{path: 'curr'}],
+        formatter: '.formatter_curr.formatCurrency'
+        }" />
 
+        <Label text="Season"/>
+        <Text text="{season}" />                                                                                    
+    </f:SimpleForm>
 </mvc:View>
+
 
 ```
 
