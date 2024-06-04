@@ -221,8 +221,11 @@ var that = this;
 //////////////////////////////////////////////////////////////////////////////
         onConfirm: function(oEvent){
             // 1. Read the value which was selected in the popup
+            var oSelectedItem = oEvent.getParameter("selectedItem");
+            var sText = oSelectedItem.getLabel();
             // 2. place the value to the field INSIDE the TABLE
-            this.oSelectedField.setValue("Test Text value fill");
+            // this.oSelectedField.setValue("Test Text value fill"); /// testing purpose hardocdd value is used
+            this.oSelectedField.setValue(sText);
         },
 
         oSelectedField: null,
