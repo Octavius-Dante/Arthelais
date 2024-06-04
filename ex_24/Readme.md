@@ -431,6 +431,7 @@
 
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
 <!-- complete name space : ntt.hr.payroll.fragments.moreinfo-->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
     <f:SimpleForm >
         <Label text="Colour"/>
         <Text text="{color}" />
@@ -446,6 +447,7 @@
         <Label text="Season"/>
         <Text text="{season}" />                                                                                    
     </f:SimpleForm>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////-->    
 </mvc:View>
 
 ```
