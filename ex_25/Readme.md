@@ -28,7 +28,7 @@ var that = this;
 
 </br>
 
-*<b>that</b> variable is a local variable which will behold the controller object for us. AND the caller method will actually allow its callback to access its local variable.*
+*<b>that</b> variable is a local variable which will behold the controller object for us. And the caller method will actually allow its callback to access its local variable.*
 
 </br>
 
