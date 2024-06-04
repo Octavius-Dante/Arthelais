@@ -191,6 +191,23 @@ var that = this;
 ```
 
 
+</br></br>
+
+
+**All the above code for F4 help will make the popup appear but selection wont fill the value to the screen field**
+
+*make the following code change to the view, selection is a view event the view will take care of filling the value to the screen field*
+
+</br>
+
+*popup.fragment.xml*
+
+```xml
+
+
+
+```
+
 
 
 
