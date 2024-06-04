@@ -411,16 +411,34 @@ sap.ui.define([
 
 ```js
 
-    onSearchPopup: function(oEvent){
-        // Step 1 : Get the seach string 
-        var sVal = oEvent.getParameter("value");
-        // Step 2 : get the popup object itself
-        var oBinding = oEvent.getParameter("itemsBinding");
-        // step 3 : prepare filter
-        var oFilter = new Filter("name", FilterOperator.Contains, sVal);
-        // step 4 : pass filter to pop up items binding
-        oBinding.filter(oFilter);
-    },
+        onSearchPopup: function (oEvent) {
+
+            var sId = oEvent.getSource().getId();
+
+            // F4 help pop up search
+            if (sId.indexOf("city") !== -1) {
+                // Step 1 : Get the seach string 
+                var sVal1 = oEvent.getParameter("value");
+                // Step 2 : get the popup object itself
+                var oBinding1 = oEvent.getParameter("itemsBinding");
+                // step 3 : prepare filter
+                var oFilter1 = new Filter("cityName", FilterOperator.Contains, sVal1);
+                // step 4 : pass filter to pop up items binding
+                oBinding1.filter(oFilter1);
+            }
+
+            // Filter supplier pop up search
+            if (sId.indexOf("supplier") !== -1) {
+                // Step 1 : Get the seach string 
+                var sVal2 = oEvent.getParameter("value");
+                // Step 2 : get the popup object itself
+                var oBinding2 = oEvent.getParameter("itemsBinding");
+                // step 3 : prepare filter
+                var oFilter2 = new Filter("name", FilterOperator.Contains, sVal2);
+                // step 4 : pass filter to pop up items binding
+                oBinding2.filter(oFilter2);
+            }
+        }
 
 ```
 
