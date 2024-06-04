@@ -680,6 +680,34 @@ x.open()
 </details>
 
 
+</br></br>
+
+
+## Creating a pop up using Fragments
+
+</br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
