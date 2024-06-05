@@ -56,6 +56,15 @@ So far we used alert message in the ui5 web application its a violation of messa
 
 ```
 
+</br></br>
+
+**Simple Message Toast implementation for Order button -- Order placed (ok)**
+
+</br>
+
+
+
+
 
 
 </br></br>
