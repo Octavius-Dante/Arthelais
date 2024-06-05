@@ -84,6 +84,19 @@ So far we used alert message in the ui5 web application its a violation of messa
 <img src="./files/ui5e26-1.png" >
 </br></br>
 
+*i18n text*
+
+```bat
+
+APP_TITLE="My First Fiori App"
+APP_DESCRIPTION="Developed by Vivian Ocatvius for learning"
+XTIT_VIEW1=Welcome to my store
+XMSG_CONFIRM=Would you like to order?
+XMSG_ORDER=The Order with # {0} has been created
+
+```
+
+
 *We need to implement a message read function in base controller to pass dynamic value text to message with place holders*
 
 *BaseController.js*
