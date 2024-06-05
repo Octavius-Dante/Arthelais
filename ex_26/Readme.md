@@ -34,6 +34,28 @@ So far we used alert message in the ui5 web application its a violation of messa
 
 </br>
 
+
+*Need to add dependencies for message object usage in controller - top section*
+
+```js
+
+sap.ui.define([
+    // 'sap/ui/core/mvc/Controller'
+    'ntt/hr/payroll/controller/BaseController',
+    "sap/ui/core/Fragment",
+    "sap/ui/model/Filter",
+    "sap/ui/model/FilterOperator",
+////////////////////////////////////////////////////////////////////////////////////////////////////    
+    "sap/m/MessageBox",  
+    "sap/m/MessageToast",
+    "sap/m/MessageStrip" 
+], function (Controller, Fragment, Filter, FilterOperator, MessageBox, MessageToast, MessageStrip) {
+////////////////////////////////////////////////////////////////////////////////////////////////////
+    'use strict';
+
+```
+
+
 *View2.controller.js*
 
 ```js
