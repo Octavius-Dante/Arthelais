@@ -78,6 +78,8 @@ So far we used alert message in the ui5 web application its a violation of messa
 
 **Implementing i18n text for Messages and passing a value to message with place holder**
 
+</br>
+
 *Maintain i18n text as shown below*
 
 </br>
@@ -96,6 +98,7 @@ XMSG_ORDER=The Order with # {0} has been created
 
 ```
 
+</br>
 
 *We need to implement a message read function in base controller to pass dynamic value text to message with place holders*
 
@@ -127,6 +130,33 @@ sap.ui.define([
 });
 
 ```
+
+</br>
+
+*View2.controller.js*
+
+```js
+
+    handleConfirm: function(status){
+        if(status === "OK"){
+            // alert("This functionality is under construction");
+            MessageToast.show(this.readMessage("XMSG_ORDERL","609879-8860"));
+        }else{
+
+        }
+    },
+
+    onOrder: function(params){
+        var that = this;
+        MessageBox.confirm(this.readMessage("XMSG_CONFIRM"), {
+            title : 'Confirmation',
+            // now (this.) pointer will be pased as controlelr object to call back function handleConfirm
+            onClose: this.handleConfirm.bind(this) 
+        })
+    }
+
+```
+
 
 
 
