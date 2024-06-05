@@ -74,6 +74,22 @@ So far we used alert message in the ui5 web application its a violation of messa
 
 ```
 
+</br></br>
+
+**Implementing i18n text for Messages**
+
+</br>
+<img src="./files/ui5e26-1.png" >
+</br></br>
+
+*We need to implement a message read function in base controller to pass dynamic value text to message with place holders*
+
+*BaseController.js*
+
+```js
+
+
+```
 
 
 
