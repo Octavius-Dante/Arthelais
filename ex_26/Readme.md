@@ -11,7 +11,53 @@ So far we used alert message in the ui5 web application its a violation of messa
 - sap.m.MessageView
 - sap.m.MessageStrip (consolidate multiple message and display)
 
-</br>
+</br></br>
+
+
+**Simple Message box implementation for Order button**
+
+*View2.view.xml*
+
+```xml
+
+    <footer>
+        <Toolbar>
+<!-- This toolbar spacer responsible for moving the button on the right side -->        
+        <ToolbarSpacer/> 
+            <Button text="Order" press="onOrder" type="Emphasized"></Button>
+            <Button text="Remind later" type="Accept"></Button>
+            <Button text="Cancel" press="onCancel" type="Reject"></Button>
+        </Toolbar>
+    </footer>
+
+
+```
+
+</br></br>
+
+*View2.controller.js*
+
+```js
+
+    handleConfirm: function(status){
+        if(status === "OK"){
+            // alert("This functionality is under construction");
+            
+        }else{
+
+        }
+    },
+
+    onOrder: function(params){
+        MessageBox.confirm("Confirmation", {
+            title : 'Confirmation',
+            onClose: this.handleConfirm
+        })
+    }
+
+
+```
+
 
 
 </br></br>
