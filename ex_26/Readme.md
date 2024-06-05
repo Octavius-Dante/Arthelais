@@ -30,7 +30,6 @@ So far we used alert message in the ui5 web application its a violation of messa
         </Toolbar>
     </footer>
 
-
 ```
 
 </br>
@@ -54,7 +53,6 @@ So far we used alert message in the ui5 web application its a violation of messa
             onClose: this.handleConfirm
         })
     }
-
 
 ```
 
