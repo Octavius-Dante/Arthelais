@@ -76,7 +76,9 @@ So far we used alert message in the ui5 web application its a violation of messa
 
 </br></br>
 
-**Implementing i18n text for Messages**
+**Implementing i18n text for Messages and passing a value to message with place holder**
+
+*Maintain i18n text as shown below*
 
 </br>
 <img src="./files/ui5e26-1.png" >
@@ -88,6 +90,28 @@ So far we used alert message in the ui5 web application its a violation of messa
 
 ```js
 
+sap.ui.define([
+    'sap/ui/core/mvc/Controller',
+    'ntt/hr/payroll/util/formatter',  // formatter.js included as dependency
+    'ntt/hr/payroll/util/stockstat'   // stock status
+], function(Controller, Formatter, Stockstat){  // formatter passed as argument
+    'use strict';
+    return Controller.extend("ntt.hr.payroll.controller.BaseController", {
+        formatter_curr : Formatter, // global variable declared for usage in every places
+        stock_status : Stockstat,
+        extractPath: function(oEvent){
+            var fruitId = oEvent.getParameter("arguments").fruitId;
+            return '/fruits/' + fruitId;            
+        },
+/////////////////////////////////////////////////////////////////////////////////////
+        readMessage: function(key, param1){
+            var oResourceModel = this.getOwnerComponent().getrModel("i18n");
+            var oResourceBundle = oResourceModel.getResourceBundle();
+            return oResourceBundle.getText(key, param1);
+        }
+/////////////////////////////////////////////////////////////////////////////////////
+    });
+});
 
 ```
 
