@@ -40,8 +40,7 @@ So far we used alert message in the ui5 web application its a violation of messa
 
     handleConfirm: function(status){
         if(status === "OK"){
-            // alert("This functionality is under construction");
-            
+            // alert("This functionality is under construction");            
         }else{
 
         }
@@ -60,9 +59,20 @@ So far we used alert message in the ui5 web application its a violation of messa
 
 **Simple Message Toast implementation for Order button -- Order placed (ok)**
 
-</br>
+*View2.controller.js*
 
+```js
 
+    handleConfirm: function(status){
+        if(status === "OK"){
+            // alert("This functionality is under construction");
+            MessageToast.show("The Order with # XXXXX-XX has been created");
+        }else{
+
+        }
+    }
+
+```
 
 
 
