@@ -33,7 +33,7 @@ So far we used alert message in the ui5 web application its a violation of messa
 
 ```
 
-</br></br>
+</br>
 
 *View2.controller.js*
 
