@@ -65,9 +65,10 @@ Pre-requisite VSCode or BAS should be installed and active.
 </br>
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Custom_formatter_stock_status"> Custom formatter ~ stock status </a>
 </br>
-<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Epoch-time-to-utc">  Custom formatter ~ Epoch-date-to-UTC-date </a>
+<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Epoch-time-to-utc"> Custom formatter ~ Epoch-date-to-UTC-date </a>
 </br>
-
+<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Orders-Total-Title"> Orders Total in the Title </a>
+</br>
 
 </br>
 
