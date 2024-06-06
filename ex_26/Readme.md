@@ -1,4 +1,4 @@
-## Exercise 26 - Fiori Deployments
+## Exercise 26 - Fiori Deployment system Architecture Old & New
 
 </br>
 
