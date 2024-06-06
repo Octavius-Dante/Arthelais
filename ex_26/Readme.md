@@ -194,6 +194,17 @@ sap.ui.define([
 
 
 
+## Fiori system deployment architecture 
+
+
+</br>
+<img src="./files/old-archi.png" >
+</br></br>
+<img src="./files/new-archi.png" >
+</br></br>
+
+
+
 
 
 
