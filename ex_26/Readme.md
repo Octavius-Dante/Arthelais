@@ -198,9 +198,9 @@ sap.ui.define([
 
 
 </br>
-<img src="./files/old-archi.png" >
+<img src="./files/old_archi.png" >
 </br></br>
-<img src="./files/new-archi.png" >
+<img src="./files/new_archi.png" >
 </br></br>
 
 
