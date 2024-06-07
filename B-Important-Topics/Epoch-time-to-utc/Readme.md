@@ -38,11 +38,15 @@ date_epoch_utc: function(InputDate){
 
         //This will return -->> 2023-10-11T20:05:00.000Z
         // const t3_date = test_Date.toJSON(); 
-        
+
+        // This will return -->> Sun Nov 13 2016
+		// var Outputdate = test_Date.toDateString();
+
         // Conversion of regualr lengthy date to short date
-        //This will return -->> 10/24/2023
+        // This will return -->> 10/24/2023
         var Outputdate = test_Date.toLocaleDateString();
         return Outputdate;				
+
     }
 
 ```
