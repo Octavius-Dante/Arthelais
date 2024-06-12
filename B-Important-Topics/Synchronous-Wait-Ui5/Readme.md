@@ -319,18 +319,29 @@ processFlow();
             press: function () {
                 let preview_timer;
 
-                // Function declaration 
+                // Regular function declaration 
                 function msglist_get_preview() {
+
+                    // declared Promise as return parameter for regular function 
                     return new Promise(function (resolve, reject) {
+
+                        // setTimeout Function inside - promise - Internal 
                         setTimeout((function () {
+                            // Promise - Resolve state is inside setTimeout
                             alert('msglist_get_preview worked');
                             resolve("Stuff worked!");
-                        }), 1000);
+                        }), 1000); // set time out delay return
+
+                       // set time out return will retrun to promise function retrun 
                     });
+
+                  // promise function retrun is retruned to regular function return  
                 }
 
                 // Function call 
-                preview_timer = setTimeout(function () {
+                // promise function only using resolve - external
+                preview_timer = setTimeout(function () {                   
+                    // Regualr function - promise - resolve state - external 
                     msglist_get_preview().then(function () {
                         alert('done');
                     })
@@ -352,6 +363,9 @@ processFlow();
                     
                     let x;
                     x = sap.ui.getCore().byId("idInp").getValue();
+
+// lets say you have sequence of process logic set a flag value after compeltion - that flag value is X 
+// Based on X value will proceed further --- this also completely behaves like sysnchronous depending on the value condition 
 
                     // If X contains value
                     if (x) {
@@ -435,6 +449,7 @@ processFlow();
 </body>
 
 </html>
+
 
 
 ```
