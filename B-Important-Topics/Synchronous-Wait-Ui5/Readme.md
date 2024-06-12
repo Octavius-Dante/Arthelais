@@ -282,7 +282,6 @@ caller();
 
 </br>
 
-
 ```js
 
 // Process-1 function declaration
