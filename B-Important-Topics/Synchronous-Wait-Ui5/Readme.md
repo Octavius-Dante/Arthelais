@@ -32,7 +32,7 @@
     }'></script>
 
     <script>
-        
+
         //////////////////////////////////////////////////////////////////////////
         // Normal alert function instant display         
         var oBtn1 = new sap.m.Button("idBtn1", {
@@ -66,7 +66,7 @@
             }
         });
 
-        // TYPE 2 - Synchronous execution based on another process completion
+        // TYPE 2 - Synchronous flow based on another process completion
         //////////////////////////////////////////////////////////////////////////
         // Display alert based on Synchronous flow, 
         // Wait for a specific functionality to comeplete and display alert        
@@ -75,13 +75,50 @@
             icon: "sap-icon://lateness",
             press: function () {
 
-                alert("Ui5 instant alert test");
+                let preview_timer = setTimeout(function () {
+                    abc(); // sequence 1
+                    xyz(); // sequence 2                     
+                    last(); // sequence 3
+                    alert('Ui5 alert test first message');
+                }, 1000);
+
+                // Process 1 
+                function abc() {
+                    setTimeout(function () {
+                        alert("Ui5 alert test process 1");
+                    }, 100)
+                };
+
+                // Process 2 
+                function xyz() {
+                    setTimeout(function () {
+                        alert("Ui5 alert test process 2");
+                    }, 100)
+                };
+
+                // Process 2 
+                function last() {
+                    setTimeout(function () {
+                        alert("Ui5 alert test last message");
+                    }, 100)
+                };
+            }
+        });
+
+        // TYPE 3 - Synchronous execution based on another process completion
+        //////////////////////////////////////////////////////////////////////////
+        var oBtn4 = new sap.m.Button("idBtn4", {
+            text: "Wait for a process to comeplete",
+            icon: "sap-icon://process",
+            press: function () {
+                alert("Ui5 alert test after process completion");
             }
         });
 
         oBtn1.placeAt("content1");
         oBtn2.placeAt("content2");
         oBtn3.placeAt("content3");
+        oBtn4.placeAt("content4");
 
     </script>
     <style></style>
@@ -89,13 +126,15 @@
 
 <body class="sapUiBody">
     </br></br>
-     Welcome! - Synchronous Java Script examples 
+    Welcome! - Synchronous Java Script examples
     </br></br>
     <div id="content1"> </div>
     </br>
     <div id="content2"> </div>
     </br>
     <div id="content3"> </div>
+    </br>
+    <div id="content4"> </div>
 </body>
 
 </html>
