@@ -232,13 +232,38 @@ You can not use the await keyword in a regular, non-async function. JavaScript e
 
 ```js
 
-function caller() {
+
+// WRONG usgae 
+
+function getDetails(){
+    console.log('test');
+}
+
+
+function caller() { // <<------------ Check here
  // Using await in a non-async function.
- const user = await fetchUserDetails();
+ const user = await getDetails();
 }
 
 // This will result in an syntax error
 caller();
+
+////////////////////////////////////////////////
+
+// RIGHT usage 
+function getDetails(){
+    console.log('test');
+}
+
+
+async function caller() {  // <<------------ Check here
+ // Using await in a non-async function.
+ const user = await getDetails();
+}
+
+// This will result in an syntax error
+caller();
+
 
 ```
 
