@@ -424,9 +424,9 @@ processFlow();
     </br>
 
     <div id="content5">
-        --Test-1--- Input some random value below / and click
+        --Test-1--- Input something / and click -- Promise Resolve
         </br>
-        --Test-2--- Dont Input anything below / and click
+        --Test-2--- Dont Input anything / and click -- Promise Reject
         </br>
         </br>
     </div>
