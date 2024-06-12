@@ -44,19 +44,19 @@ let promise = new Promise(function(resolve, reject) {
 
 **State:** *This property can have the following values.*
 
-**Pending:** *When the execution function starts. In our story, when Jack and Jill start to fetch the water.*
+    **Pending:** *When the execution function starts. In our story, when Jack and Jill start to fetch the water.*
 
-**Fulfilled:** *When the promise resolves successfully. Like, Jack and Jill are back with the water.*
+    **Fulfilled:** *When the promise resolves successfully. Like, Jack and Jill are back with the water.*
 
-**Rejected:** *When the promise rejects. Example. Jack and Jill couldn't complete the mission.*
+    **Rejected:** *When the promise rejects. Example. Jack and Jill couldn't complete the mission.*
 
 **Result:** *This property can have the following values,*
 
-**Undefined:** *Initially, when the state value is pending.*
+    **Undefined:** *Initially, when the state value is pending.*
 
-**Value:** *When the promise is resolved(value).*
+    **Value:** *When the promise is resolved(value).*
 
-**Error:** *When the promise is rejected.*
+    **Error:** *When the promise is rejected.*
 
 *A promise that is either resolved or rejected is called* **settled.**
 
