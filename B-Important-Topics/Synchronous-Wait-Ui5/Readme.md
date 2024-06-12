@@ -62,6 +62,8 @@ let promise = new Promise(function(resolve, reject) {
 
 -- **Error:** *When the promise is rejected.*
 
+</br>
+
 *A promise that is either resolved or rejected is called* **settled.**
 
 </br></br></br></br>
