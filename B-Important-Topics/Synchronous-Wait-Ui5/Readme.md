@@ -168,7 +168,7 @@ promise.then(
 
 </br></br>
 
-
+test following code in online compiler : - https://playcode.io/empty_javascript
 
 ```js
 
@@ -178,7 +178,7 @@ let promise = new Promise(function(resolve, reject) {
   setTimeout(function() {
        
        let x;
-       x = 0; // change this value and test in debugger
+       x = 0; // change this value and test 
 
        if (x) {       
          // Fetched the value - Let's resolve the promise
