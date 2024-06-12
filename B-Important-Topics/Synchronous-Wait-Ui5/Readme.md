@@ -359,19 +359,35 @@ processFlow();
                     }
                 });
 
-                myPromise.then(
-                    function (value) { alert('success'); },
-                    function (error) { alert('error'); }
-                );
+                // Type 1 
+                ///////////////////////////////////////////////////
+                // myPromise.then(
+                //     function (value) { alert('success'); },
+                //     function (error) { alert('error'); }
+                // );
+                ///////////////////////////////////////////////////
+
+                // Type 2 
+                ///////////////////////////////////////////////////
+                myPromise.then(function (result) {
+                    // process conmpleted successfully
+                    alert('success');
+                });
+
+                // process failred alternative flow or error message 
+                myPromise.catch(function (error) {
+                    alert('Error');
+                });
+                ///////////////////////////////////////////////////
             }
         });
 
         // content 1 div 
         oBtn1.placeAt("content1");
-        
+
         // content 2 div 
         oBtn2.placeAt("content2");
-        
+
         // content 3 div 
         oBtn3.placeAt("content3");
 
