@@ -40,6 +40,8 @@ let promise = new Promise(function(resolve, reject) {
 
 **A promise object has the following internal properties**
 
+</br>
+
 **State:** *This property can have the following values.*
 
 **Pending:** *When the execution function starts. In our story, when Jack and Jill start to fetch the water.*
