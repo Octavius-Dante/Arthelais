@@ -380,7 +380,7 @@ processFlow();
                 // Promise - External 
                 ///////////////////////////////////////////////////
 
-                // Type 1 -- this style of codeing also works 
+                // Type 1 -- this style of coding also works 
                 ///////////////////////////////////////////////////
                 // myPromise.then(
                 //     function (value) { alert('success'); },
