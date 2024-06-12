@@ -212,9 +212,28 @@ processFlow();
 
 ```
 
+</br></br>
 
 
+**Async - Await function usage**
 
+```js
+
+// Process-1 function declaration
+function process_1() {
+  alert("test1");
+}
+
+// Process-2 function declaration
+async function Process_2() {
+  const messageHi = await process_1(); // Process-1 function call
+  alert("test2");
+}
+
+// Process-2 function call
+Process_2();
+
+````
 
 
 
@@ -335,7 +354,7 @@ processFlow();
                         // setTimeout Function inside - promise - Internal 
                         setTimeout((function () {
                             // Promise - Resolve state is inside setTimeout
-                            alert('msglist_get_preview worked');
+                            alert('Promise function resolve worked');
                             resolve("Stuff worked!");
                         }), 1000); // set time out delay return
 
