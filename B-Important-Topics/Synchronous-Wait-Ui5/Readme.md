@@ -359,7 +359,7 @@ processFlow();
                     }
                 });
 
-                // Type 1 
+                // Type 1 -- this style of codeing also works 
                 ///////////////////////////////////////////////////
                 // myPromise.then(
                 //     function (value) { alert('success'); },
