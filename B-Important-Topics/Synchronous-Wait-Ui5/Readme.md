@@ -239,13 +239,12 @@ function getDetails(){
     console.log('test');
 }
 
-
 function caller() { // <<------------ Check here
  // Using await in a non-async function.
  const user = await getDetails();
 }
 
-// This will result in an syntax error
+// This will result in a syntax error
 caller();
 
 ////////////////////////////////////////////////
@@ -255,13 +254,12 @@ function getDetails(){
     console.log('test');
 }
 
-
 async function caller() {  // <<------------ Check here
  // Using await in a non-async function.
  const user = await getDetails();
 }
 
-// This will result in an syntax error
+// This will result in displaying console message 'test'
 caller();
 
 
