@@ -255,6 +255,16 @@ caller();
 
 </br></br>
 
+
+The function you use after the await keyword may or may not be an async function. There is no mandatory rule that it has to be an async function. Let's understand it with the following examples,
+
+</br>
+
+Create a non-async function that returns the synchronous message.
+
+</br></br>
+
+
 **Example - Right way of using async-await**
 
 ```js
@@ -277,18 +287,9 @@ caller();
 
 </br>
 
-
-The function you use after the await keyword may or may not be an async function. There is no mandatory rule that it has to be an async function. Let's understand it with the following examples,
-
-</br>
-
-
-Create a non-async function that returns the synchronous message, say, "test1"
+**Another example**
 
 </br>
-
-
-
 
 
 ```js
