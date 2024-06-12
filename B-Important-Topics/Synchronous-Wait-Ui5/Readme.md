@@ -353,11 +353,11 @@ processFlow();
                     let x;
                     x = sap.ui.getCore().byId("idInp").getValue();
 
-                    // checking if X contains value
+                    // If X contains value
                     if (x) {
                         myResolve("OK");
                     } 
-                    // X is empty
+                    // If X is empty
                     else {
                         myReject("Error");
                     }
