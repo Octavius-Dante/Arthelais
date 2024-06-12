@@ -47,7 +47,7 @@
         //////////////////////////////////////////////////////////////////////////        
         // Display alert based on timer wait
         var oBtn2 = new sap.m.Button("idBtn2", {
-            text: "Wait 2 seconds alert",
+            text: "Wait 2 seconds alert -- using setTimeout()",
             icon: "sap-icon://pending",
             press: function () {
 
@@ -71,7 +71,7 @@
         // Display alert based on Synchronous flow, 
         // Wait for a specific functionality to comeplete and display alert        
         var oBtn3 = new sap.m.Button("idBtn3", {
-            text: "Wait for a sequence of process",
+            text: "Wait for a sequence of process -- using setTimeout()",
             icon: "sap-icon://lateness",
             press: function () {
 
@@ -108,7 +108,7 @@
         // TYPE 3 - Synchronous execution based on promise - 1 
         //////////////////////////////////////////////////////////////////////////
         var oBtn4 = new sap.m.Button("idBtn4", {
-            text: "Wait for a process to comeplete",
+            text: "Wait for a process to comeplete -- Using Promise() & setTimeout()",
             icon: "sap-icon://process",
             press: function () {
                 let preview_timer;
@@ -136,7 +136,7 @@
         // TYPE 4 - Synchronous execution on promise - 2 
         //////////////////////////////////////////////////////////////////////////        
         var oBtn5 = new sap.m.Button("idBtn5", {
-            text: "Process with 2 different outcome",
+            text: "Process with 2 different outcome -- Using only Promise()",
             icon: "sap-icon://step",
             press: function () {
 
@@ -159,6 +159,8 @@
                 );
             }
         });
+
+
 
         oBtn1.placeAt("content1");
         oBtn2.placeAt("content2");
