@@ -256,21 +256,12 @@ caller();
 </br></br>
 
 
-The function you use after the await keyword may or may not be an async function. There is no mandatory rule that it has to be an async function. Let's understand it with the following examples,
-
-</br>
-
-Create a non-async function that returns the synchronous message.
-
-</br></br>
-
-
 **Example - Right way of using async-await**
 
 ```js
 
 // RIGHT usage 
-function getDetails(){
+function getDetails(){ // this function can be async or non-async doenst matter
     console.log('test');
 }
 
@@ -295,7 +286,7 @@ caller();
 ```js
 
 // Process-1 function declaration
-function process_1() {
+function process_1() { // this function can be async or non-async doenst matter
   alert("test1");
 }
 
