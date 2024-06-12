@@ -170,7 +170,40 @@ promise.then(
 
 
 
+```js
 
+// 1. Create a Promise to carry out the process activity
+let promise = new Promise(function(resolve, reject) {
+ // Pretend a delay of 2 sec to process it 
+  setTimeout(function() {
+      
+      // Fetched the value - Let's resolve the promise
+      resolve('Expected result - success');
+      // Reject it as the disaster happend.
+      reject(new Error('Not expected result - failure'));
+
+  }, 2000);
+});
+
+// 2. Function to Set up the handler to handle a promise result.
+// It is to inform the proces flow function that a result is available positive or negative.
+const processFlow = () => {
+  // The handler function to handle the resolved promise
+  promise.then(function(result) {
+    // process conmpleted successfully
+    console.log(`success ${result}`);
+  });
+
+  // process failred alternative flow or error message 
+  promise.catch(function(error) {
+    console.error(`error ${error.message}`);
+    });
+}
+
+// 3. Calling the function to activate the set up.
+processFlow();
+
+```
 
 
 
