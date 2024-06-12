@@ -17,6 +17,8 @@
 
 ## Promise in JavaScript
 
+</br>
+
 *A promise is a JavaScript object that allows you to make asynchronous(aka async) calls. It produces a value when the async operation completes successfully or produces an error if it doesn't complete.*
 
 You can create promise using the constructor method
@@ -217,7 +219,7 @@ processFlow();
 
 ## Async - Await function usage in JS
 
-
+</br>
 
 **A Few Rules about using async/await**
 
