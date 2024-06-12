@@ -105,13 +105,58 @@
             }
         });
 
-        // TYPE 3 - Synchronous execution based on another process completion
+        // TYPE 3 - Synchronous execution based on promise - 1 
         //////////////////////////////////////////////////////////////////////////
         var oBtn4 = new sap.m.Button("idBtn4", {
             text: "Wait for a process to comeplete",
             icon: "sap-icon://process",
             press: function () {
-                alert("Ui5 alert test after process completion");
+                let preview_timer;
+
+                // Function declaration 
+                function msglist_get_preview() {
+                    return new Promise(function (resolve, reject) {
+                        setTimeout((function () {
+                            alert('msglist_get_preview worked');
+                            resolve("Stuff worked!");
+                        }), 1000);
+                    });
+                }
+
+                // Function call 
+                preview_timer = setTimeout(function () {
+                    msglist_get_preview().then(function () {
+                        alert('done');
+                    })
+                });
+
+            }
+        });
+
+        // TYPE 4 - Synchronous execution on promise - 2 
+        //////////////////////////////////////////////////////////////////////////        
+        var oBtn5 = new sap.m.Button("idBtn5", {
+            text: "Process with 2 different outcome",
+            icon: "sap-icon://step",
+            press: function () {
+
+                let myPromise = new Promise(function (myResolve, myReject) {
+                    let x;
+
+                    x = sap.ui.getCore().byId("idInp").getValue();
+
+                    // some code (try to change x to 5)
+                    if (x) {
+                        myResolve("OK");
+                    } else {
+                        myReject("Error");
+                    }
+                });
+
+                myPromise.then(
+                    function (value) { alert('success'); },
+                    function (error) { alert('error'); }
+                );
             }
         });
 
@@ -119,6 +164,10 @@
         oBtn2.placeAt("content2");
         oBtn3.placeAt("content3");
         oBtn4.placeAt("content4");
+
+        // content 5 div input and button 
+        oBtn5.placeAt("content5");
+        new sap.m.Input("idInp").placeAt("content5");
 
     </script>
     <style></style>
@@ -135,6 +184,16 @@
     <div id="content3"> </div>
     </br>
     <div id="content4"> </div>
+    </br>
+    </br>
+
+    <div id="content5">
+        --Test-1--- Input some random value below / and click
+        </br>
+        --Test-2--- Dont Input anything below / and click
+        </br>
+        </br>
+    </div>
 </body>
 
 </html>
