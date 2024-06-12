@@ -349,11 +349,11 @@ processFlow();
                 // Promise - Internal
                 ///////////////////////////////////////////////////                
                 let myPromise = new Promise(function (myResolve, myReject) {
+                    
                     let x;
-
                     x = sap.ui.getCore().byId("idInp").getValue();
 
-                    // some code (try to change x to 5)
+                    // checking X is is nitial or not 
                     if (x) {
                         myResolve("OK");
                     } else {
@@ -433,5 +433,6 @@ processFlow();
 </body>
 
 </html>
+
 
 ```
