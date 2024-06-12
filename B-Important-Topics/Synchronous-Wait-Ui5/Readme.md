@@ -229,6 +229,10 @@ You can not use the await keyword in a regular, non-async function. JavaScript e
 
 </br>
 
+test following code in online compiler : - https://playcode.io/empty_javascript
+
+</br></br>
+
 **Example - wrong way of using async-await**
 
 ```js
