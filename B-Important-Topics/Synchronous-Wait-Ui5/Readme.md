@@ -263,11 +263,13 @@ caller();
 // RIGHT usage 
 function getDetails(){ // this function can be async or non-async doenst matter
     console.log('test');
+    alert("test1");
 }
 
 async function caller() {  // <<------------ Check here
  // Using await in an async function - right way
  const user = await getDetails();
+ alert("test2");
 }
 
 // This will result in displaying console message 'test'
@@ -277,28 +279,6 @@ caller();
 ```
 
 </br>
-
-**Another example**
-
-</br>
-
-```js
-
-// Process-1 function declaration
-function process_1() { // this function can be async or non-async doenst matter
-  alert("test1");
-}
-
-// Process-2 function declaration
-async function Process_2() {
-  const messageHi = await process_1(); // Process-1 function call
-  alert("test2");
-}
-
-// Process-2 function call
-Process_2();
-
-```
 
 
 
