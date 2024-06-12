@@ -332,15 +332,15 @@ processFlow();
                             resolve("Stuff worked!");
                         }), 1000); // set time out delay return
 
-                       // set time out return will retrun to promise function retrun 
+                        // set time out return will retrun to promise function retrun 
                     });
 
-                  // promise function retrun is retruned to regular function return  
+                    // promise function retrun is retruned to regular function return  
                 }
 
                 // Function call 
                 // promise function only using resolve - external
-                preview_timer = setTimeout(function () {                   
+                preview_timer = setTimeout(function () {
                     // Regualr function - promise - resolve state - external 
                     msglist_get_preview().then(function () {
                         alert('done');
@@ -360,17 +360,17 @@ processFlow();
                 // Promise - Internal
                 ///////////////////////////////////////////////////                
                 let myPromise = new Promise(function (myResolve, myReject) {
-                    
+
                     let x;
                     x = sap.ui.getCore().byId("idInp").getValue();
 
-// lets say you have sequence of process logic set a flag value after completion return that flag value as X 
-// Based on X value will proceed further --- this also completely behaves like synchronous depending on the value condition 
+                    // lets say you have sequence of process logic set a flag value after completion return that flag value as X 
+                    // Based on X value will proceed further --- this also completely behaves like synchronous depending on the value condition 
 
                     // If X contains value
                     if (x) {
                         myResolve("OK");
-                    } 
+                    }
                     // If X is empty
                     else {
                         myReject("Error");
