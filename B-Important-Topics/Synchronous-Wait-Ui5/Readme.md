@@ -13,8 +13,32 @@
 <img src="./files/async-await.png" >
 </br></br>
 
+</br>
 
-**Sample code for understanding**
+**Promise in JavaScript**
+
+*A promise is a JavaScript object that allows you to make asynchronous(aka async) calls. It produces a value when the async operation completes successfully or produces an error if it doesn't complete.*
+
+You can create promise using the constructor method
+
+</br>
+
+```js
+
+let promise = new Promise(function(resolve, reject) {    
+    // Do something and either resolve or reject
+});
+
+```
+
+</br>
+
+
+</br></br></br></br>
+
+
+## Sample code for understanding - all the concepts 
+
 </br></br>
 
 *index.html with JS script example*
