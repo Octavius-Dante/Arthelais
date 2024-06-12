@@ -15,7 +15,7 @@
 
 </br>
 
-**Promise in JavaScript**
+## Promise in JavaScript
 
 *A promise is a JavaScript object that allows you to make asynchronous(aka async) calls. It produces a value when the async operation completes successfully or produces an error if it doesn't complete.*
 
@@ -215,7 +215,11 @@ processFlow();
 </br></br>
 
 
-**Async - Await function usage**
+## Async - Await function usage in JS
+
+
+
+**A Few Rules about using async/await**
 
 We need to understand a few simple rules to use the async and await keywords.
 
@@ -249,7 +253,7 @@ Create a non-async function that returns the synchronous message, say, "test1"
 </br>
 
 
-**A Few Rules about using async/await**
+
 
 
 ```js
