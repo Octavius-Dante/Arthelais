@@ -50,6 +50,10 @@ let promise = new Promise(function(resolve, reject) {
 
 -- **Rejected:** *When the promise rejects. Example. Jack and Jill couldn't complete the mission.*
 
+
+</br></br>
+
+
 **Result:** *This property can have the following values,*
 
 -- **Undefined:** *Initially, when the state value is pending.*
