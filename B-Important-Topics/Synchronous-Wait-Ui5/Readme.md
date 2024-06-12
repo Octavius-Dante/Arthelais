@@ -114,6 +114,74 @@ let promise = new Promise(function(resolve, reject) {
 
 *So then? That's where we have three important handler methods, .then(), .catch(), and .finally(). These methods help us create a link between the executor and the consumer when a promise resolves or rejected.*
 
+</br></br>
+
+**The .then() Promise Handler**
+
+</br>
+
+*We get a .then() method from every promise. The sole purpose of this method is to let the consumer know about the outcome of a promise. It accepts two functions as arguments, result and error.*
+
+</br>
+
+```js
+
+promise.then(
+  (result) => { 
+     console.log(result);
+  },
+  (error) => { 
+     console.log(error);
+  }
+);
+
+```
+
+</br>
+
+*Resolve* - If you are just interested in the successful outcome, you can chose to pass only one argument,
+
+```js
+
+promise.then(
+  (result) => { 
+      console.log(result);
+  }
+);
+
+```
+
+</br>
+
+*Reject* - Similarly, if you are interested in only the error, pass null as the value for the first argument.
+
+```js
+
+promise.then(
+  null,
+  (error) => { 
+      console.log(error)
+  }
+);
+
+```
+
+</br></br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </br></br></br></br>
 
