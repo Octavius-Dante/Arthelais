@@ -33,7 +33,7 @@ let promise = new Promise(function(resolve, reject) {
 
 </br>
 
-**Example of Resolve**
+**Example of Resolve - Pormise internal**
 
 </br>
 
@@ -49,7 +49,7 @@ let promise = new Promise(function(resolve, reject) {
 
 </br>
 
-**Example of Reject**
+**Example of Reject - Pormise internal**
 
 </br>
 
@@ -116,7 +116,7 @@ let promise = new Promise(function(resolve, reject) {
 
 </br></br>
 
-**The .then() Promise Handler**
+**The .then() Promise Handler - Pormise external**
 
 </br>
 
