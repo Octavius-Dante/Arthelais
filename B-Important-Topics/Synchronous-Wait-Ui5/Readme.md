@@ -70,6 +70,41 @@ let promise = new Promise(function(resolve, reject) {
 <img src="./files/promise_state.png">
 </br></br>
 
+**Example of Resolve**
+
+</br>
+
+```js
+
+let promise = new Promise(function(resolve, reject) {
+    // Got the water
+    let value = 'water';
+    resolve(value); // An assurance of getting the water successfully
+});
+
+```
+
+</br></br>
+
+**Example of Reject**
+
+</br>
+
+```js
+
+let promise = new Promise(function(resolve, reject) {
+    // OOPS, Jack fell down and broke his crown. 
+    // And Jill came tumbling after.
+    reject(new Error("Disaster")); // Throwing and error
+});
+
+```
+
+</br></br>
+
+
+
+
 </br></br></br></br>
 
 
