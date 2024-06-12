@@ -353,10 +353,12 @@ processFlow();
                     let x;
                     x = sap.ui.getCore().byId("idInp").getValue();
 
-                    // checking X is is nitial or not 
+                    // checking if X contains value
                     if (x) {
                         myResolve("OK");
-                    } else {
+                    } 
+                    // X is empty
+                    else {
                         myReject("Error");
                     }
                 });
