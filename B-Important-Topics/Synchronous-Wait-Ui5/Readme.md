@@ -66,6 +66,10 @@ let promise = new Promise(function(resolve, reject) {
 
 *A promise that is either resolved or rejected is called* **settled.**
 
+</br>
+<img src="./files/promise_state.png">
+</br></br>
+
 </br></br></br></br>
 
 
