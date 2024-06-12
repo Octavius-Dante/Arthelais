@@ -40,9 +40,9 @@ let promise = new Promise(function(resolve, reject) {
 ```js
 
 let promise = new Promise(function(resolve, reject) {
-    // Got the water
+    // Got the expected value
     let value = 'water';
-    resolve(value); // An assurance of getting the water successfully
+    resolve(value); // An assurance of getting the value successfully
 });
 
 ```
@@ -56,9 +56,8 @@ let promise = new Promise(function(resolve, reject) {
 ```js
 
 let promise = new Promise(function(resolve, reject) {
-    // OOPS, Jack fell down and broke his crown. 
-    // And Jill came tumbling after.
-    reject(new Error("Disaster")); // Throwing and error
+    // OOPS, resule is not as expected 
+    reject(new Error("Disaster")); // Throwing an error
 });
 
 ```
@@ -104,7 +103,16 @@ let promise = new Promise(function(resolve, reject) {
 
 </br></br>
 
+**Handling Promises by the Consumers**
 
+</br>
+
+*The promise object returned by the new Promise constructor is only internally accessible.* 
+*A consumer can use it to know the state(pending, fulfilled, or rejected) and its possible outcomes(value or error).*
+
+*They are inspectable. It means that we will be able to inspect the state and result property values using a debugger tool, but we will not be able to access them directly using the program.*
+
+*So then? That's where we have three important handler methods, .then(), .catch(), and .finally(). These methods help us create a link between the executor and the consumer when a promise resolves or rejected.*
 
 
 </br></br></br></br>
