@@ -10,7 +10,7 @@
 **Synchronous JavaScript** : *is the programming approach where tasks of a program are executed sequentially one at a time.*
 
 </br>
-<img src="./files/async-await.png" >
+<img src="./files/async-sync.png" >
 </br></br>
 
 </br>
@@ -33,6 +33,9 @@ let promise = new Promise(function(resolve, reject) {
 
 </br>
 
+</br>
+<img src="./files/promises.png" >
+</br></br>
 
 </br></br></br></br>
 
