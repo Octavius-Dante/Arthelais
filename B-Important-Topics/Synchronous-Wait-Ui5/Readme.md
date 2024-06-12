@@ -229,9 +229,9 @@ You can not use the await keyword in a regular, non-async function. JavaScript e
 
 </br>
 
+**Example - wrong way of using async-await**
 
 ```js
-
 
 // WRONG usgae 
 
@@ -240,14 +240,20 @@ function getDetails(){
 }
 
 function caller() { // <<------------ Check here
- // Using await in a non-async function.
+ // Using await in a non-async function - wrong way
  const user = await getDetails();
 }
 
 // This will result in a syntax error
 caller();
 
-////////////////////////////////////////////////
+```
+
+</br></br>
+
+**Example - Right way of using async-await**
+
+```js
 
 // RIGHT usage 
 function getDetails(){
@@ -255,7 +261,7 @@ function getDetails(){
 }
 
 async function caller() {  // <<------------ Check here
- // Using await in a non-async function.
+ // Using await in an async function - right way
  const user = await getDetails();
 }
 
