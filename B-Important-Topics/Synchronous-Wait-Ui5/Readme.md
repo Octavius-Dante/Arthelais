@@ -176,11 +176,18 @@ promise.then(
 let promise = new Promise(function(resolve, reject) {
  // Pretend a delay of 2 sec to process it 
   setTimeout(function() {
-      
-      // Fetched the value - Let's resolve the promise
-      resolve('Expected result - success');
-      // Reject it as the disaster happend.
-      reject(new Error('Not expected result - failure'));
+       
+       let x;
+       x = 0; // change this value and test in debugger
+
+       if (x) {       
+         // Fetched the value - Let's resolve the promise
+         resolve('Expected result - success');
+       }
+       else {       
+         // Reject it as the disaster happend.
+         reject(new Error('Not expected result - failure'));
+       }
 
   }, 2000);
 });
