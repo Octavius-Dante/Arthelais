@@ -364,7 +364,7 @@ processFlow();
                     let x;
                     x = sap.ui.getCore().byId("idInp").getValue();
 
-// lets say you have sequence of process logic set a flag value after compeltion - that flag value is X 
+// lets say you have sequence of process logic set a flag value after completion return that flag value as X 
 // Based on X value will proceed further --- this also completely behaves like sysnchronous depending on the value condition 
 
                     // If X contains value
@@ -449,7 +449,6 @@ processFlow();
 </body>
 
 </html>
-
 
 
 ```
