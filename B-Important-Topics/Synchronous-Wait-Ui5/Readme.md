@@ -187,11 +187,16 @@ let promise = new Promise(function(resolve, reject) {
             }
         });
 
-
-
+        // content 1 div 
         oBtn1.placeAt("content1");
+        
+        // content 2 div 
         oBtn2.placeAt("content2");
+        
+        // content 3 div 
         oBtn3.placeAt("content3");
+
+        // content 4 div 
         oBtn4.placeAt("content4");
 
         // content 5 div input and button 
@@ -208,6 +213,8 @@ let promise = new Promise(function(resolve, reject) {
     </br></br>
     <div id="content1"> </div>
     </br>
+    --- Debug and understand ---
+    </br></br>
     <div id="content2"> </div>
     </br>
     <div id="content3"> </div>
