@@ -217,6 +217,41 @@ processFlow();
 
 **Async - Await function usage**
 
+We need to understand a few simple rules to use the async and await keywords.
+
+You can not use the await keyword in a regular, non-async function. JavaScript engine will throw a syntax error if you try doing so.
+
+</br>
+
+
+```js
+
+function caller() {
+ // Using await in a non-async function.
+ const user = await fetchUserDetails();
+}
+
+// This will result in an syntax error
+caller();
+
+```
+
+</br>
+
+
+The function you use after the await keyword may or may not be an async function. There is no mandatory rule that it has to be an async function. Let's understand it with the following examples,
+
+</br>
+
+
+Create a non-async function that returns the synchronous message, say, "test1"
+
+</br>
+
+
+**A Few Rules about using async/await**
+
+
 ```js
 
 // Process-1 function declaration
@@ -233,7 +268,7 @@ async function Process_2() {
 // Process-2 function call
 Process_2();
 
-````
+```
 
 
 
@@ -429,6 +464,28 @@ Process_2();
             }
         });
 
+        // Normal alert function instant display         
+        var oBtn6 = new sap.m.Button("idBtn6", {
+            text: "Wait for a process to complete -- Using Async() & Await()",
+            icon: "sap-icon://begin",
+            press: function () {
+
+                // Process-1 function declaration
+                function process_1() {
+                    alert("Process 1 done");
+                }
+
+                // Process-2 function declaration
+                async function Process_2() {
+                    const messageHi = await process_1(); // Process-1 function call
+                    alert("Process 2 done");
+                }
+
+                // Process-2 function call
+                Process_2();
+            }
+        });
+
         // content 1 div 
         oBtn1.placeAt("content1");
 
@@ -444,6 +501,9 @@ Process_2();
         // content 5 div input and button 
         oBtn5.placeAt("content5");
         new sap.m.Input("idInp").placeAt("content5");
+
+        // content 6 div 
+        oBtn6.placeAt("content6");
 
     </script>
     <style></style>
@@ -471,7 +531,10 @@ Process_2();
         --Test-2--- Dont Input anything / and click -- Promise Reject
         </br>
         </br>
-    </div>
+    </div>    
+    </br>
+    <div id="content6"> </div>
+    </br>
 </body>
 
 </html>
