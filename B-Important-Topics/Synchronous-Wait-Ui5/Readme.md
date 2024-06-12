@@ -47,7 +47,7 @@ let promise = new Promise(function(resolve, reject) {
 
 ```
 
-</br></br>
+</br>
 
 **Example of Reject**
 
