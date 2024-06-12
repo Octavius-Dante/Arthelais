@@ -37,6 +37,27 @@ let promise = new Promise(function(resolve, reject) {
 <img src="./files/promises.png" >
 </br></br>
 
+
+**A promise object has the following internal properties**
+
+*state: This property can have the following values.*
+
+*pending: When the execution function starts. In our story, when Jack and Jill start to fetch the water.*
+
+*fulfilled: When the promise resolves successfully. Like, Jack and Jill are back with the water.*
+
+*rejected: When the promise rejects. Example. Jack and Jill couldn't complete the mission.*
+
+*result: This property can have the following values,*
+
+*undefined: Initially, when the state value is pending.*
+
+*value: When the promise is resolved(value).*
+
+*error: When the promise is rejected.*
+
+*A promise that is either resolved or rejected is called settled.*
+
 </br></br></br></br>
 
 
