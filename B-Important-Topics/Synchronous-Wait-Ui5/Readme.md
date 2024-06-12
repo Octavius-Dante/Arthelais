@@ -8,3 +8,7 @@
 </br>
 
 **Synchronous JavaScript** : *is the programming approach where tasks of a program are executed sequentially one at a time.*
+
+</br>
+<img src="./files/async-await.png" >
+</br>
