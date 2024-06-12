@@ -346,6 +346,8 @@ processFlow();
             icon: "sap-icon://step",
             press: function () {
 
+                // Promise - Internal
+                ///////////////////////////////////////////////////                
                 let myPromise = new Promise(function (myResolve, myReject) {
                     let x;
 
@@ -359,6 +361,9 @@ processFlow();
                     }
                 });
 
+                // Promise - External 
+                ///////////////////////////////////////////////////
+
                 // Type 1 -- this style of codeing also works 
                 ///////////////////////////////////////////////////
                 // myPromise.then(
@@ -371,7 +376,7 @@ processFlow();
                 ///////////////////////////////////////////////////
                 myPromise.then(function (result) {
                     // process conmpleted successfully
-                    alert('success');
+                    alert('Success');
                 });
 
                 // process failred alternative flow or error message 
