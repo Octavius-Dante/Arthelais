@@ -69,6 +69,8 @@ Pre-requisite VSCode or BAS should be installed and active.
 </br>
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Orders-Total-Title"> Orders Total in the Title </a>
 </br>
+<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Synchronous-Wait-Ui5"> Synchronous Functions ~~ async, await, promise, setTimeout </a>
+</br>
 
 </br>
 
