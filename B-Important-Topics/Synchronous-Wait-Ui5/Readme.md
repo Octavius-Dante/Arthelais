@@ -416,7 +416,7 @@ asyncFunction().then((data) => {
 
 </br></br></br>
 
-## Sample functions together - Async, Await + Promise (same function multiple time called)
+## Sample functions together - Async, Await + Promise (Multiple call with changed timer parameter)
 
 </br>
 
