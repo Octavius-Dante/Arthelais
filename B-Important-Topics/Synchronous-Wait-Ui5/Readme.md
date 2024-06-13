@@ -420,6 +420,8 @@ asyncFunction().then((data) => {
 
 </br>
 
+test the following code in online compiler : - https://playcode.io/empty_javascript
+
 ```js
 
 const setAsyncTimeout = (cb, timeout = 0) => new Promise(resolve => {
@@ -456,6 +458,7 @@ doStuffAsync();
 
 </br>
 
+test the following code in online compiler : - https://playcode.io/empty_javascript
 
 ```js
 
