@@ -553,7 +553,7 @@ app();
         });
 
 
-        // TYPE 6 - Synchronous execution using - async(), await() + promise() + setTimeout()
+        // TYPE 6 - Synchronous execution using - async(), await() + promise()
         //////////////////////////////////////////////////////////////////////////  
         var oBtn7 = new sap.m.Button("idBtn7", {
             text: "Validate process to complete -- Using Async(), Await() + Promise() - v2",
