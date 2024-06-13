@@ -855,3 +855,10 @@ getData().then((allData) => {
 </html>
 
 ```
+
+</br></br></br></br></br></br>
+
+
+**There are multiple ways thise synchronous function can be written many examples are available in the internet for reference but above samples are sufficient enought to fullfill the necessary functionality in UI5 developments**
+
+**Most of these functions are needed for waiting for a task to be completed or awaiting response for api calls to return json data**
