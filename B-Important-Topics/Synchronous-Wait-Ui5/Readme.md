@@ -326,7 +326,7 @@ caller();
         //////////////////////////////////////////////////////////////////////////        
         // Display alert based on timer wait
         var oBtn2 = new sap.m.Button("idBtn2", {
-            text: "Wait 2 seconds alert -- using setTimeout() - v1.0",
+            text: "Wait 2 seconds alert -- using setTimeout() - v1",
             icon: "sap-icon://pending",
             press: function () {
 
@@ -350,7 +350,7 @@ caller();
         // Display alert based on Synchronous flow, 
         // Wait for a specific functionality to comeplete and display alert        
         var oBtn3 = new sap.m.Button("idBtn3", {
-            text: "Wait for a sequence of process -- using setTimeout() - v2.0",
+            text: "Wait for a sequence of process -- using setTimeout() - v2",
             icon: "sap-icon://lateness",
             press: function () {
 
@@ -478,7 +478,7 @@ caller();
 
         // Normal alert function instant display         
         var oBtn6 = new sap.m.Button("idBtn6", {
-            text: "Wait for a process to complete -- Using Async() & Await() - v1.0",
+            text: "Wait for a process to complete -- Using Async() & Await() - v1",
             icon: "sap-icon://begin",
             press: function () {
 
@@ -543,13 +543,12 @@ caller();
         --Test-2--- Dont Input anything / and click -- Promise Reject
         </br>
         </br>
-    </div>    
+    </div>
     </br>
     <div id="content6"> </div>
     </br>
 </body>
 
 </html>
-
 
 ```
