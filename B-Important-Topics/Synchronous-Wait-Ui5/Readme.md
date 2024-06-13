@@ -489,7 +489,7 @@ caller();
 
                 // Process-2 function declaration
                 async function Process_2() {
-                    const messageHi = await process_1(); // Process-1 function call
+                    const someVariable = await process_1(); // Process-1 function call
                     alert("Process 2 done");
                 }
 
