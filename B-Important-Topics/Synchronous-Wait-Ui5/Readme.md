@@ -385,7 +385,7 @@ runProcess();
 
 </br></br></br>
 
-## Async, Await, Promise, setTimeout
+## Sample all function together - Async, Await, Promise, setTimeout
 
 </br>
 
