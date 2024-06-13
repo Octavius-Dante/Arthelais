@@ -414,11 +414,9 @@ asyncFunction().then((data) => {
 ```
 
 
-
 </br></br></br>
 
 ## Sample functions together - Async, Await + Promise (same function multiple time called)
-
 
 </br>
 
@@ -452,6 +450,47 @@ doStuffAsync();
 
 ```
 
+</br></br></br>
+
+## Sample - Async, Await multiple consolidation
+
+</br>
+
+
+```js
+
+async function sayHello(name) {
+  let greet = `Hey! ${name} very nice to meet you bud.`;
+  setTimeout(() => {
+    return {
+      greet,
+      createdAt: new Date(),
+    };
+  }, 1000);
+}
+
+const response1 = async () => await sayHello("sounish");
+const response2 = async () => await sayHello("alex");
+const response3 = async () => await sayHello("bill");
+
+async function getData() {
+  const data1 = await sayHello("sounish");
+  const data2 = await sayHello("alex");
+  const data3 = await sayHello("bill");
+  return { data1, data2, data3 };
+}
+
+Promise.all([sayHello("sounish"), sayHello("alex"), sayHello("bill")]).then(
+  (allResponses) => {
+    console.log({ allResponses });
+  }
+);
+
+getData().then((allData) => {
+  console.log({ allData });
+});
+
+```
 
 
 
