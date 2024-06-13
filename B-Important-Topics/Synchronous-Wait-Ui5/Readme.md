@@ -241,11 +241,13 @@ test following code in online compiler : - https://playcode.io/empty_javascript
 
 function getDetails(){
     console.log('test');
+    alert("test1");
 }
 
 function caller() { // <<------------ Check here
- // Using await in a non-async function - wrong way
- const user = await getDetails();
+    // Using await in a non-async function - wrong way
+    const user = await getDetails();
+    alert("test2");
 }
 
 // This will result in a syntax error
@@ -267,9 +269,9 @@ function getDetails(){ // this function can be async or non-async doenst matter
 }
 
 async function caller() {  // <<------------ Check here
- // Using await in an async function - right way
- const user = await getDetails();
- alert("test2");
+    // Using await in an async function - right way
+    const user = await getDetails();
+    alert("test2");
 }
 
 // This will result in displaying console message 'test'
