@@ -282,7 +282,7 @@ caller();
 
 </br></br></br>
 
-**async(), await() + promise() + setTimeout()**
+**async(), await() + promise()**
 
 </br>
 
@@ -290,13 +290,13 @@ caller();
 
 const validateUser = ({userId, password}) => {
     return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            if (userId && password) {
-                resolve(`${userId} you have been authenticated successfully!!!`);
-            } else {
-                reject({message: 'userId or Password could be blank!'});
-            }
-        }, 2000);
+
+        if (sUser === "dante" && sPass === "dante") {
+            resolve('login success!');
+        } else {
+            reject({ message: 'error login failed' });
+        }
+
     });
 }
 
@@ -307,11 +307,13 @@ const app = async () => {
     };
 
     try {
-        console.log('Initializing...');
+        console.log('process started');
         const result = await validateUser(data);
         console.log(result);
+        console.log('process ended');
     } catch (e) {
         console.error(e.message);
+        console.log('process ended');
     }
 }
 
@@ -320,13 +322,31 @@ app();
 
 
 ```
+</br>
+</br>
+
+<img src="./files/promise_async_await.png"
+
+</br></br></br>
 
 
 
 
 
 
+</br></br></br>
 
+
+
+
+
+</br></br></br>
+
+
+
+
+
+</br></br></br>
 
 
 
