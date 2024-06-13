@@ -553,7 +553,7 @@ app();
         });
 
 
-        // TYPE 6 - Synchronous execution using - async(), await() + promise()
+        // TYPE 6 - Synchronous execution using - async(), await() + promise() 
         //////////////////////////////////////////////////////////////////////////  
         var oBtn7 = new sap.m.Button("idBtn7", {
             text: "Validate process to complete -- Using Async(), Await() + Promise() - v2",
@@ -561,9 +561,10 @@ app();
             press: function () {
 
                 // declaration - implementation of function 2                                
-                function login_validator (sUser, sPass ) {
+                function login_validator ({sUser, sPass}) {
 
-                    // const login_validator = ({ sUser, sPass }) => { // same opening statemetn in arrow function 
+                    // const login_validator = ({ sUser, sPass }) => { 
+                    // same opening statement in arrow function 
 
                     return new Promise((resolve, reject) => {
                         if (sUser === "dante" && sPass === "dante") {
@@ -577,8 +578,10 @@ app();
                 // declaration - implementation of function 1                
                 async function app(){ // regular function 
                 
-                // const app = async () => {  // same opening statemetn in arrow function 
+                // const app = async () => {  
+                // same opening statement in arrow function 
 
+                // const data = {
                     var data = {
                         sUser: document.getElementById("idUser").value,
                         sPass: document.getElementById("idPass").value
@@ -658,7 +661,7 @@ app();
     <div id="content6"> </div>
     </br>
 
-    <div class="box5">
+    <div id="box5">
         <!-- Validation for input fields-->
         <form>
             <div style="clear: left;">
@@ -687,6 +690,7 @@ app();
                     </table>
                 </div>
         </form>
+
 
 </body>
 
