@@ -76,7 +76,18 @@ Pre-requisite VSCode or BAS should be installed and active.
 
 </br> [CSS lint](http://csslint.net/) ----- [JS lint](https://www.jslint.com/) ---- [Json lint](https://jsonlint.com/) ---- [Yaml lint](https://www.yamllint.com/)
 
-</br>
+</br></br>
+
+## 3rd party Json - Api links for testing 
+
+https://jsonplaceholder.typicode.com/albums
+https://jsonplaceholder.typicode.com/comments
+https://jsonplaceholder.typicode.com/posts
+https://jsonplaceholder.typicode.com/users
+https://jsonplaceholder.typicode.com/todos
+https://jsonplaceholder.typicode.com/photos
+
+</br></br>
 
 ## SAP Fiori App library and SDK link 
 
