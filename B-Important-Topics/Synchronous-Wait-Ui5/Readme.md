@@ -366,13 +366,54 @@ const runProcess = async () => {
 
 runProcess();
 
+
+// alternative way to call 
+////////////////////////////////////////////////////////////////////
+
+async function runProcess() {
+  const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+  const json = await response.json();
+  console.log(json)
+}
+
+runProcess();
+
+
 ```
 
 
 
 </br></br></br>
 
+## Async, Await, Promise, setTimeout
 
+</br>
+
+test the following code in online compiler : - https://playcode.io/empty_javascript
+
+```js
+
+var testAwait = function () {
+    var promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve('Inside test await');
+        }, 1000);
+    });
+    return promise;
+}
+
+var asyncFunction = async function() {
+    await testAwait().then((data) => {
+        console.log(data);
+    })
+    return 'hello asyncFunction';
+}
+
+asyncFunction().then((data) => {
+    console.log(data);
+});
+
+```
 
 
 
