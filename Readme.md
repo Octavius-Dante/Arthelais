@@ -78,7 +78,7 @@ Pre-requisite VSCode or BAS should be installed and active.
 
 </br> [CSS lint](http://csslint.net/) ----- [JS lint](https://www.jslint.com/) ---- [Json lint](https://jsonlint.com/) ---- [Yaml lint](https://www.yamllint.com/)
 
-</br></br>
+</br>
 
 ## 3rd party Json - Api links for testing 
 
