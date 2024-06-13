@@ -170,7 +170,7 @@ promise.then(
 
 </br></br>
 
-test following code in online compiler : - https://playcode.io/empty_javascript
+test the following code in online compiler : - https://playcode.io/empty_javascript
 
 ```js
 
@@ -229,7 +229,7 @@ You can not use the await keyword in a regular, non-async function. JavaScript e
 
 </br>
 
-test following code in online compiler : - https://playcode.io/empty_javascript
+test the following code in online compiler : - https://playcode.io/empty_javascript
 
 </br></br>
 
@@ -329,14 +329,44 @@ app();
 
 </br></br></br>
 
+## Sample API call using Promise 
 
+</br>
 
+test the following code in online compiler : - https://playcode.io/empty_javascript
 
+```js
 
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+  .catch(error => console.log(error));
+
+```
 
 </br></br></br>
 
+## Sample API call using Async , Await
 
+</br>
+
+test the following code in online compiler : - https://playcode.io/empty_javascript
+
+```js
+
+const runProcess = async () => {
+  try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+    const json = await response.json();
+    console.log(json);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+runProcess();
+
+```
 
 
 
