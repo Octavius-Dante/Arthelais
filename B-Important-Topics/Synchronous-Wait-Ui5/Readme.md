@@ -556,7 +556,7 @@ app();
         // TYPE 6 - Synchronous execution using - async(), await() + promise() 
         //////////////////////////////////////////////////////////////////////////  
         var oBtn7 = new sap.m.Button("idBtn7", {
-            text: "Validate process to complete -- Using Async(), Await() + Promise() - v2",
+            text: "Login validate process -- Using Async(), Await() + Promise() - v2",
             icon: "sap-icon://open-command-field",
             press: function () {
 
@@ -667,8 +667,8 @@ app();
             <div style="clear: left;">
                 <div style="padding-top: 35px;">
                     <h3>Personal details</h3>
-                    <h4>--Enter username : dante, password : dante & click the button - validate</h4>
-                    <h4>--Let the field be blank, click the button - to show error</h4>
+                    <h4>---Test-1----Enter username : dante, password : dante & click the button - validate</h4>
+                    <h4>---Test-2----Let the field be blank, click the button - to show error</h4>
                     <!-- alignment of login details -->
                     <table id="login">
                         <tbod>
@@ -690,8 +690,6 @@ app();
                     </table>
                 </div>
         </form>
-
-
 </body>
 
 </html>
