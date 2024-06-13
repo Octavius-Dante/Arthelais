@@ -80,12 +80,12 @@ Pre-requisite VSCode or BAS should be installed and active.
 
 ## 3rd party Json - Api links for testing 
 
-https://jsonplaceholder.typicode.com/albums
-https://jsonplaceholder.typicode.com/comments
-https://jsonplaceholder.typicode.com/posts
-https://jsonplaceholder.typicode.com/users
-https://jsonplaceholder.typicode.com/todos
-https://jsonplaceholder.typicode.com/photos
+</br> https://jsonplaceholder.typicode.com/albums
+</br> https://jsonplaceholder.typicode.com/comments
+</br> https://jsonplaceholder.typicode.com/posts
+</br> https://jsonplaceholder.typicode.com/users
+</br> https://jsonplaceholder.typicode.com/todos
+</br> https://jsonplaceholder.typicode.com/photos
 
 </br></br>
 
