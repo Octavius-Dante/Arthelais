@@ -325,7 +325,7 @@ app();
 </br>
 </br>
 
-<img src="./files/promise_async_await.png"
+<img src="./files/promise_async_await.png">
 
 </br></br></br>
 
