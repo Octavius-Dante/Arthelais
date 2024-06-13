@@ -381,11 +381,9 @@ runProcess();
 
 ```
 
-
-
 </br></br></br>
 
-## Sample all function together - Async, Await, Promise, setTimeout
+## Sample all functions together - Async, Await + Promise + setTimeout
 
 </br>
 
@@ -419,11 +417,40 @@ asyncFunction().then((data) => {
 
 </br></br></br>
 
+## Sample functions together - Async, Await + Promise (same function multiple time called)
 
 
+</br>
 
+```js
 
+const setAsyncTimeout = (cb, timeout = 0) => new Promise(resolve => {
+    setTimeout(() => {
+        cb();
+        resolve();
+    }, timeout);
+});
 
+const doStuffAsync = async () => {
+    await setAsyncTimeout(() => {
+        // Do stuff
+        console.log('started');
+    }, 500);
+
+    await setAsyncTimeout(() => {
+        // Do more stuff
+        console.log('running');
+    }, 1000);
+
+    await setAsyncTimeout(() => {
+        // Do even more stuff
+        console.log('completed');
+    }, 2000);
+};
+
+doStuffAsync();
+
+```
 
 
 
