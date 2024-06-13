@@ -296,7 +296,6 @@ const validateUser = ({userId, password}) => {
             } else {
                 reject({message: 'userId or Password could be blank!'});
             }
-
         }, 2000);
     });
 }
@@ -371,6 +370,7 @@ app();
             }
         });
 
+
         // TYPE 1 - Synchronous execution based on timer wait 
         //////////////////////////////////////////////////////////////////////////        
         // Display alert based on timer wait
@@ -393,6 +393,7 @@ app();
                 };
             }
         });
+
 
         // TYPE 2 - Synchronous flow based on another process completion
         //////////////////////////////////////////////////////////////////////////
@@ -433,6 +434,7 @@ app();
             }
         });
 
+
         // TYPE 3 - Synchronous execution based on promise - 1 
         //////////////////////////////////////////////////////////////////////////
         var oBtn4 = new sap.m.Button("idBtn4", {
@@ -471,6 +473,7 @@ app();
 
             }
         });
+
 
         // TYPE 4 - Synchronous execution on promise - 2 
         //////////////////////////////////////////////////////////////////////////        
@@ -517,7 +520,7 @@ app();
                     alert('Success');
                 });
 
-                // process failred alternative flow or error message 
+                // process failed alternative flow or error message 
                 myPromise.catch(function (error) {
                     alert('Error');
                 });
@@ -525,7 +528,9 @@ app();
             }
         });
 
-        // Normal alert function instant display         
+
+        // TYPE 5 - Synchronous execution using Async and Await 
+        //////////////////////////////////////////////////////////////////////////       
         var oBtn6 = new sap.m.Button("idBtn6", {
             text: "Wait for a process to complete -- Using Async() & Await() - v1",
             icon: "sap-icon://begin",
@@ -547,6 +552,19 @@ app();
             }
         });
 
+
+        // TYPE 6 - Synchronous execution using - async(), await() + promise() + setTimeout()
+        //////////////////////////////////////////////////////////////////////////  
+        var oBtn7 = new sap.m.Button("idBtn7", {
+            text: "Wait for a process to complete -- Using Async(), Await() + Promise() + setTimeout() - v2",
+            icon: "sap-icon://open-command-field",
+            press: function () {
+
+                
+
+            }
+        });
+
         // content 1 div 
         oBtn1.placeAt("content1");
 
@@ -565,6 +583,9 @@ app();
 
         // content 6 div 
         oBtn6.placeAt("content6");
+
+        // content 7 div 
+        oBtn7.placeAt("content7");
 
     </script>
     <style></style>
@@ -595,6 +616,8 @@ app();
     </div>
     </br>
     <div id="content6"> </div>
+    </br>
+    <div id="content7"> </div>
     </br>
 </body>
 
