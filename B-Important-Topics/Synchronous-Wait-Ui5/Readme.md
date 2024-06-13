@@ -556,12 +556,52 @@ app();
         // TYPE 6 - Synchronous execution using - async(), await() + promise() + setTimeout()
         //////////////////////////////////////////////////////////////////////////  
         var oBtn7 = new sap.m.Button("idBtn7", {
-            text: "Wait for a process to complete -- Using Async(), Await() + Promise() + setTimeout() - v2",
+            text: "Validate process to complete -- Using Async(), Await() + Promise() - v2",
             icon: "sap-icon://open-command-field",
             press: function () {
 
-                
+                // declaration - implementation of function 2                                
+                function login_validator (sUser, sPass ) {
 
+                    // const login_validator = ({ sUser, sPass }) => { // same opening statemetn in arrow function 
+
+                    return new Promise((resolve, reject) => {
+                        if (sUser === "dante" && sPass === "dante") {
+                            resolve('login success!');
+                        } else {
+                            reject({ message: 'error login failed' });
+                        }
+                    });
+                }
+
+                // declaration - implementation of function 1                
+                async function app(){ // regular function 
+                
+                // const app = async () => {  // same opening statemetn in arrow function 
+
+                    var data = {
+                        sUser: document.getElementById("idUser").value,
+                        sPass: document.getElementById("idPass").value
+                    };
+
+                    try {
+                        console.log('process started');
+                        
+                        // call of function 2 
+                        const result = await login_validator(data);
+                        console.log(result);
+                        console.log('process ended');
+                        alert(result);
+
+                    } catch (e) {
+                        console.error(e.message);
+                        console.log('process ended');
+                        alert(e.message);                        
+                    }                    
+                }
+
+                // call of function 1
+                app();
             }
         });
 
@@ -617,8 +657,37 @@ app();
     </br>
     <div id="content6"> </div>
     </br>
-    <div id="content7"> </div>
-    </br>
+
+    <div class="box5">
+        <!-- Validation for input fields-->
+        <form>
+            <div style="clear: left;">
+                <div style="padding-top: 35px;">
+                    <h3>Personal details</h3>
+                    <h4>--Enter username : dante, password : dante & click the button - validate</h4>
+                    <h4>--Let the field be blank, click the button - to show error</h4>
+                    <!-- alignment of login details -->
+                    <table id="login">
+                        <tbod>
+                            <tr>
+                                <td><label>Username</label></td>
+                                <td><input id="idUser" name="usr"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Password</label></td>
+                                <td><input id="idPass" name="pass" type="password"></td>
+                            </tr>
+                            <tr>
+                                <td><label></label></td>
+                                <td>
+                                    <div id="content7"> </div>
+                                </td>
+                            </tr>
+                        </tbod>
+                    </table>
+                </div>
+        </form>
+
 </body>
 
 </html>
