@@ -1,5 +1,22 @@
 ## Exercise 27 - OData GET
 
+</br>
+
+**Identify Gateway services Version**
+
+*Inorder to Work with Gateway services in SAP ERP (ECC | S/4 HANA) systems*
+
+*Need to identify the version in the system SAP Gaetway services version should be greater than 7.40*
+
+
+</br>
+<img src="./files/ui5e27-1.png" >
+</br></br>
+
+
+</br>
+<img src="./files/capmd12-96a.png" >
+</br></br>
 
 
 </br></br>
