@@ -25,7 +25,7 @@
 </br></br>
 
 
-## Origin of OData Service 
+## OData Service Origin and Functionality
 
 </br>
 
