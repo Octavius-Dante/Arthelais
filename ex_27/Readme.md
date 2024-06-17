@@ -46,12 +46,12 @@ this OData can be built using JAVA, .Net, Java Script also in cloud based applic
 
 **Stateless Communication** : doesn't operate based on session from back end it operates based on request and response if there is a request received it process it and sends response.
 
-</br>
+</br></br>
 
 > [!IMPORTANT]
 > Fiori only communicates to OData service it cannot communicate to CDS or ABAP directly it needs to be converted into OData service.
 
-</br>
+</br></br>
 
 
 
