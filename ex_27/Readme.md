@@ -60,7 +60,17 @@ this OData can be built using JAVA, .Net, Java Script also in cloud based applic
 
 SAP Provides a sample OData service in every SAP system for demo and training purpose. Which contains different entity sets for training like Sales order, Product, supplier, customer, ..... GW_SAMPLEBASIC
 
+By Default in your system it wont be active, we need to activate it. 
 
+**Important T-codes for OData service**
+
+*1. Maintain and register services :* **/n/IWFND/MAINT_SERVICE** 
+
+</br>
+<img src="./files/ui5e27-3.png" >
+</br></br>
+
+**Steps to activate the Sample basic OData service**
 
 
 
