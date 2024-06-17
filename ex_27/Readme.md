@@ -34,8 +34,8 @@ OData Service stands for **Open Data Protocol**, it is used to expose data over 
 </br> OData is a **REST (Representational State transfer)** also known as **Stateless communication.**
 
 
-**OData Service is an open source** in the genration oftechnology and gthe workld of web applciaiton billions of organizations are using it in day to day life
-this can be build using JAVA, .Net, Java Script also in cloud abased applciaitons.
+**OData Service is an open source** in the generation of technology and in the workld of web applciations billions of organizations are using it in day today life
+this Odata can be built using JAVA, .Net, Java Script also in cloud abased applciaitons.
 
 
 
