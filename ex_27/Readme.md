@@ -25,6 +25,16 @@
 </br></br>
 
 
+## Basics of OData Service 
+
+</br>
+
+OData Service stands for **Open Data Protocol**, it is used to expose data over network 
+
+
+
+
+
 </br></br>
 </br></br>
 </br></br>
