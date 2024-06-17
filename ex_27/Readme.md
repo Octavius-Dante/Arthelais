@@ -66,6 +66,13 @@ By Default in your system it wont be active, we need to activate it.
 
 *1. Maintain and register services :* **/n/IWFND/MAINT_SERVICE** 
 
+*2. Test a service in SAP System :* **/n/IWFND/GW_CLIENT** 
+
+*3. To detect runtime errors for service :* **/n/IWFND/ERROR_LOG** 
+
+
+
+
 </br>
 <img src="./files/ui5e27-3.png" >
 </br></br>
