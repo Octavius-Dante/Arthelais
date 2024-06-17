@@ -2,7 +2,7 @@
 
 </br></br>
 
-XML Stands for Extended Markup Language, it is a tree data structure to represent data, Unlike HTML, XML can have tag. The sole purpose of XM Lwas to exchange data between heterogeneous systems.
+XML Stands for Extended Markup Language, it is a tree data structure to represent data, Unlike HTML, XML can have tag. The sole purpose of XML was to exchange data between heterogeneous systems.
 
 </br>
 
@@ -79,7 +79,7 @@ sap.ui.define([
     'sap/ui/core/mvc/Controller'
 ], function(Controller) {
     'use strict';
-// workspacename.controller-folder.controller-name    
+// work space name.controller-folder.controller-name    
     return Controller.extend("chip.controller.MyXML",{
         onInit: function(){
 
@@ -92,13 +92,13 @@ sap.ui.define([
 //
 // Reason why it wont work is : 
 // XML view conversion to HTML - processed differently by renderer -- this generates a new id for element
-// JS view conversion to HTML  - processed differently by renderer -- this doesnt generate new id for element
+// JS view conversion to HTML  - processed differently by renderer -- this doesn't generate new id for element
 //
-// both are different category of conversion process handled by renderer so it doesnt work
+// both are different category of conversion process handled by renderer so it doesn't work
 //
                 //var oInp = sap.ui.getCore().byId("idText");  
 
-// use this (this.getView().byId) method recommended way to get the ID in XMML views
+// use this (this.getView().byId) method recommended way to get the ID in XML views
                 var oInp = this.getView().byId("idText");      
 
                 alert(oInp.getValue());
@@ -114,7 +114,7 @@ sap.ui.define([
 **Sample XML view - Main view file - path + Filename(webapp\view\MyXML.view.xml)** 
 
 ```xml
-<!-- ControllerName = workspacename.controller-folder.controller-name -->
+<!-- ControllerName = work space name.controller-folder.controller-name -->
 <mvc:View controllerName="chip.controller.MyXML" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
 
     <Input id="idText"/>
@@ -138,13 +138,13 @@ sap.ui.define([
                 data-sap-ui-theme="sap_fiori_3_dark"
                 data-sap-ui-resourceroots='{"chip" : "./"}'>                     
         </script>
-<!-- data-sap-ui-resourceroots -- assigning a name to workspace-->
+<!-- data-sap-ui-resource roots -- assigning a name to workspace-->
 
         <script>
 
 // Object creation for XML view
             var oViewXML = new sap.ui.view({
-                viewName: 'chip.view.MyXML',  // view name -- workspacename.view-folder.view-name
+                viewName: 'chip.view.MyXML',  // view name -- work space name.view-folder.view-name
                 type: 'XML',                  // view type
                 id: "idXMLView"             
             });

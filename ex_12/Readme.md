@@ -38,7 +38,7 @@ sap.ui.define(
                 var oModel = Models.createJSONModel();
 
                 // Step 3. Make the model aware to the application
-                // - Model settiing at application level - available in all the views     
+                // - Model setting at application level - available in all the views     
                 sap.ui.getCore().setModel(oModel);   
 
                  // - Model setting at View level - only specific to the view
@@ -263,7 +263,7 @@ xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
 xmlns:f="sap.ui.layout.form"
 xmlns:core="sap.ui.core">
 
-<!-- Simple form definition Form is the ibrary namesapce -->
+<!-- Simple form definition Form is the library namespace -->
 <!-- Aggregation of control follows the same name space as the parent Form name -->
 
 <!-- No need to mention library for this form xmlns:f="sap.ui.layout.form" -->

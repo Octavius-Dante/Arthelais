@@ -54,11 +54,11 @@ xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
 xmlns:f="sap.ui.layout.form"
 xmlns:core="sap.ui.core">
 
-<!-- Simple form definition Form is the ibrary namesapce -->
+<!-- Simple form definition Form is the library namespace -->
 <!-- Aggregation of control follows the same name space as the parent Form name -->
 
 <!-- No need to mention library for this form xmlns:f="sap.ui.layout.form" -->
-    <!-- Simple form is a Class so it stars wit hcapital letter -->
+    <!-- Simple form is a Class so it stars with capital letter -->
     <form:SimpleForm editable="true"> <!-- editable property aligns the controls properly in screen -->
     <form:title>
         <core:Title icon="sap-icon://customer" text="Employee Details" />
