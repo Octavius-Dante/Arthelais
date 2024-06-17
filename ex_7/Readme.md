@@ -195,7 +195,7 @@ sProperties - Json which we can pass with the properties, events
 > Any Ui element is referred to will be inherited from a class library 
 
 > [!IMPORTANT]
-> Ui element can be accessed and operted using its own library method or its base class library method
+> Ui element can be accessed and operated using its own library method or its base class library method
 
 > [!IMPORTANT]
 > Example button class will have click action -- but button's base class will have further properties even that can be used (placeAt in above code sample)

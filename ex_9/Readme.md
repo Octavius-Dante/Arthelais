@@ -19,7 +19,7 @@ We have to follow a syntax
 
 ```js
 
-sap.ui.define(["module1", "module2",....], functrion(oM1, oM2,.....) {
+sap.ui.define(["module1", "module2",....], function(oM1, oM2,.....) {
 
 });
 
@@ -47,7 +47,7 @@ SAP provided guideline that if you willing to create a controller type of JS fil
 
 ```js
 
-sap.ui.define(["sap/ui/core/mvc/Controller"], functrion(oSpiderman) {
+sap.ui.define(["sap/ui/core/mvc/Controller"], function(oSpiderman) {
     return oSpiderman.extend("namespace.folder.file",{
 
     });

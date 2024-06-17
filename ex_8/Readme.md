@@ -61,7 +61,7 @@ sap.ui.define([dep1, dep2, ...], function(obj1, obj2, ...){
             press: function () {
 
 // Type 1 
-                // Step1 : get the applciation object (instrance)
+                // Step1 : get the application object (instrance)
                 var oCore = sap.ui.getCore();
                 // Step 2 : Obtain the Ui5 control object - sap.ui.getCore().byid("idInp")
                 var oInp = oCore.byId("idInp");
@@ -243,7 +243,7 @@ sap.ui.jsview("spiderman.view.Main", {
     <script>
 /////////////////////////////////////////
     // Earlier in HTML view we had lot of code written here which got shifted to JS view 
-    // code is shfifted to (webapp\view\Main.view.js) file
+    // code is shifted to (webapp\view\Main.view.js) file
 /////////////////////////////////////////
 /// NEW CODE BLOCK ///
         var oView = new sap.ui.view({
