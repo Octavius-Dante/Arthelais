@@ -29,8 +29,9 @@
 
 </br>
 
-OData Service stands for **Open Data Protocol**, it is used to expose data over network 
-
+OData Service stands for **Open Data Protocol**, it is used to expose data over network **(http/https) protocol**.
+</br> It was initially developed by an organization called *OASIS* nad later acquired by *Microsoft* and became an Open source.
+</br> OData is a **REST (Representational State transfer)** also known as **Stateless communication.**
 
 
 
