@@ -62,6 +62,8 @@ SAP Provides a sample OData service in every SAP system for demo and training pu
 
 By Default in your system it wont be active, we need to activate it. 
 
+</br></br>
+
 **Important T-codes for OData service**
 
 *1. Maintain and register services :* **/n/IWFND/MAINT_SERVICE** 
@@ -70,8 +72,10 @@ By Default in your system it wont be active, we need to activate it.
 
 *3. To detect runtime errors for service :* **/n/IWFND/ERROR_LOG** 
 
+</br></br>
 
 
+**/n/IWFND/MAINT_SERVICE** 
 
 </br>
 <img src="./files/ui5e27-3.png" >
