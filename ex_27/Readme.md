@@ -37,7 +37,9 @@ OData Service stands for **Open Data Protocol**, it is used to expose data over 
 **OData Service is an open source** in the generation of technology and in the world of web applications billions of organizations are using it in day today life
 this OData can be built using JAVA, .Net, Java Script also in cloud based applications.
 
+**Stateful Communication** : contains session example SAP logon pad if there is inactivity the session times out.
 
+**Stateless Communication** : doesn't operate based on session from back end it operates based on request and response if there is a request received it process it and sends response
 
 </br></br>
 </br></br>
