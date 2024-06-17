@@ -4,8 +4,8 @@
 
 **Identify Gateway services Version**
 
-*Inorder to Work with Gateway services in SAP ERP (ECC | S/4 HANA) systems, Need to identify the version in the system,* 
-<br> *SAP Gaetway services version should be greater than 7.40*
+*In Order to Work with Gateway services in SAP ERP (ECC | S/4 HANA) systems, Need to identify the version in the system,* 
+<br> *SAP Gateway services version should be greater than 7.40*
 
 *SAP_BASIS - 740 or above*
 <br> and 
@@ -34,8 +34,8 @@ OData Service stands for **Open Data Protocol**, it is used to expose data over 
 </br> OData is a **REST (Representational State transfer)** also known as **Stateless communication.**
 
 
-**OData Service is an open source** in the generation of technology and in the workld of web applciations billions of organizations are using it in day today life
-this Odata can be built using JAVA, .Net, Java Script also in cloud abased applciaitons.
+**OData Service is an open source** in the generation of technology and in the world of web applications billions of organizations are using it in day today life
+this OData can be built using JAVA, .Net, Java Script also in cloud abased applications.
 
 
 

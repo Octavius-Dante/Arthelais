@@ -183,7 +183,7 @@ sap.ui.define([
             var oList = this.getView().byId("idList");
             
             // Step 4 : inject the filter to the list 
-            oList.getBinding("items").filter(oMaster); // New multi condition search paramter 
+            oList.getBinding("items").filter(oMaster); // New multi condition search parameter 
             
         }
     });

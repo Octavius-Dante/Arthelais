@@ -8,7 +8,7 @@
 
 - Create a sap.m.Table in the second tab (Supplier) for supplier data.
 - The Columns are (name, since when, city & person name)
-- The City columns must be editable. And when we clikc F4 help of city field, all the cities should come as in a pop-up
+- The City columns must be editable. And when we click F4 help of city field, all the cities should come as in a pop-up
 
 </br>
 
@@ -284,7 +284,7 @@
                 <Text text="Since When"/>
             </header>
         </Column>
-        <!-- screend width proerty for column-->        
+        <!-- screened width property for column-->        
 <!--////////////////////////////////////////////////////////-->        
         <Column minScreenWidth="Tablet">
 <!--////////////////////////////////////////////////////////-->                
@@ -569,7 +569,7 @@ xmlns:core="sap.ui.core" xmlns:sap.ui.layout="sap.ui.layout">
     </Select>
 
     <Label text="Dropdown + Input field ~~ Combo box"/>
-    <!-- Combo box allows input to search and add input to existing items and also select the exisitng items -->
+    <!-- Combo box allows input to search and add input to existing items and also select the existing items -->
     <ComboBox items="{/cities}" maxWidth="20%">
     <!-- items belongs to core namespace so include it in top -->      
         <core:Item text="{cityName}" key="{cityName}" />                      
@@ -720,7 +720,7 @@ onF4help: function(){
         name: "ntt.hr.payroll.fragments.popup",
         type: "XML",
 // idPopup--city is the unique id which is going to get generated         
-// if id not mentioend this popup object cant be reused
+// if id not mentioned this popup object cant be reused
         id: 'city', 
         controller: this // Controller access is provided to the popup
     })
@@ -813,7 +813,7 @@ sap.ui.define([
     'ntt/hr/payroll/util/formatter',  // formatter.js included as dependency
 ///////////////////////////////////////////////////////////////////////    
     'ntt/hr/payroll/util/stockstat' // stock status dependency added 
-], function(Controller, Formatter, Stockstat){  // formatter passed as argument ~~~~ addedd stockstat
+], function(Controller, Formatter, Stockstat){  // formatter passed as argument ~~~~ added stock stat
 ///////////////////////////////////////////////////////////////////////    
     'use strict';
     return Controller.extend("ntt.hr.payroll.controller.BaseController", {
@@ -872,7 +872,7 @@ sap.ui.define([], () => {
     icon="{image}">
 <!--///////////////////////////////////////////////////////////////////////////-->        
     <firstStatus>        
-    <!-- Implemented Custom formatter for produst stock-->
+    <!-- Implemented Custom formatter for product stock-->
             <ObjectStatus text="{stock}" 
             state="{ path: 'stock',
             formatter: '.stock_status.statusText'}" >
@@ -900,7 +900,7 @@ sap.ui.define([], () => {
 ```xml
 
 <firstStatus>        
-<!-- Implemented Custom formatter for produst stock-->
+<!-- Implemented Custom formatter for product stock-->
     <ObjectStatus text="{stock}" 
     state="{ path: 'stock',
     formatter: '.stock_status.statusText'}" inverted="true"> <!-- Inverted attribute will highlight the text-->

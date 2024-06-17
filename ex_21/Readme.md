@@ -217,7 +217,7 @@ sap.ui.define([
         //     // Step 4 : Inject the View1 and View2 inside the container 
         //     // oAppCon.addPage(oView1).addPage(oView2);
 
-        //     // Definign Split app pages -Ex-20
+        //     // Defining Split app pages -Ex-20
         //     oAppCon.addMasterPage(oView1).addDetailPage(oView2);
         //     return oView;
         // }

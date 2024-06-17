@@ -33,7 +33,7 @@ Code block from *View1.controller.js* we are going to replace
         var sPath = '/fruits/' + fruitId;
 ///////////////////////////////////////////////////////         
         var oList = this.getView().byId("idList");
-        var element = {}; // variabel place holder for holdign the value -- WORKAREA
+        var element = {}; // variable place holder for holding the value -- WORKAREA
         if (oList.getItems().length > 0){  // Internal table is not initial check 
             
             // loop all the items in the model and look for the selected path 
@@ -119,7 +119,7 @@ hercules: function (oEvent) {
     var sPath = this.extractPath(oEvent);
 ///////////////////////////////////////////////////////            
     var oList = this.getView().byId("idList");
-    var element = {}; // variabel place holder for holdign the value -- WORKAREA
+    var element = {}; // variable place holder for holding the value -- WORKAREA
     if (oList.getItems().length > 0){  // Internal table is not initial check 
         
         // loop all the items in the model and look for the selected path 
@@ -187,7 +187,7 @@ sap.ui.define([
             var sPath = this.extractPath(oEvent);
 ///////////////////////////////////////////////////////             
             var oList = this.getView().byId("idList");
-            var element = {}; // variabel place holder for holdign the value -- WORKAREA
+            var element = {}; // variable place holder for holding the value -- WORKAREA
             if (oList.getItems().length > 0){  // Internal table is not initial check 
                 
                 // loop all the items in the model and look for the selected path 
@@ -242,14 +242,14 @@ sap.ui.define([
             var aFilter = [oFilter, oFilter2];
             var oMaster = new Filter({
                 filters: aFilter,
-                and: false // when AND = FALSE that means -search filter is defiend with- OR = TRUE
+                and: false // when AND = FALSE that means -search filter is defined with- OR = TRUE
             })
 
             // Step 3 : get the list object 
             var oList = this.getView().byId("idList");
 
             // Step 4 : inject the filter to the list 
-            oList.getBinding("items").filter(oMaster); // New multi condition search paramter 
+            oList.getBinding("items").filter(oMaster); // New multi condition search parameter 
 
         },
 
@@ -541,7 +541,7 @@ sap.ui.define([
             </Select>
 
             <Label text="Dropdown + Input field ~~ Combo box"/>
-<!-- Combo box allows input to search and add input to existing items and also select the exisitng items -->
+<!-- Combo box allows input to search and add input to existing items and also select the existing items -->
             <ComboBox items="{/cities}" maxWidth="20%">
             <!-- items belongs to core namespace so include it in top -->      
                 <core:Item text="{cityName}" key="{cityName}" />                      
