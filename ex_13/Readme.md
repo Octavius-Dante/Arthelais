@@ -40,7 +40,7 @@ sap.ui.define(
                 // Calling our own reuse class to create model object
                 var oModel = Models.createJSONModel();
 
-                // - Model settiing at application level - available in all the views     
+                // - Model setting at application level - available in all the views     
                 sap.ui.getCore().setModel(oModel);
 
                 // BINDING type 3
@@ -60,7 +60,7 @@ sap.ui.define(
                 //Step 1 : Get the model object
                 var oModel = sap.ui.getCore().getModel();
 
-                //Step 2 : cahnge the data in the model 
+                //Step 2 : change the data in the model 
                 var objData = oModel.getProperty("/empStr"); // getting everything in the path of the structure 
                 console.log(objData);
                 oModel.setProperty("/empStr/empName", "Spiderman");
@@ -75,7 +75,7 @@ sap.ui.define(
                 //Step 1 : Get the model object
                 var oModel = sap.ui.getCore().getModel();
 
-                //Step 2 : cahnge the data in the model 
+                //Step 2 : change the data in the model 
                 var objData = oModel.getProperty("/"); // get everything in the model
                 console.log(objData);
                 // oModel.setProperty("/empStr/empName", "Spiderman");
@@ -192,7 +192,7 @@ sap.ui.define(
                 // Calling our own reuse calss to create model object
                 var oModel = Models.createJSONModel("model/mockdata/sample.json"); // model path passed 
 
-                // - Model settiing at application level - available in all the views     
+                // - Model setting at application level - available in all the views     
                 sap.ui.getCore().setModel(oModel); // a - model with no name is the default model 
 
                 /// Exercise 13 -  change is here 
@@ -217,7 +217,7 @@ sap.ui.define(
                 //Step 1 : Get the model object
                 var oModel = sap.ui.getCore().getModel();
 
-                //Step 2 : cahnge the data in the model 
+                //Step 2 : change the data in the model 
                 var objData = oModel.getProperty("/empStr"); // getting everything in the path of the structure 
                 console.log(objData);
                 oModel.setProperty("/empStr/empName", "Spiderman");
@@ -227,7 +227,7 @@ sap.ui.define(
                 //Step 1 : Get the model object
                 var oModel = sap.ui.getCore().getModel();
 
-                //Step 2 : cahnge the data in the model 
+                //Step 2 : change the data in the model 
                 var objData = oModel.getProperty("/"); // get everything in the model
                 console.log(objData);
                 // oModel.setProperty("/empStr/empName", "Spiderman");
@@ -363,7 +363,7 @@ sap.ui.define(
                 //Step 1 : Get the model object
                 var oModel = sap.ui.getCore().getModel();
 
-                //Step 2 : cahnge the data in the model 
+                //Step 2 : change the data in the model 
                 var objData = oModel.getProperty("/empStr"); // getting everything in the path of the structure 
                 console.log(objData);
                 oModel.setProperty("/empStr/empName", "Spiderman");
@@ -373,7 +373,7 @@ sap.ui.define(
                 //Step 1 : Get the model object
                 var oModel = sap.ui.getCore().getModel();
 
-                //Step 2 : cahnge the data in the model 
+                //Step 2 : change the data in the model 
                 var objData = oModel.getProperty("/"); // get everything in the model
                 console.log(objData);
                 // oModel.setProperty("/empStr/empName", "Spiderman");
@@ -405,7 +405,7 @@ xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
 xmlns:f="sap.ui.layout.form"
 xmlns:core="sap.ui.core">
 
-<!-- Simple form definition Form is the ibrary namesapce -->
+<!-- Simple form definition Form is the library namespace -->
 <!-- Aggregation of control follows the same name space as the parent Form name -->
 
 <!-- No need to mention library for this form xmlns:f="sap.ui.layout.form" -->
@@ -545,7 +545,7 @@ sap.ui.define(
                 // Calling our own reuse calss to create model object
                 var oModel = Models.createJSONModel("model/mockdata/sample.json"); // model path passed 
 
-                // - Model settiing at application level - available in all the views     
+                // - Model setting at application level - available in all the views     
                 sap.ui.getCore().setModel(oModel); // a - model with no name is the default model 
 
                 // Create JSON model 2 
@@ -557,7 +557,7 @@ sap.ui.define(
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
                 // Create XMl model 
                 var oXmlModel = Models.createXMLModel("model/mockdata/mydemo.xml")
-                sap.ui.getCore().setModel(oModel); // overrride with existingjson model
+                sap.ui.getCore().setModel(oModel); // override with existing json model
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

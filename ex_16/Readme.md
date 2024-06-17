@@ -398,7 +398,7 @@ function() {
 
 </br>
 
-*conroller.js*
+*controller.js*
 
 ```js
 
@@ -448,7 +448,7 @@ sap.ui.define(
     <!-- <Text text="{Salary} {Currency}" /> -->
     <Text text="{
             parts: [{path : 'Salary'}, {path : 'Currency'}],
-            formatter: '.formatter.foramtCurrency'
+            formatter: '.formatter.formatCurrency'
 
     }" />
 

@@ -126,7 +126,7 @@ let say we have a table control with many records - user selects 1 record - that
 
 visibleRowCount="7"  
 rowSelectionChange="onRowSelect" 
-selectionMode="Single">  <!-- Visible row count - Row selection change - Slection mode -->  
+selectionMode="Single">  <!-- Visible row count - Row selection change - Selection mode -->  
 
 ```
 </br></br>
@@ -264,7 +264,7 @@ selectionMode="Single">  <!-- Visible row count - Row selection change - Slectio
         console.log(record);
 
         // using it to derive the record
-        oModel.setProeprty("/empStr", record);
+        oModel.setProperty("/empStr", record);
 
     }
 

@@ -254,7 +254,7 @@ onInit function(){
     sap.ui.getCore().setModel(oModel2, "got"); // a model with name
  
  // if XML model is used it should be commented -
- // - XML data mdoel is not SUPPORTED 
+ // - XML data model is not SUPPORTED 
 
 }
 
