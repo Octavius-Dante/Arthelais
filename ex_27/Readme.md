@@ -7,7 +7,7 @@
 *Inorder to Work with Gateway services in SAP ERP (ECC | S/4 HANA) systems, Need to identify the version in the system,* 
 <br> *SAP Gaetway services version should be greater than 7.40*
 
-*SAP_BASIS - 740 Or above , SAP_GWFND - 740 or above*
+*SAP_BASIS - 740 or above , SAP_GWFND - 740 or above*
 
 
 </br>
