@@ -55,7 +55,7 @@ Response is a reply from server for a request from client it has header and body
         <input id="idPass" name="pass" type="password">
 
         <br><br>
-        <!-- this SUBMIT button will take the values mentioend with type name for input fields-->
+        <!-- this SUBMIT button will take the values mentioned with type name for input fields-->
         <input type="submit"><br>
     </form>
 </body>

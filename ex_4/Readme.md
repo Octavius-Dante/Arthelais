@@ -88,7 +88,7 @@ eg. onClick is an event for a button control when click happens. You can check a
 ```html
 
 <script> 
-    Funtion This_is_My_Function(params_1, params_1, . . . . )
+    Function This_is_My_Function(params_1, params_1, . . . . )
     {
         // code here
     }
@@ -150,7 +150,7 @@ Sample # 2 String operations
 // defined a name with space in the middle
 var name = "dante epicurus";
 
-// usign split function to split the variabl value at defined space
+// usign split function to split the variable value at defined space
 name.split(" ");
 
 // split function values stored into array
@@ -264,7 +264,7 @@ for (var i = 0; i < arrFinal.length; i++) {
 // Removing all the data in the array variable 
 arrFinal = [];
 
-// special array with no index instead it has to be accessed by refereing to the values
+// special array with no index instead it has to be accessed by referring to the values
 var arrNew = [];
 
 // value defining 
@@ -276,9 +276,9 @@ arrNew.jill = 500;
 arrNew.julius = 600;
 arrNew.jarek = 700;
 
-// this array cannot be accessd with index isntead it should be accessed with the defined value 
+// this array cannot be accessed with index instead it should be accessed with the defined value 
 
-// array accessing with the proeprty name
+// array accessing with the property name
 arrNew["jill"]; 
 
 ```
@@ -315,7 +315,7 @@ Sample # 4 Objects in JS
 
 ```js
 
-// Definign an object variable
+// Defining an object variable
 
 var oEmp = { "empID": 501, "empName": "Dan", "salary": 5600, "curr": "USD" }
 
@@ -325,7 +325,7 @@ oEmp.gamer = false;
 // adding a property to the variable 
 oEmp.biker = true;
 
-// adding a propertyto the variable 
+// adding a property to the variable 
 oEmp.smoker = false;
 
 // returned values will be 

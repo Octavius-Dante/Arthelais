@@ -271,7 +271,7 @@ tagName, .Clasname, #id
           <b><em>
               Hyper Text Markup Language
             </em>
-          </b>, it is used for designign static web content
+          </b>, it is used for designing static web content
         </p>
       </div>
     </div>
@@ -538,7 +538,7 @@ tagName, .Clasname, #id
       <b><em>
           Hyper Text Markup Language
       </em>
-  </b>, it is used for designign static web content
+  </b>, it is used for designing static web content
   </p>
 </div>  
 </div>
@@ -564,7 +564,7 @@ tagName, .Clasname, #id
 
 <div class="box-content">   
   <p> 
-  JS stands for Java Script, it is teh browser's programming lanaguage
+  JS stands for Java Script, it is teh browser's programming language
   </p> 
 </div>  
 </div>
@@ -584,7 +584,7 @@ tagName, .Clasname, #id
       <input id="idPass" name="pass" type="password">
 
       <br><br>
-      <!-- this SUBMIT button will take the values mentioend with type name for input fields-->
+      <!-- this SUBMIT button will take the values mentioned with type name for input fields-->
       <input type="submit"><br>
   </form>
 
@@ -722,7 +722,7 @@ Assigned float property in CSS for a div class section, if float is assigned thi
           <b><em>
               Hyper Text Markup Language
             </em>
-          </b>, it is used for designign static web content
+          </b>, it is used for designing static web content
         </p>
       </div>
     </div>
@@ -746,7 +746,7 @@ Assigned float property in CSS for a div class section, if float is assigned thi
 
       <div class="box-content">
         <p>
-          JS stands for Java Script, it is teh browser's programming lanaguage
+          JS stands for Java Script, it is teh browser's programming language
         </p>
       </div>
     </div>
@@ -770,7 +770,7 @@ Assigned float property in CSS for a div class section, if float is assigned thi
           <input id="idPass" name="pass" type="password">
         </div>
         <!-- <br><br> -->
-        <!-- this SUBMIT button will take the values mentioend with type name for input fields-->
+        <!-- this SUBMIT button will take the values mentioned with type name for input fields-->
         <div></div>
         <input type="submit"><br>
       </div>
@@ -964,7 +964,7 @@ It introduces border with padding spacing between content,
           <b><em>
               Hyper Text Markup Language
             </em>
-          </b>, it is used for designign static web content
+          </b>, it is used for designing static web content
         </p>
       </div>
     </div>
@@ -988,7 +988,7 @@ It introduces border with padding spacing between content,
 
       <div class="box-content">
         <p>
-          JS stands for <em><b>Java Script</b></em>, it is teh browser's programming lanaguage
+          JS stands for <em><b>Java Script</b></em>, it is teh browser's programming language
         </p>
       </div>
     </div>
@@ -1030,7 +1030,7 @@ It introduces border with padding spacing between content,
           <input id="idPass" name="pass" type="password">
         </div>
         <!-- <br><br> -->
-        <!-- this SUBMIT button will take the values mentioend with type name for input fields-->
+        <!-- this SUBMIT button will take the values mentioned with type name for input fields-->
         <div></div>
         <input type="submit"><br>
       </div>
@@ -1213,7 +1213,7 @@ Pseudo classes are special elements which brings conditional styling on the cont
           <b><em>
               Hyper Text Markup Language
             </em>
-          </b>, it is used for designign static web content
+          </b>, it is used for designing static web content
         </p>
       </div>
     </div>
@@ -1237,7 +1237,7 @@ Pseudo classes are special elements which brings conditional styling on the cont
 
       <div class="box-content">
         <p>
-          JS stands for <em><b>Java Script</b></em>, it is teh browser's programming lanaguage
+          JS stands for <em><b>Java Script</b></em>, it is teh browser's programming language
         </p>
       </div>
     </div>
@@ -1273,7 +1273,7 @@ Pseudo classes are special elements which brings conditional styling on the cont
           <input id="idPass" name="pass" type="password">
         </div>
         <!-- <br><br> -->
-        <!-- this SUBMIT button will take the values mentioend with type name for input fields-->
+        <!-- this SUBMIT button will take the values mentioned with type name for input fields-->
         <div></div>
         <input type="submit"><br>
       </div>
@@ -1524,7 +1524,7 @@ Pseudo classes are special elements which brings conditional styling on the cont
           <b><em>
               Hyper Text Markup Language
             </em>
-          </b>, it is used for designign static web content
+          </b>, it is used for designing static web content
         </p>
       </div>
     </div>
@@ -1548,7 +1548,7 @@ Pseudo classes are special elements which brings conditional styling on the cont
 
       <div class="box-content">
         <p>
-          JS stands for <em><b>Java Script</b></em>, it is teh browser's programming lanaguage
+          JS stands for <em><b>Java Script</b></em>, it is teh browser's programming language
         </p>
       </div>
     </div>

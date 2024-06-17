@@ -95,13 +95,13 @@ $(selector).action();
     // Hide screen element using JQuery 
     function elementHide() {
       //$(".box").hide();           // variant 1 right away instantly hide 
-      $(".box").fadeOut(5000);      // varaint 2 slowly disappear animation 
+      $(".box").fadeOut(5000);      // variant 2 slowly disappear animation 
     }
 
     // Show screen element using JQuery 
     function elementShow() {
       //$(".box").show();           // variant 1 right away instantly show 
-      $(".box").fadeIn(5000);       // varaint 2 slowly appear animation
+      $(".box").fadeIn(5000);       // variant 2 slowly appear animation
     }
 
 </script>
@@ -252,7 +252,7 @@ Example of same block with synchronous activity.
 
 <!-- Same image animation in mouse hover action -->
   <script>
-    // once my page is fully laoded
+    // once my page is fully loaded
     $(document).ready(function () {
       // attach an event dynamically to our image
       $('#hImg').mouseover(function () {

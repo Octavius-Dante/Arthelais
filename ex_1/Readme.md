@@ -172,7 +172,7 @@ CSS stands for Cascading Style Sheets, It is used to style / beautify our conten
 
 <h2>What is JS</h2>
 <p> 
-JS stands for Java Script, it is the browser's programming lanaguage
+JS stands for Java Script, it is the browser's programming language
 </p>
 
 </body>
@@ -226,7 +226,7 @@ CSS stands for Cascading Style Sheets, It is used to style / beautify our conten
 
 <h2>What is JS</h2>
 <p> 
-JS stands for Java Script, it is teh browser's programming lanaguage
+JS stands for Java Script, it is teh browser's programming language
 </p>
 
 <a href="https://sap.com"> Go to sap website </a>
@@ -417,7 +417,7 @@ line break tag in html
     <input id="idPass" name="pass" type="password">
     
     <br><br>
-    <!-- this SUBMIT button will take the values mentioend with type name for input fields-->
+    <!-- this SUBMIT button will take the values mentioned with type name for input fields-->
     <input type="submit"><br>
     </form>
 

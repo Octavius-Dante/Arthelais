@@ -274,9 +274,9 @@ function (){
       // var oPass = document.getElementById("idPass");
       // var sPass = oPass.value;
 
-      // Single = equalto is for value assignment 
-      // Double == equalto is for Compare value 
-      // Triple === equalto is for Compare value and Data type
+      // Single = equal to is for value assignment 
+      // Double == equal to is for Compare value 
+      // Triple === equal to is for Compare value and Data type
 
       if (sUser === "dante" && sPass === "dante"){
         document.write('Login success');
@@ -326,12 +326,12 @@ function (){
 
 // change the color of titles
     function getClass(){
-// Get all aelements in an array which has same class name
+// Get all elements in an array which has same class name
       var arrElements = document.getElementsByClassName("box-title");
 // loop over an array and process one by one       
       for(var i=0;i<arrElements.length;i++){
           var item = arrElements[i];
-// cahnging CSS at runtime           
+// changing CSS at runtime           
         item.style.backgroundColor = "black";
       }
     }
@@ -360,15 +360,15 @@ function (){
 <script>
 
     function addNewElement(){
-      // 1. Creare a brand new element
+      // 1. create a brand new element
       var oElement = document.createElement("h4");      
-      // 2. creaet a text node  // 3. add the text to the text node
+      // 2. create a text node  // 3. add the text to the text node
       var oTextNode = document.createTextNode("Aristotle");   
       
       // Value is taken from input field
       // var oTextNode = document.createTextNode(document.getElementById("max").value);   
 
-      // 4. append the text node to the newly creraetd element
+      // 4. append the text node to the newly created element
       oElement.appendChild(oTextNode);
       // 5. get the canvas element object
       var oCanvas = document.getElementById("canvas");
@@ -457,7 +457,7 @@ h3{
       oMsg.innerText = "Input field text is : " + oInp.value + " message showed";
     }
 
-    // Validaiton of input fields
+    // Validation of input fields
     function onLogin(){
 
       var oUser = document.getElementById("idUser");
@@ -469,9 +469,9 @@ h3{
       // var oPass = document.getElementById("idPass");
       // var sPass = oPass.value;
 
-      // Single = equalto is for value assignment 
-      // Double == equalto is for Compare value 
-      // Triple === equalto is for Compare value and Data type
+      // Single = equal to is for value assignment 
+      // Double == equal to is for Compare value 
+      // Triple === equal to is for Compare value and Data type
 
       if (sUser === "dante" && sPass === "dante"){
         document.write('Login success');
@@ -483,12 +483,12 @@ h3{
 
 // change the color of titles
     function getClass(){
-// Get all aelements in an array which has same class name
+// Get all elements in an array which has same class name
       var arrElements = document.getElementsByClassName("box-title");
 // loop over an array and process one by one       
       for(var i=0;i<arrElements.length;i++){
           var item = arrElements[i];
-// cahnging CSS at runtime           
+// changing CSS at runtime           
         item.style.backgroundColor = "black";
       }
     }
@@ -502,7 +502,7 @@ h3{
       // Value is taken from input field
       // var oTextNode = document.createTextNode(document.getElementById("max").value);   
       
-      // 4. append the text node to the newly creraetd element
+      // 4. append the text node to the newly created element
       oElement.appendChild(oTextNode);
       // 5. get the canvas element object
       var oCanvas = document.getElementById("canvas");
@@ -586,7 +586,7 @@ h2 {
           <b><em>
               Hyper Text Markup Language
             </em>
-          </b>, it is used for designign static web content
+          </b>, it is used for designing static web content
         </p>
       </div>
     </div>
@@ -610,7 +610,7 @@ h2 {
 
       <div class="box-content">
         <p>
-          JS stands for <em><b>Java Script</b></em>, it is teh browser's programming lanaguage
+          JS stands for <em><b>Java Script</b></em>, it is teh browser's programming language
         </p>
       </div>
     
