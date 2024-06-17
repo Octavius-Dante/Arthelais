@@ -101,7 +101,9 @@ Pre-requisite VSCode or BAS should be installed and active.
 
 ## Other links for further learning
 
+ORIGINAL BLOG : https://github.com/sonmezfurkan/UI5_from_scratch
 
+FORKED FROM ORIGINAL : https://github.com/Octavius-Dante/UI5_from_scratch
 
 </br></br>
 </br></br>
@@ -139,6 +141,7 @@ https://developers.sap.com/mission.sapui5-cf-first.html
 https://developers.sap.com/tutorial-navigator.html?tag=programming-tool%3Asapui5
 
 https://community.sap.com/t5/technology-blogs-by-members/deploy-the-ui5-fiori-app-on-sap-abap-repository-with-bas-webide-create/ba-p/13556327
+
 
 https://developers.sap.com/tutorials/gateway-demo-signup.html  -->
 
