@@ -25,7 +25,7 @@
 </br></br>
 
 
-## Basics of OData Service 
+## Origin of OData Service 
 
 </br>
 
@@ -33,6 +33,9 @@ OData Service stands for **Open Data Protocol**, it is used to expose data over 
 </br> It was initially developed by an organization called *OASIS* nad later acquired by *Microsoft* and became an Open source.
 </br> OData is a **REST (Representational State transfer)** also known as **Stateless communication.**
 
+
+**OData Service is an open source** in the genration oftechnology and gthe workld of web applciaiton billions of organizations are using it in day to day life
+this can be build using JAVA, .Net, Java Script also in cloud abased applciaitons.
 
 
 
