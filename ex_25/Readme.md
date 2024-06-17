@@ -38,7 +38,7 @@ var that = this;
 
 ```js
 
-    oCityPopup: null, // geclare a global variable for holding object 
+    oCityPopup: null, // declare a global variable for holding object 
     onF4help: function () {
         // if the object is not filled 
         //IF NOT oCityPopup IS INITIAL.
@@ -54,7 +54,7 @@ var that = this;
                 .then(function (oPopup) { 
                     // - inside callback function this. controller object wont be accessible 
                     // - so we create a local variable and assign this controller object
-                    // - this local varaibel will bve in scope of this whole function and its call back function
+                    // - this local variable will bve in scope of this whole function and its call back function
 
                     // assign the object created by system to our global variable
                     that.oCityPopup = oPopup;
@@ -224,13 +224,13 @@ var that = this;
         var oSelectedItem = oEvent.getParameter("selectedItem");
         var sText = oSelectedItem.getLabel();
         // 2. place the value to the field INSIDE the TABLE
-        // this.oSelectedField.setValue("Test Text value fill"); /// testing purpose hardocdd value is used
+        // this.oSelectedField.setValue("Test Text value fill"); /// testing purpose hardcoded value is used
         this.oSelectedField.setValue(sText);
     },
 
     oSelectedField: null,
     onF4help: function (oEvent) {
-        // when user clikc on F4 on the field inside the table, that field object
+        // when user click on F4 on the field inside the table, that field object
         // we are storing now in a temporary object
         this.oSelectedField = oEvent.getSource();
 //////////////////////////////////////////////////////////////////////////////
@@ -370,7 +370,7 @@ sap.ui.define([
         // 1. get teh table object
         var oTable = this.getView().byId("idTab");
         // 2. Read multi select items
-        var aSelectedItems = oEvent.getParameter("selectedItems"); //array of multipel items
+        var aSelectedItems = oEvent.getParameter("selectedItems"); //array of multiple items
         // 3. Construct filter
         var aFilters = []; // array object because multiple values
         for (let index = 0; index < aSelectedItems.length; index++) {
@@ -417,7 +417,7 @@ sap.ui.define([
 
             // F4 help pop up search
             if (sId.indexOf("city") !== -1) {
-                // Step 1 : Get the seach string 
+                // Step 1 : Get the search string 
                 var sVal1 = oEvent.getParameter("value");
                 // Step 2 : get the popup object itself
                 var oBinding1 = oEvent.getParameter("itemsBinding");
@@ -429,7 +429,7 @@ sap.ui.define([
 
             // Filter supplier pop up search
             if (sId.indexOf("supplier") !== -1) {
-                // Step 1 : Get the seach string 
+                // Step 1 : Get the search string 
                 var sVal2 = oEvent.getParameter("value");
                 // Step 2 : get the popup object itself
                 var oBinding2 = oEvent.getParameter("itemsBinding");

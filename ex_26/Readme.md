@@ -172,7 +172,7 @@ sap.ui.define([
         var that = this;
         MessageBox.confirm(this.readMessage("XMSG_CONFIRM"), {
             title : 'Confirmation',
-            // now (this.) pointer will be pased as controlelr object to call back function handleConfirm
+            // now (this.) pointer will be passed as controller object to call back function handleConfirm
             onClose: this.handleConfirm.bind(this) 
         })
     }

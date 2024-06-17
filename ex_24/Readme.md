@@ -633,7 +633,7 @@ xmlns:core="sap.ui.core" xmlns:sap.ui.layout="sap.ui.layout">
                 <sap.ui.layout:GridData span="XL3 L3 M6 S6"/>
             </layoutData>
         </Input>
-        <Label text="Orde Dater">
+        <Label text="Order Date">
             <layoutData>
                 <sap.ui.layout:GridData span="XL1 L1 M6 S6"/>
             </layoutData>
