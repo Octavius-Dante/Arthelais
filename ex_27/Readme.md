@@ -53,9 +53,12 @@ this OData can be built using JAVA, .Net, Java Script also in cloud based applic
 
 </br></br>
 
-## Demo OData service in every ECC or S/4 HANA On-Premise 
+## Demo OData service in any ECC or S/4 HANA On-Premise systems
 
 </br>
+
+
+SAP Provides a sample OData service in every SAP system for demo and training purpose. Which contains different entity sets for training like Sales order, Product, supplier, customer, ..... GW_SAMPLEBASIC
 
 
 
