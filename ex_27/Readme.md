@@ -190,7 +190,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 
 </br></br>
 
-2. *Read only top 2 records basic pagination sample 1*
+2. *Read only top 2 records pagination sample 1 (SELECT * UP TO ROWS n FROM DB.Table)* 
 
 ```http
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json&$top=2
@@ -203,7 +203,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 </details>
 </br></br>
 
-3. *Read only 2 records after skipping first 2 records basic pagination sample 2*
+3. *Read only 2 records after skipping first 2 records pagination sample 2 (SELECT * UP TO ROWS n FROM DB.Table)*
 
 ```http
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json&$top=2&$skip=2
