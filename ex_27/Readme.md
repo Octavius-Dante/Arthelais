@@ -174,7 +174,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 ```
 
 <details>
-<summary> <b> case 1. image sample of xml  </b> </summary>
+<summary> case 1. image sample of xml </summary>
 </br></br>
 <img src="./files/ui5e27-9.png" >
 </details>
@@ -197,7 +197,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 ```
 
 <details>
-<summary> <b> case 2. image sample of xml  </b> </summary>
+<summary> case 2. image sample of xml </summary>
 </br></br>
 <img src="./files/ui5e27-10a.png" >
 </details>
@@ -210,7 +210,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 ```
 
 <details>
-<summary> <b> case 3. image sample of xml  </b> </summary>
+<summary> case 3. image sample of xml </summary>
 </br>
 <img src="./files/ui5e27-11.png" >
 </details>
@@ -228,7 +228,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 ```
 
 <details>
-<summary> <b> case 4. image sample of xml  </b> </summary>
+<summary> case 4. image sample of xml </summary>
 </br>
 <img src="./files/ui5e27-12.png" >
 </details>
