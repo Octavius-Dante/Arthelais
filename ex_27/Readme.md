@@ -194,7 +194,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 ```
 
 </br>
-<img src="./files/ui5e27-10.png" >
+<img src="./files/ui5e27-10a.png" >
 </br></br>
 
 3. *Read only 2 records after skipping first 2 records basic pagination sample 2*
