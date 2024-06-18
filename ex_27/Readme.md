@@ -154,6 +154,8 @@ You can notice entity set structures field details and its length in this metada
 > [!IMPORTANT]
 > First parameter in OData HTTP call starts with '?' question mark operations starts with '$' and all consecutive operations are added with '&' 
 
+</br></br>
+
 ```http
 Sample 1 : (ProductSet?$format=json)
 
@@ -161,7 +163,7 @@ Sample 2 : https://odata-api.blah.com/accounts?$expand=company&$filter=company/n
 
 Sample with spaces for understanding : https://odata-api.blah.com/accounts ? $expand=company & $filter=company/name eq 'Nebcorp' & $expand=company/company_plan
 
-````
+```
 
 </br></br>
 
