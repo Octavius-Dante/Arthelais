@@ -310,7 +310,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 </details>
 </br></br>
 
-**ABAP Select statements equivalent of above functionality**
+**ABAP Select statements equivalent of above functionalities**
 
 ```abap
 
