@@ -105,9 +105,14 @@ By Default in your system it wont be active, we need to activate it.
 <img src="./files/ui5e27-6c.png" >
 </br></br>
 
+**Service calls**
+
+*1. Service document - When we hit an OData service it loads the service document which shows collection of all the entity sets. Entity Set - End point on which we apply all the CURDQ Operation.*
+
+2. 
+
 ```http
 
-#### Default call for GWSAMPLE_BASIC
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/?$format=xml
 
 
