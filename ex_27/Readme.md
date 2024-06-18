@@ -167,7 +167,7 @@ Sample with spaces for understanding : https://odata-api.blah.com/accounts ? $ex
 
 </br></br>
 
-1. *Read all the records of the EntitySet this is an equivalent to (SELECT * FROM DB.Table)* 
+**1. Read all the records of the EntitySet this is an equivalent to (SELECT * FROM DB.Table)** 
 
 ```http
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json
@@ -190,7 +190,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 
 </br></br>
 
-2. *Read only top 2 records pagination sample 1 (SELECT * UP TO ROWS n FROM DB.Table)* 
+**2. Read only top 2 records pagination sample 1 (SELECT * UP TO ROWS n FROM DB.Table)**
 
 ```http
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json&$top=2
@@ -203,7 +203,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 </details>
 </br></br>
 
-3. *Read only 2 records after skipping first 2 records pagination sample 2 (SELECT * UP TO ROWS n FROM DB.Table)*
+**3. Read only 2 records after skipping first 2 records pagination sample 2 (SELECT * UP TO ROWS n FROM DB.Table)**
 
 ```http
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json&$top=2&$skip=2
@@ -216,7 +216,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 </details>
 </br></br>
 
-4. *Load selected properties only (SELECT Col1, Col2, Col3... FROM DB.Table)*
+**4. Load selected properties only (SELECT Col1, Col2, Col3... FROM DB.Table)**
 
 ```http
 
