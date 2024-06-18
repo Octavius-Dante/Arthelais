@@ -367,19 +367,6 @@ BREAK-POINT.
 OData Service details table : /IWBEP/I_SBD_GA
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 </br></br>
 </br></br>
 </br></br>
