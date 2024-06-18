@@ -133,7 +133,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/$metada
 </br></br>
 
 
-
+[Metadata XMl sample here download it and open it in browser](https://github.com/Octavius-Dante/Arthelais/blob/main/ex_27/GWSAMPLE_BASIC-metadata.xml)
 
 
 </br></br>
