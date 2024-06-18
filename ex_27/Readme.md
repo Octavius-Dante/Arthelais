@@ -111,7 +111,9 @@ The following links are used in my demo server the path starting from '/sap/opu/
 
 </br></br>
 
-**Service calls**
+## Service calls
+
+</br>
 
 1. *Service document - When we hit an OData service it loads the service document which shows collection of all the entity sets. Entity Set - End point on which we apply all the CURDQ Operation.*
 
@@ -141,6 +143,11 @@ You can notice entity set structures field details and its length in this metada
 </br></br>
 
 [Metadata XML sample here download it and open it in browser](https://github.com/Octavius-Dante/Arthelais/blob/main/ex_27/GWSAMPLE_BASIC-metadata.xml)
+
+</br></br>
+
+
+## OData service - Get Calls 
 
 
 
