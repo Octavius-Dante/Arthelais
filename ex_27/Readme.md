@@ -134,19 +134,6 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/$metada
 
 
 
-<details>
-<summary> Metadata XML preview </summary>
-</br>
-</br>
-
-</br>
-</br>
-<img src="./files/capmd12-96a.png" >
-</br>
-</br>
-</details>
-
-
 
 
 </br></br>
