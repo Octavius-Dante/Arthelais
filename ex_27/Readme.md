@@ -216,7 +216,11 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 </details>
 </br></br>
 
+4. *Load selected properties only (SELECT Col1, Col2, Col3... FROM DB.Table)*
 
+```http
+http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json&$top=2&$skip=2&$select=
+```
 
 
 
