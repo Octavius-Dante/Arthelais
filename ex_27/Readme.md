@@ -132,8 +132,10 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/$metada
 <img src="./files/ui5e27-8a.png" >
 </br></br>
 
-
 [Metadata XML sample here download it and open it in browser](https://github.com/Octavius-Dante/Arthelais/blob/main/ex_27/GWSAMPLE_BASIC-metadata.xml)
+
+> [!IMPORTANT]
+> Notice the entity type - the structure type of the business data, entity type is a structure of entity set
 
 
 </br></br>
