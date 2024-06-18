@@ -124,7 +124,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/?$forma
 </br></br>
 
 > [!IMPORTANT]
-> Entity type is a structure of entity set
+> Entity type is a structure of entity set (aka) structure of business data
 
 </br></br>
 
