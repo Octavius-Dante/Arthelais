@@ -105,9 +105,11 @@ By Default in your system it wont be active, we need to activate it.
 <img src="./files/ui5e27-6c.png" >
 </br></br>
 
+</br></br>
 
 The following links are used in my demo server the path starting from '/sap/opu/odata/IWBEP/------------' this remains the same only domain and port differs according to company's OData service path
 
+</br></br>
 
 **Service calls**
 
