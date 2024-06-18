@@ -182,7 +182,10 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 
 </br></br>
 
+> [!IMPORTANT]
+> Pagination : business data will be huge cant load all billions of records in single go so small chunk of data is loaded and on demand it will load further data example  youtube video buffering 
 
+</br></br>
 
 
 
