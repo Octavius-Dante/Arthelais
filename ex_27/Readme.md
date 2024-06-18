@@ -286,7 +286,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 </br></br>
 
 
-**Navigating to the supplier data from the last tasks record**
+**8. Navigating to the supplier data from the last tasks record**
 
 <details>
 <summary> case 8. image sample of xml </summary>
