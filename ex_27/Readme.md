@@ -115,7 +115,8 @@ The following links are used in my demo server the path starting from '/sap/opu/
 
 </br>
 
-1. *Service document - When we hit an OData service it loads the service document which shows collection of all the entity sets. Entity Set - End point on which we apply all the CURDQ Operation.*
+1. *Service document - When we hit an OData service it loads the service document which shows collection of all the entity sets.* 
+<br> *Entity Set - End point on which we apply all the CURDQ Operation.*
 
 ```http
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/?$format=xml
