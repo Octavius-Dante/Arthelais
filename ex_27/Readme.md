@@ -296,7 +296,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 </details>
 </br></br>
 
-**9. $expand operation (Select * from db.table.1 join db.table.2 on tab1-key-field = tab2-key-field)**
+**9. $expand operation (Select * from db.table.1 inner join db.table.2 on join-condition)**
 
 ```http
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet('HT-2025')?$format=json&$expand=ToSupplier
