@@ -146,9 +146,9 @@ You can notice entity set structures field details and its length in this metada
 
 </br></br>
 
-
 ## OData service - Get Calls 
 
+</br>
 
 
 </br></br>
