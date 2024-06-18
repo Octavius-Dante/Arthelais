@@ -175,6 +175,20 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 <img src="./files/ui5e27-9.png" >
 </br></br>
 
+> [!IMPORTANT]
+> Use JSON viewer or JSON formatter plugin in chrome browser for better readability of JSON data
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
