@@ -113,7 +113,11 @@ By Default in your system it wont be active, we need to activate it.
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/?$format=xml
 ```
 
-2. *Service metadata Document - *
+2. *Service metadata Document - Which holds the information of the data about the data. It contains all the list of service entity types composed of property and keys*
+
+```http
+
+```
 
 
 
