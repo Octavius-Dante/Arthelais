@@ -219,9 +219,20 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 4. *Load selected properties only (SELECT Col1, Col2, Col3... FROM DB.Table)*
 
 ```http
-http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json&$top=2&$skip=2&$select=
+
+// Without top and skip
+http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json&$select=ProductID,Name,Category,Price
+
+// With top and skip 
+http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json&$top=2&$skip=2&$select=ProductID,Name,Category,Price
 ```
 
+<details>
+<summary> <b> case 4. image sample of xml  </b> </summary>
+</br>
+<img src="./files/ui5e27-12.png" >
+</details>
+</br></br>
 
 
 </br></br>
