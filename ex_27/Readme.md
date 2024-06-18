@@ -125,8 +125,27 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/?$forma
 2. *Service metadata Document - Which holds the information of the data about the data. It contains all the list of service entity types composed of property and keys*
 
 ```http
-
+http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/$metadata
 ```
+
+</br>
+<img src="./files/ui5e27-8.png" >
+</br></br>
+
+
+
+<details>
+<summary> Metadata XML preview </summary>
+</br>
+</br>
+
+</br>
+</br>
+<img src="./files/capmd12-96a.png" >
+</br>
+</br>
+</details>
+
 
 
 
