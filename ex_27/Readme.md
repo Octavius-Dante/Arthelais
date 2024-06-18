@@ -97,14 +97,13 @@ By Default in your system it wont be active, we need to activate it.
 
 **Sample basic OData service in T-code : /n/IWFND/MAINT_SERVICE**
 
-</br>
+</br></br>
 <img src="./files/ui5e27-6a.png" >
 </br></br>
-
-</br>
 <img src="./files/ui5e27-6b.png" >
 </br></br>
-
+<img src="./files/ui5e27-6c.png" >
+</br></br>
 
 
 
