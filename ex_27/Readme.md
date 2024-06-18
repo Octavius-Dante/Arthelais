@@ -269,13 +269,13 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 **7. Reading a record based on a key (SELECT SINGLE * FROM DB-Table WHERE Key-Field EQ 'key-Value')**
 
 ```http
-http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet/$count
+http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet('HT-2025')
 ```
 
 <details>
-<summary> case 6. image sample of xml </summary>
+<summary> case 7. image sample of xml </summary>
 </br>
-<img src="./files/ui5e27-14.png" >
+<img src="./files/ui5e27-15.png" >
 </details>
 </br></br>
 
