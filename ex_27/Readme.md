@@ -252,7 +252,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 </details>
 </br></br>
 
-**6. Getting the total count of the items in the data set (SELECT * FROM DB.Table WHERE condition)**
+**6. Getting the total count of the items in the data set (SELECT COUNT (*) FROM DB.Table)**
 
 ```http
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet/$count
