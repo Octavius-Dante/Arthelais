@@ -95,28 +95,12 @@ By Default in your system it wont be active, we need to activate it.
 
 
 
-**Steps to activate the Sample basic OData service**
+**Sample basic OData service**
 
-<details>
-<summary> Step by Step activity with images </summary>
 </br>
-</br>
-
-Click Add service in /n/IWFND/MAINT_SERVICE T-code as shown below
-
-</br></br>
 <img src="./files/ui5e27-6a.png" >
 </br></br>
-<img src="./files/ui5e27-6b.png" >
-</br></br>
-<img src="./files/ui5e27-6c.png" >
-</br></br>
-<img src="./files/ui5e27-6d.png" >
-</br></br>
 
-</br>
-</br>
-</details>
 
 
 
