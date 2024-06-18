@@ -105,7 +105,14 @@ By Default in your system it wont be active, we need to activate it.
 <img src="./files/ui5e27-6c.png" >
 </br></br>
 
+```http
 
+#### Default call for GWSAMPLE_BASIC
+http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/?$format=xml
+
+
+
+```
 
 
 
