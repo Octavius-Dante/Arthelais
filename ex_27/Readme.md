@@ -239,7 +239,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 ```http
 
 // Before pressing enter - query looked like
-http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json&$select=ProductID,Name,Category,Price&$filter=Category eq '27Notebooks'
+http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json&$select=ProductID,Name,Category,Price&$filter=Category eq 'Notebooks'
 
 // After pressing enter - space and single quote got converted
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json&$select=ProductID,Name,Category,Price&$filter=Category%20eq%20%27Notebooks%27
