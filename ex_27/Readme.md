@@ -173,8 +173,11 @@ Sample with spaces for understanding : https://odata-api.blah.com/accounts ? $ex
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json
 ```
 
-</br>
+<details>
+<summary> <b> case 1. image sample of xml  </b> </summary>
+</br></br>
 <img src="./files/ui5e27-9.png" >
+</details>
 </br></br>
 
 > [!IMPORTANT]
@@ -193,8 +196,11 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json&$top=2
 ```
 
-</br>
+<details>
+<summary> <b> case 2. image sample of xml  </b> </summary>
+</br></br>
 <img src="./files/ui5e27-10a.png" >
+</details>
 </br></br>
 
 3. *Read only 2 records after skipping first 2 records basic pagination sample 2*
@@ -203,12 +209,12 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json&$top=2&$skip=2
 ```
 
+<details>
+<summary> <b> case 3. image sample of xml  </b> </summary>
 </br>
 <img src="./files/ui5e27-11.png" >
+</details>
 </br></br>
-
-
-
 
 
 
