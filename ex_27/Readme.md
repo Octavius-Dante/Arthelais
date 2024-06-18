@@ -171,6 +171,9 @@ Sample with spaces for understanding : https://odata-api.blah.com/accounts ? $ex
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet?$format=json
 ```
 
+</br>
+<img src="./files/ui5e27-9.png" >
+</br></br>
 
 
 
