@@ -107,6 +107,8 @@ By Default in your system it wont be active, we need to activate it.
 
 **Service calls**
 
+The following links are used in my demo server the path starting from '/sap/opu/odata/IWBEP/------------' this remains the same only domain and port differs according to company's OData service path
+
 1. *Service document - When we hit an OData service it loads the service document which shows collection of all the entity sets. Entity Set - End point on which we apply all the CURDQ Operation.*
 
 ```http
