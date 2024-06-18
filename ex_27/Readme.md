@@ -95,7 +95,7 @@ By Default in your system it wont be active, we need to activate it.
 
 
 
-**Sample basic OData service**
+**Sample basic OData service in T-code : /n/IWFND/MAINT_SERVICE**
 
 </br>
 <img src="./files/ui5e27-6a.png" >
