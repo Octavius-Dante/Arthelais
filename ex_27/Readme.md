@@ -281,7 +281,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 <summary> case 7. image sample of xml </summary>
 </br>
 <img src="./files/ui5e27-15.png" >
-<img src="./files/ui5e27-15as.png" >
+<img src="./files/ui5e27-15a.png" >
 </details>
 </br></br>
 
