@@ -306,6 +306,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 <summary> case 9. image sample of xml </summary>
 </br>
 <img src="./files/ui5e27-17.png" >
+<img src="./files/ui5e27-17a.png" >
 </details>
 </br></br>
 
