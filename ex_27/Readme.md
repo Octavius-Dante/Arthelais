@@ -355,9 +355,9 @@ BREAK-POINT.
 
 ```
 
+</br></br>
 
-
-
+OData Service details table : /IWBEP/I_SBD_GA
 
 
 
