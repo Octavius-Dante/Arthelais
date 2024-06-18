@@ -327,14 +327,14 @@ SELECT * FROM snwd_pd INTO TABLE @DATA(lt_tab_all).
 * Type 2 Select top 10 records / Type 3 skip logic cant be done in select it requires coding
 SELECT * UP TO 10 ROWS FROM snwd_pd INTO TABLE @DATA(lt_tab_1).
 
-* Type 4 - Select record with few Columns fields 
+* Type 4 - Select record with few Columns fields
 SELECT product_id, category, price FROM snwd_pd INTO TABLE @DATA(lt_tab_2).
-  
-* Type 5 - Select records with WHERE condition (Non-KEY)  
-SELECT product_id, category, price FROM snwd_pd INTO TABLE @DATA(lt_tab_3)
-  WHERE category EQ 'Notebooks'. 
 
-* Type 6 - Select the Total count of records in DB table 
+* Type 5 - Select records with WHERE condition (Non-KEY)
+SELECT product_id, category, price FROM snwd_pd INTO TABLE @DATA(lt_tab_3)
+  WHERE category EQ 'Notebooks'.
+
+* Type 6 - Select the Total count of records in DB table
 SELECT COUNT(*) FROM snwd_pd INTO @DATA(lv_count).
 
 * Type 7 - Select a record based on key value WHERE condition
@@ -344,13 +344,20 @@ SELECT SINGLE * FROM snwd_pd INTO @DATA(ls_record)
 *Type 8 - is association of record - JOIN on demand only possible in ABAP CDS view*
 
 
-* Type 9 - Select records with join conditoon 
-SELECT * FROM snwd_pd 
-  INNER JOIN 
-  
-INTO TABLE @DATA(lt_tab_4).
-  
-  
+* Type 9 - Select records with join conditon
+* - Single record based on Condition
+SELECT * FROM snwd_pd AS a
+  INNER JOIN snwd_bpa AS b
+  ON a~supplier_guid = b~node_key
+INTO TABLE @DATA(lt_tab_4)
+WHERE b~bp_id EQ '0100000049'.
+
+* - ALL records
+SELECT * FROM snwd_pd AS a
+  INNER JOIN snwd_bpa AS b
+  ON a~supplier_guid = b~node_key
+INTO TABLE @DATA(lt_tab_5).
+
 BREAK-POINT.
 
 ```
