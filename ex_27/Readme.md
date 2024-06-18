@@ -129,7 +129,7 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/$metada
 ```
 
 </br>
-<img src="./files/ui5e27-8.png" >
+<img src="./files/ui5e27-8a.png" >
 </br></br>
 
 
