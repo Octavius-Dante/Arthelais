@@ -269,7 +269,12 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 **7. Reading a record based on a key (SELECT SINGLE * FROM DB-Table WHERE Key-Field EQ 'key-Value')**
 
 ```http
+// XML - Default
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet('HT-2025')
+
+
+// Requesting - JSON
+http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet('HT-2025')?$format=json
 ```
 
 <details>
