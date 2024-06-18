@@ -252,6 +252,18 @@ http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/Product
 </details>
 </br></br>
 
+**6. Getting the total count of the items in the data set (SELECT * FROM DB.Table WHERE condition)**
+
+```http
+http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ProductSet/$count
+```
+
+<details>
+<summary> case 6. image sample of xml </summary>
+</br>
+<img src="./files/ui5e27-14.png" >
+</details>
+</br></br>
 
 
 
