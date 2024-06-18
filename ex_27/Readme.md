@@ -154,6 +154,7 @@ You can notice entity set structures field details and its length in this metada
 > [!IMPORTANT]
 > First parameter in OData HTTP call starts with '?' question mark sample (ProductSet?$format=json)
 
+</br></br>
 
 1. *Read all the records of the EntitySet this is an equivalent to (SELECT * FROM DB.Table)* 
 
