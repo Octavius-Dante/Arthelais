@@ -81,6 +81,20 @@ By Default in your system it wont be active, we need to activate it.
 <img src="./files/ui5e27-3.png" >
 </br></br>
 
+**/n/IWFND/GW_CLIENT**
+
+</br>
+<img src="./files/ui5e27-4.png" >
+</br></br>
+
+**/n/IWFND/ERROR_LOG** 
+
+</br>
+<img src="./files/ui5e27-5.png" >
+</br></br>
+
+
+
 **Steps to activate the Sample basic OData service**
 
 
