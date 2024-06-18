@@ -117,6 +117,11 @@ The following links are used in my demo server the path starting from '/sap/opu/
 http://vhcalnplci.dummy.nodomain:8000/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/?$format=xml
 ```
 
+</br>
+<img src="./files/ui5e27-7.png" >
+</br></br>
+
+
 2. *Service metadata Document - Which holds the information of the data about the data. It contains all the list of service entity types composed of property and keys*
 
 ```http
