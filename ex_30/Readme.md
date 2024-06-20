@@ -76,7 +76,7 @@
 </br></br>
 
 <details>
-<summary> <b> Gateway Client for POST operations </b> </summary>
+<summary> <b> Gateway Client for POST operations - T-Code /n/IWFND/GW_CLIENT</b> </summary>
 </br>
 </br>
 
