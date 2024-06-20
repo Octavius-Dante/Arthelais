@@ -65,6 +65,11 @@ SAP provides sample tables, BAPI's (Function Modules)
 </br>
 <img src="./files/ui5e28-15.png" >
 </br>
+
+The above markings of the functionalities will allow the consumers to understand what are all the fields 
+<br> which are available for which functionality in meta dat section of XML
+
+
 </br>
 </br>
 </details>
