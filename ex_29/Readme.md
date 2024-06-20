@@ -71,7 +71,7 @@
 <img src="./files/ui5e29-2.png" >
 </br></br>
 
-**Debugging and idewntifying the problem**
+**Debugging and identifying the problem**
 
 </br>
 <img src="./files/ui5e29-3.png" >
