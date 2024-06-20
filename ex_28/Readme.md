@@ -76,7 +76,7 @@ The above markings of the functionalities will allow the consumers to understand
 </details>
 
 <details>
-<summary> <b>Step 3 - Create Entity Set</b> </summary>
+<summary> <b>Step 3 - Create Entity Set and assign Entity type structure </b> </summary>
 </br>
 <img src="./files/ui5e28-16.png" >
 </br>
