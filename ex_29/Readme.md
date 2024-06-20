@@ -77,6 +77,9 @@
 
 **Debugging and identifying the problem**
 
+<details>
+<summary> <b> Expand this to see the details </b> </summary>
+</br>
 </br>
 <img src="./files/ui5e29-3.png" >
 </br></br>
@@ -86,8 +89,9 @@
 </br>
 <img src="./files/ui5e29-5.png" >
 </br></br>
+</details>
 
-</br>
+</br></br>
 
 *BAPI structure has more fields and ET_ENTITY_SET has less fields so we encountered error during assignment of values to the structure*
 
@@ -111,7 +115,6 @@
 </br>
 <img src="./files/ui5e29-8.png" >
 </br></br>
-
 </details>
 
 </br></br>
