@@ -208,6 +208,38 @@ The above markings of the functionalities will allow the consumers to understand
 >  GET_ENTITY --- (reading only single record reading by primary key)
 
 
+</br></br>
+
+
+## Implementing a method in DPC extension class
+
+</br>
+
+<details>
+<summary> <b>Implementing GET_ENTITY_SET method in DPC_EXT class</b> </summary>
+</br>
+</br>
+<img src="./files/ui5e28-42.png" >
+</br>
+<img src="./files/ui5e28-43.png" >
+</br>
+<img src="./files/ui5e28-44.png" >
+</br>
+<img src="./files/ui5e28-45.png" >
+</br>
+<img src="./files/ui5e28-46.png" >
+</br>
+<img src="./files/ui5e28-47.png" >
+</br>
+<img src="./files/ui5e28-48.png" >
+</br>
+<img src="./files/ui5e28-49.png" >
+</br>
+<img src="./files/ui5e28-50.png" >
+</br>
+</details>
+
+
 </br>
 </br>
 </br>
