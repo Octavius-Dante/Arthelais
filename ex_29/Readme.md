@@ -539,6 +539,63 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 ```ABAP
 
+  METHOD PRODUCTSET_GET_ENTITY.
+
+    DATA : LV_PROD_ID TYPE BAPI_EPM_PRODUCT_ID,
+           LS_HEADER  TYPE BAPI_EPM_PRODUCT_header,
+           LT_RETURN  TYPE TABLE OF BAPIRET2. " for handling exceptions
+
+    " Step 1 : read the key value passed by user from screen
+    READ TABLE IT_KEY_TAB INTO DATA(LS_KEY_TAB) WITH KEY NAME = 'PRODUCT_ID'.
+    LV_PROD_ID = LS_KEY_TAB-VALUE.
+
+    " Step 2 : call BAPAI to laod that product data by KEY
+    CALL FUNCTION 'BAPI_EPM_PRODUCT_GET_DETAIL'
+      EXPORTING
+        PRODUCT_ID = LV_PROD_ID
+      IMPORTING
+        HEADERDATA = LS_HEADER
+*     TABLES
+*       CONVERSION_FACTORS       =
+        RETURN     = LT_RETURN.
+
+    IF LT_RETURN IS NOT INITIAL.
+
+      ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( )->ADD_MESSAGES_FROM_BAPI(
+         IT_BAPI_MESSAGES          =  LT_RETURN       " Return parameter table
+*        IV_ERROR_CATEGORY         =                  " Error Category
+*        IV_DETERMINE_LEADING_MSG  =                  " Use "no", "first", or "last" as leading message
+*        IV_ENTITY_TYPE            =                  " Entity type/name
+*        IT_KEY_TAB                =                  " Entity key as name-value pair
+*        IV_ADD_TO_RESPONSE_HEADER = ABAP_FALSE       " Flag for adding or not the message to the response header
+      ).
+
+      RAISE EXCEPTION TYPE /IWBEP/CX_MGW_BUSI_EXCEPTION
+        EXPORTING
+*         TEXTID            =
+*         PREVIOUS          =
+          MESSAGE_CONTAINER = ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( )
+*         HTTP_STATUS_CODE  =
+*         HTTP_HEADER_PARAMETERS =
+*         SAP_NOTE_ID       =
+*         MSG_CODE          =
+*         EXCEPTION_CATEGORY     =
+*         ENTITY_TYPE       =
+*         MESSAGE           =
+*         MESSAGE_UNLIMITED =
+*         FILTER_PARAM      =
+*         OPERATION_NO      =
+        .
+
+    ELSE.
+
+      " Step3 : Map data to output
+      ER_ENTITY = CORRESPONDING #( LS_HEADER ).
+
+    ENDIF.
+
+  ENDMETHOD.
+
 ```
 
 </br></br>
