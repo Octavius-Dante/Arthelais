@@ -72,6 +72,8 @@ By Default in your system it wont be active, we need to activate it.
 
 *3. To detect runtime errors for service :* **/n/IWFND/ERROR_LOG** 
 
+*4. SAP OData Service Builder :* **SEGW** 
+
 </br></br>
 
 

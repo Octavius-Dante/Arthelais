@@ -1,5 +1,8 @@
 ## Exercise 28 - Create A Gateway Project
 
+<br>
+
+*Tcode for building OData services :* **SEGW** *aka OData Service Builder*
 
 </br></br>
 </br></br>
