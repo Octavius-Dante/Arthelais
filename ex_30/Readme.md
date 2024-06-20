@@ -75,7 +75,15 @@
 
 </br></br>
 
-**POSTMAN tool needs to be used for POST call operations**
+**Gateway Client for POST operations**
+
+
+
+
+
+</br></br>
+
+**POSTMAN for POST operations**
 
 
 
