@@ -112,6 +112,11 @@ The above markings of the functionalities will allow the consumers to understand
 <img src="./files/mpc_dpc.png" >
 </br>
 </br>
+
+
+**Create the runtime artifacts for the OData service**
+
+</br>
 <img src="./files/ui5e28-20.png" >
 </br>
 </br>
