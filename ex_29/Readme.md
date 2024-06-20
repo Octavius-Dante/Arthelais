@@ -93,7 +93,7 @@
 
 </br></br>
 
-**We are going to use new ABAP Syntax for this problem to resolve this issue**
+**There could be data type mismatch in structure so made corrections to the code as shown below**
 </br>
 
 ```abap
@@ -122,7 +122,7 @@
     " Step 3: Return the data out ET_ENTITYSET is our return internal table
 *       MOVE-CORRESPONDING LT_BAPI_DATA TO ET_ENTITYSET.
 
-      ET_ENTITYSET = CORRESPONDING #( LT_BAPI_DATA ).  " New ABAP syntax for move corresponding
+*      ET_ENTITYSET = CORRESPONDING #( LT_BAPI_DATA ).  " New ABAP syntax for move corresponding
 
   ENDMETHOD.
 
