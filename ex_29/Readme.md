@@ -467,6 +467,15 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 ```
 
+</br>
+
+<details>
+<summary> <b> Testing after implementing $filter logic </b> </summary>
+</br></br>
+<img src="./files/ui5e29-16.png" >
+</br></br>
+</details>
+
 
 </br></br>
 </br></br>
