@@ -168,13 +168,16 @@
 
 </br>
 <img src="./files/ui5e29-10.png" >
-</br>
-</br>
+</br></br>
 <img src="./files/ui5e29-11.png" >
 </br></br>
-
+<img src="./files/ui5e29-12.png" >
+</br></br>
 
 ```http
+
+// $FORMAT
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format=json
 
 // $COUNT
 http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet/$count
