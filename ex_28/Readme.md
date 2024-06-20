@@ -109,6 +109,11 @@ The above markings of the functionalities will allow the consumers to understand
 
 </br>
 </br>
+<img src="./files/mpc_dpc.png" >
+</br>
+</br>
+
+
 </br>
 </br>
 </br>
