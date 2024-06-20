@@ -5,13 +5,13 @@
 **CREATE - POST**
 </br>
 
-**UPDATE - DELETE**
+**UPDATE - PUT / PATCH**
 </br>
 
 **RETRIEVE - GET**
 </br>
 
-**DELETE - PUT / PATCH**
+**DELETE - DELETE**
 
 </br>
 
