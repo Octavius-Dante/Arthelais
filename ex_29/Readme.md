@@ -2,22 +2,34 @@
 
 </br>
 
+
+> [!NOTE]
+>  In this section we discuss about ABAP coding so user should know how to program in ABAP to understand things</br>
+
+
+</br></br>
+
 **We will improve our 'GET_ENTITY_SET' Method in our OData service we created yesterday**
+
+
+*Process that we are going to do in ABAP is listed below*
 
 ```abap
 
 
-*    APPEND INITIAL LINE TO et_entityset.
-
      " Step 1: Read data from BAPI (Function module)
         
-     " Step 2: Map Data becuase BAPI gives so many fields and in our output
+     " Step 2: Map Data because BAPI gives so many fields and in our output
         " we have only less fields 
         
      " Step 3: Return the data out ET_ENTITYSET is our return internal table    
 
 
 ```
+
+</br></br>
+
+
 
 
 </br>
