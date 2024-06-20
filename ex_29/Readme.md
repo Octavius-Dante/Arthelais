@@ -1,5 +1,11 @@
 ## Exercise 29 - Implementing GET
 
+</br>
+
+**We will improve our 'GET_ENTITY_SET' Method in our OData service we created yesterday**
+
+
+</br>
 
 </br></br>
 </br></br>
