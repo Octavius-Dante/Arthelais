@@ -41,7 +41,7 @@
 
   METHOD PRODUCTSET_GET_ENTITYSET.
 
-  *    APPEND INITIAL LINE TO et_entityset.
+*    APPEND INITIAL LINE TO et_entityset.
 
     DATA : LT_BAPI_DATA TYPE TABLE OF BAPI_EPM_PRODUCT_HEADER.
 
@@ -96,7 +96,7 @@
 **We are going to use new ABAP Syntax for this problem to resolve this issue**
 </br>
 
-```
+```abap
 
   METHOD PRODUCTSET_GET_ENTITYSET.
 
