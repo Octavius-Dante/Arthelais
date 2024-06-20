@@ -119,14 +119,12 @@
 
 </br></br>
 
-**Make necessary corrections to OData service as shown below # 2**
+**Make necessary corrections to OData service as shown below**
 
 </br>
 <img src="./files/ui5e29-9.png" >
 </br></br>
 
-
-</br></br>
 
 **Make necessary corrections to the code as shown below # 2**
 
