@@ -213,9 +213,38 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 </br>
 
-*Set a break-point and in debugger identify the list of structures and see what is the value passed in it during $top and $skip operation triggered from browser*
+**Put break point and trigger the following request from browser**
 
 </br>
+
+```http
+
+// $TOP = 25
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format=json&$select=PRODUCT_ID,CATEGORY,NAME&$top=25
+
+```
+
+**Set a break-point and in debugger identify the list of structures and see what is the value passed in it during $top and $skip operation triggered from browser**
+
+</br>
+
+
+<details>
+<summary> <b> Identifying Pagination value in debugger </b> </summary>
+</br>
+</br>
+
+</br>
+<img src="./files/ui5e29-13.png" >
+</br></br>
+<img src="./files/ui5e29-13a.png" >
+</br></br>
+<img src="./files/ui5e29-13b.png" >
+</br></br>
+</details>
+
+
+</br></br>
 
 *Added new variable for BAPI Assignment for limiting records*
 
