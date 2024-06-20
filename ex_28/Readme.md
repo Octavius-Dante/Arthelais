@@ -25,8 +25,7 @@ SAP provides sample tables, BAPI's (Function Modules)
 
 </br>
 <img src="./files/ui5e28-1.png" >
-</br></br>
-
+</br>
 <img src="./files/ui5e28-2a.png" >
 </br></br>
 
