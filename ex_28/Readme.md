@@ -144,6 +144,20 @@ The above markings of the functionalities will allow the consumers to understand
 </br>
 </details>
 
+<details>
+<summary> <b>Register the OData service in /n/IWFND/MAINT_SERVICE</b> </summary>
+</br>
+<img src="./files/ui5e28-28.png" >
+</br>
+<img src="./files/ui5e28-29.png" >
+</br>
+<img src="./files/ui5e28-30.png" >
+</br>
+</br>
+</br>
+</details>
+
+
 
 </br>
 </br>
