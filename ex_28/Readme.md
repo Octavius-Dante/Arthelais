@@ -181,7 +181,7 @@ The above markings of the functionalities will allow the consumers to understand
 </br>
 <img src="./files/ui5e28-40.png" >
 </br>
-<img src="./files/ui5e28-41.png" >
+<img src="./files/ui5e28-41a.png" >
 </br>
 </br>
 </br>
