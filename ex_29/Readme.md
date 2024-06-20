@@ -33,7 +33,7 @@
 </br></br>
 
 
-**ABAP code block used inside this method # 1**
+**ABAP code used inside this method # 1**
 
 </br>
 
@@ -140,7 +140,7 @@
 </details>
 </br></br>
 
-**Make necessary corrections to the code as shown below # 2**
+**ABAP code used inside this method # 2 - after changes**
 
 </br>
 
@@ -246,7 +246,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 </br></br>
 
-*Added new variable for BAPI Assignment for limiting records*
+**ABAP code used inside this method # 3 - after changes**
 
 </br>
 
