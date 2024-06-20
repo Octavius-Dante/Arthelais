@@ -76,13 +76,15 @@ The above markings of the functionalities will allow the consumers to understand
 </details>
 
 <details>
-<summary> <b>Step 3 - Create New OData Service project</b> </summary>
+<summary> <b>Step 3 - Create Entity Set</b> </summary>
 </br>
 <img src="./files/ui5e28-16.png" >
 </br>
 <img src="./files/ui5e28-17.png" >
 </br>
 <img src="./files/ui5e28-18.png" >
+</br>
+<img src="./files/ui5e28-19.png" >
 </br>
 </br>
 </br>
