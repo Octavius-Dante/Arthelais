@@ -1,5 +1,23 @@
-## Exercise 30 - Implementing CRUD
+## Exercise 30 - Implementing CURD Operations 
 
+</br>
+
+**CREATE - POST**
+</br></br>
+
+**UPDATE - DELETE**
+</br></br>
+
+**RETRIEVE - GET**
+</br></br>
+
+**DELETE - PUT / PATCH**
+
+</br>
+
+**Implement CREATE_ENTITY Method for Create operation**
+
+</br>
 
 </br></br>
 </br></br>
