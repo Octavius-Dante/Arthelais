@@ -57,13 +57,13 @@ SAP provides sample tables, BAPI's (Function Modules)
 </br>
 </details>
 
-<summary> <b>Step 1 - Create New Odata Service project</b> </summary>
+<summary> <b>Step 3 - Create New OData Service project</b> </summary>
 </br>
-<img src="./files/ui5e28-1.png" >
+<img src="./files/ui5e28-11.png" >
 </br>
-<img src="./files/ui5e28-2b.png" >
+<img src="./files/ui5e28-12.png" >
 </br>
-<img src="./files/ui5e28-3.png" >
+<img src="./files/ui5e28-13.png" >
 </br>
 </br>
 </br>
