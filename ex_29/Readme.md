@@ -292,7 +292,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 ```
 
-</br></br>
+</br>
 
 <details>
 <summary> <b> Testing after implementing $top logic </b> </summary>
@@ -301,7 +301,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 </br></br>
 </details>
 
-</br></br>
+</br>
 
 **Now will implement logic for skip**
 
@@ -312,6 +312,8 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 
 ```
+
+</br>
 
 <details>
 <summary> <b> Testing after implementing $top & $skip logic </b> </summary>
