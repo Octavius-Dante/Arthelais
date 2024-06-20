@@ -88,6 +88,20 @@
 *BAPI structure has more fields and ET_ENTITY_SET has less fields so we encountered error during assignment of values to the structure*
 
 </br></br>
+
+**We are going to use new ABAP Syntax for this problem to resolve this issue**
+</br>
+
+```
+
+
+
+```
+
+</br>
+
+
+</br></br>
 </br></br>
 </br></br>
 
