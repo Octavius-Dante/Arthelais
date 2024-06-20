@@ -174,6 +174,17 @@
 </br></br>
 
 
+```http
+
+// $COUNT
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet/$count
+
+
+// $SELECT = PRODUCT_ID , CATEGORY , NAME
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format=json&$select=PRODUCT_ID,CATEGORY,NAME
+
+```
+
 </br></br>
 </br></br>
 </br></br>
