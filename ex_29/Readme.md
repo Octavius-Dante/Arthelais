@@ -582,7 +582,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 ```http
 
-// invalid key for exception scenario
+// Invalid key for exception scenario
 http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('JUNK')
 
 ```
