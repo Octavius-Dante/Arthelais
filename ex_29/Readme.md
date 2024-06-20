@@ -492,6 +492,35 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 </br>
 
+```ABAP
+
+  METHOD PRODUCTSET_GET_ENTITY.
+
+    DATA : LV_PROD_ID TYPE BAPI_EPM_PRODUCT_ID,
+           LS_HEADER  TYPE BAPI_EPM_PRODUCT_header.
+
+    " Step 1 : read the key value passed by user from screen
+    READ TABLE IT_KEY_TAB INTO DATA(LS_KEY_TAB) WITH KEY NAME = 'PRODUCT_ID'.
+    LV_PROD_ID = LS_KEY_TAB-VALUE.
+
+    " Step 2 : call BAPAI to laod that product data by KEY
+    CALL FUNCTION 'BAPI_EPM_PRODUCT_GET_DETAIL'
+      EXPORTING
+        PRODUCT_ID = LV_PROD_ID
+      IMPORTING
+        HEADERDATA = LS_HEADER
+*     TABLES
+*       CONVERSION_FACTORS       =
+*       RETURN     =
+      .
+
+    " Step3 : Map data to output
+    ER_ENTITY = CORRESPONDING #( LS_HEADER ).
+
+  ENDMETHOD.
+
+```
+
 
 </br></br>
 </br></br>
