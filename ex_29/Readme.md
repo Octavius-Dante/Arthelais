@@ -99,7 +99,7 @@
 <img src="./files/ui5e29-6.png" >
 </br></br>
 
-*Confimring that this is from our CLass*
+*Confirming that this is from our CLass*
 
 </br>
 <img src="./files/ui5e29-7.png" >
