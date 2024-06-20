@@ -586,13 +586,12 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 *         FILTER_PARAM      =
 *         OPERATION_NO      =
         .
-
-    ELSE.
-
-      " Step3 : Map data to output
-      ER_ENTITY = CORRESPONDING #( LS_HEADER ).
-
     ENDIF.
+
+    " Step3 : Map data to output
+    ER_ENTITY = CORRESPONDING #( LS_HEADER ).
+
+
 
   ENDMETHOD.
 
