@@ -74,6 +74,12 @@ Pre-requisite VSCode or BAS should be installed and active.
 
 </br>
 
+## Data generation in SAP on-prem system 
+
+*Use T-Code sepm_dg data standard data generator program for EPM data model*
+
+</br>
+
 **VALIDATOR WEBPAGES**
 
 </br> [CSS lint](http://csslint.net/) ----- [JS lint](https://www.jslint.com/) ---- [Json lint](https://jsonlint.com/) ---- [Yaml lint](https://www.yamllint.com/)
