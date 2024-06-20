@@ -17,7 +17,7 @@
 
 *Process that we are going to do in ABAP is listed below*
 
-```abap
+```ABAP
 
 
      " Step 1: Read data from BAPI (Function module)
@@ -37,7 +37,7 @@
 
 </br>
 
-```abap
+```ABAP
 
   METHOD PRODUCTSET_GET_ENTITYSET.
 
@@ -144,7 +144,7 @@
 
 </br>
 
-```abap
+```ABAP
 
   METHOD PRODUCTSET_GET_ENTITYSET.
 
@@ -250,7 +250,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 </br>
 
-```abap
+```ABAP
 
   METHOD PRODUCTSET_GET_ENTITYSET.
 
@@ -311,7 +311,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 </br>
 
-```abap
+```ABAP
 
   METHOD PRODUCTSET_GET_ENTITYSET.
 
@@ -403,7 +403,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 </br>
 
-```abap
+```ABAP
 
   METHOD PRODUCTSET_GET_ENTITYSET.
 
@@ -529,6 +529,20 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 <img src="./files/ui5e29-18.png" >
 </br></br>
 </details>
+
+
+</br></br></br>
+
+## Implementing Exceptions
+
+</br>
+
+```ABAP
+
+```
+
+</br></br>
+
 
 
 </br></br>
