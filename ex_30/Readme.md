@@ -92,7 +92,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 <img src="./files/ui5e30-2.png" >
 </br></br>
 
-*We are going to manipulate the get request value and use it for POST call*
+*We are going to manipulate the get request values and use it for POST call*
 
 </br></br>
 <img src="./files/ui5e30-3.png" >
