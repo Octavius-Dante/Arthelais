@@ -350,13 +350,15 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 *    ET_ENTITYSET = CORRESPONDING #( LT_BAPI_DATA ).
 
 * Start the looping of records from the skip variable value till total
-     LOOP AT LT_BAPI_DATA INTO DATA(LS_BAPI_DATA) FROM LV_SKIP + 1 TO LV_TOTAL.
+    IF LV_TOTAL IS NOT INITIAL.
+      LOOP AT LT_BAPI_DATA INTO DATA(LS_BAPI_DATA) FROM LV_SKIP + 1 TO LV_TOTAL.
 
-       MOVE-CORRESPONDING LS_BAPI_DATA TO LS_ENTITY.
-       APPEND LS_ENTITY TO ET_ENTITYSET.
+        MOVE-CORRESPONDING LS_BAPI_DATA TO LS_ENTITY.
+        APPEND LS_ENTITY TO ET_ENTITYSET.
 
-     CLEAR : LS_BAPI_DATA, LS_ENTITY.
-     ENDLOOP.
+        CLEAR : LS_BAPI_DATA, LS_ENTITY.
+      ENDLOOP.
+    ENDIF.
 
   ENDMETHOD.
 
@@ -381,6 +383,10 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 <img src="./files/ui5e29-15a.png" >
 </br></br>
 </details>
+
+
+## Implementing Filter options 
+
 
 
 
