@@ -5,6 +5,18 @@
 *Tcode for building OData services :* **SEGW** *aka OData Service Builder*
 
 </br></br>
+
+**We are going to use SAP EPM data model for our OData learning**
+
+**Data Model = EPM - Enterprise procurement model**
+
+SAP provides sample tables, BAPI's (Function Modules)
+
+</br>
+<img src="./files/EPM-model.png" >
+</br></br>
+
+</br></br>
 </br></br>
 </br></br>
 
