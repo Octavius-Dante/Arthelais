@@ -23,7 +23,46 @@
 
 ```ABAP
 
+  METHOD PRODUCTSET_CREATE_ENTITY.
 
+    DATA : LS_ENTITY TYPE ZCL_ZJUNE_19062024_MPC=>TS_PRODUCT,
+           LS_HEADER TYPE BAPI_EPM_PRODUCT_HEADER,
+           LT_RETURN TYPE TABLE OF BAPIRET2.
+
+    " Received the data coming from client side
+    IO_dATA_PROVIDER->READ_ENTRY_DATA(
+      IMPORTING
+        ES_DATA = LS_ENTITY
+    ).
+
+    " Map the data to the BAPI input, TODO : Enhance the implementation by extra validation and pre-checks
+    LS_HEADER = CORRESPONDING #( LS_ENTITY ).
+
+    " Call the BAPI to create data
+    CALL FUNCTION 'BAPI_EPM_PRODUCT_CREATE'
+      EXPORTING
+        HEADERDATA = LS_HEADER
+*       PERSIST_TO_DB            = ABAP_TRUE
+      TABLES
+*       CONVERSION_FACTORS       =
+        RETURN     = LT_RETURN.
+
+    " Exception handling from BAPI
+    IF LT_RETURN IS NOT INITIAL.
+
+      ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( )->ADD_MESSAGES_FROM_BAPI(
+        IT_BAPI_MESSAGES          =  LT_RETURN " Return parameter table
+      ).
+
+      RAISE EXCEPTION TYPE /IWBEP/CX_MGW_BUSI_EXCEPTION
+        EXPORTING
+          MESSAGE_CONTAINER = ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( ).
+    ENDIF.
+
+    " Return data out
+    ER_ENTITY = LS_ENTITY.
+
+  ENDMETHOD.
 
 ```
 
