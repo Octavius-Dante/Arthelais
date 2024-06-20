@@ -98,7 +98,11 @@
 
 </br></br>
 
-*Assumption : BAPI structure has more fields and ET_ENTITY_SET has less fields so we encountered error during assignment of values to the structure*
+*Assumption 1 : BAPI structure has more fields and ET_ENTITY_SET has less fields so we encountered error during assignment of values to the structure*
+
+
+*Assumption 2 : Data tytpe mismatch during assignment of values*
+
 
 </br></br>
 
