@@ -158,7 +158,7 @@
     " Step 3: Return the data out ET_ENTITYSET is our return internal table
 *       MOVE-CORRESPONDING LT_BAPI_DATA TO ET_ENTITYSET.
 
-*      ET_ENTITYSET = CORRESPONDING #( LT_BAPI_DATA ).  " New ABAP syntax for move corresponding
+      ET_ENTITYSET = CORRESPONDING #( LT_BAPI_DATA ).  " New ABAP syntax for move corresponding
 
   ENDMETHOD.
 
