@@ -190,7 +190,7 @@ The above markings of the functionalities will allow the consumers to understand
 </br></br></br>
 
 > [!IMPORTANT]
-> For every entity set there will be corresponding 5 methods in DPC class. </br>
+> For every entity set there will be corresponding 5 methods in DPC class. </br></br>
 > GET_ENTITY_SET, </br>
 > GET_ENTITY, </br>
 > CREATE_ENTITY, </br>
