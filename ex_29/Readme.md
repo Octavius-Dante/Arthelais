@@ -4,6 +4,21 @@
 
 **We will improve our 'GET_ENTITY_SET' Method in our OData service we created yesterday**
 
+```abap
+
+
+*    APPEND INITIAL LINE TO et_entityset.
+
+     " Step 1: Read data from BAPI (Function module)
+        
+     " Step 2: Map Data becuase BAPI gives so many fields and in our output
+        " we have only less fields 
+        
+     " Step 3: Return the data out ET_ENTITYSET is our return internal table    
+
+
+```
+
 
 </br>
 
