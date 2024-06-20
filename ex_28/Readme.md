@@ -125,6 +125,18 @@ The above markings of the functionalities will allow the consumers to understand
 </br>
 </details>
 
+<details>
+<summary> <b>Access the runtime artifacts</b> </summary>
+</br>
+<img src="./files/ui5e28-23.png" >
+</br>
+<img src="./files/ui5e28-24.png" >
+</br>
+<img src="./files/ui5e28-25.png" >
+</br>
+</details>
+
+
 </br>
 </br>
 </br>
