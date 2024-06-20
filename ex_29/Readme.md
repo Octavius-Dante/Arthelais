@@ -313,7 +313,52 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 ```abap
 
+  METHOD PRODUCTSET_GET_ENTITYSET.
 
+*    APPEND INITIAL LINE TO et_entityset.
+
+    DATA : LT_BAPI_DATA TYPE TABLE OF BAPI_EPM_PRODUCT_HEADER,
+           LS_MAX_ROWS  TYPE BAPI_EPM_MAX_ROWS,
+           LV_TOP       TYPE I,
+           LV_SKIP      TYPE I,
+           LV_TOTAL     TYPE I,
+           LS_ENTITY    TYPE ZCL_ZJUNE_19062024_MPC=>TS_PRODUCT.
+
+    " Read the values which was passed by browser for top and skip
+    LV_TOP = IS_PAGING-TOP.
+    LV_SKIP = IS_PAGING-SKIP.
+    LV_TOTAL = LV_TOP + LV_SKIP.
+    LS_MAX_ROWS-BAPIMAXROW = LV_TOTAL.
+
+    " Step 1: Read data from BAPI (Function module)
+    CALL FUNCTION 'BAPI_EPM_PRODUCT_GET_LIST'
+      EXPORTING
+        MAX_ROWS   = LS_MAX_ROWS
+      TABLES
+        HEADERDATA = LT_BAPI_DATA
+*       SELPARAMPRODUCTID           =
+*       SELPARAMSUPPLIERNAMES       =
+*       SELPARAMCATEGORIES          =
+*       RETURN     =
+      .
+
+    " Step 2: Map Data becuase BAPI gives so many fields and in our output
+    " we have only less fields
+
+    " Step 3: Return the data out ET_ENTITYSET is our return internal table
+*    MOVE-CORRESPONDING LT_BAPI_DATA TO ET_ENTITYSET.
+*    ET_ENTITYSET = CORRESPONDING #( LT_BAPI_DATA ).
+
+* Start the looping of records from the skip variable value till total
+     LOOP AT LT_BAPI_DATA INTO DATA(LS_BAPI_DATA) FROM LV_SKIP + 1 TO LV_TOTAL.
+
+       MOVE-CORRESPONDING LS_BAPI_DATA TO LS_ENTITY.
+       APPEND LS_ENTITY TO ET_ENTITYSET.
+
+     CLEAR : LS_BAPI_DATA, LS_ENTITY.
+     ENDLOOP.
+
+  ENDMETHOD.
 
 ```
 
