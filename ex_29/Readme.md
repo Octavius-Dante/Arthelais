@@ -93,7 +93,16 @@
 
 </br></br>
 
-**There could be data type mismatch in structure so made corrections to the code as shown below**
+**To identify the exact issue go to transaction : /N/IWFND/ERROR_LOG**
+
+</br>
+<img src="./files/ui5e29-6.png" >
+</br></br>
+
+
+</br></br>
+
+**Make necessary corrections to the code as shown below # 2**
 </br>
 
 ```abap
