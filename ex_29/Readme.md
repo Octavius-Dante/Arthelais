@@ -224,7 +224,16 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 *    APPEND INITIAL LINE TO et_entityset.
 
     DATA : LT_BAPI_DATA TYPE TABLE OF BAPI_EPM_PRODUCT_HEADER,
-           LS_MAX_ROWS  TYPE BAPI_EPM_MAX_ROWS. " added new variable for BAPI
+           LS_MAX_ROWS  TYPE BAPI_EPM_MAX_ROWS,
+           LV_TOP       TYPE I,
+           LV_SKIP      TYPE I,
+           LV_TOTAL     TYPE I.
+
+    " Read the values which was passed by browser for top and skip
+    LV_TOP = IS_PAGING-TOP.
+    LV_SKIP = IS_PAGING-SKIP. 
+    LV_TOTAL = LV_TOP + LV_SKIP.
+    LS_MAX_ROWS-BAPIMAXROW = LV_TOTAL.
 
     " Step 1: Read data from BAPI (Function module)
     CALL FUNCTION 'BAPI_EPM_PRODUCT_GET_LIST'
