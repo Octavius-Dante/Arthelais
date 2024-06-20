@@ -233,6 +233,16 @@ The above markings of the functionalities will allow the consumers to understand
 </br>
 <img src="./files/ui5e28-48a.png" >
 </br>
+
+</br>
+
+```abap
+    APPEND INITIAL LINE TO et_entityset.
+```    
+
+</br>
+
+</br>
 <img src="./files/ui5e28-49.png" >
 </br>
 <img src="./files/ui5e28-50.png" >
