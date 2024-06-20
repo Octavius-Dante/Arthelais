@@ -75,18 +75,31 @@
 
 </br></br>
 
-**Gateway Client for POST operations**
+<details>
+<summary> <b> Gateway Client for POST operations </b> </summary>
+</br>
+</br>
 
+</br>
+</br>
+<img src="./files/ui5e30-2.png" >
+</br>
+</br>
+</details>
 
+</br>
 
+<details>
+<summary> <b> POSTMAN for POST operations </b> </summary>
+</br>
+</br>
 
-
-</br></br>
-
-**POSTMAN for POST operations**
-
-
-
+</br>
+</br>
+<img src="./files/ui5e30-2.png" >
+</br>
+</br>
+</details>
 
 
 
