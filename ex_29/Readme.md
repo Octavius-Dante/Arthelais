@@ -364,6 +364,15 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 </br>
 
+```http
+
+// $TOP and $SKIP
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format=json&$select=PRODUCT_ID,CATEGORY,NAME&$top=5&$skip=3
+
+```
+
+</br>
+
 <details>
 <summary> <b> Testing after implementing $top & $skip logic </b> </summary>
 </br></br>
