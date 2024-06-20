@@ -166,6 +166,28 @@ The above markings of the functionalities will allow the consumers to understand
 </details>
 
 
+<details>
+<summary> <b>Run the OData service in Browser for testing</b> </summary>
+</br>
+<img src="./files/ui5e28-35.png" >
+</br>
+<img src="./files/ui5e28-36.png" >
+</br>
+<img src="./files/ui5e28-37.png" >
+</br>
+<img src="./files/ui5e28-38.png" >
+</br>
+<img src="./files/ui5e28-39.png" >
+</br>
+<img src="./files/ui5e28-40.png" >
+</br>
+<img src="./files/ui5e28-41.png" >
+</br>
+</br>
+</br>
+</details>
+
+
 
 </br>
 </br>
