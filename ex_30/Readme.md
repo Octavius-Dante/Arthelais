@@ -68,11 +68,12 @@
 
 </br></br>
 
-**2 Tools available for doing POST operation :**
+**Tools available for doing POST operation :**
 
 1. *Postman*
 2. *Gateway Client*
 
+</br></br>
 
 **POSTMAN tool needs to be used for POST call operations**
 
