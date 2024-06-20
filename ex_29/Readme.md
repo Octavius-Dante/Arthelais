@@ -622,7 +622,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('JUNK')
     IF LV_PROD_ID IS INITIAL.
       RAISE EXCEPTION TYPE /IWBEP/CX_MGW_BUSI_EXCEPTION
         EXPORTING
-          MESSAGE = 'No Blank Product ID allowed'.
+          MESSAGE_UNLIMITED = 'No Blank Product ID allowed'.
     ENDIF.
 
 
