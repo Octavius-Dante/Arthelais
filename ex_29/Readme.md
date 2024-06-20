@@ -555,7 +555,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
         PRODUCT_ID = LV_PROD_ID
       IMPORTING
         HEADERDATA = LS_HEADER
-*     TABLES
+      TABLES
 *       CONVERSION_FACTORS       =
         RETURN     = LT_RETURN.
 
@@ -563,35 +563,16 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
       ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( )->ADD_MESSAGES_FROM_BAPI(
          IT_BAPI_MESSAGES          =  LT_RETURN       " Return parameter table
-*        IV_ERROR_CATEGORY         =                  " Error Category
-*        IV_DETERMINE_LEADING_MSG  =                  " Use "no", "first", or "last" as leading message
-*        IV_ENTITY_TYPE            =                  " Entity type/name
-*        IT_KEY_TAB                =                  " Entity key as name-value pair
-*        IV_ADD_TO_RESPONSE_HEADER = ABAP_FALSE       " Flag for adding or not the message to the response header
       ).
 
       RAISE EXCEPTION TYPE /IWBEP/CX_MGW_BUSI_EXCEPTION
         EXPORTING
-*         TEXTID            =
-*         PREVIOUS          =
-          MESSAGE_CONTAINER = ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( )
-*         HTTP_STATUS_CODE  =
-*         HTTP_HEADER_PARAMETERS =
-*         SAP_NOTE_ID       =
-*         MSG_CODE          =
-*         EXCEPTION_CATEGORY     =
-*         ENTITY_TYPE       =
-*         MESSAGE           =
-*         MESSAGE_UNLIMITED =
-*         FILTER_PARAM      =
-*         OPERATION_NO      =
-        .
+          MESSAGE_CONTAINER = ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( ).
+
     ENDIF.
 
     " Step3 : Map data to output
     ER_ENTITY = CORRESPONDING #( LS_HEADER ).
-
-
 
   ENDMETHOD.
 
