@@ -69,11 +69,16 @@
 
 </br></br>
 
-**Testing**
+<details>
+<summary> <b> Testing </b> </summary>
+</br>
 
 </br>
 <img src="./files/ui5e29-2.png" >
 </br></br>
+
+</details>
+</br>
 
 **Debugging and identifying the problem**
 
@@ -119,12 +124,17 @@
 
 </br></br>
 
-**Make necessary corrections to OData service as shown below**
+<details>
+<summary> <b> Make necessary corrections to OData service as shown below </b> </summary>
+</br>
+</br>
 
 </br>
 <img src="./files/ui5e29-9.png" >
 </br></br>
 
+</details>
+</br></br>
 
 **Make necessary corrections to the code as shown below # 2**
 
@@ -164,7 +174,10 @@
 
 </br>
 
-**Testing after corrections**
+<details>
+<summary> <b> Testing after corrections </b> </summary>
+</br>
+</br>
 
 </br>
 <img src="./files/ui5e29-10.png" >
@@ -172,6 +185,9 @@
 <img src="./files/ui5e29-11.png" >
 </br></br>
 <img src="./files/ui5e29-12.png" >
+</br></br>
+</details>
+
 </br></br>
 
 ```http
