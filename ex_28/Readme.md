@@ -197,12 +197,12 @@ The above markings of the functionalities will allow the consumers to understand
 >  UPDATE_ENTITY, </br>
 >  DELETE_ENTITY </br>
 
-</br></br></br>
+</br></br>
 
 > [!IMPORTANT]
 >  GET_ENTITY_SET --- (reading all records, getting records without passing key doing filter, sorting and search this gets triggered)</br>
 
-</br></br></br>
+</br></br>
 
 > [!IMPORTANT]
 >  GET_ENTITY --- (reading only single record reading by primary key)
