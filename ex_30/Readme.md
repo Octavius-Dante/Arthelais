@@ -68,7 +68,13 @@
 
 </br></br>
 
+**2 Tools available for doing POST operation :**
 
+1. *Postman*
+2. *Gateway Client*
+
+
+**POSTMAN tool needs to be used for POST call operations**
 
 
 
