@@ -154,7 +154,7 @@
     " we have only less fields
 
     " Step 3: Return the data out ET_ENTITYSET is our return internal table
-*       MOVE-CORRESPONDING LT_BAPI_DATA TO ET_ENTITYSET.
+*       MOVE-CORRESPONDING LT_BAPI_DATA TO ET_ENTITYSET. " This code also works
 
       ET_ENTITYSET = CORRESPONDING #( LT_BAPI_DATA ).  " New ABAP syntax for move corresponding
 
