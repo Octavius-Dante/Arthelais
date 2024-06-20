@@ -95,6 +95,10 @@
 
 **To identify the exact issue go to transaction : /N/IWFND/ERROR_LOG**
 
+<details>
+<summary> <b> Expand this to see the details </b> </summary>
+</br>
+</br>
 </br>
 <img src="./files/ui5e29-6.png" >
 </br></br>
@@ -104,11 +108,11 @@
 </br>
 <img src="./files/ui5e29-7.png" >
 </br>
-
 </br>
 <img src="./files/ui5e29-8.png" >
 </br></br>
 
+</details>
 
 </br></br>
 
