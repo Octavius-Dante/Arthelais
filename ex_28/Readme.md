@@ -113,9 +113,9 @@ The above markings of the functionalities will allow the consumers to understand
 </br>
 </br>
 
-
-**Create the runtime artifacts for the OData service**
-
+<details>
+<summary> <b>Create the runtime artifacts for the OData service</b> </summary>
+</br>
 </br>
 <img src="./files/ui5e28-20.png" >
 </br>
@@ -123,7 +123,7 @@ The above markings of the functionalities will allow the consumers to understand
 </br>
 <img src="./files/ui5e28-22.png" >
 </br>
-
+</details>
 
 </br>
 </br>
