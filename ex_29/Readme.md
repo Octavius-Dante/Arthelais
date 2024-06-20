@@ -213,7 +213,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 </br>
 
-*Added new variable for BAPI Assignment*
+*Added new variable for BAPI Assignment for limiting records*
 
 ```abap
 
