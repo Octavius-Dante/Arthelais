@@ -110,7 +110,7 @@ FORKED FROM ORIGINAL : https://github.com/Octavius-Dante/UI5_from_scratch
 
 ## Data generation in SAP on-prem system 
 
-*Use T-Code sepm_dg data standard data generator program for EPM data model*
+*Use T-Code sepm_dg standard data generator program for EPM data model*
 
 </br></br>
 </br></br>
