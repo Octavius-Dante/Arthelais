@@ -389,7 +389,71 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 ## Implementing Filter options 
 
+</br>
 
+```abap
+
+  METHOD PRODUCTSET_GET_ENTITYSET.
+
+*    APPEND INITIAL LINE TO et_entityset.
+
+    DATA : LT_BAPI_DATA TYPE TABLE OF BAPI_EPM_PRODUCT_HEADER,
+           LS_MAX_ROWS  TYPE BAPI_EPM_MAX_ROWS,
+           LV_TOP       TYPE I,
+           LV_SKIP      TYPE I,
+           LV_TOTAL     TYPE I,
+           LS_ENTITY    TYPE ZCL_ZJUNE_19062024_MPC=>TS_PRODUCT,
+           LT_BAPI_CAT  TYPE TABLE OF BAPI_EPM_PRODUCT_CATEG_RANGE,
+           LS_BAPI_CAT  LIKE LINE OF LT_BAPI_CAT.
+
+    " Read the values which was passed by browser for top and skip
+    LV_TOP = IS_PAGING-TOP.
+    LV_SKIP = IS_PAGING-SKIP.
+    LV_TOTAL = LV_TOP + LV_SKIP.
+    LS_MAX_ROWS-BAPIMAXROW = LV_TOTAL.
+
+* in Metadata we have marked filtering option only for category
+    LOOP AT IT_FILTER_SELECT_OPTIONS INTO DATA(LS_FILTER_OPTION) WHERE PROPERTY = 'CATEGORY'.
+
+      MOVE-CORRESPONDING LS_FILTER_OPTION-SELECT_OPTIONS TO LT_BAPI_CAT.
+
+    ENDLOOP.
+
+    " Step 1: Read data from BAPI (Function module)
+    CALL FUNCTION 'BAPI_EPM_PRODUCT_GET_LIST'
+      EXPORTING
+        MAX_ROWS           = LS_MAX_ROWS
+      TABLES
+        HEADERDATA         = LT_BAPI_DATA
+*       SELPARAMPRODUCTID  =
+*       SELPARAMSUPPLIERNAMES       =
+        SELPARAMCATEGORIES = LT_BAPI_CAT
+*       RETURN             =
+      .
+
+    " Step 2: Map Data becuase BAPI gives so many fields and in our output
+    " we have only less fields
+
+    " Step 3: Return the data out ET_ENTITYSET is our return internal table
+*    MOVE-CORRESPONDING LT_BAPI_DATA TO ET_ENTITYSET.
+*    ET_ENTITYSET = CORRESPONDING #( LT_BAPI_DATA ).
+
+* Start the looping of records from the skip variable value till total
+    IF LV_TOTAL IS NOT INITIAL.
+      LOOP AT LT_BAPI_DATA INTO DATA(LS_BAPI_DATA) FROM LV_SKIP + 1 TO LV_TOTAL.
+
+        MOVE-CORRESPONDING LS_BAPI_DATA TO LS_ENTITY.
+        APPEND LS_ENTITY TO ET_ENTITYSET.
+
+        CLEAR : LS_BAPI_DATA, LS_ENTITY.
+      ENDLOOP.
+    ELSE.
+      ET_ENTITYSET = CORRESPONDING #( LT_BAPI_DATA ).
+    ENDIF.
+
+  ENDMETHOD.
+
+```
 
 
 </br></br>
