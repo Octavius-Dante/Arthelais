@@ -73,11 +73,6 @@ Pre-requisite VSCode or BAS should be installed and active.
 </br>
 
 </br>
-
-## Data generation in SAP on-prem system 
-
-*Use T-Code sepm_dg data standard data generator program for EPM data model*
-
 </br>
 
 **VALIDATOR WEBPAGES**
@@ -110,6 +105,12 @@ Pre-requisite VSCode or BAS should be installed and active.
 ORIGINAL BLOG : https://github.com/sonmezfurkan/UI5_from_scratch
 
 FORKED FROM ORIGINAL : https://github.com/Octavius-Dante/UI5_from_scratch
+
+</br></br>
+
+## Data generation in SAP on-prem system 
+
+*Use T-Code sepm_dg data standard data generator program for EPM data model*
 
 </br></br>
 </br></br>
