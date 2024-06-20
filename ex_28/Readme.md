@@ -191,8 +191,8 @@ The above markings of the functionalities will allow the consumers to understand
 
 > [!IMPORTANT]
 > For every entity set there will be corresponding 5 methods in DPC class. </br></br>
->  GET_ENTITY_SET, </br>
->  GET_ENTITY, </br>
+>  GET_ENTITY_SET, (reading all records, getting records without passing key doign filter, sorting and search this gets triggered) </br>
+>  GET_ENTITY, (reading only single record reading by primary key) </br>
 >  CREATE_ENTITY, </br>
 >  UPDATE_ENTITY, </br>
 >  DELETE_ENTITY </br>
