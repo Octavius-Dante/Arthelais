@@ -237,7 +237,35 @@ The above markings of the functionalities will allow the consumers to understand
 </br>
 
 ```abap
+
+  METHOD productset_get_entityset.
+
     APPEND INITIAL LINE TO et_entityset.
+
+
+**TRY.
+*CALL METHOD SUPER->PRODUCTSET_GET_ENTITYSET
+*  EXPORTING
+*    IV_ENTITY_NAME           =
+*    IV_ENTITY_SET_NAME       =
+*    IV_SOURCE_NAME           =
+*    IT_FILTER_SELECT_OPTIONS =
+*    IS_PAGING                =
+*    IT_KEY_TAB               =
+*    IT_NAVIGATION_PATH       =
+*    IT_ORDER                 =
+*    IV_FILTER_STRING         =
+*    IV_SEARCH_STRING         =
+**    io_tech_request_context  =
+**  IMPORTING
+**    et_entityset             =
+**    es_response_context      =
+*    .
+**  CATCH /iwbep/cx_mgw_busi_exception.
+**  CATCH /iwbep/cx_mgw_tech_exception.
+**ENDTRY.
+  ENDMETHOD.
+  
 ```    
 
 </br>
