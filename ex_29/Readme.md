@@ -11,6 +11,9 @@
 
 **We will improve our 'GET_ENTITY_SET' Method in our OData service we created yesterday**
 
+</br>
+<img src="./files/ui5e29-1.png" >
+</br></br>
 
 *Process that we are going to do in ABAP is listed below*
 
