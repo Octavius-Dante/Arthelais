@@ -391,6 +391,15 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 </br>
 
+```http
+
+// $Filter 
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format=json&$filter=CATEGORY eq 'Mice'
+
+```
+
+</br>
+
 ```abap
 
   METHOD PRODUCTSET_GET_ENTITYSET.
