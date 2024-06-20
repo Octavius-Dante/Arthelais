@@ -21,7 +21,7 @@ SAP provides sample tables, BAPI's (Function Modules)
 
 </br>
 
-**Step 1 - Create New Odata Service project **
+**Step 1 - Create New Odata Service project**
 
 </br>
 <img src="./files/ui5e28-1.png" >
