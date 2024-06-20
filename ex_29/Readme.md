@@ -602,8 +602,16 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('JUNK')
 
 </br>
 
-```ABAP
+```http
 
+// Blank exception scenario
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('')
+
+```
+
+</br>
+
+```ABAP
 
   METHOD PRODUCTSET_GET_ENTITY.
 
@@ -655,6 +663,15 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('JUNK')
 
 
 ```
+
+</br>
+
+<details>
+<summary> <b> Testing after implementing Blank key exception logic </b> </summary>
+</br></br>
+<img src="./files/ui5e29-20.png" >
+</br></br>
+</details>
 
 
 
