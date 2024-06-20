@@ -358,6 +358,8 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
         CLEAR : LS_BAPI_DATA, LS_ENTITY.
       ENDLOOP.
+    ELSE.
+      ET_ENTITYSET = CORRESPONDING #( LT_BAPI_DATA ).
     ENDIF.
 
   ENDMETHOD.
