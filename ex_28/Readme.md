@@ -16,6 +16,20 @@ SAP provides sample tables, BAPI's (Function Modules)
 <img src="./files/EPM-model.png" >
 </br></br>
 
+
+## OData Service creation in SEGW
+
+</br>
+
+**Step 1 - Create New Odata Service project **
+
+</br>
+<img src="./files/ui5e28-1.png" >
+</br></br>
+
+<img src="./files/ui5e28-2.png" >
+</br></br>
+
 </br></br>
 </br></br>
 </br></br>
