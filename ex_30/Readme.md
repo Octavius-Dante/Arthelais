@@ -30,7 +30,7 @@
            LT_RETURN TYPE TABLE OF BAPIRET2.
 
     " Received the data coming from client side
-    IO_dATA_PROVIDER->READ_ENTRY_DATA(
+    IO_DATA_PROVIDER->READ_ENTRY_DATA(
       IMPORTING
         ES_DATA = LS_ENTITY
     ).
