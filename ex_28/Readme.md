@@ -30,8 +30,29 @@ SAP provides sample tables, BAPI's (Function Modules)
 </br>
 <img src="./files/ui5e28-3.png" >
 </br>
+</br></br>
+
+**Step 2 - Create Entity Type - business data structure**
 
 </br>
+<img src="./files/ui5e28-4.png" >
+</br>
+<img src="./files/ui5e28-5.png" >
+</br>
+<img src="./files/ui5e28-6.png" >
+</br>
+<img src="./files/ui5e28-7.png" >
+</br>
+<img src="./files/ui5e28-8.png" >
+</br>
+<img src="./files/ui5e28-9.png" >
+</br>
+<img src="./files/ui5e28-10.png" >
+</br>
+</br></br>
+
+
+
 </br>
 </br>
 </br>
