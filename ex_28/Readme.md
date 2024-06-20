@@ -23,7 +23,7 @@ SAP provides sample tables, BAPI's (Function Modules)
 
 
 <details>
-<summary> **Step 1 - Create New Odata Service project** </summary>
+<summary> <b>Step 1 - Create New Odata Service project</b> </summary>
 </br>
 <img src="./files/ui5e28-1.png" >
 </br>
@@ -35,7 +35,7 @@ SAP provides sample tables, BAPI's (Function Modules)
 
 
 <details>
-<summary> **Step 2 - Create Entity Type - business data structure** </summary>
+<summary> <b>Step 2 - Create Entity Type - business data structure</b> </summary>
 </br>
 <img src="./files/ui5e28-4.png" >
 </br>
