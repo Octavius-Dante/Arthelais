@@ -2,14 +2,16 @@
 
 </br>
 
+
+
 **CREATE - POST**
-</br></br>
+</br>
 
 **UPDATE - DELETE**
-</br></br>
+</br>
 
 **RETRIEVE - GET**
-</br></br>
+</br>
 
 **DELETE - PUT / PATCH**
 
