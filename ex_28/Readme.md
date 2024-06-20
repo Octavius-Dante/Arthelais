@@ -191,11 +191,11 @@ The above markings of the functionalities will allow the consumers to understand
 
 > [!IMPORTANT]
 > For every entity set there will be corresponding 5 methods in DPC class. </br></br>
-> 1.GET_ENTITY_SET, </br></br>
-> 2.GET_ENTITY, </br></br>
-> 3.CREATE_ENTITY, </br></br>
-> 4.UPDATE_ENTITY, </br></br>
-> 5.DELETE_ENTITY </br></br>
+> 1. GET_ENTITY_SET, </br>
+> 2. GET_ENTITY, </br>
+> 3. CREATE_ENTITY, </br>
+> 4. UPDATE_ENTITY, </br>
+> 5. DELETE_ENTITY </br>
 
 
 </br>
