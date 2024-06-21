@@ -204,6 +204,30 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 </br>
 <img src="./files/ui5e30-10.png" >
 </br></br>
+
+**Follow the steps shown below for firing POST call in POSTMAN**
+
+<img src="./files/ui5e30-11.png" >
+</br></br>
+<img src="./files/ui5e30-12.png" >
+</br></br>
+<img src="./files/ui5e30-13.png" >
+</br></br>
+<img src="./files/ui5e30-14.png" >
+</br></br>
+<img src="./files/ui5e30-15.png" >
+</br></br>
+<img src="./files/ui5e30-16.png" >
+</br></br>
+<img src="./files/ui5e30-17.png" >
+</br></br>
+<img src="./files/ui5e30-18.png" >
+</br></br>
+<img src="./files/ui5e30-19.png" >
+</br></br>
+<img src="./files/ui5e30-20.png" >
+</br></br>
+
 </details>
 
 
