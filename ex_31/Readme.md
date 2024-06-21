@@ -2,7 +2,36 @@
 
 </br>
 
+**Implementing Association**
+
+*Association is a relationship between 2 entities*
+
 </br>
+
+<details>
+<summary> <b> Association Creation step by step process</b> </summary>
+</br></br>
+<img src="./files/ui5e31-1.png" >
+</br></br>
+<img src="./files/ui5e31-2.png" >
+</br></br>
+<img src="./files/ui5e31-3.png" >
+</br></br>
+<img src="./files/ui5e31-4.png" >
+</br></br>
+<img src="./files/ui5e31-5.png" >
+</br></br>
+<img src="./files/ui5e31-6.png" >
+</br></br>
+<img src="./files/ui5e31-7.png" >
+</br></br>
+<img src="./files/ui5e31-8.png" >
+</br></br>
+<img src="./files/ui5e31-9.png" >
+</br></br>
+<img src="./files/ui5e31-10.png" >
+</br></br>
+</details>
 
 
 </br></br>
