@@ -228,7 +228,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 </br></br>
 <img src="./files/ui5e30-16.png" >
 </br></br>
-<img src="./files/ui5e30-17a.png" >
+<img src="./files/ui5e30-17b.png" >
 </br></br>
 <img src="./files/ui5e30-18.png" >
 </br></br>
