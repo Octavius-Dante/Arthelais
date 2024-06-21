@@ -241,7 +241,6 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 ## Implement UPDATE_ENTITY Method for Update operation**
 
 
-
 <details>
 <summary> <b> POSTMAN for PATCH operations </b> </summary>
 </br>
