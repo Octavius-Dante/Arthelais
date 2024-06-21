@@ -190,6 +190,11 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 </br>
 
+**Cross-Site Request Forgery (CSRF)**
+
+</br>
+
+
 <details>
 <summary> <b> POSTMAN for POST operations </b> </summary>
 </br>
