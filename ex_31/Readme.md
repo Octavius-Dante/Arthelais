@@ -37,6 +37,31 @@
 </br></br>
 </details>
 
+<details>
+<summary> <b> 2. Go to DPC class and locate the SUPPLIER entity related (CURD) methods and implement it </b> </summary>
+</br></br>
+<img src="./files/ui5e31-11.png" >
+</br></br>
+<img src="./files/ui5e31-12.png" >
+</br></br>
+<img src="./files/ui5e31-13.png" >
+</br></br>
+<img src="./files/ui5e31-14.png" >
+</br></br>
+<img src="./files/ui5e31-15.png" >
+</br></br>
+<img src="./files/ui5e31-16.png" >
+</br></br>
+<img src="./files/ui5e31-17.png" >
+</br></br>
+<img src="./files/ui5e31-18.png" >
+</br></br>
+<img src="./files/ui5e31-19.png" >
+</br></br>
+<img src="./files/ui5e31-20.png" >
+</br></br>
+</details>
+
 
 </br></br>
 </br></br>
