@@ -207,8 +207,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 **Follow the steps shown below for executing POST call in POSTMAN**
 
-</br></br>
-
+</br>
 
 <img src="./files/ui5e30-11.png" >
 </br></br>
