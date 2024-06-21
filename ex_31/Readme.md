@@ -185,7 +185,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SupplierSet('01000
 
 Now we have **ProductSet** and **SupplierSet** in our project Product set displays **Supplier-id** so Supplier details is a dependent data of product 
 
-let's say we have a use case on viewing ProductSet there is supplier id is displayed user wants to see the  Supplier country details now supplier id needs to be copied and checked in supplier single entity GET so this activity which involves manual entry of supplier id is error prone.
+let's say we have a use case on viewing ProductSet there is supplier id is displayed user wants to see the  Supplier country details now supplier id needs to be copied and checked in supplier single entity GET so this activity which involves manual entry of supplier id (copy -paste) is error prone.
 
 To solve this **Association is introduced** we create a relationship and based on that relationship we create a navigation
 
