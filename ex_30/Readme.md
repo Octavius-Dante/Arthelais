@@ -184,6 +184,12 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 </br>
 
+**Why Postman ?**
+
+*GW_CLIENT is an internal tool used inside SAP environment but UI5 developers wont be using ERP system they use VS-code, BAS and other tools for designing web pages so if we want to share the POST request link they will test it only in POSTMAN tool for developing the Ui5 and Fiori app*
+
+</br>
+
 <details>
 <summary> <b> POSTMAN for POST operations </b> </summary>
 </br>
@@ -191,7 +197,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 </br>
 </br>
-<img src="./files/ui5e30-2.png" >
+<img src="./files/ui5e30-10.png" >
 </br></br>
 </details>
 
