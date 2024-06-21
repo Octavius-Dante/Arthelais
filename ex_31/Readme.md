@@ -175,7 +175,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SupplierSet('01000
 </br></br>
 <img src="./files/ui5e31-16.png" >
 </br></br>
-<img src="./files/ui5e31-17.png" >
+<img src="./files/ui5e31-17a.png" >
 </br></br>
 <img src="./files/ui5e31-18.png" >
 </br></br>
