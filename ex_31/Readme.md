@@ -91,9 +91,64 @@
 
 ```
 
-
 </br></br>
 <img src="./files/ui5e31-13.png" >
+</br></br>
+
+*GET_ENTITYSET ~~ FOR SUPPLIERS*
+
+```ABAP
+
+  METHOD SUPPLIERSET_GET_ENTITY.
+
+    DATA : LV_BP_ID TYPE BAPI_EPM_BP_ID,
+           LS_HEADER  TYPE BAPI_EPM_BP_HEADER,
+           LT_RETURN  TYPE TABLE OF BAPIRET2. " for handling exceptions
+
+    " Step 1 : read the key value passed by user from screen
+    READ TABLE IT_KEY_TAB INTO DATA(LS_KEY_TAB) WITH KEY NAME = 'BP_ID'.
+    LV_BP_ID = LS_KEY_TAB-VALUE.
+
+
+* Blank BP id exception handling
+* -- Drawback is the followign message cant be translated
+* -- if the execution happened other than englihs logon language
+    IF LV_BP_ID IS INITIAL.
+      RAISE EXCEPTION TYPE /IWBEP/CX_MGW_BUSI_EXCEPTION
+        EXPORTING
+          MESSAGE_UNLIMITED = 'No Blank BP ID allowed'.
+    ENDIF.
+
+
+    " Step 2 : call BAPAI to laod that BP data by KEY
+    CALL FUNCTION 'BAPI_EPM_BP_GET_DETAIL'
+      EXPORTING
+        BP_ID       = LV_BP_ID         " EPM: Business Partner ID to be used in BAPIs
+      IMPORTING
+        HEADERDATA  = LS_HEADER        " EPM: Business Partner header data ( BOR SEPM004 )
+      TABLES
+        RETURN      = LT_RETURN.       " Return Parameter
+
+
+    IF LT_RETURN IS NOT INITIAL.
+
+      ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( )->ADD_MESSAGES_FROM_BAPI(
+         IT_BAPI_MESSAGES          =  LT_RETURN       " Return parameter table
+      ).
+
+      RAISE EXCEPTION TYPE /IWBEP/CX_MGW_BUSI_EXCEPTION
+        EXPORTING
+          MESSAGE_CONTAINER = ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( ).
+
+    ENDIF.
+
+    " Step3 : Map data to output
+    ER_ENTITY = CORRESPONDING #( LS_HEADER ).
+
+  ENDMETHOD.
+
+```
+
 </br></br>
 <img src="./files/ui5e31-14.png" >
 </br></br>
