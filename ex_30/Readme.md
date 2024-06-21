@@ -21,6 +21,10 @@
 <img src="./files/ui5e30-1.png" >
 </br></br>
 
+**ABAP code for implementing CREATE_ENTITY**
+
+</br>
+
 ```ABAP
 
   METHOD PRODUCTSET_CREATE_ENTITY.
@@ -244,6 +248,10 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 <img src="./files/ui5e30-18.png" >
 </br></br>
 
+**ABAP code for implementing UPDATE_ENTITY**
+
+</br>
+
 ```ABAP
 
   METHOD PRODUCTSET_UPDATE_ENTITY.
@@ -275,9 +283,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
         HEADERDATA  = LS_HEADER
         HEADERDATAX = LS_HEADERX
      TABLES
-        RETURN      = LT_RETURN
-      .
-
+        RETURN      = LT_RETURN.
 
       ER_ENTITY  = LS_ENTITY.
 
@@ -314,6 +320,10 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 </br>
 <img src="./files/ui5e30-25.png" >
 </br></br>
+
+**ABAP code for implementing DELETE_ENTITY**
+
+</br>
 
 ```ABAP
 
