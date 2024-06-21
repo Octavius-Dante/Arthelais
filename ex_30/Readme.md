@@ -366,8 +366,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 </br></br></br>
 
 
-</br></br>
-</br></br>
+</br>
 </br></br>
 
 ## End of Exercise 30 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_31"> Exercise 31-Function Import and Images </a>
