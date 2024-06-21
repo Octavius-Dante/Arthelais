@@ -46,6 +46,53 @@
 </br></br>
 <img src="./files/ui5e31-12.png" >
 </br></br>
+
+*GET_ENTITYSET ~~ FOR SUPPLIERS*
+
+```ABAP
+
+  METHOD SUPPLIERSET_GET_ENTITYSET.
+
+    DATA : LT_BAPI_DATA TYPE TABLE OF BAPI_EPM_BP_HEADER,
+           LS_MAX_ROWS  TYPE BAPI_EPM_MAX_ROWS,
+           LV_TOP       TYPE I,
+           LV_SKIP      TYPE I,
+           LV_TOTAL     TYPE I,
+           LS_ENTITY    TYPE ZCL_ZJUNE_19062024_MPC=>TS_SUPPLIER.
+
+    " Read the values which was passed by browser for top and skip
+    LV_TOP = IS_PAGING-TOP.
+    LV_SKIP = IS_PAGING-SKIP.
+    LV_TOTAL = LV_TOP + LV_SKIP.
+    LS_MAX_ROWS-BAPIMAXROW = LV_TOTAL.
+
+    " Step 1: Read data from BAPI (Function module)
+    CALL FUNCTION 'BAPI_EPM_BP_GET_LIST'
+      EXPORTING
+        MAX_ROWS     = LS_MAX_ROWS
+      TABLES
+        BPHEADERDATA = LT_BAPI_DATA.
+
+
+* Start the looping of records from the skip variable value till total
+    IF LV_TOTAL IS NOT INITIAL.
+      LOOP AT LT_BAPI_DATA INTO DATA(LS_BAPI_DATA) FROM LV_SKIP + 1 TO LV_TOTAL.
+
+        MOVE-CORRESPONDING LS_BAPI_DATA TO LS_ENTITY.
+        APPEND LS_ENTITY TO ET_ENTITYSET.
+
+        CLEAR : LS_BAPI_DATA, LS_ENTITY.
+      ENDLOOP.
+    ELSE.
+      ET_ENTITYSET = CORRESPONDING #( LT_BAPI_DATA ).
+    ENDIF.
+
+  ENDMETHOD.
+
+```
+
+
+</br></br>
 <img src="./files/ui5e31-13.png" >
 </br></br>
 <img src="./files/ui5e31-14.png" >
