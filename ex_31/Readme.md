@@ -6,10 +6,14 @@
 
 *Association is a relationship between 2 entities*
 
+</br></br>
+
+**Association Creation step by step process**
+
 </br>
 
 <details>
-<summary> <b> Association Creation step by step process</b> </summary>
+<summary> <b> 1. Create New entity type and Re-generate the project </b> </summary>
 </br></br>
 <img src="./files/ui5e31-1.png" >
 </br></br>
