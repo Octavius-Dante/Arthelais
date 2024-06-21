@@ -57,7 +57,7 @@
 *       RETURN     =
       .
 
-    " Step 2: Map Data becuase BAPI gives so many fields and in our output
+    " Step 2: Map Data because BAPI gives so many fields and in our output
     " we have only less fields
 
     " Step 3: Return the data out ET_ENTITYSET is our return internal table
@@ -101,7 +101,7 @@
 *Assumption 1 : BAPI structure has more fields and ET_ENTITY_SET has less fields so we encountered error during assignment of values to the structure*
 
 
-*Assumption 2 : Data tytpe mismatch during assignment of values*
+*Assumption 2 : Data type mismatch during assignment of values*
 
 
 </br></br>
@@ -164,7 +164,7 @@
 *       RETURN     =
       .
 
-    " Step 2: Map Data becuase BAPI gives so many fields and in our output
+    " Step 2: Map Data because BAPI gives so many fields and in our output
     " we have only less fields
 
     " Step 3: Return the data out ET_ENTITYSET is our return internal table
@@ -280,7 +280,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 *       RETURN     =
       .
 
-    " Step 2: Map Data becuase BAPI gives so many fields and in our output
+    " Step 2: Map Data because BAPI gives so many fields and in our output
     " we have only less fields
 
     " Step 3: Return the data out ET_ENTITYSET is our return internal table
@@ -342,7 +342,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 *       RETURN     =
       .
 
-    " Step 2: Map Data becuase BAPI gives so many fields and in our output
+    " Step 2: Map Data because BAPI gives so many fields and in our output
     " we have only less fields
 
     " Step 3: Return the data out ET_ENTITYSET is our return internal table
@@ -443,7 +443,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 *       RETURN             =
       .
 
-    " Step 2: Map Data becuase BAPI gives so many fields and in our output
+    " Step 2: Map Data because BAPI gives so many fields and in our output
     " we have only less fields
 
     " Step 3: Return the data out ET_ENTITYSET is our return internal table
@@ -503,7 +503,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
     READ TABLE IT_KEY_TAB INTO DATA(LS_KEY_TAB) WITH KEY NAME = 'PRODUCT_ID'.
     LV_PROD_ID = LS_KEY_TAB-VALUE.
 
-    " Step 2 : call BAPAI to laod that product data by KEY
+    " Step 2 : call BAPI to load that product data by KEY
     CALL FUNCTION 'BAPI_EPM_PRODUCT_GET_DETAIL'
       EXPORTING
         PRODUCT_ID = LV_PROD_ID
@@ -549,7 +549,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
     READ TABLE IT_KEY_TAB INTO DATA(LS_KEY_TAB) WITH KEY NAME = 'PRODUCT_ID'.
     LV_PROD_ID = LS_KEY_TAB-VALUE.
 
-    " Step 2 : call BAPAI to laod that product data by KEY
+    " Step 2 : call BAPI to load that product data by KEY
     CALL FUNCTION 'BAPI_EPM_PRODUCT_GET_DETAIL'
       EXPORTING
         PRODUCT_ID = LV_PROD_ID
