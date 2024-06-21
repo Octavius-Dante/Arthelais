@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "dbfd041d-b643-456b-9469-8d1728d14ec3",
+		"name": "SAP-Ui5-ODATA-call",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33384359"
+	},
+	"item": [
+		{
+			"name": "GET DATA",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "welcome@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "mob71",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet",
+					"protocol": "http",
+					"host": [
+						"s4dev",
+						"st",
+						"com"
+					],
+					"port": "8021",
+					"path": [
+						"sap",
+						"opu",
+						"odata",
+						"sap",
+						"ZJUNE_19062024_SRV",
+						"ProductSet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create DATA",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "welcome@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "mob71",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"PRODUCT_ID\" : \"DA-8861\",\r\n  \"TYPE_CODE\" : \"PR\",\r\n  \"CATEGORY\" : \"Notebooks\",\r\n  \"NAME\" : \"laptop gaming XF\",\r\n  \"DESCRIPTION\" : \"laptop gaming XF\",\r\n  \"SUPPLIER_ID\" : \"0100000046\",\r\n  \"SUPPLIER_NAME\" : \"SAP\",\r\n  \"TAX_TARIF_CODE\" : \"1 \",\r\n  \"PRICE\" : \"956\",\r\n  \"CURRENCY_CODE\" : \"EUR\",\r\n  \"DIM_UNIT\" : \"CM\",\r\n  \"PRODUCT_PIC_URL\" : \"/sap/public/bc/NWDEMO_MODEL/IMAGES/HT-1000.jpg\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet",
+					"protocol": "http",
+					"host": [
+						"s4dev",
+						"st",
+						"com"
+					],
+					"port": "8021",
+					"path": [
+						"sap",
+						"opu",
+						"odata",
+						"sap",
+						"ZJUNE_19062024_SRV",
+						"ProductSet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create DATA Copy",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "welcome@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "mob71",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "X-CSRF-Token",
+						"value": "JpHVPv2A6AEF-9uRax5gBA==",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"NAME\" : \"laptop gaming XF-PHANTOM\",\r\n  \"DESCRIPTION\" : \"laptop gaming XF-UPDATE PATCH Process\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('DA-8861')",
+					"protocol": "http",
+					"host": [
+						"s4dev",
+						"st",
+						"com"
+					],
+					"port": "8021",
+					"path": [
+						"sap",
+						"opu",
+						"odata",
+						"sap",
+						"ZJUNE_19062024_SRV",
+						"ProductSet('DA-8861')"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create DATA Copy 2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "welcome@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "mob71",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "X-CSRF-Token",
+						"value": "JpHVPv2A6AEF-9uRax5gBA==",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('DA-8860')",
+					"protocol": "http",
+					"host": [
+						"s4dev",
+						"st",
+						"com"
+					],
+					"port": "8021",
+					"path": [
+						"sap",
+						"opu",
+						"odata",
+						"sap",
+						"ZJUNE_19062024_SRV",
+						"ProductSet('DA-8860')"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
