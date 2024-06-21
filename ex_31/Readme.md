@@ -189,15 +189,27 @@ let's say we have a use case on viewing ProductSet there is supplier id is displ
 
 To solve this **Association is introduced** we create a relationship and based on that relationship we create a navigation
 
-
 </br></br>
 <img src="./files/ui5e31-18.png" >
 </br></br>
 <img src="./files/ui5e31-19.png" >
 </br></br>
+</details>
+
+
+<details>
+<summary> <b> 4. Creating Association </b> </summary>
+</br></br>
 <img src="./files/ui5e31-20.png" >
 </br></br>
 </details>
+
+
+
+
+
+
+
 
 </br></br>
 </br></br>
