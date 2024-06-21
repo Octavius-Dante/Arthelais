@@ -16,7 +16,7 @@
 </br>
 
 
-> [!NOTE]
+> [!IMPORTANT]
 >  PUT - will Update all properties in a record. </br> PATCH - will update single or few property in a record </br> MERGE - will read the data first and then do PATCH (automatically do the read)
 
 </br></br>
