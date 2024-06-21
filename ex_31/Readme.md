@@ -177,6 +177,20 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SupplierSet('01000
 </br></br>
 <img src="./files/ui5e31-17a.png" >
 </br></br>
+</details>
+
+<details>
+<summary> <b> 3. Why association use case is needed explained </b> </summary>
+</br></br>
+
+Now we have **ProductSet** and **SupplierSet** in our project Product set displays **Supplier-id** so Supplier details is a dependent data of product 
+
+let's say we have a use case on viewing ProductSet there is supplier id is displayed user wants to see the  Supplier country details now supplier id needs to be copied and checked in supplier single entity GET so this activity which involves manual entry of supplier id is error prone.
+
+To solve this **Association is introduced** we create a relationship and based on that relationship we create a navigation
+
+
+</br></br>
 <img src="./files/ui5e31-18.png" >
 </br></br>
 <img src="./files/ui5e31-19.png" >
@@ -184,7 +198,6 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SupplierSet('01000
 <img src="./files/ui5e31-20.png" >
 </br></br>
 </details>
-
 
 </br></br>
 </br></br>
