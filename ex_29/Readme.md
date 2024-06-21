@@ -625,8 +625,8 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('')
 
 
 * Blank product id exception handling
-* -- Drawback is the followign message cant be translated
-* -- if the execution happened other than englihs logon language
+* -- Drawback is the following message cant be translated
+* -- if the execution happened other than english logon language
     IF LV_PROD_ID IS INITIAL.
       RAISE EXCEPTION TYPE /IWBEP/CX_MGW_BUSI_EXCEPTION
         EXPORTING
@@ -634,7 +634,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('')
     ENDIF.
 
 
-    " Step 2 : call BAPAI to laod that product data by KEY
+    " Step 2 : call BAPI to load that product data by KEY
     CALL FUNCTION 'BAPI_EPM_PRODUCT_GET_DETAIL'
       EXPORTING
         PRODUCT_ID = LV_PROD_ID
