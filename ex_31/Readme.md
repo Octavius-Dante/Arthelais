@@ -1,5 +1,8 @@
 ## Exercise 31 - Function Import and Images
 
+</br>
+
+</br>
 
 
 </br></br>
