@@ -15,7 +15,7 @@
 
 </br>
 
-**Implement CREATE_ENTITY Method for Create operation**
+## Implement CREATE_ENTITY Method for Create operation
 
 </br>
 <img src="./files/ui5e30-1.png" >
@@ -233,15 +233,26 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 </br></br>
 <img src="./files/ui5e30-17b.png" >
 </br></br>
+</details>
+</br></br></br>
+
+
+
+## Implement UPDATE_ENTITY Method for Update operation**
+
+
+
+<details>
+<summary> <b> POSTMAN for PATCH operations </b> </summary>
+</br>
+
 <img src="./files/ui5e30-18.png" >
 </br></br>
 <img src="./files/ui5e30-19.png" >
 </br></br>
 <img src="./files/ui5e30-20.png" >
 </br></br>
-
 </details>
-
 
 
 
