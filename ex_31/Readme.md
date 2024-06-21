@@ -2,9 +2,7 @@
 
 </br>
 
-**Implementing Association**
-
-*Association is a relationship between 2 entities*
+**What is Association ?** ~ *Association is a relationship between 2 entities*
 
 </br></br>
 
