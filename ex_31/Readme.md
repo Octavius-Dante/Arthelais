@@ -162,19 +162,16 @@
 // Supplier Get entity set 
 http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SupplierSet?$format=json
 
+// Supplier data count
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SupplierSet/$count
+
+// Single supplier load
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SupplierSet('0100000005')?$format=json
+
 ```
 
 </br></br>
 <img src="./files/ui5e31-15.png" >
-</br></br>
-
-```http
-
-// Supplier data count
-http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SupplierSet/$count
-
-```
-
 </br></br>
 <img src="./files/ui5e31-16.png" >
 </br></br>
