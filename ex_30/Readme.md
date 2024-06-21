@@ -5,7 +5,7 @@
 **CREATE - POST**
 </br>
 
-**UPDATE - PUT / PATCH**
+**UPDATE - PUT / PATCH / MERGE**
 </br>
 
 **RETRIEVE - GET**
