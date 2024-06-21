@@ -107,7 +107,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 <img src="./files/ui5e30-6.png" >
 </br></br>
 
-*Unfortunately this issues cannot be identified using error log it requires debugging but we are not going to debug the solution for this is some mandatory field is required we are going to pass it using hard code in our ABAP code*
+*Unfortunately this issues cannot be identified using error log it requires debugging but we are not going to debug the solution for this is some mandatory field is required we are going to pass it using hard coded values in our ABAP code*
 
 ```ABAP
 
