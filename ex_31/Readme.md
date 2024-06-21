@@ -148,6 +148,10 @@
   ENDMETHOD.
 
 ```
+</br></br>
+
+
+**Testing of Entity and Entity Set operation in GET**
 
 </br></br>
 <img src="./files/ui5e31-14.png" >
