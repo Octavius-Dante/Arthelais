@@ -361,6 +361,10 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 
 
 
+> [!NOTE]
+>  PUT - will Update all properties in a record. </br> PATCH - will update single property in a record </br> MERGE - will read the automatically and then do PATCH
+
+
 </br></br>
 </br></br>
 </br></br>
