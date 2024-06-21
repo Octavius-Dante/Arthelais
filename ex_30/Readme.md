@@ -294,6 +294,18 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 </br></br>
 <img src="./files/ui5e30-20.png" >
 </br></br>
+<img src="./files/ui5e30-21.png" >
+</br></br>
+<img src="./files/ui5e30-21a.png" >
+</br></br>
+<img src="./files/ui5e30-22.png" >
+</br></br>
+<img src="./files/ui5e30-23.png" >
+</br></br>
+<img src="./files/ui5e30-24.png" >
+</br></br>
+<img src="./files/ui5e30-25.png" >
+</br></br>
 </details>
 
 
