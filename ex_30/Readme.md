@@ -381,6 +381,8 @@ https://github.com/Octavius-Dante/Arthelais/blob/main/ex_30/SAP-Ui5-ODATA-call.p
 
 https://www.youtube.com/watch?v=bmzh7B8qmCY&ab_channel=Just2Share
 
+https://www.youtube.com/watch?v=EiT7RRCKjBg&list=PLmajIBPiks11NU41T8G149D5hf-o1oBqs&ab_channel=Just2Share
+
 </br>
 </br></br>
 
