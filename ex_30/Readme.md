@@ -15,6 +15,12 @@
 
 </br>
 
+
+> [!NOTE]
+>  PUT - will Update all properties in a record. </br> PATCH - will update single property in a record </br> MERGE - will read the data first and then do PATCH (automatically do the read)
+
+</br></br>
+
 ## Implement CREATE_ENTITY Method for Create operation
 
 </br>
@@ -358,11 +364,6 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 </br></br>
 </details>
 </br></br></br>
-
-
-
-> [!NOTE]
->  PUT - will Update all properties in a record. </br> PATCH - will update single property in a record </br> MERGE - will read the data first and then do PATCH (automatically do the read)
 
 
 </br></br>
