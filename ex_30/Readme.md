@@ -123,6 +123,8 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 </br>
 <img src="./files/ui5e30-7.png" >
 </br></br>
+<img src="./files/ui5e30-8.png" >
+</br></br>
 
 **FULL CODE WITH CORRECTION**
 
