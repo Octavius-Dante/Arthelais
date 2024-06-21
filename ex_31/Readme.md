@@ -180,7 +180,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SupplierSet('01000
 </details>
 
 <details>
-<summary> <b> 3. Why association use case is needed explained </b> </summary>
+<summary> <b> 3. Why Association ? It's use case is explained </b> </summary>
 </br></br>
 
 Now we have **ProductSet** and **SupplierSet** in our project Product set displays **Supplier-id** so Supplier details is a dependent data of product 
