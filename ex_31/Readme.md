@@ -95,7 +95,7 @@
 <img src="./files/ui5e31-13.png" >
 </br></br>
 
-*GET_ENTITYSET ~~ FOR SUPPLIERS*
+*GET_ENTITY ~~ FOR SUPPLIERS*
 
 ```ABAP
 
