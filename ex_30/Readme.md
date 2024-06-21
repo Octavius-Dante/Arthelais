@@ -375,7 +375,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet?$format
 https://github.com/Octavius-Dante/Arthelais/blob/main/ex_30/SAP-Ui5-ODATA-call.postman_collection.json 
 
 
-## To understand creating and inserting Deep entities check the following video for understanding
+## To understand creating and inserting Deep entities check the following video
 
 https://www.youtube.com/watch?v=bmzh7B8qmCY&ab_channel=Just2Share
 
