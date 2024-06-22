@@ -268,6 +268,14 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-100
 </br></br>
 <img src="./files/ui5e31-35.png" >
 </br></br>
+
+**Checking the function import details in endpoint meatadata - $metadata**
+
+</br></br>
+<img src="./files/ui5e31-36.png" >
+</br></br>
+
+</br></br>
 </details>
 
 
