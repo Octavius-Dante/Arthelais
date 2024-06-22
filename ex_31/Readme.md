@@ -210,6 +210,8 @@ To solve this **Association is introduced** we create a relationship and based o
 </br></br>
 <img src="./files/ui5e31-25.png" >
 </br></br>
+<img src="./files/ui5e31-26.png" >
+</br></br>
 </details>
 
 
