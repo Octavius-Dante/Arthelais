@@ -253,12 +253,12 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-100
 
 
 
-## Function Import 
+## Function Import - Creation
 
 </br></br>
 
 <details>
-<summary> <b> Function Import Creation </b> </summary>
+<summary> <b> 1. Function Import definition </b> </summary>
 </br></br>
 <img src="./files/ui5e31-32.png" >
 </br></br>
@@ -274,9 +274,19 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-100
 </br>
 <img src="./files/ui5e31-36.png" >
 </br></br>
+</details>
 
+<details>
+<summary> <b> 2. Function Import Implementation </b> </summary>
+</br></br>
+
+<img src="./files/ui5e31-37.png" >
 </br></br>
 </details>
+
+
+
+
 
 
 
