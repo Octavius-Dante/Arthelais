@@ -99,18 +99,17 @@
 
   METHOD SUPPLIERSET_GET_ENTITY.
 
-    DATA : LV_BP_ID   TYPE BAPI_EPM_BP_ID,
-           LS_HEADER  TYPE BAPI_EPM_BP_HEADER,
+    DATA : LV_BP_ID     TYPE BAPI_EPM_BP_ID,
+           LS_HEADER    TYPE BAPI_EPM_BP_HEADER,
            LS_PROD_HEAD TYPE BAPI_EPM_PRODUCT_HEADER,
-           LT_RETURN  TYPE TABLE OF BAPIRET2, " for handling exceptions
-           LV_PROD_ID TYPE BAPI_EPM_PRODUCT_ID.
+           LT_RETURN    TYPE TABLE OF BAPIRET2, " for handling exceptions
+           LV_PROD_ID   TYPE BAPI_EPM_PRODUCT_ID.
 
     " Step 1 : read the key value passed by user from screen
     READ TABLE IT_KEY_TAB INTO DATA(LS_KEY_TAB) WITH KEY NAME = 'BP_ID'.
     LV_BP_ID = LS_KEY_TAB-VALUE.
 
     IF LV_BP_ID IS INITIAL.
-      CLEAR LS_KEY_TAB.
 
       READ TABLE IT_KEY_TAB INTO LS_KEY_TAB WITH KEY NAME = 'PRODUCT_ID'.
       LV_PROD_ID = LS_KEY_TAB-VALUE.
@@ -119,7 +118,7 @@
 
         CALL FUNCTION 'BAPI_EPM_PRODUCT_GET_DETAIL'
           EXPORTING
-            BP_ID      = LV_PROD_ID
+            PRODUCT_ID = LV_PROD_ID
           IMPORTING
             HEADERDATA = LS_PROD_HEAD.
 
@@ -156,7 +155,6 @@
     " Step3 : Map data to output
     ER_ENTITY = CORRESPONDING #( LS_HEADER ).
 
-  ENDMETHOD.
 
 ```
 </br></br>
