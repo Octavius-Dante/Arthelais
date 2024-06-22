@@ -241,18 +241,24 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-100
 http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-1000')?$format=json&$expand=To_Supplier
 
 ```
-
 </br></br>
 <img src="./files/ui5e31-31.png" >
+</br></br>
+</details>
+</br></br></br>
+
+
+
+## Function Import implementation
+
+<details>
+<summary> <b> Function Import Creation </b> </summary>
 </br></br>
 <img src="./files/ui5e31-32.png" >
 </br></br>
 <img src="./files/ui5e31-33.png" >
 </br></br>
 </details>
-
-
-
 
 
 
