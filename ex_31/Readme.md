@@ -540,7 +540,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SKUSet('HT-1010')?
 </br></br>
 
 
-**SAP has a built in API to convert the image byte data into an image from the MIME repository source path when displaying in browseer**
+**SAP has a built in API to convert the image byte data into an image from the MIME repository post conversion it is displayed as image in browser**
 
 </br></br>
 <img src="./files/ui5e31-55.png" >
