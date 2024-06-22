@@ -388,6 +388,19 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 </br></br>
 <img src="./files/ui5e31-42b.png" >
 </br></br>
+</details>
+</br></br></br>
+
+
+
+## Handling support for Images 
+
+</br></br>
+
+<details>
+<summary> <b> Implementing Image support </b> </summary>
+</br></br>
+</br></br>
 <img src="./files/ui5e31-43.png" >
 </br></br>
 <img src="./files/ui5e31-44.png" >
@@ -395,9 +408,6 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 <img src="./files/ui5e31-45.png" >
 </br></br>
 </details>
-
-
-
 
 
 
