@@ -415,7 +415,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 <summary> <b> Implementing Image support # Part-2 - implement code changes in MPC_EXT </b> </summary>
 </br></br>
 
-*Need to define entity type as an Image media supported variable, so it can accommodate images*
+*In MPC_EXT class define method should be redefined*
 
 </br></br>
 <img src="./files/ui5e31-48.png" >
