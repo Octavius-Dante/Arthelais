@@ -449,7 +449,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 
 *We are going to Implement GET operation methods for SKU entity*
 
-</br></br>
+</br>
 <img src="./files/ui5e31-50.png" >
 </br></br>
 
