@@ -290,6 +290,8 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 </br></br>
 <img src="./files/ui5e31-37.png" >
 </br></br>
+<img src="./files/ui5e31-38.png" >
+</br></br>
 </details>
 
 <details>
