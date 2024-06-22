@@ -581,6 +581,14 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SKUSet('HT-1010')?
 
 ```
 
+```http
+
+// to invoke the image stream process
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SKUSet('HT-1010')?$value
+
+```
+
+
 </br></br>
 </details>
 
