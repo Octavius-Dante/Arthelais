@@ -442,6 +442,25 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 
 ```
 
+</br></br>
+<img src="./files/ui5e31-49.png" >
+</br></br>
+
+
+*We are going to Implement GET operation methods for SKU entity*
+
+</br></br>
+<img src="./files/ui5e31-50.png" >
+</br></br>
+<img src="./files/ui5e31-51.png" >
+</br></br>
+<img src="./files/ui5e31-52.png" >
+</br></br>
+<img src="./files/ui5e31-53.png" >
+</br></br>
+<img src="./files/ui5e31-54.png" >
+</br></br>
+
 </br>
 
 ```http
@@ -450,9 +469,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 
 ```
 
-</br></br>
-<img src="./files/ui5e31-49.png" >
-</br></br>
+
 <img src="./files/ui5e31-50.png" >
 </br></br>
 </details>
