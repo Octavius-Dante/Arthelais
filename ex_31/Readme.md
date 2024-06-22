@@ -379,10 +379,14 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 // category import parameter - Function import
 http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Product?I_CATEGORY='Notebooks'
 
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Product?I_CATEGORY='Servers'
+
 ```
 
 </br></br>
 <img src="./files/ui5e31-42.png" >
+</br></br>
+<img src="./files/ui5e31-42b.png" >
 </br></br>
 <img src="./files/ui5e31-43.png" >
 </br></br>
