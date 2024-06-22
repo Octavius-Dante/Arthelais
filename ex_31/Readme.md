@@ -513,6 +513,17 @@ DATA : LV_PROD_ID TYPE BAPI_EPM_PRODUCT_ID,
 
 ```
 
+</br>
+
+```http
+
+// single record for SKU entity
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SKUSet('HT-1010')?$format=json
+
+```
+
+</br>
+
 
 </br></br>
 <img src="./files/ui5e31-51.png" >
@@ -524,13 +535,6 @@ DATA : LV_PROD_ID TYPE BAPI_EPM_PRODUCT_ID,
 <img src="./files/ui5e31-54.png" >
 </br></br>
 
-</br>
-
-```http
-
-
-
-```
 
 
 <img src="./files/ui5e31-55.png" >
