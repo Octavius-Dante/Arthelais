@@ -413,11 +413,11 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 
 <details>
 <summary> <b> Implementing Image support # Part-2 - implement code changes in MPC_EXT </b> </summary>
-</br></br>
+</br></br></br>
 
 *In MPC_EXT class define method should be redefined*
 
-</br></br>
+</br>
 <img src="./files/ui5e31-48.png" >
 </br></br>
 
