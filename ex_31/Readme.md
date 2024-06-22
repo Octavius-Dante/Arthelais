@@ -213,7 +213,24 @@ To solve this **Association is introduced** we create a relationship and based o
 </br></br>
 </details>
 
-
+<details>
+<summary> <b> 5. Testing Supplier Navigation </b> </summary>
+</br></br>
+<img src="./files/ui5e31-27.png" >
+</br></br>
+<img src="./files/ui5e31-28.png" >
+</br></br>
+<img src="./files/ui5e31-29.png" >
+</br></br>
+<img src="./files/ui5e31-30.png" >
+</br></br>
+<img src="./files/ui5e31-31.png" >
+</br></br>
+<img src="./files/ui5e31-32.png" >
+</br></br>
+<img src="./files/ui5e31-33.png" >
+</br></br>
+</details>
 
 
 
