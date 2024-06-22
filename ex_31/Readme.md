@@ -316,7 +316,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 
     DATA : LV_CAT     TYPE SNWD_PD-CATEGORY,
            LV_PROD_ID TYPE BAPI_EPM_PRODUCT_ID,
-           LS_HEADER  TYPE BAPI_EPM_PRODUCT_ID,
+           LS_HEADER  TYPE BAPI_EPM_PRODUCT_HEADER,
            LS_ENTITY  TYPE ZCL_ZJUNE_19062024_MPC=>TS_PRODUCT.
 
 * Can implement multiple Function import
