@@ -276,7 +276,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-100
 </br></br>
 
 
-**Can fire this Function import in URL**
+**Can fire this Function import in URL as shown below**
 
 ```http
 
@@ -284,8 +284,10 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-100
 
 ```
 
+*Implementation is not done for function import so it's displaying error*
+
 </br></br>
-<img src="./files/ui5e31-38.png" >
+<img src="./files/ui5e31-37.png" >
 </br></br>
 </details>
 
