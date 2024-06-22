@@ -232,6 +232,17 @@ To solve this **Association is introduced** we create a relationship and based o
 </br></br>
 <img src="./files/ui5e31-30.png" >
 </br></br>
+
+```http
+// normal association call with json format 
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-1000')/To_Supplier?$format=json
+
+// $expand 
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-1000')?$format=json&$expand=To_Supplier
+
+```
+
+</br></br>
 <img src="./files/ui5e31-31.png" >
 </br></br>
 <img src="./files/ui5e31-32.png" >
