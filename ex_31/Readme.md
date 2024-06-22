@@ -301,7 +301,21 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 <summary> <b> 2. Function Import Implementation </b> </summary>
 </br></br>
 
+*Adding a import parameter to Function import*
+</br></br>
 <img src="./files/ui5e31-39.png" >
+</br></br>
+<img src="./files/ui5e31-40.png" >
+</br></br>
+<img src="./files/ui5e31-41.png" >
+</br></br>
+<img src="./files/ui5e31-42.png" >
+</br></br>
+<img src="./files/ui5e31-43.png" >
+</br></br>
+<img src="./files/ui5e31-44.png" >
+</br></br>
+<img src="./files/ui5e31-45.png" >
 </br></br>
 </details>
 
