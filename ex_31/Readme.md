@@ -280,7 +280,8 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-100
 
 ```http
 
-
+// Function import call in GET
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Product
 
 ```
 
