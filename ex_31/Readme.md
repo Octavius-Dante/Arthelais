@@ -452,6 +452,63 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 </br></br>
 <img src="./files/ui5e31-50.png" >
 </br></br>
+
+*ABAP code implementation GET_ENTITY method in DPC_EXT class for SKU entity*
+
+```ABAP
+
+  METHOD SKUSET_GET_ENTITY.
+
+DATA : LV_PROD_ID TYPE BAPI_EPM_PRODUCT_ID,
+           LS_HEADER  TYPE BAPI_EPM_PRODUCT_header,
+           LT_RETURN  TYPE TABLE OF BAPIRET2. " for handling exceptions
+
+    " Step 1 : read the key value passed by user from screen
+    READ TABLE IT_KEY_TAB INTO DATA(LS_KEY_TAB) WITH KEY NAME = 'PRODUCT_ID'.
+    LV_PROD_ID = LS_KEY_TAB-VALUE.
+
+
+* Blank product id exception handling
+* -- Drawback is the followign message cant be translated
+* -- if the execution happened other than englihs logon language
+    IF LV_PROD_ID IS INITIAL.
+      RAISE EXCEPTION TYPE /IWBEP/CX_MGW_BUSI_EXCEPTION
+        EXPORTING
+          MESSAGE_UNLIMITED = 'No Blank Product ID allowed'.
+    ENDIF.
+
+
+    " Step 2 : call BAPAI to laod that product data by KEY
+    CALL FUNCTION 'BAPI_EPM_PRODUCT_GET_DETAIL'
+      EXPORTING
+        PRODUCT_ID = LV_PROD_ID
+      IMPORTING
+        HEADERDATA = LS_HEADER
+      TABLES
+*       CONVERSION_FACTORS       =
+        RETURN     = LT_RETURN.
+
+    IF LT_RETURN IS NOT INITIAL.
+
+      ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( )->ADD_MESSAGES_FROM_BAPI(
+         IT_BAPI_MESSAGES          =  LT_RETURN       " Return parameter table
+      ).
+
+      RAISE EXCEPTION TYPE /IWBEP/CX_MGW_BUSI_EXCEPTION
+        EXPORTING
+          MESSAGE_CONTAINER = ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( ).
+
+    ENDIF.
+
+    " Step3 : Map data to output
+    ER_ENTITY = CORRESPONDING #( LS_HEADER ).
+
+  ENDMETHOD.
+
+```
+
+
+</br></br>
 <img src="./files/ui5e31-51.png" >
 </br></br>
 <img src="./files/ui5e31-52.png" >
