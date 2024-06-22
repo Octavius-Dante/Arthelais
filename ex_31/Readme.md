@@ -271,7 +271,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-100
 
 **Checking the function import details in endpoint metadata - $metadata**
 
-</br></br>
+</br>
 <img src="./files/ui5e31-36.png" >
 </br></br>
 
