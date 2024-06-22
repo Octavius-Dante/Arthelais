@@ -592,6 +592,13 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SKUSet('HT-1010')?
 <img src="./files/ui5e31-56.png" >
 </br></br>
 
+**Testing in GATEWAY client**
+</br>
+
+<img src="./files/ui5e31-57.png" >
+</br></br>
+
+
 </br></br>
 </details>
 
