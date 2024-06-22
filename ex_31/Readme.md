@@ -396,6 +396,9 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 <details>
 <summary> <b> Implementing Image support </b> </summary>
 </br></br>
+
+*Need to define entity type as an Image media supported variable, os it can accommodate images*
+
 </br></br>
 <img src="./files/ui5e31-43.png" >
 </br></br>
