@@ -99,34 +99,47 @@
 
   METHOD SUPPLIERSET_GET_ENTITY.
 
-    DATA : LV_BP_ID TYPE BAPI_EPM_BP_ID,
+    DATA : LV_BP_ID   TYPE BAPI_EPM_BP_ID,
            LS_HEADER  TYPE BAPI_EPM_BP_HEADER,
-           LT_RETURN  TYPE TABLE OF BAPIRET2. " for handling exceptions
+           LS_PROD_HEAD TYPE BAPI_EPM_PRODUCT_HEADER,
+           LT_RETURN  TYPE TABLE OF BAPIRET2, " for handling exceptions
+           LV_PROD_ID TYPE BAPI_EPM_PRODUCT_ID.
 
     " Step 1 : read the key value passed by user from screen
     READ TABLE IT_KEY_TAB INTO DATA(LS_KEY_TAB) WITH KEY NAME = 'BP_ID'.
     LV_BP_ID = LS_KEY_TAB-VALUE.
 
-
-* Blank BP id exception handling
-* -- Drawback is the followign message cant be translated
-* -- if the execution happened other than englihs logon language
     IF LV_BP_ID IS INITIAL.
-      RAISE EXCEPTION TYPE /IWBEP/CX_MGW_BUSI_EXCEPTION
-        EXPORTING
-          MESSAGE_UNLIMITED = 'No Blank BP ID allowed'.
-    ENDIF.
+      CLEAR LS_KEY_TAB.
 
+      READ TABLE IT_KEY_TAB INTO LS_KEY_TAB WITH KEY NAME = 'PRODUCT_ID'.
+      LV_PROD_ID = LS_KEY_TAB-VALUE.
+
+      IF LV_PROD_ID IS NOT INITIAL.
+
+        CALL FUNCTION 'BAPI_EPM_PRODUCT_GET_DETAIL'
+          EXPORTING
+            BP_ID      = LV_PROD_ID
+          IMPORTING
+            HEADERDATA = LS_PROD_HEAD.
+
+        LV_BP_ID = LS_PROD_HEAD-SUPPLIER_ID.
+
+      ELSE.
+        RAISE EXCEPTION TYPE /IWBEP/CX_MGW_BUSI_EXCEPTION
+          EXPORTING
+            MESSAGE_UNLIMITED = 'No Blank BP ID allowed'.
+      ENDIF.
+    ENDIF.
 
     " Step 2 : call BAPAI to laod that BP data by KEY
     CALL FUNCTION 'BAPI_EPM_BP_GET_DETAIL'
       EXPORTING
-        BP_ID       = LV_BP_ID         " EPM: Business Partner ID to be used in BAPIs
+        BP_ID      = LV_BP_ID         " EPM: Business Partner ID to be used in BAPIs
       IMPORTING
-        HEADERDATA  = LS_HEADER        " EPM: Business Partner header data ( BOR SEPM004 )
+        HEADERDATA = LS_HEADER        " EPM: Business Partner header data ( BOR SEPM004 )
       TABLES
-        RETURN      = LT_RETURN.       " Return Parameter
-
+        RETURN     = LT_RETURN.       " Return Parameter
 
     IF LT_RETURN IS NOT INITIAL.
 
