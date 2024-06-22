@@ -226,7 +226,7 @@ To solve this **Association is introduced** we create a relationship and based o
 </br></br>
 <img src="./files/ui5e31-27.png" >
 </br></br>
-<img src="./files/ui5e31-28.png" >
+<img src="./files/ui5e31-28a.png" >
 </br></br>
 <img src="./files/ui5e31-29.png" >
 </br></br>
