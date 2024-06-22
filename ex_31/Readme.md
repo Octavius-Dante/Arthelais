@@ -194,7 +194,6 @@ To solve this **Association is introduced** we create a relationship and based o
 </br></br>
 </details>
 
-
 <details>
 <summary> <b> 4. Creating Association </b> </summary>
 </br></br>
