@@ -307,6 +307,16 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 </br></br>
 <img src="./files/ui5e31-41.png" >
 </br></br>
+
+*Implementation code for EXECUTE_ACTION method* 
+
+```ABAP
+
+
+
+```
+
+</br></br>
 <img src="./files/ui5e31-42.png" >
 </br></br>
 <img src="./files/ui5e31-43.png" >
