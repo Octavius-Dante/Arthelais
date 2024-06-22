@@ -274,13 +274,26 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-100
 </br>
 <img src="./files/ui5e31-36.png" >
 </br></br>
+
+
+**Can fire this Function import in URL**
+
+```http
+
+
+
+```
+
+</br></br>
+<img src="./files/ui5e31-38.png" >
+</br></br>
 </details>
 
 <details>
 <summary> <b> 2. Function Import Implementation </b> </summary>
 </br></br>
 
-<img src="./files/ui5e31-37.png" >
+<img src="./files/ui5e31-38.png" >
 </br></br>
 </details>
 
