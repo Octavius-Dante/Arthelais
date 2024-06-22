@@ -528,6 +528,10 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SKUSet('HT-1010')?
 </br></br>
 <img src="./files/ui5e31-51.png" >
 </br></br>
+
+**SAP mime repository is accessed via SE80 - T-code**
+
+</br></br>
 <img src="./files/ui5e31-52.png" >
 </br></br>
 <img src="./files/ui5e31-53.png" >
