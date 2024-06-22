@@ -406,6 +406,16 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 </br></br>
 <img src="./files/ui5e31-45.png" >
 </br></br>
+<img src="./files/ui5e31-46.png" >
+</br></br>
+<img src="./files/ui5e31-47.png" >
+</br></br>
+<img src="./files/ui5e31-48.png" >
+</br></br>
+<img src="./files/ui5e31-49.png" >
+</br></br>
+<img src="./files/ui5e31-50.png" >
+</br></br>
 </details>
 
 
