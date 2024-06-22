@@ -598,11 +598,12 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SKUSet('HT-1010')?
 <img src="./files/ui5e31-57.png" >
 </br></br>
 
-
+<img src="./files/ui5e31-58.png" >
 </br></br>
 </details>
 
-
+> [!IMPORTANT]
+> Cannot display IMAGE + associated Entity set together there is only single image get operation and data type is based on json and image type is based on binary data even with $exapnd cannot perform image display
 
 </br></br>
 </br></br>
