@@ -393,7 +393,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 </br></br>
 
 <details>
-<summary> <b> Implementing Image support </b> </summary>
+<summary> <b> Implementing Image support # Part-1 - create entity for media type</b> </summary>
 </br></br>
 
 *Need to define entity type as an Image media supported variable, so it can accommodate images*
@@ -409,6 +409,15 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 </br></br>
 <img src="./files/ui5e31-47.png" >
 </br></br>
+</details>
+
+<details>
+<summary> <b> Implementing Image support # Part-2 - implement code changes in MPC_EXT </b> </summary>
+</br></br>
+
+*Need to define entity type as an Image media supported variable, so it can accommodate images*
+
+</br></br>
 <img src="./files/ui5e31-48.png" >
 </br></br>
 <img src="./files/ui5e31-49.png" >
@@ -416,9 +425,6 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 <img src="./files/ui5e31-50.png" >
 </br></br>
 </details>
-
-
-
 
 
 
