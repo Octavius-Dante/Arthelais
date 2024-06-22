@@ -105,56 +105,53 @@
            LT_RETURN    TYPE TABLE OF BAPIRET2, " for handling exceptions
            LV_PROD_ID   TYPE BAPI_EPM_PRODUCT_ID.
 
-    " Step 1 : read the key value passed by user from screen
-    READ TABLE IT_KEY_TAB INTO DATA(LS_KEY_TAB) WITH KEY NAME = 'BP_ID'.
-    LV_BP_ID = LS_KEY_TAB-VALUE.
+
+    READ TABLE IT_KEY_TAB INTO DATA(LS_KEY_TAB) WITH KEY NAME = 'PRODUCT_ID'.
+    LV_PROD_ID = LS_KEY_TAB-VALUE.
+
+    IF LV_PROD_ID IS NOT INITIAL.
+
+      CALL FUNCTION 'BAPI_EPM_PRODUCT_GET_DETAIL'
+        EXPORTING
+          PRODUCT_ID = LV_PROD_ID
+        IMPORTING
+          HEADERDATA = LS_PROD_HEAD.
+
+      LV_BP_ID = LS_PROD_HEAD-SUPPLIER_ID.
+
+    ELSE.
+      RAISE EXCEPTION TYPE /IWBEP/CX_MGW_BUSI_EXCEPTION
+        EXPORTING
+          MESSAGE_UNLIMITED = 'No Blank BP ID allowed'.
+    ENDIF.
 
     IF LV_BP_ID IS INITIAL.
 
-      READ TABLE IT_KEY_TAB INTO LS_KEY_TAB WITH KEY NAME = 'PRODUCT_ID'.
-      LV_PROD_ID = LS_KEY_TAB-VALUE.
+      CALL FUNCTION 'BAPI_EPM_BP_GET_DETAIL'
+        EXPORTING
+          BP_ID      = LV_BP_ID         " EPM: Business Partner ID to be used in BAPIs
+        IMPORTING
+          HEADERDATA = LS_HEADER        " EPM: Business Partner header data ( BOR SEPM004 )
+        TABLES
+          RETURN     = LT_RETURN.       " Return Parameter
 
-      IF LV_PROD_ID IS NOT INITIAL.
+      IF LT_RETURN IS NOT INITIAL.
 
-        CALL FUNCTION 'BAPI_EPM_PRODUCT_GET_DETAIL'
-          EXPORTING
-            PRODUCT_ID = LV_PROD_ID
-          IMPORTING
-            HEADERDATA = LS_PROD_HEAD.
+        ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( )->ADD_MESSAGES_FROM_BAPI(
+           IT_BAPI_MESSAGES          =  LT_RETURN       " Return parameter table
+        ).
 
-        LV_BP_ID = LS_PROD_HEAD-SUPPLIER_ID.
-
-      ELSE.
         RAISE EXCEPTION TYPE /IWBEP/CX_MGW_BUSI_EXCEPTION
           EXPORTING
-            MESSAGE_UNLIMITED = 'No Blank BP ID allowed'.
+            MESSAGE_CONTAINER = ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( ).
+
       ENDIF.
-    ENDIF.
 
-    " Step 2 : call BAPAI to laod that BP data by KEY
-    CALL FUNCTION 'BAPI_EPM_BP_GET_DETAIL'
-      EXPORTING
-        BP_ID      = LV_BP_ID         " EPM: Business Partner ID to be used in BAPIs
-      IMPORTING
-        HEADERDATA = LS_HEADER        " EPM: Business Partner header data ( BOR SEPM004 )
-      TABLES
-        RETURN     = LT_RETURN.       " Return Parameter
-
-    IF LT_RETURN IS NOT INITIAL.
-
-      ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( )->ADD_MESSAGES_FROM_BAPI(
-         IT_BAPI_MESSAGES          =  LT_RETURN       " Return parameter table
-      ).
-
-      RAISE EXCEPTION TYPE /IWBEP/CX_MGW_BUSI_EXCEPTION
-        EXPORTING
-          MESSAGE_CONTAINER = ME->MO_CONTEXT->GET_MESSAGE_CONTAINER( ).
+      ER_ENTITY = CORRESPONDING #( LS_HEADER ).
 
     ENDIF.
 
-    " Step3 : Map data to output
-    ER_ENTITY = CORRESPONDING #( LS_HEADER ).
-
+  ENDMETHOD.
 
 ```
 </br></br>
