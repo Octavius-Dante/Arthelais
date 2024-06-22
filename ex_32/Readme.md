@@ -1,5 +1,17 @@
 ## Exercise 32 - Connectivity
 
+</br></br>
+
+
+**Cloud connector installation can refer the steps from the following blog same steps**
+
+https://github.com/Octavius-Dante/Tetra-Proxima/tree/main/SAP_Cloud_Connector
+
+</br></br>
+
+**Fiori Template accessed after connection and an app is created based on our custom OData service** - *List report*
+
+
 
 </br></br>
 </br></br>
