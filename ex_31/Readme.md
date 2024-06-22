@@ -285,7 +285,9 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 
 ```
 
-*Implementation is not done for function import so it's displaying error*
+</br></br>
+
+*Implementation is not done for function import so it will display empty structure*
 
 </br></br>
 <img src="./files/ui5e31-37.png" >
