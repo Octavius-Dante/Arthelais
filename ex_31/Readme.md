@@ -251,8 +251,6 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-100
 </details>
 </br></br></br>
 
-
-
 ## Function Import - Creation
 
 </br></br>
@@ -390,8 +388,6 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/Get_Expensive_Prod
 </br></br>
 </details>
 </br></br></br>
-
-
 
 ## Handling support for Images 
 
