@@ -602,8 +602,11 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/SKUSet('HT-1010')?
 </br></br>
 </details>
 
+
+</br></br></br>
+
 > [!IMPORTANT]
-> Cannot display IMAGE + associated Entity set together there is only single image get operation and data type is based on json and image type is based on binary data even with $exapnd cannot perform image display
+> Cannot display IMAGE + associated Entity set together there is only single image get operation and data type is based on json and image type is based on binary data even with $expand cannot perform image display -- It has to be 2 separate calls always 
 
 </br></br>
 </br></br>
