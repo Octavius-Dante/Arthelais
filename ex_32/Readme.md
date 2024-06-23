@@ -4,13 +4,20 @@
 <img src="./files/SAP-Cloud-Connector.png" >
 </br></br>
 
-**Cloud connector Installation and On-premise system connection : -**
+
+**1. Create BTP Trial Account :-**
+
+Read this blog to create SAP Account and BTP account : https://developers.sap.com/tutorials/hcp-create-trial-account.html
+
+</br></br>
+
+**2. Cloud connector Installation and On-premise system connection : -**
 
 https://github.com/Octavius-Dante/Tetra-Proxima/tree/main/SAP_Cloud_Connector
 
 </br></br>
 
-**Fiori Template accessed after connection and an app is created based on our custom OData service** - *List report*
+**3. Fiori Template based App creation using on-premise OData service** - *List report*
 
 
 
