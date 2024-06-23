@@ -1,9 +1,10 @@
 ## Exercise 32 - Connectivity
 
+</br>
+<img src="./files/SAP-Cloud-Connector.png" >
 </br></br>
 
-
-**Cloud connector installation can refer the steps from the following blog same steps**
+**Cloud connector Installation and On-premise system connection : -**
 
 https://github.com/Octavius-Dante/Tetra-Proxima/tree/main/SAP_Cloud_Connector
 
