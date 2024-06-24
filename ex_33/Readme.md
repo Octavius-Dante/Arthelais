@@ -191,6 +191,8 @@ added followign 2 section to manifest.json file
 
 ```
 
+</br></br>
+
 **manifest.json before change**
 
 ```JSON
