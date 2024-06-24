@@ -190,6 +190,92 @@ added followign 2 section to manifest.json file
 **manifest.json before change**
 
 ```JSON
+{
+    "_version": "1.123",
+    "sap.app": {
+        "id": "ntt.hr.payroll",
+        "description": "{{APP_TITLE}}",
+        "applicationVersion": "1.0.0",
+        "type": "application",
+        "title": "{{APP_DESCRIPTION}}",
+        "i18n": "i18n/i18n.properties"
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "sap-icon://home"
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "dependencies": {
+            "minUI5Version": "1.123",
+            "libs": {
+                "sap.m": {},
+                "sap.ui.table": {}
+            }
+        },
+        "rootView":{
+            "id": "idAppView",
+            "type": "XML",
+            "viewName": "ntt.hr.payroll.view.App"
+        },
+        "routing": {
+            "config":{
+                "routerClass": "sap.m.routing.Router",
+                "viewPath": "ntt.hr.payroll.view",
+                "viewType": "XML",
+                "controlId": "appCon",
+                "clearControlAggregation": true
+            },
+            "routes":[{
+                "name": "Master",
+                "target": ["Facepage","Secondpage"],
+                "pattern": ""
+            },{
+                "name": "Detail",
+                "target": ["Facepage","Datapage"],
+                "pattern": "Detail/{fruitId}"
+            }],
+            "targets": {
+                "Facepage":{
+                    "viewName": "View1",
+                    "controlAggregation": "masterPages"
+                },
+                "Secondpage":{
+                    "viewName": "empty",
+                    "controlAggregation": "detailPages"
+                },
+                "Datapage":{
+                    "viewName": "View2",
+                    "controlAggregation": "detailPages"
+                }
+            }
+        },
+
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "library": {
+            "css": "css/mystyle.css"
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "uri": "i18n/i18n.properties"
+            },
+            "": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "model/mockdata/fruits.json"
+            }
+        }
+    }
+}
 
 ```
 
@@ -198,6 +284,109 @@ added followign 2 section to manifest.json file
 **manifest.json after change**
 
 ```JSON
+
+{
+    "_version": "1.123",
+    "sap.app": {
+        "id": "ntt.hr.payroll",
+        "description": "{{APP_TITLE}}",
+        "applicationVersion": "1.0.0",
+        "type": "application",
+        "title": "{{APP_DESCRIPTION}}",
+        "i18n": "i18n/i18n.properties",
+        "dataSources": {
+
+            "danteService":{
+                "uri": "/sap/opu/odata/ZJUNE_19062024_SRV/"
+            }
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "sap-icon://home"
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "dependencies": {
+            "minUI5Version": "1.123",
+            "libs": {
+                "sap.m": {},
+                "sap.ui.table": {}
+            }
+        },
+        "rootView":{
+            "id": "idAppView",
+            "type": "XML",
+            "viewName": "ntt.hr.payroll.view.App"
+        },
+        "routing": {
+            "config":{
+                "routerClass": "sap.m.routing.Router",
+                "viewPath": "ntt.hr.payroll.view",
+                "viewType": "XML",
+                "controlId": "appCon",
+                "clearControlAggregation": true
+            },
+            "routes":[{
+                "name": "Master",
+                "target": ["Facepage","Secondpage"],
+                "pattern": ""
+            },{
+                "name": "Detail",
+                "target": ["Facepage","Datapage"],
+                "pattern": "Detail/{fruitId}"
+            }],
+            "targets": {
+                "Facepage":{
+                    "viewName": "View1",
+                    "controlAggregation": "masterPages"
+                },
+                "Secondpage":{
+                    "viewName": "empty",
+                    "controlAggregation": "detailPages"
+                },
+                "Datapage":{
+                    "viewName": "View2",
+                    "controlAggregation": "detailPages"
+                }
+            }
+        },
+
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "library": {
+            "css": "css/mystyle.css"
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "uri": "i18n/i18n.properties"
+            },
+            "local": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "model/mockdata/fruits.json"
+            },
+            "":{
+                "type": "sap.ui.model.odata.v2.OdataModel",
+                "settings":{
+
+                },
+
+                "dataSource": "danteService",
+                "preload": true
+            }
+        }
+    }
+}
+
 
 ```
 
