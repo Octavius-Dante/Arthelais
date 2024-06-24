@@ -10,11 +10,11 @@
 
 </br>
 
-**Following activities need to be performed : -**
+**Following activities need to be performed ins the same sequential order it is shown : -**
 
 1. *package.json* file creation (npm init)
 2. *ui5.yaml* file creation (ui5 init)
-3. npm install (install all necessary libraries for the app)
+3. npm install for 2 essential items *(libs and use)*
 4. *xs-app.json* file creation ()
 5. *manifest.json* file creation ()
 6. service
