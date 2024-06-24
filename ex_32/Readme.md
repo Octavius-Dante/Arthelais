@@ -19,6 +19,9 @@ https://github.com/Octavius-Dante/Tetra-Proxima/tree/main/SAP_Cloud_Connector
 
 **3. Fiori Template based App creation using on-premise OData service** - *List report*
 
+</br>
+<img src="./files/ui5e32-1.png" >
+</br></br>
 
 
 </br></br>
