@@ -98,6 +98,33 @@ touch xs-app.json
 </br>
 <img src="./files/ui5e33-10.png" >
 </br></br>
+
+The file will be blank by default we need to define the configuration as shown below
+
+
+"source" : "^/sap/opu/odata/" - this redirects any url cal lto odata service in the destination maintained in BTP
+
+</br>
+
+```json
+
+{
+
+    "welcomeFile": "webapp/index.html",
+    "authenticationMethod": "none",
+    "routes":[
+        {
+
+            "authenticationType": "none",
+            "source" : "^/sap/opu/odata/"
+        }
+    ]
+}
+
+```
+
+
+</br></br>
 </details>
 
 
