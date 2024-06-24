@@ -66,14 +66,16 @@ do ui5 init for the project to create ui5.yaml file (config for ui5)
 <summary> <b> 3. Install necessary libraries </b> </summary>
 </br>
 
-use npm install command to install all necessary essential libraries for the application
+use npm install command to install all necessary essential libraries for the application as shown below
 
 </br>
 <img src="./files/ui5e33-8.png" >
 </br></br>
-
-
+<img src="./files/ui5e33-9.png" >
+</br></br>
 </details>
+
+
 
 </br></br>
 </br></br>
