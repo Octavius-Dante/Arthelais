@@ -12,13 +12,14 @@
 
 **Following activities need to be performed ins the same sequential order it is shown : -**
 
-1. *package.json* file creation (npm init)
-2. *ui5.yaml* file creation (ui5 init)
-3. npm install for installing essential packages
-4. *xs-app.json* file creation ()
-5. *manifest.json* file creation ()
-6. service
-7. model
+1. *package.json* file creation *(npm init)*
+2. *ui5.yaml* file creation *(ui5 init)*
+3. *npm install @sap/approuter*
+4. *npm install @sap/html5-repo-mock*
+5. *xs-app.json* file creation ()
+6. *manifest.json* file creation ()
+7. service
+8. model
 
 </br>
 
@@ -63,14 +64,21 @@ do ui5 init for the project to create ui5.yaml file (config for ui5)
 </details>
 
 <details>
-<summary> <b> 3. Install necessary libraries </b> </summary>
+<summary> <b> 3. Install Approuter </b> </summary>
 </br>
 
-use npm install command to install all necessary essential libraries for the application as shown below
+use npm install command for installing app router as shown below
 
 </br>
 <img src="./files/ui5e33-8.png" >
 </br></br>
+</details>
+
+<details>
+<summary> <b> 4. Install Mock server Html repository </b> </summary>
+</br>
+use npm install command for installing app router as shown below
+</br>
 <img src="./files/ui5e33-9.png" >
 </br></br>
 </details>
