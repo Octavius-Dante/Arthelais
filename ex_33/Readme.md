@@ -1,5 +1,15 @@
 ## Exercise 33 - Fiori Project Connect Odata
 
+</br>
+
+**How the project communicated to SAP**
+
+</br>
+<img src="./files/ui5e33-1.png" >
+</br></br>
+
+</br>
+
 
 </br></br>
 </br></br>
