@@ -114,15 +114,19 @@ add the OData service name to the source section in the xs-app.json file as show
 ```json
 
 {
-
     "welcomeFile": "webapp/index.html",
     "authenticationMethod": "none",
+    "sessionTimeout": 10,
     "routes":[
         {
-
             "authenticationType": "none",
-            "source" : "^/sap/opu/odata/ZJUNE_19062024_SRV",
+            "csrfProtection": false,
+            "source" : "^/sap/opu/odata/ZJUNE_19062024_SRV/",
             "destination": "S4D"
+        }, {
+            "source": "^(.*)$",
+            "target": "$1",
+            "service": "html-apps-repo-rt"
         }
     ]
 }
