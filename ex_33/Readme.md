@@ -125,7 +125,7 @@ The file will be blank by default we need to define the configuration as shown b
 ```
 
 </br>
-<img src="./files/ui5e33-10.png" >
+<img src="./files/ui5e33-11.png" >
 </br></br>
 
 ```json
