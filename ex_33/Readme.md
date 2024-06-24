@@ -73,6 +73,8 @@ use npm install command to install all necessary essential libraries for the app
 </br></br>
 
 
+</details>
+
 </br></br>
 </br></br>
 </br></br>
