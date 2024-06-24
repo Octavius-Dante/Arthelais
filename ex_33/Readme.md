@@ -102,7 +102,7 @@ touch xs-app.json
 The file will be blank by default we need to define the configuration as shown below
 
 
-"source" : "^/sap/opu/odata/" - this redirects any url cal lto odata service in the destination maintained in BTP
+"source" : "^/sap/opu/odata/" - this redirects any url call to odata service in the destination maintained in BTP
 
 </br>
 
@@ -116,7 +116,8 @@ The file will be blank by default we need to define the configuration as shown b
         {
 
             "authenticationType": "none",
-            "source" : "^/sap/opu/odata/"
+            "source" : "^/sap/opu/odata/",
+            "destination": "S4D"
         }
     ]
 }
