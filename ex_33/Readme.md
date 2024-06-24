@@ -5,7 +5,7 @@
 **How the project communicated to SAP**
 
 </br>
-<img src="./files/ui5e33-1a.png" >
+<img src="./files/ui5e33-1b.png" >
 </br></br>
 
 </br>
