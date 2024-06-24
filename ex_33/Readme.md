@@ -10,14 +10,15 @@
 
 </br>
 
-**Following files need to be created : -**
+**Following activities need to be performed : -**
 
-1. *package.json* (npm init)
-2. *ui5.yaml* (ui5 init)
-3. *xs-app.json* ()
-4. *manifest.json* ()
-5. service
-6. model
+1. *package.json* file creation (npm init)
+2. *ui5.yaml* file creation (ui5 init)
+3. npm install (install all necessary libraries for the app)
+4. *xs-app.json* file creation ()
+5. *manifest.json* file creation ()
+6. service
+7. model
 
 </br>
 
@@ -37,7 +38,7 @@
 </details>
 
 <details>
-<summary> <b> 2. ui5.yaml file creation in Terminal - ui5 init </b> </summary>
+<summary> <b> 2. ui5.yaml file creation in terminal - ui5 init </b> </summary>
 </br>
 
 Check whether the SAP ui5 command line interface is installed in the system  *command ( npm list -g )*
@@ -61,6 +62,15 @@ do ui5 init for the project to create ui5.yaml file (config for ui5)
 </br></br>
 </details>
 
+<details>
+<summary> <b> 3. Install necessary libraries </b> </summary>
+</br>
+
+Check whether the SAP ui5 command line interface is installed in the system  *command ( npm list -g )*
+
+</br>
+<img src="./files/ui5e33-5a.png" >
+</br></br>
 
 
 </br></br>
