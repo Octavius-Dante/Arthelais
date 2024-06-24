@@ -47,7 +47,7 @@ Pre-requisite VSCode or BAS should be installed and active.
 - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_37"> Exercise 37-Deploy app to launchpad</a>
 - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_38"> Exercise 38-Fiori Elements Basics</a>
 
-
+## Other Essential Topics
 </br></br>
 
 - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_39"> Exercise 39-Deep Entity handling </a>
