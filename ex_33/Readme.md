@@ -440,6 +440,16 @@ navigate to our specific project folder we want to create run configurations
 </br></br>
 </details>
 
+<details>
+<summary> <b> 8. Establish system connection using - Run configuration </b> </summary>
+</br>
+<img src="./files/ui5e33-20.png" >
+</br></br>
+<img src="./files/ui5e33-21.png" >
+</br></br>
+<img src="./files/ui5e33-22.png" >
+</br></br>
+</details>
 
 </br></br>
 </br></br>
