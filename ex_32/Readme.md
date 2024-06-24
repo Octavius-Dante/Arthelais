@@ -27,6 +27,14 @@ https://github.com/Octavius-Dante/Tetra-Proxima/tree/main/SAP_Cloud_Connector
 </br>
 <img src="./files/ui5e32-1.png" >
 </br></br>
+<img src="./files/ui5e32-2.png" >
+</br></br>
+
+
+
+
+
+
 
 
 </br></br>
