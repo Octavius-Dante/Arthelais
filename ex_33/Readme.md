@@ -105,26 +105,6 @@ The file will be blank by default we need to define the configuration as shown b
 "source" : "^/sap/opu/odata/" - this redirects any url call to odata service in the destination maintained in BTP
 
 </br>
-
-```json
-
-{
-
-    "welcomeFile": "webapp/index.html",
-    "authenticationMethod": "none",
-    "routes":[
-        {
-
-            "authenticationType": "none",
-            "source" : "^/sap/opu/odata/",
-            "destination": "S4D"
-        }
-    ]
-}
-
-```
-
-</br>
 <img src="./files/ui5e33-11.png" >
 </br></br>
 
