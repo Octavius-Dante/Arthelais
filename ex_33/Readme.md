@@ -162,6 +162,7 @@ added followign 2 section to manifest.json file
                 }
             }
         }
+    }
 //////////////////////////////     CHANGE END
 
 // section 2 - models 
