@@ -419,7 +419,7 @@ Since these apps are created by Fiori open application generator this is showing
 
 **Solution :**
 
-The problem is due to large amount of folders in our projects directory - we have home/usr/projects/ui5/<ou-projects-built-here>
+The problem is due to large amount of folders in our projects directory - we have home/usr/projects/ui5/our-projects-built-here
 
 navigate to our specific project folder we want to create run configurations
 
