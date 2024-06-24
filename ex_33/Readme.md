@@ -23,7 +23,7 @@
 
 
 <details>
-<summary> <b> Command Operations in terminal for file creation as shown below </b> </summary>
+<summary> <b> 1. pacakge.json file creation in Terminal - *npm init* </b> </summary>
 </br>
 <img src="./files/ui5e33-2.png" >
 </br></br>
@@ -31,7 +31,16 @@
 </br></br>
 <img src="./files/ui5e33-4.png" >
 </br></br>
-<img src="./files/ui5e33-5.png" >
+</details>
+
+<details>
+<summary> <b> 2. pacakge.json file creation in Terminal</b> </summary>
+</br>
+<img src="./files/ui5e33-2.png" >
+</br></br>
+<img src="./files/ui5e33-3.png" >
+</br></br>
+<img src="./files/ui5e33-4.png" >
 </br></br>
 </details>
 
