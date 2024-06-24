@@ -415,6 +415,7 @@ added following 2 section to manifest.json file
 
 Since these apps are created by Fiori open application generator this is showing up in the menu but our app is not showing in the section
 
+</br>
 
 **Solution :**
 
