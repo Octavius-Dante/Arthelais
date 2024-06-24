@@ -18,6 +18,7 @@
 4. *npm install @sap/html5-repo-mock*
 5. *xs-app.json* file creation *(touch xs-app.json)*
 6. *manifest.json* file changes *(defining Data service and Data Model)*
+7. *Define Run configurations* - to make th app contact destination in BTP
 
 </br>
 
