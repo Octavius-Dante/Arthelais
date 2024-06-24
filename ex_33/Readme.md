@@ -412,6 +412,17 @@ added following 2 section to manifest.json file
 </br>
 <img src="./files/ui5e33-12.png" >
 </br></br>
+
+Since these apps are created by Fiori open application generator this is showing up in the menu but our app is not showing in the section
+
+
+**Solution :**
+
+The problem is due to large amount of folders in our projects directory - we have home/usr/projects/ui5/<ou-projects-built-here>
+
+navigate to our specific project folder we want to create run configurations
+
+</br></br>
 <img src="./files/ui5e33-13.png" >
 </br></br>
 <img src="./files/ui5e33-14.png" >
