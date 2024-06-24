@@ -43,7 +43,7 @@
 Check whether the SAP ui5 command line interface is installed in the system  *command ( npm list -g )*
 
 </br>
-<img src="./files/ui5e33-5.png" >
+<img src="./files/ui5e33-5a.png" >
 </br></br>
 
 Install SAP ui5 (Command line interface) CLI if it is not installed you may get error if it is installed can proceed to next step
