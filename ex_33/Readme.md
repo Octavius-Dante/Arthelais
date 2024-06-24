@@ -156,7 +156,11 @@ added followign 2 section to manifest.json file
         "dataSources": {
 
             "danteService":{
-                "uri": "/sap/opu/odata/ZJUNE_19062024_SRV/"
+                "uri": "/sap/opu/odata/ZJUNE_19062024_SRV/",
+                "type" : "OData",
+                "settings": {
+                    "odataVersion": "2.0"
+                }
             }
         }
 //////////////////////////////
@@ -297,7 +301,11 @@ added followign 2 section to manifest.json file
         "dataSources": {
 
             "danteService":{
-                "uri": "/sap/opu/odata/ZJUNE_19062024_SRV/"
+                "uri": "/sap/opu/odata/ZJUNE_19062024_SRV/",
+                "type" : "OData",
+                "settings": {
+                    "odataVersion": "2.0"
+                }
             }
         }
     },
