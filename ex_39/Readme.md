@@ -1,4 +1,4 @@
-## Exercise 38 - Deep Entity handling
+## Exercise 39 - Deep Entity handling
 
 
 
@@ -6,7 +6,7 @@
 </br></br>
 </br></br>
 
-## End of Exercise 38 ---- End Of Deep Entity handling
+## End of Exercise 39 ---- End Of Deep Entity handling
 </br>
 <p align="center"> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </p>
 

@@ -1,4 +1,4 @@
-## Exercise 38 - Using Flexible Control Layout
+## Exercise 40 - Using Flexible Control Layout
 
 
 
@@ -6,7 +6,7 @@
 </br></br>
 </br></br>
 
-## End of Exercise 40 ---- Using Flexible Control Layout
+## End of Exercise 40 ---- End Of Using Flexible Control Layout
 </br>
 <p align="center"> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main"> Main page </a> </p>
 
