@@ -139,7 +139,7 @@ in json file on source section this symbol is used '^' it is a regular expressio
 <summary> <b> 6. Changes to manifest.json file </b> </summary>
 </br>
 
-added followign 2 section to manifest.json file
+added following 2 section to manifest.json file
 
 ```json
 
@@ -399,12 +399,20 @@ added followign 2 section to manifest.json file
 
 
 ```
-
-
-
 </br></br>
 </details>
 
+
+<details>
+<summary> <b> 7. Creating - Run configurations </b> </summary>
+</br>
+<img src="./files/ui5e33-12.png" >
+</br></br>
+<img src="./files/ui5e33-13.png" >
+</br></br>
+<img src="./files/ui5e33-14.png" >
+</br></br>
+</details>
 
 
 </br></br>
