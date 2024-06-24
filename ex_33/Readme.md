@@ -152,7 +152,7 @@ added followign 2 section to manifest.json file
         "type": "application",
         "title": "{{APP_DESCRIPTION}}",
         "i18n": "i18n/i18n.properties",
-//////////////////////////////        
+//////////////////////////////     CHANGE BEGIN   
         "dataSources": {
 
             "danteService":{
@@ -163,7 +163,7 @@ added followign 2 section to manifest.json file
                 }
             }
         }
-//////////////////////////////
+//////////////////////////////     CHANGE END
 
 // section 2 - models 
 
@@ -176,7 +176,7 @@ added followign 2 section to manifest.json file
                 "type": "sap.ui.model.json.JSONModel",
                 "uri": "model/mockdata/fruits.json"
             },
-//////////////////////////////                    
+//////////////////////////////     CHANGE BEGIN                    
             "":{
                 "type": "sap.ui.model.odata.v2.OdataModel",
                 "settings":{
@@ -186,7 +186,7 @@ added followign 2 section to manifest.json file
                 "dataSource": "danteService",
                 "preload": true
             }
-//////////////////////////////                    
+//////////////////////////////     CHANGE END                
         }
 
 ```
