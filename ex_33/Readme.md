@@ -124,6 +124,27 @@ The file will be blank by default we need to define the configuration as shown b
 
 ```
 
+</br>
+<img src="./files/ui5e33-10.png" >
+</br></br>
+
+```json
+
+{
+
+    "welcomeFile": "webapp/index.html",
+    "authenticationMethod": "none",
+    "routes":[
+        {
+
+            "authenticationType": "none",
+            "source" : "^/sap/opu/odata/ZJUNE_19062024_SRV",
+            "destination": "S4D"
+        }
+    ]
+}
+
+```
 
 </br></br>
 </details>
