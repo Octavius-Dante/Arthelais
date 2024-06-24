@@ -10,7 +10,7 @@
 
 </br>
 
-**Following activities need to be performed ins the same sequential order it is shown : -**
+**Following activities need to be performed in the same sequential order it is shown : -**
 
 1. *package.json* file creation *(npm init)*
 2. *ui5.yaml* file creation *(ui5 init)*
