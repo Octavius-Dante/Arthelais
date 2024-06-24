@@ -128,6 +128,10 @@ The file will be blank by default we need to define the configuration as shown b
 <img src="./files/ui5e33-11.png" >
 </br></br>
 
+add the OData service name to the source section in the xs-app.json file as shown below
+
+</br>
+
 ```json
 
 {
