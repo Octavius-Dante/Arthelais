@@ -85,6 +85,20 @@ use npm install command for installing html5 mock server
 </br></br>
 </details>
 
+<details>
+<summary> <b> 5. xs-app.json file creation </b> </summary>
+</br>
+
+command : *touch xs-app.json* to create file xs-app.json
+
+```bat
+touch xs-app.json
+```
+
+</br>
+<img src="./files/ui5e33-10.png" >
+</br></br>
+</details>
 
 
 </br></br>
