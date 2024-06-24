@@ -1,5 +1,8 @@
 ## Exercise 32 - Connectivity
 
+
+</br>
+**SAP Cloud Connector (SCC)**
 </br>
 <img src="./files/SAP-Cloud-Connector.png" >
 </br></br>
