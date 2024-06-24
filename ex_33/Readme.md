@@ -136,6 +136,64 @@ in json file on source section this symbol is used '^' it is a regular expressio
 </details>
 
 
+<details>
+<summary> <b> 6. Changes to manifest.json file </b> </summary>
+</br>
+
+added followign 2 section to manifest.json file
+
+```json
+
+// section 1 - App 
+    "sap.app": {
+        "id": "ntt.hr.payroll",
+        "description": "{{APP_TITLE}}",
+        "applicationVersion": "1.0.0",
+        "type": "application",
+        "title": "{{APP_DESCRIPTION}}",
+        "i18n": "i18n/i18n.properties",
+//////////////////////////////        
+        "dataSources": {
+
+            "danteService":{
+                "uri": "/sap/opu/odata/ZJUNE_19062024_SRV/"
+            }
+        }
+//////////////////////////////
+
+// section 2 - models 
+
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "uri": "i18n/i18n.properties"
+            },
+            "local": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "model/mockdata/fruits.json"
+            },
+//////////////////////////////                    
+            "":{
+                "type": "sap.ui.model.odata.v2.OdataModel",
+                "settings":{
+
+                },
+
+                "dataSource": "danteService",
+                "preload": true
+            }
+//////////////////////////////                    
+        }
+
+```
+
+</br>
+<img src="./files/ui5e33-9.png" >
+</br></br>
+</details>
+
+
+
 </br></br>
 </br></br>
 </br></br>
