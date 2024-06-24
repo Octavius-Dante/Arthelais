@@ -12,6 +12,13 @@
 
 **Following files need to be created : -**
 
+1. package.json (npm init)
+2. (ui5 init)
+3. xs-app.json ()
+4. manifest.json ()
+5. service
+6. model
+
 *All the files except manifest.json all need to be created inside webapp folder*
 
 
