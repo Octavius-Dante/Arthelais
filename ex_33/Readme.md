@@ -39,11 +39,19 @@
 <details>
 <summary> <b> 2. package.json file creation in Terminal - ui5 init </b> </summary>
 </br>
-<img src="./files/ui5e33-2.png" >
+
+Install SAP ui5 (Command line interface) CLI
+
 </br></br>
-<img src="./files/ui5e33-3.png" >
+<img src="./files/ui5e33-5.png" >
 </br></br>
-<img src="./files/ui5e33-4.png" >
+
+do ui5 init for the project to create ui5.yaml file (config for ui5)
+
+</br></br>
+<img src="./files/ui5e33-6.png" >
+</br></br>
+<img src="./files/ui5e33-7.png" >
 </br></br>
 </details>
 
