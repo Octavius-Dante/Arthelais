@@ -66,10 +66,10 @@ do ui5 init for the project to create ui5.yaml file (config for ui5)
 <summary> <b> 3. Install necessary libraries </b> </summary>
 </br>
 
-Check whether the SAP ui5 command line interface is installed in the system  *command ( npm list -g )*
+use npm install command to install all necessary essential libraries for the app
 
 </br>
-<img src="./files/ui5e33-5a.png" >
+<img src="./files/ui5e33-8.png" >
 </br></br>
 
 
