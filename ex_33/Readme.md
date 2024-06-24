@@ -410,7 +410,7 @@ added following 2 section to manifest.json file
 <details>
 <summary> <b> 7. Creating - Run configurations </b> </summary>
 </br>
-<img src="./files/ui5e33-12.png" >
+<img src="./files/ui5e33-12a.png" >
 </br></br>
 
 Since these apps are created by Fiori open application generator this is showing up in the menu but our app is not showing in the section
