@@ -130,6 +130,8 @@ add the OData service name to the source section in the xs-app.json file as show
 
 ```
 
+in json file on source section this symbol is used '^' it is a regular expression in JS : https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+
 </br></br>
 </details>
 
