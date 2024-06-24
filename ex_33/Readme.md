@@ -26,7 +26,7 @@
 </br></br>
 
 <details>
-<summary> <b> 1. pacakge.json file creation in Terminal - npm init </b> </summary>
+<summary> <b> 1. package.json file creation in Terminal - npm init </b> </summary>
 </br>
 <img src="./files/ui5e33-2.png" >
 </br></br>
@@ -37,7 +37,7 @@
 </details>
 
 <details>
-<summary> <b> 2. pacakge.json file creation in Terminal</b> </summary>
+<summary> <b> 2. package.json file creation in Terminal - ui5 init </b> </summary>
 </br>
 <img src="./files/ui5e33-2.png" >
 </br></br>
