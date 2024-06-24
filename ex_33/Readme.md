@@ -16,10 +16,8 @@
 2. *ui5.yaml* file creation *(ui5 init)*
 3. *npm install @sap/approuter*
 4. *npm install @sap/html5-repo-mock*
-5. *xs-app.json* file creation ()
-6. *manifest.json* file creation ()
-7. service
-8. model
+5. *xs-app.json* file creation *(touch xs-app.json)*
+6. *manifest.json* file changes *(defining Data service and Data Model)*
 
 </br>
 
