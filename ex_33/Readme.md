@@ -12,10 +12,10 @@
 
 **Following files need to be created : -**
 
-1. package.json (npm init)
-2. (ui5 init)
-3. xs-app.json ()
-4. manifest.json ()
+1. *package.json* (npm init)
+2. *ui5.yaml* (ui5 init)
+3. *xs-app.json* ()
+4. *manifest.json* ()
 5. service
 6. model
 
@@ -37,7 +37,7 @@
 </details>
 
 <details>
-<summary> <b> 2. package.json file creation in Terminal - ui5 init </b> </summary>
+<summary> <b> 2. ui5.yaml file creation in Terminal - ui5 init </b> </summary>
 </br>
 
 Install SAP ui5 (Command line interface) CLI
