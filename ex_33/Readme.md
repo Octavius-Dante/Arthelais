@@ -12,12 +12,16 @@
 
 **Following files need to be created : -**
 
-*1. All the files except manifest.json all need to be created inside webapp folder*
+*All the files except manifest.json all need to be created inside webapp folder*
 
-2. 
-3.
-4. 
-5.
+
+<details>
+<summary> <b> Command Operations in terminal for file creation as shown below </b> </summary>
+</br></br></br>
+<img src="./files/ui5e33-2.png" >
+</br></br>
+</details>
+
 
 
 </br></br>
