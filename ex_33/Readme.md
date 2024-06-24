@@ -187,8 +187,22 @@ added followign 2 section to manifest.json file
 
 ```
 
-</br>
-<img src="./files/ui5e33-9.png" >
+**manifest.json before change**
+
+```JSON
+
+```
+
+</br></br>
+
+**manifest.json after change**
+
+```JSON
+
+```
+
+
+
 </br></br>
 </details>
 
