@@ -40,7 +40,13 @@
 <summary> <b> 2. ui5.yaml file creation in Terminal - ui5 init </b> </summary>
 </br>
 
-Install SAP ui5 (Command line interface) CLI
+Check whether the SAP ui5 command line interface is installed in the system  *command ( npm list -g )*
+
+</br>
+<img src="./files/ui5e33-5.png" >
+</br></br>
+
+Install SAP ui5 (Command line interface) CLI if it is not installed you may get error if it is installed can proceed to next step
 
 </br></br>
 <img src="./files/ui5e33-5.png" >
