@@ -24,8 +24,14 @@
 
 <details>
 <summary> <b> Command Operations in terminal for file creation as shown below </b> </summary>
-</br></br></br>
+</br>
 <img src="./files/ui5e33-2.png" >
+</br></br>
+<img src="./files/ui5e33-2.png" >
+</br></br>
+<img src="./files/ui5e33-3.png" >
+</br></br>
+<img src="./files/ui5e33-4.png" >
 </br></br>
 </details>
 
