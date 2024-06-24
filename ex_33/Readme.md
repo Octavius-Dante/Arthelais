@@ -77,7 +77,9 @@ use npm install command for installing app router as shown below
 <details>
 <summary> <b> 4. Install Mock server Html repository </b> </summary>
 </br>
-use npm install command for installing app router as shown below
+
+use npm install command for installing html5 mock server 
+
 </br>
 <img src="./files/ui5e33-9.png" >
 </br></br>
