@@ -450,6 +450,11 @@ navigate to our specific project folder we want to create run configurations
 </br></br>
 <img src="./files/ui5e33-22.png" >
 </br></br>
+</details>
+
+<details>
+<summary> <b> 9. Execute the application </b> </summary>
+</br>
 <img src="./files/ui5e33-23.png" >
 </br></br>
 <img src="./files/ui5e33-24.png" >
