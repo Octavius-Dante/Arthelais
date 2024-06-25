@@ -51,7 +51,7 @@ Pre-requisite VSCode or BAS should be installed and active.
 
 ## Other Essential Topics
 
-- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_39"> Exercise 39-Deep Entity handling </a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_39"> Exercise 39-Deep Entity handling OData service</a>
 - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_40"> Exercise 40-Using Flexible Control Layout </a>
 
 </br></br>
