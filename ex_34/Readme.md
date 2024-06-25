@@ -1,8 +1,19 @@
 ## Exercise 34 - GET and Connect
 
 
+</br>
+
+**Connecting our custom OData service to our FIORI app**
+
+
+
+
+
 </br></br>
-</br></br>
+
+
+
+</br>
 </br></br>
 
 ## End of Exercise 34 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_35"> Exercise 35-POST, GET and DELETE from Fiori </a>
