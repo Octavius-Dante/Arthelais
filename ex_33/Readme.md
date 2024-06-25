@@ -101,7 +101,7 @@ touch xs-app.json
 The file will be blank by default we need to define the configuration as shown below
 
 
-"source" : "^/sap/opu/odata/" - this redirects any url call to odata service in the destination maintained in BTP
+"source" : "^/sap/opu/odata/" - this redirects any url call to OData service in the destination maintained in BTP
 
 </br>
 <img src="./files/ui5e33-11.png" >
