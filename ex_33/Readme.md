@@ -160,7 +160,7 @@ added following 2 section to manifest.json file
         "dataSources": {
 
             "danteService":{
-                "uri": "/sap/opu/odata/ZJUNE_19062024_SRV/",
+                "uri": "/sap/opu/odata/sap/ZJUNE_19062024_SRV/",
                 "type" : "OData",
                 "settings": {
                     "odataVersion": "2.0"
@@ -297,18 +297,20 @@ added following 2 section to manifest.json file
 ```JSON
 
 {
-    "_version": "1.123",
+    "_version": "1.25.0",
     "sap.app": {
         "id": "ntt.hr.payroll",
         "description": "{{APP_TITLE}}",
-        "applicationVersion": "1.0.0",
+        "applicationVersion": {
+            "version": "1.0.0"    
+        },
         "type": "application",
         "title": "{{APP_DESCRIPTION}}",
         "i18n": "i18n/i18n.properties",
         "dataSources": {
 
-            "danteService":{
-                "uri": "/sap/opu/odata/ZJUNE_19062024_SRV/",
+            "danteService": {
+                "uri": "/sap/opu/odata/sap/ZJUNE_19062024_SRV/",
                 "type" : "OData",
                 "settings": {
                     "odataVersion": "2.0"
