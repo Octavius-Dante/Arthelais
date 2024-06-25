@@ -1,0 +1,1 @@
+destinations=[{"name":"S4D","url":"http://S4D.dest","proxyHost":"http://127.0.0.1","proxyPort":"8887"}]
