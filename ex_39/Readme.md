@@ -1,6 +1,12 @@
 ## Exercise 39 - Deep Entity handling
 
+</br></br>
 
+## To understand creating and inserting Deep entities check the following video
+
+https://www.youtube.com/watch?v=bmzh7B8qmCY&ab_channel=Just2Share
+
+https://www.youtube.com/watch?v=EiT7RRCKjBg&list=PLmajIBPiks11NU41T8G149D5hf-o1oBqs&ab_channel=Just2Share
 
 </br></br>
 </br></br>
