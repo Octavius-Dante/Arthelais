@@ -473,8 +473,7 @@ navigate to our specific project folder we want to create run configurations
 <img src="./files/ui5e33-26.png" >
 </br></br>
 
-</br></br>
-</br></br>
+</br>
 </br></br>
 
 ## End of Exercise 33 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_34"> Exercise 34-GET and Connect </a>
