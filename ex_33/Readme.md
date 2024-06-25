@@ -392,7 +392,7 @@ added following 2 section to manifest.json file
                 "uri": "model/mockdata/fruits.json"
             },
             "":{
-                "type": "sap.ui.model.odata.v2.OdataModel",
+                "type": "sap.ui.model.odata.v2.ODataModel",
                 "settings":{
 
                 },
