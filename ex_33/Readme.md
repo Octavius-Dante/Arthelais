@@ -464,7 +464,7 @@ navigate to our specific project folder we want to create run configurations
 
 **Open Run and Debug tab and you can see the session running also check debug console in terminal section**
 
-</br></br>
+</br>
 <img src="./files/ui5e33-25.png" >
 </br></br>
 </details>
