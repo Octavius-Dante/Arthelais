@@ -465,6 +465,13 @@ navigate to our specific project folder we want to create run configurations
 </br></br>
 </details>
 
+
+**Fiori App is running with different configuration settings**
+
+</br>
+<img src="./files/ui5e33-26.png" >
+</br></br>
+
 </br></br>
 </br></br>
 </br></br>
