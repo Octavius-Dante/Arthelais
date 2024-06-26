@@ -18,11 +18,10 @@ This is how you can check whether Fiori app is connecting to OData service
 </br></br>
 
 We have been using a local JSON data model file to load data to the Fiori app now we will map Our OData service model to the app
+</br> In our View1.xml we are going to make changes mapping Odata model ProductSet
 </br></br>
 <img src="./files/ui5e34-2.png"></br></br>
 
-
-test 
 </br></br>
 <img src="./files/ui5e34-3.png"></br></br>
 
