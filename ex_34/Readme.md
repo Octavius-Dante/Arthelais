@@ -6,8 +6,12 @@
 **Connecting our custom OData service to our FIORI app**
 
 
-
-
+<details>
+<summary> <b> Mapping OData model to app </b> </summary>
+</br>
+<img src="./files/ui5e34-1.png" >
+</br>
+</details>
 
 </br></br>
 
