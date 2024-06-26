@@ -81,7 +81,7 @@ Implementing on select - display view 2 with product details
 
 
 <details>
-<summary> <b> Further Changes</b> </summary>
+<summary> <b> Implementing association Changes</b> </summary>
 </br>
 <img src="./files/ui5e34-17.png"></br></br>
 <img src="./files/ui5e34-18.png"></br></br>
