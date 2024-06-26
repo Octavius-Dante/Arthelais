@@ -33,7 +33,12 @@ After mapping other data objects
 Products displayed after mapping the product details
 </br></br>
 <img src="./files/ui5e34-5.png"></br></br>
+</details>
 
+
+<details>
+<summary> <b> Adding attributes and fixing the product search</b> </summary>
+</br>
 
 <img src="./files/ui5e34-6.png"></br></br>
 <img src="./files/ui5e34-7.png"></br></br>
