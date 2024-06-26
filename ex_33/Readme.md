@@ -183,7 +183,7 @@ added following 2 section to manifest.json file
             },
 //////////////////////////////     CHANGE BEGIN                    
             "":{
-                "type": "sap.ui.model.odata.v2.OdataModel",
+                "type": "sap.ui.model.odata.v2.ODataModel",
                 "settings":{
 
                 },
