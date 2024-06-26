@@ -8,6 +8,7 @@
 
 <details>
 <summary> <b> Mapping OData model to app </b> </summary>
+</br>
 
 This is how you can check whether Fiori app is connecting to OData service
 
