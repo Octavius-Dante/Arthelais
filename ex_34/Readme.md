@@ -81,11 +81,20 @@ Implementing on select - display view 2 with product details
 
 
 <details>
-<summary> <b> Implementing association Changes</b> </summary>
+<summary> <b> Implementing association Changes adding new fragment</b> </summary>
 </br>
+
+view changes 
+</br></br>
 <img src="./files/ui5e34-17.png"></br></br>
 <img src="./files/ui5e34-18.png"></br></br>
+</br></br>
+
+Forcing the $expand operation in fiori when loading the product in view 2
+</br></br>
 <img src="./files/ui5e34-19.png"></br></br>
+
+
 <img src="./files/ui5e34-20.png"></br></br>
 <img src="./files/ui5e34-21.png"></br></br>
 <img src="./files/ui5e34-22.png"></br></br>
