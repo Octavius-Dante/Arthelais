@@ -73,10 +73,10 @@ Testing pagination in the app
 Implementing on select - display view 2 with product details 
 </br></br>
 <img src="./files/ui5e34-12.png"></br></br>
-
-
 <img src="./files/ui5e34-13.png"></br></br>
 <img src="./files/ui5e34-14.png"></br></br>
+
+
 <img src="./files/ui5e34-15.png"></br></br>
 <img src="./files/ui5e34-16.png"></br></br>
 <img src="./files/ui5e34-17.png"></br></br>
