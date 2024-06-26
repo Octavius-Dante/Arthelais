@@ -116,7 +116,7 @@ Forcing the $expand operation in fiori when loading the product in view 2
 </details>
 
 <details>
-<summary> <b> adding screen elements to new screen</b> </summary>
+<summary> <b> Adding screen elements to new screen</b> </summary>
 </br>
 
 <img src="./files/ui5e34-27.png"></br></br>
