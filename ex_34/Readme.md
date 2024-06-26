@@ -66,8 +66,11 @@ when opening the page all data is loaded so the page is taking time to load prod
 </br>
 <img src="./files/ui5e34-10.png"></br></br>
 
-
+Testing pagination in the app 
+</br></br>
 <img src="./files/ui5e34-11.png"></br></br>
+
+
 <img src="./files/ui5e34-12.png"></br></br>
 <img src="./files/ui5e34-13.png"></br></br>
 <img src="./files/ui5e34-14.png"></br></br>
