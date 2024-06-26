@@ -55,6 +55,7 @@ Product category defiend in the view is displayed
 performing Search filter and testing 
 <img src="./files/ui5e34-9.png"></br></br>
 
+</details>
 
 <details>
 <summary> <b> Implementing pagination for loading products</b> </summary>
