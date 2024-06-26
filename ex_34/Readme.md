@@ -40,8 +40,15 @@ Products displayed after mapping the product details
 <summary> <b> Adding attributes and fixing the product search</b> </summary>
 </br>
 
+Adding category attributes 
+</br></br>
 <img src="./files/ui5e34-6.png"></br></br>
+
+Adding Search filter for product category
+</br></br>
 <img src="./files/ui5e34-7.png"></br></br>
+
+
 <img src="./files/ui5e34-8.png"></br></br>
 <img src="./files/ui5e34-9.png"></br></br>
 <img src="./files/ui5e34-10.png"></br></br>
