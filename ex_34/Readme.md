@@ -94,7 +94,18 @@ Forcing the $expand operation in fiori when loading the product in view 2
 </br></br>
 <img src="./files/ui5e34-19a.png"></br></br>
 <img src="./files/ui5e34-20.png"></br></br>
+</details>
 
+</br></br></br>
+
+
+## New Screen design for POST action 
+
+</br>
+
+<details>
+<summary> <b> New Screen layout for POST activity</b> </summary>
+</br>
 
 <img src="./files/ui5e34-21.png"></br></br>
 <img src="./files/ui5e34-22.png"></br></br>
