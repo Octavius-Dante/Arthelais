@@ -52,9 +52,20 @@ Product category defiend in the view is displayed
 </br></br>
 <img src="./files/ui5e34-8.png"></br></br>
 
-
+performing Search filter and testing 
 <img src="./files/ui5e34-9.png"></br></br>
+
+
+<details>
+<summary> <b> Implementing pagination for loading products</b> </summary>
+</br>
+
+when opening the page all data is loaded so the page is taking time to load products so to boost performance we load data chunk by chunk for that we implement pagination
+
+</br>
 <img src="./files/ui5e34-10.png"></br></br>
+
+
 <img src="./files/ui5e34-11.png"></br></br>
 <img src="./files/ui5e34-12.png"></br></br>
 <img src="./files/ui5e34-13.png"></br></br>
