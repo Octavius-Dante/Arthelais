@@ -7,7 +7,7 @@
 </br>
 
 <details>
-<summary> <b> Implementing Product save logic</b> </summary>
+<summary> <b> Implementing Product save logic - POST operation</b> </summary>
 </br>
 <img src="./files/ui5e35-1.png" >
 </br></br>
