@@ -8,9 +8,7 @@
 
 <details>
 <summary> <b> Implementing Product save logic</b> </summary>
-</br></br>
-
-</br></br>
+</br>
 <img src="./files/ui5e35-1.png" >
 </br></br>
 
