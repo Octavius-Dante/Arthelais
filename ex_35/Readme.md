@@ -4,8 +4,17 @@
 
 **Continuing from Previous session we are going to build complete POST, PATCH, DELETE activities from Fiori app**
 
+</br>
 
+<details>
+<summary> <b> Implementing Product save logic</b> </summary>
+</br></br>
 
+</br></br>
+<img src="./files/ui5e35-1.png" >
+</br></br>
+
+</details>
 
 </br>
 </br>
