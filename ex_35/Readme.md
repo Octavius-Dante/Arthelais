@@ -17,8 +17,33 @@
 </br></br>
 <img src="./files/ui5e35-3.png" >
 </br></br>
-
 </details>
+
+<details>
+<summary> <b> Implementing screen fields Clear on click of button</b> </summary>
+</br>
+<img src="./files/ui5e35-4.png" >
+</br></br>
+<img src="./files/ui5e35-5.png" >
+</br></br>
+<img src="./files/ui5e35-6.png" >
+</br></br>
+<img src="./files/ui5e35-7.png" >
+</br></br>
+</details>
+
+<details>
+<summary> <b> Implementing Data UPDATE click of button</b> </summary>
+</br>
+</br></br>
+</details>
+
+<details>
+<summary> <b> Implementing data delete on click of button</b> </summary>
+</br>
+</br></br>
+</details>
+
 
 </br>
 </br>
