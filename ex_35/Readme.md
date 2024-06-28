@@ -283,9 +283,75 @@ herculis: function(oEvent){
 </details>
 
 
+</br></br></br></br>
+
+
+## Implementing the Orders table in Add view 
 
 </br>
 </br>
+
+**On search of the product in Add view a table containing order details associated with the product should appear**
+
+</br>
+</br>
+
+<details>
+<summary> <b> 1. Implementing Orders smart table in Add View</b> </summary>
+</br>
+<img src="./files/ui5e35-53.png"></br></br>
+<img src="./files/ui5e35-54.png"></br></br>
+<img src="./files/ui5e35-55.png"></br></br>
+<img src="./files/ui5e35-56.png"></br></br>
+<img src="./files/ui5e35-57.png"></br></br>
+<img src="./files/ui5e35-58.png"></br></br>
+<img src="./files/ui5e35-59.png"></br></br>
+<img src="./files/ui5e35-60.png"></br></br>
+<img src="./files/ui5e35-61.png"></br></br>
+<img src="./files/ui5e35-62.png"></br></br>
+<img src="./files/ui5e35-63.png"></br></br>
+<img src="./files/ui5e35-64.png"></br></br>
+<img src="./files/ui5e35-65.png"></br></br>
+<img src="./files/ui5e35-66.png"></br></br>
+<img src="./files/ui5e35-67.png"></br></br>
+<img src="./files/ui5e35-68.png"></br></br>
+<img src="./files/ui5e35-69.png"></br></br>
+<img src="./files/ui5e35-70.png"></br></br>
+<img src="./files/ui5e35-71.png"></br></br>
+<img src="./files/ui5e35-72.png"></br></br>
+<img src="./files/ui5e35-73.png"></br></br>
+<img src="./files/ui5e35-74.png"></br></br>
+<img src="./files/ui5e35-75.png"></br></br>
+<img src="./files/ui5e35-76.png"></br></br>
+<img src="./files/ui5e35-77.png"></br></br>
+<img src="./files/ui5e35-78.png"></br></br>
+<img src="./files/ui5e35-79.png"></br></br>
+<img src="./files/ui5e35-80.png"></br></br>
+<img src="./files/ui5e35-81.png"></br></br>
+<img src="./files/ui5e35-82.png"></br></br>
+<img src="./files/ui5e35-83.png"></br></br>
+<img src="./files/ui5e35-84.png"></br></br>
+<img src="./files/ui5e35-85.png"></br></br>
+<img src="./files/ui5e35-86.png"></br></br>
+<img src="./files/ui5e35-87.png"></br></br>
+<img src="./files/ui5e35-88.png"></br></br>
+<img src="./files/ui5e35-89.png"></br></br>
+<img src="./files/ui5e35-90.png"></br></br>
+<img src="./files/ui5e35-91.png"></br></br>
+<img src="./files/ui5e35-92.png"></br></br>
+<img src="./files/ui5e35-93.png"></br></br>
+<img src="./files/ui5e35-94.png"></br></br>
+<img src="./files/ui5e35-95.png"></br></br>
+<img src="./files/ui5e35-96.png"></br></br>
+<img src="./files/ui5e35-97.png"></br></br>
+<img src="./files/ui5e35-98.png"></br></br>
+<img src="./files/ui5e35-99.png"></br></br>
+<img src="./files/ui5e35-100.png"></br></br>
+
+</br></br>
+</details>
+
+
 
 
 </br>
