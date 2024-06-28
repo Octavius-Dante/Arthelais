@@ -10,67 +10,44 @@
 <details>
 <summary> <b> Implementing Product save logic - POST operation</b> </summary>
 </br>
-<img src="./files/ui5e35-1.png" >
-</br></br>
-<img src="./files/ui5e35-2.png" >
-</br></br>
-<img src="./files/ui5e35-4.png" >
-</br></br>
-<img src="./files/ui5e35-3.png" >
-</br></br>
+<img src="./files/ui5e35-1.png" ></br></br>
+<img src="./files/ui5e35-2.png" ></br></br>
+<img src="./files/ui5e35-4.png" ></br></br>
+<img src="./files/ui5e35-3.png" ></br></br>
 </details>
 
 <details>
 <summary> <b> Implementing screen fields CLEAR on click of button</b> </summary>
 </br>
-<img src="./files/ui5e35-4.png" >
-</br></br>
-<img src="./files/ui5e35-5.png" >
-</br></br>
-<img src="./files/ui5e35-6.png" >
-</br></br>
-<img src="./files/ui5e35-7.png" >
-</br></br>
+<img src="./files/ui5e35-4.png" ></br></br>
+<img src="./files/ui5e35-5.png" ></br></br>
+<img src="./files/ui5e35-6.png" ></br></br>
+<img src="./files/ui5e35-7.png" ></br></br>
 </details>
 
 <details>
 <summary> <b> Implementing GET Data on press of enter from screen (Input product ID)</b> </summary>
 </br>
-<img src="./files/ui5e35-8.png" >
-</br></br>
-<img src="./files/ui5e35-9.png" >
-</br></br>
-<img src="./files/ui5e35-10.png" >
-</br></br>
-<img src="./files/ui5e35-11.png" >
-</br></br>
-<img src="./files/ui5e35-12a.png" >
-</br></br>
+<img src="./files/ui5e35-8.png" ></br></br>
+<img src="./files/ui5e35-9.png" ></br></br>
+<img src="./files/ui5e35-10.png" ></br></br>
+<img src="./files/ui5e35-11.png" ></br></br>
+<img src="./files/ui5e35-12a.png" ></br></br>
 </details>
 
 <details>
 <summary> <b> Implementing error handling on invalid product ID request on press of enter</b> </summary>
 </br>
-<img src="./files/ui5e35-13.png" >
-</br></br>
-<img src="./files/ui5e35-14.png" >
-</br></br>
-<img src="./files/ui5e35-15.png" >
-</br></br>
-<img src="./files/ui5e35-16.png" >
-</br></br>
-<img src="./files/ui5e35-17.png" >
-</br></br>
-<img src="./files/ui5e35-18.png" >
-</br></br>
-<img src="./files/ui5e35-19.png" >
-</br></br>
-<img src="./files/ui5e35-20.png" >
-</br></br>
-<img src="./files/ui5e35-21.png" >
-</br></br>
-<img src="./files/ui5e35-22.png" >
-</br></br>
+<img src="./files/ui5e35-13.png" ></br></br>
+<img src="./files/ui5e35-14.png" ></br></br>
+<img src="./files/ui5e35-15.png" ></br></br>
+<img src="./files/ui5e35-16.png" ></br></br>
+<img src="./files/ui5e35-17.png" ></br></br>
+<img src="./files/ui5e35-18.png" ></br></br>
+<img src="./files/ui5e35-19.png" ></br></br>
+<img src="./files/ui5e35-20.png" ></br></br>
+<img src="./files/ui5e35-21.png" ></br></br>
+<img src="./files/ui5e35-22.png" ></br></br>
 </details>
 
 <details>
