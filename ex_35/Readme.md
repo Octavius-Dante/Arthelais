@@ -1,6 +1,7 @@
 ## Exercise 35 - POST, PATCH, GET and DELETE from Fiori
 
 </br>
+</br>
 
 **Continuing from Previous session we are going to build complete POST, PATCH, DELETE activities from Fiori app**
 
