@@ -1,4 +1,4 @@
-## Exercise 35 - POST, GET and DELETE from Fiori
+## Exercise 35 - POST, PATCH, GET and DELETE from Fiori
 
 </br>
 
