@@ -113,13 +113,18 @@
 </br></br></br></br>
 
 
-## Implementing the Supplier M-table in view 2
+## Implementing the Orders M-table in view 2
+
+</br>
+</br>
+
+**We have product in view 1 in view 2 we are seeing the product related details and supplier details in tab-1, in tab-2 we will be showing all the orders associated with this product in a M-table**
 
 </br>
 </br>
 
 <details>
-<summary> <b> Implementing Supplier table in View 2</b> </summary>
+<summary> <b> Implementing Orders table in View 2</b> </summary>
 </br>
 <img src="./files/ui5e35-40.png"></br></br>
 <img src="./files/ui5e35-41.png"></br></br>
