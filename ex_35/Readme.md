@@ -33,7 +33,16 @@
 </details>
 
 <details>
-<summary> <b> Implementing Data UPDATE click of button</b> </summary>
+<summary> <b> Implementing Get Data on press of enter from screen (Input product ID)</b> </summary>
+</br>
+<img src="./files/ui5e35-8.png" >
+</br></br>
+
+</br></br>
+</details>
+
+<details>
+<summary> <b> Implementing Update Data on press of button</b> </summary>
 </br>
 </br></br>
 </details>
