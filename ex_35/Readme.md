@@ -205,11 +205,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-101
 <details>
 <summary> <b> 1. Implementing Orders M-table in View 2-(Order-tab)</b> </summary>
 </br>
-<img src="./files/ui5e35-35.png"></br></br>
-<img src="./files/ui5e35-36.png"></br></br>
-<img src="./files/ui5e35-37.png"></br></br>
-<img src="./files/ui5e35-38.png"></br></br>
-<img src="./files/ui5e35-39.png"></br></br>
+
 </br></br>
 </details>
 
