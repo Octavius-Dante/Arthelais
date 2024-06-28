@@ -574,7 +574,7 @@ herculis: function(oEvent){
 </br></br></br></br>
 
 
-## Implementing the Orders table in Add view 
+## Implementing the Orders table in Add view (Product ID input will bring Product data + OrdersSet)
 
 </br>
 </br>
