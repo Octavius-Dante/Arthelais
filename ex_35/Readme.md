@@ -195,8 +195,11 @@ Implementation code code class (ORDER_GET_ENTITYSET)
 // showing the ORders related to the product 
 http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-1010')/To_Orders?$format=json
 
-// showing the Product and the Orders 
+// showing the Product and the Orders -- difficult to identify the header data here
 http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-1010')?$expand=To_Orders
+
+// Clearly can see the Product header and orders 
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-1010')?$expand=To_Orders&$format=json
 
 ```
 
