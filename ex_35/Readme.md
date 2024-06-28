@@ -106,6 +106,21 @@
 <img src="./files/ui5e35-37.png"></br></br>
 <img src="./files/ui5e35-38.png"></br></br>
 <img src="./files/ui5e35-39.png"></br></br>
+</br></br>
+</details>
+
+
+</br></br></br></br>
+
+
+## Implementing the Supplier M-table in view 2
+
+</br>
+</br>
+
+<details>
+<summary> <b> Implementing Supplier table in View 2</b> </summary>
+</br>
 <img src="./files/ui5e35-40.png"></br></br>
 <img src="./files/ui5e35-41.png"></br></br>
 <img src="./files/ui5e35-42.png"></br></br>
