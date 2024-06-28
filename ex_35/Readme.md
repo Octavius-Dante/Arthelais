@@ -14,6 +14,32 @@
 <img src="./files/ui5e35-2.png" ></br></br>
 <img src="./files/ui5e35-4.png" ></br></br>
 <img src="./files/ui5e35-3.png" ></br></br>
+
+```JS
+
+    onSave: function () {
+        // MessageBox.confirm("This functionality is under construction");            
+        // Step 1 : Prepare the Payload
+        var payload = this.oModel.getProperty("/productData");
+        // Step 2 : Get the odata model object to communicate with backend 
+        var oDataModel = this.getView().getModel();
+        // Step 3 : Fire the POST call on entity set with payload
+        oDataModel.create("/ProductSet", payload, {
+            // Call back for positive response 
+            success: function (data) {
+                MessageToast.show("The product was created successfully");
+            },
+            // Call back for negative response 
+            error: function (oError) {
+                MessageBox.error("An internal error Occured");
+            }
+
+        });
+    }
+
+```
+</br></br>
+
 </details>
 
 <details>
@@ -23,6 +49,23 @@
 <img src="./files/ui5e35-5.png" ></br></br>
 <img src="./files/ui5e35-6.png" ></br></br>
 <img src="./files/ui5e35-7.png" ></br></br>
+
+```JS
+
+    onClear: function () {
+        // we can clear data in our local model 
+        var payload = this.oModel.getProperty("/productData");
+        payload.PRODUCT_ID = "";
+        payload.SUPPLIER_ID = "";
+        payload.CURRENCY_CODE = "USD";
+        payload.PRICE = "";
+        payload.NAME = "";
+        payload.DESCRIPTION = "";
+        this.oModel.setProperty("/productData", payload);
+    },
+
+```
+</br></br>
 </details>
 
 <details>
@@ -33,6 +76,32 @@
 <img src="./files/ui5e35-10.png" ></br></br>
 <img src="./files/ui5e35-11.png" ></br></br>
 <img src="./files/ui5e35-12a.png" ></br></br>
+
+```JS
+
+    onEnter: function (oEvent) {
+        var that = this;
+        // Step 1 : read the product id from screen
+        var sText = oEvent.getSource().getValue();
+        // Step 2 : Get the odata model object 
+        var oDataModel = this.getView().getModel();
+        // Step 3 : Fire the read call 
+        oDataModel.read("/ProductSet('" + sText + "')", {
+            // Step 4 : Handle success - set data to our local model 
+            success: function (data) {
+                that.oModel.setProperty("/productData", data);
+            },
+            // Step 5 : Error handling (input validation)
+            error: function (oError) {
+                var errorText = JSON.parse(oError.responseText).error.innererror.errordetails[0].message;
+                MessageBox.error(errorText);
+            }
+        })
+    },
+
+```
+
+</br></br>
 </details>
 
 <details>
@@ -59,6 +128,27 @@
 <img src="./files/ui5e35-25a.png"></br></br>
 <img src="./files/ui5e35-26.png"></br></br>
 <img src="./files/ui5e35-27.png"></br></br>
+
+```JS
+
+    onMostExp: function () {
+        var that = this;
+        // Step 1 : Get the odata model object 
+        var oDataModel = this.getView().getModel();
+        // Step 2 : Send the call function 
+        oDataModel.callFunction("/Get_Expensive_Product", {
+            urlParameters: {
+                "I_CATEGORY": "Servers"
+            },
+            success: function (data) {
+                // Step 3 : Success Response set data on screen by local model 
+                that.oModel.setProperty("/productData", data);
+            }
+        })
+    },
+
+```
+
 </br></br>
 </details>
 
@@ -73,6 +163,38 @@
 <img src="./files/ui5e35-32.png"></br></br>
 <img src="./files/ui5e35-33.png"></br></br>
 <img src="./files/ui5e35-34.png"></br></br>
+
+```JS
+
+    onUpdate: function () {
+        var oDataModel = this.getView().getModel();
+
+        var payload = this.oModel.getProperty("/productData");
+        
+        payload.PRODUCT_ID = this.getView().byId("name").getValue();
+        payload.NAME = this.getView().byId("prod_name").getValue(); // product_id
+        payload.DESCRIPTION = this.getView().byId("prod_desc").getValue(); // description 
+        payload.SUPPLIER_ID = this.getView().byId("prod_supplier").getValue(); // Supplier_id
+        payload.CURRENCY_CODE = this.getView().byId("prod_currency").getValue(); // Currency_code
+        payload.PRICE = this.getView().byId("prod_price").getValue(); // price
+
+        this.oModel.setProperty("/productData", payload);
+
+        oDataModel.update("/ProductSet('" + payload.PRODUCT_ID + "')" , payload, {
+        //oDataModel.update("/ProductSet('" + this.getView().byId("name").getValue() + "')" , payload, {
+            method: "PATCH",
+            success: function (data) {
+                MessageToast.show("The product updated successfully", data);
+            },
+            error: function (oError) {
+                var errorText = JSON.parse(oError.responseText).error.innererror.errordetails[0].message;
+                MessageBox.error(errorText);
+            }
+        });
+    },
+
+```
+
 </br></br>
 </details>
 
@@ -84,6 +206,24 @@
 <img src="./files/ui5e35-37.png"></br></br>
 <img src="./files/ui5e35-38.png"></br></br>
 <img src="./files/ui5e35-39.png"></br></br>
+</br></br>
+
+```JS
+
+    onDelete: function (oEvent) {
+        //for update call oDataModel.update("/Entity", payload)
+
+        var oDataModel = this.getView().getModel();
+        oDataModel.remove("/ProductSet('" + this.getView().byId("name").getValue() + "')", {
+            success: function () {
+                MessageToast.show("Product is now deleted");
+            }
+        });
+
+    },
+
+```
+
 </br></br>
 </details>
 
