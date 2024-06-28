@@ -15,6 +15,19 @@
 <img src="./files/ui5e35-4.png" ></br></br>
 <img src="./files/ui5e35-3.png" ></br></br>
 
+```XML
+
+<footer>
+    <Toolbar>
+        <ToolbarSpacer></ToolbarSpacer>
+        <Button icon="sap-icon://save" press="onSave" text="Save"></Button>
+    </Toolbar>        
+</footer>  
+
+```
+
+</br>
+
 ```JS
 
     onInit: function () {
@@ -71,6 +84,19 @@
 <img src="./files/ui5e35-6.png" ></br></br>
 <img src="./files/ui5e35-7.png" ></br></br>
 
+```XML
+
+<footer>
+    <Toolbar>
+        <ToolbarSpacer></ToolbarSpacer>
+        <Button icon="sap-icon://clear-all" press="onClear" text="Clear"></Button>		
+    </Toolbar>        
+</footer>  
+
+```
+
+</br>
+
 ```JS
 
     onClear: function () {
@@ -97,6 +123,14 @@
 <img src="./files/ui5e35-10.png" ></br></br>
 <img src="./files/ui5e35-11.png" ></br></br>
 <img src="./files/ui5e35-12a.png" ></br></br>
+
+```XML
+
+    <Input id="name" submit="onEnter" value="{viewModel>/productData/PRODUCT_ID}" /> 
+
+```
+
+</br>
 
 ```JS
 
@@ -150,6 +184,17 @@
 <img src="./files/ui5e35-26.png"></br></br>
 <img src="./files/ui5e35-27.png"></br></br>
 
+```XML
+
+    <Button icon="sap-icon://monitor-payments" tooltip="Load Most expensive product" press="onMostExp" text="Expensive Prod" />
+
+```
+
+</br>
+
+
+</br>
+
 ```JS
 
     onMostExp: function () {
@@ -184,6 +229,19 @@
 <img src="./files/ui5e35-32.png"></br></br>
 <img src="./files/ui5e35-33.png"></br></br>
 <img src="./files/ui5e35-34.png"></br></br>
+
+```XML
+
+<footer>
+    <Toolbar>
+        <ToolbarSpacer></ToolbarSpacer>
+        <Button icon="sap-icon://request" press="onUpdate" text="Update record"></Button>			
+    </Toolbar>        
+</footer>  
+
+```
+
+</br>
 
 ```JS
 
@@ -227,6 +285,19 @@
 <img src="./files/ui5e35-37.png"></br></br>
 <img src="./files/ui5e35-38.png"></br></br>
 <img src="./files/ui5e35-39.png"></br></br>
+
+```XML
+
+<footer>
+    <Toolbar>
+        <ToolbarSpacer></ToolbarSpacer>
+        <Button icon="sap-icon://delete" press="onDelete" text="Delete record"></Button>		
+    </Toolbar>        
+</footer>  
+
+```
+
+</br>
 
 ```JS
 
