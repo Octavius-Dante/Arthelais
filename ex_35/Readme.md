@@ -669,31 +669,32 @@ In Add.controller.js
         var that = this;
         // Step 1 : read the product id from screen
         var sText = oEvent.getSource().getValue();
-        // Step 2 : Get the odata model object 
+        // Step 2 : Get the OData model object 
         var oDataModel = this.getView().getModel();
         // Step 3 : Fire the read call 
 
         // enable loading indicator to show before processing
-        this.getView().setBusy(true);            
+        this.getView().setBusy(true);   /////////////////// <---- new code added
+
         oDataModel.read("/ProductSet('" + sText + "')", {                
             // $expand parameters
-            urlParameters:{
-                "$expand": "To_Orders"
-            },
+            urlParameters:{             /////////////////// <---- new code added
+                "$expand": "To_Orders"  /////////////////// <---- new code added
+            },                          /////////////////// <---- new code added
 
             // Step 4 : Handle success - set data to our local model 
             success: function(data) {
                 // disable loading indicator process is going to end
-                that.getView().setBusy(false);
+                that.getView().setBusy(false);  /////////////////// <---- new code added
                 that.oModel.setProperty("/productData", data);
             //$expand parameter mapping
-                that.oModel.setProperty("/productData/To_Orders", data.To_Orders.results);                     
+                that.oModel.setProperty("/productData/To_Orders", data.To_Orders.results); /////////////////// <---- new code added
             },
 
             // Step 5 : Error handling (input validation)
             error: function (oError) {                   
                 // disable loading indicator process is going to end
-                that.getView().setBusy(false);
+                that.getView().setBusy(false); /////////////////// <---- new code added
                 var errorText = JSON.parse(oError.responseText).error.innererror.errordetails[0].message;
                 MessageBox.error(errorText);
             }
