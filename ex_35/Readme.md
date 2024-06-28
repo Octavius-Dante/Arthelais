@@ -347,7 +347,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-101
 
 
 <details>
-<summary> <b> 1. Implementing Orders M-table in View 2-(Order-tab)</b> </summary>
+<summary> <b> 2. Implementing Orders M-table in View 2-(Order-tab)</b> </summary>
 </br>
 
 in View 2 XML
