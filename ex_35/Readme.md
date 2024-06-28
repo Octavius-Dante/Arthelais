@@ -85,7 +85,7 @@
 </details>
 
 <details>
-<summary> <b> Implementing Update Data on press of button</b> </summary>
+<summary> <b> Implementing PATCH Update Data on press of button</b> </summary>
 </br>
 
 <img src="./files/ui5e35-28.png"></br></br>
@@ -99,7 +99,7 @@
 </details>
 
 <details>
-<summary> <b> Implementing data delete on click of button</b> </summary>
+<summary> <b> Implementing DELETE data on click of button</b> </summary>
 </br>
 <img src="./files/ui5e35-35.png"></br></br>
 <img src="./files/ui5e35-36.png"></br></br>
