@@ -459,6 +459,15 @@ herculis: function(oEvent){
 <summary> <b> 1. Implementing Orders smart table in Add View</b> </summary>
 </br>
 <img src="./files/ui5e35-53.png"></br></br>
+
+```XML
+
+    <smarttable:SmartTable width="100%" direction="Column" fitContainer="true" 
+    tableType="ResponsiveTable" header="Smart Table" 
+    enableAutoBinding="true" xmlns:sap.ui.comp.smarttable="sap.ui.comp.smarttable" id="table0"/>
+
+```
+
 <img src="./files/ui5e35-54.png"></br></br>
 <img src="./files/ui5e35-55.png"></br></br>
 <img src="./files/ui5e35-56.png"></br></br>
