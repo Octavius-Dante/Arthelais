@@ -120,6 +120,8 @@
 
 **We have product in view-1 in view-2-(tab-1) we are seeing the product related details and supplier details , in view-2-(tab-2) we will be showing all the orders associated with this product in a M-table**
 
+</br>
+
 1. *Adding a new entity set- OrderSet*
 2. *Having a 1..n relation between product and orders*
 3. *Implementing GET for OrdersSet_GET_EntitySet to fetch orders related to this product*
