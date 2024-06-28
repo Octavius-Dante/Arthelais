@@ -20,7 +20,7 @@
 </details>
 
 <details>
-<summary> <b> Implementing screen fields Clear on click of button</b> </summary>
+<summary> <b> Implementing screen fields CLEAR on click of button</b> </summary>
 </br>
 <img src="./files/ui5e35-4.png" >
 </br></br>
@@ -33,7 +33,7 @@
 </details>
 
 <details>
-<summary> <b> Implementing Get Data on press of enter from screen (Input product ID)</b> </summary>
+<summary> <b> Implementing GET Data on press of enter from screen (Input product ID)</b> </summary>
 </br>
 <img src="./files/ui5e35-8.png" >
 </br></br>
