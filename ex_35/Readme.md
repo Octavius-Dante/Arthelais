@@ -73,7 +73,7 @@
 </details>
 
 <details>
-<summary> <b> Implementing - Get Expensive product in the screen on Button click</b> </summary>
+<summary> <b> Implementing - Get Expensive product in the screen on Button click -- (OData Function Import)</b> </summary>
 </br></br>
 
 This activity is based on Function import operation fro OData service 
