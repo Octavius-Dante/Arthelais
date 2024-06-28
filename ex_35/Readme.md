@@ -142,6 +142,18 @@
 <img src="./files/ui5e35-48.png"></br></br>
 <img src="./files/ui5e35-49.png"></br></br>
 <img src="./files/ui5e35-50.png"></br></br>
+
+Implementation code code class (ORDER_GET_ENTITYSET)
+
+</br>
+
+```ABAP
+
+
+
+```
+
+</br></br>
 <img src="./files/ui5e35-51.png"></br></br>
 <img src="./files/ui5e35-52.png"></br></br>
 <img src="./files/ui5e35-53.png"></br></br>
