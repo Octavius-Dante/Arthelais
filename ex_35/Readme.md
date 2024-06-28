@@ -588,6 +588,12 @@ herculis: function(oEvent){
 </br>
 <img src="./files/ui5e35-53.png"></br></br>
 
+</br>
+
+IN Add.view.Xml 
+
+</br>
+
 ```XML
 
     <smarttable:SmartTable width="100%" direction="Column" fitContainer="true" 
@@ -595,6 +601,65 @@ herculis: function(oEvent){
     enableAutoBinding="true" xmlns:sap.ui.comp.smarttable="sap.ui.comp.smarttable" id="table0"/>
 
 ```
+
+</br>
+
+In Add.controller.js
+
+</br>
+
+```JS
+
+    onInit: function () {
+        this.oModel = new JSONModel();
+        this.oModel.setData({
+            "productData": {
+                "PRODUCT_ID": "",
+                "TYPE_CODE": "PR",
+                "CATEGORY": "Notebooks",
+                "NAME": "<enter name>",
+                "DESCRIPTION": "<Enter Desc.>",
+                "SUPPLIER_ID": "0100000051",
+                "SUPPLIER_NAME": "TECUM",
+                "TAX_TARIF_CODE": "1 ",
+                "PRICE": "0",
+                "CURRENCY_CODE": "USD",
+                "DIM_UNIT": "CM",
+                /////////////////////////////////
+                "To_Orders":[]
+                /////////////////////////////////
+            }
+        });
+        // setthing this model to view
+        this.getView().setModel(this.oModel, "viewModel");
+    },
+
+
+    onEnter: function (oEvent) {
+        var that = this;
+        // Step 1 : read the product id from screen
+        var sText = oEvent.getSource().getValue();
+        // Step 2 : Get the odata model object 
+        var oDataModel = this.getView().getModel();
+        // Step 3 : Fire the read call 
+        // oDataModel.read("/ProductSet('" + sText + "')", {
+///////////////////////////////////////////////////////////////////////////////////////        
+        oDataModel.read("/ProductSet('" + sText + "')?$expand=To_Orders", {            
+///////////////////////////////////////////////////////////////////////////////////////               
+            // Step 4 : Handle success - set data to our local model 
+            success: function (data) {
+                that.oModel.setProperty("/productData", data);
+            },
+            // Step 5 : Error handling (input validation)
+            error: function (oError) {
+                var errorText = JSON.parse(oError.responseText).error.innererror.errordetails[0].message;
+                MessageBox.error(errorText);
+            }
+        })
+    },
+
+```
+
 
 <img src="./files/ui5e35-54.png"></br></br>
 <img src="./files/ui5e35-55.png"></br></br>
