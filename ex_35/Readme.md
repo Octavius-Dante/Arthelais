@@ -88,7 +88,6 @@
 <summary> <b> Implementing Update Data on press of button</b> </summary>
 </br>
 
-
 <img src="./files/ui5e35-28.png"></br></br>
 <img src="./files/ui5e35-29.png"></br></br>
 <img src="./files/ui5e35-30.png"></br></br>
