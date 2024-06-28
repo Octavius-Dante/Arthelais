@@ -183,6 +183,18 @@ Implementation code code class (ORDER_GET_ENTITYSET)
 
 ```
 
+</br>
+
+**HTTP call link**
+
+</br>
+
+```http
+
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-1010')/To_Orders?$format=json
+
+```
+
 </br></br>
 <img src="./files/ui5e35-51.png"></br></br>
 <img src="./files/ui5e35-52.png"></br></br>
