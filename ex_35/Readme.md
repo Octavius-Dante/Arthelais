@@ -195,9 +195,8 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-101
 
 ```
 
-</br></br>
+</br>
 <img src="./files/ui5e35-51.png"></br></br>
-
 </br></br>
 </details>
 
@@ -294,10 +293,8 @@ herculis: function(oEvent){
 
 </br></br>
 
-
-
+<img src="./files/ui5e35-52.png"></br></br>
 </br></br>
-
 </details>
 
 
