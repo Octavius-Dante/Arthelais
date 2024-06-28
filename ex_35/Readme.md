@@ -149,7 +149,33 @@ Implementation code code class (ORDER_GET_ENTITYSET)
 
 ```ABAP
 
+  METHOD ORDERSSET_GET_ENTITYSET.
 
+    DATA : LV_PROD_ID TYPE BAPI_EPM_PRODUCT_ID,
+           LT_PROD    TYPE RANGE OF BAPI_EPM_PRODUCT_ID_RANGE,
+           LT_HEADER  TYPE TABLE OF BAPI_EPM_SO_HEADER.
+
+    READ TABLE IT_KEY_TAB INTO DATA(LS_KEY_TAB) INDEX 1.
+
+    LT_PROD = VALUE #( ( SIGN = 'I' OPTION = 'EQ'  LOW = LV_PROD_ID ) ).
+
+    LV_PROD_ID = LS_KEY_TAB-VALUE.
+
+    CALL FUNCTION 'BAPI_EPM_SO_GET_LIST'
+*  EXPORTING
+*    MAX_ROWS          =                  " EPM: Max row specifictation
+      TABLES
+        SOHEADERDATA      = LT_HEADER         " EPM: Sales Order header data of BOR object 'EpmSalesOrder'
+*       SOITEMDATA        =                  " EPM: Sales Order Item data of BOR object 'EpmSalesOrder'
+*       SELPARAMSOID      =                  " EPM: Range for Sales Order IDs
+*       SELPARAMBUYERNAME =                  " EPM: Range for company name
+        SELPARAMPRODUCTID = LT_PROD           " EPM: Range for product id
+*       RETURN            =                  " Return Parameter
+      .
+
+    ET_ENTITYSET = LT_HEADER.
+
+  ENDMETHOD.
 
 ```
 
