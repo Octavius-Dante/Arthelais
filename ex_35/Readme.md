@@ -76,7 +76,6 @@
 <summary> <b> Implementing - Get Expensive product in the screen on Button click -- (OData Function Import)</b> </summary>
 </br></br>
 
-This activity is based on Function import operation fro OData service 
 </br>
 <img src="./files/ui5e35-23.png"></br></br>
 <img src="./files/ui5e35-24.png"></br></br>
