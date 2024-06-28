@@ -206,6 +206,88 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet('HT-101
 <summary> <b> 1. Implementing Orders M-table in View 2-(Order-tab)</b> </summary>
 </br>
 
+in View 2 XML
+
+```XMl
+
+    <IconTabFilter iconColor="Positive" icon="sap-icon://supplier" text="Orders">
+        <Table items="{To_Orders}" id="idTab">
+            <headerToolbar>
+                <Toolbar>
+                    <ToolbarSpacer ></ToolbarSpacer>
+                    <Button icon="sap-icon://filter" press="onFilter" />
+                </Toolbar>
+            </headerToolbar>
+            <columns>
+                <Column>
+                    <header>
+                        <Text text="Order ID" />
+                    </header>
+                </Column>
+                <Column>
+                    <header>
+                        <Text text="Buyer ID" />
+                    </header>
+                </Column>
+                <Column minScreenWidth="Tablet" demandPopin="true">
+                    <header>
+                        <Text text="Buyer Name" />
+                    </header>
+                </Column>
+                <Column minScreenWidth="Tablet">
+                    <header>
+                        <Text text="Gross Amount" />
+                    </header>
+                </Column>
+            </columns>
+            <items>
+                <ColumnListItem>
+                    <Text text="{SO_ID}" />
+                    <Text text="{BUYER_ID}" />
+                    <Text text="{BUYER_NAME}" />
+                    <Text text="{GROSS_AMOUNT} {CURRENCY_CODE}"/>
+                </ColumnListItem>
+            </items>
+        </Table>
+    </IconTabFilter>
+
+```
+
+</br>
+
+in View 2 Controller
+
+</br>
+
+```js
+
+
+herculis: function(oEvent){
+    var sPath = this.extractPath(oEvent);
+    this.getView().bindElement({
+        path: sPath,
+        parameters:{
+            expand: 'To_Supplier'
+        }
+    }); // binding with /fruits/4 -
+
+/// This is the association call To_Orders
+//////////////////////////////////////////////////////////
+    var sPath2 = this.extractPath(oEvent);
+    this.getView().bindElement({
+        path: sPath2,
+        parameters:{
+            expand: 'To_Orders'
+        }
+    });
+//////////////////////////////////////////////////////////    
+},
+
+
+```
+
+</br>
+
 </br></br>
 </details>
 
