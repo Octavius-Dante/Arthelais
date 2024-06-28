@@ -48,6 +48,21 @@
 </details>
 
 <details>
+<summary> <b> Implementing error handling on invalid product ID request on press of enter</b> </summary>
+</br>
+<img src="./files/ui5e35-13.png" >
+</br></br>
+<img src="./files/ui5e35-14.png" >
+</br></br>
+<img src="./files/ui5e35-15.png" >
+</br></br>
+<img src="./files/ui5e35-16.png" >
+</br></br>
+<img src="./files/ui5e35-17.png" >
+</br></br>
+</details>
+
+<details>
 <summary> <b> Implementing Update Data on press of button</b> </summary>
 </br>
 </br></br>
