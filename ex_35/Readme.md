@@ -75,13 +75,20 @@
 <details>
 <summary> <b> Implementing - Get Expensive product in the screen on Button click -- (OData Function Import)</b> </summary>
 </br></br>
-
 </br>
 <img src="./files/ui5e35-23.png"></br></br>
 <img src="./files/ui5e35-24.png"></br></br>
 <img src="./files/ui5e35-25a.png"></br></br>
 <img src="./files/ui5e35-26.png"></br></br>
 <img src="./files/ui5e35-27.png"></br></br>
+</br></br>
+</details>
+
+<details>
+<summary> <b> Implementing Update Data on press of button</b> </summary>
+</br>
+
+
 <img src="./files/ui5e35-28.png"></br></br>
 <img src="./files/ui5e35-29.png"></br></br>
 <img src="./files/ui5e35-30.png"></br></br>
@@ -206,12 +213,6 @@
 <img src="./files/ui5e35-149.png"></br></br>
 <img src="./files/ui5e35-150.png"></br></br>
 
-</br></br>
-</details>
-
-<details>
-<summary> <b> Implementing Update Data on press of button</b> </summary>
-</br>
 </br></br>
 </details>
 
