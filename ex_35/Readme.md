@@ -79,7 +79,7 @@
 </br>
 <img src="./files/ui5e35-23.png"></br></br>
 <img src="./files/ui5e35-24.png"></br></br>
-<img src="./files/ui5e35-25.png"></br></br>
+<img src="./files/ui5e35-25a.png"></br></br>
 <img src="./files/ui5e35-26.png"></br></br>
 <img src="./files/ui5e35-27.png"></br></br>
 <img src="./files/ui5e35-28.png"></br></br>
