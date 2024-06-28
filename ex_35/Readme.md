@@ -454,7 +454,6 @@ herculis: function(oEvent){
 **On search of the product in Add view a table containing order details associated with the product should appear**
 
 </br>
-</br>
 
 <details>
 <summary> <b> 1. Implementing Orders smart table in Add View</b> </summary>
