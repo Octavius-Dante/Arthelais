@@ -73,6 +73,16 @@
 </details>
 
 <details>
+<summary> <b> Implementing - Get Expensive product in the screen on Button click</b> </summary>
+</br></br>
+
+This activity is based on Function import operation fro OData service 
+</br>
+
+</br></br>
+</details>
+
+<details>
 <summary> <b> Implementing Update Data on press of button</b> </summary>
 </br>
 </br></br>
