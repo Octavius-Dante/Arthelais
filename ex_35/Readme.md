@@ -17,6 +17,27 @@
 
 ```JS
 
+    onInit: function () {
+        this.oModel = new JSONModel();
+        this.oModel.setData({
+            "productData": {
+                "PRODUCT_ID": "",
+                "TYPE_CODE": "PR",
+                "CATEGORY": "Notebooks",
+                "NAME": "<enter name>",
+                "DESCRIPTION": "<Enter Desc.>",
+                "SUPPLIER_ID": "0100000051",
+                "SUPPLIER_NAME": "TECUM",
+                "TAX_TARIF_CODE": "1 ",
+                "PRICE": "0",
+                "CURRENCY_CODE": "USD",
+                "DIM_UNIT": "CM"
+            }
+        });
+        // setthing this model to view
+        this.getView().setModel(this.oModel, "viewModel");
+    },
+
     onSave: function () {
         // MessageBox.confirm("This functionality is under construction");            
         // Step 1 : Prepare the Payload
