@@ -288,7 +288,16 @@ herculis: function(oEvent){
 
 </br>
 
+**This affects performance since there are many orders to be displayed in the M-table on selection of View 2 this logic is written below Supplier association so it takes time to load even the supplier data**
+
+**Need to find -- ALTERNATIVE--- option for showing only limited records or improve performance**
+
 </br></br>
+
+
+
+</br></br>
+
 </details>
 
 
