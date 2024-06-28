@@ -159,9 +159,9 @@ Implementation code code class (ORDER_GET_ENTITYSET)
 
     READ TABLE IT_KEY_TAB INTO DATA(LS_KEY_TAB) INDEX 1.
 
-    LT_PROD = VALUE #( ( SIGN = 'I' OPTION = 'EQ'  LOW = LV_PROD_ID ) ).
-
     LV_PROD_ID = LS_KEY_TAB-VALUE.
+
+    LT_PROD = VALUE #( ( SIGN = 'I' OPTION = 'EQ'  LOW = LV_PROD_ID ) ).
 
     CALL FUNCTION 'BAPI_EPM_SO_GET_LIST'
 *  EXPORTING
@@ -175,7 +175,9 @@ Implementation code code class (ORDER_GET_ENTITYSET)
 *       RETURN            =                  " Return Parameter
       .
 
-    ET_ENTITYSET = LT_HEADER.
+*    ET_ENTITYSET = LT_HEADER.
+
+    LT_HEADER = CORRESPONDING #( ET_ENTITYSET ).
 
   ENDMETHOD.
 
