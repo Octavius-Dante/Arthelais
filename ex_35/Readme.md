@@ -15,6 +15,12 @@
 <img src="./files/ui5e35-4.png" ></br></br>
 <img src="./files/ui5e35-3.png" ></br></br>
 
+</br>
+
+IN Add.view.Xml 
+
+</br>
+
 ```XML
 
 <footer>
@@ -25,6 +31,10 @@
 </footer>  
 
 ```
+
+</br>
+
+In Add.controller.js
 
 </br>
 
@@ -84,6 +94,12 @@
 <img src="./files/ui5e35-6.png" ></br></br>
 <img src="./files/ui5e35-7.png" ></br></br>
 
+</br>
+
+IN Add.view.Xml 
+
+</br>
+
 ```XML
 
 <footer>
@@ -94,6 +110,10 @@
 </footer>  
 
 ```
+
+</br>
+
+In Add.controller.js
 
 </br>
 
@@ -124,11 +144,21 @@
 <img src="./files/ui5e35-11.png" ></br></br>
 <img src="./files/ui5e35-12a.png" ></br></br>
 
+</br
+
+IN Add.view.Xml 
+
+</br>
+
 ```XML
 
     <Input id="name" submit="onEnter" value="{viewModel>/productData/PRODUCT_ID}" /> 
 
 ```
+
+</br>
+
+In Add.controller.js
 
 </br>
 
@@ -184,11 +214,21 @@
 <img src="./files/ui5e35-26.png"></br></br>
 <img src="./files/ui5e35-27.png"></br></br>
 
+</br>
+
+IN Add.view.Xml 
+
+</br>
+
 ```XML
 
     <Button icon="sap-icon://monitor-payments" tooltip="Load Most expensive product" press="onMostExp" text="Expensive Prod" />
 
 ```
+
+</br>
+
+In Add.controller.js
 
 </br>
 
@@ -227,6 +267,12 @@
 <img src="./files/ui5e35-33.png"></br></br>
 <img src="./files/ui5e35-34.png"></br></br>
 
+</br>
+
+IN Add.view.Xml 
+
+</br>
+
 ```XML
 
 <footer>
@@ -237,6 +283,10 @@
 </footer>  
 
 ```
+
+</br>
+
+In Add.controller.js
 
 </br>
 
@@ -283,6 +333,12 @@
 <img src="./files/ui5e35-38.png"></br></br>
 <img src="./files/ui5e35-39.png"></br></br>
 
+</br>
+
+IN Add.view.Xml 
+
+</br>
+
 ```XML
 
 <footer>
@@ -293,6 +349,10 @@
 </footer>  
 
 ```
+
+</br>
+
+In Add.controller.js
 
 </br>
 
