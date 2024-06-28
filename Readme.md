@@ -112,6 +112,10 @@ ORIGINAL BLOG : https://github.com/sonmezfurkan/UI5_from_scratch
 
 FORKED FROM ORIGINAL : https://github.com/Octavius-Dante/UI5_from_scratch
 
+YOUTUBE-1 : https://www.youtube.com/playlist?list=PLP_7HQeZf7LKjQU-aEvJLeg6xsWiiuX-j
+
+YOUTUBE-2 : https://www.youtube.com/playlist?list=PLlZBMkVFeev52nPXdQYNDfUUw1RhGUGwu
+
 </br></br>
 
 ## Data generation in SAP on-prem system 
