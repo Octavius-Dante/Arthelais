@@ -596,9 +596,38 @@ IN Add.view.Xml
 
 ```XML
 
-    <smarttable:SmartTable width="100%" direction="Column" fitContainer="true" 
-    tableType="ResponsiveTable" header="Smart Table" 
-    enableAutoBinding="true" xmlns:sap.ui.comp.smarttable="sap.ui.comp.smarttable" id="table0"/>
+    <Table id="idTable" items="{viewModel>/productData/To_Orders}">
+        <columns>
+            <Column >
+                <header>
+                    <Text text="Order ID" />
+                </header>
+            </Column>
+            <Column >
+                <header>
+                    <Text text="Buyer ID" />
+                </header>
+            </Column>				
+            <Column >
+                <header>
+                    <Text text="Buyer Name" />
+                </header>
+            </Column>					
+            <Column >
+                <header>
+                    <Text text="Gross Amount" />
+                </header>
+            </Column>						
+        </columns>
+        <items>
+            <ColumnListItem >
+                    <Text text="{viewModel>SO_ID}"></Text>
+                    <Text text="{viewModel>BUYER_ID}"></Text>
+                    <Text text="{viewModel>BUYER_NAME}"></Text>
+                    <Text text="{viewModel>GROSS_AMOUNT} {viewModel>CURRENCY_CODE}"></Text>
+            </ColumnListItem>
+        </items>
+    </Table>
 
 ```
 
@@ -630,32 +659,45 @@ In Add.controller.js
                 /////////////////////////////////
             }
         });
-        // setthing this model to view
+        // setting this model to view
         this.getView().setModel(this.oModel, "viewModel");
     },
 
 
     onEnter: function (oEvent) {
+
         var that = this;
         // Step 1 : read the product id from screen
         var sText = oEvent.getSource().getValue();
         // Step 2 : Get the odata model object 
         var oDataModel = this.getView().getModel();
         // Step 3 : Fire the read call 
-        // oDataModel.read("/ProductSet('" + sText + "')", {
-///////////////////////////////////////////////////////////////////////////////////////        
-        oDataModel.read("/ProductSet('" + sText + "')?$expand=To_Orders", {            
-///////////////////////////////////////////////////////////////////////////////////////               
-            // Step 4 : Handle success - set data to our local model 
-            success: function (data) {
-                that.oModel.setProperty("/productData", data);
+
+        // enable loading indicator to show before processing
+        this.getView().setBusy(true);            
+        oDataModel.read("/ProductSet('" + sText + "')", {                
+            // $expand parameters
+            urlParameters:{
+                "$expand": "To_Orders"
             },
+
+            // Step 4 : Handle success - set data to our local model 
+            success: function(data) {
+                // disable loading indicator process is going to end
+                that.getView().setBusy(false);
+                that.oModel.setProperty("/productData", data);
+            //$expand parameter mapping
+                that.oModel.setProperty("/productData/To_Orders", data.To_Orders.results);                     
+            },
+
             // Step 5 : Error handling (input validation)
-            error: function (oError) {
+            error: function (oError) {                   
+                // disable loading indicator process is going to end
+                that.getView().setBusy(false);
                 var errorText = JSON.parse(oError.responseText).error.innererror.errordetails[0].message;
                 MessageBox.error(errorText);
             }
-        })
+        });
     },
 
 ```
