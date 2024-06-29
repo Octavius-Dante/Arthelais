@@ -85,7 +85,7 @@ git commit -m "My first version-description"
 <img src="./files/ui5e36-10.png"></br></br>
 <img src="./files/ui5e36-11.png"></br></br>
 <img src="./files/ui5e36-12.png"></br></br>
-<img src="./files/ui5e36-13.png"></br></br>
+<img src="./files/ui5e36-13a.png"></br></br>
 
 
 *Need to perform listed commands one by one to make the BAS local git repository to be pushed to GIthub online repository*
