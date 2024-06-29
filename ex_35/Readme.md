@@ -8,7 +8,7 @@
 </br>
 
 <details>
-<summary> <b> Implementing Product save logic - POST operation</b> </summary>
+<summary> <b> Implementing Create Data - POST operation - Product Save logic</b> </summary>
 </br>
 <img src="./files/ui5e35-1.png" ></br></br>
 <img src="./files/ui5e35-2.png" ></br></br>
@@ -119,6 +119,8 @@ In Add.controller.js
 
 ```JS
 
+// this.oModel is defined in onInit function - Check First Step - Create Data - POST operation 
+
     onClear: function () {
         // we can clear data in our local model 
         var payload = this.oModel.getProperty("/productData");
@@ -163,6 +165,8 @@ In Add.controller.js
 </br>
 
 ```JS
+
+// this.oModel is defined in onInit function - Check First Step - Create Data - POST operation 
 
     onEnter: function (oEvent) {
         var that = this;
@@ -233,6 +237,8 @@ In Add.controller.js
 </br>
 
 ```JS
+
+// this.oModel is defined in onInit function - Check First Step - Create Data - POST operation 
 
     onMostExp: function () {
         var that = this;
@@ -336,6 +342,8 @@ In Add.controller.js
 
 ```JS
 
+// this.oModel is defined in onInit function - Check First Step - Create Data - POST operation 
+
     onUpdate: function () {
         var oDataModel = this.getView().getModel();
 
@@ -401,6 +409,8 @@ In Add.controller.js
 </br>
 
 ```JS
+
+// this.oModel is defined in onInit function - Check First Step - Create Data - POST operation 
 
     onDelete: function (oEvent) {
         //for update call oDataModel.update("/Entity", payload)
@@ -587,7 +597,7 @@ herculis: function(oEvent){
         }
     }); // binding with /fruits/4 -
 
-/// This is the association call To_Orders
+/// This is the association call To_Orders but even without following code it works 
 //////////////////////////////////////////////////////////
     var sPath2 = this.extractPath(oEvent);
     this.getView().bindElement({
