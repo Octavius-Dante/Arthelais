@@ -54,6 +54,18 @@ git init
 <img src="./files/ui5e36-3.png"></br></br>
 <img src="./files/ui5e36-4.png"></br></br>
 <img src="./files/ui5e36-5.png"></br></br>
+
+*Local git commit - all the files in the directory are prepared for staging*
+
+Command : 
+</br>
+
+```bat
+git add .
+```
+
+</br>
+
 <img src="./files/ui5e36-6.png"></br></br>
 <img src="./files/ui5e36-7.png"></br></br>
 <img src="./files/ui5e36-8.png"></br></br>
