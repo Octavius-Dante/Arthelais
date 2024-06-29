@@ -2,8 +2,61 @@
 
 
 </br></br>
+</br>
+
 </br></br>
+
 </br></br>
+
+</br></br>
+
+</br></br>
+
+</br></br>
+
+</br></br>
+
+</br></br>
+
+</br></br>
+
+</br></br>
+
+
+
+## Git Hub Integration from BAS
+
+</br>
+
+**Why there is a need of GitHub** : *when a developer wants to share the code with another developer working in another editor they may need to copy it and paste it and share it via text file this may looks like a simple activity but when a project involves so much views, local models and controller file and backup files and other essential config files it gets huge and there is a possibility of human error in putting the code in files this laborious activity can be simplified* 
+
+~~~ There is an option of archiving the project and sharing it but what if there are tons of projects to archive many files manually have to select it and archive it and download it still so much activity when there is multiple and so many projects*
+
+</br>
+
+</br></br>
+
+</br></br>
+
+</br></br>
+
+</br></br>
+
+</br></br>
+
+</br></br>
+
+</br></br>
+
+</br></br>
+
+
+</br>
+</br></br>
+
+
+
+
 
 ## End of Exercise 36 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_37"> Exercise 37-Deploy app to launchpad </a>
 </br>
