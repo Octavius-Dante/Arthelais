@@ -34,7 +34,9 @@
 
 *There is an option of archiving the project and sharing it but what if there are tons of projects to archive many files manually have to select it and archive it and download it still so much activity still it is tedious*
 
-*This is where* **GitHub Shine**.
+*Apart from code sharing let say there are many developers working in a project and one of the developers made a logic changes and removed a block of code and next day it is reviewed by superiors amd found that this change is not perfect and asking to revert the code changes now there is no way of tracking what piece of code is removed and no way to revert it back to original previous version* 
+
+*all the above mentioned problems can be resolved using* **Github** *it is a repository management system it maintains versioning and changes tracking*
 
 </br>
 
