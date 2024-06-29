@@ -108,6 +108,16 @@ git push -u origin main
 
 ```
 
+</br>
+
+**Essential Pre-requisites**
+
+1. The github account mail id and BTP-BAS account mail id should be same
+2. Github account should be logged in the browser and in the same browser BAS-BTP account should be logged in
+3. If above steps are done correctly then while performing remote git hub linking and pushing step will trigger and Git hub authorization process
+
+</br>
+
 <img src="./files/ui5e36-14.png"></br></br>
 <img src="./files/ui5e36-15.png"></br></br>
 <img src="./files/ui5e36-16.png"></br></br>
@@ -115,6 +125,8 @@ git push -u origin main
 <img src="./files/ui5e36-18.png"></br></br>
 <img src="./files/ui5e36-19.png"></br></br>
 <img src="./files/ui5e36-20.png"></br></br>
+
+
 <img src="./files/ui5e36-21.png"></br></br>
 <img src="./files/ui5e36-22.png"></br></br>
 <img src="./files/ui5e36-23.png"></br></br>
