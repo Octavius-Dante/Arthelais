@@ -37,7 +37,7 @@ SAP WEBIDE can be downloaded from this page : https://tools.hana.ondemand.com/#s
 
 <img src="./files/ui5e36-2.png"></br></br>
 
-*Do initiate git processing for the project files*
+*Initiate git processing for the project files*
 
 Command : 
 </br>
