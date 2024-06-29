@@ -349,12 +349,12 @@ In Add.controller.js
 
         var payload = this.oModel.getProperty("/productData");
         
-        payload.PRODUCT_ID = this.getView().byId("prod_id").getValue();
-        payload.NAME = this.getView().byId("prod_name").getValue(); // product_id
-        payload.DESCRIPTION = this.getView().byId("prod_desc").getValue(); // description 
-        payload.SUPPLIER_ID = this.getView().byId("prod_supplier").getValue(); // Supplier_id
-        payload.CURRENCY_CODE = this.getView().byId("prod_currency").getValue(); // Currency_code
-        payload.PRICE = this.getView().byId("prod_price").getValue(); // price
+        payload.PRODUCT_ID     = this.getView().byId("prod_id").getValue();        // product_id
+        payload.NAME           = this.getView().byId("prod_name").getValue();      // product_name
+        payload.DESCRIPTION    = this.getView().byId("prod_desc").getValue();      // description 
+        payload.SUPPLIER_ID    = this.getView().byId("prod_supplier").getValue();  // Supplier_id
+        payload.CURRENCY_CODE  = this.getView().byId("prod_currency").getValue();  // Currency_code
+        payload.PRICE          = this.getView().byId("prod_price").getValue();     // price
 
         this.oModel.setProperty("/productData", payload);
 
