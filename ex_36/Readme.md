@@ -1,28 +1,17 @@
 ## Exercise 36 - WebIde and Git integration
 
-
-</br></br>
 </br>
 
-</br></br>
+**SAP Webide is not preferred for UI5 developments in 2024 any more but it still has good physical layout editor for learning purpose it can be used**
 
-</br></br>
 
-</br></br>
+SAP WEBIDE can be downloaded from this page : https://tools.hana.ondemand.com/#sapui5
 
-</br></br>
 
-</br></br>
+<img src="./files/ui5e36-1.png"></br></br>
 
-</br></br>
 
 </br></br>
-
-</br></br>
-
-</br></br>
-
-
 
 ## Git Hub Integration from BAS
 
@@ -45,7 +34,7 @@
 </br>
 </br>
 
-<img src="./files/ui5e36-1.png"></br></br>
+
 <img src="./files/ui5e36-2.png"></br></br>
 <img src="./files/ui5e36-3.png"></br></br>
 <img src="./files/ui5e36-4.png"></br></br>
