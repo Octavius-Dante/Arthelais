@@ -67,6 +67,18 @@ git add .
 </br>
 
 <img src="./files/ui5e36-6.png"></br></br>
+
+*git commit process with description - all the files in the directory are committed*
+
+Command : 
+</br>
+
+```bat
+git commit -m "My first version-description"
+```
+
+</br>
+
 <img src="./files/ui5e36-7.png"></br></br>
 <img src="./files/ui5e36-8.png"></br></br>
 <img src="./files/ui5e36-9.png"></br></br>
