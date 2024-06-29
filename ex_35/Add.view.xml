@@ -1,0 +1,91 @@
+<mvc:View xmlns:smarttable="sap.ui.comp.smarttable" xmlns:uxap="sap.uxap" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+          xmlns:f="sap.ui.layout.form"
+          xmlns:l="sap.ui.layout"
+          controllerName="emc.hr.payroll.controller.Add">
+    <Page title="Add New Product" showNavButton="true" 
+    navButtonPress="onBack">
+
+	<VBox class="sapUiSmallMargin">
+		<f:SimpleForm id="SimpleFormChange354"
+			editable="true"
+			layout="ResponsiveGridLayout" title="Address"
+			labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+			labelSpanS="12" adjustLabelSpan="false"
+			emptySpanXL="4" emptySpanL="4" emptySpanM="4" 
+			emptySpanS="0" 	columnsXL="1" columnsL="1" columnsM="1"
+			singleContainerFullSize="false" >
+			<f:content>
+			
+				<Label text="Product Id" />
+				<Input id="name" submit="onEnter" value="{viewModel>/productData/PRODUCT_ID}" /> 
+				<!-- change="onEnter" -->
+
+				<Button icon="sap-icon://monitor-payments" tooltip="Load Most expensive product" press="onMostExp" text="Expensive Prod" />
+
+				<Label text="Name" />
+				<Input id="prod_name" value="{viewModel>/productData/NAME}">
+
+				</Input>
+				<Input id="prod_desc" value="{viewModel>/productData/DESCRIPTION}">
+					<layoutData>
+						<l:GridData span="XL1 L2 M2 S4" />
+					</layoutData>
+				</Input>
+				<Label text="Supplier Id" />
+				<Input id="prod_supplier" value="{viewModel>/productData/SUPPLIER_ID}">
+					<layoutData>
+						<l:GridData span="XL1 L2 M2 S4" />
+					</layoutData>
+				</Input>
+				<Label text="Price/Currency" />
+                <Input id="prod_price" type="Number" value="{viewModel>/productData/PRICE}" />
+                <Input id="prod_currency" value="{viewModel>/productData/CURRENCY_CODE}" />
+			</f:content>			
+		</f:SimpleForm>
+		<ToolbarSpacer ></ToolbarSpacer>	
+		
+		<Table id="idTable" items="{viewModel>/productData/To_Orders}">
+			<columns>
+				<Column >
+					<header>
+						<Text text="Order ID" />
+					</header>
+				</Column>
+				<Column >
+					<header>
+						<Text text="Buyer ID" />
+					</header>
+				</Column>				
+				<Column >
+					<header>
+						<Text text="Buyer Name" />
+					</header>
+				</Column>					
+				<Column >
+					<header>
+						<Text text="Gross Amount" />
+					</header>
+				</Column>						
+			</columns>
+			<items>
+				<ColumnListItem >
+						<Text text="{viewModel>SO_ID}"></Text>
+						<Text text="{viewModel>BUYER_ID}"></Text>
+						<Text text="{viewModel>BUYER_NAME}"></Text>
+						<Text text="{viewModel>GROSS_AMOUNT} {viewModel>CURRENCY_CODE}"></Text>
+				</ColumnListItem>
+			</items>
+		</Table>
+
+	</VBox>    
+    <footer>
+        <Toolbar>
+            <ToolbarSpacer></ToolbarSpacer>
+            <Button icon="sap-icon://save" press="onSave" text="Save"></Button>
+			<Button icon="sap-icon://clear-all" press="onClear" text="Clear"></Button>
+			<Button icon="sap-icon://delete" press="onDelete" text="Delete record"></Button>
+			<Button icon="sap-icon://request" press="onUpdate" text="Update record"></Button>			
+        </Toolbar>        
+    </footer>
+    </Page>
+</mvc:View>         

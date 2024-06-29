@@ -275,6 +275,50 @@ IN Add.view.Xml
 
 ```XML
 
+<f:SimpleForm id="SimpleFormChange354"
+    editable="true"
+    layout="ResponsiveGridLayout" title="Address"
+    labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+    labelSpanS="12" adjustLabelSpan="false"
+    emptySpanXL="4" emptySpanL="4" emptySpanM="4" 
+    emptySpanS="0" 	columnsXL="1" columnsL="1" columnsM="1"
+    singleContainerFullSize="false" >
+    <f:content>
+    
+        <Label text="Product Id" />
+        <!--PRODUCT ID CODE-->
+        <Input id="prod_id" submit="onEnter" value="{viewModel>/productData/PRODUCT_ID}" /> 
+
+        <Button icon="sap-icon://monitor-payments" tooltip="Load Most expensive product" 
+        press="onMostExp" text="Expensive Prod" />
+
+        <Label text="Name" />
+        <!--PRODUCT NAME-->
+        <Input id="prod_name" value="{viewModel>/productData/NAME}">
+
+        </Input>
+        <!--PRODUCT DESCRIPTION TEXT-->
+        <Input id="prod_desc" value="{viewModel>/productData/DESCRIPTION}">
+            <layoutData>
+                <l:GridData span="XL1 L2 M2 S4" />
+            </layoutData>
+        </Input>
+        <Label text="Supplier Id" />
+        <!--SUPPLIER ID CODE-->
+        <Input id="prod_supplier" value="{viewModel>/productData/SUPPLIER_ID}">
+            <layoutData>
+                <l:GridData span="XL1 L2 M2 S4" />
+            </layoutData>
+        </Input>
+        <Label text="Price/Currency" />
+        <!--PRODUCT PRICE AMOUNT-->
+        <Input id="prod_price" type="Number" value="{viewModel>/productData/PRICE}" />
+        <!--PRODUCT CURRENCY CODE-->
+        <Input id="prod_currency" value="{viewModel>/productData/CURRENCY_CODE}" />
+    </f:content>			
+</f:SimpleForm>
+
+
 <footer>
     <Toolbar>
         <ToolbarSpacer></ToolbarSpacer>
@@ -297,7 +341,7 @@ In Add.controller.js
 
         var payload = this.oModel.getProperty("/productData");
         
-        payload.PRODUCT_ID = this.getView().byId("name").getValue();
+        payload.PRODUCT_ID = this.getView().byId("prod_id").getValue();
         payload.NAME = this.getView().byId("prod_name").getValue(); // product_id
         payload.DESCRIPTION = this.getView().byId("prod_desc").getValue(); // description 
         payload.SUPPLIER_ID = this.getView().byId("prod_supplier").getValue(); // Supplier_id
