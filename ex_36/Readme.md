@@ -127,6 +127,10 @@ git push -u origin main
 </br>
 </details>
 
+</br>
+</br>
+
+Repository that got created in this session : https://github.com/Octavius-Dante/Fiori_demo_git_push/tree/main
 
 </br>
 </br></br>
