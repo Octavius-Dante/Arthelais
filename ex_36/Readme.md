@@ -122,7 +122,6 @@ git push -u origin main
 <img src="./files/ui5e36-17.png"></br></br>
 <img src="./files/ui5e36-18.png"></br></br>
 <img src="./files/ui5e36-19.png"></br></br>
-<img src="./files/ui5e36-20.png"></br></br>
 
 </br>
 </br>
