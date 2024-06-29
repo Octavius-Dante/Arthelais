@@ -86,6 +86,21 @@ git commit -m "My first version-description"
 <img src="./files/ui5e36-11.png"></br></br>
 <img src="./files/ui5e36-12.png"></br></br>
 <img src="./files/ui5e36-13.png"></br></br>
+
+
+*Need to perform listed commands one by one to make the BAS local git repository to be pushed to GIthub online repository*
+
+Command : 
+</br>
+
+```BAT
+
+git branch -M main
+git remote add origin https://github.com/Octavius-Dante/Fiori_demo_git_push.git
+git push -u origin main
+
+```
+
 <img src="./files/ui5e36-14.png"></br></br>
 <img src="./files/ui5e36-15.png"></br></br>
 <img src="./files/ui5e36-16.png"></br></br>
