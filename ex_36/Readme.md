@@ -28,7 +28,7 @@
 
 </br>
 
-**Why there is a need of GitHub** : 
+**Why there is a need for GitHub** : 
 
 *when a developer wants to share the code with another developer working in another editor they may need to copy it and paste it and share it via text file this may looks like a simple activity but when a project involves so much views, local models and controller file and backup files and other essential config files it gets huge and there is a possibility of human error in putting the code in files this laborious activity can be simplified* 
 
