@@ -53,6 +53,13 @@ git init
 
 <img src="./files/ui5e36-3.png"></br></br>
 <img src="./files/ui5e36-4.png"></br></br>
+
+</br>
+
+If git ignore file is not created create it using touch command- https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+</br>
+
 <img src="./files/ui5e36-5.png"></br></br>
 
 *Local git commit - all the files in the directory are prepared for staging*
