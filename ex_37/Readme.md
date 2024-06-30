@@ -10,6 +10,14 @@
 
 </br>
 
+**TCODE :**
+
+*Fiori Launchpad designer - /n/ui2/flpd_conf*
+
+*Fiori Launchpad - /n/ui2/flp*
+
+</br>
+
 <details>
 <summary> <b> Step By Step process - Fiori App deployment </b> </summary>
 </br>
