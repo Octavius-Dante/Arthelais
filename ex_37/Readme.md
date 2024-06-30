@@ -434,7 +434,7 @@ http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet/$count
 
 // The following section of the link used for dynamic tile value in Launchpad setting
 
-sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet/$count
+/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet/$count
 
 ```
 
