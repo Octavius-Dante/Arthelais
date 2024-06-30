@@ -135,9 +135,9 @@ npx fiori add deploy-config
 
 <img src="./files/ui5e37-6.png"></br></br>
 <img src="./files/ui5e37-7.png"></br></br>
-<img src="./files/ui5e37-9.png"></br></br>
-<img src="./files/ui5e37-10.png"></br></br>
-<img src="./files/ui5e37-11.png"></br></br>
+<img src="./files/ui5e37-9A.png"></br></br>
+<img src="./files/ui5e37-10A.png"></br></br>
+<img src="./files/ui5e37-11A.png"></br></br>
 <img src="./files/ui5e37-12.png"></br></br>
 
 *Second Command for Deploying to ERP -system repository*
@@ -289,8 +289,15 @@ user: ex_35-x $
 
 <img src="./files/ui5e37-18.png"></br></br>
 
+</br>
 
+**Note down the detail for configuring the app for users with role and authorizations**
 
+</br>
+
+*Go to T-code SICF and search for the ui5 service name we used during our app deployment - ZZJUNE*
+
+</br>
 
 <img src="./files/ui5e37-19.png"></br></br>
 <img src="./files/ui5e37-20.png"></br></br>
