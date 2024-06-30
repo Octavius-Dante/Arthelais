@@ -564,7 +564,7 @@ Role : ZDS_BR_MYAPPS
 <summary> <b> Solution for failed dynamic tile </b> </summary>
 </br></br>
 
-Need to implement an OSS note to the system usually the ui5 launch pad is running using http request and this fiori dynamic tile request is based on http so it will show following error
+Need to implement an OSS note to the system usually the ui5 launch pad is running using https request and this fiori dynamic tile request is based on http so it will show the following error
 
 <img src="./files/ui5e37-91.png"></br></br>
 </br>
