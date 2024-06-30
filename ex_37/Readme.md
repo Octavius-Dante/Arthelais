@@ -21,6 +21,46 @@
 </br></br>
 
 
+**package.json ~~ this build and deploy commands in this file is required for successful execution of deployment and build process**
+
+```JSON
+
+{
+  "name": "ex_35-x",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && fiori deploy --config ui5-deploy.yaml && rimraf archive.zip",
+    "undeploy": "fiori undeploy --config ui5-deploy.yaml",
+    "deploy-test": "npm run build && fiori deploy --config ui5-deploy.yaml --testMode true",
+    "build": "ui5 build -a --clean-dest",
+		"build-self-contained": "ui5 build self-contained -a --clean-dest"
+  },
+  "author": "Dante",
+  "license": "ISC",
+  "description": "fiori like app ",
+  "dependencies": {
+    "@sap/abap-deploy": "^0.10.27",
+    "@sap/approuter": "^16.6.0",
+    "@sap/html5-repo-mock": "^2.1.10",
+    "@sap/ux-ui5-tooling": "^1.14.0"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "ui5-task-flatten-library": "3.0.2"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-task-flatten-library"
+    ]
+  }
+}
+
+
+```
+
+
 **Prerequisite before starting the ui5 packaging and deployment activity**
 
 <details>
