@@ -61,7 +61,7 @@ Command :
 </br>
 
 ```bat
-
+ui5 build
 ```
 
 </br>
