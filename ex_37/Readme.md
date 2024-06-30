@@ -494,7 +494,7 @@ Role : ZDS_BR_MYAPPS
 
 </br>
 
-*in ERP Go to T-code PFCG for user role and authorization creation*
+*In ERP Go to T-code PFCG for user role and authorization creation*
 
 </br>
 
@@ -517,7 +517,7 @@ Role : ZDS_BR_MYAPPS
 
 </br>
 
-*Assigning authorization Profile to User*
+*Assigning the role to User Id*
 
 </br>
 
