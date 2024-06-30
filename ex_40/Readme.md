@@ -1,9 +1,174 @@
-## Exercise 40 - Using Flexible Control Layout
-
+## Exercise 40 - Using Flexible Column Layout
 
 
 </br></br>
-</br></br>
+</br>
+
+
+**SAP Ui5 SDK has a tutorial to implement the Flexible column layout app** 
+
+<img src="./files/ui5e40-1.png"></br></br>
+<img src="./files/ui5e40-2.png"></br></br>
+<img src="./files/ui5e40-3.png"></br></br>
+<img src="./files/ui5e40-4.png"></br></br>
+<img src="./files/ui5e40-5.png"></br></br>
+<img src="./files/ui5e40-6.png"></br></br>
+<img src="./files/ui5e40-7.png"></br></br>
+<img src="./files/ui5e40-8.png"></br></br>
+<img src="./files/ui5e40-9.png"></br></br>
+<img src="./files/ui5e40-10.png"></br></br>
+<img src="./files/ui5e40-11.png"></br></br>
+<img src="./files/ui5e40-12.png"></br></br>
+<img src="./files/ui5e40-13.png"></br></br>
+<img src="./files/ui5e40-14.png"></br></br>
+<img src="./files/ui5e40-15.png"></br></br>
+<img src="./files/ui5e40-16.png"></br></br>
+<img src="./files/ui5e40-17.png"></br></br>
+<img src="./files/ui5e40-18.png"></br></br>
+<img src="./files/ui5e40-19.png"></br></br>
+<img src="./files/ui5e40-20.png"></br></br>
+<img src="./files/ui5e40-21.png"></br></br>
+<img src="./files/ui5e40-22.png"></br></br>
+<img src="./files/ui5e40-23.png"></br></br>
+<img src="./files/ui5e40-24.png"></br></br>
+<img src="./files/ui5e40-25.png"></br></br>
+<img src="./files/ui5e40-26.png"></br></br>
+<img src="./files/ui5e40-27.png"></br></br>
+<img src="./files/ui5e40-28.png"></br></br>
+<img src="./files/ui5e40-29.png"></br></br>
+<img src="./files/ui5e40-30.png"></br></br>
+<img src="./files/ui5e40-31.png"></br></br>
+<img src="./files/ui5e40-32.png"></br></br>
+<img src="./files/ui5e40-33.png"></br></br>
+<img src="./files/ui5e40-34.png"></br></br>
+<img src="./files/ui5e40-35.png"></br></br>
+<img src="./files/ui5e40-36.png"></br></br>
+<img src="./files/ui5e40-37.png"></br></br>
+<img src="./files/ui5e40-38.png"></br></br>
+<img src="./files/ui5e40-39.png"></br></br>
+<img src="./files/ui5e40-40.png"></br></br>
+<img src="./files/ui5e40-41.png"></br></br>
+<img src="./files/ui5e40-42.png"></br></br>
+<img src="./files/ui5e40-43.png"></br></br>
+<img src="./files/ui5e40-44.png"></br></br>
+<img src="./files/ui5e40-45.png"></br></br>
+<img src="./files/ui5e40-46.png"></br></br>
+<img src="./files/ui5e40-47.png"></br></br>
+<img src="./files/ui5e40-48.png"></br></br>
+<img src="./files/ui5e40-49.png"></br></br>
+<img src="./files/ui5e40-50.png"></br></br>
+<img src="./files/ui5e40-51.png"></br></br>
+<img src="./files/ui5e40-52.png"></br></br>
+<img src="./files/ui5e40-53.png"></br></br>
+<img src="./files/ui5e40-54.png"></br></br>
+<img src="./files/ui5e40-55.png"></br></br>
+<img src="./files/ui5e40-56.png"></br></br>
+<img src="./files/ui5e40-57.png"></br></br>
+<img src="./files/ui5e40-58.png"></br></br>
+<img src="./files/ui5e40-59.png"></br></br>
+<img src="./files/ui5e40-60.png"></br></br>
+<img src="./files/ui5e40-61.png"></br></br>
+<img src="./files/ui5e40-62.png"></br></br>
+<img src="./files/ui5e40-63.png"></br></br>
+<img src="./files/ui5e40-64.png"></br></br>
+<img src="./files/ui5e40-65.png"></br></br>
+<img src="./files/ui5e40-66.png"></br></br>
+<img src="./files/ui5e40-67.png"></br></br>
+<img src="./files/ui5e40-68.png"></br></br>
+<img src="./files/ui5e40-69.png"></br></br>
+<img src="./files/ui5e40-70.png"></br></br>
+<img src="./files/ui5e40-71.png"></br></br>
+<img src="./files/ui5e40-72.png"></br></br>
+<img src="./files/ui5e40-73.png"></br></br>
+<img src="./files/ui5e40-74.png"></br></br>
+<img src="./files/ui5e40-75.png"></br></br>
+<img src="./files/ui5e40-76.png"></br></br>
+<img src="./files/ui5e40-77.png"></br></br>
+<img src="./files/ui5e40-78.png"></br></br>
+<img src="./files/ui5e40-79.png"></br></br>
+<img src="./files/ui5e40-80.png"></br></br>
+<img src="./files/ui5e40-81.png"></br></br>
+<img src="./files/ui5e40-82.png"></br></br>
+<img src="./files/ui5e40-83.png"></br></br>
+<img src="./files/ui5e40-84.png"></br></br>
+<img src="./files/ui5e40-85.png"></br></br>
+<img src="./files/ui5e40-86.png"></br></br>
+<img src="./files/ui5e40-87.png"></br></br>
+<img src="./files/ui5e40-88.png"></br></br>
+<img src="./files/ui5e40-89.png"></br></br>
+<img src="./files/ui5e40-90.png"></br></br>
+<img src="./files/ui5e40-91.png"></br></br>
+<img src="./files/ui5e40-92.png"></br></br>
+<img src="./files/ui5e40-93.png"></br></br>
+<img src="./files/ui5e40-94.png"></br></br>
+<img src="./files/ui5e40-95.png"></br></br>
+<img src="./files/ui5e40-96.png"></br></br>
+<img src="./files/ui5e40-97.png"></br></br>
+<img src="./files/ui5e40-98.png"></br></br>
+<img src="./files/ui5e40-99.png"></br></br>
+<img src="./files/ui5e40-100.png"></br></br>
+<img src="./files/ui5e40-101.png"></br></br>
+<img src="./files/ui5e40-102.png"></br></br>
+<img src="./files/ui5e40-103.png"></br></br>
+<img src="./files/ui5e40-104.png"></br></br>
+<img src="./files/ui5e40-105.png"></br></br>
+<img src="./files/ui5e40-106.png"></br></br>
+<img src="./files/ui5e40-107.png"></br></br>
+<img src="./files/ui5e40-108.png"></br></br>
+<img src="./files/ui5e40-109.png"></br></br>
+<img src="./files/ui5e40-110.png"></br></br>
+<img src="./files/ui5e40-111.png"></br></br>
+<img src="./files/ui5e40-112.png"></br></br>
+<img src="./files/ui5e40-113.png"></br></br>
+<img src="./files/ui5e40-114.png"></br></br>
+<img src="./files/ui5e40-115.png"></br></br>
+<img src="./files/ui5e40-116.png"></br></br>
+<img src="./files/ui5e40-117.png"></br></br>
+<img src="./files/ui5e40-118.png"></br></br>
+<img src="./files/ui5e40-119.png"></br></br>
+<img src="./files/ui5e40-120.png"></br></br>
+<img src="./files/ui5e40-121.png"></br></br>
+<img src="./files/ui5e40-122.png"></br></br>
+<img src="./files/ui5e40-123.png"></br></br>
+<img src="./files/ui5e40-124.png"></br></br>
+<img src="./files/ui5e40-125.png"></br></br>
+<img src="./files/ui5e40-126.png"></br></br>
+<img src="./files/ui5e40-127.png"></br></br>
+<img src="./files/ui5e40-128.png"></br></br>
+<img src="./files/ui5e40-129.png"></br></br>
+<img src="./files/ui5e40-130.png"></br></br>
+<img src="./files/ui5e40-131.png"></br></br>
+<img src="./files/ui5e40-132.png"></br></br>
+<img src="./files/ui5e40-133.png"></br></br>
+<img src="./files/ui5e40-134.png"></br></br>
+<img src="./files/ui5e40-135.png"></br></br>
+<img src="./files/ui5e40-136.png"></br></br>
+<img src="./files/ui5e40-137.png"></br></br>
+<img src="./files/ui5e40-138.png"></br></br>
+<img src="./files/ui5e40-139.png"></br></br>
+<img src="./files/ui5e40-140.png"></br></br>
+<img src="./files/ui5e40-141.png"></br></br>
+<img src="./files/ui5e40-142.png"></br></br>
+<img src="./files/ui5e40-143.png"></br></br>
+<img src="./files/ui5e40-144.png"></br></br>
+<img src="./files/ui5e40-145.png"></br></br>
+<img src="./files/ui5e40-146.png"></br></br>
+<img src="./files/ui5e40-147.png"></br></br>
+<img src="./files/ui5e40-148.png"></br></br>
+<img src="./files/ui5e40-149.png"></br></br>
+<img src="./files/ui5e40-150.png"></br></br>
+
+
+
+
+
+
+
+
+
+
+
+</br>
 </br></br>
 
 ## End of Exercise 40 ---- End Of Using Flexible Control Layout
