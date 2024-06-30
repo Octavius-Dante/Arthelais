@@ -424,6 +424,7 @@ Application id : emc.hr.payroll
 Catalog Name : ZDS_BC_MYAPPS
 Semantic Object : CLDProduct
 Action : lookup
+Group : ZDS_BCG_MYAPPS
 
 ```
 
