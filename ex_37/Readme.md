@@ -377,6 +377,10 @@ Application id : emc.hr.payroll
 
 <details>
 <summary> <b> 3. Fiori App Configuring </b> </summary>
+</br></br></br>
+
+*Go to T-code /n/ui2/flpd_conf*
+
 </br>
 <img src="./files/ui5e37-24.png"></br></br>
 <img src="./files/ui5e37-25.png"></br></br>
