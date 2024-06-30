@@ -39,7 +39,7 @@ npm install --global @ui5/cli
 
 <img src="./files/ui5e37-1a.png"></br></br>
 
-*A Demo transport is created and assigned with sample package
+*A Demo transport is created and assigned with sample package*
 
 <img src="./files/ui5e37-1b.png"></br></br>
 </details>
