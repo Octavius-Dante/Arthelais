@@ -130,7 +130,7 @@ Command :
 </br>
 
 ```bat
-abap-deploy
+npx fiori add deploy-config
 ```
 
 <img src="./files/ui5e37-6.png"></br></br>
