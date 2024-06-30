@@ -69,6 +69,13 @@ ui5 build
 
 <img src="./files/ui5e37-2.png"></br></br>
 <img src="./files/ui5e37-3.png"></br></br>
+
+</br>
+
+*Dist - Distribution*
+
+</br>
+
 <img src="./files/ui5e37-4.png"></br></br>
 <img src="./files/ui5e37-5.png"></br></br>
 <img src="./files/ui5e37-6.png"></br></br>
