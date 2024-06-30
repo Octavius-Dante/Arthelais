@@ -138,7 +138,7 @@ npm install @sap/ux-ui5-tooling
 
 
 <details>
-<summary> <b> 1. Fiori App Packaging </b> </summary>
+<summary> <b> 1. Fiori App Packaging for deployment </b> </summary>
 </br>
 
 **There is only one Command for packaging**
@@ -169,7 +169,7 @@ ui5 build
 </details>
 
 <details>
-<summary> <b> 2. Fiori App Deployment </b> </summary>
+<summary> <b> 2. Fiori App Deployment - to ERP ABAP-repository </b> </summary>
 </br>
 </br>
 
@@ -407,7 +407,7 @@ Application id : emc.hr.payroll
 </details>
 
 <details>
-<summary> <b> 3. Fiori App Configuring </b> </summary>
+<summary> <b> 3. Fiori App Configuring - the launchpad tile </b> </summary>
 </br></br></br>
 
 *Go to T-code /n/ui2/flpd_conf* 
