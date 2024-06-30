@@ -39,8 +39,18 @@ npm install --global @ui5/cli
 <img src="./files/ui5e37-1.png"></br></br>
 
 
-</br></br>
+</br>
 
+*Command for installing ABAP repository deployment*
+
+```bat
+npm install @sap/abap-deploy
+```
+
+<img src="./files/ui5e37-1c.png"></br></br>
+
+
+</br></br>
 
 **ERP system activity**
 
