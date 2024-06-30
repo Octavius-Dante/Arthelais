@@ -183,6 +183,24 @@ ui5 build
 </br>
 </br>
 
+**To carry out command 2 and 3 package.json file should have certain script commands in place ~~ Only Script section**
+
+```JSON
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && fiori deploy --config ui5-deploy.yaml && rimraf archive.zip",
+    "undeploy": "fiori undeploy --config ui5-deploy.yaml",
+    "deploy-test": "npm run build && fiori deploy --config ui5-deploy.yaml --testMode true",
+    "build": "ui5 build -a --clean-dest",
+		"build-self-contained": "ui5 build self-contained -a --clean-dest"
+  },
+
+```
+
+</br>
+</br>
+
 
 **First Command - Create a Deploy config file for the app and configure it**
 
