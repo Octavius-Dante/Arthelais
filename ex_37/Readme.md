@@ -295,7 +295,7 @@ user: ex_35-x $
 
 </br>
 
-*Go to T-code SICF and search for the ui5 service name we used during our app deployment - ZZJUNE*
+*Go to T-code SICF and search for the ui5 service name we used during our app deployment - ZZ_29062024*
 
 </br>
 
