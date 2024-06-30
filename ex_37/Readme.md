@@ -463,6 +463,10 @@ Role : ZDS_BR_MYAPPS
 
 </br>
 
+*in ERP Go to T-code PFCG for user role creation*
+
+</br>
+
 <img src="./files/ui5e37-50.png"></br></br>
 <img src="./files/ui5e37-51.png"></br></br>
 <img src="./files/ui5e37-52.png"></br></br>
