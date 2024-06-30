@@ -560,6 +560,22 @@ Role : ZDS_BR_MYAPPS
 </details>
 
 
+<details>
+<summary> <b> Solution for failed dynamic tile </b> </summary>
+</br></br>
+
+Need to implement a OSS note to the system usually the ui5 launch pad is running using http request and this fiori dynamic tile request is based on http so it will show following error
+
+<img src="./files/ui5e37-90.png"></br></br>
+</br>
+
+OSS note 
+
+https://userapps.support.sap.com/sap/support/knowledge/en/2441892
+
+</br></br>
+</details>
+
 </br>
 </br></br>
 
