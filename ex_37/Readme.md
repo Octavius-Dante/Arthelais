@@ -34,6 +34,14 @@ npm install --global @ui5/cli
 ```
 
 <img src="./files/ui5e37-1.png"></br></br>
+
+*A Demo package is created and assigned to transport*
+
+<img src="./files/ui5e37-1a.png"></br></br>
+
+*A Demo transport is created and assigned with sample package
+
+<img src="./files/ui5e37-1b.png"></br></br>
 </details>
 
 </br></br>
@@ -66,7 +74,6 @@ ui5 build
 
 </br>
 
-
 <img src="./files/ui5e37-2.png"></br></br>
 <img src="./files/ui5e37-3.png"></br></br>
 
@@ -78,6 +85,19 @@ ui5 build
 
 <img src="./files/ui5e37-4.png"></br></br>
 <img src="./files/ui5e37-5.png"></br></br>
+
+
+*Second Command for Deploying to ERP -system repository*
+
+Command : 
+</br>
+
+```bat
+abap-deploy
+```
+
+</br>
+
 <img src="./files/ui5e37-6.png"></br></br>
 <img src="./files/ui5e37-7.png"></br></br>
 <img src="./files/ui5e37-8.png"></br></br>
