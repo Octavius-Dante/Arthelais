@@ -27,6 +27,9 @@
 <summary> <b> Essential prerequisite</b> </summary>
 </br>
 
+
+**BAS activity**
+
 *Command for installing ui5 CLI -command line interface*
 
 ```bat
@@ -34,6 +37,13 @@ npm install --global @ui5/cli
 ```
 
 <img src="./files/ui5e37-1.png"></br></br>
+
+
+</br></br>
+
+
+**ERP system activity**
+
 
 *A Demo package is created and assigned to transport*
 
