@@ -26,7 +26,7 @@
 </br></br>
 
 <details>
-<summary> <b> 1.Packaging </b> </summary>
+<summary> <b> 1. Packaging </b> </summary>
 </br>
 </br>
 
