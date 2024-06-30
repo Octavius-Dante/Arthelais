@@ -25,11 +25,11 @@
 
 </br>
 
-*Fiori App packaging is done via BAS*
+*1. Fiori App packaging is done via BAS*
 
-*Fiori App deployment is done via (source) BAS using packaged build pushed to Html5 repository in Launchpad (destination on premise system)*
+*2. Fiori App deployment is done via (source) BAS using packaged build pushed to Html5 repository in Launchpad (destination on premise system)*
 
-*Final deployment to Fiori tile layout screen done by launchpad using user role and authorization configuration - also requires user role in PFCG inside ERP*
+*3. Final deployment to Fiori tile layout screen done by launchpad using user role and authorization configuration - also requires user role in PFCG inside ERP*
 
 </br>
 
