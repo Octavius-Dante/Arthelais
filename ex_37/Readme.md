@@ -177,7 +177,7 @@ ui5 build
 
 1. npx fiori add deploy-config -- *Create a Deploy config file*
 2. npm run build -- *Prepare the app files for deploy*
-3. npm run deploy -- *Deploy the App files to ERP ABAP-repository*
+3. npm run deploy -- *Deploy the App files to ERP system's ABAP-repository*
 
 
 </br>
@@ -211,7 +211,7 @@ npm run build
 
 <img src="./files/ui5e37-13.png"></br></br>
 
-**Third Command Deploy the app to ERP system ABAP repository**
+**Third Command Deploy the app to ERP system's ABAP repository**
 
 Command : 
 </br>
