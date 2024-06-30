@@ -303,6 +303,16 @@ user: ex_35-x $
 <img src="./files/ui5e37-20.png"></br></br>
 <img src="./files/ui5e37-21.png"></br></br>
 <img src="./files/ui5e37-22.png"></br></br>
+
+*when the test service option is selected from SICF T-code- app launches in browser note down the following path details it is called node name*
+
+```BAT 
+
+node name : /sap/bc/ui5_ui5/sap/zz_29062024
+
+```
+
+
 <img src="./files/ui5e37-23.png"></br></br>
 <img src="./files/ui5e37-24.png"></br></br>
 <img src="./files/ui5e37-25.png"></br></br>
