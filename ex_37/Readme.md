@@ -21,6 +21,15 @@
 </br></br>
 
 
+</br></br>
+
+**Prerequisite before starting the ui5 packaging and deployment activity**
+
+<details>
+<summary> <b> Essential prerequisite</b> </summary>
+</br></br></br>
+
+
 **package.json ~~ this build and deploy commands in this file is required for successful execution of deployment and build process**
 
 ```JSON
@@ -61,12 +70,6 @@
 ```
 
 </br></br>
-
-**Prerequisite before starting the ui5 packaging and deployment activity**
-
-<details>
-<summary> <b> Essential prerequisite</b> </summary>
-</br></br></br>
 
 
 **BAS activity**
