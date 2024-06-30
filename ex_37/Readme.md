@@ -95,7 +95,12 @@ ui5 build
 
 <img src="./files/ui5e37-4.png"></br></br>
 <img src="./files/ui5e37-5.png"></br></br>
+</details>
 
+<details>
+<summary> <b> 2. Fiori App Deployment </b> </summary>
+</br>
+</br>
 
 *Second Command for Deploying to ERP -system repository*
 
@@ -105,8 +110,6 @@ Command :
 ```bat
 abap-deploy
 ```
-
-</br>
 
 <img src="./files/ui5e37-6.png"></br></br>
 <img src="./files/ui5e37-7.png"></br></br>
@@ -254,12 +257,8 @@ abap-deploy
 <img src="./files/ui5e37-149.png"></br></br>
 <img src="./files/ui5e37-150.png"></br></br>
 
-</details>
 
-<details>
-<summary> <b> 2. Fiori App Deployment </b> </summary>
-</br>
-</br>
+
 </br>
 </details>
 
