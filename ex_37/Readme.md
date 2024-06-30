@@ -394,6 +394,19 @@ Application id : emc.hr.payroll
 <img src="./files/ui5e37-31.png"></br></br>
 <img src="./files/ui5e37-32.png"></br></br>
 <img src="./files/ui5e37-33.png"></br></br>
+
+```http
+
+// OData service link for product count
+http://s4dev.st.com:8021/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet/$count
+
+
+// The following section of the link used for dynamic tile value in Launcpad setting
+
+sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet/$count
+
+```
+
 <img src="./files/ui5e37-34.png"></br></br>
 <img src="./files/ui5e37-35.png"></br></br>
 <img src="./files/ui5e37-36.png"></br></br>
