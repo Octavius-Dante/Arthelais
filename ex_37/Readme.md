@@ -381,7 +381,7 @@ Application id : emc.hr.payroll
 
 *Go to T-code /n/ui2/flpd_conf* 
 
-*this tcode will launch in browser will take some time and some cases it requires browser enhanced security permission*
+*This T-code will launch in browser will take some time and some cases it requires browser enhanced security permission*
 
 </br>
 <img src="./files/ui5e37-24a.png"></br></br>
