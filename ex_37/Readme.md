@@ -161,6 +161,123 @@ npm run deploy
 ```
 
 <img src="./files/ui5e37-14.png"></br></br>
+
+
+**npm run deploy -- batch process log -- for reference**
+
+```bat
+
+user: ex_35-x $ npm run deploy
+
+> ex_35-x@1.0.0 deploy
+> npm run build && fiori deploy --config ui5-deploy.yaml && rimraf archive.zip
+
+
+> ex_35-x@1.0.0 build
+> ui5 build -a --clean-dest
+
+info ProjectBuilder Preparing build for project ex_35-x
+info ProjectBuilder   Target directory: ./dist
+info ProjectBuilder Cleaning target directory...
+info Project 1 of 1: ❯ Building application project ex_35-x...
+info ex_35-x › Running task escapeNonAsciiCharacters...
+info ex_35-x › Running task replaceCopyright...
+info ex_35-x › Running task replaceVersion...
+info ex_35-x › Running task minify...
+info ex_35-x › Running task generateFlexChangesBundle...
+info ex_35-x › Running task generateComponentPreload...
+info ProjectBuilder Build succeeded in 321 ms
+info ProjectBuilder Executing cleanup tasks...
+
+Confirmation is required to deploy the app:
+
+    Application Name: ZZ_29062024
+    Package: ZDEMO_DANTE
+    Transport Request: S4DK901063
+    Destination: S4D
+    SCP: false
+    
+    
+✔ Start deployment (Y/n)?
+
+ … yes
+info abap-deploy-task ZZ_29062024 Creating archive with UI5 build result.
+info abap-deploy-task ZZ_29062024 Archive created.
+info abap-deploy-task ZZ_29062024 Starting to deploy.
+info abap-deploy-task ZZ_29062024 ZZ_29062024 found on target system: false
+info abap-deploy-task ZZ_29062024 SAPUI5 Application ZZ_29062024 has been uploaded and registered successfully
+info abap-deploy-task ZZ_29062024 ***** Upload of SAPUI5 App or Library from ZIP-Archive into SAPUI5 ABAP Repository *****
+info abap-deploy-task ZZ_29062024 Running in regular mode, brief log
+info abap-deploy-task ZZ_29062024 39 Files found in Archive.
+info abap-deploy-task ZZ_29062024 * Parameters *
+info abap-deploy-task ZZ_29062024 A BAdI implementation for /UI5/BADI_REPOSITORY_LOAD is active: Operation parameters may have been adjusted.
+info abap-deploy-task ZZ_29062024 The name of the SAPUI5 repository "ZZ_29062024" has been determined from the corresponding import parameter.
+info abap-deploy-task ZZ_29062024 The binary files are identified using the standard settings.
+info abap-deploy-task ZZ_29062024 The text files are identified using the standard settings.
+info abap-deploy-task ZZ_29062024 The files and folders to be ignored are determined from the built-in standard settings.
+info abap-deploy-task ZZ_29062024 The description of the SAPUI5 repository has been determined from the corresponding import parameter.
+info abap-deploy-task ZZ_29062024 The package of the SAPUI5 Application "ZDEMO_DANTE" has been determined from the corresponding import parameter.
+info abap-deploy-task ZZ_29062024 Transport Request "S4DK901063" has been determined from the corresponding import parameter.
+info abap-deploy-task ZZ_29062024 The external Code Page Name "UTF8" has been determined from the corresponding import parameter.
+info abap-deploy-task ZZ_29062024 The acceptance of Unix style end of line markers in text files has been determined from the corresponding import parameter.
+info abap-deploy-task ZZ_29062024 Unix style end of line markers in text files get accepted.
+info abap-deploy-task ZZ_29062024 The delta mode has been turned on.
+info abap-deploy-task ZZ_29062024 Running in safe mode
+info abap-deploy-task ZZ_29062024 * Creating new SAPUI5 ABAP repository ZZ_29062024 *
+info abap-deploy-task ZZ_29062024 * Creating new SAPUI5 ABAP repository ZZ_29062024 *
+info abap-deploy-task ZZ_29062024 Upload File    : Component-dbg.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : Component-preload.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : Component-preload.js.map (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : Component.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : Component.js.map (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/Add-dbg.controller.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/Add.controller.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/Add.controller.js.map (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/App-dbg.controller.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/App.controller.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/App.controller.js.map (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/BaseController-dbg.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/BaseController.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/BaseController.js.map (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/Empty-dbg.controller.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/Empty.controller.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/Empty.controller.js.map (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/View1-dbg.controller.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/View1.controller.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/View1.controller.js.map (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/View2-dbg.controller.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/View2.controller.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : controller/View2.controller.js.map (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : css/mystyle.css (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : fragments/moreInfo.fragment.xml (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : fragments/popup.fragment.xml (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : fragments/supplierInfo.fragment.xml (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : i18n/i18n.properties (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : index.html (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : manifest.json (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : model/mockdata/fruits.json (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : util/formatter-dbg.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : util/formatter.js (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : util/formatter.js.map (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : view/Add.view.xml (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : view/App.view.xml (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : view/Empty.view.xml (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : view/View1.view.xml (Text)
+info abap-deploy-task ZZ_29062024 Upload File    : view/View2.view.xml (Text)
+info abap-deploy-task ZZ_29062024 * Updating the Application Index *
+info abap-deploy-task ZZ_29062024 Messages from its application log:
+info abap-deploy-task ZZ_29062024 Writing descriptor apps/emc.hr.payroll/app/sap/zz_29062024/
+info abap-deploy-task ZZ_29062024 For details see the application log (SLG1) in client 000 for object /UI5/APPIDX .
+info abap-deploy-task ZZ_29062024 A BAdI implementation for /UI5/BADI_REPOSITORY_LOAD is active: Final activities may have been performed.
+info abap-deploy-task ZZ_29062024 SAPUI5 Application  has been uploaded and registered successfully
+info abap-deploy-task ZZ_29062024 * Done *
+info abap-deploy-task ZZ_29062024 App available at http://122.162.240.164:8021/sap/bc/ui5_ui5/sap/zz_29062024
+info abap-deploy-task ZZ_29062024 Deployment Successful.
+user: ex_35-x $ 
+
+```
+
+
 <img src="./files/ui5e37-15.png"></br></br>
 <img src="./files/ui5e37-16.png"></br></br>
 <img src="./files/ui5e37-17.png"></br></br>
