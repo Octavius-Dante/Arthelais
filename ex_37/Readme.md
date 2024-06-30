@@ -50,6 +50,18 @@ npm install @sap/abap-deploy
 <img src="./files/ui5e37-1c.png"></br></br>
 
 
+</br>
+
+*Command for installing Fiori deployment tools*
+
+```bat
+npm install @sap/ux-ui5-tooling
+```
+
+<img src="./files/ui5e37-1d.png"></br></br>
+
+
+
 </br></br>
 
 **ERP system activity**
