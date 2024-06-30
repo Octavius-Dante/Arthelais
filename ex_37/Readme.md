@@ -23,7 +23,15 @@
 
 **Step By Step process - Fiori App deployment**
 
-</br></br>
+</br>
+
+*Fiori App packaging is done via BAS*
+
+*Fiori App deployment is done via (source) BAS using packaged build pushed to Html5 repository in Launchpad (destination on premise system)*
+
+*Final deployment to Fiori tile layout screen done by launchpad using user role and authorization configuration - also requires user role in PFCG inside ERP*
+
+</br>
 
 <details>
 <summary> <b> 1. Fiori App Packaging </b> </summary>
