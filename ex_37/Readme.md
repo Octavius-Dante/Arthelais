@@ -16,7 +16,10 @@
 
 *Fiori Launchpad - /n/ui2/flp*
 
-</br>
+</br></br>
+<img src="./files/37-Fiori-App-deployment.png">
+</br></br>
+
 
 <details>
 <summary> <b> Step By Step process - Fiori App deployment </b> </summary>
