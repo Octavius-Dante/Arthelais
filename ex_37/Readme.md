@@ -175,7 +175,7 @@ ui5 build
 
 **There are 3 Commands in deployment section**
 
-1. npx fiori add deploy-config -- *Create a Deploy config file*
+1. npx fiori add deploy-config -- *Create a Deploy config file and configure certain settings*
 2. npm run build -- *Prepare the app files for deploy*
 3. npm run deploy -- *Deploy the App files to ERP system's ABAP-repository*
 
@@ -184,7 +184,7 @@ ui5 build
 </br>
 
 
-**First Command - Create a Deploy config file for the app**
+**First Command - Create a Deploy config file for the app and configure it**
 
 Command : 
 </br>
