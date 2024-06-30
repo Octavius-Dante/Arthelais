@@ -283,7 +283,7 @@ user: ex_35-x $
 <img src="./files/ui5e37-16.png"></br></br>
 <img src="./files/ui5e37-17.png"></br></br>
 
-*The Deployment of ui5 application to ERP - abpa repository is successfull*
+*The Deployment of ui5 application to ERP - ABAP repository is successful*
 
 </br>
 
