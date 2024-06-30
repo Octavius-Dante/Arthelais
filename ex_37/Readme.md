@@ -564,15 +564,17 @@ Role : ZDS_BR_MYAPPS
 <summary> <b> 5. Solution for failed dynamic tile </b> </summary>
 </br></br>
 
-Need to implement an OSS note to the system usually the ui5 launch pad is running using https request and this fiori dynamic tile request is based on http so it will show the following error
+Failed to maintain the right path missed '/' before the sap so the value was not showing
 
-<img src="./files/ui5e37-91.png"></br></br>
-<img src="./files/ui5e37-92.png"></br>
-</br>
+```http
 
-OSS note 
+/sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet/$count
 
-https://userapps.support.sap.com/sap/support/knowledge/en/2441892
+```
+
+<img src="./files/ui5e37-92a.png"></br></br>
+<img src="./files/ui5e37-92b.png"></br></br>
+<img src="./files/ui5e37-93.png"></br></br>
 
 </br></br>
 </details>
