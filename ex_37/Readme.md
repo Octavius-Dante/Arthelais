@@ -6,6 +6,10 @@
 
 </br>
 
+*Packaging and deployment with Launchpad*
+
+</br>
+
 <details>
 <summary> <b> Step By Step process - Fiori App deployment </b> </summary>
 </br>
