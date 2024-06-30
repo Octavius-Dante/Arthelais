@@ -384,7 +384,7 @@ Application id : emc.hr.payroll
 *this tcode will launch in browser will take some time and some cases it requires browser enhanced security permission*
 
 </br>
-<img src="./files/ui5e37-24.png"></br></br>
+<img src="./files/ui5e37-24a.png"></br></br>
 <img src="./files/ui5e37-25.png"></br></br>
 <img src="./files/ui5e37-26.png"></br></br>
 <img src="./files/ui5e37-27.png"></br></br>
