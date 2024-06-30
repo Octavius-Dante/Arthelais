@@ -135,8 +135,8 @@ npx fiori add deploy-config
 
 <img src="./files/ui5e37-6.png"></br></br>
 <img src="./files/ui5e37-7.png"></br></br>
-<img src="./files/ui5e37-8.png"></br></br>
 <img src="./files/ui5e37-9.png"></br></br>
+
 <img src="./files/ui5e37-10.png"></br></br>
 <img src="./files/ui5e37-11.png"></br></br>
 <img src="./files/ui5e37-12.png"></br></br>
