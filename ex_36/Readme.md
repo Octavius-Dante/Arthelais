@@ -3,7 +3,7 @@
 </br>
 </br>
 
-**SAP Webide is not preferred for UI5 developments in 2024 any more but it has good physical layout editor for learning purpose it can be used or if you want to develop Fiori app without online support and without code completion and outdated Fiori version can choose this**
+**SAP Webide is not preferred for UI5 developments in 2024 any more but it has good physical layout editor for learning purpose it can be used or if you want to develop Fiori app without online support and without code completion assistance and developing an app with outdated Fiori version can then you can choose this**
 
 </br>
 
