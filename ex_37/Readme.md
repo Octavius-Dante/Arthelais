@@ -21,18 +21,6 @@
 </br></br>
 
 
-**Step By Step process - Fiori App deployment**
-
-</br>
-
-*1. Fiori App packaging is done via BAS*
-
-*2. Fiori App deployment is done via (source) BAS using packaged build pushed to Html5 repository in Launchpad (destination on premise system)*
-
-*3. Final deployment to Fiori tile layout screen done by launchpad using user role and authorization configuration - also requires user role in PFCG inside ERP*
-
-</br>
-
 **Prerequisite before starting the ui5 packaging and deployment activity**
 
 <details>
@@ -46,11 +34,22 @@ npm install --global @ui5/cli
 ```
 
 <img src="./files/ui5e37-1.png"></br></br>
-
 </details>
 
+</br></br>
 
-</br></br></br>
+**Step By Step process - Fiori App deployment**
+
+</br>
+
+*1. Fiori App packaging is done via BAS*
+
+*2. Fiori App deployment is done via (source) BAS using packaged build pushed to Html5 repository in Launchpad (destination on premise system)*
+
+*3. Final deployment to Fiori tile layout screen done by launchpad using user role and authorization configuration - also requires user role in PFCG inside ERP*
+
+</br>
+
 
 <details>
 <summary> <b> 1. Fiori App Packaging </b> </summary>
