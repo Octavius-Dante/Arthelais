@@ -33,12 +33,38 @@
 
 </br>
 
+**Prerequisite before starting the ui5 packaging and deployment activity**
+
+<details>
+<summary> <b> Essential prerequisite</b> </summary>
+</br>
+
+*Command for installing ui5 CLI -command line interface*
+
+```bat
+npm install --global @ui5/cli
+```
+
+<img src="./files/ui5e37-1.png"></br></br>
+
+</details>
+
 <details>
 <summary> <b> 1. Fiori App Packaging </b> </summary>
 </br>
+
+*First Command for packaging*
+
+Command : 
 </br>
 
-<img src="./files/ui5e37-1.png"></br></br>
+```bat
+
+```
+
+</br>
+
+
 <img src="./files/ui5e37-2.png"></br></br>
 <img src="./files/ui5e37-3.png"></br></br>
 <img src="./files/ui5e37-4.png"></br></br>
