@@ -30,11 +30,6 @@
 </br>
 </br>
 
-</br>
-</br>
-<img src="./files/capmd12-96a.png" >
-</br></br>
-
 <img src="./files/ui5e37-1.png"></br></br>
 <img src="./files/ui5e37-2.png"></br></br>
 <img src="./files/ui5e37-3.png"></br></br>
@@ -188,8 +183,19 @@
 
 </details>
 
+<details>
+<summary> <b> 1. Deployment </b> </summary>
 </br>
+</br>
+</br>
+</details>
 
+<details>
+<summary> <b> 3. Configuring </b> </summary>
+</br>
+</br>
+</br>
+</details>
 
 
 </br>
