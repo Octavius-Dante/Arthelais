@@ -117,6 +117,9 @@ ui5 build
 
 <img src="./files/ui5e37-4.png"></br></br>
 <img src="./files/ui5e37-5.png"></br></br>
+
+*Thats all from packaging end now will proceed to deployment activity*
+
 </details>
 
 <details>
@@ -323,6 +326,9 @@ Application id : emc.hr.payroll
 ```
 
 <img src="./files/ui5e37-23.png"></br></br>
+
+*Thats all from deployment end now will proceed to Fiori security section for Configuration of app*
+
 <img src="./files/ui5e37-24.png"></br></br>
 <img src="./files/ui5e37-25.png"></br></br>
 <img src="./files/ui5e37-26.png"></br></br>
