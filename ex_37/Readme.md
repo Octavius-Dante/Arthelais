@@ -21,8 +21,12 @@
 </br></br>
 
 
+**Step By Step process - Fiori App deployment**
+
+</br></br>
+
 <details>
-<summary> <b> Step By Step process - Fiori App deployment </b> </summary>
+<summary> <b> 1.Packaging </b> </summary>
 </br>
 </br>
 
