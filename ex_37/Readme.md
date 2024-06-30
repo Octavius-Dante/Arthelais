@@ -308,7 +308,7 @@ user: ex_35-x $
 
 ```BAT 
 
-node name : /sap/bc/ui5_ui5/sap/zz_29062024
+SICF Node name : /sap/bc/ui5_ui5/sap/zz_29062024
 
 ```
 
