@@ -514,6 +514,14 @@ Role : ZDS_BR_MYAPPS
 <img src="./files/ui5e37-63.png"></br></br>
 <img src="./files/ui5e37-64.png"></br></br>
 <img src="./files/ui5e37-65.png"></br></br>
+
+</br>
+
+*Assigning authorization Profile to User*
+
+</br>
+
+
 <img src="./files/ui5e37-66.png"></br></br>
 <img src="./files/ui5e37-67.png"></br></br>
 <img src="./files/ui5e37-68.png"></br></br>
