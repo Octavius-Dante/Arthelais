@@ -567,6 +567,7 @@ Role : ZDS_BR_MYAPPS
 Need to implement an OSS note to the system usually the ui5 launch pad is running using https request and this fiori dynamic tile request is based on http so it will show the following error
 
 <img src="./files/ui5e37-91.png"></br></br>
+<img src="./files/ui5e37-92.png"></br>
 </br>
 
 OSS note 
