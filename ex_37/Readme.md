@@ -312,6 +312,15 @@ SICF Node name : /sap/bc/ui5_ui5/sap/zz_29062024
 
 ```
 
+</br>
+
+*Go to manifest.josn and get the application id*
+
+```BAT
+
+Application id : emc.hr.payroll
+
+```
 
 <img src="./files/ui5e37-23.png"></br></br>
 <img src="./files/ui5e37-24.png"></br></br>
