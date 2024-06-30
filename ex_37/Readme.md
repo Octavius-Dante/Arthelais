@@ -1,8 +1,179 @@
 ## Exercise 37 - Deploy app to launchpad
 
+</br>
 
+**Steps for deploying the Fiori App to On-Premise system**
+
+</br>
+
+<details>
+<summary> <b> Step By Step process - Fiori App deployment </b> </summary>
+</br>
+</br>
+
+</br>
+</br>
+<img src="./files/capmd12-96a.png" >
 </br></br>
-</br></br>
+
+<img src="./files/ui5e37-1.png"></br></br>
+<img src="./files/ui5e37-2.png"></br></br>
+<img src="./files/ui5e37-3.png"></br></br>
+<img src="./files/ui5e37-4.png"></br></br>
+<img src="./files/ui5e37-5.png"></br></br>
+<img src="./files/ui5e37-6.png"></br></br>
+<img src="./files/ui5e37-7.png"></br></br>
+<img src="./files/ui5e37-8.png"></br></br>
+<img src="./files/ui5e37-9.png"></br></br>
+<img src="./files/ui5e37-10.png"></br></br>
+<img src="./files/ui5e37-11.png"></br></br>
+<img src="./files/ui5e37-12.png"></br></br>
+<img src="./files/ui5e37-13.png"></br></br>
+<img src="./files/ui5e37-14.png"></br></br>
+<img src="./files/ui5e37-15.png"></br></br>
+<img src="./files/ui5e37-16.png"></br></br>
+<img src="./files/ui5e37-17.png"></br></br>
+<img src="./files/ui5e37-18.png"></br></br>
+<img src="./files/ui5e37-19.png"></br></br>
+<img src="./files/ui5e37-20.png"></br></br>
+<img src="./files/ui5e37-21.png"></br></br>
+<img src="./files/ui5e37-22.png"></br></br>
+<img src="./files/ui5e37-23.png"></br></br>
+<img src="./files/ui5e37-24.png"></br></br>
+<img src="./files/ui5e37-25.png"></br></br>
+<img src="./files/ui5e37-26.png"></br></br>
+<img src="./files/ui5e37-27.png"></br></br>
+<img src="./files/ui5e37-28.png"></br></br>
+<img src="./files/ui5e37-29.png"></br></br>
+<img src="./files/ui5e37-30.png"></br></br>
+<img src="./files/ui5e37-31.png"></br></br>
+<img src="./files/ui5e37-32.png"></br></br>
+<img src="./files/ui5e37-33.png"></br></br>
+<img src="./files/ui5e37-34.png"></br></br>
+<img src="./files/ui5e37-35.png"></br></br>
+<img src="./files/ui5e37-36.png"></br></br>
+<img src="./files/ui5e37-37.png"></br></br>
+<img src="./files/ui5e37-38.png"></br></br>
+<img src="./files/ui5e37-39.png"></br></br>
+<img src="./files/ui5e37-40.png"></br></br>
+<img src="./files/ui5e37-41.png"></br></br>
+<img src="./files/ui5e37-42.png"></br></br>
+<img src="./files/ui5e37-43.png"></br></br>
+<img src="./files/ui5e37-44.png"></br></br>
+<img src="./files/ui5e37-45.png"></br></br>
+<img src="./files/ui5e37-46.png"></br></br>
+<img src="./files/ui5e37-47.png"></br></br>
+<img src="./files/ui5e37-48.png"></br></br>
+<img src="./files/ui5e37-49.png"></br></br>
+<img src="./files/ui5e37-50.png"></br></br>
+<img src="./files/ui5e37-51.png"></br></br>
+<img src="./files/ui5e37-52.png"></br></br>
+<img src="./files/ui5e37-53.png"></br></br>
+<img src="./files/ui5e37-54.png"></br></br>
+<img src="./files/ui5e37-55.png"></br></br>
+<img src="./files/ui5e37-56.png"></br></br>
+<img src="./files/ui5e37-57.png"></br></br>
+<img src="./files/ui5e37-58.png"></br></br>
+<img src="./files/ui5e37-59.png"></br></br>
+<img src="./files/ui5e37-60.png"></br></br>
+<img src="./files/ui5e37-61.png"></br></br>
+<img src="./files/ui5e37-62.png"></br></br>
+<img src="./files/ui5e37-63.png"></br></br>
+<img src="./files/ui5e37-64.png"></br></br>
+<img src="./files/ui5e37-65.png"></br></br>
+<img src="./files/ui5e37-66.png"></br></br>
+<img src="./files/ui5e37-67.png"></br></br>
+<img src="./files/ui5e37-68.png"></br></br>
+<img src="./files/ui5e37-69.png"></br></br>
+<img src="./files/ui5e37-70.png"></br></br>
+<img src="./files/ui5e37-71.png"></br></br>
+<img src="./files/ui5e37-72.png"></br></br>
+<img src="./files/ui5e37-73.png"></br></br>
+<img src="./files/ui5e37-74.png"></br></br>
+<img src="./files/ui5e37-75.png"></br></br>
+<img src="./files/ui5e37-76.png"></br></br>
+<img src="./files/ui5e37-77.png"></br></br>
+<img src="./files/ui5e37-78.png"></br></br>
+<img src="./files/ui5e37-79.png"></br></br>
+<img src="./files/ui5e37-80.png"></br></br>
+<img src="./files/ui5e37-81.png"></br></br>
+<img src="./files/ui5e37-82.png"></br></br>
+<img src="./files/ui5e37-83.png"></br></br>
+<img src="./files/ui5e37-84.png"></br></br>
+<img src="./files/ui5e37-85.png"></br></br>
+<img src="./files/ui5e37-86.png"></br></br>
+<img src="./files/ui5e37-87.png"></br></br>
+<img src="./files/ui5e37-88.png"></br></br>
+<img src="./files/ui5e37-89.png"></br></br>
+<img src="./files/ui5e37-90.png"></br></br>
+<img src="./files/ui5e37-91.png"></br></br>
+<img src="./files/ui5e37-92.png"></br></br>
+<img src="./files/ui5e37-93.png"></br></br>
+<img src="./files/ui5e37-94.png"></br></br>
+<img src="./files/ui5e37-95.png"></br></br>
+<img src="./files/ui5e37-96.png"></br></br>
+<img src="./files/ui5e37-97.png"></br></br>
+<img src="./files/ui5e37-98.png"></br></br>
+<img src="./files/ui5e37-99.png"></br></br>
+<img src="./files/ui5e37-100.png"></br></br>
+<img src="./files/ui5e37-101.png"></br></br>
+<img src="./files/ui5e37-102.png"></br></br>
+<img src="./files/ui5e37-103.png"></br></br>
+<img src="./files/ui5e37-104.png"></br></br>
+<img src="./files/ui5e37-105.png"></br></br>
+<img src="./files/ui5e37-106.png"></br></br>
+<img src="./files/ui5e37-107.png"></br></br>
+<img src="./files/ui5e37-108.png"></br></br>
+<img src="./files/ui5e37-109.png"></br></br>
+<img src="./files/ui5e37-110.png"></br></br>
+<img src="./files/ui5e37-111.png"></br></br>
+<img src="./files/ui5e37-112.png"></br></br>
+<img src="./files/ui5e37-113.png"></br></br>
+<img src="./files/ui5e37-114.png"></br></br>
+<img src="./files/ui5e37-115.png"></br></br>
+<img src="./files/ui5e37-116.png"></br></br>
+<img src="./files/ui5e37-117.png"></br></br>
+<img src="./files/ui5e37-118.png"></br></br>
+<img src="./files/ui5e37-119.png"></br></br>
+<img src="./files/ui5e37-120.png"></br></br>
+<img src="./files/ui5e37-121.png"></br></br>
+<img src="./files/ui5e37-122.png"></br></br>
+<img src="./files/ui5e37-123.png"></br></br>
+<img src="./files/ui5e37-124.png"></br></br>
+<img src="./files/ui5e37-125.png"></br></br>
+<img src="./files/ui5e37-126.png"></br></br>
+<img src="./files/ui5e37-127.png"></br></br>
+<img src="./files/ui5e37-128.png"></br></br>
+<img src="./files/ui5e37-129.png"></br></br>
+<img src="./files/ui5e37-130.png"></br></br>
+<img src="./files/ui5e37-131.png"></br></br>
+<img src="./files/ui5e37-132.png"></br></br>
+<img src="./files/ui5e37-133.png"></br></br>
+<img src="./files/ui5e37-134.png"></br></br>
+<img src="./files/ui5e37-135.png"></br></br>
+<img src="./files/ui5e37-136.png"></br></br>
+<img src="./files/ui5e37-137.png"></br></br>
+<img src="./files/ui5e37-138.png"></br></br>
+<img src="./files/ui5e37-139.png"></br></br>
+<img src="./files/ui5e37-140.png"></br></br>
+<img src="./files/ui5e37-141.png"></br></br>
+<img src="./files/ui5e37-142.png"></br></br>
+<img src="./files/ui5e37-143.png"></br></br>
+<img src="./files/ui5e37-144.png"></br></br>
+<img src="./files/ui5e37-145.png"></br></br>
+<img src="./files/ui5e37-146.png"></br></br>
+<img src="./files/ui5e37-147.png"></br></br>
+<img src="./files/ui5e37-148.png"></br></br>
+<img src="./files/ui5e37-149.png"></br></br>
+<img src="./files/ui5e37-150.png"></br></br>
+
+</details>
+
+</br>
+
+
+
+</br>
 </br></br>
 
 ## End of Exercise 37 ---NEXT---> <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_38"> Exercise 38-Fiori Elements Basics </a>
