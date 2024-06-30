@@ -442,6 +442,28 @@ Group : ZDS_BCG_MYAPPS (June Fiori app 2024 (Dante))
 <img src="./files/ui5e37-47.png"></br></br>
 <img src="./files/ui5e37-48.png"></br></br>
 <img src="./files/ui5e37-49.png"></br></br>
+
+</br>
+
+**Need to create business role to access our Fiori app from Fiori launchpad**
+
+```BAT
+
+SICF Node name : /sap/bc/ui5_ui5/sap/zz_29062024
+Application id : emc.hr.payroll
+
+--- CATALOG
+Catalog Name : ZDS_BC_MYAPPS
+Semantic Object : CLDProduct
+Action : lookup
+Group : ZDS_BCG_MYAPPS (June Fiori app 2024 (Dante))
+Role : ZDS_BR_MYAPPS
+
+```
+
+
+</br>
+
 <img src="./files/ui5e37-50.png"></br></br>
 <img src="./files/ui5e37-51.png"></br></br>
 <img src="./files/ui5e37-52.png"></br></br>
