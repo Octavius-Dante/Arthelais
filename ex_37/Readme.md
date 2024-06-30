@@ -124,7 +124,7 @@ ui5 build
 </br>
 </br>
 
-*Second Command for Deploying to ERP -system repository*
+*First Command for Deploying to ERP -system repository*
 
 Command : 
 </br>
@@ -136,11 +136,30 @@ npx fiori add deploy-config
 <img src="./files/ui5e37-6.png"></br></br>
 <img src="./files/ui5e37-7.png"></br></br>
 <img src="./files/ui5e37-9.png"></br></br>
-
 <img src="./files/ui5e37-10.png"></br></br>
 <img src="./files/ui5e37-11.png"></br></br>
 <img src="./files/ui5e37-12.png"></br></br>
+
+*Second Command for Deploying to ERP -system repository*
+
+Command : 
+</br>
+
+```bat
+npm run build
+```
+
 <img src="./files/ui5e37-13.png"></br></br>
+
+*Third Command for Deploying to ERP -system repository*
+
+Command : 
+</br>
+
+```bat
+npm run deploy
+```
+
 <img src="./files/ui5e37-14.png"></br></br>
 <img src="./files/ui5e37-15.png"></br></br>
 <img src="./files/ui5e37-16.png"></br></br>
