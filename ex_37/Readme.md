@@ -540,6 +540,15 @@ Role : ZDS_BR_MYAPPS
 <img src="./files/ui5e37-81.png"></br></br>
 <img src="./files/ui5e37-82.png"></br></br>
 <img src="./files/ui5e37-83.png"></br></br>
+</br>
+</details>
+
+
+<details>
+<summary> <b> Testing the App - post deployment </b> </summary>
+</br>
+</br>
+
 <img src="./files/ui5e37-84.png"></br></br>
 <img src="./files/ui5e37-85.png"></br></br>
 <img src="./files/ui5e37-86.png"></br></br>
