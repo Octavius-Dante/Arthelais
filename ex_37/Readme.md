@@ -26,7 +26,7 @@
 </br></br>
 
 <details>
-<summary> <b> 1. Packaging </b> </summary>
+<summary> <b> 1. Fiori App Packaging </b> </summary>
 </br>
 </br>
 
@@ -184,14 +184,14 @@
 </details>
 
 <details>
-<summary> <b> 2. Deployment </b> </summary>
+<summary> <b> 2. Fiori App Deployment </b> </summary>
 </br>
 </br>
 </br>
 </details>
 
 <details>
-<summary> <b> 3. Configuring </b> </summary>
+<summary> <b> 3. Fiori App Configuring </b> </summary>
 </br>
 </br>
 </br>
