@@ -184,7 +184,7 @@
 </details>
 
 <details>
-<summary> <b> 1. Deployment </b> </summary>
+<summary> <b> 2. Deployment </b> </summary>
 </br>
 </br>
 </br>
