@@ -409,8 +409,25 @@ sap/opu/odata/sap/ZJUNE_19062024_SRV/ProductSet/$count
 
 <img src="./files/ui5e37-34.png"></br></br>
 <img src="./files/ui5e37-35.png"></br></br>
-<img src="./files/ui5e37-36.png"></br></br>
+<img src="./files/ui5e37-36a.png"></br></br>
 <img src="./files/ui5e37-37.png"></br></br>
+
+
+*NOTE DOWN THE FOLLOWING DETAILS*
+
+```BAT
+
+SICF Node name : /sap/bc/ui5_ui5/sap/zz_29062024
+Application id : emc.hr.payroll
+
+--- CATALOG
+Catalog Name : ZDS_BC_MYAPPS
+Semantic Object : CLDProduct
+Action : lookup
+
+```
+
+
 <img src="./files/ui5e37-38.png"></br></br>
 <img src="./files/ui5e37-39.png"></br></br>
 <img src="./files/ui5e37-40.png"></br></br>
