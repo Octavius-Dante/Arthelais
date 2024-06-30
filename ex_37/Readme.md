@@ -328,7 +328,12 @@ Application id : emc.hr.payroll
 <img src="./files/ui5e37-23.png"></br></br>
 
 *Thats all from deployment end now will proceed to Fiori security section for Configuration of app*
+</br>
+</details>
 
+<details>
+<summary> <b> 3. Fiori App Configuring </b> </summary>
+</br>
 <img src="./files/ui5e37-24.png"></br></br>
 <img src="./files/ui5e37-25.png"></br></br>
 <img src="./files/ui5e37-26.png"></br></br>
@@ -456,16 +461,6 @@ Application id : emc.hr.payroll
 <img src="./files/ui5e37-148.png"></br></br>
 <img src="./files/ui5e37-149.png"></br></br>
 <img src="./files/ui5e37-150.png"></br></br>
-
-
-
-</br>
-</details>
-
-<details>
-<summary> <b> 3. Fiori App Configuring </b> </summary>
-</br>
-</br>
 </br>
 </details>
 
