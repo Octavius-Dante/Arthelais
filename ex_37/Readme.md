@@ -1,4 +1,4 @@
-## Exercise 37 - Deploy app to launchpad
+## Exercise 37 - Deploy Fiori app to launchpad
 
 </br>
 
