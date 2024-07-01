@@ -17,10 +17,11 @@ All 13 samples are integrated accordingly to make it as a working app and that i
 - Part 2 (sample 6 ~ sample 10)
 - Part 3 (sample 11 ~ sample 13)
 
-</br>
+</br></br>
 
-</br>
+Have to compare each samples and see how FCL was implemented in the app for better detailed understanding.
 
+</br></br>
 
 <img src="./files/ui5e40-4.png"></br></br>
 <img src="./files/ui5e40-5.png"></br></br>
