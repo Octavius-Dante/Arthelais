@@ -1,8 +1,6 @@
 ## Exercise 40 - Using Flexible Column Layout
 
-
-</br></br>
-</br>
+</br></br></br>
 
 
 **SAP Ui5 SDK has a tutorial to implement the Flexible column layout app** 
@@ -10,6 +8,16 @@
 <img src="./files/ui5e40-1.png"></br></br>
 <img src="./files/ui5e40-2.png"></br></br>
 <img src="./files/ui5e40-3.png"></br></br>
+
+**There are 13 samples step by step provided by ui5 SDK**
+
+All 13 samples are integrated accordingly to make it as a working app and that is divided into 3 parts 
+
+- Part 1 (sample 1 ~ sample 5)
+- Part 2 (sample 6 ~ sample 10)
+- Part 3 (sample 11 ~ sample 13)
+
+
 <img src="./files/ui5e40-4.png"></br></br>
 <img src="./files/ui5e40-5.png"></br></br>
 <img src="./files/ui5e40-6.png"></br></br>
@@ -157,14 +165,6 @@
 <img src="./files/ui5e40-148.png"></br></br>
 <img src="./files/ui5e40-149.png"></br></br>
 <img src="./files/ui5e40-150.png"></br></br>
-
-
-
-
-
-
-
-
 
 
 
