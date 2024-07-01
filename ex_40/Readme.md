@@ -29,6 +29,18 @@ Have to compare each samples and see how FCL was implemented in the app for bett
 
 </br></br>
 
+
+1. flex-11 - App opens with single column layout and 4th page will be in new screen 
+
+2. flex-12 - App opens with Two column layout and 4th page will open in new screen 
+
+3. flex-13 - App opens with Two column layout and 3rd page will open in new screen, 4th page will open in new screen  
+
+4. ex_flex_part2 - Same as  first but previous example sample codes commented version
+
+
+</br></br>
+
 </br>
 </br></br>
 
