@@ -13,10 +13,10 @@
 
 All 13 samples are integrated accordingly to make it as a working app and that is divided into 3 parts 
 
-- Part 1 (sample 1 ~ 5) ---- *(Check file : ex_flex_part1)*
-- Part 2 (sample 6 ~ 11) --- *(Check file : flex-11 and ex_flex_part2)*
-- Part 3 (sample 12) ------- *(Check file : flex-12)*
-- Part 4 (sample 13) ------- *(Check file : flex-13)*
+- Part 1 (sample 1 ~ 5) ---- *(Check file : ex_flex_part1)* (Partial App)
+- Part 2 (sample 6 ~ 11) --- *(Check file : flex-11 and ex_flex_part2)* - App Variant 1 
+- Part 3 (sample 12) ------- *(Check file : flex-12)* - App Variant 2
+- Part 4 (sample 13) ------- *(Check file : flex-13)* - App Variant 3
 
 </br></br>
 
