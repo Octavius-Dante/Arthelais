@@ -52,7 +52,7 @@ Pre-requisite VSCode or BAS should be installed and active.
 ## Other Essential Topics
 
 - [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_39"> Exercise 39-Deep Entity handling OData service (You tube video links)</a>
-- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_40"> Exercise 40-Using Flexible Column Layout (Planned) </a>
+- [x] <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ex_40"> Exercise 40-Using Flexible Column Layout (Complete Reference app!) </a>
 - [x] ~ Order Browser (Planned)
 - [x] ~ Smart Table (Planned)
 - [x] ~ Analytical Chart (Planned)
