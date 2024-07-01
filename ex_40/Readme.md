@@ -17,6 +17,10 @@ All 13 samples are integrated accordingly to make it as a working app and that i
 - Part 2 (sample 6 ~ sample 10)
 - Part 3 (sample 11 ~ sample 13)
 
+</br>
+
+</br>
+
 
 <img src="./files/ui5e40-4.png"></br></br>
 <img src="./files/ui5e40-5.png"></br></br>
