@@ -13,9 +13,10 @@
 
 All 13 samples are integrated accordingly to make it as a working app and that is divided into 3 parts 
 
-- Part 1 (sample 1 ~ sample 5)
-- Part 2 (sample 6 ~ sample 10)
-- Part 3 (sample 11 ~ sample 13)
+- Part 1 (sample 1 ~ sample 5) -- Partially built app
+- Part 2 (sample 6 ~ sample 11) -- Full app starts with single column layout most function working (NO CURD)
+- Part 3 (sample 12) -- Full app starts with 2 column layout 
+- Part 4 (sample 13)
 
 </br></br>
 
