@@ -41,6 +41,19 @@ Have to compare each samples and see how FCL was implemented in the app for bett
 
 </br></br>
 
+## Planned (Work in progress) - Version 2 - Working OData service mapping for the following apps
+
+1. flex-11-v2 
+
+2. flex-12-v2 
+
+3. flex-13-v2 
+
+4. ex_flex_part2-v2 
+
+
+</br></br>
+
 </br>
 </br></br>
 
