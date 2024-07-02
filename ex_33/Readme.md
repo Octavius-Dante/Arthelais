@@ -177,7 +177,7 @@ added following 2 section to manifest.json file
                 "type": "sap.ui.model.resource.ResourceModel",
                 "uri": "i18n/i18n.properties"
             },
-            "local": {
+            "local": {      // set this default model  from "" to "local"
                 "type": "sap.ui.model.json.JSONModel",
                 "uri": "model/mockdata/fruits.json"
             },
