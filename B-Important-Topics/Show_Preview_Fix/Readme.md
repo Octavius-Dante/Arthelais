@@ -16,7 +16,7 @@
 
 </br>
 
-Live preview and Show preview - will mostly fail due to lack of authorization to access bootstrap link, to access bootstrap a port setting is requested to the server since internal live preview and show preview is not started with port -- this page is tried to load and hangs and fails
+Live preview and Show preview - will mostly fail due to lack of authorization to access bootstrap link, to access bootstrap a port setting is requested to the server since internal live preview and show preview is not started with port -- this page gets loaded and hangs and fails
 
 the exact reason is browser should launch the link with a server port 
 - internal live preview and show preview mostly don't launch with port setting so it fails to load things 
