@@ -36,7 +36,7 @@ Have to compare each samples and see how FCL was implemented in the app for bett
 
 3. flex-13 - App opens with Two column layout and 3rd page will open in new screen, 4th page will open in new screen  
 
-4. ex_flex_part2 - Same as  first but previous example sample codes commented version
+4. ex_flex_part2 - Same as (flex-11) but all the ui5 sdk (1-11) sample changes are mentioned -- what is changed in every step (log changes starting from 6-11)
 
 
 </br></br>
