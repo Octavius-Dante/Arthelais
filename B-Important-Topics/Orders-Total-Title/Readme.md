@@ -5,7 +5,7 @@
 *master.controller.js*
 
 ```js
-// initialize the voew model
+// initialize the view model
 
     onInit : function () {
 
