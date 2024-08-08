@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=ISO-8859-1" />
+<title>Dictionary object- ZTEST_SALES_HDR</title>
+<style type="text/css">
+  th{text-align:left}
+  .cell{
+     font-family:"Courier New", Courier, monospace;
+     color:#D3D7D9;
+     font-size:12px;
+     background-color:#29313A;
+  }
+  .cell td { border: thin solid #29313A; }
+</style>
+<style type="text/css">
+  .header{ font-family:Arial, Helvetica, sans-serif; color:#D3D7D9; font-size:13px; font-weight:800 }
+  .normal{ font-family:Arial, Helvetica, sans-serif; color:#D3D7D9; font-size:12px }
+  .footer{ font-family:Arial, Helvetica, sans-serif; color:#D3D7D9; font-size:12px; text-align: center }
+  h2{ font-family:Arial, Helvetica, sans-serif; color:#D3D7D9; font-size:16px; font-weight:800 }
+  h3{ font-family:Arial, Helvetica, sans-serif; color:#D3D7D9; font-size:14px; font-weight:800 }
+  .code{ font-family:"Courier New", Courier, monospace; color:#D3D7D9; font-size:14px; background-color:#1C2228 }
+  a:link{ color:#50FA7B; }  a:visited { color:#50FA7B; } a:hover { color:orange; }  a:active { color:yellow; }
+  .codeComment{ font-family:"Courier New", Courier, monospace; color:#ADFC03; font-size:14px; background-color:#1C2228 }
+  .normalBold{ font-family:Arial, Helvetica, sans-serif; color:#D3D7D9; font-size:12px; font-weight:800 }
+  .normalBoldLarge{ font-family:Arial, Helvetica, sans-serif; color:#D3D7D9; font-size:16px; font-weight:800 }
+  .outerTable{
+   background-color:#29313A;
+   width:100%;
+   border-color:#3A4552;;
+   border-top-width: thin;
+   border-right-width: thin;
+   border-right-width: thin;
+   border-left-width: thin;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+  }
+  .innerTable{
+   background-color:#1C2228;
+   width:100%;
+   border-color:#808080;
+   border-top-width: thin;
+   border-right-width: thin;
+   border-bottom-width: thin;
+   border-left-width: thin;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+  }
+</style>
+</head>
+<body>
+<body bgcolor=#1C2228>
+  <table class="outerTable">
+    <tr>
+      <td><h2><span style="color: #50FA7B"> Table : ZTEST_SALES_HDR</span></h2>
+<h3> Description: Demo sales header table for DEEP ENTITY ODATA</h3>
+  <h3>Package: ZTEST_ABAP_OBJS</h3></td>
+    </tr>
+    <tr>
+      <td><!--This is where our main table begins  -->
+<table class="innerTable">
+<tr class="header">
+  <th>Row</th>
+  <th>Field name</th>
+  <th>Position</th>
+  <th>Key</th>
+  <th>Data element</th>
+  <th>Domain</th>
+  <th>Datatype</th>
+  <th>Length</th>
+  <th>Decimals</th>
+  <th>Ref-table</th>
+  <th>Ref-Field</th>
+  <th>Lowercase</th>
+  <th>Domain text</th>
+</tr>
+<tr class="cell">
+  <td> 1</td>
+  <td>MANDT</td>
+  <td>1</td>
+  <td>X</td>
+  <td>MANDT</td>
+  <td>MANDT</td>
+  <td>CLNT</td>
+  <td>3</td>
+  <td>000000</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>Client</td>
+</tr>
+<tr class="cell">
+  <td> 2</td>
+  <td>SID</td>
+  <td>2</td>
+  <td>X</td>
+  <td>CHAR10</td>
+  <td>CHAR10</td>
+  <td>CHAR</td>
+  <td>10</td>
+  <td>000000</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>Character Field Length = 10</td>
+</tr>
+<tr class="cell">
+  <td> 3</td>
+  <td>OTYPE</td>
+  <td>3</td>
+  <td>&nbsp;</td>
+  <td>CHAR4</td>
+  <td>CHAR4</td>
+  <td>CHAR</td>
+  <td>4</td>
+  <td>000000</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>Not More Closely Defined Area, Possibly Used for Patchlevels</td>
+</tr>
+      </table>
+     </td>
+   </tr>
+<br/>
+<table class="outerTable">
+  <tr class="normalBoldLarge">
+<h3> <span style="color: yellow"> Table definition </span> with <span style="color: yellow">  data types </span> </h3> </td>
+   </tr>
+  <tr>
+     <td>
+     <table class="innerTable">
+       <tr>
+          <td>
+   <div class="codeComment">
+<br />
+ @EndUserText.label : 'Demo sales header table for DEEP ENTITY ODATA' <br />
+ @AbapCatalog.enhancement.category : #EXTENSIBLE_ANY <br />
+ @AbapCatalog.tableCategory : #TRANSPARENT <br />
+ @AbapCatalog.deliveryClass : #A <br />
+ @AbapCatalog.dataMaintenance : #RESTRICTED <br />
+</div>
+   <div class="code">
+<br />
+ define table ztest_sales_hdr { <br />
+ <br />
+</div>
+   <div class="code">
+</div>
+   <div class="codeComment">
+&nbsp;&nbsp;@EndUserText.label :&nbsp;'Client'<br />
+</div>
+   <div class="code">
+&nbsp;&nbsp;key&nbsp;mandt&nbsp;:&nbsp;abap.clnt(3)&nbsp;not null; <br />
+<br />
+</div>
+   <div class="code">
+</div>
+   <div class="codeComment">
+&nbsp;&nbsp;@EndUserText.label :&nbsp;'Character Field Length = 10'<br />
+</div>
+   <div class="code">
+&nbsp;&nbsp;key&nbsp;sid&nbsp;:&nbsp;abap.char(10)&nbsp;not null; <br />
+<br />
+</div>
+   <div class="code">
+</div>
+   <div class="codeComment">
+&nbsp;&nbsp;@EndUserText.label :&nbsp;'Not More Closely Defined Area, Possibly Used for Patchlevels'<br />
+</div>
+   <div class="code">
+&nbsp;&nbsp;otype&nbsp;:&nbsp;abap.char(4); <br />
+<br />
+ } <br />
+            </div>
+          </td>
+        </tr>
+      </table>
+      </td>
+      </tr>
+<table class="outerTable">
+  <tr class="normalBoldLarge">
+<h3> <span style="color: yellow"> Table definition </span> using data element <span style="color: yellow"> with foreign key </span> </h3> </td>
+   </tr>
+  <tr>
+     <td>
+     <table class="innerTable">
+       <tr>
+          <td>
+   <div class="codeComment">
+<br />
+ @EndUserText.label : 'Demo sales header table for DEEP ENTITY ODATA' <br />
+ @AbapCatalog.enhancement.category : #EXTENSIBLE_ANY <br />
+ @AbapCatalog.tableCategory : #TRANSPARENT <br />
+ @AbapCatalog.deliveryClass : #A <br />
+ @AbapCatalog.dataMaintenance : #RESTRICTED <br />
+</div>
+   <div class="code">
+<br />
+ define table ztest_sales_hdr { <br />
+ <br />
+</div>
+   <div class="codeComment">
+&nbsp;&nbsp;@AbapCatalog.foreignKey.screenCheck : true <br />
+</div>
+   <div class="code">
+</div>
+   <div class="code">
+&nbsp;&nbsp;key&nbsp;mandt&nbsp;:&nbsp;mandt&nbsp;not null; <br />
+
+</div>
+   <div class="code">
+&nbsp;&nbsp;key&nbsp;sid&nbsp;:&nbsp;char10&nbsp;not null; <br />
+
+</div>
+   <div class="code">
+&nbsp;&nbsp;otype&nbsp;:&nbsp;char4;<br />
+
+ <br />
+ } <br />
+            </div>
+          </td>
+        </tr>
+      </table>
+      </td>
+      </tr>
+<table class="outerTable">
+  <tr class="normalBoldLarge">
+<h3> <span style="color: yellow"> Table definition </span> using data element <span style="color: yellow"> without foreign key </span> </h3> </td>
+   </tr>
+  <tr>
+     <td>
+     <table class="innerTable">
+       <tr>
+          <td>
+   <div class="codeComment">
+<br />
+ @EndUserText.label : 'Demo sales header table for DEEP ENTITY ODATA' <br />
+ @AbapCatalog.enhancement.category : #EXTENSIBLE_ANY <br />
+ @AbapCatalog.tableCategory : #TRANSPARENT <br />
+ @AbapCatalog.deliveryClass : #A <br />
+ @AbapCatalog.dataMaintenance : #RESTRICTED <br />
+</div>
+   <div class="code">
+<br />
+ define table ztest_sales_hdr { <br />
+ <br />
+</div>
+   <div class="code">
+&nbsp;&nbsp;key&nbsp;mandt&nbsp;:&nbsp;mandt&nbsp;not null; <br />
+</div>
+   <div class="code">
+&nbsp;&nbsp;key&nbsp;sid&nbsp;:&nbsp;char10&nbsp;not null; <br />
+</div>
+   <div class="code">
+&nbsp;&nbsp;otype&nbsp;:&nbsp;char4;<br />
+ <br />
+ } <br />
+            </div>
+          </td>
+        </tr>
+      </table>
+      </td>
+      </tr>
+   <tr>
+<td class="footer">Extracted by Mass Download version 1.5.5 - E.G.Mellodew. 1998-2024. Sap Release 750</td>
+   </tr>
+</table>
+</body>
+</html>
