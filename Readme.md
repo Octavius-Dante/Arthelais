@@ -127,6 +127,8 @@ NOCIN.EU -2 : https://nocin.eu/category/sap/fiori/
 
 Brandon - repository for learning : https://github.com/brandoncaulfield
 
+Brandon : https://www.youtube.com/watch?v=mmSB85rWQ3w&ab_channel=CodeWithBrandon
+
 </br></br>
 
 ## Data generation in SAP on-prem system 
