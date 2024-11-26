@@ -121,6 +121,9 @@ YOUTUBE-1 : https://www.youtube.com/playlist?list=PLP_7HQeZf7LKjQU-aEvJLeg6xsWii
 
 YOUTUBE-2 : https://www.youtube.com/playlist?list=PLlZBMkVFeev52nPXdQYNDfUUw1RhGUGwu
 
+NOCIN.EU : https://nocin.eu/category/javascript/
+         : https://nocin.eu/category/sap/fiori/
+
 </br></br>
 
 ## Data generation in SAP on-prem system 
