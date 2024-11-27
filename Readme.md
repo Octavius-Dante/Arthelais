@@ -180,9 +180,7 @@ OPEN UI5 GIT REPOSITORY : https://github.com/SAP/openui5/
 </br></br>
 </br></br>
 
-## Data generation in SAP on-prem system
-
-*Tutorials for self start*
+## Tutorials for Self Start from UI5 SDK Page 
 
 </br></br>
 OPEN UI5 SAMPLES : https://sdk.openui5.org/controls
