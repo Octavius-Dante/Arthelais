@@ -6,6 +6,7 @@ https://sapui5.hana.ondemand.com/sdk/#/entity/sap.m.Table
 object page layout 
 https://sapui5.hana.ondemand.com/sdk/#/entity/sap.uxap.ObjectPageLayout
 
+sap.ui.comp.smartfield.SmartField
 https://sapui5.hana.ondemand.com/sdk/#/entity/sap.ui.comp.smartfield.SmartField
 
 different - date picker 
@@ -13,4 +14,3 @@ https://sapui5.hana.ondemand.com/sdk/#/entity/sap.m.DatePicker/sample/sap.m.samp
 
 different-input list 
 https://sapui5.hana.ondemand.com/sdk/#/entity/sap.m.Input
-
