@@ -113,66 +113,72 @@ Pre-requisite VSCode or BAS should be installed and active.
 
 ## Other links for further learning
 
+</br>
+</br>
 ORIGINAL BLOG : https://github.com/sonmezfurkan/UI5_from_scratch
-
+</br></br>
 FORKED FROM ORIGINAL : https://github.com/Octavius-Dante/UI5_from_scratch
 
+</br></br>
 YOUTUBE-1 : https://www.youtube.com/playlist?list=PLP_7HQeZf7LKjQU-aEvJLeg6xsWiiuX-j
-
+</br></br>
 YOUTUBE-2 : https://www.youtube.com/playlist?list=PLlZBMkVFeev52nPXdQYNDfUUw1RhGUGwu
 
+</br></br>
 NOCIN.EU -1 : https://nocin.eu/category/javascript/
-
+</br></br>
 NOCIN.EU -2 : https://nocin.eu/category/sap/fiori/
 
+</br></br>
 Brandon - repository for learning : https://github.com/brandoncaulfield
-
+</br></br>
 Brandon : https://www.youtube.com/watch?v=mmSB85rWQ3w&ab_channel=CodeWithBrandon
-
+</br></br>
 SAP - DEVELOPERS PAGE TUTORIAL-1 :  https://developers.sap.com/group.fiori-tools-odata-v4-incident.html
-
+</br></br>
 SAP - DEVELOPERS PAGE TUTORIAL-2 : https://developers.sap.com/group.fiori-tools-lrop.html
-
+</br></br>
 Tool Migration : https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/70d41f3ee29d453a90efab3ce025d450.html?locale=en-US
-
+</br></br>
 SAP Fiori Tools User Guide : https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/f09752ebcf63473e9194ea29ca232e56.html?locale=en-US
 
-
+</br></br></br></br>
 
 SAP UI5 SDK - PAGE LINKS : 
-
+</br></br>
 OPEN UI5 RESOURCES : https://sdk.openui5.org/resources
-
+</br></br>
 SAP UI5 RESOURCES : https://sapui5.hana.ondemand.com/sdk/#/resources
-
-
+</br></br>
+</br></br>
 OPEN UI5 DEMOAPPS : https://sdk.openui5.org/demoapps
-
+</br></br>
 SAP UI5 DEMOAPPS : https://sapui5.hana.ondemand.com/sdk/#/demoapps 
-
-
+</br></br>
+</br></br>
 OPEN UI5 SAMPLES : https://sdk.openui5.org/controls
-
+</br></br>
 SAP UI5 SAMPLES : https://sapui5.hana.ondemand.com/sdk/#/controls
-
-
+</br></br>
+</br></br>
 OPEN UI5 API - REFERENCE : https://sdk.openui5.org/api
-
+</br></br>
 SAP UI5 API - REFERENCE : https://sapui5.hana.ondemand.com/sdk/#/api
-
-
+</br></br>
+</br></br>
 OPEN UI5 DOCUMENTATION : https://sdk.openui5.org/topic
-
+</br></br>
 SAP UI5 DOCUMENTATION : https://sapui5.hana.ondemand.com/sdk/#/topic
-
-
+</br></br>
+</br></br>
 OPEN UI5 HOME : https://sdk.openui5.org/
-
+</br></br>
 SAP UI5 HOME : https://sapui5.hana.ondemand.com/sdk/#/  
-
-
+</br></br>
+</br></br>
 OPEN UI5 GIT REPOSITORY : https://github.com/SAP/openui5/
-
+</br></br>
+</br></br>
 </br></br>
 
 ## Data generation in SAP on-prem system 
