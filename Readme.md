@@ -129,6 +129,13 @@ Brandon - repository for learning : https://github.com/brandoncaulfield
 
 Brandon : https://www.youtube.com/watch?v=mmSB85rWQ3w&ab_channel=CodeWithBrandon
 
+SAP - DEVELOPERS PAGE TUTORIAL-1 :  https://developers.sap.com/group.fiori-tools-odata-v4-incident.html
+
+SAP - DEVELOPERS PAGE TUTORIAL-2 : https://developers.sap.com/group.fiori-tools-lrop.html
+
+
+
+
 </br></br>
 
 ## Data generation in SAP on-prem system 
