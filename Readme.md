@@ -141,29 +141,37 @@ SAP Fiori Tools User Guide : https://help.sap.com/docs/SAP_FIORI_tools/17d50220b
 
 SAP UI5 SDK - PAGE LINKS : 
 
-RESOURCES : https://sdk.openui5.org/resources
+OPEN UI5 RESOURCES : https://sdk.openui5.org/resources
 
-RESOURCES : 
+SAP UI5 RESOURCES : https://sapui5.hana.ondemand.com/sdk/#/resources
 
-DEMOAPPS : https://sdk.openui5.org/demoapps
 
-DEMOAPPS : 
+OPEN UI5 DEMOAPPS : https://sdk.openui5.org/demoapps
 
-https://sapui5.hana.ondemand.com/sdk/#/controls
+SAP UI5 DEMOAPPS : https://sapui5.hana.ondemand.com/sdk/#/demoapps 
 
-API - REFERENCE : https://sapui5.hana.ondemand.com/sdk/#/api
 
-API - REFERENCE :
+OPEN UI5 SAMPLES : https://sdk.openui5.org/controls
 
-DOCUMENTATION : 
+SAP UI5 SAMPLES : https://sapui5.hana.ondemand.com/sdk/#/controls
 
-DOCUMENTATION :
 
-HOME : https://sapui5.hana.ondemand.com/sdk/#/  
+OPEN UI5 API - REFERENCE : https://sdk.openui5.org/api
 
-HOME : https://sdk.openui5.org/
+SAP UI5 API - REFERENCE : https://sapui5.hana.ondemand.com/sdk/#/api
 
-OPEN UI5 : https://github.com/SAP/openui5/
+
+OPEN UI5 DOCUMENTATION : https://sdk.openui5.org/topic
+
+SAP UI5 DOCUMENTATION : https://sapui5.hana.ondemand.com/sdk/#/topic
+
+
+OPEN UI5 HOME : https://sdk.openui5.org/
+
+SAP UI5 HOME : https://sapui5.hana.ondemand.com/sdk/#/  
+
+
+OPEN UI5 GIT REPOSITORY : https://github.com/SAP/openui5/
 
 </br></br>
 
