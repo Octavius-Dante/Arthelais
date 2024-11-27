@@ -133,8 +133,37 @@ SAP - DEVELOPERS PAGE TUTORIAL-1 :  https://developers.sap.com/group.fiori-tools
 
 SAP - DEVELOPERS PAGE TUTORIAL-2 : https://developers.sap.com/group.fiori-tools-lrop.html
 
+Tool Migration : https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/70d41f3ee29d453a90efab3ce025d450.html?locale=en-US
+
+SAP Fiori Tools User Guide : https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/f09752ebcf63473e9194ea29ca232e56.html?locale=en-US
 
 
+
+SAP UI5 SDK - PAGE LINKS : 
+
+RESOURCES : https://sdk.openui5.org/resources
+
+RESOURCES : 
+
+DEMOAPPS : https://sdk.openui5.org/demoapps
+
+DEMOAPPS : 
+
+https://sapui5.hana.ondemand.com/sdk/#/controls
+
+API - REFERENCE : https://sapui5.hana.ondemand.com/sdk/#/api
+
+API - REFERENCE :
+
+DOCUMENTATION : 
+
+DOCUMENTATION :
+
+HOME : https://sapui5.hana.ondemand.com/sdk/#/  
+
+HOME : https://sdk.openui5.org/
+
+OPEN UI5 : https://github.com/SAP/openui5/
 
 </br></br>
 
