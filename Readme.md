@@ -179,6 +179,17 @@ SAP UI5 HOME : https://sapui5.hana.ondemand.com/sdk/#/
 OPEN UI5 GIT REPOSITORY : https://github.com/SAP/openui5/
 </br></br>
 </br></br>
+
+## Data generation in SAP on-prem system
+
+*Tutorials for self start*
+
+</br></br>
+OPEN UI5 SAMPLES : https://sdk.openui5.org/controls
+</br></br>
+SAP UI5 SAMPLES : https://sapui5.hana.ondemand.com/sdk/#/controls
+</br></br>
+
 </br></br>
 
 ## Data generation in SAP on-prem system 
