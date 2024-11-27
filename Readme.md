@@ -189,7 +189,7 @@ OPEN UI5 SAMPLES : https://sdk.openui5.org/controls
 </br></br>
 SAP UI5 SAMPLES : https://sapui5.hana.ondemand.com/sdk/#/controls
 </br></br>
-
+<img src="./files/Tutorials_SAP_UI5_SDK_PAGE.png" >
 </br></br>
 
 ## Data generation in SAP on-prem system 
