@@ -199,6 +199,29 @@ SAP UI5 SAMPLES : https://sapui5.hana.ondemand.com/sdk/#/controls
 *Use T-Code sepm_dg standard data generator program for EPM data model*
 
 </br></br>
+
+S. No.	Transaction Code		  Description
+1		    SEGW					        SAP Service Gateway Builder
+2		    /IWFND/ERROR_LOG		  SAP Gateway Error Log
+3		    /IWFND/APPS_LOG			  SAP Gateway Application Log Viewer
+4		    /IWFND/VIEW_LOG			  SAP Gateway Application Log Viewer
+5		    /IWFND/CACHE_CLEANUP	Cleanup of GW Model Cache - GW stands for Gateway
+6		    /IWFND/TRACES			    SAP Gateway Traces
+7		    /IWFND/SRV_VALIDATE		This transaction exists only on SAP Gateway 2.0 (Netweaver 7.31 and below) systems
+8		    /IWFND/REG_SERVICE		Activate Services (Unavailable in latest releases)
+9		    /IWFND/MAINT_SERVICE	Activate and Maintain Services
+10		  /IWFND/VIRUS_SCAN		  Configuration of SAP GW Virus Scan
+11		  SICF					        Edit HTTP Service Hierarchy
+12		  RZ20					        CCMS Monitoring
+13		  PFCG					        Role Maintenance
+14		  SPRO					        Customizing - Execute Project
+15	  	ST22					        ABAP Dump Analysis
+16	  	LPD_CUST				      Launchpad customizing
+17	  	/UI5/THEME_TOOL			  UI Theme Tool
+18	  	/UI5/THEME_DESIGNER		UI Theme Designer
+
+
+</br></br>
 </br></br>
 </br></br>
 
