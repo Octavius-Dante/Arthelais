@@ -200,7 +200,108 @@ SAP UI5 SAMPLES : https://sapui5.hana.ondemand.com/sdk/#/controls
 
 </br></br>
 
-
+<table>
+    <tr>
+        <td>S. No.</td>
+        <td>Transaction Code</td>
+        <td>Description </td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>SEGW</td>
+        <td>SAP Service Gateway Builder </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>/IWFND/ERROR_LOG</td>
+        <td>SAP Gateway Error Log </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>/IWFND/APPS_LOG</td>
+        <td>SAP Gateway Application Log Viewer </td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>/IWFND/VIEW_LOG</td>
+        <td>SAP Gateway Application Log Viewer </td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>/IWFND/CACHE_CLEANUP</td>
+        <td>Cleanup of GW Model Cache - GW stands for Gateway </td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>/IWFND/TRACES</td>
+        <td>SAP Gateway Traces </td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>/IWFND/SRV_VALIDATE</td>
+        <td>This transaction exists only on SAP Gateway 2.0 (Netweaver 7.31 and below) systems </td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>/IWFND/REG_SERVICE</td>
+        <td>Activate Services (Unavailable in latest releases) </td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>/IWFND/MAINT_SERVICE</td>
+        <td>Activate and Maintain Services </td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>/IWFND/VIRUS_SCAN</td>
+        <td>Configuration of SAP GW Virus Scan </td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>SICF</td>
+        <td>Edit HTTP Service Hierarchy </td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>RZ20</td>
+        <td>CCMS Monitoring </td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>PFCG</td>
+        <td>Role Maintenance </td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>SPRO</td>
+        <td>Customizing - Execute Project </td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>ST22</td>
+        <td>ABAP Dump Analysis </td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>LPD_CUST</td>
+        <td>Launchpad customizing </td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>/UI5/THEME_TOOL</td>
+        <td>UI Theme Tool </td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>/UI5/THEME_DESIGNER</td>
+        <td>UI Theme Designer </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 
 </br></br>
 </br></br>
