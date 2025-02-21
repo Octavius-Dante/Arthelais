@@ -202,8 +202,8 @@ SAP UI5 SAMPLES : https://sapui5.hana.ondemand.com/sdk/#/controls
 
 ```txt
 
-S. No.	Transaction Code		Description
-1		SEGW					SAP Service Gateway Builder
+S.No.        Transaction Code		Description
+1        SEGW					SAP Service Gateway Builder
 2		/IWFND/ERROR_LOG		SAP Gateway Error Log
 3		/IWFND/APPS_LOG			SAP Gateway Application Log Viewer
 4		/IWFND/VIEW_LOG			SAP Gateway Application Log Viewer
