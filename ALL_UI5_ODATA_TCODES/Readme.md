@@ -3,6 +3,263 @@
 </br>
 </br>
 
+<table>
+    <tr>
+        <td>S. No.</td>
+        <td>Transaction Code</td>
+        <td>Description</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>/IWFND/GW_CLIENT</td>
+        <td>The SAP Gateway Client</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>/IWFND/IWF_ACTIVATE</td>
+        <td>Activates or deactivates the SAP Gateway</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>/IWFND/MAINT_SERVICE</td>
+        <td>Activates and maintains services</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>/IWFND/MED_ACTIVATE</td>
+        <td>Activates or deactivates the metadata cache</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>/IWFND/STATS</td>
+        <td>The SAP Gateway Statistics, which displays request statistics and aggregated statistics</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>/IWBEP/TRACES</td>
+        <td>The SAP Gateway Backend Traces, Tools, which trace the processing of a request in the service implementation</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>/IWFND/ERROR_LOG</td>
+        <td>SAP Gateway Error Log</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>/IWFND/APPS_LOG</td>
+        <td>SAP Gateway Application Log Viewer</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>/IWFND/VIEW_LOG</td>
+        <td>SAP Gateway Application Log Viewer</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>/IWFND/CACHE_CLEANUP</td>
+        <td>Cleanup of GW Model Cache - GW stands for Gateway</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>/IWFND/TRACES</td>
+        <td>SAP Gateway Traces</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>/IWFND/SRV_VALIDATE</td>
+        <td>This transaction exists only on SAP Gateway 2.0 (Netweaver 7.31 and below) systems</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>/IWFND/REG_SERVICE</td>
+        <td>Activate Services (Unavailable in latest releases)</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>/IWFND/MAINT_SERVICE</td>
+        <td>Activate and Maintain Services</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>/IWFND/VIRUS_SCAN</td>
+        <td>Configuration of SAP GW Virus Scan</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>SEGW</td>
+        <td>SAP Service Gateway Builder</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>RZ20</td>
+        <td>CCMS Monitoring</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>PFCG</td>
+        <td>Role Maintenance</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>SPRO</td>
+        <td>Customizing - Execute Project</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>ST22</td>
+        <td>ABAP Dump Analysis</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>LPD_CUST</td>
+        <td>Launchpad customizing</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>/UI5/THEME_TOOL</td>
+        <td>UI Theme Tool</td>
+    </tr>
+    <tr>
+        <td>23</td>
+        <td>/UI5/THEME_DESIGNER</td>
+        <td>UI Theme Designer</td>
+    </tr>
+    <tr>
+        <td>24</td>
+        <td>/UI2/CACHE</td>
+        <td>Register service for UI2 cache use</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>/UI2/CACHE_DEL</td>
+        <td>Delete cache entries</td>
+    </tr>
+    <tr>
+        <td>26</td>
+        <td>/UI2/CHIP</td>
+        <td>Chip Registration</td>
+    </tr>
+    <tr>
+        <td>27</td>
+        <td>/UI2/CUST</td>
+        <td>Customizing of UI Technologies</td>
+    </tr>
+    <tr>
+        <td>28</td>
+        <td>/UI2/FLC</td>
+        <td>Fiori Launchpad Checks</td>
+    </tr>
+    <tr>
+        <td>29</td>
+        <td>/UI2/FLIA</td>
+        <td>Fiori Launchpad Intent Analyis</td>
+    </tr>
+    <tr>
+        <td>30</td>
+        <td>/UI2/FLP</td>
+        <td>SAP Fiori Launchpad</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>/UI2/FLP_CONTCHECK</td>
+        <td>Fiori Launchpad – Content Checks</td>
+    </tr>
+    <tr>
+        <td>32</td>
+        <td>/UI2/FLP_INTENTCHECK</td>
+        <td>Fiori Launchpad – Intent Checks</td>
+    </tr>
+    <tr>
+        <td>33</td>
+        <td>/UI2/FLPD_CONF</td>
+        <td>Fiori Launchpad Designer (cross-client)</td>
+    </tr>
+    <tr>
+        <td>34</td>
+        <td>/UI2/FLPD_CUST</td>
+        <td>Fiori Launchpad Designer (client-specific)</td>
+    </tr>
+    <tr>
+        <td>35</td>
+        <td>/UI2/GW_ACTIVATE</td>
+        <td>Gateway – Activation</td>
+    </tr>
+    <tr>
+        <td>36</td>
+        <td>/UI2/GW_APPS_LOG</td>
+        <td>Gateway – Application Log</td>
+    </tr>
+    <tr>
+        <td>37</td>
+        <td>/UI2/GW_ERR_LOG</td>
+        <td>Gateway – Error Log</td>
+    </tr>
+    <tr>
+        <td>38</td>
+        <td>/UI2/GW_MAINT_SRV</td>
+        <td>Gateway – Service Maintenance</td>
+    </tr>
+    <tr>
+        <td>39</td>
+        <td>/UI2/GW_SYS_ALIAS</td>
+        <td>Gateway – Manage SAP System Alias</td>
+    </tr>
+    <tr>
+        <td>40</td>
+        <td>/UI2/NAV</td>
+        <td>Register navigation objects</td>
+    </tr>
+    <tr>
+        <td>41</td>
+        <td>/UI2/NAVPROV</td>
+        <td>Define navigation provider</td>
+    </tr>
+    <tr>
+        <td>42</td>
+        <td>/UI2/NWBC</td>
+        <td>Start UI2 NWBC</td>
+    </tr>
+    <tr>
+        <td>43</td>
+        <td>/UI2/NWBC_CFG_CUST</td>
+        <td>NWBC Configuration (Customer)</td>
+    </tr>
+    <tr>
+        <td>44</td>
+        <td>/UI2/NWBC_CFG_P_CUST</td>
+        <td>NWBC Config: Define Parameter (Cust)</td>
+    </tr>
+    <tr>
+        <td>45</td>
+        <td>/UI2/NWBC_CFG_P_SAP</td>
+        <td>NWBC Config: Define Parameter (SAP)</td>
+    </tr>
+    <tr>
+        <td>46</td>
+        <td>/UI2/NWBC_CFG_SAP</td>
+        <td>NWBC Configuration (SAP)</td>
+    </tr>
+    <tr>
+        <td>47</td>
+        <td>/UI2/PERS_DEL</td>
+        <td>Cleanup Personalisatation Service</td>
+    </tr>
+    <tr>
+        <td>48</td>
+        <td>/UI2/POWL</td>
+        <td>Register POWL for OData consumption</td>
+    </tr>
+    <tr>
+        <td>49</td>
+        <td>/UI2/SEMOBJ</td>
+        <td>Define Semantic Object – Customer</td>
+    </tr>
+    <tr>
+        <td>50</td>
+        <td>/UI2/SEMOBJ_SAP</td>
+        <td>Define Semantic Object – SAP</td>
+    </tr>
+</table>
 
 </br>
 </br>
