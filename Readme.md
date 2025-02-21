@@ -2,11 +2,7 @@
 
 </br>
 
-**All Ui5 and Odata Tcodes**
-
-</br>
-
-<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ALL_UI5_ODATA_TCODES"> Essential and all Ui5 TCodes </a>
+<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/ALL_UI5_ODATA_TCODES"> **All Ui5 and Odata Tcodes** </a>
 
 </br>
 
