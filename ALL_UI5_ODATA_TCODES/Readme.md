@@ -5,7 +5,7 @@
 
 <table>
     <tr>
-        <td>S. No.</td>
+        <td>Index</td>
         <td>Transaction Code</td>
         <td>Description</td>
     </tr>
