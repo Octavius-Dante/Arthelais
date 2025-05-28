@@ -76,6 +76,8 @@ Pre-requisite VSCode or BAS should be installed and active.
 </br>
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Show_Preview_Fix"> Show live preview --(or)-- Execution </a>
 </br>
+<a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Fiori_execution_2"> Execution using command - Quick and Easy and best </a>
+</br>
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Bindings"> Bindings </a>
 </br>
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Models"> Models </a>
