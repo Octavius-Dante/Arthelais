@@ -3,8 +3,8 @@
 
 - open the terminal and access the directory of the current project 
 - type > "ui5 serve"
-- the ui5 command should be present in package.json file
-
+- this "ui5 serve" command should be present in package.json
+  
 ```json
 
 {
@@ -22,3 +22,4 @@
 
 
 ```
+ 
