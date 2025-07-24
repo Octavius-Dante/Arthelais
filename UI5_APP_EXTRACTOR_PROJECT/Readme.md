@@ -7,7 +7,7 @@ limitation of the program : Only one applciation name can be used in input and i
 
 Project overview : 
 
-Part 1 > made a copy version of the same preogram which allows multiple input using selection screen 
+Part 1 > made a copy version of the same program which allows multiple input using selection screen 
 
 Part 2 > displays alv report to get the list of standard and 'Z' Ui5 applicaitons in the system can be downloaded into excel or text file 
 
