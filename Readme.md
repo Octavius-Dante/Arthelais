@@ -14,7 +14,7 @@
 
 - [# SAP MDK tutorials - developer.sap](https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-business-technology-platform%2Fmobile-development-kit-client) - 32 tutorials | [Starter general not organised - developer.sap MDK Overview](https://developers.sap.com/topics/mobile-development-kit.html)
 - [# SAP MDK community page - STARTER pages.community.sap.com](https://pages.community.sap.com/topics/mobile-technology/mobile-development-kit)
-- [Github code samples](https://github.com/topics/mobile-development-kit)
+- [Github code samples](https://github.com/topics/mobile-development-kit) || [cloud-mdk-tutorial-samples](https://github.com/SAP-samples/cloud-mdk-tutorial-samples/tree/main)
 
 </br>
 
@@ -329,6 +329,7 @@ https://developers.sap.com/tutorial-navigator.html?search=SAP+build+app
 
 
 -->
+
 
 
 
