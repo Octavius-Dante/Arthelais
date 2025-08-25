@@ -18,7 +18,7 @@
 
 </br>
 
-## Learning Sequence
+## Learning Sequence (MDK)
 
 </br>
 
@@ -30,6 +30,7 @@
 - [Debug Your Mobile Development Kit Application](https://developers.sap.com/tutorials/cp-mobile-dev-kit-debugging.html)
 - [Extend an MDK App with Customer Orders](https://developers.sap.com/tutorials/cp-mobile-dev-kit-customer-order.html)
 - [Add Internationalization and Localization to an MDK App](https://developers.sap.com/tutorials/cp-mobile-dev-kit-i18n-localization.html)
+- [sap blog page -editable table](https://community.sap.com/t5/technology-blog-posts-by-sap/what-s-new-in-mobile-development-kit-client-23-4/ba-p/13557735)
 
 
 </br>
@@ -329,6 +330,7 @@ https://developers.sap.com/tutorial-navigator.html?search=SAP+build+app
 
 
 -->
+
 
 
 
