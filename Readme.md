@@ -16,9 +16,15 @@
 - [# SAP MDK community page - STARTER pages.community.sap.com](https://pages.community.sap.com/topics/mobile-technology/mobile-development-kit)
 - [Github code samples](https://github.com/topics/mobile-development-kit)
 
+</br>
+
 ## Learning Sequence
 
+</br>
+
 - [1 - Create Your First MDK Application](https://developers.sap.com/mission.mobile-dev-kit-get-started.html)
+
+
 
 </br>
 
@@ -317,6 +323,7 @@ https://developers.sap.com/tutorial-navigator.html?search=SAP+build+app
 
 
 -->
+
 
 
 
