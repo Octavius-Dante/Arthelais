@@ -24,7 +24,12 @@
 
 - [0 - Set Up for the Mobile Development Kit (MDK)](https://developers.sap.com/group.mobile-dev-kit-setup.html)
 - [1 - Create Your First MDK Application](https://developers.sap.com/mission.mobile-dev-kit-get-started.html)
-
+- [Create a Customer List Page in an MDK App](https://developers.sap.com/tutorials/cp-mobile-dev-kit-list-page.html)
+- [Create a Customer Detail Page in an MDK App](https://developers.sap.com/tutorials/cp-mobile-dev-kit-detail-page.html)
+- [Create a Customer Record in an MDK App](https://developers.sap.com/tutorials/cp-mobile-dev-kit-create-customer.html)
+- [Debug Your Mobile Development Kit Application](https://developers.sap.com/tutorials/cp-mobile-dev-kit-debugging.html)
+- [Extend an MDK App with Customer Orders](https://developers.sap.com/tutorials/cp-mobile-dev-kit-customer-order.html)
+- [Add Internationalization and Localization to an MDK App](https://developers.sap.com/tutorials/cp-mobile-dev-kit-i18n-localization.html)
 
 
 </br>
@@ -324,6 +329,7 @@ https://developers.sap.com/tutorial-navigator.html?search=SAP+build+app
 
 
 -->
+
 
 
 
