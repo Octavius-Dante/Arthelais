@@ -35,7 +35,7 @@
 
 </br>
 
-## 2025 SAP learning hub materials - Download *.zip files from Archive.org
+## 2025 SAP learning hub materials - Download *.zip files from Archive.org (WORK IN PROGRESS NOT COMPLETED)
 
 </br>
 
@@ -330,6 +330,7 @@ https://developers.sap.com/tutorial-navigator.html?search=SAP+build+app
 
 
 -->
+
 
 
 
