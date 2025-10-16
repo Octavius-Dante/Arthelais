@@ -131,6 +131,9 @@ Pre-requisite VSCode or BAS should be installed and active.
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/B-Important-Topics/Synchronous-Wait-Ui5"> Synchronous Functions ~~ async, await, promise, setTimeout </a>
 </br>
 
+[Ui5 fiori one page acceptance opa5 testing](https://www.youtube.com/watch?v=G7CpQ19TQ9k)
+[ui5 fiori unit testing](https://www.youtube.com/watch?v=arNDYyFD788)
+
 </br>
 </br>
 
@@ -330,6 +333,7 @@ https://developers.sap.com/tutorial-navigator.html?search=SAP+build+app
 
 
 -->
+
 
 
 
