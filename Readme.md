@@ -252,6 +252,7 @@ SAP UI5 SAMPLES : https://sapui5.hana.ondemand.com/sdk/#/controls
 </br></br>
 
 - [Reference sample #1 for fiori pdf](https://github.com/lemaiwo/UI5LabLibraryPDFViewer/blob/master/README.md)
+- [Reference sample #2 for fiori pdf](https://sapui5.hana.ondemand.com/sdk/#/topic/cd80a8bca4ac450b86547d78f0653330)
 
 </br></br>
 
@@ -346,6 +347,7 @@ https://developers.sap.com/tutorial-navigator.html?search=SAP+build+app
 
 
 -->
+
 
 
 
