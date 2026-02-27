@@ -1,0 +1,40 @@
+### Ui5 app - Activation 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Post UI5 app deployment - do this to view the app 
+
+Goto SICF - execute 
+
+input 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Hierarchy type : SERVICE
+
+
+Tree path in SICF 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+default host 
+	- sap 
+	  - bc
+	    - ui_ui5
+              - sap
+                - <UI5_APP> this will be Disabled - enable it 
+
+
+### ODATA service activation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Goto /n/IWFND/MAINT_SERVICES
+
+locate your odata service double click it 
+
+- in below screen you can see ICF node layout  
+- there will be ICF node button you can click 
+
+with suitable authorization 
+you can see 
+
+> Activate  << You need to do this then status will turn green and odata service is accessible 
+> Deactivate 
+> Delete
+> Configure (SICF)
+
