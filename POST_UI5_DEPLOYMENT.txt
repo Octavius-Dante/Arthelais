@@ -1,3 +1,10 @@
+### Error message when running the app
+
+App could not be opened because the SAP UI5 component of the application could not be loaded.
+
+Failed to load UI5 Component for navigation intent "#ui5-app-name"
+
+
 ### Ui5 app - Activation 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
