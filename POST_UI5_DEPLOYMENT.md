@@ -7,8 +7,6 @@ Failed to load UI5 Component for navigation intent "#ui5-app-name"
 
 ### Ui5 app - Activation 
 ```
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 Post UI5 app deployment - do this to view the app 
 
 Goto SICF - execute 
@@ -31,7 +29,6 @@ default host
 
 ### ODATA service activation
 ```
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Goto /n/IWFND/MAINT_SERVICES
 
