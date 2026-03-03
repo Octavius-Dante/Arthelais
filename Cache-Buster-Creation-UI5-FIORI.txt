@@ -1,0 +1,28 @@
+
+To generate the file : sap-ui-cachebuster-info.json
+go to SE38 and run this program 
+
+ /UI5/APP_INDEX_CALCULATE
+ 
+and select the tab 
+
+ "Single SAPUI5 Repository Only"
+ 
+and select the appropriate Ui5-Fiori object 
+it can be Standard app or Fiori app 
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+success message text - in next screen 
+-----------------------------------------------------------------------
+Calculation of SAPUI5 Application Index
+
+Program is running in client: 200
+Calculation for single SAPUI5 repository done: ZKA_TEST2
+
+SAPUI5 repository ZKA_TEST2 was re-indexed in 39 milliseconds
+
+The corresponding SAPUI5 application index entry was updated
+
+No errors occurred
+
+-----------------------------------------------------------------------
