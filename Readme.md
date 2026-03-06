@@ -6,6 +6,8 @@
 
 <a href="https://github.com/Octavius-Dante/Arthelais/tree/main/UI5_APP_EXTRACTOR_PROJECT"> **Ui5 Application extractor project (Work in Progress)** </a>
 
+[File upload reference](https://community.sap.com/t5/technology-blog-posts-by-members/sapui5-and-odata-uploadcollection-example/ba-p/13434763)
+
 </br>
 
 ## SAP Mobile development KIT
@@ -347,6 +349,7 @@ https://developers.sap.com/tutorial-navigator.html?search=SAP+build+app
 
 
 -->
+
 
 
 
