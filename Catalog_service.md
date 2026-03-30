@@ -33,6 +33,7 @@ Custom Catalog item :  ZBF_STP_PR_U_RELPURREQ  - useful in
 
 </br>
 
-Description of Catalog item : STP-PR-Release Purchase Requisition (helps to locate catalog in fiori launchpad)
+Description of Catalog item : 
+- STP-PR-Release Purchase Requisition (helps to locate catalog in fiori launchpad)
 
 
