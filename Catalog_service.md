@@ -36,4 +36,15 @@ Custom Catalog item :  ZBF_STP_PR_U_RELPURREQ  - useful in
 Description of Catalog item : 
 - STP-PR-Release Purchase Requisition (helps to locate catalog in fiori launchpad)
 
+---
+
+Before config change transport movement :  this should be done in Q
+Fiori app Library in Quality and Staging environment should be updated and apps should be present in standard catalog then referenced custom catalog apps will be appropriately synchronized and target mapping will reflect accordingly and it will work 
+
+But if changes from Dev moves to quality and standard catalog app library is not updated then it is like calling something which doesn’t exist in system – results in blank page or item doesn’t exist error message 
+
+Development environment : Config change activity 
+•	/UI2/FLPD_CUST   - update the library if it is labeled OUTDATED (System specific activity not transportable)
+•	/UI2/FLPCM_CUST – assign the necessary library items to your custom catalog tile + Target Mapping – (TRANSPORT CAPTURE)
+
 
