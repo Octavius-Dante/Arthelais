@@ -16,13 +16,22 @@ T-CODES :
 •	/UI2/FLPCM_CUST
 •	/UI2/FLPD_CONF
 •	/UI2/FLPAM
+
+</br></br>
+
 Standard Catalog items :  check these in FLPD_CUST  /  FLPD_CONF if it is outdated – click outdated word and library will be refreshed 
 •	SAP_TC_PRC_COMMON
 •	SAP_PRC_BC_SSPPR_EMPLOYEE
+
+</br></br>
+
 Now the app library from these catalogs can be added to our custom catalog in T-code FLPCM_CUST 
 Custom Catalog item :  ZBF_STP_PR_U_RELPURREQ  - useful in 
 •	/UI2/FLPD_CUST
 •	/UI2/FLPCM_CUST
+
+</br></br>
+
 Description of Catalog item : STP-PR-Release Purchase Requisition (helps to locate catalog in fiori launchpad)
 
 
