@@ -25,7 +25,8 @@ Standard Catalog items :  check these in FLPD_CUST  /  FLPD_CONF if it is outdat
 
 </br>
 
-Now the app library from these catalogs can be added to our custom catalog in T-code FLPCM_CUST 
+Now the apps from the above catalog library can be added to our custom catalog in T-code FLPCM_CUST apps will looks like (Example app nameing : F1640, F0349A, F400A, F05434)
+Fiori app library [link](https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/home) 
 Custom Catalog item :  ZBF_STP_PR_U_RELPURREQ  - useful in 
 -	/UI2/FLPD_CUST
 -	/UI2/FLPCM_CUST
